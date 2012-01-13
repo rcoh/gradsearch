@@ -1,7 +1,7 @@
 import re
 import urllib2
 all_prof_info =[]
-for course in range(1,21):
+for course in range(1,2):
     f= file('/home/rambhask/course'+str(course)+'prof.html').read()
     f=f.strip("\n")
     prof_info=re.findall("<dt><a href=\"(.*?)\"><strong>Prof\. (.*?)</strong></a>,.*?,.*?,.*?<.*?>(.*?)</a>\s*</dt>\s*<dd>(.*?)<", f)
@@ -28,7 +28,15 @@ for course in range(1,21):
 print len(all_prof_info)
     
     
-    
+prof_dictionary_list=[]
+for prof in all_prof_info:
+    prof_dictionary={}
+    prof_dictionary['name']=prof[1]
+    prof_dictionary['website']=prof[0]
+    prof_dictionary['email']=prof[2]
+    prof_dictionary['researh_blurb']=prof[3]
+    prof_dictionary_list.append(prof_dictionary)
+print prof_dictionary_list
 #f = file('/home/rambhask/course1prof.html').read()
 #f=f.strip("\n")
 #prof_info=re.findall("<dt><a href=\"(.*?)\"><strong>Prof\. (.*?)</strong></a>,.*?,.*?,.*?<.*?>(.*?)</a>\s*</dt>\s*<dd>(.*?)<", f)
