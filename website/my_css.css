@@ -1,0 +1,47 @@
+.fixed_sidebar{
+  position: fixed;
+  top: 55px;
+  left: 20px;
+  width: 200px;
+}
+
+.top_bar{
+	background-color:#052f6d;
+	}
+
+.prof_content {
+  margin-left: 220px; /*20 more than fixed_sidebar width*/
+}
+
+.center{
+	text-align: center;
+}
+
+.prof_box{
+	color:#000000;
+	width:250px; 
+	height:100px;
+	background-color:#eeeeee;
+}
+
+.prof_image{
+	float:left;
+}
+.prof_info{
+	float:left;
+	padding: 2px 10px;
+}
+   
+.prof_box:hover{
+	color:#000000;
+	text-decoration:none;
+}
+  
+.left_sidebar{
+	position:fixed;
+	top:50px;
+	left:10px;
+	width:200px;
+}
+
+
