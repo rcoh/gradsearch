@@ -22,7 +22,8 @@ for prof in results:
   research = prof[3].replace('&nbsp;', '').strip()
   if len(research) > 0:
     pd['keywords'] = util.split_and_clean(research)
-
+  
+  pd['school'] = 'Stanford University'
   personal_page = util.dl_and_prep(pd['lab_website'])
   summary = re.findall('<h3>Research Statement</h3><p>(.*?)</p><h3>Degrees</h3>', personal_page)
   if summary:

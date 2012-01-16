@@ -1,7 +1,8 @@
 import MySQLdb as mdb
 import sys
 import re
-prof_cols = ['name', 'school', 'research_summary', 'lab_website', 'personal_website', 'image']
+prof_cols = ['name', 'school', 'research_summary', 'lab_website', 'personal_website', 'image',
+'title', 'department']
 class GradSql(object):
 
   def __init__(self):
@@ -30,13 +31,20 @@ class GradSql(object):
     self.insert('prof', prof_info.keys(), prof_info.values())
     pid = self.prof_id(all_data['name'])
     assert pid != None
-    for k in all_data['research_keywords']:
-      assert not ',' in k
-      assert isinstance(k, str)
-      self.add_keyword(pid, k) 
+    if 'keywords' in all_data:
+      for k in all_data['keywords']:
+        assert not ',' in k
+        assert isinstance(k, str)
+        self.add_keyword(pid, k) 
+    print "added"
 
   def add_keyword(self, prof_id, keyword):
-    self.insert('keywords', ['prof_id', 'keyword'], [prof_id, keyword])
+    kid = self.keyword_id(keyword)
+    if not kid:
+      self.insert('keywords', ['keyword'], [keyword])
+      kid = self.keyword_id(keyword)
+
+    self.insert('keywordmap', ['prof_id', 'keyword_id'], [prof_id, kid])
 
   def insert(self, tablename, columns, values):
     values = [re.escape(str(v)) for v in values]
@@ -47,6 +55,15 @@ class GradSql(object):
 
   def update_or_insert_prof(self, name, school, research_summary, lab_website, personal_website):
     pass
+  
+  def keyword_id(self, keyword):
+    self.con.query('select id from keywords where keyword=\'%s\'' % keyword)
+    result = self.con.use_result()
+    row = result.fetch_row()
+    if len(row):
+      return row[0][0]
+    else:
+      return None
 
   def prof_id(self, name):
     self.con.query('select id from prof where name=\'%s\'' % name)

@@ -14,8 +14,6 @@ def run():
     pd['image'] = p['photo']
   pickle.dump(output, file('csailjson', 'w'))
 
-def split_and_clean(words):
-  return [w.strip() for w in words.lower().split(',')]
 def extract_keywords(group):
   if isinstance(group, list):
     return [extract_keywords(g) for g in group]

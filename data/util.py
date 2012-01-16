@@ -3,12 +3,15 @@ import re
 import os.path
 import hashlib
 def dl_and_prep(url):
-  cache_loc = 'cache/' + hash(url)
+  cache_loc = 'cache/' + hashlib.md5(url).hexdigest()
   if os.path.exists(cache_loc):
     stream = file(cache_loc)
   else:
-    stream = urllib2.urlopen(url)
-  doc = urllib2.urlopen(url).read().replace('\r\n', '')
+    file(cache_loc, 'w').write(urllib2.urlopen(url).read())
+    return dl_and_prep(url)
+  doc = stream.read().replace('\r\n', '')
+  
+  
   return re.sub('>(\s*?)<', '><', doc)
 
 def remove_tags(string):
