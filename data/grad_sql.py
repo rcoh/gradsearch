@@ -53,9 +53,11 @@ class GradSql(object):
     stmnt = "insert into %s %s VALUES %s;" % (tablename, col_str, val_str) 
     self.cur.execute(stmnt)
 
-  def update_or_insert_prof(self, name, school, research_summary, lab_website, personal_website):
-    pass
-  
+  def update(self, tablename, columns, values, condition):
+    values = [re.escape(str(v)) for v in values]
+    setstr = ', '.join(['%s=%s' % (c, v) for c,v in zip(columns, values)])
+    stmnt = "update %s set %s where %s" % (tablename, setstr, condition)
+
   def keyword_id(self, keyword):
     self.con.query('select id from keywords where keyword=\'%s\'' % keyword)
     result = self.con.use_result()

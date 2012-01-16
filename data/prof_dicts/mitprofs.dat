@@ -1,0 +1,7560 @@
+(lp0
+(dp1
+S'school'
+p2
+S'MIT'
+p3
+sS'name'
+p4
+S'Cynthia Barnhart'
+p5
+sS'personal_website'
+p6
+S'http://cee.mit.edu/barnhart'
+p7
+sS'research_summary'
+p8
+S'Mathematical programming models and large-scale optimization approaches for transportation and logistics systems; service network design and operations planning for scheduled transportation systems. '
+p9
+sS'research_keywords'
+p10
+(lp11
+g9
+asS'email'
+p12
+S'cbarnhar@mit.edu'
+p13
+sa(dp14
+g2
+g3
+sg4
+S'Moshe Ben-Akiva'
+p15
+sg6
+S'http://cee.mit.edu/ben-akiva'
+p16
+sg8
+S'Transportation systems analysis, intelligent transportation systems, demand modeling, data collection and statistical analysis, infrastructure management.'
+p17
+sg10
+(lp18
+S'Transportation systems analysis'
+p19
+aS' intelligent transportation systems'
+p20
+aS' demand modeling'
+p21
+aS' data collection and statistical analysis'
+p22
+aS' infrastructure management.'
+p23
+asg12
+S'mba@mit.edu'
+p24
+sa(dp25
+g2
+g3
+sg4
+S'Rafael L. Bras'
+p26
+sg6
+S'http://cee.mit.edu/bras'
+p27
+sg8
+S'Hydrology, hydrometeorology, hydroclimatology, fluvial geomorphology, land- atmosphere interactions, nonlinear systems, random processes.'
+p28
+sg10
+(lp29
+S'Hydrology'
+p30
+aS' hydrometeorology'
+p31
+aS' hydroclimatology'
+p32
+aS' fluvial geomorphology'
+p33
+aS' land- atmosphere interactions'
+p34
+aS' nonlinear systems'
+p35
+aS' random processes.'
+p36
+asg12
+S'rlbras@mit.edu'
+p37
+sa(dp38
+g2
+g3
+sg4
+S'Markus J. Buehler'
+p39
+sg6
+S'http://cee.mit.edu/buehler'
+p40
+sg8
+S"Our lab's research is focused on understanding the mechanics of deformation and failure of biological materials. By utilizing a computational materials science approach, our goal is to understand the mechanical properties of biological materials from a fundamental level. Catastrophic phenomena that afflict millions of lives, ranging from the failure of the Earth\x92s crust in earthquakes, to the collapse of buildings, to the failure of bones due to injuries, all have one common underlying theme: the breakdown of the basic constituents of any material ultimately leads to the failure of its overall structure and intended function. The failure and deformation of engineering materials has been studied extensively and has impacted our world by enabling the design of complex structures and advanced devices. However, the mechanisms of failure in biological systems are not well understood, and represents an opportunity to generate novel concepts to initiate a new paradigm of materials science."
+p41
+sg10
+(lp42
+S"Our lab's research is focused on understanding the mechanics of deformation and failure of biological materials. By utilizing a computational materials science approach"
+p43
+aS' our goal is to understand the mechanical properties of biological materials from a fundamental level. Catastrophic phenomena that afflict millions of lives'
+p44
+aS' ranging from the failure of the Earth\x92s crust in earthquakes'
+p45
+aS' to the collapse of buildings'
+p46
+aS' to the failure of bones due to injuries'
+p47
+aS' all have one common underlying theme: the breakdown of the basic constituents of any material ultimately leads to the failure of its overall structure and intended function. The failure and deformation of engineering materials has been studied extensively and has impacted our world by enabling the design of complex structures and advanced devices. However'
+p48
+aS' the mechanisms of failure in biological systems are not well understood'
+p49
+aS' and represents an opportunity to generate novel concepts to initiate a new paradigm of materials science.'
+p50
+asg12
+S'mbuehler@MIT.EDU</a>, Lab URL: <a href="http://web.mit.edu/mbuehler/www/">http://web.mit.edu/mbuehler/www/'
+p51
+sa(dp52
+g2
+g3
+sg4
+S'Oral Buyukozturk'
+p53
+sg6
+S'http://cee.mit.edu/buyukozturk'
+p54
+sg8
+S'Structural mechanics and design; high performance materials; fracture and deterioration; retrofit of structures; bridge engineering; nondestructive evaluation.'
+p55
+sg10
+(lp56
+g55
+asg12
+S'obuyuk@mit.edu'
+p57
+sa(dp58
+g2
+g3
+sg4
+S'Sallie W. Chisholm'
+p59
+sg6
+S'http://cee.mit.edu/chisholm'
+p60
+sg8
+S'Biological oceanography, plankton ecology. '
+p61
+sg10
+(lp62
+S'Biological oceanography'
+p63
+aS' plankton ecology. '
+p64
+asg12
+S'chisholm@mit.edu'
+p65
+sa(dp66
+g2
+g3
+sg4
+S'Richard de Neufville'
+p67
+sg6
+S'http://cee.mit.edu/deneufville'
+p68
+sg8
+S'Technology and policy, dynamic strategic planning system analysis, airport planning and design, transportation systems.'
+p69
+sg10
+(lp70
+S'Technology and policy'
+p71
+aS' dynamic strategic planning system analysis'
+p72
+aS' airport planning and design'
+p73
+aS' transportation systems.'
+p74
+asg12
+S'ardent@mit.edu'
+p75
+sa(dp76
+g2
+g3
+sg4
+S'Herbert H. Einstein'
+p77
+sg6
+S'http://cee.mit.edu/einstein'
+p78
+sg8
+S'Engineering geology, rock mechanics, underground construction, risk analysis. '
+p79
+sg10
+(lp80
+S'Engineering geology'
+p81
+aS' rock mechanics'
+p82
+aS' underground construction'
+p83
+aS' risk analysis. '
+p84
+asg12
+S'einstein@mit.edu'
+p85
+sa(dp86
+g2
+g3
+sg4
+S'El Fatih Eltahir'
+p87
+sg6
+S'http://cee.mit.edu/eltahir'
+p88
+sg8
+S'Hydrology, hydroclimatology, water resources. '
+p89
+sg10
+(lp90
+S'Hydrology'
+p91
+aS' hydroclimatology'
+p92
+aS' water resources. '
+p93
+asg12
+S'eltahir@mit.edu'
+p94
+sa(dp95
+g2
+g3
+sg4
+S'Dara Entekhabi'
+p96
+sg6
+S'http://cee.mit.edu/entekhabi'
+p97
+sg8
+S'Physical hydrology. Remote sensing. Land-atmosphere interaction. '
+p98
+sg10
+(lp99
+g98
+asg12
+S'darae@mit.edu'
+p100
+sa(dp101
+g2
+g3
+sg4
+S'Philip Gschwend'
+p102
+sg6
+S'http://cee.mit.edu/index.pl?id=2315'
+p103
+sg8
+S'Environmental organic chemistry, volatilization, sorption, transformation processes, modeling fates of organic pollutants, roles of colloids.'
+p104
+sg10
+(lp105
+S'Environmental organic chemistry'
+p106
+aS' volatilization'
+p107
+aS' sorption'
+p108
+aS' transformation processes'
+p109
+aS' modeling fates of organic pollutants'
+p110
+aS' roles of colloids.'
+p111
+asg12
+S'pmgschwe@mit.edu'
+p112
+sa(dp113
+g2
+g3
+sg4
+S'Harold F. Hemond'
+p114
+sg6
+S'http://cee.mit.edu/hemond'
+p115
+sg8
+S'Cycling of chemicals in the environment, acid rain and hillslope hydrology, wetland geochemistry, and environmental instrumentation.'
+p116
+sg10
+(lp117
+S'Cycling of chemicals in the environment'
+p118
+aS' acid rain and hillslope hydrology'
+p119
+aS' wetland geochemistry'
+p120
+aS' and environmental instrumentation.'
+p121
+asg12
+S'hfhemond@mit.edu'
+p122
+sa(dp123
+g2
+g3
+sg4
+S'Steven R. Lerman'
+p124
+sg6
+S'http://cee.mit.edu/index.pl?id=2339'
+p125
+sg8
+S'Educational uses of computing, large scale distributed computing systems, parallel algorithms, transportation demand modeling. '
+p126
+sg10
+(lp127
+S'Educational uses of computing'
+p128
+aS' large scale distributed computing systems'
+p129
+aS' parallel algorithms'
+p130
+aS' transportation demand modeling. '
+p131
+asg12
+S'lerman@mit.edu'
+p132
+sa(dp133
+g2
+g3
+sg4
+S'Ole S. Madsen'
+p134
+sg6
+S'http://cee.mit.edu/index.pl?id=2345'
+p135
+sg8
+S'Coastal and oceanographic engineering, turbulent boundary layer flow, sediment transport, free surface flow. '
+p136
+sg10
+(lp137
+S'Coastal and oceanographic engineering'
+p138
+aS' turbulent boundary layer flow'
+p139
+aS' sediment transport'
+p140
+aS' free surface flow. '
+p141
+asg12
+S'osm@mit.edu'
+p142
+sa(dp143
+g2
+g3
+sg4
+S'David H. Marks'
+p144
+sg6
+S'http://cee.mit.edu/index.pl?id=2348'
+p145
+sg8
+S'Sustainable development, environmental engineering, water resource systems, industrial ecology. '
+p146
+sg10
+(lp147
+S'Sustainable development'
+p148
+aS' environmental engineering'
+p149
+aS' water resource systems'
+p150
+aS' industrial ecology. '
+p151
+asg12
+S'dhmarks@mit.edu'
+p152
+sa(dp153
+g2
+g3
+sg4
+S'Dennis B. McLaughlin'
+p154
+sg6
+S'http://cee.mit.edu/index.pl?id=2351'
+p155
+sg8
+S'Surface and groundwater hydrology, water resource systems, estimation and control. '
+p156
+sg10
+(lp157
+S'Surface and groundwater hydrology'
+p158
+aS' water resource systems'
+p159
+aS' estimation and control. '
+p160
+asg12
+S'dennism@mit.edu'
+p161
+sa(dp162
+g2
+g3
+sg4
+S'Chiang C. Mei'
+p163
+sg6
+S'http://cee.mit.edu/index.pl?id=2354'
+p164
+sg8
+S'Theoretical hydrodynamics, ocean and coastal wave phenomena, fluid-solid interaction, poroelasticity, seabed mechanics, land subsidence, debris and mud flow, mechanics of soil remediation. '
+p165
+sg10
+(lp166
+S'Theoretical hydrodynamics'
+p167
+aS' ocean and coastal wave phenomena'
+p168
+aS' fluid-solid interaction'
+p169
+aS' poroelasticity'
+p170
+aS' seabed mechanics'
+p171
+aS' land subsidence'
+p172
+aS' debris and mud flow'
+p173
+aS' mechanics of soil remediation. '
+p174
+asg12
+S'ccmei@mit.edu'
+p175
+sa(dp176
+g2
+g3
+sg4
+S'Fred Moavenzadeh'
+p177
+sg6
+S'http://cee.mit.edu/index.pl?id=2357'
+p178
+sg8
+S'Construction industry, international construction, innovation and technological development. '
+p179
+sg10
+(lp180
+S'Construction industry'
+p181
+aS' international construction'
+p182
+aS' innovation and technological development. '
+p183
+asg12
+S'moaven@mit.edu'
+p184
+sa(dp185
+g2
+g3
+sg4
+S'Heidi M. Nepf'
+p186
+sg6
+S'http://cee.mit.edu/index.pl?id=2360'
+p187
+sg8
+S'Physical mechanisms which affect transport and fate of containments and nutrients in lakes, wetlands, and coastal zones, vegetated flow dynamics.'
+p188
+sg10
+(lp189
+S'Physical mechanisms which affect transport and fate of containments and nutrients in lakes'
+p190
+aS' wetlands'
+p191
+aS' and coastal zones'
+p192
+aS' vegetated flow dynamics.'
+p193
+asg12
+S'hmnepf@mit.edu'
+p194
+sa(dp195
+g2
+g3
+sg4
+S'Carolina Osorio'
+p196
+sg6
+S'http://web.mit.edu/osorioc/www/carolina.htm'
+p197
+sg8
+S'Analysis of network congestion based on operations research methods (queueing theory, simulation, optimization) with applications in urban transportation, health care and biology. '
+p198
+sg10
+(lp199
+S'Analysis of network congestion based on operations research methods (queueing theory'
+p200
+aS' simulation'
+p201
+aS' optimization) with applications in urban transportation'
+p202
+aS' health care and biology. '
+p203
+asg12
+S'osorioc@mit.edu'
+p204
+sa(dp205
+g2
+g3
+sg4
+S'Daniel Roos'
+p206
+sg6
+S'http://cee.mit.edu/index.pl?id=2369'
+p207
+sg8
+S'Technology and policy, transportation systems, industry studies.'
+p208
+sg10
+(lp209
+S'Technology and policy'
+p210
+aS' transportation systems'
+p211
+aS' industry studies.'
+p212
+asg12
+S'roos@mit.edu'
+p213
+sa(dp214
+g2
+g3
+sg4
+S'Yosef Sheffi'
+p215
+sg6
+S'http://cee.mit.edu/index.pl?id=2372'
+p216
+sg8
+S'Transportation and logistics systems analysis; decision support systems for network optimizations with application to logistics management and carrier operations; supply chain management. '
+p217
+sg10
+(lp218
+g217
+asg12
+S'sheffi@mit.edu'
+p219
+sa(dp220
+g2
+g3
+sg4
+S'Joseph M. Sussman'
+p221
+sg6
+S'http://cee.mit.edu/index.pl?id=2378'
+p222
+sg8
+S''
+p223
+sg10
+(lp224
+g223
+asg12
+S'sussman@mit.edu'
+p225
+sa(dp226
+g2
+g3
+sg4
+S'Daniele Veneziano'
+p227
+sg6
+S'http://cee.mit.edu/index.pl?id=2384'
+p228
+sg8
+g223
+sg10
+(lp229
+g223
+asg12
+S'venezian@mit.edu'
+p230
+sa(dp231
+g2
+g3
+sg4
+S'Andrew Whittle'
+p232
+sg6
+S'http://cee.mit.edu/index.pl?id=2390'
+p233
+sg8
+g223
+sg10
+(lp234
+g223
+asg12
+S'ajwhittl@mit.edu'
+p235
+sa(dp236
+g2
+g3
+sg4
+S'John R. Williams'
+p237
+sg6
+S'http://cee.mit.edu/index.pl?id=2393'
+p238
+sg8
+g223
+sg10
+(lp239
+g223
+asg12
+S'jrw@mit.edu'
+p240
+sa(dp241
+g2
+g3
+sg4
+S'Nigel Wilson'
+p242
+sg6
+S'http://cee.mit.edu/index.pl?id=2396'
+p243
+sg8
+S'Public transportation, transport system design, new transportation systems.'
+p244
+sg10
+(lp245
+S'Public transportation'
+p246
+aS' transport system design'
+p247
+aS' new transportation systems.'
+p248
+asg12
+S'nhmw@mit.edu'
+p249
+sa(dp250
+g2
+g3
+sg4
+S'Jerome J. Connor Jr.'
+p251
+sg6
+S'http://cee.mit.edu/connor'
+p252
+sg8
+S'Structural engineering, computational mechanics, large scale systems.'
+p253
+sg10
+(lp254
+S'Structural engineering'
+p255
+aS' computational mechanics'
+p256
+aS' large scale systems.'
+p257
+asg12
+S'jjconnor@mit.edu'
+p258
+sa(dp259
+g2
+g3
+sg4
+S'Edward F. De Long'
+p260
+sg6
+S'http://cee.mit.edu/delong'
+p261
+sg8
+S'Biology oceanography: Microbial ecology and evolution Biochemistry and Biogeochemistry Microbial and environmental genomics. '
+p262
+sg10
+(lp263
+g262
+asg12
+S'delong@mit.edu'
+p264
+sa(dp265
+g2
+g3
+sg4
+S'Sheila Frankel'
+p266
+sg6
+S'http://cee.mit.edu/frankel'
+p267
+sg8
+S'Aquatic ecology, instrumentation, flow cytometry, aquatic chemistry instructor. '
+p268
+sg10
+(lp269
+S'Aquatic ecology'
+p270
+aS' instrumentation'
+p271
+aS' flow cytometry'
+p272
+aS' aquatic chemistry instructor. '
+p273
+asg12
+S'sfrankel@mit.edu'
+p274
+sa(dp275
+g2
+g3
+sg4
+S'John T. Germaine'
+p276
+sg6
+S'http://cee.mit.edu/index.pl?id=2696&isa=Category&op=show'
+p277
+sg8
+S'Laboratory and field instrumentation, geotechnical engineering, data acquisition, lab testing automation.'
+p278
+sg10
+(lp279
+S'Laboratory and field instrumentation'
+p280
+aS' geotechnical engineering'
+p281
+aS' data acquisition'
+p282
+aS' lab testing automation.'
+p283
+asg12
+S'jgermain@mit.edu'
+p284
+sa(dp285
+g2
+g3
+sg4
+S'Eduardo Kausel'
+p286
+sg6
+S'http://cee.mit.edu/kausel'
+p287
+sg8
+S'Structural dynamics, soil dynamics, soil-structure interaction, earthquake engineering, structural mechanics, machine vibration, non-destructive testing.'
+p288
+sg10
+(lp289
+S'Structural dynamics'
+p290
+aS' soil dynamics'
+p291
+aS' soil-structure interaction'
+p292
+aS' earthquake engineering'
+p293
+aS' structural mechanics'
+p294
+aS' machine vibration'
+p295
+aS' non-destructive testing.'
+p296
+asg12
+S'kausel@mit.edu'
+p297
+sa(dp298
+g2
+g3
+sg4
+S'Carl D. Martland'
+p299
+sg6
+S'http://cee.mit.edu/index.pl?id=2736&isa=Category&op=show'
+p300
+sg8
+S'Freight transportation management, railroad systems, engineering economics, regional transportation planning. '
+p301
+sg10
+(lp302
+S'Freight transportation management'
+p303
+aS' railroad systems'
+p304
+aS' engineering economics'
+p305
+aS' regional transportation planning. '
+p306
+asg12
+S'martlan@mit.edu'
+p307
+sa(dp308
+g2
+g3
+sg4
+S'Charles Harvey'
+p309
+sg6
+S'http://cee.mit.edu/harvey'
+p310
+sg8
+S'Groundwater hydrology; containment transport; environmental management.'
+p311
+sg10
+(lp312
+g311
+asg12
+S'charvey@mit.edu'
+p313
+sa(dp314
+g2
+g3
+sg4
+S'Franz- Josef Ulm'
+p315
+sg6
+S'http://cee.mit.edu/index.pl?id=2381'
+p316
+sg8
+g223
+sg10
+(lp317
+g223
+asg12
+S'ulm@mit.edu'
+p318
+sa(dp319
+g2
+g3
+sg4
+S'Jerome J. Connor Jr.'
+p320
+sg6
+S'http://cee.mit.edu/connor'
+p321
+sg8
+S'Structural engineering, computational mechanics, large scale systems.'
+p322
+sg10
+(lp323
+S'Structural engineering'
+p324
+aS' computational mechanics'
+p325
+aS' large scale systems.'
+p326
+asg12
+S'jjconnor@mit.edu'
+p327
+sa(dp328
+g2
+g3
+sg4
+S'Edward F. De Long'
+p329
+sg6
+S'http://cee.mit.edu/delong'
+p330
+sg8
+S'Biology oceanography: Microbial ecology and evolution Biochemistry and Biogeochemistry Microbial and environmental genomics. '
+p331
+sg10
+(lp332
+g331
+asg12
+S'delong@mit.edu'
+p333
+sa(dp334
+g2
+g3
+sg4
+S'Sheila Frankel'
+p335
+sg6
+S'http://cee.mit.edu/frankel'
+p336
+sg8
+S'Aquatic ecology, instrumentation, flow cytometry, aquatic chemistry instructor. '
+p337
+sg10
+(lp338
+S'Aquatic ecology'
+p339
+aS' instrumentation'
+p340
+aS' flow cytometry'
+p341
+aS' aquatic chemistry instructor. '
+p342
+asg12
+S'sfrankel@mit.edu'
+p343
+sa(dp344
+g2
+g3
+sg4
+S'John T. Germaine'
+p345
+sg6
+S'http://cee.mit.edu/index.pl?id=2696&isa=Category&op=show'
+p346
+sg8
+S'Laboratory and field instrumentation, geotechnical engineering, data acquisition, lab testing automation.'
+p347
+sg10
+(lp348
+S'Laboratory and field instrumentation'
+p349
+aS' geotechnical engineering'
+p350
+aS' data acquisition'
+p351
+aS' lab testing automation.'
+p352
+asg12
+S'jgermain@mit.edu'
+p353
+sa(dp354
+g2
+g3
+sg4
+S'Eduardo Kausel'
+p355
+sg6
+S'http://cee.mit.edu/kausel'
+p356
+sg8
+S'Structural dynamics, soil dynamics, soil-structure interaction, earthquake engineering, structural mechanics, machine vibration, non-destructive testing.'
+p357
+sg10
+(lp358
+S'Structural dynamics'
+p359
+aS' soil dynamics'
+p360
+aS' soil-structure interaction'
+p361
+aS' earthquake engineering'
+p362
+aS' structural mechanics'
+p363
+aS' machine vibration'
+p364
+aS' non-destructive testing.'
+p365
+asg12
+S'kausel@mit.edu'
+p366
+sa(dp367
+g2
+g3
+sg4
+S'Carl D. Martland'
+p368
+sg6
+S'http://cee.mit.edu/index.pl?id=2736&isa=Category&op=show'
+p369
+sg8
+S'Freight transportation management, railroad systems, engineering economics, regional transportation planning. '
+p370
+sg10
+(lp371
+S'Freight transportation management'
+p372
+aS' railroad systems'
+p373
+aS' engineering economics'
+p374
+aS' regional transportation planning. '
+p375
+asg12
+S'martlan@mit.edu'
+p376
+sa(dp377
+g2
+g3
+sg4
+S'Rohan Abeyaratne'
+p378
+sg6
+S'http://me.mit.edu/people/personal/rohan.htm'
+p379
+sg8
+S'Static and dynamic instabilities, mechanical models of micro-scale phenomena such as friction and granular flow, phase transformations in solids especially in shape-memory alloys.'
+p380
+sg10
+(lp381
+S'Static and dynamic instabilities'
+p382
+aS' mechanical models of micro-scale phenomena such as friction and granular flow'
+p383
+aS' phase transformations in solids especially in shape-memory alloys.'
+p384
+asg12
+S'rohan@mit.edu'
+p385
+sa(dp386
+g2
+g3
+sg4
+S'Lallit Anand'
+p387
+sg6
+S'http://me.mit.edu/people/personal/anand.htm'
+p388
+sg8
+S'Mechanics and materials, deformation, fracture, fatigue, processing of metals, polymers, ceramics, composites. '
+p389
+sg10
+(lp390
+S'Mechanics and materials'
+p391
+aS' deformation'
+p392
+aS' fracture'
+p393
+aS' fatigue'
+p394
+aS' processing of metals'
+p395
+aS' polymers'
+p396
+aS' ceramics'
+p397
+aS' composites. '
+p398
+asg12
+S'anand@mit.edu'
+p399
+sa(dp400
+g2
+g3
+sg4
+S'Haruhiko Asada'
+p401
+sg6
+S'http://me.mit.edu/people/personal/asada.htm'
+p402
+sg8
+S'Robotics, intelligent control, machine design, mechatronics.'
+p403
+sg10
+(lp404
+S'Robotics'
+p405
+aS' intelligent control'
+p406
+aS' machine design'
+p407
+aS' mechatronics.'
+p408
+asg12
+S'asada@mit.edu'
+p409
+sa(dp410
+g2
+g3
+sg4
+S'Mary Boyce'
+p411
+sg6
+S'http://me.mit.edu/people/personal/mcboyce.htm'
+p412
+sg8
+S'Mechanics of materials and manufacturing, polymers. '
+p413
+sg10
+(lp414
+S'Mechanics of materials and manufacturing'
+p415
+aS' polymers. '
+p416
+asg12
+S'mcboyce@mit.edu'
+p417
+sa(dp418
+g2
+g3
+sg4
+S'John G. Brisson II'
+p419
+sg6
+S'http://me.mit.edu/people/personal/brisson.htm'
+p420
+sg8
+S'Superfluid Stirling refrigerator, cryogenic engineering, high amplitude sound.'
+p421
+sg10
+(lp422
+S'Superfluid Stirling refrigerator'
+p423
+aS' cryogenic engineering'
+p424
+aS' high amplitude sound.'
+p425
+asg12
+S'brisson@mit.edu'
+p426
+sa(dp427
+g2
+g3
+sg4
+S'Wai K. Cheng'
+p428
+sg6
+S'http://me.mit.edu/people/personal/wkcheng.htm'
+p429
+sg8
+S'Instrumentation, combustion, optical diagnostics, internal combustion engines. '
+p430
+sg10
+(lp431
+S'Instrumentation'
+p432
+aS' combustion'
+p433
+aS' optical diagnostics'
+p434
+aS' internal combustion engines. '
+p435
+asg12
+S'wkcheng@mit.edu'
+p436
+sa(dp437
+g2
+g3
+sg4
+S'Jung-Hoon Chun'
+p438
+sg6
+S'http://me.mit.edu/people/personal/jchun.htm'
+p439
+sg8
+S'Manufacturing, materials processing, new processes, process modeling. '
+p440
+sg10
+(lp441
+S'Manufacturing'
+p442
+aS' materials processing'
+p443
+aS' new processes'
+p444
+aS' process modeling. '
+p445
+asg12
+S'jchun@mit.edu'
+p446
+sa(dp447
+g2
+g3
+sg4
+S'Ernest G. Cravalho'
+p448
+sg6
+S'http://me.mit.edu/people/personal/cravalho.htm'
+p449
+sg8
+S'Biomedical engineering, organ transplantation, lasers in medicine and surgery, crybiology, heat transfer, thermodynamics, energy conversion.'
+p450
+sg10
+(lp451
+S'Biomedical engineering'
+p452
+aS' organ transplantation'
+p453
+aS' lasers in medicine and surgery'
+p454
+aS' crybiology'
+p455
+aS' heat transfer'
+p456
+aS' thermodynamics'
+p457
+aS' energy conversion.'
+p458
+asg12
+S'ecravalho@comcast.net'
+p459
+sa(dp460
+g2
+g3
+sg4
+S'C. Forbes Dewey Jr.'
+p461
+sg6
+S'http://me.mit.edu/people/personal/cfdewey.htm'
+p462
+sg8
+S'Biomedical fluid mechanics, biological experiments to determine the influence of mechanical forces on individual cells, biological modeling and image processing, and information systems technology for biological and medical databases.'
+p463
+sg10
+(lp464
+S'Biomedical fluid mechanics'
+p465
+aS' biological experiments to determine the influence of mechanical forces on individual cells'
+p466
+aS' biological modeling and image processing'
+p467
+aS' and information systems technology for biological and medical databases.'
+p468
+asg12
+S'cfdewey@mit.edu'
+p469
+sa(dp470
+g2
+g3
+sg4
+S'Daniel Frey'
+p471
+sg6
+S'http://www-me.mit.edu/people/personal/danfrey.htm'
+p472
+sg8
+S'Mechanical design, statistics, robust design.'
+p473
+sg10
+(lp474
+S'Mechanical design'
+p475
+aS' statistics'
+p476
+aS' robust design.'
+p477
+asg12
+S'danfrey@mit.edu'
+p478
+sa(dp479
+g2
+g3
+sg4
+S'Ahmed P. Ghoniem'
+p480
+sg6
+S'http://me.mit.edu/people/personal/ghoniem.htm'
+p481
+sg8
+S'Computational methods in fluid mechanics, thermodynamics and heat transfer; application to propulsion and engine combustion.'
+p482
+sg10
+(lp483
+S'Computational methods in fluid mechanics'
+p484
+aS' thermodynamics and heat transfer; application to propulsion and engine combustion.'
+p485
+asg12
+S'ghoniem@mit.edu'
+p486
+sa(dp487
+g2
+g3
+sg4
+S'Leon R. Glicksman'
+p488
+sg6
+S'http://me.mit.edu/people/personal/glicks.htm'
+p489
+sg8
+S'Energy efficient buildings; sustainable building design; building materials; design, construction and testing of innovative super insulations; new designs and experimental measurements; indoor ventilation improvements; fluidized beds; fluid flow and heat transfer; experimental and computational studies. '
+p490
+sg10
+(lp491
+S'Energy efficient buildings; sustainable building design; building materials; design'
+p492
+aS' construction and testing of innovative super insulations; new designs and experimental measurements; indoor ventilation improvements; fluidized beds; fluid flow and heat transfer; experimental and computational studies. '
+p493
+asg12
+S'glicks@mit.edu'
+p494
+sa(dp495
+g2
+g3
+sg4
+S'David Gossard'
+p496
+sg6
+S'http://me.mit.edu/people/personal/gossard.htm'
+p497
+sg8
+S'Computer-aided design, interactive graphics, geometric modeling, knowledge-based systems.'
+p498
+sg10
+(lp499
+S'Computer-aided design'
+p500
+aS' interactive graphics'
+p501
+aS' geometric modeling'
+p502
+aS' knowledge-based systems.'
+p503
+asg12
+S'gossard@mit.edu'
+p504
+sa(dp505
+g2
+g3
+sg4
+S'Alan J. Grodzinsky'
+p506
+sg6
+S'http://web.mit.edu/cbe/www/'
+p507
+sg8
+S'Tissue engineering for cartilage repair and disease; Mechanobiology: effects of mechanical forces on cell metabolism, synthesis and degradation of normal and arthritic cartilage; Molecular mechanics: mechanical and electromechanical properties of biomolecule and biopolymeric gels.'
+p508
+sg10
+(lp509
+S'Tissue engineering for cartilage repair and disease; Mechanobiology: effects of mechanical forces on cell metabolism'
+p510
+aS' synthesis and degradation of normal and arthritic cartilage; Molecular mechanics: mechanical and electromechanical properties of biomolecule and biopolymeric gels.'
+p511
+asg12
+S'alg@mit.edu'
+p512
+sa(dp513
+g2
+g3
+sg4
+S'Timothy G. Gutowski'
+p514
+sg6
+S'http://me.mit.edu/people/personal/gutowski.htm'
+p515
+sg8
+S'Research on the topic of "Environmentally Benign Manufacuring."'
+p516
+sg10
+(lp517
+g516
+asg12
+S'gutowski@mit.edu'
+p518
+sa(dp519
+g2
+g3
+sg4
+S'David E. Hardt'
+p520
+sg6
+S'http://me.mit.edu/people/personal/hardt.htm'
+p521
+sg8
+S'Systems dynamics, control systems, machine design; application to manufacturing systems, specifically, forming and welding processes. '
+p522
+sg10
+(lp523
+S'Systems dynamics'
+p524
+aS' control systems'
+p525
+aS' machine design; application to manufacturing systems'
+p526
+aS' specifically'
+p527
+aS' forming and welding processes. '
+p528
+asg12
+S'hardt@mit.edu'
+p529
+sa(dp530
+g2
+g3
+sg4
+S'Douglas P. Hart'
+p531
+sg6
+S'http://me.mit.edu/people/personal/dphart.htm'
+p532
+sg8
+S'Applied fluid mechanics, multiphase and multicomponent flows, cavitation and vortical flow phenomena for environmental, chemical processing, combustion, power generation, and propulsion.'
+p533
+sg10
+(lp534
+S'Applied fluid mechanics'
+p535
+aS' multiphase and multicomponent flows'
+p536
+aS' cavitation and vortical flow phenomena for environmental'
+p537
+aS' chemical processing'
+p538
+aS' combustion'
+p539
+aS' power generation'
+p540
+aS' and propulsion.'
+p541
+asg12
+S'dphart@mit.edu'
+p542
+sa(dp543
+g2
+g3
+sg4
+S'Neville Hogan'
+p544
+sg6
+S'http://me.mit.edu/people/personal/neville.htm'
+p545
+sg8
+S'Integrated design, modelling and control of mechanical systems. Applications in robotics, biomechanics, neuroscience.'
+p546
+sg10
+(lp547
+S'Integrated design'
+p548
+aS' modelling and control of mechanical systems. Applications in robotics'
+p549
+aS' biomechanics'
+p550
+aS' neuroscience.'
+p551
+asg12
+S'neville@mit.edu'
+p552
+sa(dp553
+g2
+g3
+sg4
+S'Roger D. Kamm'
+p554
+sg6
+S'http://me.mit.edu/people/personal/rdkamm.htm'
+p555
+sg8
+S'Biological engineering, tissue engineering, molecular and cell biomechanics.'
+p556
+sg10
+(lp557
+S'Biological engineering'
+p558
+aS' tissue engineering'
+p559
+aS' molecular and cell biomechanics.'
+p560
+asg12
+S'rdkamm@mit.edu'
+p561
+sa(dp562
+g2
+g3
+sg4
+S'Rohit Karnik'
+p563
+sg6
+S'http://meche.mit.edu/people/faculty/index.html?id=279'
+p564
+sg8
+S'Microfluidic and nanofluidic flows, sensing and sorting of cells and molecules, synthesis of nanoparticles for drug delivery'
+p565
+sg10
+(lp566
+S'Microfluidic and nanofluidic flows'
+p567
+aS' sensing and sorting of cells and molecules'
+p568
+aS' synthesis of nanoparticles for drug delivery'
+p569
+asg12
+S'karnik@mit.edu'
+p570
+sa(dp571
+g2
+g3
+sg4
+S'Matthew J. Lang'
+p572
+sg6
+S'http://www-me.mit.edu/people/personal/mjlang.htm'
+p573
+sg8
+S' Biomolecular mechanics, biological motors, optical tweezers and single molecule fluorescence. '
+p574
+sg10
+(lp575
+S' Biomolecular mechanics'
+p576
+aS' biological motors'
+p577
+aS' optical tweezers and single molecule fluorescence. '
+p578
+asg12
+S'mjlang@mit.edu'
+p579
+sa(dp580
+g2
+g3
+sg4
+S'Pierre F.J. Lermusiaux'
+p581
+sg6
+S'http://meche.mit.edu/people/index.html?id=285'
+p582
+sg8
+S'Mathematical models, computational schemes and numerics for ocean predictions and dynamical diagnostics. High-level optimization and control of autonomous ocean observation systems. Comparisons and combinations of models with data. Estimation theory, data assimilation and uncertainty predictions. Physical and interdisciplinary ocean dynamics and processes. '
+p583
+sg10
+(lp584
+S'Mathematical models'
+p585
+aS' computational schemes and numerics for ocean predictions and dynamical diagnostics. High-level optimization and control of autonomous ocean observation systems. Comparisons and combinations of models with data. Estimation theory'
+p586
+aS' data assimilation and uncertainty predictions. Physical and interdisciplinary ocean dynamics and processes. '
+p587
+asg12
+S'pierrel@mit edu</a>, <a href="http://mseas.mit.edu/">http://mseas.mit.edu</a>; <a href="http://web.mit.edu/pierrel/www/">http://web.mit.edu/pierrel/www/'
+p588
+sa(dp589
+g2
+g3
+sg4
+S'John H. Lienhard'
+p590
+sg6
+S'http://me.mit.edu/people/personal/lienhard.htm'
+p591
+sg8
+S'Heat and mass transfer, fluid mechanics, convection, electronics thermal management.'
+p592
+sg10
+(lp593
+S'Heat and mass transfer'
+p594
+aS' fluid mechanics'
+p595
+aS' convection'
+p596
+aS' electronics thermal management.'
+p597
+asg12
+S'lienhard@mit.edu'
+p598
+sa(dp599
+g2
+g3
+sg4
+S'Seth Lloyd'
+p600
+sg6
+S'http://me.mit.edu/people/personal/slloyd.htm'
+p601
+sg8
+S'Characterization and control of complex systems, quantum computation.'
+p602
+sg10
+(lp603
+S'Characterization and control of complex systems'
+p604
+aS' quantum computation.'
+p605
+asg12
+S'slloyd@mit.edu'
+p606
+sa(dp607
+g2
+g3
+sg4
+S'Anthony Patera'
+p608
+sg6
+S'http://meche.mit.edu/people/faculty/index.html?id=66'
+p609
+sg8
+S'Computational methods, continuum mechanics, fluid dynamics and heat transfer.'
+p610
+sg10
+(lp611
+S'Computational methods'
+p612
+aS' continuum mechanics'
+p613
+aS' fluid dynamics and heat transfer.'
+p614
+asg12
+S'patera@mit.edu'
+p615
+sa(dp616
+g2
+g3
+sg4
+S'Derek Rowell'
+p617
+sg6
+S'http://me.mit.edu/people/personal/drowell.htm'
+p618
+sg8
+S'Biomedical engineering, medical imaging and image processing, computers, computer applications, controls, design.'
+p619
+sg10
+(lp620
+S'Biomedical engineering'
+p621
+aS' medical imaging and image processing'
+p622
+aS' computers'
+p623
+aS' computer applications'
+p624
+aS' controls'
+p625
+aS' design.'
+p626
+asg12
+S'drowell@mit.edu'
+p627
+sa(dp628
+g2
+g3
+sg4
+S'Yang Shao-Horn'
+p629
+sg6
+S'http://meche.mit.edu/people/faculty/index.html?id=78'
+p630
+sg8
+S'Materials for electrochemical energy storage and conversion, understanding and altering the crystal, surface and electronic structures of thin films and nanomaterials, and design new materials for lithium storage and electrocatalysis of small molecules such as oxygen reduction, water splitting and methanol oxidation.'
+p631
+sg10
+(lp632
+S'Materials for electrochemical energy storage and conversion'
+p633
+aS' understanding and altering the crystal'
+p634
+aS' surface and electronic structures of thin films and nanomaterials'
+p635
+aS' and design new materials for lithium storage and electrocatalysis of small molecules such as oxygen reduction'
+p636
+aS' water splitting and methanol oxidation.'
+p637
+asg12
+S'shaohorn@mit.edu'
+p638
+sa(dp639
+g2
+g3
+sg4
+S'Jean-Jacques E. Slotine'
+p640
+sg6
+S'http://me.mit.edu/people/personal/jjs.htm'
+p641
+sg8
+S'Robot control, applied nonlinear control.'
+p642
+sg10
+(lp643
+S'Robot control'
+p644
+aS' applied nonlinear control.'
+p645
+asg12
+S'jjs@mit.edu'
+p646
+sa(dp647
+g2
+g3
+sg4
+S'Michael S. Triantafyllou'
+p648
+sg6
+S'http://www-me.mit.edu/people/personal/mistetri.htm'
+p649
+sg8
+S'Dynamics and control of marine systems; flow-structure interaction; generation and control of vorticity to manage the flow around swimming bodies. Biomimetic robotics for the development of systems capable of emulating animal function and performance. Work performed in the Testing Tank Facility and the Propeller Tunnel. '
+p650
+sg10
+(lp651
+g650
+asg12
+S'mistetri@mit.edu'
+p652
+sa(dp653
+g2
+g3
+sg4
+S'David L. Trumper'
+p654
+sg6
+S'http://me.mit.edu/people/personal/trumper.htm'
+p655
+sg8
+S'Research in the design and control of mechatronic systems, e.g., systems which incorporate electromechanical actuators, sensors, mechanical design, system dynamics, and precision measurement machines. '
+p656
+sg10
+(lp657
+S'Research in the design and control of mechatronic systems'
+p658
+aS' e.g.'
+p659
+aS' systems which incorporate electromechanical actuators'
+p660
+aS' sensors'
+p661
+aS' mechanical design'
+p662
+aS' system dynamics'
+p663
+aS' and precision measurement machines. '
+p664
+asg12
+S'trumper@mit.edu'
+p665
+sa(dp666
+g2
+g3
+sg4
+S'David Wallace'
+p667
+sg6
+S'http://me.mit.edu/people/personal/drwallac.htm'
+p668
+sg8
+S'Product design, computer-aided design, environmentally-conscious design.'
+p669
+sg10
+(lp670
+S'Product design'
+p671
+aS' computer-aided design'
+p672
+aS' environmentally-conscious design.'
+p673
+asg12
+S'drwallac@mit.edu'
+p674
+sa(dp675
+g2
+g3
+sg4
+S'Evelyn N. Wang'
+p676
+sg6
+S'http://meche.mit.edu/people/faculty/index.html?id=284'
+p677
+sg8
+S'Micro electro-mechanical systems (MEMS), micro-/nanotechnologies for electronics cooling, energy conversion, water desalination, and biotechnologies.'
+p678
+sg10
+(lp679
+S'Micro electro-mechanical systems (MEMS)'
+p680
+aS' micro-/nanotechnologies for electronics cooling'
+p681
+aS' energy conversion'
+p682
+aS' water desalination'
+p683
+aS' and biotechnologies.'
+p684
+asg12
+S'enwang@mit.edu'
+p685
+sa(dp686
+g2
+g3
+sg4
+S'Ioannis V. Yannas'
+p687
+sg6
+S'http://me.mit.edu/people/personal/yannas.htm'
+p688
+sg8
+S'Tissue and Organ Regeneration, Peripheral Nerve Regeneration, Biochemical and Cell Biological Mechanisms of Organ Regeneration '
+p689
+sg10
+(lp690
+S'Tissue and Organ Regeneration'
+p691
+aS' Peripheral Nerve Regeneration'
+p692
+aS' Biochemical and Cell Biological Mechanisms of Organ Regeneration '
+p693
+asg12
+S'yannas@mit.edu'
+p694
+sa(dp695
+g2
+g3
+sg4
+S'Kamal Youcef-Toumi'
+p696
+sg6
+S'http://www-me.mit.edu/people/personal/youcef.htm'
+p697
+sg8
+S'Systems dynamics and controls, machine and sensor design; applications: design and control of manipulators, high precision systems and flexible fixturing systems for manufacturing automation.'
+p698
+sg10
+(lp699
+S'Systems dynamics and controls'
+p700
+aS' machine and sensor design; applications: design and control of manipulators'
+p701
+aS' high precision systems and flexible fixturing systems for manufacturing automation.'
+p702
+asg12
+S'youcef@mit.edu'
+p703
+sa(dp704
+g2
+g3
+sg4
+S'Dick K.P. Yue'
+p705
+sg6
+S'http://www-me.mit.edu/people/personal/yue.htm'
+p706
+sg8
+S'Theoretical and computational hydrodynamics, marine fluid mechanics and ocean engineering. Ocean and coastal wave dynamics, fluid-structure interactions, motions and loads on ships and offshore structures. Hydrodynamics of fish swimming. Vortical and turbulent flows at the air-sea interface. Immediate UROP openings for pay or credit at all levels in the Vortical Flow Research Laboratory ('
+p707
+sg10
+(lp708
+S'Theoretical and computational hydrodynamics'
+p709
+aS' marine fluid mechanics and ocean engineering. Ocean and coastal wave dynamics'
+p710
+aS' fluid-structure interactions'
+p711
+aS' motions and loads on ships and offshore structures. Hydrodynamics of fish swimming. Vortical and turbulent flows at the air-sea interface. Immediate UROP openings for pay or credit at all levels in the Vortical Flow Research Laboratory ('
+p712
+asg12
+S'yue@mit.edu '
+p713
+sa(dp714
+g2
+g3
+sg4
+S'Kimberly Hamad-Sc</a><a href="http://web.mit.edu/bio-nano/www">hifferli'
+p715
+sg6
+S'http://web.mit.edu/bio-nano/www'
+p716
+sg8
+S'Nanoparticles in biology: synthesis and characterization of nanoparticles, magnetic field heating of nanoparticles, bioconjugation of nanoparticles to proteins, DNA, encapsulation in polymers and liposomes, uptake of nanoparticles by cells.'
+p717
+sg10
+(lp718
+S'Nanoparticles in biology: synthesis and characterization of nanoparticles'
+p719
+aS' magnetic field heating of nanoparticles'
+p720
+aS' bioconjugation of nanoparticles to proteins'
+p721
+aS' DNA'
+p722
+aS' encapsulation in polymers and liposomes'
+p723
+aS' uptake of nanoparticles by cells.'
+p724
+asg12
+S'schiffer@mit.edu '
+p725
+sa(dp726
+g2
+g3
+sg4
+S'John B. Heywood'
+p727
+sg6
+S'http://me.mit.edu/people/personal/jheywood.htm'
+p728
+sg8
+S'Internal combustion engine processes, vehicle technology assessment, transportation environmental impacts and energy. '
+p729
+sg10
+(lp730
+S'Internal combustion engine processes'
+p731
+aS' vehicle technology assessment'
+p732
+aS' transportation environmental impacts and energy. '
+p733
+asg12
+S'heywood@mit.edu'
+p734
+sa(dp735
+g2
+g3
+sg4
+S'John Leonard'
+p736
+sg6
+S'http://www-me.mit.edu/people/personal/jleonard.htm'
+p737
+sg8
+S'Mobile Robotics, Marine Robotics, Autonomous Underwater Vehicles, Autonomous Surface Vehicles. '
+p738
+sg10
+(lp739
+S'Mobile Robotics'
+p740
+aS' Marine Robotics'
+p741
+aS' Autonomous Underwater Vehicles'
+p742
+aS' Autonomous Surface Vehicles. '
+p743
+asg12
+S'jleonard@mit.edu'
+p744
+sa(dp745
+g2
+g3
+sg4
+S'Borivoje Mikic'
+p746
+sg6
+S'http://me.mit.edu/people/personal/mikic.htm'
+p747
+sg8
+S'Heat transfer, energy, biomedical engineering.'
+p748
+sg10
+(lp749
+S'Heat transfer'
+p750
+aS' energy'
+p751
+aS' biomedical engineering.'
+p752
+asg12
+S'mikic@mit.edu'
+p753
+sa(dp754
+g2
+g3
+sg4
+S'Kimberly Hamad-Sc</a><a href="http://web.mit.edu/bio-nano/www">hifferli'
+p755
+sg6
+S'http://web.mit.edu/bio-nano/www'
+p756
+sg8
+S'Nanoparticles in biology: synthesis and characterization of nanoparticles, magnetic field heating of nanoparticles, bioconjugation of nanoparticles to proteins, DNA, encapsulation in polymers and liposomes, uptake of nanoparticles by cells.'
+p757
+sg10
+(lp758
+S'Nanoparticles in biology: synthesis and characterization of nanoparticles'
+p759
+aS' magnetic field heating of nanoparticles'
+p760
+aS' bioconjugation of nanoparticles to proteins'
+p761
+aS' DNA'
+p762
+aS' encapsulation in polymers and liposomes'
+p763
+aS' uptake of nanoparticles by cells.'
+p764
+asg12
+S'schiffer@mit.edu '
+p765
+sa(dp766
+g2
+g3
+sg4
+S'John B. Heywood'
+p767
+sg6
+S'http://me.mit.edu/people/personal/jheywood.htm'
+p768
+sg8
+S'Internal combustion engine processes, vehicle technology assessment, transportation environmental impacts and energy. '
+p769
+sg10
+(lp770
+S'Internal combustion engine processes'
+p771
+aS' vehicle technology assessment'
+p772
+aS' transportation environmental impacts and energy. '
+p773
+asg12
+S'heywood@mit.edu'
+p774
+sa(dp775
+g2
+g3
+sg4
+S'John Leonard'
+p776
+sg6
+S'http://www-me.mit.edu/people/personal/jleonard.htm'
+p777
+sg8
+S'Mobile Robotics, Marine Robotics, Autonomous Underwater Vehicles, Autonomous Surface Vehicles. '
+p778
+sg10
+(lp779
+S'Mobile Robotics'
+p780
+aS' Marine Robotics'
+p781
+aS' Autonomous Underwater Vehicles'
+p782
+aS' Autonomous Surface Vehicles. '
+p783
+asg12
+S'jleonard@mit.edu'
+p784
+sa(dp785
+g2
+g3
+sg4
+S'Borivoje Mikic'
+p786
+sg6
+S'http://me.mit.edu/people/personal/mikic.htm'
+p787
+sg8
+S'Heat transfer, energy, biomedical engineering.'
+p788
+sg10
+(lp789
+S'Heat transfer'
+p790
+aS' energy'
+p791
+aS' biomedical engineering.'
+p792
+asg12
+S'mikic@mit.edu'
+p793
+sa(dp794
+g2
+g3
+sg4
+S'Alfredo Alexander-Katz'
+p795
+sg6
+S'http://dmse.mit.edu/faculty/profile/alexander-katz'
+p796
+sg8
+S'Theoretical and computational soft-materials science. Biologically inspired drug-delivery vectors. Self-assembly of biological photosynthetic antennas.'
+p797
+sg10
+(lp798
+g797
+asg12
+S'aalexand@mit.edu'
+p799
+sa(dp800
+g2
+g3
+sg4
+S'Samuel M. Allen'
+p801
+sg6
+S'http://dmse.mit.edu/faculty/profile/allen'
+p802
+sg8
+S'Physical metallurgy, shape-memory alloys and applications'
+p803
+sg10
+(lp804
+S'Physical metallurgy'
+p805
+aS' shape-memory alloys and applications'
+p806
+asg12
+S'smallen@mit.edu'
+p807
+sa(dp808
+g2
+g3
+sg4
+S'Polina Anikeeva'
+p809
+sg6
+S'http://dmse.mit.edu/faculty/profile/anikeeva'
+p810
+sg8
+S'Bioelectronics. Design and medical implementation of the optoelectronic devices for monitoring and manipulation of neural activity. Using biological molecules as building blocks for optoelectronics.'
+p811
+sg10
+(lp812
+g811
+asg12
+S' anikeeva@mit.edu'
+p813
+sa(dp814
+g2
+g3
+sg4
+S'Geoffrey Beach'
+p815
+sg6
+S'http://dmse.mit.edu/faculty/profile/beach'
+p816
+sg8
+S'Spintronic materials and devices for new approaches to data storage and processing. Experimental studies of spin excitations in nanoscale magnetic structures. Development of ultrafast magneto-optical and electrical probes of magnetization dynamics.'
+p817
+sg10
+(lp818
+g817
+asg12
+S'gbeach@mit.edu'
+p819
+sa(dp820
+g2
+g3
+sg4
+S'Yet-Ming Chiang'
+p821
+sg6
+S'http://dmse.mit.edu/faculty/profile/chiang'
+p822
+sg8
+S'Properties and processing of inorganic materials for electronic, structural, electrochemical, and electromechanical applications and devices. Studies of defects and interfaces in materials. Materials and device design for batteries and other energy storage and generation technologies. '
+p823
+sg10
+(lp824
+S'Properties and processing of inorganic materials for electronic'
+p825
+aS' structural'
+p826
+aS' electrochemical'
+p827
+aS' and electromechanical applications and devices. Studies of defects and interfaces in materials. Materials and device design for batteries and other energy storage and generation technologies. '
+p828
+asg12
+S'ychiang@mit.edu'
+p829
+sa(dp830
+g2
+g3
+sg4
+S'Michael J. Demkowicz'
+p831
+sg6
+S'http://dmse.mit.edu/faculty/profile/demkowicz'
+p832
+sg8
+S'Relating charge density distributions to stacking fault energies in HCP metal; Assessing the effect of grain boundaries on radiation-induced disordering in Ni3Al '
+p833
+sg10
+(lp834
+g833
+asg12
+S'mikejd@mit.edu'
+p835
+sa(dp836
+g2
+g3
+sg4
+S'Yoel Fink'
+p837
+sg6
+S'http://dmse.mit.edu/faculty/profile/fink'
+p838
+sg8
+S'Optical materials and photonic bandgap fibers.'
+p839
+sg10
+(lp840
+g839
+asg12
+S' yoel@mit.edu'
+p841
+sa(dp842
+g2
+g3
+sg4
+S'Silvjia Grade&#269;ak'
+p843
+sg6
+S'http://dmse.mit.edu/faculty/profile/gradecak'
+p844
+sg8
+S'Nano-electronics and photonics; correlation of structural, optical, electronic and magnetic properties of semiconducting materials; inorganic nanowires, nanowire heterostructure and devices; III-V semiconductor epitaxial films and low-dimensional systems; development of advanced electron microscopy techniques.'
+p845
+sg10
+(lp846
+S'Nano-electronics and photonics; correlation of structural'
+p847
+aS' optical'
+p848
+aS' electronic and magnetic properties of semiconducting materials; inorganic nanowires'
+p849
+aS' nanowire heterostructure and devices; III-V semiconductor epitaxial films and low-dimensional systems; development of advanced electron microscopy techniques.'
+p850
+asg12
+S'gradecak@mit.edu'
+p851
+sa(dp852
+g2
+g3
+sg4
+S'Jeffrey C. Grossman'
+p853
+sg6
+S'http://dmse.mit.edu/faculty/profile/grossman'
+p854
+sg8
+S'Computational materials science with applications in energy conversion and storage. Classical and quantum mechanical simulations of materials for solar cells, thermoelectrics, solar fuels, and hydrogen storage. Also, development of web-enabled computational tools for experimentalists as at nanohub.org.'
+p855
+sg10
+(lp856
+S'Computational materials science with applications in energy conversion and storage. Classical and quantum mechanical simulations of materials for solar cells'
+p857
+aS' thermoelectrics'
+p858
+aS' solar fuels'
+p859
+aS' and hydrogen storage. Also'
+p860
+aS' development of web-enabled computational tools for experimentalists as at nanohub.org.'
+p861
+asg12
+S'jcg@mit.edu'
+p862
+sa(dp863
+g2
+g3
+sg4
+S'Christopher Schuh'
+p864
+sg6
+S'http://dmse.mit.edu/faculty/profile/schuh'
+p865
+sg8
+S'Metallurgy: Processing of metals with nano-scale structures; Design of microstructures; Mechanical properties of advanced metals; Nanomechanics.'
+p866
+sg10
+(lp867
+g866
+asg12
+S'schuh@mit.edu'
+p868
+sa(dp869
+g2
+g3
+sg4
+S'Krystyn J. Van Vliet'
+p870
+sg6
+S'http://dmse.mit.edu/faculty/profile/van-vliet'
+p871
+sg8
+S'Mechanical behavior of chemically complex materials and composites. Experimental and computational investigations of nanocomposites, polymers, and biological materials. Most projects involve adaptation of instrumented indentation and/or atomic force microscopy.'
+p872
+sg10
+(lp873
+S'Mechanical behavior of chemically complex materials and composites. Experimental and computational investigations of nanocomposites'
+p874
+aS' polymers'
+p875
+aS' and biological materials. Most projects involve adaptation of instrumented indentation and/or atomic force microscopy.'
+p876
+asg12
+S'krystyn@mit.edu'
+p877
+sa(dp878
+g2
+g3
+sg4
+S'Angela Belcher'
+p879
+sg6
+S'http://dmse.mit.edu/faculty/profile/belcher'
+p880
+sg8
+S'Biology to make nano-hybird materials for electronics, defense, energy, and medicine. '
+p881
+sg10
+(lp882
+S'Biology to make nano-hybird materials for electronics'
+p883
+aS' defense'
+p884
+aS' energy'
+p885
+aS' and medicine. '
+p886
+asg12
+S'belcher@mit.edu'
+p887
+sa(dp888
+g2
+g3
+sg4
+S'Gerbrand Ceder'
+p889
+sg6
+S'http://dmse.mit.edu/faculty/profile/ceder'
+p890
+sg8
+S'Computational materials sciences, free energy computation, atomic-scale simulation, first-principals study of structure and properties of materials. Design and testing of Li battery electrodes (experimental).'
+p891
+sg10
+(lp892
+S'Computational materials sciences'
+p893
+aS' free energy computation'
+p894
+aS' atomic-scale simulation'
+p895
+aS' first-principals study of structure and properties of materials. Design and testing of Li battery electrodes (experimental).'
+p896
+asg12
+S'gceder@mit.edu'
+p897
+sa(dp898
+g2
+g3
+sg4
+S'Michael J. Cima'
+p899
+sg6
+S'http://dmse.mit.edu/faculty/profile/cima'
+p900
+sg8
+S'Chemical and physical phenomena involved in processing of materials for biomedical applications of therapeutic and diagnostic devices. '
+p901
+sg10
+(lp902
+g901
+asg12
+S'mjcima@mit.edu'
+p903
+sa(dp904
+g2
+g3
+sg4
+S'Thomas W. Eagar'
+p905
+sg6
+S'http://dmse.mit.edu/faculty/profile/eagar'
+p906
+sg8
+S'Welding and joining of metals, ceramics, composites, packaging of electronic materials, sensors for materials processing and manufacturing. '
+p907
+sg10
+(lp908
+S'Welding and joining of metals'
+p909
+aS' ceramics'
+p910
+aS' composites'
+p911
+aS' packaging of electronic materials'
+p912
+aS' sensors for materials processing and manufacturing. '
+p913
+asg12
+S'tweagar@mit.edu'
+p914
+sa(dp915
+g2
+g3
+sg4
+S'Linn W. Hobbs'
+p916
+sg6
+S'http://dmse.mit.edu/faculty/profile/hobbs'
+p917
+sg8
+S'Electron microscopy, diffraction and spectroscopy applied to defects in ceramic materials, biomaterials, oxidation of metals, ancient cements, nuclear ceramics and radioactive waste; computer modeling of glass structure.'
+p918
+sg10
+(lp919
+S'Electron microscopy'
+p920
+aS' diffraction and spectroscopy applied to defects in ceramic materials'
+p921
+aS' biomaterials'
+p922
+aS' oxidation of metals'
+p923
+aS' ancient cements'
+p924
+aS' nuclear ceramics and radioactive waste; computer modeling of glass structure.'
+p925
+asg12
+S'hobbs@mit.edu'
+p926
+sa(dp927
+g2
+g3
+sg4
+S'Klavs F. Jensen'
+p928
+sg6
+S'http://dmse.mit.edu/faculty/profile/jensen'
+p929
+sg8
+S'Functional micro- and nano-structured materials and devices for chemical and biological applications with emphasis on systems for which microfabrication provides unique advantages. Catalysis for energy conversion. '
+p930
+sg10
+(lp931
+g930
+asg12
+S'kfjensen@mit.edu'
+p932
+sa(dp933
+g2
+g3
+sg4
+S'Lionel C. Kimerling'
+p934
+sg6
+S'http://dmse.mit.edu/faculty/profile/kimerling'
+p935
+sg8
+S'Properties and processing of electronic materials; new optical and electronic phenomena, devices and circuit applications, process control and defect engineering.'
+p936
+sg10
+(lp937
+S'Properties and processing of electronic materials; new optical and electronic phenomena'
+p938
+aS' devices and circuit applications'
+p939
+aS' process control and defect engineering.'
+p940
+asg12
+S'lckim@mit.edu'
+p941
+sa(dp942
+g2
+g3
+sg4
+S'Donald R. Sadoway'
+p943
+sg6
+S'http://dmse.mit.edu/faculty/profile/sadoway'
+p944
+sg8
+S'Environmentally sound processes for extraction and recycling metals; electrochemical processing of materials; batteries.'
+p945
+sg10
+(lp946
+g945
+asg12
+S'dsadoway@mit.edu'
+p947
+sa(dp948
+g2
+g3
+sg4
+S'Subra Suresh'
+p949
+sg6
+S'http://dmse.mit.edu/faculty/profile/suresh'
+p950
+sg8
+S'Nanomechanical technology of engineering and biological materials.'
+p951
+sg10
+(lp952
+g951
+asg12
+S'ssuresh@mit.edu'
+p953
+sa(dp954
+g2
+g3
+sg4
+S'Harry L. Tuller'
+p955
+sg6
+S'http://dmse.mit.edu/faculty/profile/tuller'
+p956
+sg8
+S'Clean energy: fuel cells, photoelectrochemistry, electronic nose sensors; nanoionics; microsystems; electroceramics. '
+p957
+sg10
+(lp958
+S'Clean energy: fuel cells'
+p959
+aS' photoelectrochemistry'
+p960
+aS' electronic nose sensors; nanoionics; microsystems; electroceramics. '
+p961
+asg12
+S'tuller@mit.edu'
+p962
+sa(dp963
+g2
+g3
+sg4
+S'Alfredo Alexander-Katz'
+p964
+sg6
+S'http://dmse.mit.edu/faculty/profile/alexander-katz'
+p965
+sg8
+S'Theoretical and computational soft-materials science. Biologically inspired drug-delivery vectors. Self-assembly of biological photosynthetic antennas.'
+p966
+sg10
+(lp967
+g966
+asg12
+S'aalexand@mit.edu'
+p968
+sa(dp969
+g2
+g3
+sg4
+S'Samuel M. Allen'
+p970
+sg6
+S'http://dmse.mit.edu/faculty/profile/allen'
+p971
+sg8
+S'Physical metallurgy, shape-memory alloys and applications'
+p972
+sg10
+(lp973
+S'Physical metallurgy'
+p974
+aS' shape-memory alloys and applications'
+p975
+asg12
+S'smallen@mit.edu'
+p976
+sa(dp977
+g2
+g3
+sg4
+S'Polina Anikeeva'
+p978
+sg6
+S'http://dmse.mit.edu/faculty/profile/anikeeva'
+p979
+sg8
+S'Bioelectronics. Design and medical implementation of the optoelectronic devices for monitoring and manipulation of neural activity. Using biological molecules as building blocks for optoelectronics.'
+p980
+sg10
+(lp981
+g980
+asg12
+S' anikeeva@mit.edu'
+p982
+sa(dp983
+g2
+g3
+sg4
+S'Geoffrey Beach'
+p984
+sg6
+S'http://dmse.mit.edu/faculty/profile/beach'
+p985
+sg8
+S'Spintronic materials and devices for new approaches to data storage and processing. Experimental studies of spin excitations in nanoscale magnetic structures. Development of ultrafast magneto-optical and electrical probes of magnetization dynamics.'
+p986
+sg10
+(lp987
+g986
+asg12
+S'gbeach@mit.edu'
+p988
+sa(dp989
+g2
+g3
+sg4
+S'Yet-Ming Chiang'
+p990
+sg6
+S'http://dmse.mit.edu/faculty/profile/chiang'
+p991
+sg8
+S'Properties and processing of inorganic materials for electronic, structural, electrochemical, and electromechanical applications and devices. Studies of defects and interfaces in materials. Materials and device design for batteries and other energy storage and generation technologies. '
+p992
+sg10
+(lp993
+S'Properties and processing of inorganic materials for electronic'
+p994
+aS' structural'
+p995
+aS' electrochemical'
+p996
+aS' and electromechanical applications and devices. Studies of defects and interfaces in materials. Materials and device design for batteries and other energy storage and generation technologies. '
+p997
+asg12
+S'ychiang@mit.edu'
+p998
+sa(dp999
+g2
+g3
+sg4
+S'Michael J. Demkowicz'
+p1000
+sg6
+S'http://dmse.mit.edu/faculty/profile/demkowicz'
+p1001
+sg8
+S'Relating charge density distributions to stacking fault energies in HCP metal; Assessing the effect of grain boundaries on radiation-induced disordering in Ni3Al '
+p1002
+sg10
+(lp1003
+g1002
+asg12
+S'mikejd@mit.edu'
+p1004
+sa(dp1005
+g2
+g3
+sg4
+S'Yoel Fink'
+p1006
+sg6
+S'http://dmse.mit.edu/faculty/profile/fink'
+p1007
+sg8
+S'Optical materials and photonic bandgap fibers.'
+p1008
+sg10
+(lp1009
+g1008
+asg12
+S' yoel@mit.edu'
+p1010
+sa(dp1011
+g2
+g3
+sg4
+S'Silvjia Grade&#269;ak'
+p1012
+sg6
+S'http://dmse.mit.edu/faculty/profile/gradecak'
+p1013
+sg8
+S'Nano-electronics and photonics; correlation of structural, optical, electronic and magnetic properties of semiconducting materials; inorganic nanowires, nanowire heterostructure and devices; III-V semiconductor epitaxial films and low-dimensional systems; development of advanced electron microscopy techniques.'
+p1014
+sg10
+(lp1015
+S'Nano-electronics and photonics; correlation of structural'
+p1016
+aS' optical'
+p1017
+aS' electronic and magnetic properties of semiconducting materials; inorganic nanowires'
+p1018
+aS' nanowire heterostructure and devices; III-V semiconductor epitaxial films and low-dimensional systems; development of advanced electron microscopy techniques.'
+p1019
+asg12
+S'gradecak@mit.edu'
+p1020
+sa(dp1021
+g2
+g3
+sg4
+S'Jeffrey C. Grossman'
+p1022
+sg6
+S'http://dmse.mit.edu/faculty/profile/grossman'
+p1023
+sg8
+S'Computational materials science with applications in energy conversion and storage. Classical and quantum mechanical simulations of materials for solar cells, thermoelectrics, solar fuels, and hydrogen storage. Also, development of web-enabled computational tools for experimentalists as at nanohub.org.'
+p1024
+sg10
+(lp1025
+S'Computational materials science with applications in energy conversion and storage. Classical and quantum mechanical simulations of materials for solar cells'
+p1026
+aS' thermoelectrics'
+p1027
+aS' solar fuels'
+p1028
+aS' and hydrogen storage. Also'
+p1029
+aS' development of web-enabled computational tools for experimentalists as at nanohub.org.'
+p1030
+asg12
+S'jcg@mit.edu'
+p1031
+sa(dp1032
+g2
+g3
+sg4
+S'Christopher Schuh'
+p1033
+sg6
+S'http://dmse.mit.edu/faculty/profile/schuh'
+p1034
+sg8
+S'Metallurgy: Processing of metals with nano-scale structures; Design of microstructures; Mechanical properties of advanced metals; Nanomechanics.'
+p1035
+sg10
+(lp1036
+g1035
+asg12
+S'schuh@mit.edu'
+p1037
+sa(dp1038
+g2
+g3
+sg4
+S'Krystyn J. Van Vliet'
+p1039
+sg6
+S'http://dmse.mit.edu/faculty/profile/van-vliet'
+p1040
+sg8
+S'Mechanical behavior of chemically complex materials and composites. Experimental and computational investigations of nanocomposites, polymers, and biological materials. Most projects involve adaptation of instrumented indentation and/or atomic force microscopy.'
+p1041
+sg10
+(lp1042
+S'Mechanical behavior of chemically complex materials and composites. Experimental and computational investigations of nanocomposites'
+p1043
+aS' polymers'
+p1044
+aS' and biological materials. Most projects involve adaptation of instrumented indentation and/or atomic force microscopy.'
+p1045
+asg12
+S'krystyn@mit.edu'
+p1046
+sa(dp1047
+g2
+g3
+sg4
+S'Leon Glicksman'
+p1048
+sg6
+S'http://architecture.mit.edu/people.php?type=faculty&id=55'
+p1049
+sg8
+S'Comfort, air circulation in rooms, sustainable buildings, natural ventilation, sustainability web site for designers, building envelope systems.'
+p1050
+sg10
+(lp1051
+S'Comfort'
+p1052
+aS' air circulation in rooms'
+p1053
+aS' sustainable buildings'
+p1054
+aS' natural ventilation'
+p1055
+aS' sustainability web site for designers'
+p1056
+aS' building envelope systems.'
+p1057
+asg12
+S'glicks@mit.edu'
+p1058
+sa(dp1059
+g2
+g3
+sg4
+S'Leslie Norford'
+p1060
+sg6
+S'http://architecture.mit.edu/people.php?type=faculty&id=73'
+p1061
+sg8
+S'Building controls and expert systems, building energy monitoring, ventilation systems and airflow monitoring, technology development for housing in East Europe and the Soviet Union, nonintrusive electric load monitoring.'
+p1062
+sg10
+(lp1063
+S'Building controls and expert systems'
+p1064
+aS' building energy monitoring'
+p1065
+aS' ventilation systems and airflow monitoring'
+p1066
+aS' technology development for housing in East Europe and the Soviet Union'
+p1067
+aS' nonintrusive electric load monitoring.'
+p1068
+asg12
+S'lnorford@mit.edu'
+p1069
+sa(dp1070
+g2
+g3
+sg4
+S'Christopher C. Cummins'
+p1071
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/cummins.html'
+p1072
+sg8
+S' Inorganic radical chemistry. Activation of small molecules including dinitrogen and the nitrogen oxides. Development of new synthetic methods for inorganic chemistry.'
+p1073
+sg10
+(lp1074
+g1073
+asg12
+S'ccummins@mit.edu</a>, <a href="http://web.mit.edu/ccclab/">Cummins Group Homepage'
+p1075
+sa(dp1076
+g2
+g3
+sg4
+S'Mircea Dinca'
+p1077
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/dinca.html'
+p1078
+sg8
+S'Functional Inorganic Chemistry. Synthesis and characterization of microporous materials and other extended solids. Applications in electronically conductive materials, light harvesting, and microporous thin film/nanoparticle research.'
+p1079
+sg10
+(lp1080
+S'Functional Inorganic Chemistry. Synthesis and characterization of microporous materials and other extended solids. Applications in electronically conductive materials'
+p1081
+aS' light harvesting'
+p1082
+aS' and microporous thin film/nanoparticle research.'
+p1083
+asg12
+S'mdinca@mit.edu</a>, <a href="http://web.mit.edu/dincalab/">Dinca Research Group'
+p1084
+sa(dp1085
+g2
+g3
+sg4
+S'John M. Essigmann'
+p1086
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/essigmann.html'
+p1087
+sg8
+S'Biochemical and molecular mechanisms of cancer induction by chemicals and radiation; mechanisms for DNA repair; and design of novel anti-tumor agents that hijack transcription factors.'
+p1088
+sg10
+(lp1089
+g1088
+asg12
+S'jessig@mit.edu</a>, <a href="http://jessig.mit.edu/jmegroup">Essigmann Group Home Page'
+p1090
+sa(dp1091
+g2
+g3
+sg4
+S'Robert W. Field'
+p1092
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/field.html'
+p1093
+sg8
+S'Multiple resonance laser spectroscopy of small molecules in pulsed supersonic molecular beams using a variety of nanosecond pulsed tunable lasers, in combination with chirped-pulse millimeter-wave sources. Projects include construction of sources of transient molecules, assembly of a molecular beam vacuum system, optimization of signal detection devices, generation of software for advanced pattern recognition, data acquisition, spectrum calibration, and development of unconventional effective Hamiltonian and Quantum Defect models to fit frequency-domain spectra and to visualize the dynamical mechanisms encoded in these spectra. '
+p1094
+sg10
+(lp1095
+S'Multiple resonance laser spectroscopy of small molecules in pulsed supersonic molecular beams using a variety of nanosecond pulsed tunable lasers'
+p1096
+aS' in combination with chirped-pulse millimeter-wave sources. Projects include construction of sources of transient molecules'
+p1097
+aS' assembly of a molecular beam vacuum system'
+p1098
+aS' optimization of signal detection devices'
+p1099
+aS' generation of software for advanced pattern recognition'
+p1100
+aS' data acquisition'
+p1101
+aS' spectrum calibration'
+p1102
+aS' and development of unconventional effective Hamiltonian and Quantum Defect models to fit frequency-domain spectra and to visualize the dynamical mechanisms encoded in these spectra. '
+p1103
+asg12
+S'rwfield@mit.edu</a>,<a href="http://rwf.mit.edu/group/">Field Group Page'
+p1104
+sa(dp1105
+g2
+g3
+sg4
+S'Robert G. Griffin'
+p1106
+sg6
+S'http://web.mit.edu/fbml/cmr/griffin-group/index.html'
+p1107
+sg8
+S'Nuclear magnetic resonance in solids, applications of NMR to biological problems, high field dynamic nuclear polarization and pulsed EPR.'
+p1108
+sg10
+(lp1109
+S'Nuclear magnetic resonance in solids'
+p1110
+aS' applications of NMR to biological problems'
+p1111
+aS' high field dynamic nuclear polarization and pulsed EPR.'
+p1112
+asg12
+S'griffin@ccnmr.mit.edu'
+p1113
+sa(dp1114
+g2
+g3
+sg4
+S'Mohammad Movassaghi'
+p1115
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/movassaghi.html'
+p1116
+sg8
+S' Complex natural product total synthesis. Discovery, development, and mechanistic studies of new reactions for organic synthesis.'
+p1117
+sg10
+(lp1118
+S' Complex natural product total synthesis. Discovery'
+p1119
+aS' development'
+p1120
+aS' and mechanistic studies of new reactions for organic synthesis.'
+p1121
+asg12
+S'movassag@mit.edu</a>, <a href="http://web.mit.edu/movassag/www/index.htm">Movassaghi Group Homepage'
+p1122
+sa(dp1123
+g2
+g3
+sg4
+S'Elizabeth M. Nolan'
+p1124
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/nolan.html'
+p1125
+sg8
+S'Bioinorganic chemistry, metalloenzymology, antimicrobial peptides/proteins and small molecules, chemistry of the innate immune system.'
+p1126
+sg10
+(lp1127
+S'Bioinorganic chemistry'
+p1128
+aS' metalloenzymology'
+p1129
+aS' antimicrobial peptides/proteins and small molecules'
+p1130
+aS' chemistry of the innate immune system.'
+p1131
+asg12
+S'lnolan@mit.edu</a>, <a href="http://web.mit.edu/nolanlab/">The Nolan Group'
+p1132
+sa(dp1133
+g2
+g3
+sg4
+S'Richard Schrock'
+p1134
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/schrock.html'
+p1135
+sg8
+S'Organometallic synthesis, mechanisms, homogeneous catalysis, olefin metathesis, catalytic reduction of dinitrogen, new polymers, asymmetric olefin metathesis, living polymerization of olefins.'
+p1136
+sg10
+(lp1137
+S'Organometallic synthesis'
+p1138
+aS' mechanisms'
+p1139
+aS' homogeneous catalysis'
+p1140
+aS' olefin metathesis'
+p1141
+aS' catalytic reduction of dinitrogen'
+p1142
+aS' new polymers'
+p1143
+aS' asymmetric olefin metathesis'
+p1144
+aS' living polymerization of olefins.'
+p1145
+asg12
+S'rrs@mit.edu</a>, <a href="http://web.mit.edu/rrs/www/home.html">Schrock Group Homepage '
+p1146
+sa(dp1147
+g2
+g3
+sg4
+S'Stephen L. Buchwald'
+p1148
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/buchwald.html'
+p1149
+sg8
+S'Organic synthesis based on organotransition metal technology, mechanisms of organometallic reactions and transition metal organometallic chemistry. '
+p1150
+sg10
+(lp1151
+S'Organic synthesis based on organotransition metal technology'
+p1152
+aS' mechanisms of organometallic reactions and transition metal organometallic chemistry. '
+p1153
+asg12
+S'sbuchwal@mit.edu</a>, <a href="http://mit.edu/chemistry/buchwald/">Buchwald Group Homepage'
+p1154
+sa(dp1155
+g2
+g3
+sg4
+S'Alice Y. Ting'
+p1156
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/ting.html'
+p1157
+sg8
+S' Design and synthesis of new molecules for probing signal transduction in living cells. Fluorescent reporters for protein trafficking, enzyme activity, post-translational modifications, receptor recycling, and protein-protein interactions. Directed evolution of new ligases for site-specific labeling of recombinant proteins in living cells. Improved quantum dots for single-molecule imaging of proteins in living cells. '
+p1158
+sg10
+(lp1159
+S' Design and synthesis of new molecules for probing signal transduction in living cells. Fluorescent reporters for protein trafficking'
+p1160
+aS' enzyme activity'
+p1161
+aS' post-translational modifications'
+p1162
+aS' receptor recycling'
+p1163
+aS' and protein-protein interactions. Directed evolution of new ligases for site-specific labeling of recombinant proteins in living cells. Improved quantum dots for single-molecule imaging of proteins in living cells. '
+p1164
+asg12
+S'ating@mit.edu</a>, <a href="http://web.mit.edu/chemistry/Ting_Lab/">Ting Group Home Page'
+p1165
+sa(dp1166
+g2
+g3
+sg4
+S'Sylvia T. Ceyer'
+p1167
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/ceyer.html'
+p1168
+sg8
+S' Experimental studies of the dynamics of the interactions of molecules with solid surfaces, including investigations of mechanisms of heterogeneous catalysis and etching reactions.'
+p1169
+sg10
+(lp1170
+S' Experimental studies of the dynamics of the interactions of molecules with solid surfaces'
+p1171
+aS' including investigations of mechanisms of heterogeneous catalysis and etching reactions.'
+p1172
+asg12
+S'stceyer@mit.edu</a>, <a href="http://ceyer.mit.edu/">Ceyer Group Homepage'
+p1173
+sa(dp1174
+g2
+g3
+sg4
+S'Gregory C. Fu'
+p1175
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/fu.html'
+p1176
+sg8
+S'Development of new reagents and methods for organic chemistry, with an emphasis on asymmetric catalysis, and elucidation of reaction mechanisms.'
+p1177
+sg10
+(lp1178
+S'Development of new reagents and methods for organic chemistry'
+p1179
+aS' with an emphasis on asymmetric catalysis'
+p1180
+aS' and elucidation of reaction mechanisms.'
+p1181
+asg12
+S'gcf@mit.edu</a>, <a href="http://web.mit.edu/chemistry/fugroup/">Fu Group Homepage'
+p1182
+sa(dp1183
+g2
+g3
+sg4
+S'Timothy F. Jamison'
+p1184
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/jamison.html'
+p1185
+sg8
+S' Organic Chemistry. Development of new organic reactions for batch and continuous flow synthesis of natural products and related molecules.'
+p1186
+sg10
+(lp1187
+g1186
+asg12
+S'tfj@mit.edu</a><a href="mailto:tjf@mit.edu"></a>, <a href="http://web.mit.edu/chemistry/jamison/">Jamison Group Homepage'
+p1188
+sa(dp1189
+g2
+g3
+sg4
+S'Alexander M. Klibanov'
+p1190
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/klibanov.html'
+p1191
+sg8
+S'Enzymes as catalysts in organic chemistry, enzymatic catalysts in non-aqueous media, microbicidal materials, delivery of pharmaceutical proteins and nucleic acids.'
+p1192
+sg10
+(lp1193
+S'Enzymes as catalysts in organic chemistry'
+p1194
+aS' enzymatic catalysts in non-aqueous media'
+p1195
+aS' microbicidal materials'
+p1196
+aS' delivery of pharmaceutical proteins and nucleic acids.'
+p1197
+asg12
+S'klibanov@mit.edu'
+p1198
+sa(dp1199
+g2
+g3
+sg4
+S'Keith A. Nelson'
+p1200
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/nelson.html'
+p1201
+sg8
+S' Picosecond and femtosecond laser spectroscopy of phase transitions, liquid-glass transitions, chemical reactions, and other condensed matter phenomena; thin film characterization; nonlinear interactions of light with condensed matter; optical control over material behavior.'
+p1202
+sg10
+(lp1203
+S' Picosecond and femtosecond laser spectroscopy of phase transitions'
+p1204
+aS' liquid-glass transitions'
+p1205
+aS' chemical reactions'
+p1206
+aS' and other condensed matter phenomena; thin film characterization; nonlinear interactions of light with condensed matter; optical control over material behavior.'
+p1207
+asg12
+S'kanelson@mit.edu</a>, <a href="http://web.mit.edu/nelsongroup/index/index.shtml">Nelson Group Homepage'
+p1208
+sa(dp1209
+g2
+g3
+sg4
+S'Steven R. Tannenbaum'
+p1210
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/tannenbaum.html'
+p1211
+sg8
+S' Applications of chromatography, mass spectrometry, and affinity methods for identification, detection, and analysis of biological molecules. Applications include inflammation (nitric oxide), liver function and toxicology, proteomics, metabolomics, drug development.'
+p1212
+sg10
+(lp1213
+S' Applications of chromatography'
+p1214
+aS' mass spectrometry'
+p1215
+aS' and affinity methods for identification'
+p1216
+aS' detection'
+p1217
+aS' and analysis of biological molecules. Applications include inflammation (nitric oxide)'
+p1218
+aS' liver function and toxicology'
+p1219
+aS' proteomics'
+p1220
+aS' metabolomics'
+p1221
+aS' drug development.'
+p1222
+asg12
+S'srt@mit.edu</a>, <a href="http://web.mit.edu/srtlab/research/index.html">Tannenbaum Group Homepage'
+p1223
+sa(dp1224
+g2
+g3
+sg4
+S'Andrei Tokmakoff'
+p1225
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/tokmakoff.html'
+p1226
+sg8
+S' Development and use of time-resolved spectroscopy for studies of chemical and biological dynamics. Design of experiments to study transient structure and confirmation of proteins, peptides, and other molecules in solution. Protein folding and unfolding kinetics; protein dimerization and aggregation. Synthesis of isotope-edited peptides for spectroscopic studies of folding. Hydrogen bond network rearrangements in water. Proton transfer mechanisms in water. Study of proton transfer mediated by hydrogen bonds. Collective structure and structural change of liquids. Development and use of two-dimensional vibrational spectroscopy.'
+p1227
+sg10
+(lp1228
+S' Development and use of time-resolved spectroscopy for studies of chemical and biological dynamics. Design of experiments to study transient structure and confirmation of proteins'
+p1229
+aS' peptides'
+p1230
+aS' and other molecules in solution. Protein folding and unfolding kinetics; protein dimerization and aggregation. Synthesis of isotope-edited peptides for spectroscopic studies of folding. Hydrogen bond network rearrangements in water. Proton transfer mechanisms in water. Study of proton transfer mediated by hydrogen bonds. Collective structure and structural change of liquids. Development and use of two-dimensional vibrational spectroscopy.'
+p1231
+asg12
+S'tokmakof@mit.edu</a>, <a href="http://web.mit.edu/tokmakofflab/">Tokmakoff Group Home Page'
+p1232
+sa(dp1233
+g2
+g3
+sg4
+S'Stephen L. Buchwald'
+p1234
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/buchwald.html'
+p1235
+sg8
+S'Organic synthesis based on organotransition metal technology, mechanisms of organometallic reactions and transition metal organometallic chemistry. '
+p1236
+sg10
+(lp1237
+S'Organic synthesis based on organotransition metal technology'
+p1238
+aS' mechanisms of organometallic reactions and transition metal organometallic chemistry. '
+p1239
+asg12
+S'sbuchwal@mit.edu</a>, <a href="http://mit.edu/chemistry/buchwald/">Buchwald Group Homepage'
+p1240
+sa(dp1241
+g2
+g3
+sg4
+S'Alice Y. Ting'
+p1242
+sg6
+S'http://web.mit.edu/chemistry/www/faculty/ting.html'
+p1243
+sg8
+S' Design and synthesis of new molecules for probing signal transduction in living cells. Fluorescent reporters for protein trafficking, enzyme activity, post-translational modifications, receptor recycling, and protein-protein interactions. Directed evolution of new ligases for site-specific labeling of recombinant proteins in living cells. Improved quantum dots for single-molecule imaging of proteins in living cells. '
+p1244
+sg10
+(lp1245
+S' Design and synthesis of new molecules for probing signal transduction in living cells. Fluorescent reporters for protein trafficking'
+p1246
+aS' enzyme activity'
+p1247
+aS' post-translational modifications'
+p1248
+aS' receptor recycling'
+p1249
+aS' and protein-protein interactions. Directed evolution of new ligases for site-specific labeling of recombinant proteins in living cells. Improved quantum dots for single-molecule imaging of proteins in living cells. '
+p1250
+asg12
+S'ating@mit.edu</a>, <a href="http://web.mit.edu/chemistry/Ting_Lab/">Ting Group Home Page'
+p1251
+sa(dp1252
+g2
+g3
+sg4
+S'Hal Abelson'
+p1253
+sg6
+S'http://www-swiss.ai.mit.edu/~hal/hal.html'
+p1254
+sg8
+S'Artificial intelligence, educational computing, scientific computation.'
+p1255
+sg10
+(lp1256
+S'Artificial intelligence'
+p1257
+aS' educational computing'
+p1258
+aS' scientific computation.'
+p1259
+asg12
+S'hal@ai.mit.edu'
+p1260
+sa(dp1261
+g2
+g3
+sg4
+S'Elfar Adalsteinsson'
+p1262
+sg6
+S'http://hst.mit.edu/biosketch/Adalsteinsson.html'
+p1263
+sg8
+S'Medical imaging with magnetic resonance and methods for optimal acquisition, reconstruction, and processing of imaging data acquired in vivo.'
+p1264
+sg10
+(lp1265
+S'Medical imaging with magnetic resonance and methods for optimal acquisition'
+p1266
+aS' reconstruction'
+p1267
+aS' and processing of imaging data acquired in vivo.'
+p1268
+asg12
+S'elfar@mit.edu'
+p1269
+sa(dp1270
+g2
+g3
+sg4
+S'Saman P. Amarasinghe'
+p1271
+sg6
+S'http://compiler.lcs.mit.edu/~saman'
+p1272
+sg8
+S'Parallel compilers and parallel architectures. Design and implementation of the SUIF compiler system.'
+p1273
+sg10
+(lp1274
+g1273
+asg12
+S'saman@lcs.mit.edu'
+p1275
+sa(dp1276
+g2
+g3
+sg4
+S'Arvind'
+p1277
+sg6
+S'http://csg.csail.mit.edu/Users/arvind/'
+p1278
+sg8
+S'Parallel architectures and programming languages, dataflow systems, implicitly parallel programming and its applications.'
+p1279
+sg10
+(lp1280
+S'Parallel architectures and programming languages'
+p1281
+aS' dataflow systems'
+p1282
+aS' implicitly parallel programming and its applications.'
+p1283
+asg12
+S'arvind@lcs.mit.edu'
+p1284
+sa(dp1285
+g2
+g3
+sg4
+S'Hari Balakishnan'
+p1286
+sg6
+S'http://wind.lcs.mit.edu/~hari/'
+p1287
+sg8
+S'Networks of devices and computers, mobile computing, and distributed computing and communication systems.'
+p1288
+sg10
+(lp1289
+S'Networks of devices and computers'
+p1290
+aS' mobile computing'
+p1291
+aS' and distributed computing and communication systems.'
+p1292
+asg12
+S'han@lcs.mit.edu'
+p1293
+sa(dp1294
+g2
+g3
+sg4
+S'Timothy Berners-Lee'
+p1295
+sg6
+S'http://www.csail.mit.edu/user/769'
+p1296
+sg8
+S' The Semantic Web: using the WWW infrastructure to create a global, decentralized, web-like mesh of machine-processable knowledge.'
+p1297
+sg10
+(lp1298
+S' The Semantic Web: using the WWW infrastructure to create a global'
+p1299
+aS' decentralized'
+p1300
+aS' web-like mesh of machine-processable knowledge.'
+p1301
+asg12
+S'timbl@w3.org'
+p1302
+sa(dp1303
+g2
+g3
+sg4
+S'Dimitri P. Bertsekas'
+p1304
+sg6
+S'http://web.mit.edu/dimitrib/www/home.html'
+p1305
+sg8
+S'Data networks, parallel and distributed algorithms,optimization.'
+p1306
+sg10
+(lp1307
+S'Data networks'
+p1308
+aS' parallel and distributed algorithms'
+p1309
+aS'optimization.'
+p1310
+asg12
+S'bertsekas@lids.mit.edu'
+p1311
+sa(dp1312
+g2
+g3
+sg4
+S'Duane Boning'
+p1313
+sg6
+S'http://www-mtl.mit.edu/bin/user?boning'
+p1314
+sg8
+S'Semiconductor manufacturing, computer tools and systems for IC process design and manufacture, process control, computer integrated manufacturing.'
+p1315
+sg10
+(lp1316
+S'Semiconductor manufacturing'
+p1317
+aS' computer tools and systems for IC process design and manufacture'
+p1318
+aS' process control'
+p1319
+aS' computer integrated manufacturing.'
+p1320
+asg12
+S'boning@mtl.mit.edu'
+p1321
+sa(dp1322
+g2
+g3
+sg4
+S'Rodney A. Brooks'
+p1323
+sg6
+S'http://www.ai.mit.edu/people/brooks/brooks.html'
+p1324
+sg8
+S'Artificial intelligence, humanoid robots.'
+p1325
+sg10
+(lp1326
+S'Artificial intelligence'
+p1327
+aS' humanoid robots.'
+p1328
+asg12
+S'brooks@ai.mit.edu'
+p1329
+sa(dp1330
+g2
+g3
+sg4
+S'Vladimir Bulovic'
+p1331
+sg6
+S'http://www.rle.mit.edu/organic/faculty.html#vladimir'
+p1332
+sg8
+S' Physical properties of organic thin films, structures, and devices as applied to the development of optoelectronic, electronic, and photonic organic devices of nano-scale thickness, including visible LEDs, lasers, solar cells, photodetectors, transistors, and flexible and transparent optoelectronics.'
+p1333
+sg10
+(lp1334
+S' Physical properties of organic thin films'
+p1335
+aS' structures'
+p1336
+aS' and devices as applied to the development of optoelectronic'
+p1337
+aS' electronic'
+p1338
+aS' and photonic organic devices of nano-scale thickness'
+p1339
+aS' including visible LEDs'
+p1340
+aS' lasers'
+p1341
+aS' solar cells'
+p1342
+aS' photodetectors'
+p1343
+aS' transistors'
+p1344
+aS' and flexible and transparent optoelectronics.'
+p1345
+asg12
+S'bulovic@mit.edu'
+p1346
+sa(dp1347
+g2
+g3
+sg4
+S'Anantha P. Chandrakasan'
+p1348
+sg6
+S'http://www-mtl.mit.edu/~anantha/index.html'
+p1349
+sg8
+S'Energy efficient implementation of digital integrated circuits and systems such as wireless sensors and multimedia devices, protocols, and algorithms for wireless communication, and CAD tools for emerging technologies.'
+p1350
+sg10
+(lp1351
+S'Energy efficient implementation of digital integrated circuits and systems such as wireless sensors and multimedia devices'
+p1352
+aS' protocols'
+p1353
+aS' and algorithms for wireless communication'
+p1354
+aS' and CAD tools for emerging technologies.'
+p1355
+asg12
+S'anantha@mtl.mit.edu'
+p1356
+sa(dp1357
+g2
+g3
+sg4
+S'Isaac L. Chuang'
+p1358
+sg6
+S'http://www.rle.mit.edu/rleonline/People/IsaacChuang.html'
+p1359
+sg8
+S'Quantum information science, quantum physics, computation, and physics. '
+p1360
+sg10
+(lp1361
+S'Quantum information science'
+p1362
+aS' quantum physics'
+p1363
+aS' computation'
+p1364
+aS' and physics. '
+p1365
+asg12
+S'ichuang@mit.edu'
+p1366
+sa(dp1367
+g2
+g3
+sg4
+S'David D. Clark'
+p1368
+sg6
+S'http://ana-www.lcs.mit.edu/anaweb/clark.html'
+p1369
+sg8
+S'Computer networks: hardware and protocols for high speed large scale network communications. Video over networks. Networks for information access. Pricing and allocation of network service.'
+p1370
+sg10
+(lp1371
+g1370
+asg12
+S'ddc@lcs.mit.edu'
+p1372
+sa(dp1373
+g2
+g3
+sg4
+S'Munther A. Dahleh'
+p1374
+sg6
+S'http://web.mit.edu/dahleh/www/home.html" name="6DahlehM" id="6DahlehM'
+p1375
+sg8
+S'Multivariable feedback systems, robust control, identification of uncertain systems and adaptation, control of time-varying and distributed parameter systems.'
+p1376
+sg10
+(lp1377
+S'Multivariable feedback systems'
+p1378
+aS' robust control'
+p1379
+aS' identification of uncertain systems and adaptation'
+p1380
+aS' control of time-varying and distributed parameter systems.'
+p1381
+asg12
+S'dahleh@lids.mit.edu'
+p1382
+sa(dp1383
+g2
+g3
+sg4
+S'Randall Davis'
+p1384
+sg6
+S'http://people.csail.mit.edu/davis/'
+p1385
+sg8
+S'Artificial intelligence, knowledge based systems, engineering problem solving; intellectual property issues in software.'
+p1386
+sg10
+(lp1387
+S'Artificial intelligence'
+p1388
+aS' knowledge based systems'
+p1389
+aS' engineering problem solving; intellectual property issues in software.'
+p1390
+asg12
+S'davis@ai.mit.edu'
+p1391
+sa(dp1392
+g2
+g3
+sg4
+S'Jesus A. del Alamo'
+p1393
+sg6
+S'http://www-mtl.mit.edu/bin/user?alamo'
+p1394
+sg8
+S'High-performance heterostructure devices based on compound semiconductors for telecommunications applications; emphasis on In compound: InP, InGaAs, InAlAs, InAs, quantum-effect devices based on one-dimensional electron waveguides.'
+p1395
+sg10
+(lp1396
+S'High-performance heterostructure devices based on compound semiconductors for telecommunications applications; emphasis on In compound: InP'
+p1397
+aS' InGaAs'
+p1398
+aS' InAlAs'
+p1399
+aS' InAs'
+p1400
+aS' quantum-effect devices based on one-dimensional electron waveguides.'
+p1401
+asg12
+S'alamo@mtl.mit.edu'
+p1402
+sa(dp1403
+g2
+g3
+sg4
+S'Srinivas Devadas'
+p1404
+sg6
+S'http://rle-vlsi.mit.edu/~devadas'
+p1405
+sg8
+S'Computer-aided design of VLSI circuits and systems, silicon compilation and synthesis, VLSI testing and design for testability, formal verification methods.'
+p1406
+sg10
+(lp1407
+S'Computer-aided design of VLSI circuits and systems'
+p1408
+aS' silicon compilation and synthesis'
+p1409
+aS' VLSI testing and design for testability'
+p1410
+aS' formal verification methods.'
+p1411
+asg12
+S'devadas@mit.edu'
+p1412
+sa(dp1413
+g2
+g3
+sg4
+S'Dennis M. Freeman'
+p1414
+sg6
+S'http://umech.mit.edu/freeman/home.html'
+p1415
+sg8
+S'Theoretical and experimental studies of auditory physiology. Measurements of motion and of inner-ear structures, material properties of the tectorial membrane and ionic signals in the inner ear. Computational models of inner-ear hydrodynamics. Analysis of three-dimensional images from video microscopy.'
+p1416
+sg10
+(lp1417
+S'Theoretical and experimental studies of auditory physiology. Measurements of motion and of inner-ear structures'
+p1418
+aS' material properties of the tectorial membrane and ionic signals in the inner ear. Computational models of inner-ear hydrodynamics. Analysis of three-dimensional images from video microscopy.'
+p1419
+asg12
+S'freeman@mit.edu'
+p1420
+sa(dp1421
+g2
+g3
+sg4
+S'Shafi Goldwasser'
+p1422
+sg6
+S'http://theory.lcs.mit.edu/~shafi/'
+p1423
+sg8
+S'Cryptography, computational number theory, interactive proofs, fault-tolerant distributed computing.'
+p1424
+sg10
+(lp1425
+S'Cryptography'
+p1426
+aS' computational number theory'
+p1427
+aS' interactive proofs'
+p1428
+aS' fault-tolerant distributed computing.'
+p1429
+asg12
+S'shafi@theory.lcs.mit.edu'
+p1430
+sa(dp1431
+g2
+g3
+sg4
+S'W. Eric Grimson'
+p1432
+sg6
+S'http://www.ai.mit.edu/people/welg/welg.html'
+p1433
+sg8
+S'Computer vision, robotics, object recognition, stereo vision, models of biological vision systems and artificial intelligence.'
+p1434
+sg10
+(lp1435
+S'Computer vision'
+p1436
+aS' robotics'
+p1437
+aS' object recognition'
+p1438
+aS' stereo vision'
+p1439
+aS' models of biological vision systems and artificial intelligence.'
+p1440
+asg12
+S'welg@ai.mit.edu'
+p1441
+sa(dp1442
+g2
+g3
+sg4
+S'John V. Guttag'
+p1443
+sg6
+S'http://larch-www.lcs.mit.edu:8001/~guttag/'
+p1444
+sg8
+S'Programming methodology, formal specifications, theorem proving, programming languages.'
+p1445
+sg10
+(lp1446
+S'Programming methodology'
+p1447
+aS' formal specifications'
+p1448
+aS' theorem proving'
+p1449
+aS' programming languages.'
+p1450
+asg12
+S'guttag@eecs.mit.edu'
+p1451
+sa(dp1452
+g2
+g3
+sg4
+S'Berthold K. P. Horn'
+p1453
+sg6
+S'http://www.ai.mit.edu/people/bkph/bkph.html'
+p1454
+sg8
+S'Machine vision, advanced automation, manipulation, visual perception, representation of objects and space, photogrammetry, analog networks.'
+p1455
+sg10
+(lp1456
+S'Machine vision'
+p1457
+aS' advanced automation'
+p1458
+aS' manipulation'
+p1459
+aS' visual perception'
+p1460
+aS' representation of objects and space'
+p1461
+aS' photogrammetry'
+p1462
+aS' analog networks.'
+p1463
+asg12
+S'bkph@ai.mit.edu'
+p1464
+sa(dp1465
+g2
+g3
+sg4
+S'Judy L. Hoyt'
+p1466
+sg6
+S'http://www-mtl.mit.edu/~jlhoyt/'
+p1467
+sg8
+S' Novel processes, materials and device concepts for silicon technology. Device physics of silicon-based heterostructures and nanostructures. Epitaxial growth by chemical vapor deposition.'
+p1468
+sg10
+(lp1469
+S' Novel processes'
+p1470
+aS' materials and device concepts for silicon technology. Device physics of silicon-based heterostructures and nanostructures. Epitaxial growth by chemical vapor deposition.'
+p1471
+asg12
+S'jhoyt@mit.edu'
+p1472
+sa(dp1473
+g2
+g3
+sg4
+S'Erich P. Ippen'
+p1474
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-ippe.htm'
+p1475
+sg8
+S'Femtosecond optics, ultrafast processes, lasers, high-speed optoelectronics.'
+p1476
+sg10
+(lp1477
+S'Femtosecond optics'
+p1478
+aS' ultrafast processes'
+p1479
+aS' lasers'
+p1480
+aS' high-speed optoelectronics.'
+p1481
+asg12
+S'ippen@mit.edu'
+p1482
+sa(dp1483
+g2
+g3
+sg4
+S'Patrick Jaillet'
+p1484
+sg6
+S'http://lids.mit.edu/people/faculty/jaillet-patrick.html'
+p1485
+sg8
+S' Online optimization; real-time and dynamic optimization networks; probabilistic combinatorial optimization problems, financial engineering.'
+p1486
+sg10
+(lp1487
+S' Online optimization; real-time and dynamic optimization networks; probabilistic combinatorial optimization problems'
+p1488
+aS' financial engineering.'
+p1489
+asg12
+S'jaillet@mit.edu'
+p1490
+sa(dp1491
+g2
+g3
+sg4
+S'M. Frans Kaashoek'
+p1492
+sg6
+S'http://www.pdos.lcs.mit.edu/~kaashoek/'
+p1493
+sg8
+S'Computer systems, distributed and parallel systems, operating systems, programming languages, compilers, run-time systems, networking, and computer architecture.'
+p1494
+sg10
+(lp1495
+S'Computer systems'
+p1496
+aS' distributed and parallel systems'
+p1497
+aS' operating systems'
+p1498
+aS' programming languages'
+p1499
+aS' compilers'
+p1500
+aS' run-time systems'
+p1501
+aS' networking'
+p1502
+aS' and computer architecture.'
+p1503
+asg12
+S'kaashoek@lcs.mit.edu'
+p1504
+sa(dp1505
+g2
+g3
+sg4
+S'David Karger'
+p1506
+sg6
+S'http://theory.lcs.mit.edu/~karger/'
+p1507
+sg8
+S'Information retrieval and digital libraries; analysis of algorithms, especially for graphs and optimization problems; applications of randomization; parallel algorithms.'
+p1508
+sg10
+(lp1509
+S'Information retrieval and digital libraries; analysis of algorithms'
+p1510
+aS' especially for graphs and optimization problems; applications of randomization; parallel algorithms.'
+p1511
+asg12
+S'karger@lcs.mit.edu'
+p1512
+sa(dp1513
+g2
+g3
+sg4
+S'John G. Kassakian'
+p1514
+sg6
+S'http://www-eecs.mit.edu/faculty/jgk/'
+p1515
+sg8
+S'Power electronics; power supplies; power semiconductor devices; dc/dc Converters, inverters, controlled rectifiers and motor drives; product design and manufacturing.'
+p1516
+sg10
+(lp1517
+S'Power electronics; power supplies; power semiconductor devices; dc/dc Converters'
+p1518
+aS' inverters'
+p1519
+aS' controlled rectifiers and motor drives; product design and manufacturing.'
+p1520
+asg12
+S'jgk@mit.edu'
+p1521
+sa(dp1522
+g2
+g3
+sg4
+S'Manolis Kellis'
+p1523
+sg6
+S'http://www.csail.mit.edu/biographies/PI/bioprint.php?PeopleID=900034'
+p1524
+sg8
+S'Computational biology, genome interpretation, comparative genomics, regulatorynetworks, cellular signals, developmental biology, evolutionary theory. Algorithms and machine learning applications in genomics. '
+p1525
+sg10
+(lp1526
+S'Computational biology'
+p1527
+aS' genome interpretation'
+p1528
+aS' comparative genomics'
+p1529
+aS' regulatorynetworks'
+p1530
+aS' cellular signals'
+p1531
+aS' developmental biology'
+p1532
+aS' evolutionary theory. Algorithms and machine learning applications in genomics. '
+p1533
+asg12
+S'manoli@mit.edu'
+p1534
+sa(dp1535
+g2
+g3
+sg4
+S'Butler W. Lampson'
+p1536
+sg6
+S'http://research.microsoft.com/lampson'
+p1537
+sg8
+S'Computer science; hardware design and machine architecture through distributed systems and programming languages to user interfaces and office automation.'
+p1538
+sg10
+(lp1539
+g1538
+asg12
+S'blampson@microsoft.com'
+p1540
+sa(dp1541
+g2
+g3
+sg4
+S'Charles E. Leiserson'
+p1542
+sg6
+S'http://theory.lcs.mit.edu/~cel/'
+p1543
+sg8
+S'Theory of computing machinery, parallel and VLSI computation, graph theory, combinatorial algorithms, computer architecture, super computing.'
+p1544
+sg10
+(lp1545
+S'Theory of computing machinery'
+p1546
+aS' parallel and VLSI computation'
+p1547
+aS' graph theory'
+p1548
+aS' combinatorial algorithms'
+p1549
+aS' computer architecture'
+p1550
+aS' super computing.'
+p1551
+asg12
+S'cel@mit.edu'
+p1552
+sa(dp1553
+g2
+g3
+sg4
+S'Barbara H. Liskov'
+p1554
+sg6
+S'http://www.pmg.lcs.mit.edu/barbara_liskov.html'
+p1555
+sg8
+S'Programming methodology, programming languages, distributed systems, object-oriented databases.'
+p1556
+sg10
+(lp1557
+S'Programming methodology'
+p1558
+aS' programming languages'
+p1559
+aS' distributed systems'
+p1560
+aS' object-oriented databases.'
+p1561
+asg12
+S'liskov@lcs.mit.edu'
+p1562
+sa(dp1563
+g2
+g3
+sg4
+S'Tomas Lozano-Perez'
+p1564
+sg6
+S'http://www.ai.mit.edu/people/tlp/tlp.html'
+p1565
+sg8
+S'Robotics and computational geometry, computational chemistry and biology, artificial intelligence.'
+p1566
+sg10
+(lp1567
+S'Robotics and computational geometry'
+p1568
+aS' computational chemistry and biology'
+p1569
+aS' artificial intelligence.'
+p1570
+asg12
+S'tlp@ai.mit.edu'
+p1571
+sa(dp1572
+g2
+g3
+sg4
+S'Nancy A. Lynch'
+p1573
+sg6
+S'http://theory.lcs.mit.edu/~lynch/'
+p1574
+sg8
+S'Theory of distributed and real-time computing; formal models, specification, algorithm design, complexity analysis, vertification; distributed data management, synchronization, resource allocation, reliability, complexity theory.'
+p1575
+sg10
+(lp1576
+S'Theory of distributed and real-time computing; formal models'
+p1577
+aS' specification'
+p1578
+aS' algorithm design'
+p1579
+aS' complexity analysis'
+p1580
+aS' vertification; distributed data management'
+p1581
+aS' synchronization'
+p1582
+aS' resource allocation'
+p1583
+aS' reliability'
+p1584
+aS' complexity theory.'
+p1585
+asg12
+S'lynch@theory.lcs.mit.edu'
+p1586
+sa(dp1587
+g2
+g3
+sg4
+S'Thomas Magnanti'
+p1588
+sg6
+S'http://mitsloan.mit.edu/cfsrc/FacultyProfile.cfm?ID=79&sortorder=name'
+p1589
+sg8
+S'Network design. Network equilibrium. Large-scale optimization. Optimization in telecommunications, manufacturing, logistics, and transportation.'
+p1590
+sg10
+(lp1591
+S'Network design. Network equilibrium. Large-scale optimization. Optimization in telecommunications'
+p1592
+aS' manufacturing'
+p1593
+aS' logistics'
+p1594
+aS' and transportation.'
+p1595
+asg12
+S'magnanti@mit.edu'
+p1596
+sa(dp1597
+g2
+g3
+sg4
+S'Wojciech Matusik'
+p1598
+sg6
+S'http://www.csail.mit.edu/taxonomy/term/57'
+p1599
+sg8
+S' Computer graphics, applications in computational materials and novel displays.'
+p1600
+sg10
+(lp1601
+S' Computer graphics'
+p1602
+aS' applications in computational materials and novel displays.'
+p1603
+asg12
+S'wojciech@csail.mit.edu'
+p1604
+sa(dp1605
+g2
+g3
+sg4
+S'Alexandre Megretski'
+p1606
+sg6
+S'http://www.mit.edu/people/ameg/home.html'
+p1607
+sg8
+S'Robust control. Analysis of nonlinear dynamics. Control systems theory.'
+p1608
+sg10
+(lp1609
+g1608
+asg12
+S'ameg@mit.edu'
+p1610
+sa(dp1611
+g2
+g3
+sg4
+S'Albert R. Meyer'
+p1612
+sg6
+S'http://theory.lcs.mit.edu/~meyer/'
+p1613
+sg8
+S'Semantics of programming languages, logic of programs, concurrent programs, lambda calculus and category theory, decision procedures in logic.'
+p1614
+sg10
+(lp1615
+S'Semantics of programming languages'
+p1616
+aS' logic of programs'
+p1617
+aS' concurrent programs'
+p1618
+aS' lambda calculus and category theory'
+p1619
+aS' decision procedures in logic.'
+p1620
+asg12
+S'meyer@lcs.mit.edu'
+p1621
+sa(dp1622
+g2
+g3
+sg4
+S'Marvin L. Minsky'
+p1623
+sg6
+S'http://www.ai.mit.edu/people/minsky/minsky.html'
+p1624
+sg8
+S"Artificial intelligence; basic research in children's thinking and education, robotics and machine vision; representation of knowledge and structure of personality, common sense reasoning, theories of emotion and consciousness."
+p1625
+sg10
+(lp1626
+S"Artificial intelligence; basic research in children's thinking and education"
+p1627
+aS' robotics and machine vision; representation of knowledge and structure of personality'
+p1628
+aS' common sense reasoning'
+p1629
+aS' theories of emotion and consciousness.'
+p1630
+asg12
+S'minsky@media.mit.edu'
+p1631
+sa(dp1632
+g2
+g3
+sg4
+S'Sanjoy K. Mitter'
+p1633
+sg6
+S'http://donald-duck.mit.edu/lids/people/mitter.html'
+p1634
+sg8
+S'Structure, function, and organization of complex systems; image analysis and computer vision; mathematical physics and its relationship to systems theory; theory of stochastic dynamical systems, non-linear filtering, stochastic and adaptive control.'
+p1635
+sg10
+(lp1636
+S'Structure'
+p1637
+aS' function'
+p1638
+aS' and organization of complex systems; image analysis and computer vision; mathematical physics and its relationship to systems theory; theory of stochastic dynamical systems'
+p1639
+aS' non-linear filtering'
+p1640
+aS' stochastic and adaptive control.'
+p1641
+asg12
+S'mitter@lids.mit.edu'
+p1642
+sa(dp1643
+g2
+g3
+sg4
+S'Hadar Dana Moshkovitz'
+p1644
+sg6
+S'http://people.csail.mit.edu/dmoshkov/'
+p1645
+sg8
+S'Theoretical computer science, probabilistically checkable proofs, derandomization, coding theory.'
+p1646
+sg10
+(lp1647
+S'Theoretical computer science'
+p1648
+aS' probabilistically checkable proofs'
+p1649
+aS' derandomization'
+p1650
+aS' coding theory.'
+p1651
+asg12
+S'dmoshkov@mit.edu'
+p1652
+sa(dp1653
+g2
+g3
+sg4
+S'Tomas Palacios'
+p1654
+sg6
+S'http://web.mit.edu/tpalacios/'
+p1655
+sg8
+S'Design, fabrication and characterization of novel electronic devices in wide bandgap semiconductors; polarization and bandgap engineering; transistors for sub-mm wave power and digital applications; new ideas for power conversion and generation; interaction of biological systems with semiconductor materials and devices. '
+p1656
+sg10
+(lp1657
+S'Design'
+p1658
+aS' fabrication and characterization of novel electronic devices in wide bandgap semiconductors; polarization and bandgap engineering; transistors for sub-mm wave power and digital applications; new ideas for power conversion and generation; interaction of biological systems with semiconductor materials and devices. '
+p1659
+asg12
+S'tpalacios@mit.edu'
+p1660
+sa(dp1661
+g2
+g3
+sg4
+S'David J. Perreault'
+p1662
+sg6
+S'http://www.mit.edu/people/djperrea/home.html'
+p1663
+sg8
+S' Electronic circuit design, power electronics and energy conversion, control. Applications to industrial, commercial, scientific, transportation, and biomedical systems.'
+p1664
+sg10
+(lp1665
+S' Electronic circuit design'
+p1666
+aS' power electronics and energy conversion'
+p1667
+aS' control. Applications to industrial'
+p1668
+aS' commercial'
+p1669
+aS' scientific'
+p1670
+aS' transportation'
+p1671
+aS' and biomedical systems.'
+p1672
+asg12
+S'djperrea@mit.edu'
+p1673
+sa(dp1674
+g2
+g3
+sg4
+S'Rajeev J. Ram'
+p1675
+sg6
+S'http://tetris.mit.edu/rajeev.htm'
+p1676
+sg8
+S'Novel semiconductor lasers with emphasis on microscopic surface-emitting lasers. NRE materials fabrication; characterization technology essential to development of semiconductor lasers.'
+p1677
+sg10
+(lp1678
+g1677
+asg12
+S'rajeev@mit.edu'
+p1679
+sa(dp1680
+g2
+g3
+sg4
+S'Ronald L. Rivest'
+p1681
+sg6
+S'http://theory.lcs.mit.edu/~rivest/'
+p1682
+sg8
+S'Analysis of algorithms, cryptography, machine learning.'
+p1683
+sg10
+(lp1684
+S'Analysis of algorithms'
+p1685
+aS' cryptography'
+p1686
+aS' machine learning.'
+p1687
+asg12
+S'rivest@mit.edu'
+p1688
+sa(dp1689
+g2
+g3
+sg4
+S'Devavrat Shah'
+p1690
+sg6
+S'http://esd.mit.edu/Faculty_Pages/shah/shah.htm'
+p1691
+sg8
+S'Network algorithms. Scaling laws for networks. Stochastic networks.'
+p1692
+sg10
+(lp1693
+g1692
+asg12
+S'devavrat@mit.edu'
+p1694
+sa(dp1695
+g2
+g3
+sg4
+S'Jeffrey Shapiro'
+p1696
+sg6
+S'http://www.rle.mit.edu/rleonline/People/JeffreyH.Shapiro.html'
+p1697
+sg8
+S'Quantum noise reduction theory and experiment, coherent laser radars, ultra-wideband fiber optic communications.'
+p1698
+sg10
+(lp1699
+S'Quantum noise reduction theory and experiment'
+p1700
+aS' coherent laser radars'
+p1701
+aS' ultra-wideband fiber optic communications.'
+p1702
+asg12
+S'jhs@mit.edu'
+p1703
+sa(dp1704
+g2
+g3
+sg4
+S'Henry I. Smith'
+p1705
+sg6
+S'http://nanoweb.mit.edu/'
+p1706
+sg8
+S'Sub-micron and nanometer structures and applications, quantum-effect, optoelectronic and deep-submicron devices; microscopy, x-ray optics; novel heteroepitaxy schemes.'
+p1707
+sg10
+(lp1708
+S'Sub-micron and nanometer structures and applications'
+p1709
+aS' quantum-effect'
+p1710
+aS' optoelectronic and deep-submicron devices; microscopy'
+p1711
+aS' x-ray optics; novel heteroepitaxy schemes.'
+p1712
+asg12
+S'hismith@mtl.mit.edu'
+p1713
+sa(dp1714
+g2
+g3
+sg4
+S'Charles G. Sodini'
+p1715
+sg6
+S'http://www-mtl.mit.edu/research/sodini'
+p1716
+sg8
+S'Technology intensive integrated circuit and systems design, application toward sensory interface electronics emphasizing analog signal processing.'
+p1717
+sg10
+(lp1718
+S'Technology intensive integrated circuit and systems design'
+p1719
+aS' application toward sensory interface electronics emphasizing analog signal processing.'
+p1720
+asg12
+S'sodini@mtl.mit.edu'
+p1721
+sa(dp1722
+g2
+g3
+sg4
+S'Gerald J. Sussman'
+p1723
+sg6
+S'http://www-swiss.ai.mit.edu/~gjs/gjs.html'
+p1724
+sg8
+S'Artificial intelligence: basic research on learning, problem solving, and programming; computational performance models for intelligent behavior, especially modeling the behavior of engineers; numerical models of physical systems.'
+p1725
+sg10
+(lp1726
+S'Artificial intelligence: basic research on learning'
+p1727
+aS' problem solving'
+p1728
+aS' and programming; computational performance models for intelligent behavior'
+p1729
+aS' especially modeling the behavior of engineers; numerical models of physical systems.'
+p1730
+asg12
+S'gjs@mit.edu'
+p1731
+sa(dp1732
+g2
+g3
+sg4
+S'Peter Szolovits'
+p1733
+sg6
+S'http://medg.lcs.mit.edu/people/psz/psz.html'
+p1734
+sg8
+S'Application of artificial intelligence techniques to medical decision making, effective representation of knowledge.'
+p1735
+sg10
+(lp1736
+S'Application of artificial intelligence techniques to medical decision making'
+p1737
+aS' effective representation of knowledge.'
+p1738
+asg12
+S'psz@mit.edu'
+p1739
+sa(dp1740
+g2
+g3
+sg4
+S'Seth Teller'
+p1741
+sg6
+S'http://people.csail.mit.edu/teller'
+p1742
+sg8
+S'Machine vision; robotic mobility and manipulation; natural human-robot interaction; assistive technology for blind and disabled people.'
+p1743
+sg10
+(lp1744
+g1743
+asg12
+S'teller@csail.mit.edu</a><a href="mailto:seth@lcs.mit.edu">'
+p1745
+sa(dp1746
+g2
+g3
+sg4
+S'Antonio Torralba'
+p1747
+sg6
+S'http://web.mit.edu/torralba/www/'
+p1748
+sg8
+S'Computer vision, machine learning and human perception; development of computer vision systems and solving real world recognition tasks; modeling human perceptual and cognitive capabilities; object recognition, classification of whole scenes; visual recognition and classification of places and objects.'
+p1749
+sg10
+(lp1750
+S'Computer vision'
+p1751
+aS' machine learning and human perception; development of computer vision systems and solving real world recognition tasks; modeling human perceptual and cognitive capabilities; object recognition'
+p1752
+aS' classification of whole scenes; visual recognition and classification of places and objects.'
+p1753
+asg12
+S'torralba@csail.mit.edu'
+p1754
+sa(dp1755
+g2
+g3
+sg4
+S'John N. Tsitsiklis'
+p1756
+sg6
+S'http://web.mit.edu/jnt/www/home.html'
+p1757
+sg8
+S'Parallel computation; analysis, optimization, control and identification for stochastic systems, queuing and scheduling theory.'
+p1758
+sg10
+(lp1759
+S'Parallel computation; analysis'
+p1760
+aS' optimization'
+p1761
+aS' control and identification for stochastic systems'
+p1762
+aS' queuing and scheduling theory.'
+p1763
+asg12
+S'jnt@mit.edu'
+p1764
+sa(dp1765
+g2
+g3
+sg4
+S'Michael R. Watts'
+p1766
+sg6
+S'http://www.rle.mit.edu/rleonline/People/MichaelR.Watts.html'
+p1767
+sg8
+S' Electromagnetics and microphotonics.'
+p1768
+sg10
+(lp1769
+g1768
+asg12
+S'mwatts@mit.edu'
+p1770
+sa(dp1771
+g2
+g3
+sg4
+S'Jacob White'
+p1772
+sg6
+S'http://rle-vlsi.mit.edu/~white'
+p1773
+sg8
+S'Theoretical and practical aspects of numerical simulation algorithms applied to problems in circuit, device, packaging and micromechanical system design.'
+p1774
+sg10
+(lp1775
+S'Theoretical and practical aspects of numerical simulation algorithms applied to problems in circuit'
+p1776
+aS' device'
+p1777
+aS' packaging and micromechanical system design.'
+p1778
+asg12
+S'white@mit.edu'
+p1779
+sa(dp1780
+g2
+g3
+sg4
+S'Alan S. Willsky'
+p1781
+sg6
+S'http://lids.mit.edu/~willsky'
+p1782
+sg8
+S'Modern control and estimation theory, model-based signal and image processing, processing of spatially distributed random data, inverse problems and computational vision, multiresolution signal processing and multiple time scale analysis, discrete-event'
+p1783
+sg10
+(lp1784
+S'Modern control and estimation theory'
+p1785
+aS' model-based signal and image processing'
+p1786
+aS' processing of spatially distributed random data'
+p1787
+aS' inverse problems and computational vision'
+p1788
+aS' multiresolution signal processing and multiple time scale analysis'
+p1789
+aS' discrete-event'
+p1790
+asg12
+S'willsky@lids.mit.edu'
+p1791
+sa(dp1792
+g2
+g3
+sg4
+S'Patrick H. Winston'
+p1793
+sg6
+S'http://www.ai.mit.edu/people/phw/index.html'
+p1794
+sg8
+S'Artificial intelligence, analogy-based learning and reasoning.'
+p1795
+sg10
+(lp1796
+S'Artificial intelligence'
+p1797
+aS' analogy-based learning and reasoning.'
+p1798
+asg12
+S'phw@ai.mit.edu'
+p1799
+sa(dp1800
+g2
+g3
+sg4
+S'Gregory W. Wornell'
+p1801
+sg6
+S'http://allegro.mit.edu/dspg/gww.html'
+p1802
+sg8
+S'Signal processing, signal modeling, detection and estimation theory; broadband communication and telemetry systems; personal wireless communications; applications of fractals, non-linear dynamics and chaos.'
+p1803
+sg10
+(lp1804
+S'Signal processing'
+p1805
+aS' signal modeling'
+p1806
+aS' detection and estimation theory; broadband communication and telemetry systems; personal wireless communications; applications of fractals'
+p1807
+aS' non-linear dynamics and chaos.'
+p1808
+asg12
+S'gww@allegro.mit.edu'
+p1809
+sa(dp1810
+g2
+g3
+sg4
+S'Markus Zahn'
+p1811
+sg6
+S'http://www-eecs.mit.edu/faculty/zahn/'
+p1812
+sg8
+S'Electromagnetism, electromechanics, and electro-optic interactions with gaseous, liquid, and solid media, especially under high electric field conditions; theory, measurements, and applications of high voltage conduction and breakdown phenomena. '
+p1813
+sg10
+(lp1814
+S'Electromagnetism'
+p1815
+aS' electromechanics'
+p1816
+aS' and electro-optic interactions with gaseous'
+p1817
+aS' liquid'
+p1818
+aS' and solid media'
+p1819
+aS' especially under high electric field conditions; theory'
+p1820
+aS' measurements'
+p1821
+aS' and applications of high voltage conduction and breakdown phenomena. '
+p1822
+asg12
+S'zahn@mit.edu'
+p1823
+sa(dp1824
+g2
+g3
+sg4
+S'Akintunde I. Akinwande'
+p1825
+sg6
+S'http://www-mtl.mit.edu/~akinwand/index.html'
+p1826
+sg8
+S'Vacuum microelectronic devices and applications to flat-panel displays, RF amplifiers and sensors. Wide bandgap semiconductor devices. Micromachining.'
+p1827
+sg10
+(lp1828
+S'Vacuum microelectronic devices and applications to flat-panel displays'
+p1829
+aS' RF amplifiers and sensors. Wide bandgap semiconductor devices. Micromachining.'
+p1830
+asg12
+S'akinwand@mtl.mit.edu'
+p1831
+sa(dp1832
+g2
+g3
+sg4
+S'Dimitri A. Antoniadis'
+p1833
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-anto.htm'
+p1834
+sg8
+S'Devices and ICs, solid state submicrometer feature devices, process and device modeling, computer aids for IC technology design and fabrication. '
+p1835
+sg10
+(lp1836
+S'Devices and ICs'
+p1837
+aS' solid state submicrometer feature devices'
+p1838
+aS' process and device modeling'
+p1839
+aS' computer aids for IC technology design and fabrication. '
+p1840
+asg12
+S'antoniadis@mtl.mit.edu'
+p1841
+sa(dp1842
+g2
+g3
+sg4
+S'Arthur B. Baggeroer'
+p1843
+sg6
+S'http://acoustics.mit.edu/faculty/abb/www/home.html'
+p1844
+sg8
+S'Sonar, seismic, and underwater acoustics; signal processing for oceanographic data systems, space/time and distributed random processes; array processing; acoustic telemetry.'
+p1845
+sg10
+(lp1846
+S'Sonar'
+p1847
+aS' seismic'
+p1848
+aS' and underwater acoustics; signal processing for oceanographic data systems'
+p1849
+aS' space/time and distributed random processes; array processing; acoustic telemetry.'
+p1850
+asg12
+S'abb@arctic.mit.edu'
+p1851
+sa(dp1852
+g2
+g3
+sg4
+S'Marc A. Baldo'
+p1853
+sg6
+S'http://www.rle.mit.edu/organic/faculty.html#marc'
+p1854
+sg8
+S' Molecular electronics, integration of biological materials and conventional electronics, novel nano organic transistors; charge transport and injection in organic materials, energy transfer, high density phenomena, and exciton spin selection.'
+p1855
+sg10
+(lp1856
+S' Molecular electronics'
+p1857
+aS' integration of biological materials and conventional electronics'
+p1858
+aS' novel nano organic transistors; charge transport and injection in organic materials'
+p1859
+aS' energy transfer'
+p1860
+aS' high density phenomena'
+p1861
+aS' and exciton spin selection.'
+p1862
+asg12
+S'baldo@mit.edu'
+p1863
+sa(dp1864
+g2
+g3
+sg4
+S'Regina A. Barzilay'
+p1865
+sg6
+S'http://people.csail.mit.edu/regina/'
+p1866
+sg8
+S' Natural language processing.'
+p1867
+sg10
+(lp1868
+g1867
+asg12
+S'regina@csail.mit.edu '
+p1869
+sa(dp1870
+g2
+g3
+sg4
+S'Karl K. Berggren'
+p1871
+sg6
+S'http://nanoweb.mit.edu/users/berggren/people.html#KB'
+p1872
+sg8
+S'Nanofabrication methods. Superconductive quantum computing devices. Nanowire single-photon detectors. Reconfigurable analog circuits.'
+p1873
+sg10
+(lp1874
+g1873
+asg12
+S'berggren@mit.edu'
+p1875
+sa(dp1876
+g2
+g3
+sg4
+S'Robert C. Berwick'
+p1877
+sg6
+S'http://www.ai.mit.edu/projects/cbcl/people/berwick/homepage.html'
+p1878
+sg8
+S'Natural language processing: computer models of language acquisition and parsing; artificial intelligence: formal models of learning, including inductive inference and computational complexity analysis of language; cognitive science: word learning, semantics of natural languages, speech.'
+p1879
+sg10
+(lp1880
+S'Natural language processing: computer models of language acquisition and parsing; artificial intelligence: formal models of learning'
+p1881
+aS' including inductive inference and computational complexity analysis of language; cognitive science: word learning'
+p1882
+aS' semantics of natural languages'
+p1883
+aS' speech.'
+p1884
+asg12
+S'berwick@ai.mit.edu'
+p1885
+sa(dp1886
+g2
+g3
+sg4
+S'Louis D. Braida'
+p1887
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-brai.htm'
+p1888
+sg8
+S'Development of improved hearing aids, tactile aids for the deaf and cochlear implants, study of auditory function and speechreading.'
+p1889
+sg10
+(lp1890
+S'Development of improved hearing aids'
+p1891
+aS' tactile aids for the deaf and cochlear implants'
+p1892
+aS' study of auditory function and speechreading.'
+p1893
+asg12
+S'braid@mit.edu'
+p1894
+sa(dp1895
+g2
+g3
+sg4
+S'Vincent W.S. Chan'
+p1896
+sg6
+S'http://web.mit.edu/chan/www/'
+p1897
+sg8
+S'Optical, wireless and space communications and networks. Architecture, technology, system designs, and testbed implementations. New technology, architectures and applications.'
+p1898
+sg10
+(lp1899
+S'Optical'
+p1900
+aS' wireless and space communications and networks. Architecture'
+p1901
+aS' technology'
+p1902
+aS' system designs'
+p1903
+aS' and testbed implementations. New technology'
+p1904
+aS' architectures and applications.'
+p1905
+asg12
+S'chan@mit.edu'
+p1906
+sa(dp1907
+g2
+g3
+sg4
+S'Constantinos Daskalakis'
+p1908
+sg6
+S'http://www.csail.mit.edu/user/1825'
+p1909
+sg8
+S'Theory of Computation. The interdisciplinary fields of algorithmic game theory, Computational biology, social networks and applied probability.'
+p1910
+sg10
+(lp1911
+S'Theory of Computation. The interdisciplinary fields of algorithmic game theory'
+p1912
+aS' Computational biology'
+p1913
+aS' social networks and applied probability.'
+p1914
+asg12
+S'costis@csail.mit.edu'
+p1915
+sa(dp1916
+g2
+g3
+sg4
+S'Erik D. Demaine'
+p1917
+sg6
+S'http://erikdemaine.org/'
+p1918
+sg8
+S' Algorithms and data structures. Discrete and computational geometry. Combinatorial games. '
+p1919
+sg10
+(lp1920
+g1919
+asg12
+S'edemaine@mit.edu'
+p1921
+sa(dp1922
+g2
+g3
+sg4
+S'Mildred S. Dresselhaus'
+p1923
+sg6
+S'http://eecs-pc-05.mit.edu/index.html'
+p1924
+sg8
+S'Electronic materials engineering; electronic, lattice, structural properties, semimetals, semiconductors, metals, intercalation compounds, ion implantation, graphite fibers, high Tc superconductivity, C60 balls and tubules.'
+p1925
+sg10
+(lp1926
+S'Electronic materials engineering; electronic'
+p1927
+aS' lattice'
+p1928
+aS' structural properties'
+p1929
+aS' semimetals'
+p1930
+aS' semiconductors'
+p1931
+aS' metals'
+p1932
+aS' intercalation compounds'
+p1933
+aS' ion implantation'
+p1934
+aS' graphite fibers'
+p1935
+aS' high Tc superconductivity'
+p1936
+aS' C60 balls and tubules.'
+p1937
+asg12
+S'millie@mgm.mit.edu'
+p1938
+sa(dp1939
+g2
+g3
+sg4
+S'Frederic Durand'
+p1940
+sg6
+S'http://people.csail.mit.edu/fredo/'
+p1941
+sg8
+S' Image generation and creation; realistic rendering, real-time graphics, perceptually-based algorithms, non-photorealistic rendering, image-based rendering and editing.'
+p1942
+sg10
+(lp1943
+S' Image generation and creation; realistic rendering'
+p1944
+aS' real-time graphics'
+p1945
+aS' perceptually-based algorithms'
+p1946
+aS' non-photorealistic rendering'
+p1947
+aS' image-based rendering and editing.'
+p1948
+asg12
+S'fredo@lcs.mit.edu'
+p1949
+sa(dp1950
+g2
+g3
+sg4
+S'Clifton G. Fonstad'
+p1951
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-fons.htm'
+p1952
+sg8
+S'Compound semiconductor heterostructure devices and physics, heteroepitaxy, quantum well/tunnel barrier devices, quantum well lasers, hetrojunction bipolar transistors, optoelectronic integration, in situ processing.'
+p1953
+sg10
+(lp1954
+S'Compound semiconductor heterostructure devices and physics'
+p1955
+aS' heteroepitaxy'
+p1956
+aS' quantum well/tunnel barrier devices'
+p1957
+aS' quantum well lasers'
+p1958
+aS' hetrojunction bipolar transistors'
+p1959
+aS' optoelectronic integration'
+p1960
+aS' in situ processing.'
+p1961
+asg12
+S'fonstad@mit.edu'
+p1962
+sa(dp1963
+g2
+g3
+sg4
+S'William T. Freeman'
+p1964
+sg6
+S'http://www.ai.mit.edu/people/wtf/'
+p1965
+sg8
+S' Machine learning applied to computer vision and computer graphics. Bayesian belief propagation and its generalizations. Bayesian models of visual perception.'
+p1966
+sg10
+(lp1967
+g1966
+asg12
+S'billf@mit.edu'
+p1968
+sa(dp1969
+g2
+g3
+sg4
+S'James G. Fujimoto'
+p1970
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-fuji.htm'
+p1971
+sg8
+S'Picosecond and femtosecond lasers and techniques; applications to materials, semiconductors and electronic and optoelectronic devices; laser medicine, medical diagnostics, laser surgery.'
+p1972
+sg10
+(lp1973
+S'Picosecond and femtosecond lasers and techniques; applications to materials'
+p1974
+aS' semiconductors and electronic and optoelectronic devices; laser medicine'
+p1975
+aS' medical diagnostics'
+p1976
+aS' laser surgery.'
+p1977
+asg12
+S'jgfuji@mit.edu'
+p1978
+sa(dp1979
+g2
+g3
+sg4
+S'David K. Gifford'
+p1980
+sg6
+S'http://www.psrg.lcs.mit.edu/people/gifford.html'
+p1981
+sg8
+S'Computational and systems biology, computational functional genomics. Expression of scientific models in computational form. Machine Learning.'
+p1982
+sg10
+(lp1983
+S'Computational and systems biology'
+p1984
+aS' computational functional genomics. Expression of scientific models in computational form. Machine Learning.'
+p1985
+asg12
+S'gifford@mit.edu'
+p1986
+sa(dp1987
+g2
+g3
+sg4
+S'Polina Golland'
+p1988
+sg6
+S'http://people.csail.mit.edu/polina/'
+p1989
+sg8
+S' Developing novel techniques for image analysis and understanding. Statistical modeling, shape representation. Medical and biological imaging applications.'
+p1990
+sg10
+(lp1991
+S' Developing novel techniques for image analysis and understanding. Statistical modeling'
+p1992
+aS' shape representation. Medical and biological imaging applications.'
+p1993
+asg12
+S'polina@csail.mit.edu'
+p1994
+sa(dp1995
+g2
+g3
+sg4
+S'Martha Gray'
+p1996
+sg6
+S'http://hst-hu-mit.mit.edu/people/research/m_gray.html'
+p1997
+sg8
+S'Electrical, mechanical and chemical mediators of connective tissue growth and development, ion partitioning and transport in biological tissue, NMR spectroscopy and imaging, development of silicon micromachined tools for biological applications.'
+p1998
+sg10
+(lp1999
+S'Electrical'
+p2000
+aS' mechanical and chemical mediators of connective tissue growth and development'
+p2001
+aS' ion partitioning and transport in biological tissue'
+p2002
+aS' NMR spectroscopy and imaging'
+p2003
+aS' development of silicon micromachined tools for biological applications.'
+p2004
+asg12
+S'mgrag@mit.edu'
+p2005
+sa(dp2006
+g2
+g3
+sg4
+S'Alan J. Grodzinsky'
+p2007
+sg6
+S'http://www-me.mit.edu/people/personal/alg.htm'
+p2008
+sg8
+S"Electrical, mechanical and chemical regulation of biological tissues; physical modulation of cell metabolism, cartilage degradation in arthritis and its diagnosis; electric field control of transport in gels; separations and drug delivery; continuum electromechanics. (Some projects in collaboration with Massachusetts General Hospital and Children's Hospital, Boston.)"
+p2009
+sg10
+(lp2010
+S'Electrical'
+p2011
+aS' mechanical and chemical regulation of biological tissues; physical modulation of cell metabolism'
+p2012
+aS" cartilage degradation in arthritis and its diagnosis; electric field control of transport in gels; separations and drug delivery; continuum electromechanics. (Some projects in collaboration with Massachusetts General Hospital and Children's Hospital"
+p2013
+aS' Boston.)'
+p2014
+asg12
+S'alg@mit.edu'
+p2015
+sa(dp2016
+g2
+g3
+sg4
+S'Peter L. Hagelstein'
+p2017
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-hage.htm'
+p2018
+sg8
+S'Development of short wavelength lasers, numerical simulation in x-ray lasers, atomic physics and applied physics, development of a fast soft x-ray detector, topics in quantum mechanics.'
+p2019
+sg10
+(lp2020
+S'Development of short wavelength lasers'
+p2021
+aS' numerical simulation in x-ray lasers'
+p2022
+aS' atomic physics and applied physics'
+p2023
+aS' development of a fast soft x-ray detector'
+p2024
+aS' topics in quantum mechanics.'
+p2025
+asg12
+S'plh@mit.edu'
+p2026
+sa(dp2027
+g2
+g3
+sg4
+S'Jongyoon Han'
+p2028
+sg6
+S'http://www.rle.mit.edu/rleonline/People/JongyoonHan.html'
+p2029
+sg8
+S' Micro-nanofluidic systems, application of micro-nanofabrication to biological problems. Biological MEMS, biomolecular analysis.'
+p2030
+sg10
+(lp2031
+S' Micro-nanofluidic systems'
+p2032
+aS' application of micro-nanofabrication to biological problems. Biological MEMS'
+p2033
+aS' biomolecular analysis.'
+p2034
+asg12
+S'jyhan@mit.edu'
+p2035
+sa(dp2036
+g2
+g3
+sg4
+S'Qing Hu'
+p2037
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-hu.htm'
+p2038
+sg8
+S' Physics and applications of millimeter-wave, THz, and infrared devices, includin THz and infrared solid-state lasers and micromachined millimeter-wave focal-plane sensor arrays.'
+p2039
+sg10
+(lp2040
+S' Physics and applications of millimeter-wave'
+p2041
+aS' THz'
+p2042
+aS' and infrared devices'
+p2043
+aS' includin THz and infrared solid-state lasers and micromachined millimeter-wave focal-plane sensor arrays.'
+p2044
+asg12
+S'qhu@mit.edu'
+p2045
+sa(dp2046
+g2
+g3
+sg4
+S'Piotr Indyk'
+p2047
+sg6
+S'http://theory.lcs.mit.edu/~indyk/'
+p2048
+sg8
+S' Computational geometry, especially in high-dimensional spaces; databases and information retrieval; learning theory; design and analysis of algorithms.'
+p2049
+sg10
+(lp2050
+S' Computational geometry'
+p2051
+aS' especially in high-dimensional spaces; databases and information retrieval; learning theory; design and analysis of algorithms.'
+p2052
+asg12
+S'indyk@theory.lcs.mit.edu'
+p2053
+sa(dp2054
+g2
+g3
+sg4
+S'Tommi Jaakkola'
+p2055
+sg6
+S'http://people.csail.mit.edu/tommi/'
+p2056
+sg8
+S'Kernel methods and their combination with graphical models. Primary application areas are molecular biology (protein sequence analysis, gene identification), large scale (medical) diagnosis problems, and currently to a lesser degree problems in vision and speech.'
+p2057
+sg10
+(lp2058
+S'Kernel methods and their combination with graphical models. Primary application areas are molecular biology (protein sequence analysis'
+p2059
+aS' gene identification)'
+p2060
+aS' large scale (medical) diagnosis problems'
+p2061
+aS' and currently to a lesser degree problems in vision and speech.'
+p2062
+asg12
+S'tommi@mit.edu'
+p2063
+sa(dp2064
+g2
+g3
+sg4
+S'Daniel N. Jackson'
+p2065
+sg6
+S'http://people.csail.mit.edu/dnj/'
+p2066
+sg8
+S' Software design; languages, analysis, methods and tools; programming languages, types, static analysis; model checking.'
+p2067
+sg10
+(lp2068
+S' Software design; languages'
+p2069
+aS' analysis'
+p2070
+aS' methods and tools; programming languages'
+p2071
+aS' types'
+p2072
+aS' static analysis; model checking.'
+p2073
+asg12
+S'dnj@lcs.mit.edu'
+p2074
+sa(dp2075
+g2
+g3
+sg4
+S'Leslie P. Kaelbling'
+p2076
+sg6
+S'http://www.ai.mit.edu/people/lpk/lpk.html'
+p2077
+sg8
+S' Behavior learning, visually-guided map learning for mobile robots, planning in very large stochastic domains, learning relational models.'
+p2078
+sg10
+(lp2079
+S' Behavior learning'
+p2080
+aS' visually-guided map learning for mobile robots'
+p2081
+aS' planning in very large stochastic domains'
+p2082
+aS' learning relational models.'
+p2083
+asg12
+S'lpk@ai.mit.edu'
+p2084
+sa(dp2085
+g2
+g3
+sg4
+S'Leslie A. Kolodziejski'
+p2086
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-kolo.htm'
+p2087
+sg8
+S'Compound semiconductor materials, novel heterostructures, devices and device physics, heteroepitaxial growth processes and advanced fabrication technology.'
+p2088
+sg10
+(lp2089
+S'Compound semiconductor materials'
+p2090
+aS' novel heterostructures'
+p2091
+aS' devices and device physics'
+p2092
+aS' heteroepitaxial growth processes and advanced fabrication technology.'
+p2093
+asg12
+S'leskolo@mit.edu'
+p2094
+sa(dp2095
+g2
+g3
+sg4
+S'Jing Kong'
+p2096
+sg6
+S'http://www.rle.mit.edu/rleonline/People/JingKong.html'
+p2097
+sg8
+S'Chemical syntheses/device fabrication of low dimension materials, low temperature transport measurement and characterization and functional nano-devices.'
+p2098
+sg10
+(lp2099
+S'Chemical syntheses/device fabrication of low dimension materials'
+p2100
+aS' low temperature transport measurement and characterization and functional nano-devices.'
+p2101
+asg12
+S'jingkong@mit.edu'
+p2102
+sa(dp2103
+g2
+g3
+sg4
+S'Jeffrey H. Lang'
+p2104
+sg6
+S'http://eecsfacweb.mit.edu/facpages/lang.html'
+p2105
+sg8
+S'Analysis, design, and control of physical systems, emphasis on electromechanical systems, applications include traditional electric machines, micromotors and flexible structures, digital control and manufacturing.'
+p2106
+sg10
+(lp2107
+S'Analysis'
+p2108
+aS' design'
+p2109
+aS' and control of physical systems'
+p2110
+aS' emphasis on electromechanical systems'
+p2111
+aS' applications include traditional electric machines'
+p2112
+aS' micromotors and flexible structures'
+p2113
+aS' digital control and manufacturing.'
+p2114
+asg12
+S'lang@mit.edu'
+p2115
+sa(dp2116
+g2
+g3
+sg4
+S'Hae-Seung Lee'
+p2117
+sg6
+S'http://www-mtl.mit.edu/researchgroups/hslee/'
+p2118
+sg8
+S'Research in analog integrated circuits in CMOS and BiCMOS technologies. Implementation of early vision algorithms in CCD and resistive fuse circuits.'
+p2119
+sg10
+(lp2120
+g2119
+asg12
+S'hslee@mtl.mit.edu'
+p2121
+sa(dp2122
+g2
+g3
+sg4
+S'Steven B. Leeb'
+p2123
+sg6
+S'http://web.mit.edu/lees-lab/www/full/faculty/leeb00.html'
+p2124
+sg8
+S'Design, analysis, construction, control, and monitoring of servomechanical actuators and mechatronic systems; application of exotic materials including gel polymers to actuator construction.'
+p2125
+sg10
+(lp2126
+S'Design'
+p2127
+aS' analysis'
+p2128
+aS' construction'
+p2129
+aS' control'
+p2130
+aS' and monitoring of servomechanical actuators and mechatronic systems; application of exotic materials including gel polymers to actuator construction.'
+p2131
+asg12
+S'sbleeb@mit.edu'
+p2132
+sa(dp2133
+g2
+g3
+sg4
+S'Jae S. Lim'
+p2134
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-jlim.htm'
+p2135
+sg8
+S'Video processing; advanced television systems; image processing; image restoration, enhancement and coding; speech processing; enhancement and time scale modification of speech; theories of digital signal processing; audio processing; coding.'
+p2136
+sg10
+(lp2137
+S'Video processing; advanced television systems; image processing; image restoration'
+p2138
+aS' enhancement and coding; speech processing; enhancement and time scale modification of speech; theories of digital signal processing; audio processing; coding.'
+p2139
+asg12
+S'lim@image.mit.edu'
+p2140
+sa(dp2141
+g2
+g3
+sg4
+S'Timothy K. Lu'
+p2142
+sg6
+S'http://www.rle.mit.edu/sbg/'
+p2143
+sg8
+S' Construction of synthetic organisms and fundamental gene circuits using engineering principles and quantitative designs; development of new clinical therapeutics for cancers and protein-misfolding disorders; using synthetic biology to produce renewable energy; study of the human microbiome.'
+p2144
+sg10
+(lp2145
+g2144
+asg12
+S'timlu@mit.edu'
+p2146
+sa(dp2147
+g2
+g3
+sg4
+S'Sam R. Madden'
+p2148
+sg6
+S'http://astragalus.lcs.mit.edu/madden/'
+p2149
+sg8
+S' Databases and computer systems; query processing, distributed systems, management of streaming data, adaptive data processing, sensor networking.'
+p2150
+sg10
+(lp2151
+S' Databases and computer systems; query processing'
+p2152
+aS' distributed systems'
+p2153
+aS' management of streaming data'
+p2154
+aS' adaptive data processing'
+p2155
+aS' sensor networking.'
+p2156
+asg12
+S'madden@csail.mit.edu'
+p2157
+sa(dp2158
+g2
+g3
+sg4
+S'Roger G. Mark'
+p2159
+sg6
+S'http://hst.mit.edu/public/people/faculty/facultyBiosketch.jsp?key=Mark'
+p2160
+sg8
+S'Biomedical engineering with emphasis on clinical applications of instrumentation and data processing, medical care delivery systems, electrocardiography, real-time arrhythmia analysis, cardiovascular physiology; collaboration at Beth Israel Hospital.'
+p2161
+sg10
+(lp2162
+S'Biomedical engineering with emphasis on clinical applications of instrumentation and data processing'
+p2163
+aS' medical care delivery systems'
+p2164
+aS' electrocardiography'
+p2165
+aS' real-time arrhythmia analysis'
+p2166
+aS' cardiovascular physiology; collaboration at Beth Israel Hospital.'
+p2167
+asg12
+S'rgmark@mit.edu'
+p2168
+sa(dp2169
+g2
+g3
+sg4
+S'Muriel Medard'
+p2170
+sg6
+S'http://www.mit.edu/~medard/medard.html'
+p2171
+sg8
+S" Wireless systems' capacity and fading channels. Optical networks, network robustness and reliability."
+p2172
+sg10
+(lp2173
+S" Wireless systems' capacity and fading channels. Optical networks"
+p2174
+aS' network robustness and reliability.'
+p2175
+asg12
+S'medard@mit.edu'
+p2176
+sa(dp2177
+g2
+g3
+sg4
+S'Silvio Micali'
+p2178
+sg6
+S'http://www.lcs.mit.edu/people/bioprint.php3?PeopleID=297'
+p2179
+sg8
+S'Cryptography, secure protocols, and computational complexity theory.'
+p2180
+sg10
+(lp2181
+S'Cryptography'
+p2182
+aS' secure protocols'
+p2183
+aS' and computational complexity theory.'
+p2184
+asg12
+S'micali@theory.lcs.mit.edu'
+p2185
+sa(dp2186
+g2
+g3
+sg4
+S'Robert C. Miller'
+p2187
+sg6
+S'http://graphics.lcs.mit.edu/~rcm/'
+p2188
+sg8
+S' Human-computer interfaces, intelligent interfaces, programming by demonstration, end-user programming languages, usability, software engineering.'
+p2189
+sg10
+(lp2190
+S' Human-computer interfaces'
+p2191
+aS' intelligent interfaces'
+p2192
+aS' programming by demonstration'
+p2193
+aS' end-user programming languages'
+p2194
+aS' usability'
+p2195
+aS' software engineering.'
+p2196
+asg12
+S'rcm@lcs.mit.edu'
+p2197
+sa(dp2198
+g2
+g3
+sg4
+S'Robert T. Morris'
+p2199
+sg6
+S'http://www.pdos.lcs.mit.edu/~rtm/'
+p2200
+sg8
+S' The design of an easy to control data networking infrastructure designed to bring about a new level of flexibility to network configuration. The Resilient Overlay Networks Project. Grid routing protocols.'
+p2201
+sg10
+(lp2202
+g2201
+asg12
+S'rtm@lcs.mit.edu'
+p2203
+sa(dp2204
+g2
+g3
+sg4
+S'Joel Moses'
+p2205
+sg6
+S'http://www.lcs.mit.edu/people/bioprint.php3?PeopleID=318'
+p2206
+sg8
+S'Theories of organization, algebraic manipulation, artificial intelligence, knowledge-based computer systems in education.'
+p2207
+sg10
+(lp2208
+S'Theories of organization'
+p2209
+aS' algebraic manipulation'
+p2210
+aS' artificial intelligence'
+p2211
+aS' knowledge-based computer systems in education.'
+p2212
+asg12
+S'moses@mit.edu'
+p2213
+sa(dp2214
+g2
+g3
+sg4
+S'Terry P. Orlando'
+p2215
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-orla.htm'
+p2216
+sg8
+S'Properties of superconductors in high magnetic fields, fabrication of thin films of superconductors, superconducting devices, quantum effect devices in semiconductors, arrays of Josephson junctions.'
+p2217
+sg10
+(lp2218
+S'Properties of superconductors in high magnetic fields'
+p2219
+aS' fabrication of thin films of superconductors'
+p2220
+aS' superconducting devices'
+p2221
+aS' quantum effect devices in semiconductors'
+p2222
+aS' arrays of Josephson junctions.'
+p2223
+asg12
+S'orlando@mit.edu'
+p2224
+sa(dp2225
+g2
+g3
+sg4
+S'Ronald R. Parker'
+p2226
+sg6
+S'http://web.mit.edu/ned/www/people/faculty/parker.html'
+p2227
+sg8
+S'Plasma problems relevant to controlled thermonuclear fusion, including confinement, heating, and impurity control in high temperature plasmas.'
+p2228
+sg10
+(lp2229
+S'Plasma problems relevant to controlled thermonuclear fusion'
+p2230
+aS' including confinement'
+p2231
+aS' heating'
+p2232
+aS' and impurity control in high temperature plasmas.'
+p2233
+asg12
+S'parker@ipsfc.mit.edu'
+p2234
+sa(dp2235
+g2
+g3
+sg4
+S'Pablo Parrilo'
+p2236
+sg6
+S'http://lids.mit.edu/people/faculty/parrilo-pablo.html'
+p2237
+sg8
+S'Control and identification of uncertain complex systems, robustness analysis and synthesis, and the development and application of computational tools based on convex optimization and algorithmic algebra to practically relevant problems in engineering, economics and physics.'
+p2238
+sg10
+(lp2239
+S'Control and identification of uncertain complex systems'
+p2240
+aS' robustness analysis and synthesis'
+p2241
+aS' and the development and application of computational tools based on convex optimization and algorithmic algebra to practically relevant problems in engineering'
+p2242
+aS' economics and physics.'
+p2243
+asg12
+S'parillo@mit.edu'
+p2244
+sa(dp2245
+g2
+g3
+sg4
+S'Martin C. Rinard'
+p2246
+sg6
+S'http://cag.lcs.mit.edu/~rinard/'
+p2247
+sg8
+S'Compilers; program analysis; reconfigurable computing; hardware compilation.'
+p2248
+sg10
+(lp2249
+g2248
+asg12
+S'martin@lcs.mit.edu'
+p2250
+sa(dp2251
+g2
+g3
+sg4
+S'Ronitt Rubinfield'
+p2252
+sg6
+S'http://theory.lcs.mit.edu/~ronitt/'
+p2253
+sg8
+S' Randomized algorithms, sublinear time algorithms, computational complexity theory.'
+p2254
+sg10
+(lp2255
+S' Randomized algorithms'
+p2256
+aS' sublinear time algorithms'
+p2257
+aS' computational complexity theory.'
+p2258
+asg12
+S'ronitt@csail.mit.edu'
+p2259
+sa(dp2260
+g2
+g3
+sg4
+S'Daniela Rus'
+p2261
+sg6
+S'http://www.csail.mit.edu/user/876'
+p2262
+sg8
+S'Robotics, mobile computing and information access.'
+p2263
+sg10
+(lp2264
+S'Robotics'
+p2265
+aS' mobile computing and information access.'
+p2266
+asg12
+S'rus@csail.mit.edu'
+p2267
+sa(dp2268
+g2
+g3
+sg4
+S'Rahul Sarpeshkar'
+p2269
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-sarp.htm'
+p2270
+sg8
+S' Low power analog VLSI. Building biologically inspired sensory and mixed-signal computing systems, and bionics for the deaf and blind. All projects require interest and expertise in analog circuits, feedback, and low power design.'
+p2271
+sg10
+(lp2272
+S' Low power analog VLSI. Building biologically inspired sensory and mixed-signal computing systems'
+p2273
+aS' and bionics for the deaf and blind. All projects require interest and expertise in analog circuits'
+p2274
+aS' feedback'
+p2275
+aS' and low power design.'
+p2276
+asg12
+S'rahuls@mit.edu'
+p2277
+sa(dp2278
+g2
+g3
+sg4
+S'Tedrake'
+p2279
+sg6
+S'http://www.csail.mit.edu/user/833'
+p2280
+sg8
+S'Machine learning and robotics, including reinforcement learning, optimal control, legged robots, flapping-wing flight, non-linear control theory, biological motor control, and computational neuroscience. Particular emphasis on solving difficult robotic control problems through a close coupling of mechanical design and learning control.'
+p2281
+sg10
+(lp2282
+S'Machine learning and robotics'
+p2283
+aS' including reinforcement learning'
+p2284
+aS' optimal control'
+p2285
+aS' legged robots'
+p2286
+aS' flapping-wing flight'
+p2287
+aS' non-linear control theory'
+p2288
+aS' biological motor control'
+p2289
+aS' and computational neuroscience. Particular emphasis on solving difficult robotic control problems through a close coupling of mechanical design and learning control.'
+p2290
+asg12
+S'russt@csail.mit.edu'
+p2291
+sa(dp2292
+g2
+g3
+sg4
+S'Christopher Terman'
+p2293
+sg6
+S'http://www.csail.mit.edu/user/660'
+p2294
+sg8
+S'Computer and DSP architectures; VLSI circuits, design methodologies and CAD tools; circuit simulation; computer languages.'
+p2295
+sg10
+(lp2296
+S'Computer and DSP architectures; VLSI circuits'
+p2297
+aS' design methodologies and CAD tools; circuit simulation; computer languages.'
+p2298
+asg12
+S'cjt@mit.edu'
+p2299
+sa(dp2300
+g2
+g3
+sg4
+S'Bruce Tidor'
+p2301
+sg6
+S'http://mit.edu/tidor/'
+p2302
+sg8
+S'Modeling of protein-protein interactions, focusing on electrostatic effects and structure-based drug design. Systems-level biology including biological network modeling and analysis.'
+p2303
+sg10
+(lp2304
+S'Modeling of protein-protein interactions'
+p2305
+aS' focusing on electrostatic effects and structure-based drug design. Systems-level biology including biological network modeling and analysis.'
+p2306
+asg12
+S'tidor@mit.edu'
+p2307
+sa(dp2308
+g2
+g3
+sg4
+S'George C. Verghese'
+p2309
+sg6
+S'http://eecsfacweb.mit.edu/facpages/verghese.html'
+p2310
+sg8
+S'Dynamic systems; switched/periodic systems; estimation, control, signal processing; applications, especially power electronics, power systems, and electrical machines.'
+p2311
+sg10
+(lp2312
+S'Dynamic systems; switched/periodic systems; estimation'
+p2313
+aS' control'
+p2314
+aS' signal processing; applications'
+p2315
+aS' especially power electronics'
+p2316
+aS' power systems'
+p2317
+aS' and electrical machines.'
+p2318
+asg12
+S'verghese@mit.edu'
+p2319
+sa(dp2320
+g2
+g3
+sg4
+S'Joel Voldman'
+p2321
+sg6
+S'http://www.rle.mit.edu/voldman/'
+p2322
+sg8
+S' Biological applications of microtechnology, especially to cell biology; bioMEMS; electrostatics at the microscale.'
+p2323
+sg10
+(lp2324
+S' Biological applications of microtechnology'
+p2325
+aS' especially to cell biology; bioMEMS; electrostatics at the microscale.'
+p2326
+asg12
+S'voldman@mit.edu'
+p2327
+sa(dp2328
+g2
+g3
+sg4
+S'Stephen A. Ward'
+p2329
+sg6
+S'http://www.csail.mit.edu/user/1517'
+p2330
+sg8
+S'Computer architectures and operating systems.'
+p2331
+sg10
+(lp2332
+g2331
+asg12
+S'ward@mit.edu'
+p2333
+sa(dp2334
+g2
+g3
+sg4
+S'Cardinal Warde'
+p2335
+sg6
+S'http://web.mit.edu/invent/iow/warde.html'
+p2336
+sg8
+S'Materials, devices and systems for optical information processing; photorefractive materials, spatial light modulators, symbolic optical computers.'
+p2337
+sg10
+(lp2338
+S'Materials'
+p2339
+aS' devices and systems for optical information processing; photorefractive materials'
+p2340
+aS' spatial light modulators'
+p2341
+aS' symbolic optical computers.'
+p2342
+asg12
+S'warde@mtl.mit.edu'
+p2343
+sa(dp2344
+g2
+g3
+sg4
+S'Ron Weiss'
+p2345
+sg6
+S'http://people.csail.mit.edu/rweiss/'
+p2346
+sg8
+S'Sythetic Biology, Construction and analysis of synthetic gene networks. Use of computer engineering princoples of abstraction, composition, and interface specifications to program cells with sensors and actuators precisely controlled by analog and digital logic circuity. Emphasis on establishing the engineering foundation for synthetic biology and the pursuit of novel applications enabled by the technology (e.g. programmed tissue engineering diabetes, engineered neuronal circuits).'
+p2347
+sg10
+(lp2348
+S'Sythetic Biology'
+p2349
+aS' Construction and analysis of synthetic gene networks. Use of computer engineering princoples of abstraction'
+p2350
+aS' composition'
+p2351
+aS' and interface specifications to program cells with sensors and actuators precisely controlled by analog and digital logic circuity. Emphasis on establishing the engineering foundation for synthetic biology and the pursuit of novel applications enabled by the technology (e.g. programmed tissue engineering diabetes'
+p2352
+aS' engineered neuronal circuits).'
+p2353
+asg12
+S'rweiss@mit.edu'
+p2354
+sa(dp2355
+g2
+g3
+sg4
+S'John L. Wyatt'
+p2356
+sg6
+S'http://www.rle.mit.edu/rleonline/People/JohnL.Wyatt.html'
+p2357
+sg8
+S'Analog VLSI for machine vision, dynamics of nonlinear circuits and systems, neural networks; implantable retinal prosthesis.'
+p2358
+sg10
+(lp2359
+S'Analog VLSI for machine vision'
+p2360
+aS' dynamics of nonlinear circuits and systems'
+p2361
+aS' neural networks; implantable retinal prosthesis.'
+p2362
+asg12
+S'wyatt@rle-vlsi.mit.edu'
+p2363
+sa(dp2364
+g2
+g3
+sg4
+S'Nikolai Zeldovich'
+p2365
+sg6
+S'http://www.csail.mit.edu/user/1705'
+p2366
+sg8
+S'Building practical secure systems. Operating systems, hardware designs, networking, and distributing systems. Programming language and tools, secutiry analysis and verification.'
+p2367
+sg10
+(lp2368
+S'Building practical secure systems. Operating systems'
+p2369
+aS' hardware designs'
+p2370
+aS' networking'
+p2371
+aS' and distributing systems. Programming language and tools'
+p2372
+aS' secutiry analysis and verification.'
+p2373
+asg12
+S'nickolai@mit.edu'
+p2374
+sa(dp2375
+g2
+g3
+sg4
+S'Lizhong Zheng'
+p2376
+sg6
+S'http://www.rle.mit.edu/rleonline/People/LizhongZheng.html'
+p2377
+sg8
+S'Wireless communications, from physical layer designs to wireless networks; space-time processing, digital communications, multi-user detection algorithms, information theory, stochastic signal processing, optical communications.'
+p2378
+sg10
+(lp2379
+S'Wireless communications'
+p2380
+aS' from physical layer designs to wireless networks; space-time processing'
+p2381
+aS' digital communications'
+p2382
+aS' multi-user detection algorithms'
+p2383
+aS' information theory'
+p2384
+aS' stochastic signal processing'
+p2385
+aS' optical communications.'
+p2386
+asg12
+S'lizhong@mit.edu'
+p2387
+sa(dp2388
+g2
+g3
+sg4
+S'Joel E. Schindall'
+p2389
+sg6
+S'http://eecsfacweb.mit.edu/facpages/schindall.html'
+p2390
+sg8
+S'Development of nanotube-enhanced ultracapacitor as an improved electrical energy storage device (and potential electrochemical battery replacement),design methods for complex fault-tolerant systems (including steer-by-wire), improving automobile performance through electronics, application of time interval domain processing to electrocardiograms and encephalograms.'
+p2391
+sg10
+(lp2392
+S'Development of nanotube-enhanced ultracapacitor as an improved electrical energy storage device (and potential electrochemical battery replacement)'
+p2393
+aS'design methods for complex fault-tolerant systems (including steer-by-wire)'
+p2394
+aS' improving automobile performance through electronics'
+p2395
+aS' application of time interval domain processing to electrocardiograms and encephalograms.'
+p2396
+asg12
+S'joels@mit.edu'
+p2397
+sa(dp2398
+g2
+g3
+sg4
+S'Akintunde I. Akinwande'
+p2399
+sg6
+S'http://www-mtl.mit.edu/~akinwand/index.html'
+p2400
+sg8
+S'Vacuum microelectronic devices and applications to flat-panel displays, RF amplifiers and sensors. Wide bandgap semiconductor devices. Micromachining.'
+p2401
+sg10
+(lp2402
+S'Vacuum microelectronic devices and applications to flat-panel displays'
+p2403
+aS' RF amplifiers and sensors. Wide bandgap semiconductor devices. Micromachining.'
+p2404
+asg12
+S'akinwand@mtl.mit.edu'
+p2405
+sa(dp2406
+g2
+g3
+sg4
+S'Dimitri A. Antoniadis'
+p2407
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-anto.htm'
+p2408
+sg8
+S'Devices and ICs, solid state submicrometer feature devices, process and device modeling, computer aids for IC technology design and fabrication. '
+p2409
+sg10
+(lp2410
+S'Devices and ICs'
+p2411
+aS' solid state submicrometer feature devices'
+p2412
+aS' process and device modeling'
+p2413
+aS' computer aids for IC technology design and fabrication. '
+p2414
+asg12
+S'antoniadis@mtl.mit.edu'
+p2415
+sa(dp2416
+g2
+g3
+sg4
+S'Arthur B. Baggeroer'
+p2417
+sg6
+S'http://acoustics.mit.edu/faculty/abb/www/home.html'
+p2418
+sg8
+S'Sonar, seismic, and underwater acoustics; signal processing for oceanographic data systems, space/time and distributed random processes; array processing; acoustic telemetry.'
+p2419
+sg10
+(lp2420
+S'Sonar'
+p2421
+aS' seismic'
+p2422
+aS' and underwater acoustics; signal processing for oceanographic data systems'
+p2423
+aS' space/time and distributed random processes; array processing; acoustic telemetry.'
+p2424
+asg12
+S'abb@arctic.mit.edu'
+p2425
+sa(dp2426
+g2
+g3
+sg4
+S'Marc A. Baldo'
+p2427
+sg6
+S'http://www.rle.mit.edu/organic/faculty.html#marc'
+p2428
+sg8
+S' Molecular electronics, integration of biological materials and conventional electronics, novel nano organic transistors; charge transport and injection in organic materials, energy transfer, high density phenomena, and exciton spin selection.'
+p2429
+sg10
+(lp2430
+S' Molecular electronics'
+p2431
+aS' integration of biological materials and conventional electronics'
+p2432
+aS' novel nano organic transistors; charge transport and injection in organic materials'
+p2433
+aS' energy transfer'
+p2434
+aS' high density phenomena'
+p2435
+aS' and exciton spin selection.'
+p2436
+asg12
+S'baldo@mit.edu'
+p2437
+sa(dp2438
+g2
+g3
+sg4
+S'Regina A. Barzilay'
+p2439
+sg6
+S'http://people.csail.mit.edu/regina/'
+p2440
+sg8
+S' Natural language processing.'
+p2441
+sg10
+(lp2442
+g2441
+asg12
+S'regina@csail.mit.edu '
+p2443
+sa(dp2444
+g2
+g3
+sg4
+S'Karl K. Berggren'
+p2445
+sg6
+S'http://nanoweb.mit.edu/users/berggren/people.html#KB'
+p2446
+sg8
+S'Nanofabrication methods. Superconductive quantum computing devices. Nanowire single-photon detectors. Reconfigurable analog circuits.'
+p2447
+sg10
+(lp2448
+g2447
+asg12
+S'berggren@mit.edu'
+p2449
+sa(dp2450
+g2
+g3
+sg4
+S'Robert C. Berwick'
+p2451
+sg6
+S'http://www.ai.mit.edu/projects/cbcl/people/berwick/homepage.html'
+p2452
+sg8
+S'Natural language processing: computer models of language acquisition and parsing; artificial intelligence: formal models of learning, including inductive inference and computational complexity analysis of language; cognitive science: word learning, semantics of natural languages, speech.'
+p2453
+sg10
+(lp2454
+S'Natural language processing: computer models of language acquisition and parsing; artificial intelligence: formal models of learning'
+p2455
+aS' including inductive inference and computational complexity analysis of language; cognitive science: word learning'
+p2456
+aS' semantics of natural languages'
+p2457
+aS' speech.'
+p2458
+asg12
+S'berwick@ai.mit.edu'
+p2459
+sa(dp2460
+g2
+g3
+sg4
+S'Louis D. Braida'
+p2461
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-brai.htm'
+p2462
+sg8
+S'Development of improved hearing aids, tactile aids for the deaf and cochlear implants, study of auditory function and speechreading.'
+p2463
+sg10
+(lp2464
+S'Development of improved hearing aids'
+p2465
+aS' tactile aids for the deaf and cochlear implants'
+p2466
+aS' study of auditory function and speechreading.'
+p2467
+asg12
+S'braid@mit.edu'
+p2468
+sa(dp2469
+g2
+g3
+sg4
+S'Vincent W.S. Chan'
+p2470
+sg6
+S'http://web.mit.edu/chan/www/'
+p2471
+sg8
+S'Optical, wireless and space communications and networks. Architecture, technology, system designs, and testbed implementations. New technology, architectures and applications.'
+p2472
+sg10
+(lp2473
+S'Optical'
+p2474
+aS' wireless and space communications and networks. Architecture'
+p2475
+aS' technology'
+p2476
+aS' system designs'
+p2477
+aS' and testbed implementations. New technology'
+p2478
+aS' architectures and applications.'
+p2479
+asg12
+S'chan@mit.edu'
+p2480
+sa(dp2481
+g2
+g3
+sg4
+S'Constantinos Daskalakis'
+p2482
+sg6
+S'http://www.csail.mit.edu/user/1825'
+p2483
+sg8
+S'Theory of Computation. The interdisciplinary fields of algorithmic game theory, Computational biology, social networks and applied probability.'
+p2484
+sg10
+(lp2485
+S'Theory of Computation. The interdisciplinary fields of algorithmic game theory'
+p2486
+aS' Computational biology'
+p2487
+aS' social networks and applied probability.'
+p2488
+asg12
+S'costis@csail.mit.edu'
+p2489
+sa(dp2490
+g2
+g3
+sg4
+S'Erik D. Demaine'
+p2491
+sg6
+S'http://erikdemaine.org/'
+p2492
+sg8
+S' Algorithms and data structures. Discrete and computational geometry. Combinatorial games. '
+p2493
+sg10
+(lp2494
+g2493
+asg12
+S'edemaine@mit.edu'
+p2495
+sa(dp2496
+g2
+g3
+sg4
+S'Mildred S. Dresselhaus'
+p2497
+sg6
+S'http://eecs-pc-05.mit.edu/index.html'
+p2498
+sg8
+S'Electronic materials engineering; electronic, lattice, structural properties, semimetals, semiconductors, metals, intercalation compounds, ion implantation, graphite fibers, high Tc superconductivity, C60 balls and tubules.'
+p2499
+sg10
+(lp2500
+S'Electronic materials engineering; electronic'
+p2501
+aS' lattice'
+p2502
+aS' structural properties'
+p2503
+aS' semimetals'
+p2504
+aS' semiconductors'
+p2505
+aS' metals'
+p2506
+aS' intercalation compounds'
+p2507
+aS' ion implantation'
+p2508
+aS' graphite fibers'
+p2509
+aS' high Tc superconductivity'
+p2510
+aS' C60 balls and tubules.'
+p2511
+asg12
+S'millie@mgm.mit.edu'
+p2512
+sa(dp2513
+g2
+g3
+sg4
+S'Frederic Durand'
+p2514
+sg6
+S'http://people.csail.mit.edu/fredo/'
+p2515
+sg8
+S' Image generation and creation; realistic rendering, real-time graphics, perceptually-based algorithms, non-photorealistic rendering, image-based rendering and editing.'
+p2516
+sg10
+(lp2517
+S' Image generation and creation; realistic rendering'
+p2518
+aS' real-time graphics'
+p2519
+aS' perceptually-based algorithms'
+p2520
+aS' non-photorealistic rendering'
+p2521
+aS' image-based rendering and editing.'
+p2522
+asg12
+S'fredo@lcs.mit.edu'
+p2523
+sa(dp2524
+g2
+g3
+sg4
+S'Clifton G. Fonstad'
+p2525
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-fons.htm'
+p2526
+sg8
+S'Compound semiconductor heterostructure devices and physics, heteroepitaxy, quantum well/tunnel barrier devices, quantum well lasers, hetrojunction bipolar transistors, optoelectronic integration, in situ processing.'
+p2527
+sg10
+(lp2528
+S'Compound semiconductor heterostructure devices and physics'
+p2529
+aS' heteroepitaxy'
+p2530
+aS' quantum well/tunnel barrier devices'
+p2531
+aS' quantum well lasers'
+p2532
+aS' hetrojunction bipolar transistors'
+p2533
+aS' optoelectronic integration'
+p2534
+aS' in situ processing.'
+p2535
+asg12
+S'fonstad@mit.edu'
+p2536
+sa(dp2537
+g2
+g3
+sg4
+S'William T. Freeman'
+p2538
+sg6
+S'http://www.ai.mit.edu/people/wtf/'
+p2539
+sg8
+S' Machine learning applied to computer vision and computer graphics. Bayesian belief propagation and its generalizations. Bayesian models of visual perception.'
+p2540
+sg10
+(lp2541
+g2540
+asg12
+S'billf@mit.edu'
+p2542
+sa(dp2543
+g2
+g3
+sg4
+S'James G. Fujimoto'
+p2544
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-fuji.htm'
+p2545
+sg8
+S'Picosecond and femtosecond lasers and techniques; applications to materials, semiconductors and electronic and optoelectronic devices; laser medicine, medical diagnostics, laser surgery.'
+p2546
+sg10
+(lp2547
+S'Picosecond and femtosecond lasers and techniques; applications to materials'
+p2548
+aS' semiconductors and electronic and optoelectronic devices; laser medicine'
+p2549
+aS' medical diagnostics'
+p2550
+aS' laser surgery.'
+p2551
+asg12
+S'jgfuji@mit.edu'
+p2552
+sa(dp2553
+g2
+g3
+sg4
+S'David K. Gifford'
+p2554
+sg6
+S'http://www.psrg.lcs.mit.edu/people/gifford.html'
+p2555
+sg8
+S'Computational and systems biology, computational functional genomics. Expression of scientific models in computational form. Machine Learning.'
+p2556
+sg10
+(lp2557
+S'Computational and systems biology'
+p2558
+aS' computational functional genomics. Expression of scientific models in computational form. Machine Learning.'
+p2559
+asg12
+S'gifford@mit.edu'
+p2560
+sa(dp2561
+g2
+g3
+sg4
+S'Polina Golland'
+p2562
+sg6
+S'http://people.csail.mit.edu/polina/'
+p2563
+sg8
+S' Developing novel techniques for image analysis and understanding. Statistical modeling, shape representation. Medical and biological imaging applications.'
+p2564
+sg10
+(lp2565
+S' Developing novel techniques for image analysis and understanding. Statistical modeling'
+p2566
+aS' shape representation. Medical and biological imaging applications.'
+p2567
+asg12
+S'polina@csail.mit.edu'
+p2568
+sa(dp2569
+g2
+g3
+sg4
+S'Martha Gray'
+p2570
+sg6
+S'http://hst-hu-mit.mit.edu/people/research/m_gray.html'
+p2571
+sg8
+S'Electrical, mechanical and chemical mediators of connective tissue growth and development, ion partitioning and transport in biological tissue, NMR spectroscopy and imaging, development of silicon micromachined tools for biological applications.'
+p2572
+sg10
+(lp2573
+S'Electrical'
+p2574
+aS' mechanical and chemical mediators of connective tissue growth and development'
+p2575
+aS' ion partitioning and transport in biological tissue'
+p2576
+aS' NMR spectroscopy and imaging'
+p2577
+aS' development of silicon micromachined tools for biological applications.'
+p2578
+asg12
+S'mgrag@mit.edu'
+p2579
+sa(dp2580
+g2
+g3
+sg4
+S'Alan J. Grodzinsky'
+p2581
+sg6
+S'http://www-me.mit.edu/people/personal/alg.htm'
+p2582
+sg8
+S"Electrical, mechanical and chemical regulation of biological tissues; physical modulation of cell metabolism, cartilage degradation in arthritis and its diagnosis; electric field control of transport in gels; separations and drug delivery; continuum electromechanics. (Some projects in collaboration with Massachusetts General Hospital and Children's Hospital, Boston.)"
+p2583
+sg10
+(lp2584
+S'Electrical'
+p2585
+aS' mechanical and chemical regulation of biological tissues; physical modulation of cell metabolism'
+p2586
+aS" cartilage degradation in arthritis and its diagnosis; electric field control of transport in gels; separations and drug delivery; continuum electromechanics. (Some projects in collaboration with Massachusetts General Hospital and Children's Hospital"
+p2587
+aS' Boston.)'
+p2588
+asg12
+S'alg@mit.edu'
+p2589
+sa(dp2590
+g2
+g3
+sg4
+S'Peter L. Hagelstein'
+p2591
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-hage.htm'
+p2592
+sg8
+S'Development of short wavelength lasers, numerical simulation in x-ray lasers, atomic physics and applied physics, development of a fast soft x-ray detector, topics in quantum mechanics.'
+p2593
+sg10
+(lp2594
+S'Development of short wavelength lasers'
+p2595
+aS' numerical simulation in x-ray lasers'
+p2596
+aS' atomic physics and applied physics'
+p2597
+aS' development of a fast soft x-ray detector'
+p2598
+aS' topics in quantum mechanics.'
+p2599
+asg12
+S'plh@mit.edu'
+p2600
+sa(dp2601
+g2
+g3
+sg4
+S'Jongyoon Han'
+p2602
+sg6
+S'http://www.rle.mit.edu/rleonline/People/JongyoonHan.html'
+p2603
+sg8
+S' Micro-nanofluidic systems, application of micro-nanofabrication to biological problems. Biological MEMS, biomolecular analysis.'
+p2604
+sg10
+(lp2605
+S' Micro-nanofluidic systems'
+p2606
+aS' application of micro-nanofabrication to biological problems. Biological MEMS'
+p2607
+aS' biomolecular analysis.'
+p2608
+asg12
+S'jyhan@mit.edu'
+p2609
+sa(dp2610
+g2
+g3
+sg4
+S'Qing Hu'
+p2611
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-hu.htm'
+p2612
+sg8
+S' Physics and applications of millimeter-wave, THz, and infrared devices, includin THz and infrared solid-state lasers and micromachined millimeter-wave focal-plane sensor arrays.'
+p2613
+sg10
+(lp2614
+S' Physics and applications of millimeter-wave'
+p2615
+aS' THz'
+p2616
+aS' and infrared devices'
+p2617
+aS' includin THz and infrared solid-state lasers and micromachined millimeter-wave focal-plane sensor arrays.'
+p2618
+asg12
+S'qhu@mit.edu'
+p2619
+sa(dp2620
+g2
+g3
+sg4
+S'Piotr Indyk'
+p2621
+sg6
+S'http://theory.lcs.mit.edu/~indyk/'
+p2622
+sg8
+S' Computational geometry, especially in high-dimensional spaces; databases and information retrieval; learning theory; design and analysis of algorithms.'
+p2623
+sg10
+(lp2624
+S' Computational geometry'
+p2625
+aS' especially in high-dimensional spaces; databases and information retrieval; learning theory; design and analysis of algorithms.'
+p2626
+asg12
+S'indyk@theory.lcs.mit.edu'
+p2627
+sa(dp2628
+g2
+g3
+sg4
+S'Tommi Jaakkola'
+p2629
+sg6
+S'http://people.csail.mit.edu/tommi/'
+p2630
+sg8
+S'Kernel methods and their combination with graphical models. Primary application areas are molecular biology (protein sequence analysis, gene identification), large scale (medical) diagnosis problems, and currently to a lesser degree problems in vision and speech.'
+p2631
+sg10
+(lp2632
+S'Kernel methods and their combination with graphical models. Primary application areas are molecular biology (protein sequence analysis'
+p2633
+aS' gene identification)'
+p2634
+aS' large scale (medical) diagnosis problems'
+p2635
+aS' and currently to a lesser degree problems in vision and speech.'
+p2636
+asg12
+S'tommi@mit.edu'
+p2637
+sa(dp2638
+g2
+g3
+sg4
+S'Daniel N. Jackson'
+p2639
+sg6
+S'http://people.csail.mit.edu/dnj/'
+p2640
+sg8
+S' Software design; languages, analysis, methods and tools; programming languages, types, static analysis; model checking.'
+p2641
+sg10
+(lp2642
+S' Software design; languages'
+p2643
+aS' analysis'
+p2644
+aS' methods and tools; programming languages'
+p2645
+aS' types'
+p2646
+aS' static analysis; model checking.'
+p2647
+asg12
+S'dnj@lcs.mit.edu'
+p2648
+sa(dp2649
+g2
+g3
+sg4
+S'Leslie P. Kaelbling'
+p2650
+sg6
+S'http://www.ai.mit.edu/people/lpk/lpk.html'
+p2651
+sg8
+S' Behavior learning, visually-guided map learning for mobile robots, planning in very large stochastic domains, learning relational models.'
+p2652
+sg10
+(lp2653
+S' Behavior learning'
+p2654
+aS' visually-guided map learning for mobile robots'
+p2655
+aS' planning in very large stochastic domains'
+p2656
+aS' learning relational models.'
+p2657
+asg12
+S'lpk@ai.mit.edu'
+p2658
+sa(dp2659
+g2
+g3
+sg4
+S'Leslie A. Kolodziejski'
+p2660
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-kolo.htm'
+p2661
+sg8
+S'Compound semiconductor materials, novel heterostructures, devices and device physics, heteroepitaxial growth processes and advanced fabrication technology.'
+p2662
+sg10
+(lp2663
+S'Compound semiconductor materials'
+p2664
+aS' novel heterostructures'
+p2665
+aS' devices and device physics'
+p2666
+aS' heteroepitaxial growth processes and advanced fabrication technology.'
+p2667
+asg12
+S'leskolo@mit.edu'
+p2668
+sa(dp2669
+g2
+g3
+sg4
+S'Jing Kong'
+p2670
+sg6
+S'http://www.rle.mit.edu/rleonline/People/JingKong.html'
+p2671
+sg8
+S'Chemical syntheses/device fabrication of low dimension materials, low temperature transport measurement and characterization and functional nano-devices.'
+p2672
+sg10
+(lp2673
+S'Chemical syntheses/device fabrication of low dimension materials'
+p2674
+aS' low temperature transport measurement and characterization and functional nano-devices.'
+p2675
+asg12
+S'jingkong@mit.edu'
+p2676
+sa(dp2677
+g2
+g3
+sg4
+S'Jeffrey H. Lang'
+p2678
+sg6
+S'http://eecsfacweb.mit.edu/facpages/lang.html'
+p2679
+sg8
+S'Analysis, design, and control of physical systems, emphasis on electromechanical systems, applications include traditional electric machines, micromotors and flexible structures, digital control and manufacturing.'
+p2680
+sg10
+(lp2681
+S'Analysis'
+p2682
+aS' design'
+p2683
+aS' and control of physical systems'
+p2684
+aS' emphasis on electromechanical systems'
+p2685
+aS' applications include traditional electric machines'
+p2686
+aS' micromotors and flexible structures'
+p2687
+aS' digital control and manufacturing.'
+p2688
+asg12
+S'lang@mit.edu'
+p2689
+sa(dp2690
+g2
+g3
+sg4
+S'Hae-Seung Lee'
+p2691
+sg6
+S'http://www-mtl.mit.edu/researchgroups/hslee/'
+p2692
+sg8
+S'Research in analog integrated circuits in CMOS and BiCMOS technologies. Implementation of early vision algorithms in CCD and resistive fuse circuits.'
+p2693
+sg10
+(lp2694
+g2693
+asg12
+S'hslee@mtl.mit.edu'
+p2695
+sa(dp2696
+g2
+g3
+sg4
+S'Steven B. Leeb'
+p2697
+sg6
+S'http://web.mit.edu/lees-lab/www/full/faculty/leeb00.html'
+p2698
+sg8
+S'Design, analysis, construction, control, and monitoring of servomechanical actuators and mechatronic systems; application of exotic materials including gel polymers to actuator construction.'
+p2699
+sg10
+(lp2700
+S'Design'
+p2701
+aS' analysis'
+p2702
+aS' construction'
+p2703
+aS' control'
+p2704
+aS' and monitoring of servomechanical actuators and mechatronic systems; application of exotic materials including gel polymers to actuator construction.'
+p2705
+asg12
+S'sbleeb@mit.edu'
+p2706
+sa(dp2707
+g2
+g3
+sg4
+S'Jae S. Lim'
+p2708
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-jlim.htm'
+p2709
+sg8
+S'Video processing; advanced television systems; image processing; image restoration, enhancement and coding; speech processing; enhancement and time scale modification of speech; theories of digital signal processing; audio processing; coding.'
+p2710
+sg10
+(lp2711
+S'Video processing; advanced television systems; image processing; image restoration'
+p2712
+aS' enhancement and coding; speech processing; enhancement and time scale modification of speech; theories of digital signal processing; audio processing; coding.'
+p2713
+asg12
+S'lim@image.mit.edu'
+p2714
+sa(dp2715
+g2
+g3
+sg4
+S'Timothy K. Lu'
+p2716
+sg6
+S'http://www.rle.mit.edu/sbg/'
+p2717
+sg8
+S' Construction of synthetic organisms and fundamental gene circuits using engineering principles and quantitative designs; development of new clinical therapeutics for cancers and protein-misfolding disorders; using synthetic biology to produce renewable energy; study of the human microbiome.'
+p2718
+sg10
+(lp2719
+g2718
+asg12
+S'timlu@mit.edu'
+p2720
+sa(dp2721
+g2
+g3
+sg4
+S'Sam R. Madden'
+p2722
+sg6
+S'http://astragalus.lcs.mit.edu/madden/'
+p2723
+sg8
+S' Databases and computer systems; query processing, distributed systems, management of streaming data, adaptive data processing, sensor networking.'
+p2724
+sg10
+(lp2725
+S' Databases and computer systems; query processing'
+p2726
+aS' distributed systems'
+p2727
+aS' management of streaming data'
+p2728
+aS' adaptive data processing'
+p2729
+aS' sensor networking.'
+p2730
+asg12
+S'madden@csail.mit.edu'
+p2731
+sa(dp2732
+g2
+g3
+sg4
+S'Roger G. Mark'
+p2733
+sg6
+S'http://hst.mit.edu/public/people/faculty/facultyBiosketch.jsp?key=Mark'
+p2734
+sg8
+S'Biomedical engineering with emphasis on clinical applications of instrumentation and data processing, medical care delivery systems, electrocardiography, real-time arrhythmia analysis, cardiovascular physiology; collaboration at Beth Israel Hospital.'
+p2735
+sg10
+(lp2736
+S'Biomedical engineering with emphasis on clinical applications of instrumentation and data processing'
+p2737
+aS' medical care delivery systems'
+p2738
+aS' electrocardiography'
+p2739
+aS' real-time arrhythmia analysis'
+p2740
+aS' cardiovascular physiology; collaboration at Beth Israel Hospital.'
+p2741
+asg12
+S'rgmark@mit.edu'
+p2742
+sa(dp2743
+g2
+g3
+sg4
+S'Muriel Medard'
+p2744
+sg6
+S'http://www.mit.edu/~medard/medard.html'
+p2745
+sg8
+S" Wireless systems' capacity and fading channels. Optical networks, network robustness and reliability."
+p2746
+sg10
+(lp2747
+S" Wireless systems' capacity and fading channels. Optical networks"
+p2748
+aS' network robustness and reliability.'
+p2749
+asg12
+S'medard@mit.edu'
+p2750
+sa(dp2751
+g2
+g3
+sg4
+S'Silvio Micali'
+p2752
+sg6
+S'http://www.lcs.mit.edu/people/bioprint.php3?PeopleID=297'
+p2753
+sg8
+S'Cryptography, secure protocols, and computational complexity theory.'
+p2754
+sg10
+(lp2755
+S'Cryptography'
+p2756
+aS' secure protocols'
+p2757
+aS' and computational complexity theory.'
+p2758
+asg12
+S'micali@theory.lcs.mit.edu'
+p2759
+sa(dp2760
+g2
+g3
+sg4
+S'Robert C. Miller'
+p2761
+sg6
+S'http://graphics.lcs.mit.edu/~rcm/'
+p2762
+sg8
+S' Human-computer interfaces, intelligent interfaces, programming by demonstration, end-user programming languages, usability, software engineering.'
+p2763
+sg10
+(lp2764
+S' Human-computer interfaces'
+p2765
+aS' intelligent interfaces'
+p2766
+aS' programming by demonstration'
+p2767
+aS' end-user programming languages'
+p2768
+aS' usability'
+p2769
+aS' software engineering.'
+p2770
+asg12
+S'rcm@lcs.mit.edu'
+p2771
+sa(dp2772
+g2
+g3
+sg4
+S'Robert T. Morris'
+p2773
+sg6
+S'http://www.pdos.lcs.mit.edu/~rtm/'
+p2774
+sg8
+S' The design of an easy to control data networking infrastructure designed to bring about a new level of flexibility to network configuration. The Resilient Overlay Networks Project. Grid routing protocols.'
+p2775
+sg10
+(lp2776
+g2775
+asg12
+S'rtm@lcs.mit.edu'
+p2777
+sa(dp2778
+g2
+g3
+sg4
+S'Joel Moses'
+p2779
+sg6
+S'http://www.lcs.mit.edu/people/bioprint.php3?PeopleID=318'
+p2780
+sg8
+S'Theories of organization, algebraic manipulation, artificial intelligence, knowledge-based computer systems in education.'
+p2781
+sg10
+(lp2782
+S'Theories of organization'
+p2783
+aS' algebraic manipulation'
+p2784
+aS' artificial intelligence'
+p2785
+aS' knowledge-based computer systems in education.'
+p2786
+asg12
+S'moses@mit.edu'
+p2787
+sa(dp2788
+g2
+g3
+sg4
+S'Terry P. Orlando'
+p2789
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-orla.htm'
+p2790
+sg8
+S'Properties of superconductors in high magnetic fields, fabrication of thin films of superconductors, superconducting devices, quantum effect devices in semiconductors, arrays of Josephson junctions.'
+p2791
+sg10
+(lp2792
+S'Properties of superconductors in high magnetic fields'
+p2793
+aS' fabrication of thin films of superconductors'
+p2794
+aS' superconducting devices'
+p2795
+aS' quantum effect devices in semiconductors'
+p2796
+aS' arrays of Josephson junctions.'
+p2797
+asg12
+S'orlando@mit.edu'
+p2798
+sa(dp2799
+g2
+g3
+sg4
+S'Ronald R. Parker'
+p2800
+sg6
+S'http://web.mit.edu/ned/www/people/faculty/parker.html'
+p2801
+sg8
+S'Plasma problems relevant to controlled thermonuclear fusion, including confinement, heating, and impurity control in high temperature plasmas.'
+p2802
+sg10
+(lp2803
+S'Plasma problems relevant to controlled thermonuclear fusion'
+p2804
+aS' including confinement'
+p2805
+aS' heating'
+p2806
+aS' and impurity control in high temperature plasmas.'
+p2807
+asg12
+S'parker@ipsfc.mit.edu'
+p2808
+sa(dp2809
+g2
+g3
+sg4
+S'Pablo Parrilo'
+p2810
+sg6
+S'http://lids.mit.edu/people/faculty/parrilo-pablo.html'
+p2811
+sg8
+S'Control and identification of uncertain complex systems, robustness analysis and synthesis, and the development and application of computational tools based on convex optimization and algorithmic algebra to practically relevant problems in engineering, economics and physics.'
+p2812
+sg10
+(lp2813
+S'Control and identification of uncertain complex systems'
+p2814
+aS' robustness analysis and synthesis'
+p2815
+aS' and the development and application of computational tools based on convex optimization and algorithmic algebra to practically relevant problems in engineering'
+p2816
+aS' economics and physics.'
+p2817
+asg12
+S'parillo@mit.edu'
+p2818
+sa(dp2819
+g2
+g3
+sg4
+S'Martin C. Rinard'
+p2820
+sg6
+S'http://cag.lcs.mit.edu/~rinard/'
+p2821
+sg8
+S'Compilers; program analysis; reconfigurable computing; hardware compilation.'
+p2822
+sg10
+(lp2823
+g2822
+asg12
+S'martin@lcs.mit.edu'
+p2824
+sa(dp2825
+g2
+g3
+sg4
+S'Ronitt Rubinfield'
+p2826
+sg6
+S'http://theory.lcs.mit.edu/~ronitt/'
+p2827
+sg8
+S' Randomized algorithms, sublinear time algorithms, computational complexity theory.'
+p2828
+sg10
+(lp2829
+S' Randomized algorithms'
+p2830
+aS' sublinear time algorithms'
+p2831
+aS' computational complexity theory.'
+p2832
+asg12
+S'ronitt@csail.mit.edu'
+p2833
+sa(dp2834
+g2
+g3
+sg4
+S'Daniela Rus'
+p2835
+sg6
+S'http://www.csail.mit.edu/user/876'
+p2836
+sg8
+S'Robotics, mobile computing and information access.'
+p2837
+sg10
+(lp2838
+S'Robotics'
+p2839
+aS' mobile computing and information access.'
+p2840
+asg12
+S'rus@csail.mit.edu'
+p2841
+sa(dp2842
+g2
+g3
+sg4
+S'Rahul Sarpeshkar'
+p2843
+sg6
+S'http://rleweb.mit.edu/rlestaff/p-sarp.htm'
+p2844
+sg8
+S' Low power analog VLSI. Building biologically inspired sensory and mixed-signal computing systems, and bionics for the deaf and blind. All projects require interest and expertise in analog circuits, feedback, and low power design.'
+p2845
+sg10
+(lp2846
+S' Low power analog VLSI. Building biologically inspired sensory and mixed-signal computing systems'
+p2847
+aS' and bionics for the deaf and blind. All projects require interest and expertise in analog circuits'
+p2848
+aS' feedback'
+p2849
+aS' and low power design.'
+p2850
+asg12
+S'rahuls@mit.edu'
+p2851
+sa(dp2852
+g2
+g3
+sg4
+S'Tedrake'
+p2853
+sg6
+S'http://www.csail.mit.edu/user/833'
+p2854
+sg8
+S'Machine learning and robotics, including reinforcement learning, optimal control, legged robots, flapping-wing flight, non-linear control theory, biological motor control, and computational neuroscience. Particular emphasis on solving difficult robotic control problems through a close coupling of mechanical design and learning control.'
+p2855
+sg10
+(lp2856
+S'Machine learning and robotics'
+p2857
+aS' including reinforcement learning'
+p2858
+aS' optimal control'
+p2859
+aS' legged robots'
+p2860
+aS' flapping-wing flight'
+p2861
+aS' non-linear control theory'
+p2862
+aS' biological motor control'
+p2863
+aS' and computational neuroscience. Particular emphasis on solving difficult robotic control problems through a close coupling of mechanical design and learning control.'
+p2864
+asg12
+S'russt@csail.mit.edu'
+p2865
+sa(dp2866
+g2
+g3
+sg4
+S'Christopher Terman'
+p2867
+sg6
+S'http://www.csail.mit.edu/user/660'
+p2868
+sg8
+S'Computer and DSP architectures; VLSI circuits, design methodologies and CAD tools; circuit simulation; computer languages.'
+p2869
+sg10
+(lp2870
+S'Computer and DSP architectures; VLSI circuits'
+p2871
+aS' design methodologies and CAD tools; circuit simulation; computer languages.'
+p2872
+asg12
+S'cjt@mit.edu'
+p2873
+sa(dp2874
+g2
+g3
+sg4
+S'Bruce Tidor'
+p2875
+sg6
+S'http://mit.edu/tidor/'
+p2876
+sg8
+S'Modeling of protein-protein interactions, focusing on electrostatic effects and structure-based drug design. Systems-level biology including biological network modeling and analysis.'
+p2877
+sg10
+(lp2878
+S'Modeling of protein-protein interactions'
+p2879
+aS' focusing on electrostatic effects and structure-based drug design. Systems-level biology including biological network modeling and analysis.'
+p2880
+asg12
+S'tidor@mit.edu'
+p2881
+sa(dp2882
+g2
+g3
+sg4
+S'George C. Verghese'
+p2883
+sg6
+S'http://eecsfacweb.mit.edu/facpages/verghese.html'
+p2884
+sg8
+S'Dynamic systems; switched/periodic systems; estimation, control, signal processing; applications, especially power electronics, power systems, and electrical machines.'
+p2885
+sg10
+(lp2886
+S'Dynamic systems; switched/periodic systems; estimation'
+p2887
+aS' control'
+p2888
+aS' signal processing; applications'
+p2889
+aS' especially power electronics'
+p2890
+aS' power systems'
+p2891
+aS' and electrical machines.'
+p2892
+asg12
+S'verghese@mit.edu'
+p2893
+sa(dp2894
+g2
+g3
+sg4
+S'Joel Voldman'
+p2895
+sg6
+S'http://www.rle.mit.edu/voldman/'
+p2896
+sg8
+S' Biological applications of microtechnology, especially to cell biology; bioMEMS; electrostatics at the microscale.'
+p2897
+sg10
+(lp2898
+S' Biological applications of microtechnology'
+p2899
+aS' especially to cell biology; bioMEMS; electrostatics at the microscale.'
+p2900
+asg12
+S'voldman@mit.edu'
+p2901
+sa(dp2902
+g2
+g3
+sg4
+S'Stephen A. Ward'
+p2903
+sg6
+S'http://www.csail.mit.edu/user/1517'
+p2904
+sg8
+S'Computer architectures and operating systems.'
+p2905
+sg10
+(lp2906
+g2905
+asg12
+S'ward@mit.edu'
+p2907
+sa(dp2908
+g2
+g3
+sg4
+S'Cardinal Warde'
+p2909
+sg6
+S'http://web.mit.edu/invent/iow/warde.html'
+p2910
+sg8
+S'Materials, devices and systems for optical information processing; photorefractive materials, spatial light modulators, symbolic optical computers.'
+p2911
+sg10
+(lp2912
+S'Materials'
+p2913
+aS' devices and systems for optical information processing; photorefractive materials'
+p2914
+aS' spatial light modulators'
+p2915
+aS' symbolic optical computers.'
+p2916
+asg12
+S'warde@mtl.mit.edu'
+p2917
+sa(dp2918
+g2
+g3
+sg4
+S'Ron Weiss'
+p2919
+sg6
+S'http://people.csail.mit.edu/rweiss/'
+p2920
+sg8
+S'Sythetic Biology, Construction and analysis of synthetic gene networks. Use of computer engineering princoples of abstraction, composition, and interface specifications to program cells with sensors and actuators precisely controlled by analog and digital logic circuity. Emphasis on establishing the engineering foundation for synthetic biology and the pursuit of novel applications enabled by the technology (e.g. programmed tissue engineering diabetes, engineered neuronal circuits).'
+p2921
+sg10
+(lp2922
+S'Sythetic Biology'
+p2923
+aS' Construction and analysis of synthetic gene networks. Use of computer engineering princoples of abstraction'
+p2924
+aS' composition'
+p2925
+aS' and interface specifications to program cells with sensors and actuators precisely controlled by analog and digital logic circuity. Emphasis on establishing the engineering foundation for synthetic biology and the pursuit of novel applications enabled by the technology (e.g. programmed tissue engineering diabetes'
+p2926
+aS' engineered neuronal circuits).'
+p2927
+asg12
+S'rweiss@mit.edu'
+p2928
+sa(dp2929
+g2
+g3
+sg4
+S'John L. Wyatt'
+p2930
+sg6
+S'http://www.rle.mit.edu/rleonline/People/JohnL.Wyatt.html'
+p2931
+sg8
+S'Analog VLSI for machine vision, dynamics of nonlinear circuits and systems, neural networks; implantable retinal prosthesis.'
+p2932
+sg10
+(lp2933
+S'Analog VLSI for machine vision'
+p2934
+aS' dynamics of nonlinear circuits and systems'
+p2935
+aS' neural networks; implantable retinal prosthesis.'
+p2936
+asg12
+S'wyatt@rle-vlsi.mit.edu'
+p2937
+sa(dp2938
+g2
+g3
+sg4
+S'Nikolai Zeldovich'
+p2939
+sg6
+S'http://www.csail.mit.edu/user/1705'
+p2940
+sg8
+S'Building practical secure systems. Operating systems, hardware designs, networking, and distributing systems. Programming language and tools, secutiry analysis and verification.'
+p2941
+sg10
+(lp2942
+S'Building practical secure systems. Operating systems'
+p2943
+aS' hardware designs'
+p2944
+aS' networking'
+p2945
+aS' and distributing systems. Programming language and tools'
+p2946
+aS' secutiry analysis and verification.'
+p2947
+asg12
+S'nickolai@mit.edu'
+p2948
+sa(dp2949
+g2
+g3
+sg4
+S'Lizhong Zheng'
+p2950
+sg6
+S'http://www.rle.mit.edu/rleonline/People/LizhongZheng.html'
+p2951
+sg8
+S'Wireless communications, from physical layer designs to wireless networks; space-time processing, digital communications, multi-user detection algorithms, information theory, stochastic signal processing, optical communications.'
+p2952
+sg10
+(lp2953
+S'Wireless communications'
+p2954
+aS' from physical layer designs to wireless networks; space-time processing'
+p2955
+aS' digital communications'
+p2956
+aS' multi-user detection algorithms'
+p2957
+aS' information theory'
+p2958
+aS' stochastic signal processing'
+p2959
+aS' optical communications.'
+p2960
+asg12
+S'lizhong@mit.edu'
+p2961
+sa.

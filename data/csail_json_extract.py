@@ -12,7 +12,7 @@ def run():
       pd['keywords'] = list(pd['keywords'])
 
     pd['image'] = p['photo']
-  pickle.dump(output, file('csailjson', 'w'))
+  pickle.dump(output, file('csailjson.dat', 'w'))
 
 def extract_keywords(group):
   if isinstance(group, list):

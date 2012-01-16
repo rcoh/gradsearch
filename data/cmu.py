@@ -22,4 +22,4 @@ for prof in results:
  #website name title interests 
 
 print 'got', len(final_dicts)
-pickle.dump(final_dicts, file('cmu', 'w'))
+pickle.dump(final_dicts, file('cmu.dat', 'w'))

@@ -39,4 +39,4 @@ for prof in all_prof_info:
     prof_dictionary['school'] = 'MIT'
     prof_dictionary_list.append(prof_dictionary)
 
-pickle.dump(prof_dictionary_list, file('profs.pydict', 'w'))
+pickle.dump(prof_dictionary_list, file('profs.dat', 'w'))
