@@ -1,10 +1,6 @@
 <?php
   session_start();
   require('util.php');
-?>
-<html>
-<body>
-<?php
 $con = mysql_connect("sql.mit.edu","rcoh","rcoh", TRUE);
 mysql_select_db("rcoh+gradschool", $con);
 if (!$con)
@@ -19,18 +15,19 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
   $row = mysql_fetch_row($result);
   if($row[0] == $hashed) {
     $_SESSION['email'] = $_POST['email'];
+    go_home();
   } else {
     echo 'login failed <br \>';
-    echo $row[0];
-    echo '<br />';
-    echo $hashed;
   }
 } 
 ?>
+<html>
+<body>
 <form action="login.php" method="post">
 Email: <input type="text" name="email" /> <br />
 Password: <input type="password" name="pass" /> <br />
 <input type="submit" /> 
+OR: <a href="signup.php">signup</a>
 </body>
 </html>
 <!--

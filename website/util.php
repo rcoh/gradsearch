@@ -10,4 +10,7 @@ function query_or_die($query, $con) {
     return $result;
   } 
 }
+function go_home() {
+  header("Location: index.php");
+}
 ?>
