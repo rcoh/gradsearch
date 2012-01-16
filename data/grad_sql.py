@@ -74,9 +74,3 @@ class GradSql(object):
     else:
       return None
 
-
-g = GradSql()
-#g.add_proffesor('Leah Alpert', '', 'School of Thought', 'www.lalpert.edu', 'www.lalpert.com')
-print g.prof_id('Leah Alpert')
-print g.prof_id('Lea2h Alpert')
-

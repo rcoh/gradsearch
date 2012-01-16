@@ -28,9 +28,16 @@ for prof in results:
   summary = re.findall('<h3>Research Statement</h3><p>(.*?)</p><h3>Degrees</h3>', personal_page)
   if summary:
     pd['research_summary'] = util.remove_tags(summary[0]).strip()
-  pd['image'] = re.findall('\'(images/photos_faculty_staff/.*?)\'', personal_page)[0]
+  try:
+    pd['image'] = re.findall('\'(images/photos_faculty_staff/.*?)\'', personal_page)[0]
+  except Exception:
+    import pdb; pdb.set_trace()
+  pd['title'] = re.findall("Title:</td><td class=\"data\">(.*?)</td>", personal_page)[0]  
+  personal_website = re.findall("URL:</TD><TD class=\"data\"><a href='(.*?)'", personal_page)
+  if personal_website:
+    pd['personal_website'] = personal_website[0]
   print pd['name'], pd['department']
   output.append(pd)
 
-pickle.dump(output, file('standford', 'w'))
+pickle.dump(output, file('standford.dat', 'w'))
 print 'Done!'

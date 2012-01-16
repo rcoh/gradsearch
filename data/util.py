@@ -7,9 +7,16 @@ def dl_and_prep(url):
   if os.path.exists(cache_loc):
     stream = file(cache_loc)
   else:
-    file(cache_loc, 'w').write(urllib2.urlopen(url).read())
+    try:
+      file(cache_loc, 'w').write(urllib2.urlopen(url).read())
+    except IOError as ex:
+      os.remove(cache_loc)
+      raise Exception('Download failure.')
     return dl_and_prep(url)
   doc = stream.read().replace('\r\n', '')
+  if doc == '':
+    os.remove(cache_loc)
+    return dl_and_prep(url)
   
   
   return re.sub('>(\s*?)<', '><', doc)
