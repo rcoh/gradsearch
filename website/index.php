@@ -1,3 +1,6 @@
+<?php
+  session_start()
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -34,6 +37,13 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+                        <?php
+                          if (isset($_SESSION['email'])) {
+                            echo "<li><a href=\"#profle\"> Welcome $_SESSION[email]</li>";
+                          } else {
+                            echo "<li><a href=\"login.php\">Login</a>";
+                          }
+                        ?>  
                     </ul>
                 </div>
             </div>
