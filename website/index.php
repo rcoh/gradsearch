@@ -1,6 +1,9 @@
 <?php
   session_start()
 ?>
+<!--TODO:
+  Display _SESSION['msg'] in a bootstrap message
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -53,13 +56,13 @@
             <div class="floater" style="height:150px;">
             </div>
             <div class="center">
-                <form>
+                <form action="search.php">
                     <fieldset>
                         <legend style="padding-left: 0px;">
                             What are you interested in?
                         </legend>
                         <div class="input" style="margin-left: 10px;">
-                            <input class="xlarge" id="xlInput" name="xlInput" size="30" type="text" style="color:black;"/>&nbsp;<input type="submit" class="btn primary" value="Go">
+                            <input class="xlarge" id="xlInput" name="q" size="30" type="text" style="color:black;"/>&nbsp;<input type="submit" class="btn primary" value="Go">
                         </div>
                     </fieldset>
                 </form>
