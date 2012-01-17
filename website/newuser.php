@@ -2,8 +2,6 @@
   session_start();
   require('util.php');
 ?>
-<html>
-<body>
 <?php
 $con = mysql_connect("sql.mit.edu","rcoh","rcoh", TRUE);
 mysql_select_db("rcoh+gradschool", $con);
@@ -18,13 +16,12 @@ $password=hashpass($_POST['password1']);
  * passwords match (password1, password2)
  * sanitize inputs
  */
-$query = "insert into users 
-  (password, fullname, department, email) 
-  values ('$password', '$_POST[name]', 
-  '$_POST[department]', '$_POST[email]')";
+$query = "insert into users (password,  email) values ('$password', '$_POST[email]')";
 
 if(!mysql_query($query, $con)){
   die('Error: ' . mysql_error());
+} else { 
+  $_SESSION['msg'] = "Signup Sucessful!"; //TODO: display this on index.php
+  $_SESSION['email'] = $_POST['email'];
+  go_home();
 }  
-echo $_POST["email"]; ?>!</body>
-</html>

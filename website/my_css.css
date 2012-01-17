@@ -34,7 +34,7 @@
    
 .prof_box:hover{
 	color:#000000;
-	text-decoration:none;
+	text-decoration: none;
 }
   
 .left_sidebar{
@@ -44,4 +44,7 @@
 	width:200px;
 }
 
-
+.thumbnail {
+  max-width: 90px;
+  max-height: 100px;
+}
