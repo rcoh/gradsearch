@@ -14,7 +14,7 @@ Confirm Password: <input type="password" name="password2" value="" /> <br />
 <script type="text/javascript">
 //first, we check if the email is already in our records:
     function readEmail (form){
-	email = signup.email.value;
+	email = form.email.value;
 	//access the db and check if email is already taken
 	document.write("email already in our records")
     }
