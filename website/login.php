@@ -26,6 +26,9 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
 <form action="login.php" method="post">
 Email: <input type="text" name="email" /> <br />
 Password: <input type="password" name="pass" /> <br />
+
+<script type="text/javascript" src="login.js"></script>
+
 <input type="submit" /> 
 OR: <a href="signup.php">signup</a>
 </body>

@@ -6,11 +6,11 @@
 <html>
 <body>
 Signup!
-<<<<<<< HEAD
 <form name= "signup" action="newuser.php" method="post">
 Email: <input type="text" name="email" value="" /> <br />
 Password: <input type="password" name="password1" value="" /> <br />
 Confirm Password: <input type="password" name="password2" value="" /> <br />
+//<script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript">
 //first, we check if the email is already in our records:
     function readEmail (form){
@@ -35,13 +35,6 @@ function readpassword (form){
 </script>
 
 <input type="button" value="Submit" onClick="readpassword()" /> 
-=======
-<form action="newuser.php" method="post">
-Email: <input type="text" name="email" /> <br />
-Password: <input type="password" name="password1" /> <br />
-Confirm Password: <input type="password" name="password2" /> <br />
-<input type="submit" /> 
->>>>>>> c08fc1004314cc28345b00e8d3b8f5428e159bd8
 </form>
 
 </body>
