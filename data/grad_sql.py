@@ -28,8 +28,11 @@ class GradSql(object):
 
     for k in key_to_rm:
       del prof_info[k]
-    self.insert('prof', prof_info.keys(), prof_info.values())
     pid = self.prof_id(all_data['name'])
+    if not pid:
+      self.insert('prof', prof_info.keys(), prof_info.values())
+    else:
+      self.update('prof', prof_info.keys(), prof_info.values(), 'id=%s' % pid)
     assert pid != None
     if 'keywords' in all_data:
       for k in all_data['keywords']:
@@ -52,6 +55,13 @@ class GradSql(object):
     val_str = '(%s)' % ','.join(["'%s'" % v for v in values])
     stmnt = "insert into %s %s VALUES %s;" % (tablename, col_str, val_str) 
     self.cur.execute(stmnt)
+  
+  def insert_or_update_by_id(self, tablename, columns, value, match_id):
+    exists = self.row_if_exists(tablename, match_id)
+    if exists:
+      self.update(tablename, columns, values, 'id=%s' % match_id)
+    else:
+      self.insert(tablename, columns, values)
 
   def update(self, tablename, columns, values, condition):
     values = [re.escape(str(v)) for v in values]
@@ -69,6 +79,15 @@ class GradSql(object):
 
   def prof_id(self, name):
     self.con.query('select id from prof where name=\'%s\'' % name)
+    result = self.con.use_result()
+    row = result.fetch_row()
+    if len(row):
+      return row[0][0]
+    else:
+      return None
+
+  def row_if_exists(table, row_id):
+    self.con.query('select id from %s where id=\'%s\'' % (table, row_id))
     result = self.con.use_result()
     row = result.fetch_row()
     if len(row):

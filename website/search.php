@@ -117,7 +117,8 @@
     echo "<strong>" . $row['name'] . "</strong><br>";
     echo $row['school'] . "<br>";
     echo $row['department'];
-    echo '<i><br>Algorithms, robotics, <br> electronics';
+    $research=research_interests_str($row['id'], $con, $query);
+    echo '<i><br>' . $research;
     echo "</div></a></i></li>";
   }
 ?>

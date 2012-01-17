@@ -46,5 +46,26 @@ function research_interests($prof_id, $con) {
     on prof.id = keywordmap.prof_id where prof.id=$prof_id;";
   return query_or_die($stmnt, $con);
 }
+
+function research_interests_str($prof_id, $con, $search_string) {
+  $result=research_interests($prof_id, $con);
+  $first = mysql_fetch_array($result);
+  if ($first) {
+    $output = $first['keyword'];
+    if ($output == $search_string) {
+      $output = '<b>' . $output . '</b>';
+    }
+    while ($interest = mysql_fetch_array($result)) {
+      if ($interest['keyword'] == $search_string) {
+        $output = '<b>' . $interest['keyword'] . '</b>, ' . $output;
+      } else {
+        $output = $output . ', ' . $interest['keyword'];
+      }
+    }
+  } else {
+    $output = 'None listed.';
+  }
+  return $output;
+}
 ?>
 
