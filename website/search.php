@@ -109,7 +109,7 @@
   $con = get_con();
   $result = standard_search($query, $con);
   while($row = mysql_fetch_array($result)) {
-    echo "<li><a href=\"#\" class=\"prof_box\">";
+    echo "<li><a href=\"profile.php?id=$row[id]\" class=\"prof_box\">";
     echo "<div class=\"prof_image\">";
     echo "<img class=\"thumbnail\" src=\"" . $row['image'] . "\">";
     echo "</div>";
@@ -117,7 +117,8 @@
     echo "<strong>" . $row['name'] . "</strong><br>";
     echo $row['school'] . "<br>";
     echo $row['department'];
-    echo "</div></a></li>";
+    echo '<i><br>Algorithms, robotics, <br> electronics';
+    echo "</div></a></i></li>";
   }
 ?>
                 </ul>

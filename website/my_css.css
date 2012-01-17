@@ -56,9 +56,13 @@ body{
 	color:#000000;
 	text-decoration: none;
 }
-  
 
 .thumbnail {
   max-width: 100px;
   max-height: 105px;
+}
+
+.big-thumbnail {
+  max-width: 200px;
+  max-height: 170px;
 }

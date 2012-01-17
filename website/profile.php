@@ -1,3 +1,13 @@
+<?php 
+require('util.php');
+$con = get_con();
+if(isset($_GET['id'])){
+  $result = prof_by_id($_GET['id'], $con);
+  $prof = mysql_fetch_array($result);  
+} else {
+  go_home();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -47,19 +57,31 @@
         <div class="container-fluid">
             <div class="top_content">
                 <div class="prof_image">
-                    <img class="thumbnail" src="http://placehold.it/150x170" alt="">
-                </div><!-- Main hero unit for a primary marketing message or call to action -->
+                <img class="big-thumbnail" src="<?php echo $prof['image']; ?> " alt="">
+                </div>
                 <div class="hero-unit" style="height:170px; padding:1px 10px 1px 15px; margin:0px 0px 10px 160px;">
                     <p>
-                        <h2>Edward Adelson</h2>
+                    <h2><?php echo $prof['name'];?></h2>
                         <p>
-                            Stanford 
+                          <?php echo $prof['school'];?>
                             <br>
-                            Computer Science
+                          <?php echo $prof['department'];?>
                         </p>
                         <hr style="margin:0px 0px 5px 0px;">
                         <p>
-                            Research topics: Robotics, Algorithms, Computer Systems
+Research Interests:
+<?php 
+$result=research_interests($prof['id'], $con);
+$first = mysql_fetch_array($result);
+if ($first) {
+  echo $first['keyword'];
+  while ($interest = mysql_fetch_array($result)) {
+    echo ', ' . $interest['keyword'];
+  }
+} else {
+  echo 'None listed.';
+}
+?>
                         </p>
                     </p>
                 </div>
@@ -68,10 +90,9 @@
 			 <div class="hero-unit" style="padding:15px 30px;">
 			 	
 				<h3>Research Summary</h3>
-				<p style="font-size:14px;">Edward Adelson is the John and Dorothy Wilson Professor of Vision Science at MIT, in the Department of Brain and Cognitive Sciences, and a member of the Computer Science and Artificial Intelligence Laboratory (CSAIL). He was elected to the National Academy of Sciences in 2007, and to the American Academy of Arts and Sciences in 2010.
-
-Adelson has over 100 publications on topics in human vision, machine vision, computer graphics, neuroscience, and computational photography. He is well known for contributions to multiscale image representation (such as the Laplacian pyramid) and basic concepts in early vision such as steerable filters and motion energy models. His work on layered representations for motion won the IEEE Computer Society's Longuet-Higgins Award (2005). Adelson introduced the plenoptic function, and built the first plenoptic camera. His work on the neural mechanisms of motion perception was honored with the Rank Prize in Optoelectronics (1992). He has done pioneering work in computational photography, including early work on image merging and more recent work on high dynamic range imaging. In computer graphics, he has worked on the generation and perception of line drawings. He currently works on perceptual and computational aspects of material perception including the perception of gloss. He has produced some well known illusions such as the Checker-Shadow Illusion. He has recently developed a new elastomeric technology for tactile sensing, called GelSight, which converts touch to images, and which opens up new possibilities in sensing 3D microscale topography.
-</p>
+        <p style="font-size:14px;">
+        <?php echo $prof['research_summary']; ?>
+        </p>
 			 </div>
             <footer>
                 <p>
