@@ -1,14 +1,16 @@
 <li>
-    <a href="#" class="prof_box">
+    <a href="profile.php?id=<?php echo $row['id']; ?>" class="prof_box">
         <div class="prof_image">
-            <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+            <img class="thumbnail" src="<?php echo $row['image']; ?>" alt="">
         </div>
         <div class="prof_info">
-            <h5>Name</h5>
-            <p>School</p>
-            <p>Department is too long to fit in one line</p>
+            <h5><?php echo $row['name']; ?></h5>
+            <p><?php echo $row['school']; ?></p>
+            <p><?php echo $row['department'] ?></p>
             <hr>
-            <p>Research is super long too and goes onto multiple lines</p>
+            <p>
+    <?php echo research_interests_str($row['id'], $con, $query); ?>
+            </p>
         </div>
     </a>
 </li>
