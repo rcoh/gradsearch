@@ -1,0 +1,6 @@
+If you've ever tried to find grad schools you've probably found it be an infuriating experience.
+Existing search engines are focused around finding a particular school.  This makes sense for an
+undergraduate education, but for Grad School its all wrong.  You aren't looking for a school --
+you're looking for a professor.  <Name> solves that problem.  Enter your research interests, broad
+or specific, and browse through professors from dozens of universities studying what you're
+studying. 

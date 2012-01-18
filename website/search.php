@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php
+  require('util.php');
+  $query = $_GET['q'];
+  $con = get_con();
+  $result = standard_search($query, $con);
+?>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -40,13 +46,12 @@
             </div>
         </div>
         <div class="search_bar">
-            <form class="bar_form">
+            <form class="bar_form" action="search.php">
                 <label for="search" style="width:auto; padding-left:10px;">
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
-                    <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
-                <span style="float:right; padding:8px 0px 0px 0px; margin-right:80px;"><em>32 Results</em></span>
+                    <input id="search" name="q" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
 				</div>
             </form>
 			
@@ -131,15 +136,11 @@
             <div class="prof_content">
                 <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
                     <p>
-                        32 professors researching <strong><?php echo $_GET['q']; ?></strong>
+                        <? echo mysql_num_rows($result); ?> professors researching <strong><?php echo $_GET['q']; ?></strong>
                     </p>
                 </div>
                 <ul class="media-grid prof_grid">
                     <?php
-                      require('util.php');
-                      $query = $_GET['q'];
-                      $con = get_con();
-                      $result = standard_search($query, $con);
                       while($row = mysql_fetch_array($result)) {
                         include('prof_box.php');
                       } 
