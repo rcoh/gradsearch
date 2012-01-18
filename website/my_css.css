@@ -5,7 +5,7 @@ body{
 .fixed_sidebar{
   position: fixed;
   top: 95px;
-  left: 20px;
+  left: 18px;
   width: 175px;
 }
 
@@ -17,7 +17,7 @@ body{
 	z-index:10000;
 	background-color: #f9f9f9;
 	border-bottom: 1px solid #dddddd;
-	padding:6px;
+	padding:8px 0px 7px 10px;
 }
 
 .bar_form{
@@ -37,9 +37,23 @@ body{
 
 .prof_box{
 	color:#000000;
-	width:250px; 
-	height:105px;
+	width:280px; 
+	height:120px;
 	background-color:#eeeeee;
+	margin: 0px 0px 5px 5px;
+}
+
+.prof_grid a{
+	margin:0px 6px 6px 0px;
+}
+
+.prof_grid {
+	margin:0px;
+}
+
+.thumbnail {
+  max-width: 120px;
+  max-height: 120px; /* Same height as prof_box */
 }
 
 .prof_image{
@@ -48,8 +62,22 @@ body{
 }
 .prof_info{
 	padding: 1px 0px;
-	height:105px;
+	height:118px; /* Make sure this cuts off between lines */
 	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.prof_info hr{
+	margin:3px;
+	padding:0px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.prof_info p{
+	margin:1px;
+}
+
+.prof_info h5{
+	line-height: 18px;
 }
    
 .prof_box:hover{
@@ -57,12 +85,26 @@ body{
 	text-decoration: none;
 }
 
-.thumbnail {
-  max-width: 100px;
-  max-height: 105px;
-}
-
 .big-thumbnail {
   max-width: 200px;
   max-height: 170px;
 }
+
+.saved_search_box{
+	width:500px;
+    margin: 5px 0px 0px 0px;
+    color:#000000;
+	background-color:#eeeeee;
+}
+
+.saved_search_box:hover{
+	color:#000000;
+	text-decoration: none;
+}
+
+.saved_search_box p{
+	font-size:14px;
+	padding:7px 10px 0px 10px;
+}
+
+

@@ -4,7 +4,7 @@ function hashpass($password) {
 }
 
 function get_con() {
-  $con = mysql_connect("sql.mit.edu","rcoh","rcoh");
+  $con = mysql_pconnect("sql.mit.edu","rcoh","rcoh");
   mysql_select_db("rcoh+gradschool", $con);
   if (!$con)
   {
@@ -21,10 +21,19 @@ function query_or_die($query, $con) {
   } 
 }
 
+function go($loc) {
+  header("Location: " . $loc);
+}
 function go_home() {
   header("Location: index.php");
 }
 
+function add_user($email, $hashpass, $con) { 
+  $query = sprintf("insert into users (password, email) values('%s', '%s')",
+          mysql_real_escape_string($hashpass),
+          mysql_real_escape_string($email));
+  return query_or_die($query, $con);
+}
 function standard_search($query, $con) {
   $stmnt="select distinct prof.id, name, school, department, image from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
@@ -46,5 +55,30 @@ function research_interests($prof_id, $con) {
     on prof.id = keywordmap.prof_id where prof.id=$prof_id;";
   return query_or_die($stmnt, $con);
 }
-?>
 
+function email_exists($email, $con) {
+  $dbemails = mysql_query("SELECT * FROM users WHERE email='$email'", $con);
+  return (mysql_num_rows($dbemails) > 0);
+}
+
+function research_interests_str($prof_id, $con, $search_string) {
+  $result=research_interests($prof_id, $con);
+  $first = mysql_fetch_array($result);
+  if ($first) {
+    $output = $first['keyword'];
+    if ($output == $search_string) {
+      $output = '<b>' . $output . '</b>';
+    }
+    while ($interest = mysql_fetch_array($result)) {
+      if ($interest['keyword'] == $search_string) {
+        $output = '<b>' . $interest['keyword'] . '</b>, ' . $output;
+      } else {
+        $output = $output . ', ' . $interest['keyword'];
+      }
+    }
+  } else {
+    $output = 'None listed.';
+  }
+  return $output;
+}
+?>
