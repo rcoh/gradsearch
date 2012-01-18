@@ -4,7 +4,7 @@ function hashpass($password) {
 }
 
 function get_con() {
-  $con = mysql_connect("sql.mit.edu","rcoh","rcoh");
+  $con = mysql_pconnect("sql.mit.edu","rcoh","rcoh");
   mysql_select_db("rcoh+gradschool", $con);
   if (!$con)
   {

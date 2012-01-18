@@ -31,7 +31,7 @@
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
-                        </li>file:///Users/leahalpert/gradsearch/website/profs.html#
+                        </li>
                     </ul>
                     <p class="pull-right">
                         Logged in as <a href="#">username</a>
@@ -129,14 +129,18 @@
                 </div>
             </div>
             <div class="prof_content">
-                <!-- Main hero unit for a primary marketing message or call to action -->
                 <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
                     <p>
-                        32 professors researching <strong>neurodevelopment</strong>
-                        in the department of <strong>neuroscience</strong>
+                        32 professors researching <strong><?php echo $_GET['q']; ?></strong>
                     </p>
                 </div>
                 <ul class="media-grid prof_grid">
+<?php
+  $query = $_GET['q'];
+  $con = get_con();
+  $result = standard_search($query, $con);
+  while($row = mysql_fetch_array($result)) {
+    include('prof_box.php');
                     <li>
                         <a href="#" class="prof_box">
                             <div class="prof_image">
@@ -146,7 +150,7 @@
                                 <h5>Name</h5>
                                 <p>School</p>
                                 <p>Department is too long to fit in one line</p>
-								<hr>
+                                <hr>
                                 <p>Research is super long too and goes onto multiple lines</p>
                             </div>
                         </a>
