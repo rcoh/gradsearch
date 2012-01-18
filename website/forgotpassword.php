@@ -3,7 +3,7 @@ require ('util.php');
 $con = get_con();
 
 $email=$_POST['email'];
-$adminemail = 'gradsearch@mit.edu';
+$adminemail = 'gradschool-search@mit.edu';
 
 if (!email_exists($email, $con)){
 echo '<script language="javascript">alert("This email address does not exist. Please try again.")</script>';
