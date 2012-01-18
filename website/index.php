@@ -61,8 +61,8 @@
 <?php
   if (isset($_SESSION['msg'])) {
 ?>
-<!-- TODO: LEAH: Make this pretty :) -->
-  <div class="alert-message fade in <?php echo $_SESSION['msg']['type']; ?>" data-alert="alert">
+
+  <div class="alert-message fade in <?php echo $_SESSION['msg']['type']; ?>">
               <a class="close" href="#">×</a>
               <p> <?php echo $_SESSION['msg']['text']; ?> </p>
             </div>

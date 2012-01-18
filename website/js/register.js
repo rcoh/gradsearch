@@ -27,8 +27,9 @@ $(document).ready(function() {
     return false;
   });
   
-  $.passwords_match = function() {
-    return ($("input#confirm_password").val() == $("#password_register").val()); 
+  $.passwords_valid = function() {
+    return $("input#confirm_password").val() == $("#password_register").val() &&
+      $("input#password_register").val() != ''; 
   }
   $("input#confirm_password").keyup(function() {
     $.show_passwords_valid();
@@ -40,7 +41,7 @@ $(document).ready(function() {
   });
 
   $.show_passwords_valid = function() {
-    if($.passwords_match()) {
+    if($.passwords_valid()) {
       $('div#confirm_password').addClass('success').removeClass('error');
       $('input#confirm_password').addClass('error');
       $('#password_match').show();
@@ -54,15 +55,12 @@ $(document).ready(function() {
   }
 
   $("#register_submit").click(function() {
-   if(valid_email && $.passwords_match()) {
+   if(valid_email && $.passwords_valid()) {
       return true;
    } else {
      $('#bad_registration').show()
      return false;
    }
   });
-
-
-
 });
 

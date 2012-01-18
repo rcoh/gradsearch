@@ -139,7 +139,7 @@ if (isset($help_text_pass)) {
                                 <div class="input">
                                     <input class="xlarge" id="confirm_password" name="confirm_password" size="30" type="password" />
                                     <span class="help-inline" id="password_different" style="display:none">
-                                      Uh oh.  Passwords are different... 
+                                      Uh oh.  Passwords are different or empty... 
                                     </span>
                                     <span class="help-inline" id="password_match" style="display:none">
                                       Huzzahh!  Passwords match!
