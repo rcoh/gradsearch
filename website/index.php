@@ -49,7 +49,7 @@
                             echo "<li><a href=\"#profle\">Welcome $_SESSION[email]</a></li>";
                             echo "<li><a href=\"signout.php\">Signout</a></li>";
                           } else {
-                            echo "<li><a href=\"login.php\">Login</a>";
+                            echo "<li><a href=\"loginregister.php\">Login</a>";
                           }
                         ?>  
                     </ul>

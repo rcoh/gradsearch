@@ -47,6 +47,11 @@ function research_interests($prof_id, $con) {
   return query_or_die($stmnt, $con);
 }
 
+function email_exists($email, $con) {
+  $dbemails = mysql_query("SELECT * FROM users WHERE email='$email'", $con);
+  return (mysql_num_rows($dbemails) > 0);
+}
+
 function research_interests_str($prof_id, $con, $search_string) {
   $result=research_interests($prof_id, $con);
   $first = mysql_fetch_array($result);
@@ -68,4 +73,3 @@ function research_interests_str($prof_id, $con, $search_string) {
   return $output;
 }
 ?>
-
