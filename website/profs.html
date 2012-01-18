@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>IWantToStud.ty</title>
+        <meta name="description" content="Search for professors by research interest">
+        <meta name="author" content="Leah Alpert, Russell Cohen, Ram Bhaskar">
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]--><!-- Le styles -->
+        <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+        <link rel="stylesheet" href="my_css.css">
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    </head>
+    <body>
+        <div class="topbar">
+    <div class="topbar-inner">
+        <div class="container-fluid">
+            <a class="brand" href="index.php">IWantToStud.ty</a>
+            <ul class="nav">
+                <li class="active">
+                    <a href="index.php">Home</a>
+                </li>
+                <li>
+                    <a href="about.php">About</a>
+                </li>
+                <li>
+                    <a href="contact.php">Contact</a>
+                </li>
+            </ul>
+            
+            <ul class="nav" style="float:right; padding-right:20px;">
+                <li>
+                    <a href="profile.php">Profile</a>
+                </li>
+                <li>
+                    <a href="signout.php">Logout</a>
+                </li>
+            </ul>
+			<p class="pull-right" style="color:gray; padding-right:10px;">
+                Logged in as <a href="profile.php">lalpert</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+        <div class="search_bar">
+            <form class="bar_form">
+                <label for="search" style="width:auto; padding-left:10px;">
+                    Search
+                </label>
+                <div class="input" style="margin-left:65px;">
+                    <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
+				</div>
+            </form>
+			
+        </div>
+        <div class="container-fluid">
+            <div class="fixed_sidebar">
+                <div class="well" style=" padding:0px;">
+                    <form action="" class="form-stacked" style="padding:8px;">
+                        <h5>Filter results by:</h5>
+                        <hr style="margin:5px; padding:0px;">
+                        <div class="clearfix">
+                            <label id="university">
+                            University
+                            <div class="input" style="margin:0px; padding:0px;">
+                                <ul class="inputs-list">
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="10" value="10" checked/><span>MIT (14)</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="11" value="11" checked/><span>Stanford (8)</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="12" value="12" checked/><span>CMU (5)</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr style="margin:5px; padding:0px;">
+                        <div class="clearfix">
+                            <label id="department">
+                                Department
+                            </label>
+                            <div class="input" style="margin:0px; padding:0px;">
+                                <ul class="inputs-list">
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="20" value="20" checked/><span>Mechanical Engineering (22)</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="21" value="21" checked/><span>Computer Science (9)</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr style="margin:5px; padding:0px;">
+                        <div class="clearfix">
+                            <label id="uni2">
+                                Universityyyy
+                            </label>
+                            <div class="input" style="margin:0px; padding:0px;">
+                                <ul class="inputs-list">
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="30" value="30" checked/><span>MIT (14)</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="31" value="31" checked/><span>Stanford (8)</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="32" value="32" checked/><span>CMU (5)</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="prof_content">
+                <!-- Main hero unit for a primary marketing message or call to action -->
+                <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
+                    <p>
+                        32 professors researching <strong>neurodevelopment</strong>
+                        in the department of <strong>neuroscience</strong>
+                    </p>
+                </div>
+                <ul class="media-grid prof_grid">
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <img class="thumbnail" src="http://placehold.it/20x20" alt="" style="float:right;"><h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>
+                                    School
+                                </p>
+                                <p>
+                                    Department is too long to fit in one line
+                                </p>
+                                <hr>
+                                <p>
+                                    Research is super long too and goes onto multiple lines
+                                </p>
+                            </div>
+                        </a>
+                    </li><li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>School</p>
+                                <p>Department is too long to fit in one line</p>
+								<hr>
+                                <p>Research is super long too and goes onto multiple lines</p>
+                            </div>
+                        </a>
+                    </li> <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>School</p>
+                                <p>Department is too long to fit in one line</p>
+								<hr>
+                                <p>Research is super long too and goes onto multiple lines</p>
+                            </div>
+                        </a>
+                    </li> <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>School</p>
+                                <p>Department is too long to fit in one line</p>
+								<hr>
+                                <p>Research is super long too and goes onto multiple lines</p>
+                            </div>
+                        </a>
+                    </li> <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>School</p>
+                                <p>Department is too long to fit in one line</p>
+								<hr>
+                                <p>Research is super long too and goes onto multiple lines</p>
+                            </div>
+                        </a>
+                    </li> <li>
+                        <a href="#" class="prof_box">
+                            <div class="prof_image">
+                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            </div>
+                            <div class="prof_info">
+                                <h5>Name</h5>
+                                <p>School</p>
+                                <p>Department is too long to fit in one line</p>
+								<hr>
+                                <p>Research is super long too and goes onto multiple lines</p>
+                            </div>
+                        </a>
+                    </li>
+					
+					
+					
+					
+                </ul>
+                <footer>
+                    <p>
+                        &copy; Company 2011
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

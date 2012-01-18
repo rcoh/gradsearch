@@ -3,15 +3,20 @@ import re
 import os.path
 import hashlib
 def dl_and_prep(url):
+
   cache_loc = 'cache/' + hashlib.md5(url).hexdigest()
   if os.path.exists(cache_loc):
     stream = file(cache_loc)
   else:
-    try:
-      file(cache_loc, 'w').write(urllib2.urlopen(url).read())
-    except IOError as ex:
-      os.remove(cache_loc)
-      raise Exception('Download failure.')
+    user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7"
+    headers = {}
+    headers["User-Agent"] = user_agent
+    url_request = urllib2.Request(url,None,headers)
+    #try:
+    file(cache_loc, 'w').write(urllib2.urlopen(url_request).read())
+    #except IOError as ex:
+     # os.remove(cache_loc)
+     # raise Exception('Download failure.')
     return dl_and_prep(url)
   doc = stream.read().replace('\r\n', '')
   if doc == '':

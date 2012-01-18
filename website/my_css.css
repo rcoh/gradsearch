@@ -89,3 +89,22 @@ body{
   max-width: 200px;
   max-height: 170px;
 }
+
+.saved_search_box{
+	width:500px;
+    margin: 5px 0px 0px 0px;
+    color:#000000;
+	background-color:#eeeeee;
+}
+
+.saved_search_box:hover{
+	color:#000000;
+	text-decoration: none;
+}
+
+.saved_search_box p{
+	font-size:14px;
+	padding:7px 10px 0px 10px;
+}
+
+
