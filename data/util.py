@@ -22,12 +22,10 @@ def dl_and_prep(url):
   if doc == '':
     os.remove(cache_loc)
     return dl_and_prep(url)
-  
-  
   return re.sub('>(\s*?)<', '><', doc)
 
 def remove_tags(string):
-  return re.sub('<\w*?>', '', string)
+  return re.sub('<.*?>', '', string)
 
 def research_interest_extractor(research_string):
   #first, is it a long summary or short blurb?
@@ -76,6 +74,12 @@ def clean_results(split):
     elif word != '' and len(word) > 4:
       ret.append(word)
   return ret
+
+def html_escape(content):
+  content = content.replace('\x92', '&#146;')
+  content = content.replace('\x93', '&#147;')
+  content = content.replace('\x94', '&#148;')
+  return content
 
 def split_and_clean(words, delim):
   words = words.replace('\n', ' ')
