@@ -29,7 +29,8 @@ for prof in results:
   if summary:
     pd['research_summary'] = util.remove_tags(summary[0]).strip()
   try:
-    pd['image'] = re.findall('\'(images/photos_faculty_staff/.*?)\'', personal_page)[0]
+    pd['image'] = 'http://soe.stanford.edu/research/%s' % re.findall('\'(images/photos_faculty_staff/.*?)\'', personal_page)[0]
+    import pdb; pdb.set_trace()
   except Exception:
     import pdb; pdb.set_trace()
   pd['title'] = re.findall("Title:</td><td class=\"data\">(.*?)</td>", personal_page)[0]  
@@ -39,5 +40,5 @@ for prof in results:
   print pd['name'], pd['department']
   output.append(pd)
 
-pickle.dump(output, file('standford.dat', 'w'))
+pickle.dump(output, file('prof_dicts/stanford.dat', 'w'))
 print 'Done!'
