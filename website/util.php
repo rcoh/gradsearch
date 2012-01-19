@@ -12,6 +12,7 @@ function get_con() {
   }
   return $con;
 }
+
 function query_or_die($query, $con) {
   $result = mysql_query($query, $con);
   if(!$result){
