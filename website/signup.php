@@ -35,7 +35,7 @@ function readpassword(form) {
 
 <input type="button" value="Submit" onClick="readpassword(this.form)" /> 
 </form>
-
+<script src="ajaxsubmit.js" type="text/javascript"></script>
 </body>
 </html>
 

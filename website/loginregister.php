@@ -110,7 +110,7 @@ if (isset($help_text_pass)) {
                             <legend>
                                 Register
                             </legend>
-                            <div id="email_reg_div" class="clearfix">
+                            <div id="email_register" class="clearfix">
                                 <label for="email">
                                     Email
                                 </label>
@@ -132,17 +132,25 @@ if (isset($help_text_pass)) {
                                     <input class="xlarge" id="password_register" name="password" size="30" type="password" />
                                 </div>
                             </div><!-- /clearfix -->
-							<div class="clearfix">
+							<div id="confirm_password" class="clearfix">
                                 <label for="confirm_password">
                                     Confirm Password
                                 </label>
                                 <div class="input">
                                     <input class="xlarge" id="confirm_password" name="confirm_password" size="30" type="password" />
+                                    <span class="help-inline" id="password_different" style="display:none">
+                                      Uh oh.  Passwords are different or empty... 
+                                    </span>
+                                    <span class="help-inline" id="password_match" style="display:none">
+                                      Huzzahh!  Passwords match!
+                                    </span>
                                 </div>
                             </div><!-- /clearfix -->
 							
 							<div style="margin-left:150px;">
-            <input type="submit" class="btn primary" value="Register">
+            <input id="register_submit" type="submit" class="btn primary" value="Register">
+            <span id="bad_registration" style="display:none">
+Please style me leaAHAHAHAH!! And also please correct your errors before submitting</span>
           </div>
                         </fieldset>
                     </form>

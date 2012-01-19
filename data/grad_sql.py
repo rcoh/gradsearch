@@ -15,10 +15,6 @@ class GradSql(object):
       print "Error %d: %s" % (e.args[0],e.args[1])
       sys.exit(1)
   
-  def add_proffesor(self, name, school, research_summary, lab_website, personal_website):
-    self.insert('prof', ['name', 'school', 'research_summary', 'lab_website', 'personal_website'],
-        [name, school, research_summary, lab_website, personal_website])
-
   def add_proffesor(self, prof_info):
     all_data = dict(prof_info)  
     key_to_rm = []
@@ -33,13 +29,15 @@ class GradSql(object):
       self.insert('prof', prof_info.keys(), prof_info.values())
     else:
       self.update('prof', prof_info.keys(), prof_info.values(), 'id=%s' % pid)
+
+    pid = self.prof_id(all_data['name'])
     assert pid != None
     if 'keywords' in all_data:
       for k in all_data['keywords']:
         assert not ',' in k
         assert isinstance(k, str)
         self.add_keyword(pid, k) 
-    print "added"
+    print "added", all_data['name']
 
   def add_keyword(self, prof_id, keyword):
     kid = self.keyword_id(keyword)
@@ -50,7 +48,7 @@ class GradSql(object):
     self.insert('keywordmap', ['prof_id', 'keyword_id'], [prof_id, kid])
 
   def insert(self, tablename, columns, values):
-    values = [re.escape(str(v)) for v in values]
+    values = [self.con.escape_string(str(v)) for v in values]
     col_str = '(%s)' % ','.join(['`%s`' % c for c in columns])
     val_str = '(%s)' % ','.join(["'%s'" % v for v in values])
     stmnt = "insert into %s %s VALUES %s;" % (tablename, col_str, val_str) 
@@ -64,12 +62,13 @@ class GradSql(object):
       self.insert(tablename, columns, values)
 
   def update(self, tablename, columns, values, condition):
-    values = [re.escape(str(v)) for v in values]
+    values = [self.con.escape(str(v)) for v in values]
     setstr = ', '.join(['%s=%s' % (c, v) for c,v in zip(columns, values)])
     stmnt = "update %s set %s where %s" % (tablename, setstr, condition)
+    self.cur.execute(stmnt)
 
   def keyword_id(self, keyword):
-    self.con.query('select id from keywords where keyword=\'%s\'' % keyword)
+    self.con.query('select id from keywords where keyword=%s' % self.con.escape(keyword))
     result = self.con.use_result()
     row = result.fetch_row()
     if len(row):

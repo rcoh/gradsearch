@@ -21,10 +21,19 @@ function query_or_die($query, $con) {
   } 
 }
 
+function go($loc) {
+  header("Location: " . $loc);
+}
 function go_home() {
   header("Location: index.php");
 }
 
+function add_user($email, $hashpass, $con) { 
+  $query = sprintf("insert into users (password, email) values('%s', '%s')",
+          mysql_real_escape_string($hashpass),
+          mysql_real_escape_string($email));
+  return query_or_die($query, $con);
+}
 function standard_search($query, $con) {
   $stmnt="select distinct prof.id, name, school, department, image from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 

@@ -18,6 +18,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/search.js"></script>
+        <script type="text/javascript" src="js/bootstrap-alerts.js"></script>
         <style type="text/css">
             body {
                 padding-top: 60px;
@@ -57,6 +58,17 @@
             </div>
         </div>
         <div class="container">
+<?php
+  if (isset($_SESSION['msg'])) {
+?>
+
+  <div class="alert-message fade in <?php echo $_SESSION['msg']['type']; ?>">
+              <a class="close" href="#">×</a>
+              <p> <?php echo $_SESSION['msg']['text']; ?> </p>
+            </div>
+<?php
+   unset($_SESSION['msg']); 
+} ?>
             <div class="floater" style="height:150px;">
             </div>
             <div class="center">
