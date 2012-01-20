@@ -1,13 +1,12 @@
 import scrapemark
 import re
-import urllib2
+import util
 import pickle
 
 pat2 = """<tr><td valign="top"><div class="name"><a href="(.*?)>(.*?)</a></div><div>(.*?)</div>.*?<img src="(.*?)" alt.*?</td>.*?<td valign="top">.*?</td>.*?<td valign="top"><div>(.*?)</div></td></tr>"""
 results = []
 for c in range(ord('A'), ord('Z')):
-  doc = urllib2.urlopen('http://people.cs.cmu.edu/Faculty/' + chr(c)).read().replace('\r\n', '')
-  doc = re.sub('>(\s*?)<', '><', doc)
+  doc = util.dl_and_prep('http://people.cs.cmu.edu/Faculty/' + chr(c))
   results += re.findall(pat2.strip(), doc)
 
 final_dicts = [] 
