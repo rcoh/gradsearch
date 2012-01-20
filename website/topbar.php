@@ -10,11 +10,13 @@ function insert_active($url) {
 function loggedin(){
 if (isset($_SESSION['email'])) {
     echo "Logged in as " .$_SESSION['email'];
-}
-else {
-    echo "Please log in to view your preferences.";
     }
+else {
+    echo "Please <a href=\"loginregister.php\">log in</a> to view your preferences.";
+        }
 }
+
+
 
 ?>
 
@@ -39,9 +41,12 @@ else {
                 <li>
                     <a href="profile.php">Profile</a>
                 </li>
+                <?php if (isset($_SESSION['email'])){
+                echo "
                 <li>
-                    <a href="signout.php">Logout</a>
-                </li>
+                    <a href=\"signout.php\">Logout</a>
+                </li>";
+                } ?>
             </ul>
 			<p class="pull-right" style="color:gray; padding-right:10px;"> <?php loggedin(); ?>
                 <!--Logged in as <a href="profile.php">lalpert</a>-->
