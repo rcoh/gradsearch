@@ -1,9 +1,6 @@
 <?php
 require('util.php');
-session_start();
-echo $_SERVER['HTTP_HOST'];
-echo "---";
-echo $_SERVER['REQUEST_URI'];
+
 function insert_active($url) {
     if(strstr($_SERVER['REQUEST_URI'], $url)) {
        echo "class=\"active\"";
