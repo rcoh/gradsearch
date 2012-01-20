@@ -29,27 +29,7 @@
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     </head>
     <body>
-        <div class="topbar">
-            <div class="topbar-inner">
-                <div class="container-fluid">
-                    <a class="brand" href="#">IWantToStud.ty</a>
-                    <ul class="nav">
-                        <li class="active">
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="pull-right">
-                        Logged in as <a href="#">username</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+        <?php include('topbar.php'); ?>
         <div class="search_bar">
             <form class="bar_form" action="search.php">
                 <label for="search" style="width:auto; padding-left:10px;">
