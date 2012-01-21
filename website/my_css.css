@@ -25,6 +25,33 @@ body{
 	padding:0px;
 }
 
+.prof_modal{
+  top: 50%;
+  left: 50%;
+  z-index: 11000;
+  width: 960px;
+  margin: -270px 0 0 -480px;
+}
+
+.prof_bottom_info{
+  width:895px;
+  float:left;
+}
+
+.prof_bottom_info p{
+	font-size:14px;
+}
+
+.prof_top_info {
+	padding-top:5px;
+}
+
+
+.prof_top_info p{
+	font-size:18px;
+	line-height:1.3em;
+}
+
 .prof_content {
   margin-top:0px;
   padding:0px;
@@ -88,6 +115,7 @@ body{
 .big-thumbnail {
   max-width: 200px;
   max-height: 170px;
+  padding-right:6px;
 }
 
 .saved_search_box{
