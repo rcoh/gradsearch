@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+
 <?php
+  session_start();
   require('util.php');
   $query = $_GET['q'];
   $con = get_con();
   $result = standard_search($query, $con);
 ?>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
