@@ -23,13 +23,16 @@ reloadProfessors = function() {
   $.ajax({
     url:"get_professors.php",
     type:"GET",
-    dataType: "html",
+    dataType: "json",
     data: window.location.search.replace('?', ''), 
     success : function(data) {
-      $('.prof_grid').html(data);
+      $('.prof_grid').html(data['html']);
+      $('span#num_results').html(data['num_rows']);
+      $('span#search_phrase').html(data['description']);
     }
   });
 }
+
 
 filterCheckChange = function() { 
   var new_url = '';
