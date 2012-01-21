@@ -1,5 +1,6 @@
 <?php
-  session_start()
+  session_start();
+  require('util.php');
 ?>
 <!--TODO:
   Display _SESSION['msg'] in a bootstrap message
@@ -31,32 +32,7 @@
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     </head>
     <body>
-        <div class="topbar">
-            <div class="fill">
-                <div class="container">
-                    <a class="brand" href="#">Graduate School Search</a>
-                    <ul class="nav">
-                        <li class="active">
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                        <?php
-                          if (isset($_SESSION['email'])) {
-                            echo "<li><a href=\"#profle\">Welcome $_SESSION[email]</a></li>";
-                            echo "<li><a href=\"signout.php\">Signout</a></li>";
-                          } else {
-                            echo "<li><a href=\"loginregister.php\">Login</a>";
-                          }
-                        ?>  
-                    </ul>
-                </div>
-            </div>
-        </div>
+       <?php include('topbar.php'); ?>
         <div class="container">
 <?php
   if (isset($_SESSION['msg'])) {
