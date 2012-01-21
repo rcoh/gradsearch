@@ -1,5 +1,5 @@
 <?php
-require('util.php');
+
 
 function insert_active($url) {
     if(strstr($_SERVER['REQUEST_URI'], $url)) {

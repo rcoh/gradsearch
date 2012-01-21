@@ -1,5 +1,6 @@
 <?php
-  session_start()
+  session_start();
+  require('util.php');
 ?>
 <!--TODO:
   Display _SESSION['msg'] in a bootstrap message
