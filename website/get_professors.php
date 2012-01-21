@@ -18,6 +18,11 @@ ob_start();
 include('search_phrase.php');
 $description = ob_get_contents();
 ob_end_clean();
-$ret = array("num_rows" => $num_rows, "html" => $html, "description" => $description);
+if($num_rows == 1) {
+  $description = $num_rows . " professor " . $description; 
+} else { 
+  $description = $num_rows . " professors " . $description; 
+}
+$ret = array("html" => $html, "description" => $description);
 echo json_encode($ret);
 ?>

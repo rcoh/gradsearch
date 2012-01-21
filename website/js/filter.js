@@ -1,6 +1,3 @@
-$(document).ready(function() {
-  request_new_checkboxes();    
-});
 
 
 request_new_checkboxes = function() {
@@ -10,8 +7,10 @@ request_new_checkboxes = function() {
     dataType: "html",
     data: window.location.search.replace('?', ''), 
     success : function(data) {
-      $('span#filter').html(data); 
-      $('[type=checkbox]').change(filterCheckChange);
+      $(document).ready(function() {
+        $('span#filter').html(data); 
+        $('[type=checkbox]').change(filterCheckChange);
+      });
     },
     error : function(data) {
               alert('uhoh');
@@ -26,13 +25,20 @@ reloadProfessors = function() {
     dataType: "json",
     data: window.location.search.replace('?', ''), 
     success : function(data) {
-      $('.prof_grid').html(data['html']);
-      $('span#num_results').html(data['num_rows']);
-      $('span#search_phrase').html(data['description']);
+      $(document).ready(function() {
+        $('.prof_grid').html(data['html']);
+        $('p#search_description').html(data['description']);
+      });
     }
   });
 }
 
+
+waitToBeReady = function (func) {
+  return $(document).ready(function() {
+    func();
+  });
+}
 
 filterCheckChange = function() { 
   var new_url = '';
@@ -69,4 +75,7 @@ function getQueryVariable(variable) {
   } 
   return null;
 } 
+
+request_new_checkboxes();    
+reloadProfessors();
 

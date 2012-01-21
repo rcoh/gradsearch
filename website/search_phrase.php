@@ -1,5 +1,5 @@
 <?php 
-echo 'professors researching ';
+echo 'researching ';
 echo "<strong>" . $_GET['q'] . "</strong>";
 $params = array("school" => "at", "department" => "in");
 foreach($params as $param => $delim) {

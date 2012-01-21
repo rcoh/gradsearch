@@ -3,7 +3,7 @@
   require('util.php');
   $query = $_GET['q'];
   $con = get_con();
-  $result = filtered_search($query, array(), $con);
+#  $result = filtered_search($query, array(), $con);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,17 +53,10 @@
             </div>
             <div class="prof_content">
                 <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
-                    <p>
-                       <span id="num_results"> <?php echo mysql_num_rows($result) ?></span>
-                       <span id="search_phrase"><?php include('search_phrase.php'); ?></span>
+                    <p id="search_description">
                     </p>
                 </div>
                 <ul class="media-grid prof_grid">
-                    <?php
-                      while($row = mysql_fetch_array($result)) {
-                        include('prof_box.php');
-                      } 
-                    ?>
                 </ul>
                 <footer>
                     <p>
