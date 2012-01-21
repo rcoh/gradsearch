@@ -1,10 +1,9 @@
-
 <?php
   session_start();
   require('util.php');
   $query = $_GET['q'];
   $con = get_con();
-  $result = standard_search($query, $con);
+  $result = filtered_search($query, array(), $con);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,13 +47,14 @@
                 <div class="well" style=" padding:0px;">
                     <form action="" id="filter" class="form-stacked" style="padding:8px;">
                         <h5>Filter results by:</h5>
+                        <span id="filter"></span>
                     </form>
                 </div>
             </div>
             <div class="prof_content">
                 <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
                     <p>
-                        <? echo mysql_num_rows($result); ?> professors researching <strong><?php echo $_GET['q']; ?></strong>
+                        <? echo mysql_num_rows($result) . ' '; include('search_phrase.php'); ?>
                     </p>
                 </div>
                 <ul class="media-grid prof_grid">
@@ -66,7 +66,7 @@
                 </ul>
                 <footer>
                     <p>
-                        &copy; Company 2011
+                        &copy; Leah Alpert, Russell Cohen, Ram Bhaskar 2012
                     </p>
                 </footer>
             </div>

@@ -43,9 +43,12 @@ foreach($items as $category) {
               <input type="checkbox" name="<?php echo $refinement; ?>" value="<?php echo $category['dbname']; ?>" 
               <?php 
                 if(isset($_GET[$category['dbname']])) {
-                  if(strstr($_GET[$category['dbname']], $refinement)) {
-                    echo 'checked';
-                  } 
+                  $selected = explode(",", $_GET[$category['dbname']]);
+                  foreach($selected as $filter_item) {
+                    if($refinement == $filter_item){
+                      echo 'checked';
+                    }
+                  }
                 }
               ?>
               />

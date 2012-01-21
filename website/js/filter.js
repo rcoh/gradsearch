@@ -10,7 +10,7 @@ request_new_checkboxes = function() {
     dataType: "html",
     data: window.location.search.replace('?', ''), 
     success : function(data) {
-      $('form#filter').html(data); 
+      $('span#filter').html(data); 
       $('[type=checkbox]').change(filterCheckChange);
     },
     error : function(data) {
