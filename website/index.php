@@ -33,7 +33,7 @@
     <body>
        <?php include('topbar.php'); ?>
         <div class="container">
-<?php
+        <?php
   if (isset($_SESSION['msg'])) {
 ?>
 
@@ -57,7 +57,7 @@
                         </div>
                     </fieldset>
                 </form>
-            </div>
+             </div>
             <div class="floater" style="height:150px;">
             </div>
             <footer class="center" style="vertical-align:bottom;">
