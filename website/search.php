@@ -3,7 +3,6 @@
   require('util.php');
   $query = $_GET['q'];
   $con = get_con();
-#  $result = filtered_search($query, array(), $con);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +21,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/search.js"></script>
-        <script type="text/javascript" src="js/filter.js"></script>
+        <script type="text/javascript" src="js/autocomplete.js"></script>
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
