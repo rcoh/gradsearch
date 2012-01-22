@@ -9,20 +9,20 @@ $(document).ready(function() {
         email : $('input#email_register').val()
       },
       success : function(data) {
-                  if(data[0]) { //true -> email taken
-                    $('input#email_register').addClass('error');
-                    $('div#email_register').addClass('error').removeClass('success');
-                    $('#email_taken').show();
-                    $('#email_free').hide();
-                    valid_email = false;
-                  } else {
-                    $('input#email_register').addClass('error');
-                    $('div#email_register').addClass('success').removeClass('error');
-                    $('#email_taken').hide();
-                    $('#email_free').show();
-                    valid_email = true;
-                  }
-                }
+          if(data[0]) { //true -> email taken
+            $('input#email_register').addClass('error');
+            $('div#email_register').addClass('error').removeClass('success');
+            $('#email_taken').show();
+            $('#email_free').hide();
+            valid_email = false;
+          } else {
+            $('input#email_register').addClass('error');
+            $('div#email_register').addClass('success').removeClass('error');
+            $('#email_taken').hide();
+            $('#email_free').show();
+            valid_email = true;
+          }
+        }
     });
     return false;
   });
