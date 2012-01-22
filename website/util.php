@@ -12,6 +12,7 @@ function get_con() {
   }
   return $con;
 }
+
 function query_or_die($query, $con) {
   $result = mysql_query($query, $con);
   if(!$result){
@@ -38,34 +39,47 @@ function standard_search($query, $con) {
   $stmnt="select distinct prof.id, name, school, department, image from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('$query') 
+    where match (keyword) against ('\"$query\"' in boolean mode) 
     union select distinct prof.id, name,school, department, image from prof 
-    where match(research_summary) against('$query');";
+    where match(research_summary) against('\"$query\"' in boolean mode);";
   return query_or_die($stmnt, $con);
 }
 
 
-function filtered_search($query, $con, $params) {
-  
+function filtered_search($query, $params, $con) {
+  $cols = array("prof.id", "name", "school", "department", "image");
+  return query_or_die(build_query_string($cols, $query, $params), $con);
+}
+
+function build_query_string($cols, $search_term, $params) {
   $where_queries = "";
   foreach ($params as $filter => $value_list) {
-    $possible_values = join(',',$value_list);  
-    $where_queries .= " and $filter in ($possible_values)";   
+    $vals = explode(",", $value_list);
+    $possible_values = "'" . join('\',\'', $vals) . "'";  
+    $where_queries .= " and $filter in ($possible_values)";
   }
-     
-  $stmnt="select distinct prof.id, name, school, department, image from keywords 
+  $col_terms = implode(", ", $cols);   
+  $stmnt="select " . $col_terms . " from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('$query') 
+    where match (keyword) against ('\"$search_term\"' in boolean mode) 
     $where_queries
     union 
-    select distinct prof.id, name,school, department, image from prof 
-    where match(research_summary) against('$query')
-    $where_queries;";
-    
-  return query_or_die($stmnt, $con);
+    select distinct $col_terms from prof 
+    where match(research_summary) against('\"$search_term\"' in boolean mode)
+    $where_queries";
+  return $stmnt;
+
 }
 
+function get_professor_distribution($col, $search_term, $params, $con) {
+  $cols = array($col, "prof.id");
+  $query = 
+    "select $col, count(*) from (" . 
+      build_query_string($cols, $search_term, $params) . 
+    ") as T group by $col";
+  return query_or_die($query, $con);
+}
 function prof_by_id($prof_id, $con) {
   $stmnt="select * from prof where id='$prof_id'";
   return query_or_die($stmnt, $con);

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>IWantToStud.ty</title>
+        <title>re:search</title>
         <meta name="description" content="Search for professors by research interest">
         <meta name="author" content="Leah Alpert, Russell Cohen, Ram Bhaskar">
         <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -11,6 +11,121 @@
         <![endif]--><!-- Le styles -->
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
         <link rel="stylesheet" href="my_css.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap-modal.js">
+        </script>
+        <script>
+            
+            modal_slide_right = function(){
+                var modal = $(this).parent().parent();
+                modal.animate({
+                    left: '-50%'
+                }, 500, function(){
+                    modal.css('left', '-50%');
+                });
+                
+                var this_id = modal.attr("id");
+                var next_id = this_id.replace(/(\d+)/g, function(s){
+                    return (parseInt(s) + 1).toString();
+                });
+                var next_div = $("#" + next_id);
+                next_div.modal('show');
+                next_div.animate({
+                    left: '50%'
+                }, 500);
+            };
+            
+            modal_slide_left = function(){
+                var modal = $(this).parent().parent();
+                modal.animate({
+                    left: '150%'
+                }, 500, function(){
+                    modal.css('left', '150%');
+                });
+                
+                var this_id = modal.attr("id");
+                var prev_id = this_id.replace(/(\d+)/g, function(s){
+                    return (parseInt(s) - 1).toString();
+                });
+                var prev_div = $("#" + prev_id);
+                prev_div.modal('show');
+                prev_div.animate({
+                    left: '50%'
+                }, 500);
+            };
+            
+			
+			
+            $(document).ready(function(){
+				
+				$('.gray_star').click(function(){
+                    $(this).hide();
+					return false;
+                });
+                
+                $('.gold_star').click(function(){
+                    $(this).next().show();
+					return false;
+                });
+				
+            
+                $(".prof_box").click(function(){
+					//to do: set up background
+                    var modal_id = $(this).attr("id") + "_modal";
+                    var this_modal = $("#" + modal_id);
+					this_modal.css('left', '50%');
+					//this_modal.addClass('fade');
+                    this_modal.modal('show');
+                });
+                
+                $(".prof_modal_right").click(modal_slide_right);
+                
+                $(".prof_modal_left").click(modal_slide_left);
+				
+				
+				//Make this work!!
+				$(document.documentElement).keyup(function (event) {
+                    // handle cursor keys
+                    if (event.keyCode == 37) {
+                      modal_slide_left();
+                    } else if (event.keyCode == 39) {
+                      modal_slide_right();
+                    }
+                });
+                
+                $('.prof_modal').bind('shown', function(){
+                    var this_id = $(this).attr("id");
+                    var next_id = this_id.replace(/(\d+)/g, function(s){
+                        return (parseInt(s) + 1).toString();
+                    });
+                    var prev_id = this_id.replace(/(\d+)/g, function(s){
+                        return (parseInt(s) - 1).toString();
+                    });
+                    var next_div = $("#" + next_id);
+                    var prev_div = $("#" + prev_id);
+                    next_div.css('left', '150%');
+                    prev_div.css('left', '-50%');
+					
+					//$(this).removeClass('fade');
+                });
+                
+				$('.prof_modal').bind('hidden', function(){
+					//close background
+					//$("all_modals").each.... 
+					//hide, 
+					//set to center
+					var modal = $(this);
+					
+				});
+                
+             
+                
+                
+            });
+        </script>
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -19,48 +134,46 @@
     </head>
     <body>
         <div class="topbar">
-    <div class="topbar-inner">
-        <div class="container-fluid">
-            <a class="brand" href="index.php">IWantToStud.ty</a>
-            <ul class="nav">
-                <li class="active">
-                    <a href="index.php">Home</a>
-                </li>
-                <li>
-                    <a href="about.php">About</a>
-                </li>
-                <li>
-                    <a href="contact.php">Contact</a>
-                </li>
-            </ul>
-            
-            <ul class="nav" style="float:right; padding-right:20px;">
-                <li>
-                    <a href="profile.php">Profile</a>
-                </li>
-                <li>
-                    <a href="signout.php">Logout</a>
-                </li>
-            </ul>
-			<p class="pull-right" style="color:gray; padding-right:10px;">
-                Logged in as <a href="profile.php">lalpert</a>
-            </p>
+            <div class="topbar-inner">
+                <div class="container-fluid">
+                    <a class="brand" href="index.php"><strong>re:</strong>search</a>
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="index.php">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.php">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.php">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav" style="float:right; padding-right:20px;">
+                        <li>
+                            <a href="profile.php">Profile</a>
+                        </li>
+                        <li>
+                            <a href="signout.php">Logout</a>
+                        </li>
+                    </ul>
+                    <p class="pull-right" style="color:gray; padding-right:10px;">
+                        Logged in as <a href="profile.php">lalpert</a>
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-
         <div class="search_bar">
+            <input type="submit" class="btn info" value="Save this search" style="margin-right:175px; float:right;">
             <form class="bar_form">
                 <label for="search" style="width:auto; padding-left:10px;">
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
                     <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
-				</div>
+                </div>
             </form>
-			
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="container_test">
             <div class="fixed_sidebar">
                 <div class="well" style=" padding:0px;">
                     <form action="" class="form-stacked" style="padding:8px;">
@@ -68,7 +181,8 @@
                         <hr style="margin:5px; padding:0px;">
                         <div class="clearfix">
                             <label id="university">
-                            University
+                                University
+                            </label>
                             <div class="input" style="margin:0px; padding:0px;">
                                 <ul class="inputs-list">
                                     <li>
@@ -98,37 +212,12 @@
                                 <ul class="inputs-list">
                                     <li>
                                         <label>
-                                            <input type="checkbox" name="20" value="20" checked/><span>Mechanical Engineering (22)</span>
+                                            <input type="checkbox" name="20" value="20" checked/><span>Mechanical Engineering (20)</span>
                                         </label>
                                     </li>
                                     <li>
                                         <label>
                                             <input type="checkbox" name="21" value="21" checked/><span>Computer Science (9)</span>
-                                        </label>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <hr style="margin:5px; padding:0px;">
-                        <div class="clearfix">
-                            <label id="uni2">
-                                Universityyyy
-                            </label>
-                            <div class="input" style="margin:0px; padding:0px;">
-                                <ul class="inputs-list">
-                                    <li>
-                                        <label>
-                                            <input type="checkbox" name="30" value="30" checked/><span>MIT (14)</span>
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label>
-                                            <input type="checkbox" name="31" value="31" checked/><span>Stanford (8)</span>
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label>
-                                            <input type="checkbox" name="32" value="32" checked/><span>CMU (5)</span>
                                         </label>
                                     </li>
                                 </ul>
@@ -145,277 +234,198 @@
                         in the department of <strong>neuroscience</strong>
                     </p>
                 </div>
-                <ul class="media-grid prof_grid">
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                <!-- modal content -->
+                <div id="all_modals">
+                    <div id="prof1_modal" class="prof_modal modal hide">
+                        <div class="modal-header">
+                            <a href="#" class="close">&times;</a>
+                            <h3>Modal Heading</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                MODAL 1
+                            </p>
+                        </div>
+                        <div class="modal-footer" style="padding:5px;">
+                            <div class="prof_modal_left" style="float:left;">
+                                <a href="#" class="btn primary">Previous</a>
                             </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
+                            <div class="prof_modal_right" style="float:right;">
+                                <a href="#" class="btn primary">Next</a>
                             </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                        </div>
+                    </div>
+                    <div id="prof2_modal" class="prof_modal modal hide">
+                        <div class="modal-header">
+                            <a href="#" class="close">&times;</a>
+                            <img class="gold_star" style="height:25px; position:absolute; top:9px; left:9px;" src="gold_star.png"><img class="gray_star" style="height:25px; position:absolute; top:9px; left:9px;" src="gray_star.png"><h2 style="padding-left:28px;">Erik Demaine</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="top_content">
+                                    <div class="prof_image">
+                                        <img class="big-thumbnail" src="http://www.csail.mit.edu/images/directory/demaine.jpg" alt="">
+                                    </div>
+                                    <div class="prof_top_info">
+                                        <p>
+                                            MIT 
+                                        </p>
+                                        <p>
+                                            Computer Science & Electrical Engineering
+                                        </p>
+                                        <p>
+                                            Research Interests: Algorithms and data structures, discrete and computational geometry, combinatorial games
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="prof_bottom_info">
+                                    <h3>Research Summary</h3>
+                                    <p>
+                                        Erik Demaine is a Professor in computer science at the Massachusetts Institute of Technology. Demaine's research interests range throughout algorithms, from data structures for improving web searches to the geometry of understanding how proteins fold to the computational difficulty of playing games. He received a MacArthur Fellowship as a "computational geometer tackling and solving difficult problems related to folding and bending--moving readily between the theoretical and the playful, with a keen eye to revealing the former in the latter". He appears in the recent origami documentary Between the Folds, cowrote a book about the theory of folding (Geometric Folding Algorithms), and a book about the computational complexity of games (Games, Puzzles, and Computation). His interests span the connections between mathematics and art, particularly sculpture and performance, including curved-crease sculptures in the permanent collection of Museum of Modern Art (MoMA), New York.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="prof_info">
-                                <img class="thumbnail" src="http://placehold.it/20x20" alt="" style="float:right;"><h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
+                        </div>
+                        <div class="modal-footer" style="padding:5px;">
+                            <div class="prof_modal_left" style="float:left;">
+                                <a href="#" class="btn primary">Previous</a>
                             </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            <div class="prof_modal_right" style="float:right;">
+                                <a href="#" class="btn primary">Next</a>
                             </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
+                        </div>
+                    </div>
+                    <div id="prof3_modal" class="prof_modal modal hide">
+                        <div class="modal-header">
+                            <a href="#" class="close">&times;</a>
+                            <h3>Modal Heading</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                MODAL 3
+                            </p>
+                        </div>
+                        <div class="modal-footer" style="padding:5px;">
+                            <div class="prof_modal_left" style="float:left;">
+                                <a href="#" class="btn primary">Previous</a>
                             </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            <div class="prof_modal_right" style="float:right;">
+                                <a href="#" class="btn primary">Next</a>
                             </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
+                        </div>
+                    </div>
+                    <div id="prof4_modal" class="prof_modal modal hide">
+                        <div class="modal-header">
+                            <a href="#" class="close">&times;</a>
+                            <h3>Modal Heading</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                MODAL 4
+                            </p>
+                        </div>
+                        <div class="modal-footer" style="padding:5px;">
+                            <div class="prof_modal_left" style="float:left;">
+                                <a href="#" class="btn primary">Previous</a>
                             </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                            <div class="prof_modal_right" style="float:right;">
+                                <a href="#" class="btn primary">Next</a>
                             </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>
-                                    School
-                                </p>
-                                <p>
-                                    Department is too long to fit in one line
-                                </p>
-                                <hr>
-                                <p>
-                                    Research is super long too and goes onto multiple lines
-                                </p>
-                            </div>
-                        </a>
-                    </li><li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>School</p>
-                                <p>Department is too long to fit in one line</p>
-								<hr>
-                                <p>Research is super long too and goes onto multiple lines</p>
-                            </div>
-                        </a>
-                    </li> <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>School</p>
-                                <p>Department is too long to fit in one line</p>
-								<hr>
-                                <p>Research is super long too and goes onto multiple lines</p>
-                            </div>
-                        </a>
-                    </li> <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>School</p>
-                                <p>Department is too long to fit in one line</p>
-								<hr>
-                                <p>Research is super long too and goes onto multiple lines</p>
-                            </div>
-                        </a>
-                    </li> <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>School</p>
-                                <p>Department is too long to fit in one line</p>
-								<hr>
-                                <p>Research is super long too and goes onto multiple lines</p>
-                            </div>
-                        </a>
-                    </li> <li>
-                        <a href="#" class="prof_box">
-                            <div class="prof_image">
-                                <img class="thumbnail" src="http://placehold.it/100x120" alt="">
-                            </div>
-                            <div class="prof_info">
-                                <h5>Name</h5>
-                                <p>School</p>
-                                <p>Department is too long to fit in one line</p>
-								<hr>
-                                <p>Research is super long too and goes onto multiple lines</p>
-                            </div>
-                        </a>
-                    </li>
-					
-					
-					
-					
-                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="all_profs">
+                    <ul class="media-grid prof_grid">
+                        <li>
+                            <a id="prof1" href="#" class="prof_box">
+                                <div class="prof_image">
+                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                </div>
+                                <div class="prof_info">
+                                    <div id="stars">
+                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                    </div><h5>Name</h5>
+                                    <p>
+                                        School
+                                    </p>
+                                    <p>
+                                        Department
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        Research is super long and goes onto multiple lines, and eventually runs out of the box.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="prof2" href="#" class="prof_box">
+                                <div class="prof_image">
+                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                </div>
+                                <div class="prof_info">
+                                    <div id="stars">
+                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                    </div><h5>Erik Demaine</h5>
+                                    <p>
+                                        MIT
+                                    </p>
+                                    <p>
+                                        EECS
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        Algorithms, computational geometry, origami
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="prof3" class="prof_box">
+                                <div class="prof_image">
+                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                </div>
+                                <div class="prof_info">
+                                    <div id="stars">
+                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                    </div><h5>Name</h5>
+                                    <p>
+                                        School
+                                    </p>
+                                    <p>
+                                        Department
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        Research is super long and goes onto multiple lines
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="prof4" class="prof_box">
+                                <div class="prof_image">
+                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                </div>
+                                <div class="prof_info">
+                                    <div id="stars">
+                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                    </div><h5>Name</h5>
+                                    <p>
+                                        School
+                                    </p>
+                                    <p>
+                                        Department
+                                    </p>
+                                    <hr>
+                                    <p>
+                                        Research is super long and goes onto multiple lines
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <footer>
                     <p>
                         &copy; Company 2011

@@ -1,0 +1,17 @@
+$(document).ready(function() {
+    $.ajax({
+      url:"filter_options.php",
+      type:"GET",
+      dataType: "html",
+      data : {
+        email : 'whatever'
+      },
+      success : function(data) {
+        $('form#filter').append(data)
+      }
+    });
+});
+
+filterCheckChange = function() {
+  alert(this);
+}

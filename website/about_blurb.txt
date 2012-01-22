@@ -5,8 +5,8 @@ you're looking for a professor.  <Name> solves that problem.  Enter your researc
 or specific, and browse through professors from dozens of universities studying what you're
 studying. 
 
-To use <name>, enter a research interest, university, or professor's name into the search bar. 
-<Name> will display professors who match your query. Click on a professor to see their full profile, 
+To use <strong>re:</strong>search, enter a research interest, university, or professor's name into the search bar. 
+<strong>re:</strong>search will display professors who match your query. Click on a professor to see their full profile, 
 including a research summary, awards, and publications. If you register for the site, you can bookmark
 professors to view later.
 
