@@ -46,7 +46,7 @@
             <div class="floater" style="height:150px;">
             </div>
             <div class="center">
-                <form action="search.php">
+                <form id="search" action="search.php">
                     <fieldset>
                         <legend style="padding-left: 0px;">
                             What are you interested in?
