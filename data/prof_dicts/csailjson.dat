@@ -1,1242 +1,905 @@
 (lp0
 (dp1
-S'keywords'
+S'image'
 p2
-Vcryptography and information security
-p3
-sS'image'
-p4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rivest.jpg
-p5
+p3
 sS'name'
-p6
+p4
 VRonald Rivest
-p7
+p5
 sS'email'
-p8
+p6
 Vrivest@mit.edu
-p9
-sa(dp10
+p7
+sa(dp8
 g2
-Vunknown
-p11
-sg4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/fano.jpg
-p12
-sg6
+p9
+sg4
 VRobert Fano
-p13
-sg8
+p10
+sg6
 Vfano@csail.mit.edu
-p14
-sa(dp15
+p11
+sa(dp12
 g2
-(lp16
-Valgorithms
-p17
-aVdatabase
-p18
-asg4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/indyk.jpg
-p19
-sg6
+p13
+sg4
 VPiotr Indyk
-p20
-sg8
+p14
+sg6
 Vindyk@csail.mit.edu
-p21
-sa(dp22
+p15
+sa(dp16
 g2
-Vunknown
-p23
-sg4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/winston.jpg
-p24
-sg6
-VPatrick Winston
-p25
-sg8
-Vphw@csail.mit.edu
-p26
-sa(dp27
-g2
-Vnetworks and mobile systems
-p28
+p17
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/guttag.jpg
-p29
+VPatrick Winston
+p18
 sg6
+Vphw@csail.mit.edu
+p19
+sa(dp20
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/guttag.jpg
+p21
+sg4
 VJohn Guttag
-p30
-sg8
+p22
+sg6
 Vguttag@csail.mit.edu
+p23
+sa(dp24
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sussman.jpg
+p25
+sg4
+VGerald Sussman
+p26
+sg6
+Vgjs@csail.mit.edu
+p27
+sa(dp28
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/edelman.jpg
+p29
+sg4
+VAlan Edelman
+p30
+sg6
+Vedelman@csail.mit.edu
 p31
 sa(dp32
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/berger.jpg
 p33
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sussman.jpg
+VBonnie Berger
 p34
 sg6
-VGerald Sussman
-p35
-sg8
-Vgjs@csail.mit.edu
-p36
-sa(dp37
-g2
-Vunknown
-p38
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/edelman.jpg
-p39
-sg6
-VAlan Edelman
-p40
-sg8
-Vedelman@csail.mit.edu
-p41
-sa(dp42
-g2
-Vcomputational biology
-p43
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/berger.jpg
-p44
-sg6
-VBonnie Berger
-p45
-sg8
 Vbab@csail.mit.edu
-p46
-sa(dp47
+p35
+sa(dp36
 g2
-Vuser interface design
-p48
-sg4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/miller.jpg
-p49
-sg6
+p37
+sg4
 VRob Miller
-p50
-sg8
+p38
+sg6
 Vrcm@csail.mit.edu
+p39
+sa(dp40
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/roy.jpg
+p41
+sg4
+VNicholas Roy
+p42
+sg6
+Vnickroy@csail.mit.edu
+p43
+sa(dp44
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/williams.jpg
+p45
+sg4
+VBrian Williams
+p46
+sg6
+Vwilliams@csail.mit.edu
+p47
+sa(dp48
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/stonebraker.jpg
+p49
+sg4
+VMichael Stonebraker
+p50
+sg6
+Vstonebraker@csail.mit.edu
 p51
 sa(dp52
 g2
-Vrobotics, vision, sensor networks
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/kaelbling.jpg
 p53
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/roy.jpg
+VLeslie Kaelbling
 p54
 sg6
-VNicholas Roy
-p55
-sg8
-Vnickroy@csail.mit.edu
-p56
-sa(dp57
-g2
-Vmodel-based embedded & robotic systems
-p58
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/williams.jpg
-p59
-sg6
-VBrian Williams
-p60
-sg8
-Vwilliams@csail.mit.edu
-p61
-sa(dp62
-g2
-Vdatabase
-p63
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/stonebraker.jpg
-p64
-sg6
-VMichael Stonebraker
-p65
-sg8
-Vstonebraker@csail.mit.edu
-p66
-sa(dp67
-g2
-(lp68
-Vlearning rich, tractable models of the real world
-p69
-aVvision
-p70
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/kaelbling.jpg
-p71
-sg6
-VLeslie Kaelbling
-p72
-sg8
 Vlpk@csail.mit.edu
-p73
-sa(dp74
+p55
+sa(dp56
 g2
-Vcomputation structures
-p75
-sg4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/devadas.jpg
-p76
-sg6
-VSrini Devadas
-p77
-sg8
-Vdevadas@csail.mit.edu
-p78
-sa(dp79
-g2
-(lp80
-Vmedical vision
-p81
-aVvision
-p82
-aVvisual surveillance and monitoring
-p83
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/grimson.jpg
-p84
-sg6
-VEric Grimson
-p85
-sg8
-Vwelg@csail.mit.edu
-p86
-sa(dp87
-g2
-Vunknown
-p88
+p57
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/barzilay.jpg
-p89
+VSrini Devadas
+p58
 sg6
+Vdevadas@csail.mit.edu
+p59
+sa(dp60
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/grimson.jpg
+p61
+sg4
+VEric Grimson
+p62
+sg6
+Vwelg@csail.mit.edu
+p63
+sa(dp64
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/barzilay.jpg
+p65
+sg4
 VRegina Barzilay
-p90
-sg8
+p66
+sg6
 Vregina@csail.mit.edu
+p67
+sa(dp68
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/liskov.jpg
+p69
+sg4
+VBarbara Liskov
+p70
+sg6
+Vliskov@csail.mit.edu
+p71
+sa(dp72
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/lozano-perez.jpg
+p73
+sg4
+VTomas Lozano-Perez
+p74
+sg6
+Vtlp@csail.mit.edu
+p75
+sa(dp76
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/amarasinghe.jpg
+p77
+sg4
+VSaman Amarasinghe
+p78
+sg6
+Vsaman@csail.mit.edu
+p79
+sa(dp80
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/goldwasser.jpg
+p81
+sg4
+VShafi Goldwasser
+p82
+sg6
+Vshafi@csail.mit.edu
+p83
+sa(dp84
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/horn.jpg
+p85
+sg4
+VBerthold Horn
+p86
+sg6
+Vbkph@csail.mit.edu
+p87
+sa(dp88
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/weitzner.jpg
+p89
+sg4
+VDaniel Weitzner
+p90
+sg6
+Vdjweitzner@w3.org
 p91
 sa(dp92
 g2
-Vprogramming methodology
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/popovic.jpg
 p93
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/liskov.jpg
+VJovan Popovic
 p94
 sg6
-VBarbara Liskov
+Vjovan@csail.mit.edu
 p95
-sg8
-Vliskov@csail.mit.edu
-p96
-sa(dp97
+sa(dp96
 g2
-(lp98
-Vmedical vision
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/lynch.jpg
+p97
+sg4
+VNancy Lynch
+p98
+sg6
+Vlynch@csail.mit.edu
 p99
-aVvision
-p100
-aVvisual surveillance and monitoring
+sa(dp100
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/shrobe.jpg
 p101
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/lozano-perez.jpg
+sg4
+VHoward Shrobe
 p102
 sg6
-VTomas Lozano-Perez
+Vhes@csail.mit.edu
 p103
-sg8
-Vtlp@csail.mit.edu
-p104
-sa(dp105
+sa(dp104
 g2
-Vcomputer architecture
-p106
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/long.jpg
+p105
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/amarasinghe.jpg
-p107
+VBill Long
+p106
 sg6
-VSaman Amarasinghe
-p108
-sg8
-Vsaman@csail.mit.edu
-p109
-sa(dp110
+Vwjl@mit.edu
+p107
+sa(dp108
 g2
-(lp111
-Vcomplexity theory
-p112
-aVcryptography and information security
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/arvind.jpg
+p109
+sg4
+VArvind
+p110
+sg6
+Varvind@csail.mit.edu
+p111
+sa(dp112
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/szolovits.jpg
 p113
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/goldwasser.jpg
+sg4
+VPeter Szolovits
 p114
 sg6
-VShafi Goldwasser
+Vpsz@mit.edu
 p115
-sg8
-Vshafi@csail.mit.edu
-p116
-sa(dp117
+sa(dp116
 g2
-Vvision
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/willsky.jpg
+p117
+sg4
+VAlan Willsky
 p118
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/horn.jpg
+sg6
+Vwillsky@mit.edu
 p119
-sg6
-VBerthold Horn
-p120
-sg8
-Vbkph@csail.mit.edu
+sa(dp120
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sollins.jpg
 p121
-sa(dp122
-g2
-Vdecentralized information
+sg4
+VKaren Sollins
+p122
+sg6
+Vsollins@csail.mit.edu
 p123
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/weitzner.jpg
-p124
-sg6
-VDaniel Weitzner
-p125
-sg8
-Vdjweitzner@w3.org
-p126
-sa(dp127
+sa(dp124
 g2
-Vcomputer graphics
-p128
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/collins.jpg
+p125
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/popovic.jpg
-p129
+VMichael Collins
+p126
 sg6
-VJovan Popovic
+Vmcollins@csail.mit.edu
+p127
+sa(dp128
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/ernst.jpg
+p129
+sg4
+VMichael Ernst
 p130
-sg8
-Vjovan@csail.mit.edu
+sg6
+Vmernst@csail.mit.edu
 p131
 sa(dp132
 g2
-Vtheory of distributed systems
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/tidor.jpg
 p133
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/lynch.jpg
+VBruce Tidor
 p134
 sg6
-VNancy Lynch
+Vtidor@mit.edu
 p135
-sg8
-Vlynch@csail.mit.edu
-p136
-sa(dp137
+sa(dp136
 g2
-(lp138
-Vclinical decision making
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sudan.jpg
+p137
+sg4
+VMadhu Sudan
+p138
+sg6
+Vmadhu@csail.mit.edu
 p139
-aVdesign rationale
-p140
-aVdynamic languages
+sa(dp140
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/brooks.jpg
 p141
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/shrobe.jpg
+sg4
+VRodney Brooks
 p142
 sg6
-VHoward Shrobe
+Vbrooks@csail.mit.edu
 p143
-sg8
-Vhes@csail.mit.edu
-p144
-sa(dp145
+sa(dp144
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/morris.jpg
+p145
+sg4
+VRobert Morris
 p146
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/long.jpg
+sg6
+Vrtm@csail.mit.edu
 p147
-sg6
-VBill Long
-p148
-sg8
-Vwjl@mit.edu
+sa(dp148
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/meyer.jpg
 p149
-sa(dp150
-g2
-Vcomputation structures
+sg4
+VAlbert R. Meyer
+p150
+sg6
+Vmeyer@csail.mit.edu
 p151
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/arvind.jpg
-p152
-sg6
-VArvind
-p153
-sg8
-Varvind@csail.mit.edu
-p154
-sa(dp155
+sa(dp152
 g2
-Vclinical decision making
-p156
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/agarwal.jpg
+p153
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/szolovits.jpg
-p157
+VAnant Agarwal
+p154
 sg6
-VPeter Szolovits
+Vagarwal@csail.mit.edu
+p155
+sa(dp156
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/clark.jpg
+p157
+sg4
+VDavid Clark
 p158
-sg8
-Vpsz@mit.edu
+sg6
+Vddc@csail.mit.edu
 p159
 sa(dp160
 g2
-Vstochastic systems
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/lampson.jpg
 p161
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/willsky.jpg
+VButler Lampson
 p162
 sg6
-VAlan Willsky
+Vblampson@microsoft.com
 p163
-sg8
-Vwillsky@mit.edu
-p164
-sa(dp165
+sa(dp164
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/adelson.jpg
+p165
+sg4
+VTed Adelson
 p166
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sollins.jpg
+sg6
+Vadelson@csail.mit.edu
 p167
-sg6
-VKaren Sollins
-p168
-sg8
-Vsollins@csail.mit.edu
+sa(dp168
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/knight.jpg
 p169
-sa(dp170
-g2
-Vunknown
+sg4
+VThomas Knight Jr
+p170
+sg6
+Vtk@csail.mit.edu
 p171
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/collins.jpg
-p172
-sg6
-VMichael Collins
-p173
-sg8
-Vmcollins@csail.mit.edu
-p174
-sa(dp175
+sa(dp172
 g2
-Vprogram analysis
-p176
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/richards.jpg
+p173
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/ernst.jpg
-p177
+VWhitman Richards
+p174
 sg6
-VMichael Ernst
+Vwrichards@csail.mit.edu
+p175
+sa(dp176
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/golland.jpg
+p177
+sg4
+VPolina Golland
 p178
-sg8
-Vmernst@csail.mit.edu
+sg6
+Vpolina@csail.mit.edu
 p179
 sa(dp180
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/teller.jpg
 p181
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/tidor.jpg
+VSeth Teller
 p182
 sg6
-VBruce Tidor
+Vteller@csail.mit.edu
 p183
-sg8
-Vtidor@mit.edu
-p184
-sa(dp185
+sa(dp184
 g2
-(lp186
-Valgorithms
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/asanovic.jpg
+p185
+sg4
+VKrste Asanovic
+p186
+sg6
+Vkrste@csail.mit.edu
 p187
-aVcomplexity theory
-p188
-aVcryptography and information security
+sa(dp188
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rudolph.jpg
 p189
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sudan.jpg
+sg4
+VLarry Rudolph
 p190
 sg6
-VMadhu Sudan
+Vrudolph@csail.mit.edu
 p191
-sg8
-Vmadhu@csail.mit.edu
-p192
-sa(dp193
+sa(dp192
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/ward.jpg
+p193
+sg4
+VSteve Ward
 p194
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/brooks.jpg
+sg6
+Vward@mit.edu
 p195
-sg6
-VRodney Brooks
-p196
-sg8
-Vbrooks@csail.mit.edu
+sa(dp196
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/micali.jpg
 p197
-sa(dp198
-g2
-Vparallel & distributed operating systems
+sg4
+VSilvio Micali
+p198
+sg6
+Vsilvio@csail.mit.edu
 p199
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/morris.jpg
-p200
-sg6
-VRobert Morris
-p201
-sg8
-Vrtm@csail.mit.edu
-p202
-sa(dp203
+sa(dp200
 g2
-Vunknown
-p204
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/fisher.jpg
+p201
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/meyer.jpg
-p205
+VJohn Fisher
+p202
 sg6
-VAlbert R. Meyer
+Vfisher@csail.mit.edu
+p203
+sa(dp204
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/jackson.jpg
+p205
+sg4
+VDaniel Jackson
 p206
-sg8
-Vmeyer@csail.mit.edu
+sg6
+Vdnj@csail.mit.edu
 p207
 sa(dp208
 g2
-Vcomputer architecture
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/terman.jpg
 p209
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/agarwal.jpg
+VChris Terman
 p210
 sg6
-VAnant Agarwal
+Vcjt@mit.edu
 p211
-sg8
-Vagarwal@csail.mit.edu
-p212
-sa(dp213
+sa(dp212
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/seneff.jpg
+p213
+sg4
+VStephanie Seneff
 p214
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/clark.jpg
+sg6
+Vseneff@csail.mit.edu
 p215
-sg6
-VDavid Clark
-p216
-sg8
-Vddc@csail.mit.edu
+sa(dp216
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/madden.jpg
 p217
-sa(dp218
-g2
-Vcryptography and information security
+sg4
+VSam Madden
+p218
+sg6
+Vmadden@csail.mit.edu
 p219
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/lampson.jpg
-p220
-sg6
-VButler Lampson
-p221
-sg8
-Vblampson@microsoft.com
-p222
-sa(dp223
+sa(dp220
 g2
-Vvision
-p224
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rubinfeld.jpg
+p221
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/adelson.jpg
-p225
+VRonitt Rubinfeld
+p222
 sg6
-VTed Adelson
+Vronitt@csail.mit.edu
+p223
+sa(dp224
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/zue.jpg
+p225
+sg4
+VVictor Zue
 p226
-sg8
-Vadelson@csail.mit.edu
+sg6
+Vzue@csail.mit.edu
 p227
 sa(dp228
 g2
-(lp229
-Vproject aires
-p230
-aVproject on mathematics and computation
-p231
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/knight.jpg
-p232
-sg6
-VThomas Knight Jr
-p233
-sg8
-Vtk@csail.mit.edu
-p234
-sa(dp235
-g2
-Vunknown
-p236
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/garland.jpg
+p229
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/richards.jpg
-p237
+VStephen Garland
+p230
 sg6
-VWhitman Richards
+Vgarland@csail.mit.edu
+p231
+sa(dp232
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/kaashoek.jpg
+p233
+sg4
+VFrans Kaashoek
+p234
+sg6
+Vkaashoek@csail.mit.edu
+p235
+sa(dp236
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/katabi.jpg
+p237
+sg4
+VDina Katabi
 p238
-sg8
-Vwrichards@csail.mit.edu
+sg6
+Vdina@csail.mit.edu
 p239
 sa(dp240
 g2
-(lp241
-Vmedical vision
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rinard.jpg
+p241
+sg4
+VMartin Rinard
 p242
-aVvision
+sg6
+Vrinard@csail.mit.edu
 p243
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/golland.jpg
-p244
-sg6
-VPolina Golland
+sa(dp244
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/demaine.jpg
 p245
-sg8
-Vpolina@csail.mit.edu
+sg4
+VErik Demaine
 p246
-sa(dp247
+sg6
+Vedemaine@mit.edu
+p247
+sa(dp248
 g2
-(lp248
-Vrobotics, vision, sensor networks
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/poggio.jpg
 p249
-aVvisual surveillance and monitoring
+sg4
+VTomaso Poggio
 p250
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/teller.jpg
+sg6
+Vtp@csail.mit.edu
 p251
-sg6
-VSeth Teller
-p252
-sg8
-Vteller@csail.mit.edu
+sa(dp252
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/wisdom.jpg
 p253
-sa(dp254
-g2
-Vcomputer architecture
+sg4
+VJack Wisdom
+p254
+sg6
+Vwisdom@csail.mit.edu
 p255
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/asanovic.jpg
-p256
-sg6
-VKrste Asanovic
-p257
-sg8
-Vkrste@csail.mit.edu
-p258
-sa(dp259
+sa(dp256
 g2
-Vcomputation structures
-p260
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sipser.jpg
+p257
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rudolph.jpg
-p261
+VMichael Sipser
+p258
 sg6
-VLarry Rudolph
+Vsipser@csail.mit.edu
+p259
+sa(dp260
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/tenenbaum.jpg
+p261
+sg4
+VJoshua Tenenbaum
 p262
-sg8
-Vrudolph@csail.mit.edu
+sg6
+Vjbt@csail.mit.edu
 p263
 sa(dp264
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/massaquoi.jpg
 p265
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/ward.jpg
+VSteve Massaquoi
 p266
 sg6
-VSteve Ward
+Vsgm@csail.mit.edu
 p267
-sg8
-Vward@mit.edu
-p268
-sa(dp269
+sa(dp268
 g2
-Vunknown
-p270
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/dennis.jpg
+p269
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/micali.jpg
-p271
+VJack Dennis
+p270
 sg6
-VSilvio Micali
-p272
-sg8
-Vsilvio@csail.mit.edu
-p273
-sa(dp274
+Vdennis@csail.mit.edu
+p271
+sa(dp272
 g2
-(lp275
-Vvision
-p276
-aVvision interface
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/moses.jpg
+p273
+sg4
+VJoel Moses
+p274
+sg6
+Vmoses@csail.mit.edu
+p275
+sa(dp276
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/glass.jpg
 p277
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/fisher.jpg
+sg4
+VJames Glass
 p278
 sg6
-VJohn Fisher
+Vglass@csail.mit.edu
 p279
-sg8
-Vfisher@csail.mit.edu
-p280
-sa(dp281
+sa(dp280
 g2
-Vsoftware design
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/gifford.jpg
+p281
+sg4
+VDave Gifford
 p282
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/jackson.jpg
+sg6
+Vgifford@csail.mit.edu
 p283
-sg6
-VDaniel Jackson
-p284
-sg8
-Vdnj@csail.mit.edu
+sa(dp284
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/jaakkola.jpg
 p285
-sa(dp286
-g2
-Vunknown
+sg4
+VTommi Jaakkola
+p286
+sg6
+Vtommi@csail.mit.edu
 p287
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/terman.jpg
-p288
-sg6
-VChris Terman
-p289
-sg8
-Vcjt@mit.edu
-p290
-sa(dp291
+sa(dp288
 g2
-Vspoken language systems
-p292
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/leiserson.jpg
+p289
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/seneff.jpg
-p293
+VCharles Leiserson
+p290
 sg6
-VStephanie Seneff
+Vcel@csail.mit.edu
+p291
+sa(dp292
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/stultz.jpg
+p293
+sg4
+VCollin Stultz
 p294
-sg8
-Vseneff@csail.mit.edu
+sg6
+Vcmstultz@csail.mit.edu
 p295
 sa(dp296
 g2
-Vdatabase
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/kellis.jpg
 p297
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/madden.jpg
+VManolis Kellis
 p298
 sg6
-VSam Madden
+Vmanoli@mit.edu
 p299
-sg8
-Vmadden@csail.mit.edu
-p300
-sa(dp301
+sa(dp300
 g2
-Valgorithms
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/katz.jpg
+p301
+sg4
+VBoris Katz
 p302
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rubinfeld.jpg
+sg6
+Vboris@csail.mit.edu
 p303
-sg6
-VRonitt Rubinfeld
-p304
-sg8
-Vronitt@csail.mit.edu
+sa(dp304
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/leonard.jpg
 p305
-sa(dp306
-g2
-Vspoken language systems
+sg4
+VJohn Leonard
+p306
+sg6
+Vjleonard@csail.mit.edu
 p307
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/zue.jpg
-p308
-sg6
-VVictor Zue
-p309
-sg8
-Vzue@csail.mit.edu
-p310
-sa(dp311
+sa(dp308
 g2
-Vunknown
-p312
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rus.jpg
+p309
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/garland.jpg
-p313
+VDaniela Rus
+p310
 sg6
-VStephen Garland
+Vrus@csail.mit.edu
+p311
+sa(dp312
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/abelson.jpg
+p313
+sg4
+VHal Abelson
 p314
-sg8
-Vgarland@csail.mit.edu
+sg6
+Vhal@mit.edu
 p315
 sa(dp316
 g2
-Vparallel & distributed operating systems
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/saltzer.jpg
 p317
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/kaashoek.jpg
+VJerome Saltzer
 p318
 sg6
-VFrans Kaashoek
+Vsaltzer@mit.edu
 p319
-sg8
-Vkaashoek@csail.mit.edu
-p320
-sa(dp321
+sa(dp320
 g2
-Vnetworks and mobile systems
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/goemans.jpg
+p321
+sg4
+VMichel Goemans
 p322
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/katabi.jpg
+sg6
+Vgoemans@csail.mit.edu
 p323
-sg6
-VDina Katabi
-p324
-sg8
-Vdina@csail.mit.edu
+sa(dp324
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/durand.jpg
 p325
-sa(dp326
-g2
-Vprogram analysis and compilation
+sg4
+VFredo Durand
+p326
+sg6
+Vfredo@graphics.csail.mit.edu
 p327
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rinard.jpg
-p328
-sg6
-VMartin Rinard
-p329
-sg8
-Vrinard@csail.mit.edu
-p330
-sa(dp331
+sa(dp328
 g2
-Valgorithms
-p332
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/tedrake.jpg
+p329
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/demaine.jpg
-p333
+VRuss Tedrake
+p330
 sg6
-VErik Demaine
+Vrusst@csail.mit.edu
+p331
+sa(dp332
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/balakrishnan.jpg
+p333
+sg4
+VHari Balakrishnan
 p334
-sg8
-Vedemaine@mit.edu
+sg6
+Vhari@csail.mit.edu
 p335
 sa(dp336
 g2
-(lp337
-Vcenter for biological & computational learning
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/darrell.jpg
+p337
+sg4
+VTrevor Darrell
 p338
-aVvision
-p339
-aVvisual surveillance and monitoring
-p340
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/poggio.jpg
-p341
 sg6
-VTomaso Poggio
+Vtrevor@csail.mit.edu
+p339
+sa(dp340
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/corbato.jpg
+p341
+sg4
+VF. J. Corbato
 p342
-sg8
-Vtp@csail.mit.edu
+sg6
+Vcorbato@mit.edu
 p343
 sa(dp344
 g2
-Vunknown
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/davis.jpg
 p345
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/wisdom.jpg
+VRandall Davis
 p346
 sg6
-VJack Wisdom
-p347
-sg8
-Vwisdom@csail.mit.edu
-p348
-sa(dp349
-g2
-Vcomplexity theory
-p350
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/sipser.jpg
-p351
-sg6
-VMichael Sipser
-p352
-sg8
-Vsipser@csail.mit.edu
-p353
-sa(dp354
-g2
-Vcomputational cognitive science
-p355
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/tenenbaum.jpg
-p356
-sg6
-VJoshua Tenenbaum
-p357
-sg8
-Vjbt@csail.mit.edu
-p358
-sa(dp359
-g2
-Vunknown
-p360
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/massaquoi.jpg
-p361
-sg6
-VSteve Massaquoi
-p362
-sg8
-Vsgm@csail.mit.edu
-p363
-sa(dp364
-g2
-Vcomputation structures
-p365
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/dennis.jpg
-p366
-sg6
-VJack Dennis
-p367
-sg8
-Vdennis@csail.mit.edu
-p368
-sa(dp369
-g2
-Vunknown
-p370
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/moses.jpg
-p371
-sg6
-VJoel Moses
-p372
-sg8
-Vmoses@csail.mit.edu
-p373
-sa(dp374
-g2
-Vspoken language systems
-p375
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/glass.jpg
-p376
-sg6
-VJames Glass
-p377
-sg8
-Vglass@csail.mit.edu
-p378
-sa(dp379
-g2
-Vcomputational genomics
-p380
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/gifford.jpg
-p381
-sg6
-VDave Gifford
-p382
-sg8
-Vgifford@csail.mit.edu
-p383
-sa(dp384
-g2
-Vunknown
-p385
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/jaakkola.jpg
-p386
-sg6
-VTommi Jaakkola
-p387
-sg8
-Vtommi@csail.mit.edu
-p388
-sa(dp389
-g2
-(lp390
-Valgorithms
-p391
-aVsupercomputing technologies
-p392
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/leiserson.jpg
-p393
-sg6
-VCharles Leiserson
-p394
-sg8
-Vcel@csail.mit.edu
-p395
-sa(dp396
-g2
-Vunknown
-p397
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/stultz.jpg
-p398
-sg6
-VCollin Stultz
-p399
-sg8
-Vcmstultz@csail.mit.edu
-p400
-sa(dp401
-g2
-Vunknown
-p402
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/kellis.jpg
-p403
-sg6
-VManolis Kellis
-p404
-sg8
-Vmanoli@mit.edu
-p405
-sa(dp406
-g2
-Vinfolab
-p407
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/katz.jpg
-p408
-sg6
-VBoris Katz
-p409
-sg8
-Vboris@csail.mit.edu
-p410
-sa(dp411
-g2
-Vrobotics, vision, sensor networks
-p412
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/leonard.jpg
-p413
-sg6
-VJohn Leonard
-p414
-sg8
-Vjleonard@csail.mit.edu
-p415
-sa(dp416
-g2
-Vdistributed robotics
-p417
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/rus.jpg
-p418
-sg6
-VDaniela Rus
-p419
-sg8
-Vrus@csail.mit.edu
-p420
-sa(dp421
-g2
-(lp422
-Vdecentralized information
-p423
-aVproject on mathematics and computation
-p424
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/abelson.jpg
-p425
-sg6
-VHal Abelson
-p426
-sg8
-Vhal@mit.edu
-p427
-sa(dp428
-g2
-Vunknown
-p429
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/saltzer.jpg
-p430
-sg6
-VJerome Saltzer
-p431
-sg8
-Vsaltzer@mit.edu
-p432
-sa(dp433
-g2
-Valgorithms
-p434
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/goemans.jpg
-p435
-sg6
-VMichel Goemans
-p436
-sg8
-Vgoemans@csail.mit.edu
-p437
-sa(dp438
-g2
-Vcomputer graphics
-p439
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/durand.jpg
-p440
-sg6
-VFredo Durand
-p441
-sg8
-Vfredo@graphics.csail.mit.edu
-p442
-sa(dp443
-g2
-(lp444
-Vrobot locomotion
-p445
-aVrobotics, vision, sensor networks
-p446
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/tedrake.jpg
-p447
-sg6
-VRuss Tedrake
-p448
-sg8
-Vrusst@csail.mit.edu
-p449
-sa(dp450
-g2
-(lp451
-Vdatabase
-p452
-aVnetworks and mobile systems
-p453
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/balakrishnan.jpg
-p454
-sg6
-VHari Balakrishnan
-p455
-sg8
-Vhari@csail.mit.edu
-p456
-sa(dp457
-g2
-(lp458
-Vvision
-p459
-aVvision interface
-p460
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/darrell.jpg
-p461
-sg6
-VTrevor Darrell
-p462
-sg8
-Vtrevor@csail.mit.edu
-p463
-sa(dp464
-g2
-Vparallel & distributed operating systems
-p465
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/corbato.jpg
-p466
-sg6
-VF. J. Corbato
-p467
-sg8
-Vcorbato@mit.edu
-p468
-sa(dp469
-g2
-Vdesign rationale
-p470
-sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/davis.jpg
-p471
-sg6
-VRandall Davis
-p472
-sg8
 Vdavis@csail.mit.edu
-p473
-sa(dp474
+p347
+sa(dp348
 g2
-Vdecentralized information
-p475
-sg4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/berners-lee.jpg
-p476
-sg6
+p349
+sg4
 VTim Berners-Lee
-p477
-sg8
+p350
+sg6
 Vtimbl@w3.org
-p478
-sa(dp479
+p351
+sa(dp352
 g2
-Valgorithms
-p480
-sg4
 Vhttp://www.csail.mit.edu/biographies/PI/72dpi/leighton.jpg
-p481
-sg6
-VTom Leighton
-p482
-sg8
-Vftl@csail.mit.edu
-p483
-sa(dp484
-g2
-Vvision
-p485
+p353
 sg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/freeman.jpg
-p486
+VTom Leighton
+p354
 sg6
-VWilliam Freeman
-p487
-sg8
-Vbillf@csail.mit.edu
-p488
-sa(dp489
+Vftl@csail.mit.edu
+p355
+sa(dp356
 g2
-(lp490
-Valgorithms
-p491
-aVdatabase
-p492
-aVhaystack
-p493
-asg4
-Vhttp://www.csail.mit.edu/biographies/PI/72dpi/karger.jpg
-p494
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/freeman.jpg
+p357
+sg4
+VWilliam Freeman
+p358
 sg6
+Vbillf@csail.mit.edu
+p359
+sa(dp360
+g2
+Vhttp://www.csail.mit.edu/biographies/PI/72dpi/karger.jpg
+p361
+sg4
 VDavid Karger
-p495
-sg8
+p362
+sg6
 Vkarger@csail.mit.edu
-p496
+p363
 sa.

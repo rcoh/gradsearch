@@ -60,8 +60,8 @@ for prof in all_prof_info:
       prof_dictionary['research_summary'] = prof[3]
 
     prof_dictionary['school'] = 'MIT'
-    prof_dictionary['department'] = prof[4]
+    prof_dictionary['department'] = util.prep_department(prof[4])
+    util.validate_professor(prof_dictionary)
     prof_dictionary_list.append(prof_dictionary)
-
 
 pickle.dump(prof_dictionary_list, file('prof_dicts/mit.dat', 'w'))

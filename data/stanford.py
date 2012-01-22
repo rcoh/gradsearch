@@ -18,7 +18,7 @@ for prof in results:
   if '<b>' in prof[2]:
     pd['department'] = re.findall('<b>(.*?)</b>', prof[2])[0]
   else:
-    pd['department'] = util.remove_tags(prof[2])
+    pd['department'] = util.prep_department(util.remove_tags(prof[2]))
   research = prof[3].replace('&nbsp;', '').strip()
   if len(research) > 0:
     pd['keywords'] = util.split_and_clean(research, ',')
@@ -37,6 +37,7 @@ for prof in results:
   if personal_website:
     pd['personal_website'] = personal_website[0]
   print pd['name'], pd['department']
+  util.validate_professor(pd)
   output.append(pd)
 
 pickle.dump(output, file('prof_dicts/stanford.dat', 'w'))
