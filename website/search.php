@@ -36,7 +36,7 @@
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
-                    <input id="search" name="q" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
+                <input id="search" name="q" <?php if(isset($_GET['q'])) { echo "value=\"$_GET[q]\""; } ?> size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
 				</div>
             </form>
 			
