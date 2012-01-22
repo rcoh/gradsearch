@@ -107,15 +107,21 @@ if (isset($help_text_pass)) {
                                     </span>
                                 </div>
                             </div><!-- /clearfix -->
-                            <div class="clearfix">
+                            <div id="password" class="clearfix">
                                 <label for="password">
                                     Password
                                 </label>
-                                <div class="input">
+                                <div  class="input">
                                     <input class="xlarge" id="password_register" name="password" size="30" type="password" />
+                                    <span class="help-inline" id="password_short" style="display:none">
+                                      Password too short! Length must be &geq; 6 characters. 
+                                    </span>
+                                    <span class="help-inline" id="password_good" style="display:none">
+                                      Perfect!
+                                    </span>
                                 </div>
                             </div><!-- /clearfix -->
-							<div id="confirm_password" class="clearfix">
+                            <div id="confirm_password" class="clearfix">
                                 <label for="confirm_password">
                                     Confirm Password
                                 </label>

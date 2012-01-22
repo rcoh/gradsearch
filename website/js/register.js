@@ -35,11 +35,24 @@ $(document).ready(function() {
     $.show_passwords_valid();
   });
   $("input#password_register").keyup(function() {
+    $.enforce_password_length();
     if($("input#confirm_password").val() != '') {
       $.show_passwords_valid();
     }
   });
-
+  $.enforce_password_length = function() {
+    if($("input#password_register").val().length < 6) {
+      $("input#password_register").addClass('error');
+      $('div#password').addClass('error').removeClass('success');
+      $('#password_short').show();
+      $('#password_good').hide();
+    } else {
+      $("input#password_register").addClass('error');
+      $('div#password').addClass('success').removeClass('error');
+      $('#password_short').hide();
+      $('#password_good').show();
+    }
+  }
   $.show_passwords_valid = function() {
     if($.passwords_valid()) {
       $('div#confirm_password').addClass('success').removeClass('error');
