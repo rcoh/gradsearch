@@ -8,7 +8,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>IWantToStud.ty</title>
+        <title>re:search</title>
         <meta name="description" content="Search for professors by research interest">
         <meta name="author" content="Leah Alpert, Russell Cohen, Ram Bhaskar">
         <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
