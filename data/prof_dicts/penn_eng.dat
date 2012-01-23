@@ -1,0 +1,2628 @@
+(lp0
+(dp1
+S'name'
+p2
+S'Rajeev Alur'
+p3
+sS'title'
+p4
+S'Zisman Family Professor'
+p5
+sS'image'
+p6
+S'images/photos/full_Alur.jpg '
+p7
+sS'research'
+p8
+S"Embedded Systems | Algorithms and Complexity | Formal Methods   Rajeev's research is aimed at improving technology for design and analysis of reliable software systems. His team is interested in developing specification logics for formalizing correctness requirements, modeling notations for constructing modular descriptions of complex systems, and verification algorithms for checking systems against requirements. Current applications include concurrency libraries for multicore architectures, Java applets for mobile devices, and safety-critical control software."
+p9
+sS'awards'
+p10
+S'LICS Test-of-Time Award - 2010, Heilmeier Award For Excellence in Faculty Research - 2010, The inaugural Computer Aided Veri\x0ccation Award - 2008, Fellow of the IEEE- 2008, Fellow of the ACM - 2007, Elected Chair of the Association of Computing Machinery (ACM) Special Interest Group on Embedded Systems - 2005, National Science Foundation Information Technology Research Award - 2001, Alfred P. Sloan Faculty Fellowship - 1999, NSF Early Career Award - 1998'
+p11
+sS'department'
+p12
+S' \tComputer and Information Science (CIS)'
+p13
+sS'education'
+p14
+S'<br/>PhD Computer Science 1991 -  Stanford University <br/>   Bachelor of Technology Computer Science 1987 -  Indian Institute of Technology in Kanpur<br/>'
+p15
+sS'email'
+p16
+S'alur@cis.upenn.edu'
+p17
+sa(dp18
+g2
+S'Paulo E.Arratia'
+p19
+sg4
+S'Assistant Professor '
+p20
+sg6
+S'images/photos/full_Arratia.jpg '
+p21
+sg8
+S'Biomechanics | Fluid Mechanics | Mechanics of Materials   Paulo studies the behavior of complex fluids including polymeric solutions, colloidal suspensions, and blood flowing in micro- and nanofluidic devices. Such devices have the potential to produce and process small amounts of fluids with efficiency and speed, which can be used for rheology and production of nanoparticles. His research group also studies the interaction between the fluid and device length scales, which can give rise to a number of poorly understood phenomena, including changes in effective viscosity and slip effects.'
+p22
+sg10
+S'NSF CAREER Award - 2010'
+p23
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p24
+sg14
+S'<br/>PhD Chemical &amp; Biochemical Engineering 2003 - Rutgers University <br/>   MS Chemical &amp; Biochemical Engineering 2001 - Rutgers University <br/>   BS  Chemical Engineering 1997 - Hampton University<br/>'
+p25
+sg16
+S'parratia@seas.upenn.edu'
+p26
+sa(dp27
+g2
+S'Portonovo S.Ayyaswamy'
+p28
+sg4
+S'Asa Whitney Professor of Dynamical Engineering'
+p29
+sg6
+S'images/photos/a_full_Ayyaswamy.jpg '
+p30
+sg8
+S"Biomechanics | Computational Mechanics | Fluid Mechanics   Ayyaswamy's research is in the area of mechanical engineering, with foci in modeling, simulations and experimentation of multi-phase flow/heat and mass transfer. In the area of interconnection of electronic chips by wire bonding, he has been investigating the melting of metals and alloys by plasma arc-discharges and subsequent solidification. In the area of die-bonding, he has established new results for the squeezing flow of yield stress fluids. In the area of microgravity fluid mechanics, mass transfer, and biotechnology, his lab has worked to determine the mechanisms responsible for changes in osteoblast behavior under simulated microgravity conditions by employing experimental and numerical-analytical methods. In the area of convective heat and mass transfer in the presence of a phase-change, Portonovo has investigated forced convection effects on condensation, evaporation and combustion to study transport associated with moving drops and bubbles. He is also exploring the effect of electric fields on flames under normal and microgravity conditions.  His recent work is related to finite bubbles/particle motion in the context of gas embolism and targeted drug delivery."
+p31
+sg10
+S'ASME Worcester Reed Warner Medal - 2007, ASME Heat Transfer Memorial Award - 2001, Council of Indian Organizations Award - 1999, Aerospace Professional of the Year Award - 1997, ASME Fellow - 1990, Lindback Award for Distinguished Teaching - 1979, Reid Warren Award for Distinguished Teaching - 1978'
+p32
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p33
+sg14
+S'<br/>PhD 1971 - University of California  at Los Angeles <br/>  ME 1967 - Columbia University <br/>  MS 1965 - Columbia University <br/>  BE 1962 - University of Mysore <br/>'
+p34
+sg16
+S'ayya@seas.upenn.edu'
+p35
+sa(dp36
+g2
+S'Norman I.Badler'
+p37
+sg4
+S'Professor '
+p38
+sg6
+S'images/photos/full_Badler.jpg '
+p39
+sg8
+S"Computer Graphics | Computer Animation  As director of the Center for Human Modeling and Simulation, Norm investigates computer graphics and artificial intelligence techniques and applications for embodied agents, virtual humans, and human-computer interaction. His major research directions include developing behavior-based animation of human movement for individuals and groups, constructing a parameterized action representation for real-time simulation and animation, and studying the relationship among human movement, natural language, and communication. Norm's crowd and populace simulation research incorporates environmental context and animates actors with roles and stochastic, scheduled, reactive, and opportunistic behaviors."
+p40
+sg10
+S"Penn Provost's Interdisciplinary Seminar Fund Award - 2009, Associate Dean of the School of Engineering and Applied Science - 2001-05, Cecilia Fitler Moore Department Chair of Computer and Information Science - 1990-94"
+p41
+sg12
+S' \tComputer and Information Science (CIS)'
+p42
+sg14
+S'<br/>PhD Computer Science 1975 - University of Toronto <br/>   MSc Mathematics 1971 - University of Toronto <br/>  BA  College of Creative Studies 1970 - University of California at Santa Barbara<br/>'
+p43
+sg16
+S'badler@seas.upenn.edu'
+p44
+sa(dp45
+g2
+S'John L.Bassani'
+p46
+sg4
+S'Richard H. and S. L. Gabel Professor'
+p47
+sg6
+S'images/photos/full_Bassani.jpg '
+p48
+sg8
+S'Biomechanics | Computational Mechanics | Mechanics of Materials   John applies his expertise in atomic-level properties of continuum mechanics in order to model mechanical and mechano-chemical behavior of nano-structured materials.  His research group explores concepts to control the formation of patterned nanostructures in the solid state and investigates the interplay between mechanics and adhesion, with applications to MEMS/NEMS devices and living cells.\xc3\x82\xc2\xa0 John has developed models for elastic and inelastic behavior, and failure at the nanoscale, including interfaces and other complex defects in crystalline materials and thin films.'
+p49
+sg10
+S'President of Society of Engineering Science - 2008, Presidential Young Investigator Award - 1984'
+p50
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM) <br/> Materials Science and Engineering (MSE)'
+p51
+sg14
+S'<br/>PhD Engineering 1978 - Harvard University <br/>  MS Applied Mechanics 1975 -  Lehigh University <br/>  BS Mechanical Engineering 1973 - Lehigh University <br/>'
+p52
+sg16
+S'bassani@seas.upenn.edu'
+p53
+sa(dp54
+g2
+S'Haim H.Bau'
+p55
+sg4
+S'Professor'
+p56
+sg6
+S'images/photos/full_Bau.jpg '
+p57
+sg8
+S"Computational Mechanics | Fluid Mechanics | Mechanics of Materials   Haim's current research interests are in nano- and macro-fluidics, with applications in biology and medicine. His lab has developed means for the directed positioning of individual molecules, and the study of their mechanical and electrical properties.  They have also developed methods to transport liquids and particles through nanopipes.  They are working on carbon nanopipe-based devices for cell surgery, and are constructing laboratories on chips for disease detection at the point of care."
+p58
+sg10
+S'Fellow of the ASME, Presidential Young Investigator Award - 1984, ASME-Heat Transfer Division Best Paper Award - 1982'
+p59
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p60
+sg14
+S'<br/>PhD Mechanical Engineering 1980 - Cornell University <br/>   MS Mechanical Engineering 1973 - Technion  in Haifa Israel <br/>   BS Mechanical Engineering 1969 - Technion in Haifa Israel <br/>'
+p61
+sg16
+S'bau@seas.upenn.edu'
+p62
+sa(dp63
+g2
+S'MatthewBlaze'
+p64
+sg4
+S'Associate Professor'
+p65
+sg6
+S'images/photos/full_Blaze.jpg '
+p66
+sg8
+S"Computer Security | Distributed Systems  Matt's research focuses on cryptography and its applications, trust management, human scale security, secure systems design, and networking and distributed computing. He is particularly interested in security technology with bearing on public policy issues, including cryptography policy (key escrow), wiretapping and surveillance, and the security of electronic voting systems."
+p67
+sg10
+S''
+p68
+sg12
+S' \tComputer and Information Science (CIS)'
+p69
+sg14
+S'<br/>PhD Computer Science - Princeton University <br/>  MA Computer Science - Princeton University <br/>  MS Computer Science - Columbia University <br/>   BS - City University of New York Hunter College<br/>'
+p70
+sg16
+S'blaze@cis.upenn.edu'
+p71
+sa(dp72
+g2
+S'Daniel K.Bogen'
+p73
+sg4
+S'Professor'
+p74
+sg6
+S'images/photos/a_full_Bogen.jpg '
+p75
+sg8
+S"Rehabilitation Engineering | Medical Devices | Engineering Design   Dan's primary research interest is in pediatric rehabilitation engineering; specifically the development of new technology to diagnose and treat disabled children. He is especially interested in cognitive rehabilitation of children with brain injury and other neurological or cognitive disorders. This work involves the development of new kinds of pediatric user-interfaces to biomedical devices interfaces which are appealing to children, and which allow the children to operate diagnostic and therapeutic instruments."
+p76
+sg10
+g68
+sg12
+S' \tBioengineering (BE) <br/> Bioengineering in Medicine <br/> Bioengineering in Pediatrics <br/'
+p77
+sg14
+S'<br/>PhD  Bioengineering 1977 -  Harvard University <br/>   MD 1979 -  Harvard Medical School <br/>  AB Applied Mathematics 1972 - Harvard College<br/>'
+p78
+sg16
+S'dan@seas.upenn.edu'
+p79
+sa(dp80
+g2
+S'Dawn A.Bonnell'
+p81
+sg4
+S'Trustees Chair Professor'
+p82
+sg6
+S'images/photos/full_Bonnell.jpg '
+p83
+sg8
+S'Biomaterials | Material Interfaces | Scanning Probe Microscopy   Dawn explores the fundamental basis of property variations at atomic scales in complex materials, exploiting these variations to make functional systems.  The Bonnell Group images and manipulates atoms and molecules using scanning probes, and develops new tools for examining behavior at these scales.  Dawn and her group induce local property variations to be used as templates in patterning complex nanostructures, such as nanoelectronic and opto electronic devices, and they analyze compound nanostructures, consisting of ferroelectric compounds, synthetic proteins, and nano dots.'
+p84
+sg10
+S'Fellow of the AAAS, George H. Heilmeier Award for Excellence in Faculty Research - 2006, Staudinger-Durrer Prize, Department of Materials at ETH, Zurich - 2006, President, American Vacuum Society, Governing Board, American Institute of Physics - 2004, Fellow AVS '
+p85
+sg12
+S' \tMaterials Science and Engineering (MSE)'
+p86
+sg14
+S'<br/>PhD  Materials Science &amp; Engineering 1986 - University of Michigan <br/>   MS Engineering Materials 1984 - University of Michigan <br/>   BSE Materials Science &amp; Engineering 1983 - University of Michigan<br/>'
+p87
+sg16
+S'bonnell@lrsm.upenn.edu'
+p88
+sa(dp89
+g2
+S'Joseph Bordogna'
+p90
+sg4
+S'Alfred Fitler Moore Professor of Engineering'
+p91
+sg6
+S'images/photos/a_full_Bordogna.jpg '
+p92
+sg8
+S"Optoelectronics | Engineering Policy  Joe's research interests include optoelectronics, manufacturing systems, environmental technologies, management of technological innovation, educational innovation and federal science and engineering policy.  He has made contributions to the engineering profession in a variety of areas including early laser communications systems, electro-optic recording materials, holographic television playback systems, and early space capsule recovery. He was a past Deputy Director and Chief Operating Officer of the National Science Foundation and served previously as head of NSF's Directorate for Engineering. As well as his assignment at NSF, his career includes experience as a line officer in the U.S. Navy, a practicing engineer in industry, and a professor."
+p93
+sg10
+S'National Science Foundation Distinguished Service Medal - 2006, Eminent Member of Eta Kappa Nu, Honor Society of the IEEE - 2005,  Lifetime Achievement Award of the D.C. Council of Engineering and Architectural Societies - 2005,  U.S. Government Leadership Award of the Semiconductor Industry Association - 2005, Honorary Doctorate of Humanities from North Carolina AT&amp;T State University - 2005, Leadership in Technology Management Award from the International Conference on Management of Engineering and Technology - 2004'
+p94
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p95
+sg14
+S'<br/>PhD - University of Pennsylvania <br/>  SM - Massachusetts Institute of Technology <br/>  BSEE - University of Pennsylvania<br/>'
+p96
+sg16
+S'bordogna@seas.upenn.edu'
+p97
+sa(dp98
+g2
+S'Gershon Buchsbaum'
+p99
+sg4
+S'Professor'
+p100
+sg6
+S'images/photos/a_full_Buchsbaum.jpg '
+p101
+sg8
+S"Neuroengineering | Imaging | Signal Processing   Gershon's research interests are in the neural architecture of the visual system with its unique and elaborate response properties in space, time and color, which provide us with all the features and richness of our visual world. The main goals of his lab's research are to understand how the visual neural architecture is matched to the image and how it samples, codes and processes the different features of the image; and to identify the attributes of natural images that are most critical for coding in the visual system. Questions his research asks are: What are the significant correlations and functional relations among the different image features? How do critical parameters such as contrast in time, space and color and local and global details affect visual image processing? How does visual processing match and adapt to dynamic changes in the image? How does the visual system extract image features such as spatial detail and color? To investigate these questions, they apply quantitative analysis and simulation methods from image processing and neural networks that are rigorously based on known anatomy and physiology and explore the design principles and strategy underlying the visual system neural architecture."
+p102
+sg10
+S'Ford Motor Company Award for Faculty Advising - 2011'
+p103
+sg12
+S' \tBioengineering (BE)'
+p104
+sg14
+S'<br/>PhD Engineering Science 1978 - Tel Aviv University <br/>  MSc Electrical Engineering 1975 - Tel Aviv University <br/>  BSc Electrical Engineering 1974 - Tel Aviv University <br/>'
+p105
+sg16
+S'gershon@seas.upenn.edu'
+p106
+sa(dp107
+g2
+S'Jason A.Burdick'
+p108
+sg4
+S'Associate Professor'
+p109
+sg6
+S'images/photos/a_full_Burdick.jpg '
+p110
+sg8
+S"Tissue Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | Biomaterials   Jason's research interests include developing degradable polymeric biomaterials that can be used for tissue engineering, drug delivery, and fundamental polymer studies.  The platform polymer technology involves the development of multifunctional monomers that form degradable crosslinked networks via a radical polymerization.  Specific targets of his research include: scaffolding for cell and growth factor delivery in bone and cartilage regeneration; controlling stem cell differentiation and growth factor delivery; and investigating the influence of monomer structure on resulting network macroscopic and microscopic properties."
+p111
+sg10
+S'Edward C. Nagy New Investigator Award - 2011, NSF CAREER Award - 2009'
+p112
+sg12
+S' \tBioengineering (BE)'
+p113
+sg14
+S'<br/>PhD Chemical Engineering 2002 - University of Colorado <br/>   BS Chemical Engineering 1998 - University of Wyoming <br/>'
+p114
+sg16
+S'burdick2@seas.upenn.edu'
+p115
+sa(dp116
+g2
+S'Robert W.Carpick'
+p117
+sg4
+S'Professor'
+p118
+sg6
+S'images/photos/full_Carpick.jpg '
+p119
+sg8
+S'Mechanics of Materials  Rob conducts his research at the intersection of mechanics, materials, and physics. He is an expert in experimental nanomechanics and nanotribology (friction, adhesion, and wear). His lab has developed novel advanced scanning probe microscopy tools, used to investigate the fundamental nature of materials in contact. Rob has done seminal work on nanoscale characterization of friction for many important materials, including ultra-thin organic films, solid single crystal and thin film surfaces including ultra-strong carbon-based materials, and polymeric materials.'
+p120
+sg10
+S'ASME  Burt L. Newkirk Award - 2009, Penn Fellow - 2009, ASEE Outstanding New Mechanics Educator Award - 2003, 3M Untenured Faculty Award - 2002, NSF CAREER Award - 2002'
+p121
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM) <br/> Materials Science and Engineering (MSE)'
+p122
+sg14
+S'<br/>PhD 1997 - Physics - University of California at Berkeley <br/>  MA 1994 - Physics - University of California at Berkeley <br/>   BS 1991 - Physics - University of Toronto<br/>'
+p123
+sg16
+S'carpick@seas.upenn.edu'
+p124
+sa(dp125
+g2
+S'Thomas A.V.Cassel'
+p126
+sg4
+S'Professor of Practice'
+p127
+sg6
+S'images/photos/a_full_Cassel.jpg '
+p128
+sg8
+S"Engineering Entrepreneurship | Engineering Economics  Tom's research interests are in the area of technology entrepreneurship.  He is the Director of Penn's Engineering Entrepreneurship Program, which he initiated in 1999 following a 20-year career of entrepreneurial business leadership. He received a full professorship appointment in 2002.  Prior to joining Penn's faculty, Tom was the co-founder and CEO of Reading Energy Holdings, Inc., a pioneer in the independent electric power industry. Under Tom's leadership, the company developed large-scale, waste-fueled power plants using cutting-edge combustion and environmental technologies.  By the mid-1990's, the company had developed, owned and operated advanced power facilities having capital costs exceeding $600 million.  Tom and his fellow management shareholders eventually sold their power plant assets to multinational corporations."
+p129
+sg10
+S"Provost's Award for Distinguished Teaching - 2007,  Ford Motor Company Award for faculty advising - 2007, Robert Yarnall Award - 2005,  S. Reid Warren Jr.  Award - 2003"
+p130
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p131
+sg14
+S'<br/>PhD 1979 - University of Pennsylvania; MSc 1973 - University of Pennsylvania; BSc 1968 - University of Pennsylvania<br/>'
+p132
+sg16
+S'tcassel@seas.upenn.edu'
+p133
+sa(dp134
+g2
+S'I-Wei Chen'
+p135
+sg4
+S'Peter &amp; Geri Skirkanich Professor of Innovation'
+p136
+sg6
+S'images/photos/full_Chen_IW.jpg '
+p137
+sg8
+S"Ceramics | Polymers | Electronic Materials   Chen's interests span several aspects of nanomaterial research. He investigates magnetic and fluorescent smart colloids for molecular imaging, primarily MRI; nanograin ceramics, which deals with multilayer ceramic capacitor (MLCC), specifically sintering and dielectric/ferroelectric properties of barium titanate; and thin film nanometallic electronic devices for resistance random access memory (RRAM). Chen is also studying energy materials, such as zirconia, thermoelectrics and transparent electrodes. "
+p138
+sg10
+S'Sosman Award of the American Ceramic Society - 2006, Edward C. Henry Award, Electronic Division, American Ceramic Society - 1999, Humboldt Prize - 1997, Ross Coffin Purdy Award, American Ceramic Society - 1994, Fellow, American Ceramic Society - 1991'
+p139
+sg12
+S' \tMaterials Science and Engineering (MSE)'
+p140
+sg14
+S'<br/>PhD Metallurgy 1980 - Massachusetts Institute of Technology <br/>  MS Physics 1975 - University of Pennsylvania <br/>  BS Physics 1972 - Tsinghua University<br/>'
+p141
+sg16
+S'iweichen@seas.upenn.edu'
+p142
+sa(dp143
+g2
+S'Christopher S.Chen'
+p144
+sg4
+S'Skirkanich Professor of Innovation'
+p145
+sg6
+S'images/photos/full_Chen_C.jpg '
+p146
+sg8
+S"Cellular Engineering | Cell Mechanics | Tissue Engineering   Chris's research interests include the application of microfabrication and nanotechnology to cell and tissue engineering, and regenerative medicine. His lab has developed approaches to control the nanoscale adhesive interactions between cells and their surrounding scaffolds, and uses them to control cell function. Chris is particularly engaged in understanding how to engineer stem cell function and tissue vascularization, and the relationship between tissue architecture and tissue function."
+p147
+sg10
+S'Heilmeier Award for Excellence in Faculty Research - 2011, AIMBE Fellow - 2009, Presidential Early Career Award, Angiogenesis Foundation Fellowship, Office of Naval Research Young Investigator Award, Mary Hulman George Award for Biomedical Research, Herbert W. Dickerman Award For Outstanding Contribution to Science'
+p148
+sg12
+S' \tBioengineering (BE) <br/> Chemical and Biomolecular Engineering (CBE)'
+p149
+sg14
+g68
+sg16
+S'chrischen@seas.upenn.edu'
+p150
+sa(dp151
+g2
+S'Russell J.Composto'
+p152
+sg4
+S'Professor'
+p153
+sg6
+S'images/photos/full_Composto.jpg '
+p154
+sg8
+S"Polymers | Material Interfaces | Biomaterials   Russ is involved in polymer science and biomolecular engineering research.  His interests extend to polymer surfaces and interfaces, adhesion and diffusion, and nanocomposite polymer blend and copolymer films.   Russ's biomaterials work centers around manipulating the surface of polymers to elicit control over protein adsorption, as well as cell adhesion, orientation, and function, and he has an active research program at the interface of polymer science and biomolecular engineering, which combines block copolymer self-assemble as a basis for orienting stiff biological molecules."
+p155
+sg10
+g68
+sg12
+S' \tMaterials Science and Engineering (MSE) <br/> Bioengineering (BE) <br/> Chemical and Biomolecular Engineering (CBE) <br/'
+p156
+sg14
+S'<br/>PhD Materials Science and Engineering 1987 - Cornell University <br/>   MS Materials Science 1984 - Cornell University <br/>  BA Physics 1982 - Gettysburg College<br/>'
+p157
+sg16
+S'composto@lrsm.upenn.edu '
+p158
+sa(dp159
+g2
+S'John C.Crocker'
+p160
+sg4
+S'Associate Professor'
+p161
+sg6
+S'images/photos/full_Crocker.jpg '
+p162
+sg8
+S"Surface and Colloidal Science | Transport Processes | Molecular Simulation   John's research concerns the mechanical properties of small objects, ranging from single molecules to living cells. His nanotechnology work is centered on self-assembly, growing useful devices and structures from smaller parts in a biology-inspired, organic fashion. John uses DNA as a programmable adhesive, directing microscopic parts to spontaneously form a crystal-like ordered pattern. His lab has pioneered new methods for quantifying the mechanical response of both single molecules and cells to small forces."
+p163
+sg10
+S'Popular Science Magazine Brilliant 10 Member - 2005, Packard Fellow - 2002'
+p164
+sg12
+S' \tChemical and Biomolecular Engineering (CBE)'
+p165
+sg14
+S'<br/>PhD Physics 1996 - University of Chicago <br/>  AM Physics 1992 -  University of Chicago <br/>  AB Physics 1990 - University of Chicago<br/>'
+p166
+sg16
+S'jcrocker@seas.upenn.edu'
+p167
+sa(dp168
+g2
+S'KonstantinosDaniilidis'
+p169
+sg4
+S'Professor'
+p170
+sg6
+S'images/photos/full_Dandillidis.jpg '
+p171
+sg8
+S"Computer Vision | Robotics  Kostas' research interests are in computer vision and robotic perception.  His research addresses challenges in the perception of motion and space, such as the geometric design of cameras, and the interplay of geometry and appearance in perception tasks.  Kostas's research gives solutions to perceptual tasks such as panoramic vision, localization, perception of self-motion, large-scale mapping, visual location recognition, 3-D object recognition, and vision-based flocking. Applications of his research involve robot navigation, tele-immersion, and image and shape retrieval."
+p172
+sg10
+g68
+sg12
+S' \tComputer and Information Science (CIS)'
+p173
+sg14
+S'<br/>PhD Computer Science 1992 - University of Karlsruhe <br/>  MSE Computer Science 1989 - University of Karlsruhe <br/>  MSE Electrical Engineering 1986 - National Technical University in Athens<br/>'
+p174
+sg16
+S'kostas@cis.upenn.edu'
+p175
+sa(dp176
+g2
+S'Susan B.Davidson'
+p177
+sg4
+S'Weiss Professor and Chair'
+p178
+sg6
+S'images/photos/full_Davidson.jpg '
+p179
+sg8
+S"Databases  Susan's work lies in fundamental computer science as it is applied to biomedicine. Her research interests center around information modeling and management, database systems, distributed systems, and bioinformatics.  Within bioinformatics, Susan's group focuses on models and systems for data integration and exchange, representation and  management of incomplete and semi-structured information, provenance tracking and management, and scientific workflows.  Susan has also been instrumental in establishing degree programs in bioinformatics and computational biology at the undergraduate, master's, and doctoral levels."
+p180
+sg10
+S'Fulbright Fellowship - 2005, Hitachi Chair at INRIA - 2004, Lenore Rowe Williams Award - 2002, ACM Fellow - 2001, ACM Service Award - 1994, IEEE Computer Society Certi\x0ccate of Appreciation'
+p181
+sg12
+S' \tComputer and Information Science (CIS)'
+p182
+sg14
+S'<br/>PhD Computer Science 1982 - Princeton University <br/>  MSE Computer Science 1980 - Princeton University <br/>  MA. Computer Science 1980 - Princeton University <br/>  BA Mathematics 1978 - Cornell University<br/>'
+p183
+sg16
+S'susan@cis.upenn.edu'
+p184
+sa(dp185
+g2
+S'Peter K.Davies'
+p186
+sg4
+S'Professor and Chair'
+p187
+sg6
+S'images/photos/full_Davies.jpg '
+p188
+sg8
+S"Electronic Materials | Ceramics | Nanostructured Materials   Peter's principal research interests lie in the design and nano-level structure characterization of functional inorganic solids.  He is an expert in the synthesis, crystal chemistry, and properties of electronic ceramic materials, and has published seminal papers on the influence of nanoscale atomic ordering on the properties of ceramic resonators used in wireless communications.  Peter has also engineered new high response ferroelectric and piezoelectric materials. In his most recent work, Peter discovered the first family of inorganic materials that self assemble into periodic, phase-separated, nano-checkerboard structures."
+p189
+sg10
+S'S. Reid Warren Jr. Award for Distinguished Teaching - 2005, Lindback Award for Distinguished Teaching - 1998, Fellow of the American Ceramic Society - 1997'
+p190
+sg12
+S' \tMaterials Science and Engineering (MSE)'
+p191
+sg14
+S'<br/>PhD Solid State Chemistry 1981 - Arizona State University <br/>  MA Natural Sciences 1978 - Oxford University <br/>  BA Chemistry 1975 - New College Oxford University<br/>'
+p192
+sg16
+S'davies@lrsm.upenn.edu'
+p193
+sa(dp194
+g2
+S'AndreDeHon'
+p195
+sg4
+S'Associate Professor'
+p196
+sg6
+S'images/photos/full_De_Hon.jpg '
+p197
+sg8
+S"Architecture and Compilers | Spatial Computing | Microelectronics   Andre's nano-research strives to answer questions of how to build computing systems at the atomic scale, where device assembly is imperfect, and device operation is statistical in nature. Andre is concerned with effective nanoscale design, which requires a rethinking of computer organization, including conventional abstraction layers. In his work, Andre and his colleagues explore how to harness emerging nanoscale building blocks, such as nanowires, CNTs, and molecules for computation, and how to address the physical challenges they present, including high defect and fault rates, parameter variation, lifetime variability, and statistical assembly."
+p198
+sg10
+g68
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Computer and Information Science (CIS)'
+p199
+sg14
+g68
+sg16
+S'andre@seas.upenn.edu'
+p200
+sa(dp201
+g2
+S'Scott L.Diamond'
+p202
+sg4
+S'Arthur E. Humphrey Professor'
+p203
+sg6
+S'images/photos/full_Diamond.jpg '
+p204
+sg8
+S"Biomolecular Engineering | Transport Processes | System Biology   Scott's research involves gene therapy, blood systems biology and protease proteomics, microfluidics and biorheology, endothelial mechanobiology, and high throughput screening.  The Diamond lab has pioneered the use of nonclassical nuclear localization sequences and cationic steroids for nonviral DNA delivery, printed chemical microarrays for high throughput screening, and stochastic simulation for blood systems biology.  Scott is the founding director of the Penn Center for Molecular Discovery, a multi-disciplinary center designed to discover new biologically useful agents."
+p205
+sg10
+S'Heilmeier Award for Excellence in Faculty Research - 2009, American Institute of Chemical Engineers Allan P. Colburn Award - 1999, National American Heart Association Established Investigator Award - 1999, NSF National Young Investigator Award - 1993, NIH FIRST Award - 1992, '
+p206
+sg12
+S' \tChemical and Biomolecular Engineering (CBE) <br/> Bioengineering (BE)'
+p207
+sg14
+S'<br/>PhD Chemical Engineering 1990 - Rice University <br/>  BS Chemical Engineering 1986 - Cornell University<br/>'
+p208
+sg16
+S'sld@seas.upenn.edu'
+p209
+sa(dp210
+g2
+S'Dennis E.Discher'
+p211
+sg4
+S'Robert D. Bent Professor'
+p212
+sg6
+S'images/photos/full_Discher.jpg '
+p213
+sg8
+S"Cellular Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | Cell Mechanics   Dennis' research efforts in the nano/bio realm range from stem cell-matrix interactions and high-accuracy proteomics to polymer-based nano-delivery of drugs. His lab pioneered studies of stem cell differentiation due to matrix elasticity and Mass Spectrometry approaches to folding at the proteomic scale. His lab has also developed novel degradable cylinders known as filomicelles as well as degradable polymersomes that shrink tumors and treat genetic diseases. "
+p214
+sg10
+S'Heilmeier Faculty Award for Excellence in Research - 2004, Jorge Heller Outstanding Paper Award - 2004, Board of Reviewing Editors, Science - 2004, Friedrich Wilhelm Bessel Award of the Alexander von Humboldt Foundation of Germany - 2003, Presidential Early Career Award for Scientists and Engineers - 1999'
+p215
+sg12
+S' \tChemical and Biomolecular Engineering (CBE) <br/> Bioengineering (BE) <br/> Mechanical Engineering and Applied Mechanics (MEAM) <br/'
+p216
+sg14
+S'<br/>PhD1993 - University of California at Berkeley &amp; University of California at San Francisco <br/>  BS 1986 - University of California at Davis<br/>'
+p217
+sg16
+S'discher@seas.upenn.edu'
+p218
+sa(dp219
+g2
+S'Paul Ducheyne'
+p220
+sg4
+S'Professor'
+p221
+sg6
+S'images/photos/a_full_Ducheyne.jpg '
+p222
+sg8
+S"Tissue Engineering | Biomaterials | Bioengineered Therapeutics |  Devices and Drug Delivery   Paul's research is focused in the investigation of mechanistic effects of materials on cellular functions, specifically cell attachment, proliferation, differentiation and extracellular matrix formation, especially with respect to biomaterials and tissue engineering.  His lab works extensively with the interface zone between materials and cells and tissues, using both materials science techniques as well as life science methods. In addition, studies focus on the combined effects of microgravity and substrate material on cellular functions and on material surface modification and controlled release of growth factors. Several tissue engineering applications are pursued with orthopedic and dental applications. Specifically, his laboratory studies whether bone defects can be repaired with full return of mechanical function by treating defects with in vitro synthesized bone tissue."
+p223
+sg10
+g68
+sg12
+S' \tBioengineering (BE)'
+p224
+sg14
+S'<br/>PhD Materials Science 1976 - Katholieke Universiteit  in Belgium <br/>  MSc  Materials Science and Engineering 1972 -  Katholieke Universiteit  in Belgium <br/>'
+p225
+sg16
+S'ducheyne@seas.upenn.edu '
+p226
+sa(dp227
+g2
+S'Nader Engheta'
+p228
+sg4
+S'H. Nedwill Ramsey Professor'
+p229
+sg6
+S'images/photos/full_Engheta.jpg '
+p230
+sg8
+S"Optics | Electromagnetics | Imaging   Nader's research interests span the fields of nanooptics and nanophotonics, metamaterials and plasmonics, and optical nanostructure modeling, including nanoantennas, nanocircuits, and nanosystems.  Nader is also investigating bio-inspired sensing and imaging, as well as physics and reverse-engineering of polarization vision in nature.  He and his group have been developing the concept of optical lumped nanocircuits based on material nanostructures, with the goal of opening the possibility of nanoelectronics with light."
+p231
+sg10
+S'SPIE Fellow - 2010, AAAS Fellow - 2009, Heilmeier Award for Excellence in Faculty Research - 2008, American Physical Society Fellow - 2008, S. Reid Warren, Jr. Award for Distinguished Teaching - 2002 and 1993, IEEE Third Millennium Medal - 2000, John Simon Guggenheim Memorial Foundation Fellowship - 1999, Optical Society of America Fellow - 1999, Fellow of IEEE - 1996, W. M. Keck Foundation Engineering Teaching Excellence Award - 1995, Christian F. and Mary R. Lindback Foundation Award - 1994, NSF Presidential Young Investigator Award - 1989'
+p232
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Bioengineering (BE)'
+p233
+sg14
+S'<br/>PhD Electrical Engineering  - Caltech <br/>  MS Electrical Engineering - Caltech <br/>  BS Electrical Engineering - University of Tehran<br/>'
+p234
+sg16
+S'engheta@ee.upenn.edu'
+p235
+sa(dp236
+g2
+S'Nabil H.Farhat'
+p237
+sg4
+S'Professor'
+p238
+sg6
+S'images/photos/full_Farhat.jpg '
+p239
+sg8
+S"Neuroengineering | Neural Network  Nabil's interdisciplinary research interests are in corticonics (echoing electronics), where he combines known features of cortical organizations with concepts and tools from nonlinear dynamics, chaos, and information theory.  Nabil works to decipher and model the complex way in which the cortex interacts with subcortical structures to produce the mechanisms that underlie higher-order brain function.  The result, a testable macroscopic brain theory, is being used by Nabil and his students in the PennBrain project that offers distinct computational and hardware advantages over other similar endeavors."
+p240
+sg10
+S'Fellow IEEE, Fellow OSA, Lindback Award for Distinguished Teaching'
+p241
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p242
+sg14
+S'<br/>PhD Electrical Engineering - University of Pennsylvania <br/>  MS Electrical Engineering - University of Tennessee <br/>  BS Electrical Engineering - Technion<br/>'
+p243
+sg16
+S'farhat@ee.upenn.edu'
+p244
+sa(dp245
+g2
+S'Kenneth R.Foster'
+p246
+sg4
+S'Professor'
+p247
+sg6
+S'images/photos/a_full_Foster.jpg '
+p248
+sg8
+S"Biomedical applications | Electromagnetics | Safety   Ken's research interests relate to biomedical applications of nonionizing radiation from audio through microwave frequency ranges, and health and safety aspects of electromagnetic fields as they interact with the body. For example, Ken examines the prospects of workers in electrical occupations and the possibility (or lack of) cancer risk. Another and somewhat broader topic of interest is technological risk, and impact of technology (principally, electrotechnologies) on humans. His goal in this area is to examine technology, putting into perspective its relative risks and benefits to society. What he hopes to impart is a better perception of the social use of science."
+p249
+sg10
+g68
+sg12
+S' \tBioengineering (BE)'
+p250
+sg14
+S'<br/>PhD Physics 1971 - Indiana University <br/>  BS  Physics 1967 - Michigan State University<br/>'
+p251
+sg16
+S'kfoster@seas.upenn.edu'
+p252
+sa(dp253
+g2
+S'Jean H.Gallier'
+p254
+sg4
+S'Professor'
+p255
+sg6
+S'images/photos/full_Gallier.jpg '
+p256
+sg8
+S'Computational Geometry | Logic  Jean is interested in the application of geometric methods to problems in engineering. In particular, he is investigating methods for smooth surface reconstruction from 3D meshes.  He is also interested in methods for statistical analysis in medical imaging, and focuses on diffusion tensor imaging.  In his work to resolve the difficulties of the non-Euclidean domain of these images, Jean applies Riemannian geometry as a framework for problem solving.'
+p257
+sg10
+S'Lindback Teaching Award - 1983'
+p258
+sg12
+S' \t Computer and Information Science (CIS)'
+p259
+sg14
+S'<br/>PhD Computer Science 1978 - University of California at Los Angeles <br/>  Baccalaureat 1966 -  Lycee de S`evres in France<br/>'
+p260
+sg16
+S'jean@cis.upenn.edu'
+p261
+sa(dp262
+g2
+S'RobertGhrist'
+p263
+sg4
+S'Andrea Mitchell University Professor and Professor'
+p264
+sg6
+S'images/photos/full_Ghrist Robert.jpg '
+p265
+sg8
+S"Topology | Robotics | Sensor networks   Rob's work focuses on those methods in applied mathematics and engineering which are global or topological in nature. Such methods have the feature of being very robust topological results are tolerant of the inherent in systems and are therefore both elegant and effective in engineering. Specific application foci include sensor and communication networks, multi-agent robotics, and dynamical systems."
+p266
+sg10
+S'S. Reid Warren Jr. Teaching Award - 2009, Andrea Mitchell PIK University Professorship - 2008, Presidential Early Career Award - 2004, NSF CAREER Award - 2002'
+p267
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p268
+sg14
+S'<br/>Ph.D. in Applied Mathematics - Cornell University 1995 <br/>  M.S. in Applied Mathematics - Cornell University 1994 <br/>  B.S. in Mechanical Engineering - University of Toledo 1991<br/>'
+p269
+sg16
+S'apo@seas.upenn.edu" target="_blank'
+p270
+sa(dp271
+g2
+S'Eduardo D.Glandt'
+p272
+sg4
+S'Professor and Dean, School of Engineering and Applied Science'
+p273
+sg6
+S'images/photos/full_Glandt.jpg '
+p274
+sg8
+S"Surface and Colloidal Science | Transport Processes | Molecular Simulation   Eduardo's research in chemical and biomolecular engineering has foci in 3 areas.  In the area of molecular simulations of gas adsorption, he applies molecular models and computer simulation techniques to investigate how the microstructure of a porous material affects its physical and chemical properties and, especially, its capacity as an adsorbent. The goal is to offer guidance in the preparation of high-capacity adsorbents. In the area of polymer adsorption, he works on statistical mechanical models to examine the adsorption of large flexible molecules from a bulk fluid into the interior of a porous solid.  This research is based on PRISM, a state-of-the-art theory of polymer structure, which has been successfully used to calculate the structure of melts and blends. Recent improvements include a tractable self-consistent version applicable to a wide range of systems. In his research dealing with barriers to mass transfer in catalysts and adsorbents, Eduardo looks at the important rate separations based on the kinetics of mass transfer within materials such as zeolites and carbon molecular sieves. Current work is focused on multicomponent systems and on the modeling of industrially relevant adsorbents."
+p275
+sg10
+S'Elected to the National Academy of Engineering - 1996, Christian R. and Mary F. Lindback Award for Distinguished Teaching - 1980, Victor K. LaMer Award - 1979, S. Reid Warren Award for Distinguished Teaching - 1977'
+p276
+sg12
+S' \tChemical and Biomolecular Engineering (CBE)'
+p277
+sg14
+S'<br/>PhD Chemical Engineering 1977 - University of Pennsylvania <br/>  BS  Chemical Engineering 1968 - University of Buenos Aires<br/>'
+p278
+sg16
+S'seasdean@seas.upenn.edu'
+p279
+sa(dp280
+g2
+S'Raymond J.Gorte'
+p281
+sg4
+S'Russell Pearce and Elizabeth Crimian Heuer Professor'
+p282
+sg6
+S'images/photos/full_Gorte.jpg '
+p283
+sg8
+S"Catalysis | Fuel Cells | Energy   Ray's current research focuses on electrodes for solid oxide fuel cells (SOFC) and on oxidation catalysis using mixed-oxides. With SOFC, his lab has developed a method to synthesize electrodes with unprecedented control over composition and nanostructure, fabricating high-performance cells that are able to operate on hydrocarbon fuels. In oxidation catalysis, his group has developed methods to measure the thermodynamic, redox properties of mixed oxides and then determine the effect changes in redox properties have on catalytic properties."
+p284
+sg10
+S'R. H. Wilhelm Award in Chemical Reaction Engineering - 2009, Heilmeier Award for Excellence in Faculty Research - 2002, Penn Engineering Distinguished Research Award - 2001, Paul H. Emmett Award in Fundamental Catalysis - 1999, Philadelphia Catalysis Club Award - 1998, Giuseppe Parravano Memorial Award of the Michigan Catalysis Society - 1997'
+p285
+sg12
+S' \tChemical and Biomolecular Engineering (CBE) <br/> Materials Science and Engineering (MSE)'
+p286
+sg14
+S'<br/>PhD Chemical Engineering 1981 - University of Minnesota <br/>  BS Chemical Engineering 1976 - University of Wisconsin<br/>'
+p287
+sg16
+S'gorte@seas.upenn.edu'
+p288
+sa(dp289
+g2
+S'David  J.Graves'
+p290
+sg4
+S'Associate Professor Emeritus'
+p291
+sg6
+S'images/photos/a_full_Graves.jpg '
+p292
+sg8
+S"Biomolecular Engineering  David's research has centered on the application of chemical engineering principles to biotechnology and medically related problems. This has included separation and cell growth systems with magnetically stabilized beds, non-uniform field electrophoresis, immobilized enzyme reaction systems, artificial photosynthesis, affinity chromatography, cell adhesion to surfaces, plant cell culture systems, and most recently analysis and optimization of DNA microarray processes. Of particular interest are his examinations of several novel ways to recover such bioproducts selectively and continuously from fermentation broths or broken cell suspensions. One of the most promising techniques involves continuous adsorption in an unusual device called the magnetically stabilized fluidized bed (MSFB). The MSFB has significant advantages in productivity, simplicity, and freedom from clogging by debris over standard packed bed systems, and it can be much more efficient than fluidized systems. Although biochemical engineers have dealt successfully with bacterial and fungal cell cultures for many years, recent scientific work has shown that important products can be obtained from cultures of mammalian and plant cells. Thus, the unique engineering aspects of such delicate and complex systems are of great current interest."
+p293
+sg10
+g68
+sg12
+S' \tChemical and Biomolecular Engineering (CBE)'
+p294
+sg14
+S'<br/>ScD Chemical Engineering 1967 - Massachusetts Institute of Technology <br/>  SM Chemical Engineering 1965 - Massachusetts Institute of Technology <br/>  BS Chemical Engineering 1963 - Carnegie-Mellon University<br/>'
+p295
+sg16
+S'graves@seas.upenn.edu'
+p296
+sa(dp297
+g2
+S'Roch Guerin'
+p298
+sg4
+S'Alfred Fitler Moore Professor of Telecommunications Networks'
+p299
+sg6
+S'images/photos/full_Guerin.jpg '
+p300
+sg8
+S"Computer Networks  Roch's research centers around networking and communication systems.  He seeks to design, build, and evaluate new devices and protocols that will improve our access to ubiquitous communications.  Roch is especially concerned with aspects of robustness and simplicity, with the goal of designing systems that can scale and remain operational across a broad range of conditions.  His work combines algorithm design, performance evaluation, and experimental validations of both wired and wireless communication systems systems to explore how to build the next generation of communication infrastructure."
+p301
+sg10
+S'IEEE INFOCOM Acheivement Award - 2010, IEEE INFOCOM Best Paper Award - 2010, IEEE TCCC Outstanding Service Award - 2009, ACM Fellow - 2006, IEEE Fellow - 2001, IBM Outstanding Innovation Award - 1994, '
+p302
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Computer and Information Science (CIS)'
+p303
+sg14
+S'<br/>PhD Electrical Engineering 1986 - California Institute of Technology <br/>  MS Electrical Engineering 1984 - California Institute of Technology <br/>  Engineering Degree 1983 - ENST in France<br/>'
+p304
+sg16
+S'Guerin@ee.upenn.edu'
+p305
+sa(dp306
+g2
+S'SudiptoGuha'
+p307
+sg4
+S'Associate Professor'
+p308
+sg6
+S'images/photos/full_Guha.jpg '
+p309
+sg8
+S"Algorithms and Complexity  Sudipto studies the design and implementation of a wide range of computational systems, from resource constrained devices, such as sensors, up through massively parallel and distributed systems.  Using an algorithmic framework, Sudipto seeks to design systems that are correct, efficient, and optimized, despite their bidirectional asymptotic scale and seeming lack of similarity to human information processes.  Sudipto's recent work focuses on clustering and location theory, statistics and learning theory, database query optimization and mining, approximation algorithms for stochastic control, communication complexity and data stream algorithms."
+p310
+sg10
+S'NSF CAREER Award - 2007, Alfred P. Sloan Faculty Research Fellow - 2004'
+p311
+sg12
+S' \tComputer and Information Science  (CIS)'
+p312
+sg14
+g68
+sg16
+S'sudipto@seas.upenn.edu'
+p313
+sa(dp314
+g2
+S'Daniel A.Hammer'
+p315
+sg4
+S'Alfred G. and Meta A. Ennis Professor '
+p316
+sg6
+S'images/photos/full_Hammer.jpg '
+p317
+sg8
+S'Cellular Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | Cell Mechanics   Dan applies his research in nanometric soft matter to his studies in biology.  Working with colleagues, he has forged polymersomes, membranes made of block copolymers, which are soft, vesicle-like nanoparticles for drug delivery and imaging.  Dan has also developed a simulation method of adhesion of receptor-coated nanoparticles to surfaces. The method, Brownian Adhesive Dynamics, once applied to viral binding to cell surfaces, is now being used to understand selectivity and targeting in biological applications of nanoparticles.'
+p318
+sg10
+S'Heilmeier Faculty Award for Excellence in Research - 2004, AIMBE Fellow - 1997, Presidential Young Investigator Award - 1982'
+p319
+sg12
+S' \tBioengineering (BE) <br/> Chemical and Biomolecular Engineering (CBE)'
+p320
+sg14
+S'<br/>PhD Chemical Engineering 1987 - University of Pennsylvania <br/>  MSE Chemical Engineering 1985 - University of Pennsylvania <br/>  BSE Chemical Engineering 1982 - Princeton University<br/>'
+p321
+sg16
+S'hammer@seas.upenn.edu'
+p322
+sa(dp323
+g2
+S'Howard H.Hu'
+p324
+sg4
+S'Professor'
+p325
+sg6
+S'images/photos/full_Hu.jpg '
+p326
+sg8
+S"Computational mechanics | Fluid mechanics  Howard's expertise is in computational fluid dynamics. His research focus is on modeling complex flows involving multiphase and polymeric fluids, particularly flows with solid particles, liquid drops, and gas bubbles. His group has been developing numerical techniques for simulating motions of large numbers of particles in those multiphase systems.  They are engaged in understanding and controlling the particulate flows in various microfluidic applications through electrophoresis and dielectrophoresis."
+p327
+sg10
+g68
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p328
+sg14
+S'<br/>PhD Aerospace Engineering 1992 - University of Minnesota <br/>  MS Mechanics 1986 - Xian Jiaotong University in China <br/>  BS Mechanical Engineering 1982 - Zhejiang University in China<br/>'
+p329
+sg16
+S'hhu@seas.upenn.edu'
+p330
+sa(dp331
+g2
+S'Zachary G.Ives'
+p332
+sg4
+S'Associate Professor'
+p333
+sg6
+S'images/photos/full_Ives.jpg '
+p334
+sg8
+S"Databases | Distributed Systems  Zach's research focuses on facilitating information sharing in today's Web and wireless worlds. He and his group are developing techniques for connecting different databases and applications together to them, regardless of possible variations and inconsistencies in terminologies or formats. They are also working on higher-level ways of programming large suites of heterogeneous sensor devices, and methods for automatically adapting these programs to target networks and devices. Zach's ultimate goal is to connect users or their applications with the data and in the format they need."
+p335
+sg10
+S'Christian R. and Mary F. Lindback Award for Distinguished Teaching - 2010, NSF CAREER Award - 2006'
+p336
+sg12
+S' \tComputer and Information Science (CIS)'
+p337
+sg14
+S'<br/>PhD - University of Washington <br/>  BS - Sonoma State University <br/>'
+p338
+sg16
+S'zives@cis.upenn.edu'
+p339
+sa(dp340
+g2
+S'AliJadbabaie'
+p341
+sg4
+S'Professor'
+p342
+sg6
+S'images/photos/full_Jadbabie.jpg '
+p343
+sg8
+S'Control Systems | Robotics  Ali studies networked, dynamic systems, and their applications to science, engineering and biology.  His research is focused on the emergence of global phenomena from local interactions in complex networked systems such as the internet, Facebook, and networks of robots and sensors.  By developing new tools and protocols for analysis and design of such systems, Ali works to find mathematically rigorous answers to questions of group behavior, ranging from how people form agreement through networked exchange of ideas to how birds flock and fish school.'
+p344
+sg10
+S'O. Hugo Schuck Best Paper Award - 2008, IEEE George S. Axelby Outstanding Paper Award - 2005, NSF CAREER Award - 2004, ONR  Young Investigator Award - 2004'
+p345
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p346
+sg14
+S'<br/>PhD Control and Dynamical Systems 2000 - California Institute of Technology <br/>  MS Electrical Engineering 1997 - University of New Mexico <br/>  BS Electrical Engineering 1995 - Sharif University of Technology in Iran<br/>'
+p347
+sg16
+S'jadbabai@seas.upenn.edu'
+p348
+sa(dp349
+g2
+S'Dwight L.Jaggard'
+p350
+sg4
+S'Professor'
+p351
+sg6
+S'images/photos/a_full_Jaggard.jpg '
+p352
+sg8
+S"Optics | Electromagnetics | Imaging   Dwight's research centers around fractal electrodynamics, investigating ways in which multi-scale structures imprint their geometry on interrogating waves and the methods by which self-similarity can be used to design new classes of filters and radiators. Applications include the remote description of rough surfaces, scattering from and inverse scattering of fractal superlattices, and the synthesis of novel fractal antennas and arrays. In the area of electromagnetic chirality, he explores the design of new microwave, millimeter wave and optical devices. Hi lab examines theoretically and numerically new classes of chiral filters, radiators, shields and guiding structures. In the area of waves, topology, and symmetry, Dwight investigates the effect of topology and symmetry on wave scattering and propagation through the study of wave interactions with families of canonical knots and unknots."
+p353
+sg10
+S'Fellow of the IEEE - 1991, Fellow of the Optical Society of America - 1995, Christian F. and Mary R. Lindback Award - 1987, S. Reid Warren Jr. Award - 1985'
+p354
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p355
+sg14
+S'<br/>PhD Electrical Engineering and Applied Physics 1976 - California Institute of Technology <br/>  MS Electrical Engineering 1972 - University of Wisconsin at Madison <br/>  BS Electrical Engineering 1971 - University of Wisconsin at Madison<br/>'
+p356
+sg16
+S'jaggard@ee.upenn.edu'
+p357
+sa(dp358
+g2
+S'Aravind K.Joshi'
+p359
+sg4
+S'Henry Salvatori Professor of Computer and Cognitive Science'
+p360
+sg6
+S'images/photos/full_Joshi.jpg '
+p361
+sg8
+S"Computational Linguistics | Cognitive Science | Artificial Intelligence   Aravind's research focuses on questions at the intersection of computer science and linguistics.  Employing his expertise in computational, mathematical, and formal linguistics, natural language processing, and artificial intelligence, Aravind studies theories of representation and inferencing in natural language, computational aspects of discourse, psycholinguistic implications of processing models as well as processing certain kinds of bilingual utterances. Aravind is also involved in the design and implementation of a variety of systems for natural language processing. Aravind is associated with and a founding co-director of the Institute for Research in Cognitive Science (IRCS) at the University of Pennsylvania."
+p362
+sg10
+S'Benjamin Franklin Medal in Computer and Cognitive Science of the Franklin Institute - 2005, Cognitive Science Society David Rumelhart Prize - 2003, ACL Lifetime Achievement Award - 2002, NAE MEmber - 1999, ACM Fellow - 1998, Founding Fellow - AAAI - 1990, IEEE Fellow - 1976'
+p363
+sg12
+S' \tComputer and Information Science (CIS)'
+p364
+sg14
+S'<br/>PhD 1960 - University of Pennsylvania <br/>  MS 1958 - University of Pennsylvania <br/>  BE 1954 - Pune University in India<br/>'
+p365
+sg16
+S'joshi@cis.upenn.edu'
+p366
+sa(dp367
+g2
+S'CherieKagan'
+p368
+sg4
+S'Professor'
+p369
+sg6
+S'images/photos/full_Kagen.jpg '
+p370
+sg8
+S"Nanostructured Materials | Energy  Cherie investigates the chemical and physical properties of molecular, supramolecular, and nanostructured materials and assemblies and their applications in electronic, optoelectronic, and sensing devices. Her aim is to understand charge and excitonic transport and interactions and to use these insights to guide the design of molecular and nanostructured devices. Cherie uses chemistry's flexibility to tailor the properties of novel devices, and she employs spatially and temporally resolved spectroscopies and electrical techniques to characterize molecular and nanostructured materials and operating devices."
+p371
+sg10
+S'IBM Outstanding Technical Achievement Award - 2005, ACS Selected in Top 12 Young Women at the Forefront of Chemistry - 2002, MIT Technology Review TR10 - 2000'
+p372
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Materials Science and Engineering (MSE)'
+p373
+sg14
+S'<br/>PhD Materials Science &amp; Engineering 1996 - Massachusetts Institute of Technology <br/>  BSE Materials Science &amp; Engineering 1991 - University of Pennsylvania <br/>  BA Mathematics 1991 - University of Pennsylvania  <br/>'
+p374
+sg16
+S'kagan@seas.upenn.edu'
+p375
+sa(dp376
+g2
+S'Sampath K.Kannan'
+p377
+sg4
+S'Professor'
+p378
+sg6
+S'images/photos/full_Kannan.jpg '
+p379
+sg8
+S"Algorithms and Complexity  Sampath's research spans several subfields in algorithms. In his work on massive data set algorithms, Sampath explores what can be computed efficiently, and what is not computable. He is also interested in program checking, a paradigm for ensuring the correctness of a program by observing its behavior at run-time, and in algorithmic problems in computational biology, particularly the problem of reconstructing the evolutionary history of a set of species from phenotypic and molecular sequence observations."
+p380
+sg10
+S'Outstanding Faculty Advising Award - 2005'
+p381
+sg12
+S' \tComputer and Information Science (CIS)'
+p382
+sg14
+g68
+sg16
+S'kannan@cis.upenn.edu'
+p383
+sa(dp384
+g2
+S'Saleem A.Kassam'
+p385
+sg4
+S'Solomon and Sylvia Charp Professor'
+p386
+sg6
+S'images/photos/full_Kassam.jpg '
+p387
+sg8
+S'Signal Processing | Communication Systems  Saleem researches statistical signal processing and communications.  His study of through-wall imaging radar aims to provide new methods for imaging building interiors based on optimum use of array elements and co-array locations and frequency assignments.  Saleem is also developing wireless communication systems using nonlinear blind signal separation and equalization to mitigate the effects of multi-path and other channel impairments.  Additionally, Saleem works with bio-medical applications of signal processing, such as seizure monitoring and detection using EEG signals, and with nonlinear and adaptive signal and image processing methods.'
+p388
+sg10
+S'IEEE Fellow'
+p389
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p390
+sg14
+S'<br/>PhD Electrical Engineering 1975 - Princeton University <br/>  MSE Electrical Engineering 1974 - Princeton University <br/>  MA Electrical Engineering 1974 - Princeton University <br/>  BS 1972 - Swarthmore College<br/>'
+p391
+sg16
+S'kassam@ee.upenn.edu'
+p392
+sa(dp393
+g2
+S'MichaelKearns'
+p394
+sg4
+S'National Center Professor of Management &amp; Technology'
+p395
+sg6
+S'images/photos/full_Kearns.jpg '
+p396
+sg8
+S"Machine Learning | Algorithms and Complexity  Michael's primary research interests are in machine learning, probabilistic artificial intelligence, algorithmic game theory, and computational finance. He integrates problems from these areas with methods from theoretical computer science and related disciplines. While the majority of Michael's work is mathematical in nature, he has also participated in a variety of systems and experimental work, including spoken dialogue systems, software agents, and most recently, human-subject experiments in strategic and economic interaction."
+p397
+sg10
+S'George H. Heilmeier Faculty Award for Excellence in Research - 2005,  Henry and Bryna David Lecturer - Division of Behavioral and Social Sciences and Education of the National Academy of Sciences - 2004, American Association for Artificial Intelligence - 2004'
+p398
+sg12
+S' \tComputer and Information Science (CIS)'
+p399
+sg14
+g68
+sg16
+S'mkearns@cis.upenn.edu'
+p400
+sa(dp401
+g2
+S'John D.Keenan'
+p402
+sg4
+S'Professor '
+p403
+sg6
+S'images/photos/a_full_Keenan.jpg '
+p404
+sg8
+S"Environmental Systems  John's research areas include the biological and health effects of pollution, wastewater treatment, water resources engineering, environmental impact assessment, and hazardous materials in the environment. Recent research efforts include assessment and selection of waste heat utilization technologies focusing on steam electric power facilities; an analysis of water resources in selected countries of the Middle East; development of single sludge wastewater treatment technologies; production and control of landfill leachates; development of expert systems for remediation of hazardous waste sites."
+p405
+sg10
+S'S. Reid Warren Award for Distinguished Teaching - 2004, Ford Motor Company Award for Faculty Advising - 2003'
+p406
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p407
+sg14
+g68
+sg16
+S'keenan@seas.upenn.edu'
+p408
+sa(dp409
+g2
+S'Sanjeev Khanna'
+p410
+sg4
+S'Rosenbluth Family Fellow and Professor '
+p411
+sg6
+S'images/photos/full_Khanna.jpg '
+p412
+sg8
+S"Algorithms and Complexity  Sanjeev works in theoretical computer science, studying the amount of resources that are necessary and sufficient to perform a computational task. His specific interests are in fast computation of near-optimal solutions for NP-hard problems, a class which has eluded efficient exact algorithms.  Ubiquitous in computer science and related disciplines, some representative examples of this class include multiprocessor scheduling, network design and routing, and the celebrated traveling salesman problem.  Sanjeev's recent work has led to efficient algorithms for finding near-optimal solutions to several fundamental network design and routing problems."
+p413
+sg10
+S'S. Reid Warren Jr. Award - 2010'
+p414
+sg12
+S' \tComputer and Information Science (CIS)'
+p415
+sg14
+g68
+sg16
+S'sanjeev@cis.upenn.edu'
+p416
+sa(dp417
+g2
+S'Daniel E.Koditschek'
+p418
+sg4
+S'Alfred Fitler Moore Professor and Chair'
+p419
+sg6
+S'images/photos/full_Koditschek.jpg '
+p420
+sg8
+S"Control Systems | Robotics | Mechanical Systems   Research in Dan's group is focused on the application of dynamical systems theory to the design, construction and empirical testing of machines that juggle, run, climb, and in general, interact physically with their environment to perform useful work.  Dan and his group seek to probe the foundations of autonomous robotics by reasoning formally about mathematical models that represent the successes and limitations of their physical platforms. They maintain close collaborations with biologists, whose insights about animal mobility and dexterity inspire their thinking and designs."
+p421
+sg10
+S'AAAS Fellow - 2009, IEEE Fellow - 2003, Presidential Young Investigator Award - 1986 '
+p422
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Computer and Information Science (CIS) <br/> Mechanical Engineering and Applied Mechanics (MEAM) <br/'
+p423
+sg14
+S'<br/>PhD Electrical Engineering 1983 - Yale University <br/>  MS Electrical Engineering 1981 - Yale University <br/>  BS Engineering &amp; Applied Science 1981 - Yale University <br/>'
+p424
+sg16
+S'kod@seas.upenn.edu'
+p425
+sa(dp426
+g2
+S'Katherine J.Kuchenbecker'
+p427
+sg4
+S'Skirkanich Assistant Professor of Innovation'
+p428
+sg6
+S'images/photos/full_Kuchenbecker.jpg '
+p429
+sg8
+S'Haptics | Robotics | Mechanical Systems   Katherine researches the design, control, and performance of robotic systems that enable a user to touch virtual objects and distant environments as though they were real and within reach. These haptic interfaces combine electromechanical sensors and actuators with high-speed computer control to fool the human sense of touch. By studying applications such as robot-assisted surgery, smart prosthetics, educational computer games, and driver assistance, Katherine seeks to improve our understanding of haptic feedback and uncover new opportunities for its use in interactions between humans, computers, and machines.'
+p430
+sg10
+S"Pop Tech's Science and Public Leadership Fellows Class of 2011, Ford Motor Company Award for Faculty Advising - 2010, NSF CAREER Award - 2009, Best Hands-on Demonstration - IEEE World Haptics Conference - 2009, Best Haptic Technology Paper - IEEE World Haptics Conference - 2007"
+p431
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p432
+sg14
+S'<br/>PhD Mechanical Engineering 2006 - Stanford University <br/>  MS Mechanical Engineering 2002 - Stanford University <br/>  BS Mechanical Engineering 2000 - Stanford University <br/>'
+p433
+sg16
+S'kuchenbe@seas.upenn.edu'
+p434
+sa(dp435
+g2
+S'VijayKumar'
+p436
+sg4
+S'UPS Foundation Professor'
+p437
+sg6
+S'images/photos/full_Kumar.jpg '
+p438
+sg8
+S"Control Systems | Robotics | Mechanical Systems   Vijay studies collective behaviors in biological and robotic systems. He and his group design novel architectures, create abstractions for systems of interacting individuals, and develop new algorithms for cooperating robots. The overarching themes in his research include modeling nature and developing bio-inspired architectures and algorithms, understanding group/individual dynamics, and the design and composition of controllers for robust, scaleable autonomous systems. Vijay's key challenges include operation in unstructured, dynamic environments, integration of control, communication and perception, and scaling down to smaller sizes with limited actuation, sensing, and computational resources."
+p439
+sg10
+S'Fellow of the Institute for Electrical and Electronics Engineers - 2005, Fellow of the American Society of Mechanical Engineers- 2003, Lindback Award for Distinguished Teaching - 1996, NSF Presidential Young Investigator Award - 1991'
+p440
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM) <br/> Computer and Information Science (CIS)'
+p441
+sg14
+S'<br/>Ph.D. Mechanical Engineering - The Ohio State University - 1987<br/>'
+p442
+sg16
+S'kumar@cis.upenn.edu'
+p443
+sa(dp444
+g2
+S'Kenneth R.Laker'
+p445
+sg4
+S'Professor '
+p446
+sg6
+S'images/photos/a_full_Laker.jpg '
+p447
+sg8
+S"Circuits | VLSI | Microelectronics   Ken's research is in mixed mode integrated circuit design and testing. He focuses on high performance, low-power data acquisition and RF systems, which have many important applications and present challenging obstacles for design, implementation and testing. The primary areas of research are: the development of architectures that enable the realization of high dynamic range requirements when implemented in low voltage technologies; the exploration of distributed and parallel architectures that expand the signal bandwidth available in over sampled analog-to-digital converters; switched capacitor systems; and the development of robust test methodologies for mixed-signal and RFICs."
+p448
+sg10
+S'Emberson Award of the Institute of Electrical and Electronics Engineers - 2004'
+p449
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p450
+sg14
+g68
+sg16
+S'laker@ee.upenn.edu'
+p451
+sa(dp452
+g2
+S'MatthewLazzara'
+p453
+sg4
+S'Assistant Professor '
+p454
+sg6
+S'images/photos/a_full_Lazzara.jpg '
+p455
+sg8
+S"Cellular Engineering  Matt's research is in the areas of ErbB-mediated cell signaling and cell signaling in the renal proximal tubule. In the examination of ErbB receptors (e.g., EGFR, HER2), Matt looks at their signal transduction role in health, and how they are also implicated in multiple human cancers and constitute prime targets for anti-cancer therapeutics. His work in this area entails a systems approach for elucidating how ErbB trafficking and signaling influence cell fates in the presence of different stimulatory factors and molecular therapeutics. In studying cell signaling in the renal proximal tubule, he seeks to develop a detailed understanding of the coupling between fluid mechanical and mass transfer phenomena in the glomerulus and proximal tubule and consequent cell signaling and cellular fates in the proximal epithelium. Elevated excreted albumin concentration is a classical indicator of renal dysfunction, and it is increasingly appreciated as a potential mediator of renal disease as well."
+p456
+sg10
+S'S. Reid Warren Jr. Award - 2011'
+p457
+sg12
+S' \tChemical and Biomolecular Engineering (CBE) <br/> Bioengineering (BE)'
+p458
+sg14
+S'<br/>PhD Chemical Engineering 2003 - Massachusetts Institute of Technology <br/>  BS Chemical Engineering 1997 - University of Florida<br/>'
+p459
+sg16
+S'mlazzara@seas.upenn.edu'
+p460
+sa(dp461
+g2
+S'Daniel D.Lee'
+p462
+sg4
+S'Evan C Thompson Term Associate Professor and Raymon S. Markowitz Faculty Fellow '
+p463
+sg6
+S'images/photos/full_Lee_Dan.jpg '
+p464
+sg8
+S"Machine Learning | Robotics  Dan's research focuses on applying knowledge about biological information processing systems to building better artificial sensorimotor systems that can adapt and learn from experience.  Drawing from the ways in which biological systems compute and learn, Dan and his lab look at computational neuroscience models, theoretical foundations of machine learning algorithms, as well as constructing real-time intelligent robotic systems, with an ultimate goal of making machines that better understand what we want them to do."
+p465
+sg10
+S'National Science Foundation Career Award - 2004'
+p466
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p467
+sg14
+S'<br/>PhD Condensed Matter Physics 1995 - Massachusetts Institute of Technology <br/>  AB 1990 - Harvard University<br/>'
+p468
+sg16
+S'ddlee@seas.upenn.edu'
+p469
+sa(dp470
+g2
+S'InsupLee'
+p471
+sg4
+S'Cecilia Fitler Moore Professor '
+p472
+sg6
+S'images/photos/full_Lee_Insup.jpg '
+p473
+sg8
+S"Embedded Systems | Formal Methods  Insup's research interests are in real-time, embedded, and cyber physical systems, which increasingly affect our daily lives.  His research goals are to ensure and improve the correctness, safety, timeliness, trustworthiness, and compositionality of these systems.  Insup has been developing techniques and tools for compositional real-time scheduling, model-based development, quantitative trust management, and run-time verification. He has also been transitioning his research results into practice by applying them to safety-critical embedded systems and high-confidence medical device systems."
+p474
+sg10
+S'IEEE Fellow, IEEE Computer Society Distinguished Visitors Speaker - 2004-2006, Chair of IEEE Computer Society Technical Committee on Real-Time Systems - 2003-2004'
+p475
+sg12
+S' \tComputer and Information Science (CIS) <br/> Electrical and Systems Engineering (ESE)'
+p476
+sg14
+S'<br/>PhD 1983 - University of Wisconsin at Madison <br/>  BS 1977 - University of North Carolina at Chapel Hill<br/>'
+p477
+sg16
+S'lee@cis.upenn.edu'
+p478
+sa(dp479
+g2
+g68
+sg4
+S'Adjunct Professor '
+p480
+sg6
+g68
+sg8
+g68
+sg10
+S'Technology Review TR35 award -   2007, MRS Outstanding Young Investigator Award - 2006,  Presidential   Early Career Award for Scientists and Engineers - 2005'
+p481
+sg12
+S'Materials Science and Engineering (MSE)'
+p482
+sg14
+S'<br />   PhD 2000 - Massachusetts Institute of Technology <br />   BS 1994 - University of Science &amp; Technology in China <table width="675" border="0" cellpadding="2"><tr><td align="right">&nbsp;<a href="../index.php">Return to MSE Faculty</a></td></tr></table><!-- InstanceEndEditable --><!-- end #Left --></div><div id="footer"><p class="uppercase_white" align="center"><a href="http://www.seas.upenn.edu/" target="_blank">Penn Engineering</a> &copy;2011 | <a href="http://www.upenn.edu/" target="_blank">university of pennsylvania</a> | <a href="http://www.seas.upenn.edu/" target="_blank">school of engineering and applied science<br /></a>Department of <a href="http://www.mse.seas.upenn.edu/">Materials Science and engineering </a><br /><span class="bodywhite">3231 Walnut Street | 200 LRSM | Philadelphia, PA 19104-6272 | P: 215-898-8337 | F: 215-573-2128</span><br /><span class="bodywhite"><a href="mailto:info-mse@seas.upenn.edu" target="_blank">Contact us with questions about admissions or academic programs!</a> | <a href="mailto:webmaster@seas.upenn.edu" target="_blank">For website issues, email the webmaster</a>.</span><!-- end #footer --><!-- end #footer -->'
+p483
+sg16
+S'liju@seas.upenn.edu'
+p484
+sa(dp485
+g2
+S'Noam  Lior'
+p486
+sg4
+S'Professor'
+p487
+sg6
+S'images/photos/a_full_Lior.jpg '
+p488
+sg8
+S"Energy | Heat Forgiveness | Fluid Mechanics   Noam's research interests are in heat transfer and fluid mechanics, thermodynamics and Second-Law analysis, energy conversion, solar energy, combustion, flash evaporation and water desalination, destruction of hazardous wastes by photocatalysis and supercritical oxidation and heat treatment."
+p489
+sg10
+S'ASME Edward F. Obert Award - 2010, American Institute of Aeronautics and Astronautics Fellow  - 2004'
+p490
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p491
+sg14
+S'<br/>PhD Mechanical Engineering 1973 - University of California at Berkeley <br/>  MS Mechanical Engineering 1966 - Technion in Israel <br/>  BS Mechanical Engineering 1962 - Technion in Israel<br/>'
+p492
+sg16
+S'lior@seas.upenn.edu'
+p493
+sa(dp494
+g2
+S'Boon ThauLoo'
+p495
+sg4
+S'Assistant Professor'
+p496
+sg6
+S'images/photos/full_Loo.jpg '
+p497
+sg8
+S"Databases | Distributed Systems  Boon's research focuses on distributed data management systems, Internet-scale query processing, and the application of database technologies to networked systems. He is particularly interested in developing information-centric network architectures that can be easily extended, composed, and formally verified. His recent projects include applying declarative networking techniques in the areas of dynamic network composition, adaptive mobile ad-hoc networks, and scalable knowledge-based networks. He is also exploring novel database-inspired techniques for diagnosing, securing, and verifying network protocols."
+p498
+sg10
+S'NSF CAREER award - 2009, ACM SIGMOD Dissertation Award - 2007, David J. Sakrison Memorial Prize - 2006'
+p499
+sg12
+S' \tComputer and Information Science (CIS)'
+p500
+sg14
+S'<br/>PhD - University of California at Berkeley <br/>  MS - Stanford University <br/>  BS - University of California at Berkeley<br/>'
+p501
+sg16
+S'boonloo@cis.upenn.edu'
+p502
+sa(dp503
+g2
+S'Jennifer R.Lukes'
+p504
+sg4
+S'Associate Professor'
+p505
+sg6
+S'images/photos/full_Lukes.jpg '
+p506
+sg8
+S"Computational Mechanics  Jennifer focuses primarily on understanding the unusual thermal transport phenomena that emerge in nanostructures and nanostructured materials, such as single wall carbon nanotubes, superlattices, nanowires, ultrathin films, and nanocomposites.  She also investigates confinement effects on fluid and mass transport on the nanoscale. Jennifer's expertise is in atomistic computer modeling of transport phenomena using molecular dynamics simulation.  Applying a combination of modeling and experimental techniques, her group is developing innovative approaches to design materials with desired structures and thermophysical properties."
+p507
+sg10
+S'NAE  U.S. Frontiers of Engineering Symposium - 2007, NSF CAREER Award - 2006, National Science Foundation Fellow - 1995, Phi Beta Kappa - 1994'
+p508
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p509
+sg14
+S'<br/>PhD Mechanical Engineering 2001 - University of California at Berkeley <br/>  MS Mechanical Engineering 1998 - University of California at Berkeley <br/>  BS Mechanical Engineering 1994 - Rice University<br/>'
+p510
+sg16
+S'jrlukes@seas.upenn.edu'
+p511
+sa(dp512
+g2
+S'RahulMangharam'
+p513
+sg4
+S'Stephen J. Angello Term Assistant Professor'
+p514
+sg6
+S'images/photos/full_Mangharam.jpg '
+p515
+sg8
+S"Embedded Systems | Sensor Networks  Rahul's mission is to merge computing, communications, and the physical world into integrated cyber-physical systems, enabling seamless communication with and control of objects such as smart buildings, the human body, and automobiles in the physical world.  His work encompasses tiny wireless sensor networks and large-scale vehicle-to-vehicle wireless networks. Rahul co-developed the FireFly sensor networking platform, which allows physical object to communicate over wireless links, resulting in tiny devices which can locate workers in mines, wirelessly control automation factories, and serve as flexible, wearable smart band-aids in on-body healthcare systems."
+p516
+sg10
+S"Provost's Distinguished International Research Award - 2010, Wharton Interactive Media Initiative Award - 2009, University Research Foundation Award - 2009, IEEE Best Paper Award - 2006, Sixth Annual Lockheed Martin ECE Project Award - 2006"
+p517
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Computer and Information Science (CIS)'
+p518
+sg14
+S'<br/>PhD Electrical &amp; Computer Engineering 2008 - Carnegie Mellon University <br/>  MS Electrical &amp; Computer Engineering 2002 - Carnegie Mellon University <br/>  BS Electrical &amp; Computer Engineering 2000 - Carnegie Mellon University<br/>'
+p519
+sg16
+S'rahulm@seas.upenn.edu'
+p520
+sa(dp521
+g2
+S'Mitchell P.Marcus'
+p522
+sg4
+S'RCA Professor of Artificial Intelligence'
+p523
+sg6
+S'images/photos/full_Marcus.jpg '
+p524
+sg8
+S'Computational Linguistics | Cognitive Science | Artificial Intelligence   Mitch works at the intersection of linguistics and computer science, leveraging our understanding of the structure of language to develop new technologies which will automatically extract increasingly rich information from texts in languages in such languages as English, Arabic, and Chinese.  He and his collaborators have developed statistical and symbolic methods for automatic acquisition of linguistic structure, and methodologies for annotation of linguistic structure in large text corpora.  Specifically, Mitch and his group are working on corpora which are hand-annotated with linguistic structure for use world-wide as training materials for new machine learning algorithms.'
+p525
+sg10
+S'Fellow of the American Association of Artificial Intelligence - 1992'
+p526
+sg12
+S' \tComputer and Information Science (CIS)'
+p527
+sg14
+S'<br/>PhD  Electrical Engineering &amp; Computer Science 1978 - Massachusetts Institute of Technology <br/>  BS - Harvard University<br/>'
+p528
+sg16
+S'mitch@cis.upenn.edu'
+p529
+sa(dp530
+g2
+S'Susan S.Margulies'
+p531
+sg4
+S'George H. Stephenson Term Chair in Bioengineering and Professor '
+p532
+sg6
+S'images/photos/a_full_Margulies.jpg '
+p533
+sg8
+S"Biomechanics | Cell Mechanics | Tissue Engineering   Cells within the body routinely tolerate deformations during activities such as head turning and breathing, yet when cells are deformed beyond a safe limit or injury threshold, function and structure are altered temporarily or even permanently. The goal of the Injury Biomechanics Lab is to determine functional and structural injury thresholds in the brain and lung, and use them to understand mechanisms of traumatic brain and lung injury. In addition, the lab's study of the biochemical and molecular biology of injured cells facilitates the development of preventive and therapeutic measures. Because human tissues tend to be inhomogeneous, anisotropic and nonlinear, and the tissues of interest undergo large strains, determining the complex relationship between cellular and macroscopic responses requires an integrated biomechanics approach consisting of several simultaneous rigorous engineering experimental and theoretical analyses. Tissue mechanical properties and injury thresholds are measured and used to develop computational models. These models are used to generalize our experimental cell and tissue findings and determine macroscopic injury mechanisms. Applications of current work are in the areas of traumatic head injury in adults and children, and ventilator-induced lung injury. These studies parallel clinical investigations regarding the treatment and detection of traumatic injury. Margulies' research program is currently funded by NIH and CDC. She has served or is on the editorial boards of the Journal of Physiology, the Journal of Biomechanical Engineering, the Journal of Biomechanics, and the Journal of Neurotrauma; she has served on grant review panels for NSF, NIH, and CDC, and is chair of the NIH RIBT study section. Her work has been featured in The New York Times, Forbes, Atlanta Journal-Constitution, Discover Magazine, and by CNN and the BBC. Margulies also serves as Vice-President of the Penn Forum for Women Faculty and Chair-Elect of the University of Pennsylvania Faculty Senate."
+p534
+sg10
+S'ALA Young Investigator Award, Whitaker Foundation Young Investigator Award, NSF CAREER Award, Stapp Car Crash Conference Award, S Reid Warren Award for Distinguished Teaching, Ford Motor Company Award for Faculty Advising, American Society of Mechanical Engineering Award, Association of Women in Science Elizabeth Bingham Award for the Advancement of Women in Science, Fellow - American Institute for Medical and Biological Engineering - 2006, Fellow - American Society of Mechanical Engineers - 2009, Fellow - Biomedical Engineering Society - 2009'
+p535
+sg12
+S' \tBioengineering (BE)'
+p536
+sg14
+S'<br/>PhD Bioengineering 1987 - University of Pennsylvania <br/>  MSE Bioengineering 1983 - University of Pennsylvania <br/>  BSE Mechanical &amp; Aerospace Engineering 1982 - Princeton University<br/>'
+p537
+sg16
+S'margulies@seas.upenn.edu'
+p538
+sa(dp539
+g2
+S'Milo M.K.Martin'
+p540
+sg4
+S'Associate Professor '
+p541
+sg6
+S'images/photos/full_Martin.jpg '
+p542
+sg8
+S'Architecture and Compilers  Milo researches hardware design and implementation techniques for creating faster, power-efficient, secure, and reliable multi-core computing systems that will form the foundation of next-generation web servers and mobile devices. He and his colleagues are exploring new hardware-assisted approaches for creating systems that correctly coordinate parallel activities, including cache coherence protocols, transactional memory, and hardware-aware verification of concurrent software. To improve reliability and security, Milo is developing hardware-assisted runtime monitoring systems which will ensure that common programming mistakes cannot silently corrupt data or cause security vulnerabilities.'
+p543
+sg10
+S'NSF CAREER Award - 2007, Gustavus Adolphus College First Decade Outstanding Achievement Award - 2006, Norm Koo Fellowship from Sun Microsystems - 2002-2003'
+p544
+sg12
+S' \tComputer and Information Science (CIS)'
+p545
+sg14
+S'<br/>PhD Computer Science 2003 - University of Wisconsin at Madison <br/>  MS Computer Science 1998 - University of Wisconsin at Madison <br/>  BA 1996 - Gustavus Adolphus College<br/>'
+p546
+sg16
+S'milom@cis.upenn.edu'
+p547
+sa(dp548
+g2
+S'David F.Meaney'
+p549
+sg4
+S'Solomon R. Pollack Professor and Chair'
+p550
+sg6
+S'images/photos/a_full_Meaney.jpg '
+p551
+sg8
+S"Cellular Engineering | Neuroengineering (molecular ) | Neurobiology   Dave's research focuses on understanding the mechanical cues that regulate injury, repair, and growth in cells and tissues of the central nervous system. The process of mechanotransduction is critical in understanding the response of cells and tissues of the central nervous system (CNS) to traumatic injury. In this research area, experimental work is combined with mathematical modeling to provide a method to quantify the effect of physical forces on cell and tissue function. For example, some of the research combines finite element models of the brain with experimental work to estimate the tissue mechanical stress/strain associated with biological markers of injury. These models provide a starting point to relate traditional measures of stress to the microstructural constituents of the tissue. Structural models are being developed to link global mechanical deformations and the resulting deformation of cellular/subcellular microstructures in the CNS white matter. With the kinematic transformations between the macroscopic deformations and cellular components of the CNS  white matter now better established, the research has expanded to determine the mechanism(s) by which a mechanical signal is converted into a biochemical signaling cascade for organotypic tissue, cultured neurons, and cultured axons. Clinical applications of his work include developing new testing standards to improve the safety of headgear and automotive restraint systems, and testing new techniques for repairing damaged tissues in the brain after injury."
+p552
+sg10
+g68
+sg12
+S' \tBioengineering (BE)'
+p553
+sg14
+S'<br/>PhD Bioengineering 1991 - University of Pennsylvania <br/>  MSE Bioengineering 1988 - University of Pennsylvania <br/>  BS Biomedical Engineering 1987 - Rensselaer Polytechnic Institute<br/>'
+p554
+sg16
+S'dmeaney@seas.upenn.edu'
+p555
+sa(dp556
+g2
+S'Max Mintz'
+p557
+sg4
+S'Professor'
+p558
+sg6
+S'images/photos/full_Mintz.jpg '
+p559
+sg8
+S"Robotics | Sensor Fusion  Max's research program focuses on developing a better understanding of the nature of good algorithms for decision-making under uncertainty, with applications to machine perception and robotics. Current research topics include the application of game theory and statistical decision theory for designing robust fixed-geometry confidence regions for multivariate location parameters, and algorithms for robust multisensor fusion and set-valued state estimation with performance guarantees. Max also works with applications of confidence sets for cooperative and noncooperative mobile robots."
+p560
+sg10
+S'Award for Teaching Excellence in the Hard Sciences from the Student Committee on Undergraduate Education - 2004'
+p561
+sg12
+S' \tComputer and Information Science  (CIS)'
+p562
+sg14
+g68
+sg16
+S'mintz@cis.upenn.edu'
+p563
+sa(dp564
+g2
+S'ChristopherMurray'
+p565
+sg4
+S'Richard Perry University  Professor and Professor '
+p566
+sg6
+S'images/photos/full_Murray.jpg '
+p567
+sg8
+S'Nanostructured Materials | Energy | Chemistry of Materials   Bridging boundaries between chemistry and materials science, Chris researches the synthesis characterization and integration of nanostructured materials, with an emphasis on the exploration of finite size effects in nanoscale magnets and semiconductors.  His seminal contributions include the development of nanocrystalline materials, the creation of artificial atoms (nanocrystals or quantum dots) that self assemble into devices with completely new multi-functionalities.  Chris is exploring self-organizing phenomena for applications in information processing, communication, and storage.'
+p568
+sg10
+S'Honorary Doctorate in Sustainability from Utrecht University - 2011'
+p569
+sg12
+S' \tMaterials Science and Engineering (MSE)'
+p570
+sg14
+S"<br/>PhD Physical Chemistry - Massachusetts Institute of Technology <br/>  BS Chemistry - St. Mary's University<br/>"
+p571
+sg16
+S'cbmurray@seas.upenn.edu'
+p572
+sa(dp573
+g2
+S'AniNenkova'
+p574
+sg4
+S'Aravind Joshi Term Assistant Professor'
+p575
+sg6
+S'images/photos/full_Nenkova.jpg '
+p576
+sg8
+S"Computational linguistics | Artificial Intelligence  Ani works in the area of natural language processing, focusing on automatic summarization, text generation, discourse and prosody.  She is addressing the increasing need for intelligent summarization systems brought on by the proliferation of textual information in electronic form.  Ani's research has addressed challenges in summarization, including identifying important content to include in the summary, automatic revision of human written text to better fit in the new context of the summary, and automatic identification of inputs that current systems handle poorly."
+p577
+sg10
+S'NSF CAREER Award - 2010'
+p578
+sg12
+S' \tComputer and Information Science  (CIS)'
+p579
+sg14
+g68
+sg16
+S'nenkova@seas.upenn.edu'
+p580
+sa(dp581
+g2
+g68
+sg4
+g68
+sg6
+g68
+sg8
+g68
+sg10
+g68
+sg12
+g68
+sg14
+g68
+sg16
+S'apo@seas.upenn.edu" target="_blank'
+p582
+sa(dp583
+g2
+S'George J.Pappas'
+p584
+sg4
+S'Joseph Moore Professor '
+p585
+sg6
+S'images/photos/full_Pappas.jpg '
+p586
+sg8
+S"Control Systems | Robotics | Embedded Systems   George's research focuses on developing methods for the control of next-generation hierarchical and distributed systems. His research group focuses on developing analysis and design algorithms and tools for hybrid systems, which merge control systems with computing systems. Their methods have been used in developing algorithms for coordinated motion of fleets of unmanned aerial vehicles and multi-robot systems, analyzing the safety of next generation medical devices, and understanding the macroscopic behavior of biological networks."
+p587
+sg10
+S'Ruberti Young Researcher Prize - 2010, Axelby Outstanding Paper Award - 2009, IEEE Fellow - 2009, Presidential Early Career Award for Scientists and Engineers (PECASE) - 2004'
+p588
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Computer and Information Science (CIS) <br/> Mechanical Engineering and Applied Mechanics (MEAM) <br/'
+p589
+sg14
+S'<br/>PhD Electrical Engineering &amp; Computer Sciences 1998 - University of California at Berkeley <br/>  MS Computer &amp; Systems Engineering 1992 - Rensselaer Polytechnic Institute <br/>  BS Computer &amp; Systems Engineering 1991 - Rensselaer Polytechnic Institute<br/>'
+p590
+sg16
+S'pappasg@seas.upenn.edu'
+p591
+sa(dp592
+g2
+g68
+sg4
+g68
+sg6
+g68
+sg8
+g68
+sg10
+g68
+sg12
+g68
+sg14
+g68
+sg16
+S'apo@seas.upenn.edu" target="_blank'
+p593
+sa(dp594
+g2
+S'GianlucaPiazza'
+p595
+sg4
+S'Wilf Family Term Assistant Professor '
+p596
+sg6
+S'images/photos/full_Piazza.jpg '
+p597
+sg8
+S'MEMS  | Nanodevices | RF Communications   Gian is researching piezoelectric micro and nano electromechanical systems (MEMS/NEMS) for wireless communications, biochemical detection, wireless sensor platforms, and precision sensing and actuation.  He also has an interest in the areas of micro/nano fabrication techniques and integration of micro/nano devices with state-of-the-art electronics.  Gian is leading the Penn Micro and Nano Systems Laboratory (PMANS), which is currently involved in the development of next generation micro and nano mechanical resonators, filters, and switches for cognitive radios, resonant chemical sensors and all-mechanical logic circuits.'
+p598
+sg10
+g68
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Mechanical Engineering and Applied Mechanics (MEAM)'
+p599
+sg14
+g68
+sg16
+S'piazza@seas.upenn.edu'
+p600
+sa(dp601
+g2
+S'Benjamin C.Pierce'
+p602
+sg4
+S'Professor '
+p603
+sg6
+S'images/photos/full_Pierce.jpg '
+p604
+sg8
+S"Programming Languages | Logic | Formal Methods   Benjamin's research focuses on foundational principles leading to more robust, cohesive, and secure software systems.  He has worked on programming languages, static type systems, concurrent and distributed programming, synchronization technologies, and computer security, always with an eye to the fruitful interplay of theory and practice.  Benjamin is the author of several books, including the widely used graduate text, Types and Programming Languages, and is the lead designer of the popular Unison file synchronizer."
+p605
+sg10
+S'One of 15 most-acknowledged computer scientists (Proceedings of the National Academy of Sciences) - 2005'
+p606
+sg12
+S' \tComputer and Information Science (CIS)'
+p607
+sg14
+S'<br/>PhD Computer Science 1991 - Carnegie Mellon University<br/>'
+p608
+sg16
+S'bcpierce@cis.upenn.edu'
+p609
+sa(dp610
+g2
+S'Pedro Ponte Casta&ntilde;eda'
+p611
+sg4
+S'Professor'
+p612
+sg6
+S'images/photos/a_full_Castaneda.jpg '
+p613
+sg8
+S"Computational Mechanics | Mechanics of Materials | Nanomechanics   Professor Ponte's research is in the areas of nonlinear composite materials, microstructure evolution and localization in manufacturing processes, low-symmetry polycrystals, and thermoplastic elastomers. In the area of nonlinear composite materials, Pedro addresses nonlinear constitutive and kinematical effects as observed in low-temperature plasticity and high-temperature creep of metal-matrix composites, as well as in the large-deformation behavior of black-filled and porous elastomers. In microstructure evolution and localization in manufacturing processes, his lab is concerned with the theoretical development of constitutive models for porous materials, accounting for the evolution of the microstructure, which will be useful in assessing the effect of porosity on localization. He is developing constitutive models for low-symmetry polycrystals, and on the numerical implementation of these models in constitutive subroutines. In his examination of thermoplastic elastomers, Professor Ponte's lab is developing structure-property relations for styrenic thermoplastic elastomers (TPEs). These are multiphase polymeric materials which consist of a phase (e.g., polybutadiene) giving rise to the rubbery nature of the materials, and a crystalline or glassy phase (e.g., polystyrene) yielding increased stiffness and enhanced large-deformation properties. TPEs exhibit structure a two different length scales and there is growing experimental evidence that this dual structure greatly affects the overall response of macroscopic samples. He is also developing constitutive models for magneto-elastic materials capable of undergoing large strains and investigating possible applications as active materials."
+p614
+sg10
+S'Heilmeier Award for Excellence in Faculty Research - 2007, ASME Achievement Award for Young Investigators in Applied Mechanics - 2000'
+p615
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p616
+sg14
+S'<br/>PhD Applied Mathematics 1986 - Harvard University <br/>  MS Engineering Sciences 1983 - Harvard University <br/>  BS Mechanical Engineering 1982 - Lehigh University <br/>   BA Mathematics 1982 - Lehigh University<br/>'
+p617
+sg16
+S'ponte@seas.upenn.edu'
+p618
+sa(dp619
+g2
+S'David P.Pope'
+p620
+sg4
+S'Professor '
+p621
+sg6
+S'images/photos/a_full_Pope.jpg '
+p622
+sg8
+S"Mechanics of Materials | Nanostructured Materials | Material Interfaces   Dave's research projects include study of deformation and fracture of intermetallic compounds. The ductility of most intermetallics is quite low due either to grain boundary or cleavage failure. His lab is investigating the deformation and fracture mechanisms in a number of singlecrystalline intermetallics, including V2Hf, Cr3Si, and Al3Ti. The strength of metal-ceramic interfaces is very important in many material systems, such as electronic packages, composite materials, and high temperature fracture of metals (in which creep voids usually nucleate on second-phase ceramic particles). In this area he is studying the strength of Fe-Al2O3 interfaces as controlled by impurities which segregate to the interface, such as S, C, P, and B. The fracture path in many polycrystalline materials follows the grain boundaries, i.e. in Ni3Al and in certain iron-base alloys with impurities. Since the structure of these boundaries varies with crystallographic misorientation across the boundary and with the orientation of the boundary plane, the strengths of the boundaries are also expected to vary. His group is studying the relative strengths of boundaries using the coincidence site lattice model to describe the boundaries. They have found that high coincidence boundaries (low sigma) are not stronger than random boundaries, but twin boundaries and low angle boundaries are substantially stronger."
+p623
+sg10
+S'S. Reid Warren Award for Distinguished Teaching - 2000'
+p624
+sg12
+S' \tMaterials Science and Engineering (MSE)'
+p625
+sg14
+S'<br/>PhD Materials Science 1967 - California Institute of Technology <br/>  MS Materials Science 1962 - California Institute of Technology <br/>  BS Applied Science 1961 - University of Pennsylvania<br/>'
+p626
+sg16
+S'pope@seas.upenn.edu'
+p627
+sa(dp628
+g2
+S'Prashant K.Purohit'
+p629
+sg4
+S'Assistant Professor '
+p630
+sg6
+S'images/photos/full_Purohit.jpg '
+p631
+sg8
+S'Mechanics of Materials | Biomechanics | Computational Mechanics   Prashant conducts his research at the interface of mechanics, physics, and biology.  Using the Kirchhoff theory of filaments, he is able to describe the behavior of DNA at small length scales, and analyze its implications on the life cycle of viruses and the switching on and off of genes.  Prashant studies the effect of thermal fluctuations or entropy, and is also interested in applications of the mechanics of lipid membranes to cellular organelles and the mechanics of material interfaces in slender bodies to micro-scale propulsion.'
+p632
+sg10
+S'NSF CAREER Award - 2010, ASEE Ferdinand P. Beer and E. Russell Johnston Jr. Oustanding New Mechanics Educator Award - 2010'
+p633
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p634
+sg14
+S'<br/>PhD Applied Mechanics 2002 - California Institute of Technology <br/>  MS Applied Mechanics 1998 - California Institute of Technology <br/>  B Tech Mechanical Engineering 1997 - Indian Institute of Technology <br/>'
+p635
+sg16
+S'purohit@seas.upenn.edu'
+p636
+sa(dp637
+g2
+S'RaviRadhakrishnan'
+p638
+sg4
+S'Associate Professor'
+p639
+sg6
+S'images/photos/a_full_Radhakrishnan.jpg '
+p640
+sg8
+S"Computational Biology | Molecular System Biology  Ravi's research interests lie at the interface of chemical physics and molecular biology. His lab's goal is to provide atomic and molecular level characterization of complex biomolecular systems and formulate quantitatively accurate microscopic models for predicting the interactions of various therapeutic agents with innate biochemical signaling mechanisms. To do so, they employ several computational algorithms ranging from techniques to treat electronic structure, molecular dynamics, Monte Carlo simulations, stochastic kinetic equations, and complex systems analyses in conjunction with the theoretical formalisms of statistical and quantum mechanics, and high performance computing in massively parallel architectures."
+p641
+sg10
+g68
+sg12
+S' \tBioengineering (BE) <br/> Chemical and Biomolecular Engineering (CBE)'
+p642
+sg14
+S'<br/>PhD 2001 - Cornell University <br/>  BTech 1995 - Indian Institute of Technology<br/>'
+p643
+sg16
+S'rradhak@seas.upenn.edu'
+p644
+sa(dp645
+g2
+S'AlejandroRibeiro'
+p646
+sg4
+S'Assistant Professor'
+p647
+sg6
+S'images/photos/full_Ribeiro.jpg '
+p648
+sg8
+S'Wireless Networks  Alejandro believes that understanding networks, beyond wireless and communications, is one of the greatest intellectual challenges of the 21st century. Accordingly, his research is aimed at developing a theory to model and develop wireless networks. While communications are understood on a fundamental level, networks are not. Developing theoretical foundations of wireless networks will uncover fundamental properties to guide their design. In the end, the goal will be wireless networks that provide the same seamless connectivity we experience in our homes and offices.'
+p649
+sg10
+S'NSF CAREER Award - 2010'
+p650
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p651
+sg14
+g68
+sg16
+S'apo@seas.upenn.edu" target="_blank'
+p652
+sa(dp653
+g2
+S'AmirRoth'
+p654
+sg4
+S'Associate Professor '
+p655
+sg6
+S'images/photos/full_Roth.jpg '
+p656
+sg8
+S'Architecture and Compilers  Amir studies the design of future processors. Two clear industry trends show that the number of individual processors on a single chip will grow, and that individual processors within a chip will become less reliable. In this context, Amir and his students are working to re-formulate some basic hardware algorithms to improve efficiency and performance, support error recovery, and facilitate inter-processor co-operation. In a current project, Amir is using periodic checkpointing to facilitate both intra-processor optimization and inter-processor communication.'
+p657
+sg10
+S'NSF CAREER Award - 2004'
+p658
+sg12
+S' \tComputer and Information Science  (CIS)'
+p659
+sg14
+S'<br/>PhD Computer Science 2001 - University of Wisconsin at Madison <br/>  MS Computer Science 1997 - University of Wisconsin at Madison <br/>   BS Physics 1994 - Yale University <br/>  BA Computer Science 1994 - Yale University<br/>'
+p660
+sg16
+S'amir@seas.upenn.edu'
+p661
+sa(dp662
+g2
+S'AllaSafonova'
+p663
+sg4
+S'Assistant Professor'
+p664
+sg6
+S'images/photos/full_Safonova.jpg '
+p665
+sg8
+S'Computer Graphics | Computer Animation  In her work on computer animation and computer graphics, Alla researches novel ways to automatically synthesize natural and physically realistic motions of human characters and animals. Such methods are useful in entertainment, education, medical treatment, and training simulators.  Alla uses vast amounts of data generated by motion capture cameras to create compact spaces of natural human motion that can then be efficiently searched for solutions that match user specifications.  She is especially interested in developing character animation methods accessible to users with a wide range of user experience.'
+p666
+sg10
+g68
+sg12
+S' \tComputer and Information Science  (CIS)'
+p667
+sg14
+S'<br/>PhD Computer Science 2006 - Carnegie Mellon University <br/>  MS Computer Science 2001 - Georgia Institute Of Technology <br/>  BS Computer Science 1997 - Stevens Institute Of Technology<br/>'
+p668
+sg16
+g68
+sa(dp669
+g2
+S'Jorge J.Santiago-Aviles'
+p670
+sg4
+S'Associate Professor '
+p671
+sg6
+S'images/photos/full_Santiago.jpg '
+p672
+sg8
+S'MEMS | Nanodevices  Jorge conducts his research at the interface between electrical engineering and materials science, focusing on materials for electronic sensing and actuating.  He is currently exploring nano-structures and nano-materials synthesis, and characterization by the electrostatic deposition methods.  Jorge has also investigated II-VI semiconducting compounds for LEDs, carbon and graphite composites, silicon sensors and actuators, electroceramic devices and LTCC tape-based sensing and actuating devices.'
+p673
+sg10
+g68
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p674
+sg14
+S'<br/>PhD Materials Science and Engineering 1970 - Pennsylvania State University <br/>  BS Physics 1966 - University of Puerto Rico<br/>'
+p675
+sg16
+S'santiago@ee.upenn.edu'
+p676
+sa(dp677
+g2
+S'Casim A.Sarkar'
+p678
+sg4
+S'Assistant Professor '
+p679
+sg6
+S'images/photos/a_full_Sarkar_C.jpg '
+p680
+sg8
+S"Cellular Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | System Biology   Sarkar strives to elucidate fundamental principles that underlie individual biomolecular interactions and molecular networks within cells and to apply this knowledge to the design of new molecular and cellular therapeutics. His research couples techniques from the fields of molecular biology, protein biochemistry, microbiology, and mammalian cell biology with mathematical modeling, engineering analyses, and synthetic biology to develop quantitative, predictive frameworks for the biological processes that he interrogates.  Current thrusts in Sarkar's laboratory include designing novel protein therapeutics, engineering cell biosensors, and dissecting signaling networks implicated in cell decision making. "
+p681
+sg10
+S'NSF CAREER Award - 2011'
+p682
+sg12
+S' \tBioengineering (BE) <br/> Chemical and Biomolecular Engineering (CBE)'
+p683
+sg14
+S'<br/>PhD Chemical Engineering 2002 - Massachusetts Institute of Technology <br/>  BS Chemical Engineering 1997 - University of Texas<br/>'
+p684
+sg16
+S'casarkar@seas.upenn.edu'
+p685
+sa(dp686
+g2
+S'SaswatiSarkar'
+p687
+sg4
+S'Associate Professor'
+p688
+sg6
+S'images/photos/full_Sarkar.jpg '
+p689
+sg8
+S"Communication Systems | Wireless Networks  Saswati's research focuses on enabling wireless communication among computing units that have limited access to communication resources such as bandwidth, memory and battery power. Her research strives to design intelligent resource management schemes that attain reliable communication through maximum utilization of limited resources.  Her schemes provide provable performance guarantees by enabling large scale cooperation and efficient contention resolution among participating units, and their design draws from tools obtained from control and computing theories, stochastic processes, and economics."
+p690
+sg10
+S'NSF CAREER Award - 2003, Dr. M.N.S. Swami Medal - 1996, Prof. S.V.C. Aiya Medal - 1996, Motorola Medal - 1996'
+p691
+sg12
+S' \tElectrical and Systems Engineering (ESE) <br/> Computer and Information Science (CIS)'
+p692
+sg14
+S'<br/>PhD Electrical and Computer Engineering 2000 - University of Maryland <br/>  ME Electrical Communication Engineering 1996 - Indian Institute of Science <br/>  BE Electronics &amp; Telecommunications 1994 - Jadavpur University<br/>'
+p693
+sg16
+S'swati@ee.upenn.edu'
+p694
+sa(dp695
+g2
+g68
+sg4
+g68
+sg6
+g68
+sg8
+g68
+sg10
+g68
+sg12
+g68
+sg14
+g68
+sg16
+S'apo@seas.upenn.edu" target="_blank'
+p696
+sa(dp697
+g2
+S'Warren D.Seider'
+p698
+sg4
+S'Professor '
+p699
+sg6
+S'images/photos/full_Seider.jpg '
+p700
+sg8
+S"Process Modeling | Process Control | Optimizations   Warren's research is in the fields of chemical process analysis, simulation, design, and control. He is recognized for contributions in phase and chemical equilibria, azeotropic distillation, semi-continuous operations, chemical reaction systems, heat and power integration, Czochralski crystallization, nonlinear control, safety and risk analysis, and applied numerical methods. Warren co-authored the highly regarded and definitive text, Product and Process Design Principles:  Synthesis, Analysis, and Evaluation, used in engineering schools and industry around the world."
+p701
+sg10
+S'F. J. and Dorothy Van Antwerpen Award for Service to the AIChE Institute - 2011, Fellow of the American Institute of Chemical Engineers  - 2006, Warren K. Lewis Award for Contributions to Chemical Engineering Education by the American Institute of Chemical Engineers - 2004'
+p702
+sg12
+S' \tChemical and Biomolecular Engineering (CBE)'
+p703
+sg14
+S'<br/>PhD Chemical Engineering 1966 - University of Michigan <br/>  MSE Chemical Engineering 1963 - University of Michigan <br/>  BS Chemical Engineering 1962 - Polytechnic Institute of Brooklyn (now Polytechnic University) <br/>'
+p704
+sg16
+S'seider@seas.upenn.edu'
+p705
+sa(dp706
+g2
+S'JianboShi'
+p707
+sg4
+S'Associate Professor'
+p708
+sg6
+S'images/photos/full_Shi.jpg '
+p709
+sg8
+S"Computer Vision  Jianbo's group is developing vision algorithms for both human and image recognition.  Their ultimate goal is to develop computation algorithms to understand human behavior and interaction with objects in video, and to do so at multiple levels of abstractions: from the basic body limb tracking, to human identification, gesture recognition, and activity inference. Jianbo and his group are working to develop a visual thinking model that allows computers not only to understand their surroundings, but also to achieve higher level cognitive abilities such as machine memory and learning."
+p710
+sg10
+S'NSF CAREER Award - 2005'
+p711
+sg12
+S' \tComputer and Information Science  (CIS)'
+p712
+sg14
+S'<br/>PhD Computer Science 1998 - University of California at Berkeley <br/>  BA Computer Science &amp; Mathematics 1994 - Cornell University<br/>'
+p713
+sg16
+S'jshi@cis.upenn.edu'
+p714
+sa(dp715
+g2
+S'Wen K.Shieh'
+p716
+sg4
+S'Professor'
+p717
+sg6
+S'images/photos/a_full_Shieh.jpg '
+p718
+sg8
+S"Chemical Systems Engineering | Environmental Systems  Wen's research interests are in the area of bioenvironmental engineering. He works on the development of biological engineering processes for environmental applications, such as biological fluidized bed processes for surface and ground water decontaminations and sequencing batch reactor processes for nitrogen removal. In nitrogen removal, he is examining mechanisms for denitrification , such as nitrogen removal of amines and biofilm nitrification/denitrification kinetics. He also focuses his efforts on environmental systems modeling, such as surface and ground water modeling, time series analysis of water and wastewater treatment facilities, and kinetic modeling of biodegradation processes."
+p719
+sg10
+S'Fulbright Scholar - 1988-1989'
+p720
+sg12
+S' \tChemical and Biomolecular Engineering (CBE)'
+p721
+sg14
+S'<br/>PhD Environmental Engineering 1978 - University of Massachusetts at Amherst <br/>  MS Environmental Engineering 1975 - University of Massachusetts at Amherst <br/>  MS Civil Engineering 1972 - National Cheng Kung University in Taiwan <br/>  BS Civil Engineering 1970 - National Cheng Kung University in Taiwan<br/>'
+p722
+sg16
+S'shieh@seas.upenn.edu'
+p723
+sa(dp724
+g2
+S'Barry G.Silverman'
+p725
+sg4
+S'Professor'
+p726
+sg6
+S'images/photos/full_Silverman.jpg '
+p727
+sg8
+S'Intelligent Software Agents | Computer Games | Computer Simulations   Barry researches systems engineering applied to social systems, also known as systems social science.  Using descriptive rather than normative approaches, Barry merges best-of-breed models such as human physiology, stress, emotion, personality, and relations, as well as cultural, political, and economic factors, into a unified framework for agent-based simulations of ethno-political situations around the world. Barry uses these models to simulate insurgencies and factional conflicts and drive role playing games and interactive dramas, with the goal of exposing the need for research in computational social science.'
+p728
+sg10
+S'IEEE Fellow, AAAS Fellow, Washington Academy of Science Fellow, American Association for Artificial Intelligence Innovative Application of Artificial Intelligence Award - 1991'
+p729
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p730
+sg14
+S'<br/>PhD 1977 - University of Pennsylvania <br/>  MSE 1977 - University of Pennsylvania <br/>  BSE 1975 - University of Pennsylvania<br/>'
+p731
+sg16
+S'barryg@seas.upenn.edu'
+p732
+sa(dp733
+g2
+S'Talid R.Sinno'
+p734
+sg4
+S'Associate Professor'
+p735
+sg6
+S'images/photos/full_Sinno.jpg '
+p736
+sg8
+S"Molecular Simulation | Transport Processes | Chemical Systems Engineering   Talid's research program is broadly aimed at the theoretical and computational study of nano and microstructural evolution, particularly nucleation and growth, in condensed matter.  He is currently pursuing microdefect formation in crystalline semiconductors, colloidal crystallization of micron-scale particles with tunable interactions, and platelet aggregation in blood. Talid's lab has developed an extensive suite of simulation tools for studying these phenomena, including large-scale molecular dynamics, multiscale kinetic Monte Carlo, and continuum models."
+p737
+sg10
+g68
+sg12
+S' \tChemical and Biomolecular Engineering (CBE) <br/> Mechanical Engineering and Applied Mechanics (MEAM)'
+p738
+sg14
+S'<br/>PhD Chemical Engineering 1998 - Massachusetts Institute of Technology <br/>   BSE Chemical Engineering 1991 - University of Pennsylvania <br/>  BA Chemistry 1991 - University of Pennsylvania<br/>'
+p739
+sg16
+S'talid@seas.upenn.edu'
+p740
+sa(dp741
+g2
+S'Tony E.Smith'
+p742
+sg4
+S'Professor'
+p743
+sg6
+S'images/photos/a_full_Smith_T.jpg '
+p744
+sg8
+S"Spatial Interaction Behavior | Geographic Information Systems  Tony's primary area of research is in the theory and application of probabilistic models to spatial interaction behavior. Specific interests focus on structural analysis and axiomatic foundations of such models. Related areas of interest are in probabilistic theories of choice behavior, spatial statistical analysis and GIS. A secondary area of research is in transportation and land use modeling. Specific interests focus on network equilibrium models of traffic flows and general equilibrium models of urban land use."
+p745
+sg10
+g68
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p746
+sg14
+S'<br/>PhD - University of Pennsylvania<br/>'
+p747
+sg16
+S'tesmith@seas.upenn.edu'
+p748
+sa(dp749
+g2
+S'Jonathan M.Smith'
+p750
+sg4
+S'Olga and Alberico Pompa Professor'
+p751
+sg6
+S'images/photos/full_Smith_J.jpg '
+p752
+sg8
+S'Computer Security | Distributed Systems  Jonathan\'s research interests center around computer networking and computer security. He is developing network architectures for new services and applications, such as the Terabit Edge Research Activity (TERA), which is focused on the coupling between parallel processing and parallelism in transmission systems, and implications for host software and network control. Jonathan is also working on Zodiac, an intrinsically assurable mobile ad-hoc network, where many challenges ensue as router and host become indistinguishable, and Dynamic Trust Management (DTM), which is focused on "situation-aware" authorizations for privileged actions, such as emergency situations.'
+p753
+sg10
+S'IEEE Fellow'
+p754
+sg12
+S' \tComputer and Information Science  (CIS)'
+p755
+sg14
+S'<br/>PhD Computer Science 1989 - Columbia University <br/>  MS Computer Science 1983 - Columbia University <br/>  AB Mathematics 1981 - Boston College <br/>'
+p756
+sg16
+S'jms@cis.upenn.edu'
+p757
+sa(dp758
+g2
+S'OlegSokolsky'
+p759
+sg4
+S'Research Associate Professor '
+p760
+sg6
+S'images/photos/full_Sokolosky.jpg '
+p761
+sg8
+S'Embedded Systems | Formal Methods  Oleg focuses his research interests on the application of formal methods to design and verify distributed real-time systems.  He works on modeling and analysis of computer-based systems, particularly medical devices, which require high levels of confidence in their operation. Oleg aims to develop mathematically grounded modeling languages, algorithms, and tools to verify system models in terms of their functional correctness and timeliness.  He also develops methods for implementing systems according to their models.'
+p762
+sg10
+S'DARPA IPTO Special Commendation for outstanding achievement in the development of Bio-SPICE technology - 2005'
+p763
+sg12
+S' \tComputer and Information Science  (CIS)'
+p764
+sg14
+S'<br/>PhD Computer Science 1996 - State University of New York <br/>  MS Computer Science 1988 - St. Petersburg State Technical University in Russia <br/>  BS Computer Science 1988 - St. Petersburg State Technical University in Russia<br/>'
+p765
+sg16
+S'sokolsky@cis.upenn.edu'
+p766
+sa(dp767
+g2
+S'KathleenStebe'
+p768
+sg4
+S'Richer &amp; Elizabeth Goodwin Professor and Chair'
+p769
+sg6
+S'images/photos/a_full_Stebe.jpg '
+p770
+sg8
+S"Nanostructured Materials | Surface and Colloidal Science  Kate's primary research interests are in non-equilibrium interfaces, with applications ranging from microfluidics to nanotechnology. One aspect of her research program focuses on interfaces between fluids and how surfactants can be used to influence interfacial flows. Other aspects address tailoring of solid-liquid interfaces with applications ranging from patterned electrodeposition to capillary-driven assembly and ordering of nanomaterials."
+p771
+sg10
+S'Fellow - Radcliffe Institute for Advanced Study - Harvard University - 2002, Robert S. Pond Sr. Excellence in Teaching Award - Whiting School of Engineering - Johns Hopkins University - 1993, American Physical Society Francois N. Frenkiel Award for Significant Contributions in Fluid Mechanics by Young Investigators - 1992, Stanley Katz Memorial Award for Excellence in Research - Department of Chemical Engineering - City University of New York - 1989'
+p772
+sg12
+S' \tChemical and Biomolecular Engineering (CBE)'
+p773
+sg14
+S'<br/>PhD Chemical Engineering 1989 - The City University of New York <br/>  MSE Chemical Engineering 1989 - The City University of New York <br/>  BA Economics 1984 - The City College of New York <br/>'
+p774
+sg16
+g68
+sa(dp775
+g2
+S'Val B.Tannen'
+p776
+sg4
+S'Professor'
+p777
+sg6
+S'images/photos/full_Tannen.jpg '
+p778
+sg8
+S"Databases | Logic | Programming Languages   Val's work is centered around data management technologies and their applications in life sciences. He and his group are currently working on models and systems for data sharing, data provenance and uncertain information. His research has been applied in genomics and bioinformatics as well as in phyloinformatics and systematic biology. Val's past work also includes research in programming languages and high-performance computing. In addition, he maintains a special interest in applications of mathematical logic to computer science."
+p779
+sg10
+g68
+sg12
+S' \tComputer and Information Science  (CIS)'
+p780
+sg14
+g68
+sg16
+S'val@cis.upenn.edu'
+p781
+sa(dp782
+g2
+S'BenTaskar'
+p783
+sg4
+S'Magerman Term Assistant Professor'
+p784
+sg6
+S'images/photos/full_Tasker.jpg '
+p785
+sg8
+S"Machine Learning | Computational Linguistics | Computer Vision   Ben's research is focused on machine learning. He is interested in the design and analysis of data-centric algorithms that enable computers to tackle intelligent tasks, from machine translation and information extraction in natural language processing to object and action recognition in computer vision.  Blending ideas from probability and statistics, discrete and continuous optimization, linguistic and perception theory, Ben's research aims to create drastically more accurate and robust systems that can sense, reason and act under real world uncertainty and ambiguity."
+p786
+sg10
+S'NSF CAREER Award - 2011, Office of Naval Research Young Investigator - 2010, Sloan Research Fellowship - 2010, DARPA Computer Science Study Group - 2009'
+p787
+sg12
+S' \tComputer and Information Science  (CIS)'
+p788
+sg14
+g68
+sg16
+S'taskar@cis.upenn.edu'
+p789
+sa(dp790
+g2
+S'Camillo J.Taylor'
+p791
+sg4
+S'Associate Professor '
+p792
+sg6
+S'images/photos/full_Taylor.jpg '
+p793
+sg8
+S"Computer Vision | Robotics | Embedded systems   CJ's research interests focus on computer vision and robotics.  His work on problems related to recovering 3-D models from 2-D images has led to commercially deployed techniques for recovering architectural models. CJ has also developed algorithms for recovering the posture of articulated figures, such as humans from photographs and video footage. His current research include work on self-localizing embedded smart camera systems and their applications to problems such as automated surveying systems, ad-hoc surveillance systems, three-dimensional reconstruction and mobile robot localization."
+p794
+sg10
+S'NSF CAREER Award - 1998, Lindback Minority Junior Faculty Award - 2001'
+p795
+sg12
+S' \tComputer and Information Science  (CIS)'
+p796
+sg14
+S'<br/>Ph.D. Electrical Engineering 1994 - Yale University <br/>  M.S. Computer Engineering 1990 - Yale University <br/>  A.B. Electrical Computer &amp; Systems Engineering 1988 - Harvard College<br/>'
+p797
+sg16
+S'cjtaylor@central.cis.upenn.edu'
+p798
+sa(dp799
+g2
+S'AndrewTsourkas'
+p800
+sg4
+S'Associate Professor '
+p801
+sg6
+S'images/photos/full_Tsourkas.jpg '
+p802
+sg8
+S"Cellular Imaging | Bioengineered Therapeutics |  Devices and Drug Delivery  Andrew's research is focused on developing nanosensors that can be used to non-invasively image molecular markers of disease in a clinical setting. These imaging agents will allow for more informed diagnoses, detect diseases at an earlier stage, and provide a mechanism to quantify therapeutic response. Andrew's research group has developed fluorescent probes for imaging RNA, bioluminescent probes for imaging apoptosis and proliferation, and magnetic nanoparticles for imaging cell surface receptor expression."
+p803
+sg10
+S'National Academies Keck Futures Initiative Award - 2011, NSF CAREER Award - 2010'
+p804
+sg12
+S' \tBioengineering (BE)'
+p805
+sg14
+S'<br/>PhD Biomedical Engineering - Georgia Tech &amp; Emory University <br/>  MS Mechanical Engineering - Johns Hopkins University <br/>  BS Mechanical Engineering - Cornell University<br/>'
+p806
+sg16
+S'atsourk@seas.upenn.edu'
+p807
+sa(dp808
+g2
+S'Lyle H.Ungar'
+p809
+sg4
+S'Associate Professor '
+p810
+sg6
+S'images/photos/full_Ungar.jpg '
+p811
+sg8
+S'Machine Learning | Bioinformatics  Lyle develops machine learning and text mining methods in order to solve problems in genomics, bioinformatics, and information extraction.  Key to his work in building scalable solutions to such problems is the development of methods that can exploit knowledge, including the link structure between documents or genes and the structure of the relational database training from which data are drawn. Lyle and his group are also developing theoretically grounded feature selection methods that scale to millions of features, and scalable clustering and regression algorithms.'
+p812
+sg10
+S'NSF Presidential Young Investigator Award'
+p813
+sg12
+S' \tComputer and Information Science  (CIS)'
+p814
+sg14
+S'<br/>PhD 1984 - Massachusetts Institute of Technology <br/>  BS 1979 - Stanford University <br/>'
+p815
+sg16
+S'ungar@cis.upenn.edu'
+p816
+sa(dp817
+g2
+S'Jan Van der Spiegel'
+p818
+sg4
+S'Professor'
+p819
+sg6
+S'images/photos/full_Van_Der_Speigel.jpg '
+p820
+sg8
+S'Microelectonics | VLSI | Sensors   Jan is exploring top-down nanotechnology in order to design intelligent sensors and sensory processing systems.  He is primarily engaged in researching analog and digital integrated circuits for intelligent sensors, data acquisition, and sensory data processing systems, and has done considerable work on image sensors that are modeled after the biological vision system.  Jan is currently focused on sensors for polarization imaging by combining micro/nano polarizer arrays with CMOS imager technology.'
+p821
+sg10
+S'IEEE Fellow,  EAB Major Educational Innovation Award - 2007, IEEE Third Millennium Medal, Christian and Mary Lindback Foundation Award, S. Reid Warren Award for Distinguished Teaching, NSF Presidential Young Investigator Award'
+p822
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p823
+sg14
+S'<br/>PhD Electrical Engineering 1979 - University of Leuven in Belgium <br/>  ME Electro-Mechanics 1974 - University of Leuven in Belgium <br/>  Candidate in Engineering 1971 - University of Leuven in Belgium<br/>'
+p824
+sg16
+S'jan@ee.upenn.edu'
+p825
+sa(dp826
+g2
+S'Santosh S.Venkatesh'
+p827
+sg4
+S'Associate Professor '
+p828
+sg6
+S'images/photos/full_Venkatesh.jpg '
+p829
+sg8
+S'Information Theory | Machine Learning | Neural Computation   Santosh is interested in probabilistic methods applied to fundamental problems in information, communication, and security.  Using tools from large deviation theory and combinatorial graph theory, he has investigated foundational questions in statistical pattern recognition, computational learning, communication efficacy, and neural computation.  Santosh is currently working on problems in wireless network connectivity, defenses against denial of service attacks on computer infrastructure, and information measures in genomics.'
+p830
+sg10
+S'Lindback Award for Distinguished Teaching - 2004'
+p831
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p832
+sg14
+g68
+sg16
+S'venkates@ee.upenn.edu'
+p833
+sa(dp834
+g2
+S'Vaclav Vitek'
+p835
+sg4
+S'Professor '
+p836
+sg6
+S'images/photos/full_Vitek.jpg '
+p837
+sg8
+S"Mechanics of Materials | Nanostructured Materials | Material Interfaces   The thrust of Vasek's research is multiscale modeling of deformation and fracture behavior of materials that links electronic, atomic, nano, and macroscopic scales.  He works principally on the atomic level, which includes development of interatomic potentials that reflect both metallic and covalent aspects of bonding, as well as properties such as ferromagnetism.  This modeling involves atomistic studies of dislocations and their glide modes, structure and properties of interfaces, and interactions of these extended defects with other crystal defects."
+p838
+sg10
+S'Progress in Materials Science Festschrift - 2011, Honorary Member of the Japan Institute of Metals - 2010, Elected to the National Academy of Engineering - 2006, Alexander von Humboldt Senior Scientist Award - 1992, Acta Metallurgica Gold Medal - 1996, Elected Fellow of the Minerals, Metals and Materials Society - 1999, Ernst Mach Medal in Physical Sciences awarded by the Czech Academy of Sciences - 1999, Honorary Doctorate of the Technical University of Brno, Czech Republic - 1999'
+p839
+sg12
+S' \tMaterials Science and Engineering (MSE) <br/> Mechanical Engineering and Applied Mechanics (MEAM)'
+p840
+sg14
+S'<br/>PhD Physics 1966 - Czechoslovak Academy of Sciences <br/>  BS Physics 1962 - Charles University in Prague<br/>'
+p841
+sg16
+S'vitek@lrsm.upenn.edu'
+p842
+sa(dp843
+g2
+S'John M.Vohs'
+p844
+sg4
+S'Carl V. S. Patterson Professor '
+p845
+sg6
+S'images/photos/full_Vohs.jpg '
+p846
+sg8
+S'Fuel Cells | Energy  John concentrates his research on understanding the relationships between the local atomic structure of surfaces and their chemical reactivity.  He and his group are developing molecular level descriptions of these important surface phenomena, and using insights obtained in fundamental studies of model systems to design nanoscale materials that have reactivities tailored for applications ranging from selective oxidation catalysis to electrodes for solid oxide fuel cells and other electrochemical devices.'
+p847
+sg10
+S'Catalysis Club of Philadelphia Award - 2007, Union Carbide Research Innovation Award - 1997, Shell Young Faculty Development Award - 1991, American Chemical Society Victor K. LaMer Award - 1989, NSF Presidential Young Investigator Award - 1989, NATO Postdoctoral Fellowship - 1988'
+p848
+sg12
+S' \tChemical and Biomolecular Engineering (CBE)'
+p849
+sg14
+S'<br/>PhD Chemical Engineering 1988 - University of Delaware <br/>  BS Chemical Engineering 1983 - University of Illinois<br/>'
+p850
+sg16
+S'vohs@seas.upenn.edu'
+p851
+sa(dp852
+g2
+S'Vukan R.Vuchic'
+p853
+sg4
+S'UPS Foundation Professor of Transportation Engineering'
+p854
+sg6
+S'images/photos/a_full_Vuchic.jpg '
+p855
+sg8
+S"Transportation Systems  Vukan's research interests are in the area of transportation systems, especially with regard to urban transportation. In his research, he examines: urban transportation systems technology, operations, planning and economics; the definitions of transportation systems components and their modeling; and the interrelationship of cities and transportation with respect to urban planning, livability and sustainability. He has questioned the role of Maglev technology for high-speed ground transportation (HSGT) and further challenged the USDOT selection of demonstration projects."
+p856
+sg10
+S'National Association of Railroad Passengers Academic Award - 2011, Honoris causa from the Conservatoire National des Arts et Metiers - 2011, Appointed Professor Extraordinary in Civil Engineering by the University of Stellenbosch in South Africa - 2005'
+p857
+sg12
+S' \tElectrical and Systems Engineering (ESE)'
+p858
+sg14
+S'<br/>PhD 1966 - University of California at Berkeley <br/>  ME 1965 - University of California at Berkeley <br/>  Dipl. Ing. 1960 - University of Belgrade  <br/>'
+p859
+sg16
+S'vuchic@seas.upenn.edu'
+p860
+sa(dp861
+g2
+S'StephanieWeirich'
+p862
+sg4
+S'Associate Professor'
+p863
+sg6
+S'images/photos/full_Weirich.jpg '
+p864
+sg8
+S"Programming Languages | logic  The goal of Stephanie's research is to enhance the reliability, maintainability, and security of software systems through statically-typed programming languages.  Her research explores novel methods to bring more expressive type systems to users.  Stephanie works to reconcile the features of expressive-but-theoretical type systems with existing languages, while partially automating the process of type system design to improve confidence in the soundness of more complicated type systems.  Stephanie is also engaged in incorporating programming logics into the design of practical type systems so that application-specific properties may be expressed."
+p865
+sg10
+S'NSF CAREER Award - 2004'
+p866
+sg12
+S' \tComputer and Information Science  (CIS)'
+p867
+sg14
+S'<br/>PhD Computer Science 2002 - Cornell University <br/>  MS Computer Science 2002 - Cornell University <br/>  BA Computer Science 1966 - Rice University<br/>'
+p868
+sg16
+S'sweirich@cis.upenn.edu'
+p869
+sa(dp870
+g2
+S'Karen I.Winey'
+p871
+sg4
+S'Professor'
+p872
+sg6
+S'images/photos/full_Winey.jpg '
+p873
+sg8
+S"Polymers | Chemistry of Materials | Mechanics of Materials   Karen's group designs and fabricates polymer nanocomposites containing carbon nanotubes and metal nanowires with the aim of understanding how to improve their mechanical, thermal, and especially electrical properties.  More recently Karen has expanded her work to include simulations of electrical conductivity and polymer dynamics in the presence of nanoparticles.  Karen pioneered the use of HAADF STEM to probe the nanoscale morphology in ion-containing polymers.  Now, her group focuses on correlating the structures in these materials, including block copolymers, with transport properties. "
+p874
+sg10
+S'Fellow - American Physical Society - 2004, NSF  Special Creativity Award, American Physical Society Fellow - 2003, Cosslett Award for Best Invited Paper Microscopy Society and Microanalysis - 2000, NSF Young Investigator Award - 1994'
+p875
+sg12
+S' \tMaterials Science and Engineering (MSE) <br/> Chemical and Biomolecular  Engineering (CBE)'
+p876
+sg14
+S'<br/>PhD Polymer Science &amp; Engineering 1991 - University of Massachusetts <br/>  MS Polymer Science &amp; Engineering 1989 - University of Massachusetts <br/>  BS Materials Science &amp; Engineering 1985 - Cornell University <br/>'
+p877
+sg16
+S'winey@seas.upenn.edu'
+p878
+sa(dp879
+g2
+S'Beth A.Winkelstein'
+p880
+sg4
+S'Professor'
+p881
+sg6
+S'images/photos/a_full_winkelstein.jpg '
+p882
+sg8
+S"Biomechanics | Neuroengineering | Orthopaedic Bioengineering   The broad goal of Beth's research is to understand the mechanisms of injury that produce whiplash, sports-related, and other painful injuries. By combining biomechanical and immunological techniques, her lab can define the relationships between injury to the cervical spine/neck and physiological cascades of persistent pain. Particular emphasis is placed on understanding injury to individual structures in the neck, such as the facet joints, nerve roots and spinal cord and how mechanical loading to these structures elicits pain. Through this work she can begin to develop thresholds for mechanical injury that produce persistent pain; and work towards a definition of the neck's tolerance for painful injury. Additional research efforts are aimed at understanding the role of biomechanics in the neuroimmunologic changes of the central nervous system that contribute to persistent pain. Applications of her current work are in the areas of automotive and whiplash-related injury and sports injuries and have implications for design efforts in automobiles that are aimed at preventing whiplash injuries."
+p883
+sg10
+S'ASME YC Fung Award - 2006, NSF CAREER Award - 2006, Ford Motor Company Award for Outstanding Faculty Advising - 2006'
+p884
+sg12
+S' \tBioengineering (BE)'
+p885
+sg14
+S'<br/>PhD Biomedical Engineering 1999 - Duke University <br/>  BSE Bioengineering 1993 - University of Pennsylvania<br/>'
+p886
+sg16
+S'winkelst@seas.upenn.edu'
+p887
+sa(dp888
+g2
+S'ShuYang'
+p889
+sg4
+S'Associate Professor'
+p890
+sg6
+S'images/photos/full_Yang.jpg '
+p891
+sg8
+S'Biomaterials | Polymers | Nanostructured materials   Shu is interested in developing new methodologies for the controlled synthesis, fabrication and characterization of materials with specific and unique structures and functionalities inspired by biology. Special interests include preparation of functional (co)polymers and investigation of their self-assembled nanostructures; understanding the self-organization process at surfaces and interfaces; development of novel responsive materials and non-conventional approaches for nano- and micropatterning of complex 2-D and 3-D structures; controlling wetting, adhesion and biofouling on polymer thin films.'
+p892
+sg10
+S"NSF CAREER Award - 2006, World's 100 Top Young Innovators by Technology Review - 2004, Unilever Award in Polymer Science and Engineering from American Chemical Society - 2001, ICI Award in Applied Polymer Science from American Chemical Society - 1999"
+p893
+sg12
+S' \tMaterials Science and Engineering (MSE) <br/> Chemical and Biomolecular Engineering (CBE)'
+p894
+sg14
+S'<br/>PhD Chemistry &amp; Chemical Biology 1999 - Cornell University <br/>  MS Chemistry &amp; Chemical Biology 1997 - Cornell University <br/>  BS Materials Science 1992 - Fudan University in China<br/>'
+p895
+sg16
+S'shuyang@seas.upenn.edu'
+p896
+sa(dp897
+g2
+S'MarkYim'
+p898
+sg4
+S'Professor '
+p899
+sg6
+S'images/photos/full_Yim.jpg '
+p900
+sg8
+S"Robotics | Mechanical Systems | Mechanical Design   Mark's research interests began with modular robots that are made up of identical active components that can be arranged to form many different configurations, ranging from a snake robot to a humanoid to a 17 legged centipede. These systems can also self-reconfigure, changing the robot's shape to suit the task. In addition to self-reconfiguring and self-assembling robots, Mark has also started work on flying robots, and task specification, working to figure out how to specify a task so that a robot configuration can optimally satisfy that task."
+p901
+sg10
+S'Christian R. and Mary F. Lindback Award for Distinguished Teaching - 2009'
+p902
+sg12
+S' \tMechanical Engineering and Applied Mechanics (MEAM)'
+p903
+sg14
+S'<br/>PhD Mechanical Engineering 1994 - Stanford University <br/>  MS Mechanical Engineering 1989 - Stanford University <br/>  BS Engineering Mechanics 1987 - Johns Hopkins University<br/>'
+p904
+sg16
+S'yim@grasp.upenn.edu'
+p905
+sa(dp906
+g2
+S'Stephan A.Zdancewic'
+p907
+sg4
+S'Associate Professor '
+p908
+sg6
+S'images/photos/full_Zdancewek.jpg '
+p909
+sg8
+S"Programming Languages | Security  Steve's research focuses on the problem of building software that is reliable, robust, and secure by construction. He draws on techniques from type theory, logic, and formal methods to develop programming languages that enforce strong information-flow and authorization policies in dynamic, distributed environments. His recent projects have developed techniques for incorporating robust declassification, dynamic principals, and cryptographic enforcement of authorization policies into a security-oriented language called AURA. Steve is also interested in machine-checked theorem proving, concurrent programming, and functional languages."
+p910
+sg10
+S'Sloan Research Fellowship - 2009, NSF CAREER Award - 2004'
+p911
+sg12
+S' \tComputer and Information Science  (CIS)'
+p912
+sg14
+S'<br/>PhD Computer Science 2002 - Cornell University <br/>  MS Computer Science 2000 - Cornell University <br/>  BS Computer Science &amp; Mathematics 1996 - Carnegie Mellon University<br/>'
+p913
+sg16
+S'stevez@cis.upenn.edu'
+p914
+sa.
