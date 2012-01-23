@@ -33,6 +33,7 @@ for prof in prof_profiles:
     bio = ""
     summary = ""
     interests =""
+    image =""
     g=util.dl_and_prep(prof)
     if len(re.findall("\[firstname\] => (.*?)\s",g))>0:
         first_name = re.findall("\[firstname\] => (.*?)\s",g)[0] 
@@ -48,6 +49,8 @@ for prof in prof_profiles:
         summary = re.findall("\[summary\] => (.*?)\n\s*\[",g)[0] 
     if len(re.findall("\[interests\] => (.*?)\n\s*\[",g))>0:
         interests = re.findall("\[interests\] => (.*?)\n\s*\[",g)[0] 
+    if len(re.findall("class=rightColumn>.*?<img src=\"(.*?)\"",g))>0:
+        image = re.findall("class=rightColumn>.*?<img src=\"(.*?)\"",g)[0]
     #research = re.findall("\[fresearch\] => (.*?)\n\s*\[",g)[0] if len()>0]
     name = first_name + " " +last_name
     brown_prof_dict ={}
@@ -57,6 +60,7 @@ for prof in prof_profiles:
     brown_prof_dict["interests"] = interests
     brown_prof_dict["bio"] = bio
     brown_prof_dict["summary"] = summary
+    brown_prof_dict["image"] = image
     print brown_prof_dict
     brown_profs.append(brown_prof_dict)
     
