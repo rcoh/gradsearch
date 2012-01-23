@@ -50,7 +50,7 @@ for prof in prof_profiles:
     if len(re.findall("\[interests\] => (.*?)\n\s*\[",g))>0:
         interests = re.findall("\[interests\] => (.*?)\n\s*\[",g)[0] 
     if len(re.findall("class=rightColumn>.*?<img src=\"(.*?)\"",g))>0:
-        image = re.findall("class=rightColumn>.*?<img src=\"(.*?)\"",g)[0]
+        image = "http://research.brown.edu" + re.findall("class=rightColumn>.*?<img src=\"(.*?)\"",g)[0]
     #research = re.findall("\[fresearch\] => (.*?)\n\s*\[",g)[0] if len()>0]
     name = first_name + " " +last_name
     brown_prof_dict ={}
