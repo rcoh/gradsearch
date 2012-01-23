@@ -22,6 +22,7 @@ def dl_and_prep(url):
   if doc == '':
     os.remove(cache_loc)
     return dl_and_prep(url)
+  doc = html_escape(doc) #fixes some common html issues
   return re.sub('>(\s*?)<', '><', doc)
 
 def remove_tags(string):
@@ -75,10 +76,35 @@ def clean_results(split):
       ret.append(word)
   return ret
 
+def validate_professor(pd):
+  assert pd['name']
+  assert pd['school']
+  assert pd['department']
+  #strip everything
+  for k in pd:
+    if isinstance(pd[k], str):
+      pd[k] = pd[k].strip()
+
+  #make the departments nice
+  pd['department'] = prep_department(pd['department'])
+
+
+
+
+
+def prep_department(department):
+  result = department.replace('and', '&').replace('&amp;', '&').replace(', &', ' &')
+  result = result.replace('Graduate School of', '').replace('School of', '').replace('Department of', '')
+  result = result.strip()
+  assert not ', &' in result
+  return result
+
 def html_escape(content):
   content = content.replace('\x92', '&#146;')
   content = content.replace('\x93', '&#147;')
   content = content.replace('\x94', '&#148;')
+  content = content.replace('\xE8', '&#232;')
+  content = content.replace('\xE9', '&#233;')
   return content
 
 def split_and_clean(words, delim):
