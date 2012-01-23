@@ -135,6 +135,16 @@ body{
 	padding:7px 10px 0px 10px;
 }
 
+.about_page p{
+	font-size:14px;
+	line-height:1.4em;
+}
+
+.about_page li{
+	font-size:14px;
+	color: #555555;
+}
+
 .gold_star {
   float:right;
   height: 19px;
