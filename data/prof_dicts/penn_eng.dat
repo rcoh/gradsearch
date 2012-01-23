@@ -10,7 +10,7 @@ S'Zisman Family Professor'
 p5
 sS'image'
 p6
-S'images/photos/full_Alur.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Alur.jpg '
 p7
 sS'research'
 p8
@@ -40,7 +40,7 @@ sg4
 S'Assistant Professor '
 p20
 sg6
-S'images/photos/full_Arratia.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Arratia.jpg '
 p21
 sg8
 S'Biomechanics | Fluid Mechanics | Mechanics of Materials   Paulo studies the behavior of complex fluids including polymeric solutions, colloidal suspensions, and blood flowing in micro- and nanofluidic devices. Such devices have the potential to produce and process small amounts of fluids with efficiency and speed, which can be used for rheology and production of nanoparticles. His research group also studies the interaction between the fluid and device length scales, which can give rise to a number of poorly understood phenomena, including changes in effective viscosity and slip effects.'
@@ -65,7 +65,7 @@ sg4
 S'Asa Whitney Professor of Dynamical Engineering'
 p29
 sg6
-S'images/photos/a_full_Ayyaswamy.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Ayyaswamy.jpg '
 p30
 sg8
 S"Biomechanics | Computational Mechanics | Fluid Mechanics   Ayyaswamy's research is in the area of mechanical engineering, with foci in modeling, simulations and experimentation of multi-phase flow/heat and mass transfer. In the area of interconnection of electronic chips by wire bonding, he has been investigating the melting of metals and alloys by plasma arc-discharges and subsequent solidification. In the area of die-bonding, he has established new results for the squeezing flow of yield stress fluids. In the area of microgravity fluid mechanics, mass transfer, and biotechnology, his lab has worked to determine the mechanisms responsible for changes in osteoblast behavior under simulated microgravity conditions by employing experimental and numerical-analytical methods. In the area of convective heat and mass transfer in the presence of a phase-change, Portonovo has investigated forced convection effects on condensation, evaporation and combustion to study transport associated with moving drops and bubbles. He is also exploring the effect of electric fields on flames under normal and microgravity conditions.  His recent work is related to finite bubbles/particle motion in the context of gas embolism and targeted drug delivery."
@@ -90,7 +90,7 @@ sg4
 S'Professor '
 p38
 sg6
-S'images/photos/full_Badler.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Badler.jpg '
 p39
 sg8
 S"Computer Graphics | Computer Animation  As director of the Center for Human Modeling and Simulation, Norm investigates computer graphics and artificial intelligence techniques and applications for embodied agents, virtual humans, and human-computer interaction. His major research directions include developing behavior-based animation of human movement for individuals and groups, constructing a parameterized action representation for real-time simulation and animation, and studying the relationship among human movement, natural language, and communication. Norm's crowd and populace simulation research incorporates environmental context and animates actors with roles and stochastic, scheduled, reactive, and opportunistic behaviors."
@@ -115,7 +115,7 @@ sg4
 S'Richard H. and S. L. Gabel Professor'
 p47
 sg6
-S'images/photos/full_Bassani.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Bassani.jpg '
 p48
 sg8
 S'Biomechanics | Computational Mechanics | Mechanics of Materials   John applies his expertise in atomic-level properties of continuum mechanics in order to model mechanical and mechano-chemical behavior of nano-structured materials.  His research group explores concepts to control the formation of patterned nanostructures in the solid state and investigates the interplay between mechanics and adhesion, with applications to MEMS/NEMS devices and living cells.\xc3\x82\xc2\xa0 John has developed models for elastic and inelastic behavior, and failure at the nanoscale, including interfaces and other complex defects in crystalline materials and thin films.'
@@ -140,7 +140,7 @@ sg4
 S'Professor'
 p56
 sg6
-S'images/photos/full_Bau.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Bau.jpg '
 p57
 sg8
 S"Computational Mechanics | Fluid Mechanics | Mechanics of Materials   Haim's current research interests are in nano- and macro-fluidics, with applications in biology and medicine. His lab has developed means for the directed positioning of individual molecules, and the study of their mechanical and electrical properties.  They have also developed methods to transport liquids and particles through nanopipes.  They are working on carbon nanopipe-based devices for cell surgery, and are constructing laboratories on chips for disease detection at the point of care."
@@ -165,7 +165,7 @@ sg4
 S'Associate Professor'
 p65
 sg6
-S'images/photos/full_Blaze.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Blaze.jpg '
 p66
 sg8
 S"Computer Security | Distributed Systems  Matt's research focuses on cryptography and its applications, trust management, human scale security, secure systems design, and networking and distributed computing. He is particularly interested in security technology with bearing on public policy issues, including cryptography policy (key escrow), wiretapping and surveillance, and the security of electronic voting systems."
@@ -190,7 +190,7 @@ sg4
 S'Professor'
 p74
 sg6
-S'images/photos/a_full_Bogen.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Bogen.jpg '
 p75
 sg8
 S"Rehabilitation Engineering | Medical Devices | Engineering Design   Dan's primary research interest is in pediatric rehabilitation engineering; specifically the development of new technology to diagnose and treat disabled children. He is especially interested in cognitive rehabilitation of children with brain injury and other neurological or cognitive disorders. This work involves the development of new kinds of pediatric user-interfaces to biomedical devices interfaces which are appealing to children, and which allow the children to operate diagnostic and therapeutic instruments."
@@ -214,7 +214,7 @@ sg4
 S'Trustees Chair Professor'
 p82
 sg6
-S'images/photos/full_Bonnell.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Bonnell.jpg '
 p83
 sg8
 S'Biomaterials | Material Interfaces | Scanning Probe Microscopy   Dawn explores the fundamental basis of property variations at atomic scales in complex materials, exploiting these variations to make functional systems.  The Bonnell Group images and manipulates atoms and molecules using scanning probes, and develops new tools for examining behavior at these scales.  Dawn and her group induce local property variations to be used as templates in patterning complex nanostructures, such as nanoelectronic and opto electronic devices, and they analyze compound nanostructures, consisting of ferroelectric compounds, synthetic proteins, and nano dots.'
@@ -239,7 +239,7 @@ sg4
 S'Alfred Fitler Moore Professor of Engineering'
 p91
 sg6
-S'images/photos/a_full_Bordogna.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Bordogna.jpg '
 p92
 sg8
 S"Optoelectronics | Engineering Policy  Joe's research interests include optoelectronics, manufacturing systems, environmental technologies, management of technological innovation, educational innovation and federal science and engineering policy.  He has made contributions to the engineering profession in a variety of areas including early laser communications systems, electro-optic recording materials, holographic television playback systems, and early space capsule recovery. He was a past Deputy Director and Chief Operating Officer of the National Science Foundation and served previously as head of NSF's Directorate for Engineering. As well as his assignment at NSF, his career includes experience as a line officer in the U.S. Navy, a practicing engineer in industry, and a professor."
@@ -264,7 +264,7 @@ sg4
 S'Professor'
 p100
 sg6
-S'images/photos/a_full_Buchsbaum.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Buchsbaum.jpg '
 p101
 sg8
 S"Neuroengineering | Imaging | Signal Processing   Gershon's research interests are in the neural architecture of the visual system with its unique and elaborate response properties in space, time and color, which provide us with all the features and richness of our visual world. The main goals of his lab's research are to understand how the visual neural architecture is matched to the image and how it samples, codes and processes the different features of the image; and to identify the attributes of natural images that are most critical for coding in the visual system. Questions his research asks are: What are the significant correlations and functional relations among the different image features? How do critical parameters such as contrast in time, space and color and local and global details affect visual image processing? How does visual processing match and adapt to dynamic changes in the image? How does the visual system extract image features such as spatial detail and color? To investigate these questions, they apply quantitative analysis and simulation methods from image processing and neural networks that are rigorously based on known anatomy and physiology and explore the design principles and strategy underlying the visual system neural architecture."
@@ -289,7 +289,7 @@ sg4
 S'Associate Professor'
 p109
 sg6
-S'images/photos/a_full_Burdick.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Burdick.jpg '
 p110
 sg8
 S"Tissue Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | Biomaterials   Jason's research interests include developing degradable polymeric biomaterials that can be used for tissue engineering, drug delivery, and fundamental polymer studies.  The platform polymer technology involves the development of multifunctional monomers that form degradable crosslinked networks via a radical polymerization.  Specific targets of his research include: scaffolding for cell and growth factor delivery in bone and cartilage regeneration; controlling stem cell differentiation and growth factor delivery; and investigating the influence of monomer structure on resulting network macroscopic and microscopic properties."
@@ -314,7 +314,7 @@ sg4
 S'Professor'
 p118
 sg6
-S'images/photos/full_Carpick.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Carpick.jpg '
 p119
 sg8
 S'Mechanics of Materials  Rob conducts his research at the intersection of mechanics, materials, and physics. He is an expert in experimental nanomechanics and nanotribology (friction, adhesion, and wear). His lab has developed novel advanced scanning probe microscopy tools, used to investigate the fundamental nature of materials in contact. Rob has done seminal work on nanoscale characterization of friction for many important materials, including ultra-thin organic films, solid single crystal and thin film surfaces including ultra-strong carbon-based materials, and polymeric materials.'
@@ -339,7 +339,7 @@ sg4
 S'Professor of Practice'
 p127
 sg6
-S'images/photos/a_full_Cassel.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Cassel.jpg '
 p128
 sg8
 S"Engineering Entrepreneurship | Engineering Economics  Tom's research interests are in the area of technology entrepreneurship.  He is the Director of Penn's Engineering Entrepreneurship Program, which he initiated in 1999 following a 20-year career of entrepreneurial business leadership. He received a full professorship appointment in 2002.  Prior to joining Penn's faculty, Tom was the co-founder and CEO of Reading Energy Holdings, Inc., a pioneer in the independent electric power industry. Under Tom's leadership, the company developed large-scale, waste-fueled power plants using cutting-edge combustion and environmental technologies.  By the mid-1990's, the company had developed, owned and operated advanced power facilities having capital costs exceeding $600 million.  Tom and his fellow management shareholders eventually sold their power plant assets to multinational corporations."
@@ -364,7 +364,7 @@ sg4
 S'Peter &amp; Geri Skirkanich Professor of Innovation'
 p136
 sg6
-S'images/photos/full_Chen_IW.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Chen_IW.jpg '
 p137
 sg8
 S"Ceramics | Polymers | Electronic Materials   Chen's interests span several aspects of nanomaterial research. He investigates magnetic and fluorescent smart colloids for molecular imaging, primarily MRI; nanograin ceramics, which deals with multilayer ceramic capacitor (MLCC), specifically sintering and dielectric/ferroelectric properties of barium titanate; and thin film nanometallic electronic devices for resistance random access memory (RRAM). Chen is also studying energy materials, such as zirconia, thermoelectrics and transparent electrodes. "
@@ -389,7 +389,7 @@ sg4
 S'Skirkanich Professor of Innovation'
 p145
 sg6
-S'images/photos/full_Chen_C.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Chen_C.jpg '
 p146
 sg8
 S"Cellular Engineering | Cell Mechanics | Tissue Engineering   Chris's research interests include the application of microfabrication and nanotechnology to cell and tissue engineering, and regenerative medicine. His lab has developed approaches to control the nanoscale adhesive interactions between cells and their surrounding scaffolds, and uses them to control cell function. Chris is particularly engaged in understanding how to engineer stem cell function and tissue vascularization, and the relationship between tissue architecture and tissue function."
@@ -413,7 +413,7 @@ sg4
 S'Professor'
 p153
 sg6
-S'images/photos/full_Composto.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Composto.jpg '
 p154
 sg8
 S"Polymers | Material Interfaces | Biomaterials   Russ is involved in polymer science and biomolecular engineering research.  His interests extend to polymer surfaces and interfaces, adhesion and diffusion, and nanocomposite polymer blend and copolymer films.   Russ's biomaterials work centers around manipulating the surface of polymers to elicit control over protein adsorption, as well as cell adhesion, orientation, and function, and he has an active research program at the interface of polymer science and biomolecular engineering, which combines block copolymer self-assemble as a basis for orienting stiff biological molecules."
@@ -437,7 +437,7 @@ sg4
 S'Associate Professor'
 p161
 sg6
-S'images/photos/full_Crocker.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Crocker.jpg '
 p162
 sg8
 S"Surface and Colloidal Science | Transport Processes | Molecular Simulation   John's research concerns the mechanical properties of small objects, ranging from single molecules to living cells. His nanotechnology work is centered on self-assembly, growing useful devices and structures from smaller parts in a biology-inspired, organic fashion. John uses DNA as a programmable adhesive, directing microscopic parts to spontaneously form a crystal-like ordered pattern. His lab has pioneered new methods for quantifying the mechanical response of both single molecules and cells to small forces."
@@ -462,7 +462,7 @@ sg4
 S'Professor'
 p170
 sg6
-S'images/photos/full_Dandillidis.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Dandillidis.jpg '
 p171
 sg8
 S"Computer Vision | Robotics  Kostas' research interests are in computer vision and robotic perception.  His research addresses challenges in the perception of motion and space, such as the geometric design of cameras, and the interplay of geometry and appearance in perception tasks.  Kostas's research gives solutions to perceptual tasks such as panoramic vision, localization, perception of self-motion, large-scale mapping, visual location recognition, 3-D object recognition, and vision-based flocking. Applications of his research involve robot navigation, tele-immersion, and image and shape retrieval."
@@ -486,7 +486,7 @@ sg4
 S'Weiss Professor and Chair'
 p178
 sg6
-S'images/photos/full_Davidson.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Davidson.jpg '
 p179
 sg8
 S"Databases  Susan's work lies in fundamental computer science as it is applied to biomedicine. Her research interests center around information modeling and management, database systems, distributed systems, and bioinformatics.  Within bioinformatics, Susan's group focuses on models and systems for data integration and exchange, representation and  management of incomplete and semi-structured information, provenance tracking and management, and scientific workflows.  Susan has also been instrumental in establishing degree programs in bioinformatics and computational biology at the undergraduate, master's, and doctoral levels."
@@ -511,7 +511,7 @@ sg4
 S'Professor and Chair'
 p187
 sg6
-S'images/photos/full_Davies.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Davies.jpg '
 p188
 sg8
 S"Electronic Materials | Ceramics | Nanostructured Materials   Peter's principal research interests lie in the design and nano-level structure characterization of functional inorganic solids.  He is an expert in the synthesis, crystal chemistry, and properties of electronic ceramic materials, and has published seminal papers on the influence of nanoscale atomic ordering on the properties of ceramic resonators used in wireless communications.  Peter has also engineered new high response ferroelectric and piezoelectric materials. In his most recent work, Peter discovered the first family of inorganic materials that self assemble into periodic, phase-separated, nano-checkerboard structures."
@@ -536,7 +536,7 @@ sg4
 S'Associate Professor'
 p196
 sg6
-S'images/photos/full_De_Hon.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_De_Hon.jpg '
 p197
 sg8
 S"Architecture and Compilers | Spatial Computing | Microelectronics   Andre's nano-research strives to answer questions of how to build computing systems at the atomic scale, where device assembly is imperfect, and device operation is statistical in nature. Andre is concerned with effective nanoscale design, which requires a rethinking of computer organization, including conventional abstraction layers. In his work, Andre and his colleagues explore how to harness emerging nanoscale building blocks, such as nanowires, CNTs, and molecules for computation, and how to address the physical challenges they present, including high defect and fault rates, parameter variation, lifetime variability, and statistical assembly."
@@ -559,7 +559,7 @@ sg4
 S'Arthur E. Humphrey Professor'
 p203
 sg6
-S'images/photos/full_Diamond.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Diamond.jpg '
 p204
 sg8
 S"Biomolecular Engineering | Transport Processes | System Biology   Scott's research involves gene therapy, blood systems biology and protease proteomics, microfluidics and biorheology, endothelial mechanobiology, and high throughput screening.  The Diamond lab has pioneered the use of nonclassical nuclear localization sequences and cationic steroids for nonviral DNA delivery, printed chemical microarrays for high throughput screening, and stochastic simulation for blood systems biology.  Scott is the founding director of the Penn Center for Molecular Discovery, a multi-disciplinary center designed to discover new biologically useful agents."
@@ -584,7 +584,7 @@ sg4
 S'Robert D. Bent Professor'
 p212
 sg6
-S'images/photos/full_Discher.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Discher.jpg '
 p213
 sg8
 S"Cellular Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | Cell Mechanics   Dennis' research efforts in the nano/bio realm range from stem cell-matrix interactions and high-accuracy proteomics to polymer-based nano-delivery of drugs. His lab pioneered studies of stem cell differentiation due to matrix elasticity and Mass Spectrometry approaches to folding at the proteomic scale. His lab has also developed novel degradable cylinders known as filomicelles as well as degradable polymersomes that shrink tumors and treat genetic diseases. "
@@ -609,7 +609,7 @@ sg4
 S'Professor'
 p221
 sg6
-S'images/photos/a_full_Ducheyne.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Ducheyne.jpg '
 p222
 sg8
 S"Tissue Engineering | Biomaterials | Bioengineered Therapeutics |  Devices and Drug Delivery   Paul's research is focused in the investigation of mechanistic effects of materials on cellular functions, specifically cell attachment, proliferation, differentiation and extracellular matrix formation, especially with respect to biomaterials and tissue engineering.  His lab works extensively with the interface zone between materials and cells and tissues, using both materials science techniques as well as life science methods. In addition, studies focus on the combined effects of microgravity and substrate material on cellular functions and on material surface modification and controlled release of growth factors. Several tissue engineering applications are pursued with orthopedic and dental applications. Specifically, his laboratory studies whether bone defects can be repaired with full return of mechanical function by treating defects with in vitro synthesized bone tissue."
@@ -633,7 +633,7 @@ sg4
 S'H. Nedwill Ramsey Professor'
 p229
 sg6
-S'images/photos/full_Engheta.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Engheta.jpg '
 p230
 sg8
 S"Optics | Electromagnetics | Imaging   Nader's research interests span the fields of nanooptics and nanophotonics, metamaterials and plasmonics, and optical nanostructure modeling, including nanoantennas, nanocircuits, and nanosystems.  Nader is also investigating bio-inspired sensing and imaging, as well as physics and reverse-engineering of polarization vision in nature.  He and his group have been developing the concept of optical lumped nanocircuits based on material nanostructures, with the goal of opening the possibility of nanoelectronics with light."
@@ -658,7 +658,7 @@ sg4
 S'Professor'
 p238
 sg6
-S'images/photos/full_Farhat.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Farhat.jpg '
 p239
 sg8
 S"Neuroengineering | Neural Network  Nabil's interdisciplinary research interests are in corticonics (echoing electronics), where he combines known features of cortical organizations with concepts and tools from nonlinear dynamics, chaos, and information theory.  Nabil works to decipher and model the complex way in which the cortex interacts with subcortical structures to produce the mechanisms that underlie higher-order brain function.  The result, a testable macroscopic brain theory, is being used by Nabil and his students in the PennBrain project that offers distinct computational and hardware advantages over other similar endeavors."
@@ -683,7 +683,7 @@ sg4
 S'Professor'
 p247
 sg6
-S'images/photos/a_full_Foster.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Foster.jpg '
 p248
 sg8
 S"Biomedical applications | Electromagnetics | Safety   Ken's research interests relate to biomedical applications of nonionizing radiation from audio through microwave frequency ranges, and health and safety aspects of electromagnetic fields as they interact with the body. For example, Ken examines the prospects of workers in electrical occupations and the possibility (or lack of) cancer risk. Another and somewhat broader topic of interest is technological risk, and impact of technology (principally, electrotechnologies) on humans. His goal in this area is to examine technology, putting into perspective its relative risks and benefits to society. What he hopes to impart is a better perception of the social use of science."
@@ -707,7 +707,7 @@ sg4
 S'Professor'
 p255
 sg6
-S'images/photos/full_Gallier.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Gallier.jpg '
 p256
 sg8
 S'Computational Geometry | Logic  Jean is interested in the application of geometric methods to problems in engineering. In particular, he is investigating methods for smooth surface reconstruction from 3D meshes.  He is also interested in methods for statistical analysis in medical imaging, and focuses on diffusion tensor imaging.  In his work to resolve the difficulties of the non-Euclidean domain of these images, Jean applies Riemannian geometry as a framework for problem solving.'
@@ -732,7 +732,7 @@ sg4
 S'Andrea Mitchell University Professor and Professor'
 p264
 sg6
-S'images/photos/full_Ghrist Robert.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Ghrist Robert.jpg '
 p265
 sg8
 S"Topology | Robotics | Sensor networks   Rob's work focuses on those methods in applied mathematics and engineering which are global or topological in nature. Such methods have the feature of being very robust topological results are tolerant of the inherent in systems and are therefore both elegant and effective in engineering. Specific application foci include sensor and communication networks, multi-agent robotics, and dynamical systems."
@@ -757,7 +757,7 @@ sg4
 S'Professor and Dean, School of Engineering and Applied Science'
 p273
 sg6
-S'images/photos/full_Glandt.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Glandt.jpg '
 p274
 sg8
 S"Surface and Colloidal Science | Transport Processes | Molecular Simulation   Eduardo's research in chemical and biomolecular engineering has foci in 3 areas.  In the area of molecular simulations of gas adsorption, he applies molecular models and computer simulation techniques to investigate how the microstructure of a porous material affects its physical and chemical properties and, especially, its capacity as an adsorbent. The goal is to offer guidance in the preparation of high-capacity adsorbents. In the area of polymer adsorption, he works on statistical mechanical models to examine the adsorption of large flexible molecules from a bulk fluid into the interior of a porous solid.  This research is based on PRISM, a state-of-the-art theory of polymer structure, which has been successfully used to calculate the structure of melts and blends. Recent improvements include a tractable self-consistent version applicable to a wide range of systems. In his research dealing with barriers to mass transfer in catalysts and adsorbents, Eduardo looks at the important rate separations based on the kinetics of mass transfer within materials such as zeolites and carbon molecular sieves. Current work is focused on multicomponent systems and on the modeling of industrially relevant adsorbents."
@@ -782,7 +782,7 @@ sg4
 S'Russell Pearce and Elizabeth Crimian Heuer Professor'
 p282
 sg6
-S'images/photos/full_Gorte.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Gorte.jpg '
 p283
 sg8
 S"Catalysis | Fuel Cells | Energy   Ray's current research focuses on electrodes for solid oxide fuel cells (SOFC) and on oxidation catalysis using mixed-oxides. With SOFC, his lab has developed a method to synthesize electrodes with unprecedented control over composition and nanostructure, fabricating high-performance cells that are able to operate on hydrocarbon fuels. In oxidation catalysis, his group has developed methods to measure the thermodynamic, redox properties of mixed oxides and then determine the effect changes in redox properties have on catalytic properties."
@@ -807,7 +807,7 @@ sg4
 S'Associate Professor Emeritus'
 p291
 sg6
-S'images/photos/a_full_Graves.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Graves.jpg '
 p292
 sg8
 S"Biomolecular Engineering  David's research has centered on the application of chemical engineering principles to biotechnology and medically related problems. This has included separation and cell growth systems with magnetically stabilized beds, non-uniform field electrophoresis, immobilized enzyme reaction systems, artificial photosynthesis, affinity chromatography, cell adhesion to surfaces, plant cell culture systems, and most recently analysis and optimization of DNA microarray processes. Of particular interest are his examinations of several novel ways to recover such bioproducts selectively and continuously from fermentation broths or broken cell suspensions. One of the most promising techniques involves continuous adsorption in an unusual device called the magnetically stabilized fluidized bed (MSFB). The MSFB has significant advantages in productivity, simplicity, and freedom from clogging by debris over standard packed bed systems, and it can be much more efficient than fluidized systems. Although biochemical engineers have dealt successfully with bacterial and fungal cell cultures for many years, recent scientific work has shown that important products can be obtained from cultures of mammalian and plant cells. Thus, the unique engineering aspects of such delicate and complex systems are of great current interest."
@@ -831,7 +831,7 @@ sg4
 S'Alfred Fitler Moore Professor of Telecommunications Networks'
 p299
 sg6
-S'images/photos/full_Guerin.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Guerin.jpg '
 p300
 sg8
 S"Computer Networks  Roch's research centers around networking and communication systems.  He seeks to design, build, and evaluate new devices and protocols that will improve our access to ubiquitous communications.  Roch is especially concerned with aspects of robustness and simplicity, with the goal of designing systems that can scale and remain operational across a broad range of conditions.  His work combines algorithm design, performance evaluation, and experimental validations of both wired and wireless communication systems systems to explore how to build the next generation of communication infrastructure."
@@ -856,7 +856,7 @@ sg4
 S'Associate Professor'
 p308
 sg6
-S'images/photos/full_Guha.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Guha.jpg '
 p309
 sg8
 S"Algorithms and Complexity  Sudipto studies the design and implementation of a wide range of computational systems, from resource constrained devices, such as sensors, up through massively parallel and distributed systems.  Using an algorithmic framework, Sudipto seeks to design systems that are correct, efficient, and optimized, despite their bidirectional asymptotic scale and seeming lack of similarity to human information processes.  Sudipto's recent work focuses on clustering and location theory, statistics and learning theory, database query optimization and mining, approximation algorithms for stochastic control, communication complexity and data stream algorithms."
@@ -880,7 +880,7 @@ sg4
 S'Alfred G. and Meta A. Ennis Professor '
 p316
 sg6
-S'images/photos/full_Hammer.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Hammer.jpg '
 p317
 sg8
 S'Cellular Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | Cell Mechanics   Dan applies his research in nanometric soft matter to his studies in biology.  Working with colleagues, he has forged polymersomes, membranes made of block copolymers, which are soft, vesicle-like nanoparticles for drug delivery and imaging.  Dan has also developed a simulation method of adhesion of receptor-coated nanoparticles to surfaces. The method, Brownian Adhesive Dynamics, once applied to viral binding to cell surfaces, is now being used to understand selectivity and targeting in biological applications of nanoparticles.'
@@ -905,7 +905,7 @@ sg4
 S'Professor'
 p325
 sg6
-S'images/photos/full_Hu.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Hu.jpg '
 p326
 sg8
 S"Computational mechanics | Fluid mechanics  Howard's expertise is in computational fluid dynamics. His research focus is on modeling complex flows involving multiphase and polymeric fluids, particularly flows with solid particles, liquid drops, and gas bubbles. His group has been developing numerical techniques for simulating motions of large numbers of particles in those multiphase systems.  They are engaged in understanding and controlling the particulate flows in various microfluidic applications through electrophoresis and dielectrophoresis."
@@ -929,7 +929,7 @@ sg4
 S'Associate Professor'
 p333
 sg6
-S'images/photos/full_Ives.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Ives.jpg '
 p334
 sg8
 S"Databases | Distributed Systems  Zach's research focuses on facilitating information sharing in today's Web and wireless worlds. He and his group are developing techniques for connecting different databases and applications together to them, regardless of possible variations and inconsistencies in terminologies or formats. They are also working on higher-level ways of programming large suites of heterogeneous sensor devices, and methods for automatically adapting these programs to target networks and devices. Zach's ultimate goal is to connect users or their applications with the data and in the format they need."
@@ -954,7 +954,7 @@ sg4
 S'Professor'
 p342
 sg6
-S'images/photos/full_Jadbabie.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Jadbabie.jpg '
 p343
 sg8
 S'Control Systems | Robotics  Ali studies networked, dynamic systems, and their applications to science, engineering and biology.  His research is focused on the emergence of global phenomena from local interactions in complex networked systems such as the internet, Facebook, and networks of robots and sensors.  By developing new tools and protocols for analysis and design of such systems, Ali works to find mathematically rigorous answers to questions of group behavior, ranging from how people form agreement through networked exchange of ideas to how birds flock and fish school.'
@@ -979,7 +979,7 @@ sg4
 S'Professor'
 p351
 sg6
-S'images/photos/a_full_Jaggard.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Jaggard.jpg '
 p352
 sg8
 S"Optics | Electromagnetics | Imaging   Dwight's research centers around fractal electrodynamics, investigating ways in which multi-scale structures imprint their geometry on interrogating waves and the methods by which self-similarity can be used to design new classes of filters and radiators. Applications include the remote description of rough surfaces, scattering from and inverse scattering of fractal superlattices, and the synthesis of novel fractal antennas and arrays. In the area of electromagnetic chirality, he explores the design of new microwave, millimeter wave and optical devices. Hi lab examines theoretically and numerically new classes of chiral filters, radiators, shields and guiding structures. In the area of waves, topology, and symmetry, Dwight investigates the effect of topology and symmetry on wave scattering and propagation through the study of wave interactions with families of canonical knots and unknots."
@@ -1004,7 +1004,7 @@ sg4
 S'Henry Salvatori Professor of Computer and Cognitive Science'
 p360
 sg6
-S'images/photos/full_Joshi.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Joshi.jpg '
 p361
 sg8
 S"Computational Linguistics | Cognitive Science | Artificial Intelligence   Aravind's research focuses on questions at the intersection of computer science and linguistics.  Employing his expertise in computational, mathematical, and formal linguistics, natural language processing, and artificial intelligence, Aravind studies theories of representation and inferencing in natural language, computational aspects of discourse, psycholinguistic implications of processing models as well as processing certain kinds of bilingual utterances. Aravind is also involved in the design and implementation of a variety of systems for natural language processing. Aravind is associated with and a founding co-director of the Institute for Research in Cognitive Science (IRCS) at the University of Pennsylvania."
@@ -1029,7 +1029,7 @@ sg4
 S'Professor'
 p369
 sg6
-S'images/photos/full_Kagen.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Kagen.jpg '
 p370
 sg8
 S"Nanostructured Materials | Energy  Cherie investigates the chemical and physical properties of molecular, supramolecular, and nanostructured materials and assemblies and their applications in electronic, optoelectronic, and sensing devices. Her aim is to understand charge and excitonic transport and interactions and to use these insights to guide the design of molecular and nanostructured devices. Cherie uses chemistry's flexibility to tailor the properties of novel devices, and she employs spatially and temporally resolved spectroscopies and electrical techniques to characterize molecular and nanostructured materials and operating devices."
@@ -1054,7 +1054,7 @@ sg4
 S'Professor'
 p378
 sg6
-S'images/photos/full_Kannan.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Kannan.jpg '
 p379
 sg8
 S"Algorithms and Complexity  Sampath's research spans several subfields in algorithms. In his work on massive data set algorithms, Sampath explores what can be computed efficiently, and what is not computable. He is also interested in program checking, a paradigm for ensuring the correctness of a program by observing its behavior at run-time, and in algorithmic problems in computational biology, particularly the problem of reconstructing the evolutionary history of a set of species from phenotypic and molecular sequence observations."
@@ -1078,7 +1078,7 @@ sg4
 S'Solomon and Sylvia Charp Professor'
 p386
 sg6
-S'images/photos/full_Kassam.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Kassam.jpg '
 p387
 sg8
 S'Signal Processing | Communication Systems  Saleem researches statistical signal processing and communications.  His study of through-wall imaging radar aims to provide new methods for imaging building interiors based on optimum use of array elements and co-array locations and frequency assignments.  Saleem is also developing wireless communication systems using nonlinear blind signal separation and equalization to mitigate the effects of multi-path and other channel impairments.  Additionally, Saleem works with bio-medical applications of signal processing, such as seizure monitoring and detection using EEG signals, and with nonlinear and adaptive signal and image processing methods.'
@@ -1103,7 +1103,7 @@ sg4
 S'National Center Professor of Management &amp; Technology'
 p395
 sg6
-S'images/photos/full_Kearns.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Kearns.jpg '
 p396
 sg8
 S"Machine Learning | Algorithms and Complexity  Michael's primary research interests are in machine learning, probabilistic artificial intelligence, algorithmic game theory, and computational finance. He integrates problems from these areas with methods from theoretical computer science and related disciplines. While the majority of Michael's work is mathematical in nature, he has also participated in a variety of systems and experimental work, including spoken dialogue systems, software agents, and most recently, human-subject experiments in strategic and economic interaction."
@@ -1127,7 +1127,7 @@ sg4
 S'Professor '
 p403
 sg6
-S'images/photos/a_full_Keenan.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Keenan.jpg '
 p404
 sg8
 S"Environmental Systems  John's research areas include the biological and health effects of pollution, wastewater treatment, water resources engineering, environmental impact assessment, and hazardous materials in the environment. Recent research efforts include assessment and selection of waste heat utilization technologies focusing on steam electric power facilities; an analysis of water resources in selected countries of the Middle East; development of single sludge wastewater treatment technologies; production and control of landfill leachates; development of expert systems for remediation of hazardous waste sites."
@@ -1151,7 +1151,7 @@ sg4
 S'Rosenbluth Family Fellow and Professor '
 p411
 sg6
-S'images/photos/full_Khanna.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Khanna.jpg '
 p412
 sg8
 S"Algorithms and Complexity  Sanjeev works in theoretical computer science, studying the amount of resources that are necessary and sufficient to perform a computational task. His specific interests are in fast computation of near-optimal solutions for NP-hard problems, a class which has eluded efficient exact algorithms.  Ubiquitous in computer science and related disciplines, some representative examples of this class include multiprocessor scheduling, network design and routing, and the celebrated traveling salesman problem.  Sanjeev's recent work has led to efficient algorithms for finding near-optimal solutions to several fundamental network design and routing problems."
@@ -1175,7 +1175,7 @@ sg4
 S'Alfred Fitler Moore Professor and Chair'
 p419
 sg6
-S'images/photos/full_Koditschek.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Koditschek.jpg '
 p420
 sg8
 S"Control Systems | Robotics | Mechanical Systems   Research in Dan's group is focused on the application of dynamical systems theory to the design, construction and empirical testing of machines that juggle, run, climb, and in general, interact physically with their environment to perform useful work.  Dan and his group seek to probe the foundations of autonomous robotics by reasoning formally about mathematical models that represent the successes and limitations of their physical platforms. They maintain close collaborations with biologists, whose insights about animal mobility and dexterity inspire their thinking and designs."
@@ -1200,7 +1200,7 @@ sg4
 S'Skirkanich Assistant Professor of Innovation'
 p428
 sg6
-S'images/photos/full_Kuchenbecker.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Kuchenbecker.jpg '
 p429
 sg8
 S'Haptics | Robotics | Mechanical Systems   Katherine researches the design, control, and performance of robotic systems that enable a user to touch virtual objects and distant environments as though they were real and within reach. These haptic interfaces combine electromechanical sensors and actuators with high-speed computer control to fool the human sense of touch. By studying applications such as robot-assisted surgery, smart prosthetics, educational computer games, and driver assistance, Katherine seeks to improve our understanding of haptic feedback and uncover new opportunities for its use in interactions between humans, computers, and machines.'
@@ -1225,7 +1225,7 @@ sg4
 S'UPS Foundation Professor'
 p437
 sg6
-S'images/photos/full_Kumar.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Kumar.jpg '
 p438
 sg8
 S"Control Systems | Robotics | Mechanical Systems   Vijay studies collective behaviors in biological and robotic systems. He and his group design novel architectures, create abstractions for systems of interacting individuals, and develop new algorithms for cooperating robots. The overarching themes in his research include modeling nature and developing bio-inspired architectures and algorithms, understanding group/individual dynamics, and the design and composition of controllers for robust, scaleable autonomous systems. Vijay's key challenges include operation in unstructured, dynamic environments, integration of control, communication and perception, and scaling down to smaller sizes with limited actuation, sensing, and computational resources."
@@ -1250,7 +1250,7 @@ sg4
 S'Professor '
 p446
 sg6
-S'images/photos/a_full_Laker.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Laker.jpg '
 p447
 sg8
 S"Circuits | VLSI | Microelectronics   Ken's research is in mixed mode integrated circuit design and testing. He focuses on high performance, low-power data acquisition and RF systems, which have many important applications and present challenging obstacles for design, implementation and testing. The primary areas of research are: the development of architectures that enable the realization of high dynamic range requirements when implemented in low voltage technologies; the exploration of distributed and parallel architectures that expand the signal bandwidth available in over sampled analog-to-digital converters; switched capacitor systems; and the development of robust test methodologies for mixed-signal and RFICs."
@@ -1274,7 +1274,7 @@ sg4
 S'Assistant Professor '
 p454
 sg6
-S'images/photos/a_full_Lazzara.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Lazzara.jpg '
 p455
 sg8
 S"Cellular Engineering  Matt's research is in the areas of ErbB-mediated cell signaling and cell signaling in the renal proximal tubule. In the examination of ErbB receptors (e.g., EGFR, HER2), Matt looks at their signal transduction role in health, and how they are also implicated in multiple human cancers and constitute prime targets for anti-cancer therapeutics. His work in this area entails a systems approach for elucidating how ErbB trafficking and signaling influence cell fates in the presence of different stimulatory factors and molecular therapeutics. In studying cell signaling in the renal proximal tubule, he seeks to develop a detailed understanding of the coupling between fluid mechanical and mass transfer phenomena in the glomerulus and proximal tubule and consequent cell signaling and cellular fates in the proximal epithelium. Elevated excreted albumin concentration is a classical indicator of renal dysfunction, and it is increasingly appreciated as a potential mediator of renal disease as well."
@@ -1299,7 +1299,7 @@ sg4
 S'Evan C Thompson Term Associate Professor and Raymon S. Markowitz Faculty Fellow '
 p463
 sg6
-S'images/photos/full_Lee_Dan.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Lee_Dan.jpg '
 p464
 sg8
 S"Machine Learning | Robotics  Dan's research focuses on applying knowledge about biological information processing systems to building better artificial sensorimotor systems that can adapt and learn from experience.  Drawing from the ways in which biological systems compute and learn, Dan and his lab look at computational neuroscience models, theoretical foundations of machine learning algorithms, as well as constructing real-time intelligent robotic systems, with an ultimate goal of making machines that better understand what we want them to do."
@@ -1324,7 +1324,7 @@ sg4
 S'Cecilia Fitler Moore Professor '
 p472
 sg6
-S'images/photos/full_Lee_Insup.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Lee_Insup.jpg '
 p473
 sg8
 S"Embedded Systems | Formal Methods  Insup's research interests are in real-time, embedded, and cyber physical systems, which increasingly affect our daily lives.  His research goals are to ensure and improve the correctness, safety, timeliness, trustworthiness, and compositionality of these systems.  Insup has been developing techniques and tools for compositional real-time scheduling, model-based development, quantitative trust management, and run-time verification. He has also been transitioning his research results into practice by applying them to safety-critical embedded systems and high-confidence medical device systems."
@@ -1371,7 +1371,7 @@ sg4
 S'Professor'
 p487
 sg6
-S'images/photos/a_full_Lior.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Lior.jpg '
 p488
 sg8
 S"Energy | Heat Forgiveness | Fluid Mechanics   Noam's research interests are in heat transfer and fluid mechanics, thermodynamics and Second-Law analysis, energy conversion, solar energy, combustion, flash evaporation and water desalination, destruction of hazardous wastes by photocatalysis and supercritical oxidation and heat treatment."
@@ -1396,7 +1396,7 @@ sg4
 S'Assistant Professor'
 p496
 sg6
-S'images/photos/full_Loo.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Loo.jpg '
 p497
 sg8
 S"Databases | Distributed Systems  Boon's research focuses on distributed data management systems, Internet-scale query processing, and the application of database technologies to networked systems. He is particularly interested in developing information-centric network architectures that can be easily extended, composed, and formally verified. His recent projects include applying declarative networking techniques in the areas of dynamic network composition, adaptive mobile ad-hoc networks, and scalable knowledge-based networks. He is also exploring novel database-inspired techniques for diagnosing, securing, and verifying network protocols."
@@ -1421,7 +1421,7 @@ sg4
 S'Associate Professor'
 p505
 sg6
-S'images/photos/full_Lukes.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Lukes.jpg '
 p506
 sg8
 S"Computational Mechanics  Jennifer focuses primarily on understanding the unusual thermal transport phenomena that emerge in nanostructures and nanostructured materials, such as single wall carbon nanotubes, superlattices, nanowires, ultrathin films, and nanocomposites.  She also investigates confinement effects on fluid and mass transport on the nanoscale. Jennifer's expertise is in atomistic computer modeling of transport phenomena using molecular dynamics simulation.  Applying a combination of modeling and experimental techniques, her group is developing innovative approaches to design materials with desired structures and thermophysical properties."
@@ -1446,7 +1446,7 @@ sg4
 S'Stephen J. Angello Term Assistant Professor'
 p514
 sg6
-S'images/photos/full_Mangharam.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Mangharam.jpg '
 p515
 sg8
 S"Embedded Systems | Sensor Networks  Rahul's mission is to merge computing, communications, and the physical world into integrated cyber-physical systems, enabling seamless communication with and control of objects such as smart buildings, the human body, and automobiles in the physical world.  His work encompasses tiny wireless sensor networks and large-scale vehicle-to-vehicle wireless networks. Rahul co-developed the FireFly sensor networking platform, which allows physical object to communicate over wireless links, resulting in tiny devices which can locate workers in mines, wirelessly control automation factories, and serve as flexible, wearable smart band-aids in on-body healthcare systems."
@@ -1471,7 +1471,7 @@ sg4
 S'RCA Professor of Artificial Intelligence'
 p523
 sg6
-S'images/photos/full_Marcus.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Marcus.jpg '
 p524
 sg8
 S'Computational Linguistics | Cognitive Science | Artificial Intelligence   Mitch works at the intersection of linguistics and computer science, leveraging our understanding of the structure of language to develop new technologies which will automatically extract increasingly rich information from texts in languages in such languages as English, Arabic, and Chinese.  He and his collaborators have developed statistical and symbolic methods for automatic acquisition of linguistic structure, and methodologies for annotation of linguistic structure in large text corpora.  Specifically, Mitch and his group are working on corpora which are hand-annotated with linguistic structure for use world-wide as training materials for new machine learning algorithms.'
@@ -1496,7 +1496,7 @@ sg4
 S'George H. Stephenson Term Chair in Bioengineering and Professor '
 p532
 sg6
-S'images/photos/a_full_Margulies.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Margulies.jpg '
 p533
 sg8
 S"Biomechanics | Cell Mechanics | Tissue Engineering   Cells within the body routinely tolerate deformations during activities such as head turning and breathing, yet when cells are deformed beyond a safe limit or injury threshold, function and structure are altered temporarily or even permanently. The goal of the Injury Biomechanics Lab is to determine functional and structural injury thresholds in the brain and lung, and use them to understand mechanisms of traumatic brain and lung injury. In addition, the lab's study of the biochemical and molecular biology of injured cells facilitates the development of preventive and therapeutic measures. Because human tissues tend to be inhomogeneous, anisotropic and nonlinear, and the tissues of interest undergo large strains, determining the complex relationship between cellular and macroscopic responses requires an integrated biomechanics approach consisting of several simultaneous rigorous engineering experimental and theoretical analyses. Tissue mechanical properties and injury thresholds are measured and used to develop computational models. These models are used to generalize our experimental cell and tissue findings and determine macroscopic injury mechanisms. Applications of current work are in the areas of traumatic head injury in adults and children, and ventilator-induced lung injury. These studies parallel clinical investigations regarding the treatment and detection of traumatic injury. Margulies' research program is currently funded by NIH and CDC. She has served or is on the editorial boards of the Journal of Physiology, the Journal of Biomechanical Engineering, the Journal of Biomechanics, and the Journal of Neurotrauma; she has served on grant review panels for NSF, NIH, and CDC, and is chair of the NIH RIBT study section. Her work has been featured in The New York Times, Forbes, Atlanta Journal-Constitution, Discover Magazine, and by CNN and the BBC. Margulies also serves as Vice-President of the Penn Forum for Women Faculty and Chair-Elect of the University of Pennsylvania Faculty Senate."
@@ -1521,7 +1521,7 @@ sg4
 S'Associate Professor '
 p541
 sg6
-S'images/photos/full_Martin.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Martin.jpg '
 p542
 sg8
 S'Architecture and Compilers  Milo researches hardware design and implementation techniques for creating faster, power-efficient, secure, and reliable multi-core computing systems that will form the foundation of next-generation web servers and mobile devices. He and his colleagues are exploring new hardware-assisted approaches for creating systems that correctly coordinate parallel activities, including cache coherence protocols, transactional memory, and hardware-aware verification of concurrent software. To improve reliability and security, Milo is developing hardware-assisted runtime monitoring systems which will ensure that common programming mistakes cannot silently corrupt data or cause security vulnerabilities.'
@@ -1546,7 +1546,7 @@ sg4
 S'Solomon R. Pollack Professor and Chair'
 p550
 sg6
-S'images/photos/a_full_Meaney.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Meaney.jpg '
 p551
 sg8
 S"Cellular Engineering | Neuroengineering (molecular ) | Neurobiology   Dave's research focuses on understanding the mechanical cues that regulate injury, repair, and growth in cells and tissues of the central nervous system. The process of mechanotransduction is critical in understanding the response of cells and tissues of the central nervous system (CNS) to traumatic injury. In this research area, experimental work is combined with mathematical modeling to provide a method to quantify the effect of physical forces on cell and tissue function. For example, some of the research combines finite element models of the brain with experimental work to estimate the tissue mechanical stress/strain associated with biological markers of injury. These models provide a starting point to relate traditional measures of stress to the microstructural constituents of the tissue. Structural models are being developed to link global mechanical deformations and the resulting deformation of cellular/subcellular microstructures in the CNS white matter. With the kinematic transformations between the macroscopic deformations and cellular components of the CNS  white matter now better established, the research has expanded to determine the mechanism(s) by which a mechanical signal is converted into a biochemical signaling cascade for organotypic tissue, cultured neurons, and cultured axons. Clinical applications of his work include developing new testing standards to improve the safety of headgear and automotive restraint systems, and testing new techniques for repairing damaged tissues in the brain after injury."
@@ -1570,7 +1570,7 @@ sg4
 S'Professor'
 p558
 sg6
-S'images/photos/full_Mintz.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Mintz.jpg '
 p559
 sg8
 S"Robotics | Sensor Fusion  Max's research program focuses on developing a better understanding of the nature of good algorithms for decision-making under uncertainty, with applications to machine perception and robotics. Current research topics include the application of game theory and statistical decision theory for designing robust fixed-geometry confidence regions for multivariate location parameters, and algorithms for robust multisensor fusion and set-valued state estimation with performance guarantees. Max also works with applications of confidence sets for cooperative and noncooperative mobile robots."
@@ -1594,7 +1594,7 @@ sg4
 S'Richard Perry University  Professor and Professor '
 p566
 sg6
-S'images/photos/full_Murray.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Murray.jpg '
 p567
 sg8
 S'Nanostructured Materials | Energy | Chemistry of Materials   Bridging boundaries between chemistry and materials science, Chris researches the synthesis characterization and integration of nanostructured materials, with an emphasis on the exploration of finite size effects in nanoscale magnets and semiconductors.  His seminal contributions include the development of nanocrystalline materials, the creation of artificial atoms (nanocrystals or quantum dots) that self assemble into devices with completely new multi-functionalities.  Chris is exploring self-organizing phenomena for applications in information processing, communication, and storage.'
@@ -1619,7 +1619,7 @@ sg4
 S'Aravind Joshi Term Assistant Professor'
 p575
 sg6
-S'images/photos/full_Nenkova.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Nenkova.jpg '
 p576
 sg8
 S"Computational linguistics | Artificial Intelligence  Ani works in the area of natural language processing, focusing on automatic summarization, text generation, discourse and prosody.  She is addressing the increasing need for intelligent summarization systems brought on by the proliferation of textual information in electronic form.  Ani's research has addressed challenges in summarization, including identifying important content to include in the summary, automatic revision of human written text to better fit in the new context of the summary, and automatic identification of inputs that current systems handle poorly."
@@ -1661,7 +1661,7 @@ sg4
 S'Joseph Moore Professor '
 p585
 sg6
-S'images/photos/full_Pappas.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Pappas.jpg '
 p586
 sg8
 S"Control Systems | Robotics | Embedded Systems   George's research focuses on developing methods for the control of next-generation hierarchical and distributed systems. His research group focuses on developing analysis and design algorithms and tools for hybrid systems, which merge control systems with computing systems. Their methods have been used in developing algorithms for coordinated motion of fleets of unmanned aerial vehicles and multi-robot systems, analyzing the safety of next generation medical devices, and understanding the macroscopic behavior of biological networks."
@@ -1704,7 +1704,7 @@ sg4
 S'Wilf Family Term Assistant Professor '
 p596
 sg6
-S'images/photos/full_Piazza.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Piazza.jpg '
 p597
 sg8
 S'MEMS  | Nanodevices | RF Communications   Gian is researching piezoelectric micro and nano electromechanical systems (MEMS/NEMS) for wireless communications, biochemical detection, wireless sensor platforms, and precision sensing and actuation.  He also has an interest in the areas of micro/nano fabrication techniques and integration of micro/nano devices with state-of-the-art electronics.  Gian is leading the Penn Micro and Nano Systems Laboratory (PMANS), which is currently involved in the development of next generation micro and nano mechanical resonators, filters, and switches for cognitive radios, resonant chemical sensors and all-mechanical logic circuits.'
@@ -1727,7 +1727,7 @@ sg4
 S'Professor '
 p603
 sg6
-S'images/photos/full_Pierce.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Pierce.jpg '
 p604
 sg8
 S"Programming Languages | Logic | Formal Methods   Benjamin's research focuses on foundational principles leading to more robust, cohesive, and secure software systems.  He has worked on programming languages, static type systems, concurrent and distributed programming, synchronization technologies, and computer security, always with an eye to the fruitful interplay of theory and practice.  Benjamin is the author of several books, including the widely used graduate text, Types and Programming Languages, and is the lead designer of the popular Unison file synchronizer."
@@ -1752,7 +1752,7 @@ sg4
 S'Professor'
 p612
 sg6
-S'images/photos/a_full_Castaneda.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Castaneda.jpg '
 p613
 sg8
 S"Computational Mechanics | Mechanics of Materials | Nanomechanics   Professor Ponte's research is in the areas of nonlinear composite materials, microstructure evolution and localization in manufacturing processes, low-symmetry polycrystals, and thermoplastic elastomers. In the area of nonlinear composite materials, Pedro addresses nonlinear constitutive and kinematical effects as observed in low-temperature plasticity and high-temperature creep of metal-matrix composites, as well as in the large-deformation behavior of black-filled and porous elastomers. In microstructure evolution and localization in manufacturing processes, his lab is concerned with the theoretical development of constitutive models for porous materials, accounting for the evolution of the microstructure, which will be useful in assessing the effect of porosity on localization. He is developing constitutive models for low-symmetry polycrystals, and on the numerical implementation of these models in constitutive subroutines. In his examination of thermoplastic elastomers, Professor Ponte's lab is developing structure-property relations for styrenic thermoplastic elastomers (TPEs). These are multiphase polymeric materials which consist of a phase (e.g., polybutadiene) giving rise to the rubbery nature of the materials, and a crystalline or glassy phase (e.g., polystyrene) yielding increased stiffness and enhanced large-deformation properties. TPEs exhibit structure a two different length scales and there is growing experimental evidence that this dual structure greatly affects the overall response of macroscopic samples. He is also developing constitutive models for magneto-elastic materials capable of undergoing large strains and investigating possible applications as active materials."
@@ -1777,7 +1777,7 @@ sg4
 S'Professor '
 p621
 sg6
-S'images/photos/a_full_Pope.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Pope.jpg '
 p622
 sg8
 S"Mechanics of Materials | Nanostructured Materials | Material Interfaces   Dave's research projects include study of deformation and fracture of intermetallic compounds. The ductility of most intermetallics is quite low due either to grain boundary or cleavage failure. His lab is investigating the deformation and fracture mechanisms in a number of singlecrystalline intermetallics, including V2Hf, Cr3Si, and Al3Ti. The strength of metal-ceramic interfaces is very important in many material systems, such as electronic packages, composite materials, and high temperature fracture of metals (in which creep voids usually nucleate on second-phase ceramic particles). In this area he is studying the strength of Fe-Al2O3 interfaces as controlled by impurities which segregate to the interface, such as S, C, P, and B. The fracture path in many polycrystalline materials follows the grain boundaries, i.e. in Ni3Al and in certain iron-base alloys with impurities. Since the structure of these boundaries varies with crystallographic misorientation across the boundary and with the orientation of the boundary plane, the strengths of the boundaries are also expected to vary. His group is studying the relative strengths of boundaries using the coincidence site lattice model to describe the boundaries. They have found that high coincidence boundaries (low sigma) are not stronger than random boundaries, but twin boundaries and low angle boundaries are substantially stronger."
@@ -1802,7 +1802,7 @@ sg4
 S'Assistant Professor '
 p630
 sg6
-S'images/photos/full_Purohit.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Purohit.jpg '
 p631
 sg8
 S'Mechanics of Materials | Biomechanics | Computational Mechanics   Prashant conducts his research at the interface of mechanics, physics, and biology.  Using the Kirchhoff theory of filaments, he is able to describe the behavior of DNA at small length scales, and analyze its implications on the life cycle of viruses and the switching on and off of genes.  Prashant studies the effect of thermal fluctuations or entropy, and is also interested in applications of the mechanics of lipid membranes to cellular organelles and the mechanics of material interfaces in slender bodies to micro-scale propulsion.'
@@ -1827,7 +1827,7 @@ sg4
 S'Associate Professor'
 p639
 sg6
-S'images/photos/a_full_Radhakrishnan.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Radhakrishnan.jpg '
 p640
 sg8
 S"Computational Biology | Molecular System Biology  Ravi's research interests lie at the interface of chemical physics and molecular biology. His lab's goal is to provide atomic and molecular level characterization of complex biomolecular systems and formulate quantitatively accurate microscopic models for predicting the interactions of various therapeutic agents with innate biochemical signaling mechanisms. To do so, they employ several computational algorithms ranging from techniques to treat electronic structure, molecular dynamics, Monte Carlo simulations, stochastic kinetic equations, and complex systems analyses in conjunction with the theoretical formalisms of statistical and quantum mechanics, and high performance computing in massively parallel architectures."
@@ -1851,7 +1851,7 @@ sg4
 S'Assistant Professor'
 p647
 sg6
-S'images/photos/full_Ribeiro.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Ribeiro.jpg '
 p648
 sg8
 S'Wireless Networks  Alejandro believes that understanding networks, beyond wireless and communications, is one of the greatest intellectual challenges of the 21st century. Accordingly, his research is aimed at developing a theory to model and develop wireless networks. While communications are understood on a fundamental level, networks are not. Developing theoretical foundations of wireless networks will uncover fundamental properties to guide their design. In the end, the goal will be wireless networks that provide the same seamless connectivity we experience in our homes and offices.'
@@ -1875,7 +1875,7 @@ sg4
 S'Associate Professor '
 p655
 sg6
-S'images/photos/full_Roth.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Roth.jpg '
 p656
 sg8
 S'Architecture and Compilers  Amir studies the design of future processors. Two clear industry trends show that the number of individual processors on a single chip will grow, and that individual processors within a chip will become less reliable. In this context, Amir and his students are working to re-formulate some basic hardware algorithms to improve efficiency and performance, support error recovery, and facilitate inter-processor co-operation. In a current project, Amir is using periodic checkpointing to facilitate both intra-processor optimization and inter-processor communication.'
@@ -1900,7 +1900,7 @@ sg4
 S'Assistant Professor'
 p664
 sg6
-S'images/photos/full_Safonova.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Safonova.jpg '
 p665
 sg8
 S'Computer Graphics | Computer Animation  In her work on computer animation and computer graphics, Alla researches novel ways to automatically synthesize natural and physically realistic motions of human characters and animals. Such methods are useful in entertainment, education, medical treatment, and training simulators.  Alla uses vast amounts of data generated by motion capture cameras to create compact spaces of natural human motion that can then be efficiently searched for solutions that match user specifications.  She is especially interested in developing character animation methods accessible to users with a wide range of user experience.'
@@ -1923,7 +1923,7 @@ sg4
 S'Associate Professor '
 p671
 sg6
-S'images/photos/full_Santiago.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Santiago.jpg '
 p672
 sg8
 S'MEMS | Nanodevices  Jorge conducts his research at the interface between electrical engineering and materials science, focusing on materials for electronic sensing and actuating.  He is currently exploring nano-structures and nano-materials synthesis, and characterization by the electrostatic deposition methods.  Jorge has also investigated II-VI semiconducting compounds for LEDs, carbon and graphite composites, silicon sensors and actuators, electroceramic devices and LTCC tape-based sensing and actuating devices.'
@@ -1947,7 +1947,7 @@ sg4
 S'Assistant Professor '
 p679
 sg6
-S'images/photos/a_full_Sarkar_C.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Sarkar_C.jpg '
 p680
 sg8
 S"Cellular Engineering | Bioengineered Therapeutics |  Devices and Drug Delivery | System Biology   Sarkar strives to elucidate fundamental principles that underlie individual biomolecular interactions and molecular networks within cells and to apply this knowledge to the design of new molecular and cellular therapeutics. His research couples techniques from the fields of molecular biology, protein biochemistry, microbiology, and mammalian cell biology with mathematical modeling, engineering analyses, and synthetic biology to develop quantitative, predictive frameworks for the biological processes that he interrogates.  Current thrusts in Sarkar's laboratory include designing novel protein therapeutics, engineering cell biosensors, and dissecting signaling networks implicated in cell decision making. "
@@ -1972,7 +1972,7 @@ sg4
 S'Associate Professor'
 p688
 sg6
-S'images/photos/full_Sarkar.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Sarkar.jpg '
 p689
 sg8
 S"Communication Systems | Wireless Networks  Saswati's research focuses on enabling wireless communication among computing units that have limited access to communication resources such as bandwidth, memory and battery power. Her research strives to design intelligent resource management schemes that attain reliable communication through maximum utilization of limited resources.  Her schemes provide provable performance guarantees by enabling large scale cooperation and efficient contention resolution among participating units, and their design draws from tools obtained from control and computing theories, stochastic processes, and economics."
@@ -2015,7 +2015,7 @@ sg4
 S'Professor '
 p699
 sg6
-S'images/photos/full_Seider.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Seider.jpg '
 p700
 sg8
 S"Process Modeling | Process Control | Optimizations   Warren's research is in the fields of chemical process analysis, simulation, design, and control. He is recognized for contributions in phase and chemical equilibria, azeotropic distillation, semi-continuous operations, chemical reaction systems, heat and power integration, Czochralski crystallization, nonlinear control, safety and risk analysis, and applied numerical methods. Warren co-authored the highly regarded and definitive text, Product and Process Design Principles:  Synthesis, Analysis, and Evaluation, used in engineering schools and industry around the world."
@@ -2040,7 +2040,7 @@ sg4
 S'Associate Professor'
 p708
 sg6
-S'images/photos/full_Shi.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Shi.jpg '
 p709
 sg8
 S"Computer Vision  Jianbo's group is developing vision algorithms for both human and image recognition.  Their ultimate goal is to develop computation algorithms to understand human behavior and interaction with objects in video, and to do so at multiple levels of abstractions: from the basic body limb tracking, to human identification, gesture recognition, and activity inference. Jianbo and his group are working to develop a visual thinking model that allows computers not only to understand their surroundings, but also to achieve higher level cognitive abilities such as machine memory and learning."
@@ -2065,7 +2065,7 @@ sg4
 S'Professor'
 p717
 sg6
-S'images/photos/a_full_Shieh.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Shieh.jpg '
 p718
 sg8
 S"Chemical Systems Engineering | Environmental Systems  Wen's research interests are in the area of bioenvironmental engineering. He works on the development of biological engineering processes for environmental applications, such as biological fluidized bed processes for surface and ground water decontaminations and sequencing batch reactor processes for nitrogen removal. In nitrogen removal, he is examining mechanisms for denitrification , such as nitrogen removal of amines and biofilm nitrification/denitrification kinetics. He also focuses his efforts on environmental systems modeling, such as surface and ground water modeling, time series analysis of water and wastewater treatment facilities, and kinetic modeling of biodegradation processes."
@@ -2090,7 +2090,7 @@ sg4
 S'Professor'
 p726
 sg6
-S'images/photos/full_Silverman.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Silverman.jpg '
 p727
 sg8
 S'Intelligent Software Agents | Computer Games | Computer Simulations   Barry researches systems engineering applied to social systems, also known as systems social science.  Using descriptive rather than normative approaches, Barry merges best-of-breed models such as human physiology, stress, emotion, personality, and relations, as well as cultural, political, and economic factors, into a unified framework for agent-based simulations of ethno-political situations around the world. Barry uses these models to simulate insurgencies and factional conflicts and drive role playing games and interactive dramas, with the goal of exposing the need for research in computational social science.'
@@ -2115,7 +2115,7 @@ sg4
 S'Associate Professor'
 p735
 sg6
-S'images/photos/full_Sinno.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Sinno.jpg '
 p736
 sg8
 S"Molecular Simulation | Transport Processes | Chemical Systems Engineering   Talid's research program is broadly aimed at the theoretical and computational study of nano and microstructural evolution, particularly nucleation and growth, in condensed matter.  He is currently pursuing microdefect formation in crystalline semiconductors, colloidal crystallization of micron-scale particles with tunable interactions, and platelet aggregation in blood. Talid's lab has developed an extensive suite of simulation tools for studying these phenomena, including large-scale molecular dynamics, multiscale kinetic Monte Carlo, and continuum models."
@@ -2139,7 +2139,7 @@ sg4
 S'Professor'
 p743
 sg6
-S'images/photos/a_full_Smith_T.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Smith_T.jpg '
 p744
 sg8
 S"Spatial Interaction Behavior | Geographic Information Systems  Tony's primary area of research is in the theory and application of probabilistic models to spatial interaction behavior. Specific interests focus on structural analysis and axiomatic foundations of such models. Related areas of interest are in probabilistic theories of choice behavior, spatial statistical analysis and GIS. A secondary area of research is in transportation and land use modeling. Specific interests focus on network equilibrium models of traffic flows and general equilibrium models of urban land use."
@@ -2163,7 +2163,7 @@ sg4
 S'Olga and Alberico Pompa Professor'
 p751
 sg6
-S'images/photos/full_Smith_J.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Smith_J.jpg '
 p752
 sg8
 S'Computer Security | Distributed Systems  Jonathan\'s research interests center around computer networking and computer security. He is developing network architectures for new services and applications, such as the Terabit Edge Research Activity (TERA), which is focused on the coupling between parallel processing and parallelism in transmission systems, and implications for host software and network control. Jonathan is also working on Zodiac, an intrinsically assurable mobile ad-hoc network, where many challenges ensue as router and host become indistinguishable, and Dynamic Trust Management (DTM), which is focused on "situation-aware" authorizations for privileged actions, such as emergency situations.'
@@ -2188,7 +2188,7 @@ sg4
 S'Research Associate Professor '
 p760
 sg6
-S'images/photos/full_Sokolosky.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Sokolosky.jpg '
 p761
 sg8
 S'Embedded Systems | Formal Methods  Oleg focuses his research interests on the application of formal methods to design and verify distributed real-time systems.  He works on modeling and analysis of computer-based systems, particularly medical devices, which require high levels of confidence in their operation. Oleg aims to develop mathematically grounded modeling languages, algorithms, and tools to verify system models in terms of their functional correctness and timeliness.  He also develops methods for implementing systems according to their models.'
@@ -2213,7 +2213,7 @@ sg4
 S'Richer &amp; Elizabeth Goodwin Professor and Chair'
 p769
 sg6
-S'images/photos/a_full_Stebe.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Stebe.jpg '
 p770
 sg8
 S"Nanostructured Materials | Surface and Colloidal Science  Kate's primary research interests are in non-equilibrium interfaces, with applications ranging from microfluidics to nanotechnology. One aspect of her research program focuses on interfaces between fluids and how surfactants can be used to influence interfacial flows. Other aspects address tailoring of solid-liquid interfaces with applications ranging from patterned electrodeposition to capillary-driven assembly and ordering of nanomaterials."
@@ -2237,7 +2237,7 @@ sg4
 S'Professor'
 p777
 sg6
-S'images/photos/full_Tannen.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Tannen.jpg '
 p778
 sg8
 S"Databases | Logic | Programming Languages   Val's work is centered around data management technologies and their applications in life sciences. He and his group are currently working on models and systems for data sharing, data provenance and uncertain information. His research has been applied in genomics and bioinformatics as well as in phyloinformatics and systematic biology. Val's past work also includes research in programming languages and high-performance computing. In addition, he maintains a special interest in applications of mathematical logic to computer science."
@@ -2260,7 +2260,7 @@ sg4
 S'Magerman Term Assistant Professor'
 p784
 sg6
-S'images/photos/full_Tasker.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Tasker.jpg '
 p785
 sg8
 S"Machine Learning | Computational Linguistics | Computer Vision   Ben's research is focused on machine learning. He is interested in the design and analysis of data-centric algorithms that enable computers to tackle intelligent tasks, from machine translation and information extraction in natural language processing to object and action recognition in computer vision.  Blending ideas from probability and statistics, discrete and continuous optimization, linguistic and perception theory, Ben's research aims to create drastically more accurate and robust systems that can sense, reason and act under real world uncertainty and ambiguity."
@@ -2284,7 +2284,7 @@ sg4
 S'Associate Professor '
 p792
 sg6
-S'images/photos/full_Taylor.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Taylor.jpg '
 p793
 sg8
 S"Computer Vision | Robotics | Embedded systems   CJ's research interests focus on computer vision and robotics.  His work on problems related to recovering 3-D models from 2-D images has led to commercially deployed techniques for recovering architectural models. CJ has also developed algorithms for recovering the posture of articulated figures, such as humans from photographs and video footage. His current research include work on self-localizing embedded smart camera systems and their applications to problems such as automated surveying systems, ad-hoc surveillance systems, three-dimensional reconstruction and mobile robot localization."
@@ -2309,7 +2309,7 @@ sg4
 S'Associate Professor '
 p801
 sg6
-S'images/photos/full_Tsourkas.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Tsourkas.jpg '
 p802
 sg8
 S"Cellular Imaging | Bioengineered Therapeutics |  Devices and Drug Delivery  Andrew's research is focused on developing nanosensors that can be used to non-invasively image molecular markers of disease in a clinical setting. These imaging agents will allow for more informed diagnoses, detect diseases at an earlier stage, and provide a mechanism to quantify therapeutic response. Andrew's research group has developed fluorescent probes for imaging RNA, bioluminescent probes for imaging apoptosis and proliferation, and magnetic nanoparticles for imaging cell surface receptor expression."
@@ -2334,7 +2334,7 @@ sg4
 S'Associate Professor '
 p810
 sg6
-S'images/photos/full_Ungar.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Ungar.jpg '
 p811
 sg8
 S'Machine Learning | Bioinformatics  Lyle develops machine learning and text mining methods in order to solve problems in genomics, bioinformatics, and information extraction.  Key to his work in building scalable solutions to such problems is the development of methods that can exploit knowledge, including the link structure between documents or genes and the structure of the relational database training from which data are drawn. Lyle and his group are also developing theoretically grounded feature selection methods that scale to millions of features, and scalable clustering and regression algorithms.'
@@ -2359,7 +2359,7 @@ sg4
 S'Professor'
 p819
 sg6
-S'images/photos/full_Van_Der_Speigel.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Van_Der_Speigel.jpg '
 p820
 sg8
 S'Microelectonics | VLSI | Sensors   Jan is exploring top-down nanotechnology in order to design intelligent sensors and sensory processing systems.  He is primarily engaged in researching analog and digital integrated circuits for intelligent sensors, data acquisition, and sensory data processing systems, and has done considerable work on image sensors that are modeled after the biological vision system.  Jan is currently focused on sensors for polarization imaging by combining micro/nano polarizer arrays with CMOS imager technology.'
@@ -2384,7 +2384,7 @@ sg4
 S'Associate Professor '
 p828
 sg6
-S'images/photos/full_Venkatesh.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Venkatesh.jpg '
 p829
 sg8
 S'Information Theory | Machine Learning | Neural Computation   Santosh is interested in probabilistic methods applied to fundamental problems in information, communication, and security.  Using tools from large deviation theory and combinatorial graph theory, he has investigated foundational questions in statistical pattern recognition, computational learning, communication efficacy, and neural computation.  Santosh is currently working on problems in wireless network connectivity, defenses against denial of service attacks on computer infrastructure, and information measures in genomics.'
@@ -2408,7 +2408,7 @@ sg4
 S'Professor '
 p836
 sg6
-S'images/photos/full_Vitek.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Vitek.jpg '
 p837
 sg8
 S"Mechanics of Materials | Nanostructured Materials | Material Interfaces   The thrust of Vasek's research is multiscale modeling of deformation and fracture behavior of materials that links electronic, atomic, nano, and macroscopic scales.  He works principally on the atomic level, which includes development of interatomic potentials that reflect both metallic and covalent aspects of bonding, as well as properties such as ferromagnetism.  This modeling involves atomistic studies of dislocations and their glide modes, structure and properties of interfaces, and interactions of these extended defects with other crystal defects."
@@ -2433,7 +2433,7 @@ sg4
 S'Carl V. S. Patterson Professor '
 p845
 sg6
-S'images/photos/full_Vohs.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Vohs.jpg '
 p846
 sg8
 S'Fuel Cells | Energy  John concentrates his research on understanding the relationships between the local atomic structure of surfaces and their chemical reactivity.  He and his group are developing molecular level descriptions of these important surface phenomena, and using insights obtained in fundamental studies of model systems to design nanoscale materials that have reactivities tailored for applications ranging from selective oxidation catalysis to electrodes for solid oxide fuel cells and other electrochemical devices.'
@@ -2458,7 +2458,7 @@ sg4
 S'UPS Foundation Professor of Transportation Engineering'
 p854
 sg6
-S'images/photos/a_full_Vuchic.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_Vuchic.jpg '
 p855
 sg8
 S"Transportation Systems  Vukan's research interests are in the area of transportation systems, especially with regard to urban transportation. In his research, he examines: urban transportation systems technology, operations, planning and economics; the definitions of transportation systems components and their modeling; and the interrelationship of cities and transportation with respect to urban planning, livability and sustainability. He has questioned the role of Maglev technology for high-speed ground transportation (HSGT) and further challenged the USDOT selection of demonstration projects."
@@ -2483,7 +2483,7 @@ sg4
 S'Associate Professor'
 p863
 sg6
-S'images/photos/full_Weirich.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Weirich.jpg '
 p864
 sg8
 S"Programming Languages | logic  The goal of Stephanie's research is to enhance the reliability, maintainability, and security of software systems through statically-typed programming languages.  Her research explores novel methods to bring more expressive type systems to users.  Stephanie works to reconcile the features of expressive-but-theoretical type systems with existing languages, while partially automating the process of type system design to improve confidence in the soundness of more complicated type systems.  Stephanie is also engaged in incorporating programming logics into the design of practical type systems so that application-specific properties may be expressed."
@@ -2508,7 +2508,7 @@ sg4
 S'Professor'
 p872
 sg6
-S'images/photos/full_Winey.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Winey.jpg '
 p873
 sg8
 S"Polymers | Chemistry of Materials | Mechanics of Materials   Karen's group designs and fabricates polymer nanocomposites containing carbon nanotubes and metal nanowires with the aim of understanding how to improve their mechanical, thermal, and especially electrical properties.  More recently Karen has expanded her work to include simulations of electrical conductivity and polymer dynamics in the presence of nanoparticles.  Karen pioneered the use of HAADF STEM to probe the nanoscale morphology in ion-containing polymers.  Now, her group focuses on correlating the structures in these materials, including block copolymers, with transport properties. "
@@ -2533,7 +2533,7 @@ sg4
 S'Professor'
 p881
 sg6
-S'images/photos/a_full_winkelstein.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/a_full_winkelstein.jpg '
 p882
 sg8
 S"Biomechanics | Neuroengineering | Orthopaedic Bioengineering   The broad goal of Beth's research is to understand the mechanisms of injury that produce whiplash, sports-related, and other painful injuries. By combining biomechanical and immunological techniques, her lab can define the relationships between injury to the cervical spine/neck and physiological cascades of persistent pain. Particular emphasis is placed on understanding injury to individual structures in the neck, such as the facet joints, nerve roots and spinal cord and how mechanical loading to these structures elicits pain. Through this work she can begin to develop thresholds for mechanical injury that produce persistent pain; and work towards a definition of the neck's tolerance for painful injury. Additional research efforts are aimed at understanding the role of biomechanics in the neuroimmunologic changes of the central nervous system that contribute to persistent pain. Applications of her current work are in the areas of automotive and whiplash-related injury and sports injuries and have implications for design efforts in automobiles that are aimed at preventing whiplash injuries."
@@ -2558,7 +2558,7 @@ sg4
 S'Associate Professor'
 p890
 sg6
-S'images/photos/full_Yang.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Yang.jpg '
 p891
 sg8
 S'Biomaterials | Polymers | Nanostructured materials   Shu is interested in developing new methodologies for the controlled synthesis, fabrication and characterization of materials with specific and unique structures and functionalities inspired by biology. Special interests include preparation of functional (co)polymers and investigation of their self-assembled nanostructures; understanding the self-organization process at surfaces and interfaces; development of novel responsive materials and non-conventional approaches for nano- and micropatterning of complex 2-D and 3-D structures; controlling wetting, adhesion and biofouling on polymer thin films.'
@@ -2583,7 +2583,7 @@ sg4
 S'Professor '
 p899
 sg6
-S'images/photos/full_Yim.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Yim.jpg '
 p900
 sg8
 S"Robotics | Mechanical Systems | Mechanical Design   Mark's research interests began with modular robots that are made up of identical active components that can be arranged to form many different configurations, ranging from a snake robot to a humanoid to a 17 legged centipede. These systems can also self-reconfigure, changing the robot's shape to suit the task. In addition to self-reconfiguring and self-assembling robots, Mark has also started work on flying robots, and task specification, working to figure out how to specify a task so that a robot configuration can optimally satisfy that task."
@@ -2608,7 +2608,7 @@ sg4
 S'Associate Professor '
 p908
 sg6
-S'images/photos/full_Zdancewek.jpg '
+S'http://www.seas.upenn.edu/directory/images/photos/full_Zdancewek.jpg '
 p909
 sg8
 S"Programming Languages | Security  Steve's research focuses on the problem of building software that is reliable, robust, and secure by construction. He draws on techniques from type theory, logic, and formal methods to develop programming languages that enforce strong information-flow and authorization policies in dynamic, distributed environments. His recent projects have developed techniques for incorporating robust declassification, dynamic principals, and cryptographic enforcement of authorization policies into a security-oriented language called AURA. Steve is also interested in machine-checked theorem proving, concurrent programming, and functional languages."

@@ -40,7 +40,7 @@ for prof in prof_profiles:
         education = re.findall("<strong>Education:</strong>(.*?)</p>",f)[0]
         #print education
     if len(re.findall("<div id=\"sidebar1\"><img src=\"(.*?)\"",f))>0:
-        image = re.findall("<div id=\"sidebar1\"><img src=\"(.*?)\"",f)[0]
+        image = "http://www.seas.upenn.edu/directory/" + re.findall("<div id=\"sidebar1\"><img src=\"(.*?)\"",f)[0]
     penn_prof_dict ={}
     penn_prof_dict["name"] = name
     penn_prof_dict["email"] = email
