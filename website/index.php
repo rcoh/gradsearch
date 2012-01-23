@@ -2,14 +2,11 @@
   session_start();
   require('util.php');
 ?>
-<!--TODO:
-  Display _SESSION['msg'] in a bootstrap message
--->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Graduate School Search</title>
+        <title>re:search</title>
         <meta name="description" content="Search for professors by research interest">
         <meta name="author" content="Leah Alpert, Russell Cohen, Ram Bhaskar">
         <!-- styles -->
@@ -18,7 +15,8 @@
         <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/search.js"></script>
+        <script type="text/javascript" src="js/autocomplete.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/bootstrap-alerts.js"></script>
         <style type="text/css">
             body {
@@ -34,7 +32,7 @@
     <body>
        <?php include('topbar.php'); ?>
         <div class="container">
-<?php
+        <?php
   if (isset($_SESSION['msg'])) {
 ?>
 
@@ -48,7 +46,7 @@
             <div class="floater" style="height:150px;">
             </div>
             <div class="center">
-                <form action="search.php">
+                <form id="search" action="search.php">
                     <fieldset>
                         <legend style="padding-left: 0px;">
                             What are you interested in?
@@ -58,7 +56,7 @@
                         </div>
                     </fieldset>
                 </form>
-            </div>
+             </div>
             <div class="floater" style="height:150px;">
             </div>
             <footer class="center" style="vertical-align:bottom;">

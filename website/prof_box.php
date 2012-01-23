@@ -4,6 +4,10 @@
             <img class="thumbnail" src="<?php echo $row['image']; ?>" alt="">
         </div>
         <div class="prof_info">
+            <div id="stars">
+                <img class="gold_star" src="gold_star.png">
+                <img class="gray_star" src="gray_star.png">
+            </div>
             <h5><?php echo $row['name']; ?></h5>
             <p><?php echo $row['school']; ?></p>
             <p><?php echo $row['department'] ?></p>

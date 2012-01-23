@@ -1,3785 +1,6095 @@
 (lp0
 (dp1
-S'image'
+S'school'
 p2
-S'http://people.cs.cmu.edu/Thumb/1469'
+S'Carnegie Mellon'
 p3
-sS'research_summary'
-p4
-S'Computational Mathematics, Computer Algebra and Experimental Mathematics'
-p5
 sS'name'
-p6
-S'Adamchik, Victor'
-p7
+p4
+S'Victor Adamchik'
+p5
 sS'personal_website'
-p8
+p6
 S'http://people.cs.cmu.edu/Person/1469"'
-p9
+p7
 sS'title'
-p10
+p8
 S'Associate Teaching Professor'
+p9
+sS'image'
+p10
+S'http://people.cs.cmu.edu/Thumb/1469'
 p11
-sa(dp12
-g2
-S'http://people.cs.cmu.edu/Thumb/486'
-p13
-sg4
-S'Applying language and program analysis techniques to software engineering problems'
+sS'keywords'
+p12
+(lp13
+S'computational mathematics'
 p14
-sg6
-S'Aldrich, Jonathan'
+aS'computer algebra and experimental mathematics'
 p15
-sg8
-S'http://people.cs.cmu.edu/Person/486"'
+asS'department'
 p16
-sg10
-S'Associate Professor'
+S'Computer Science'
 p17
 sa(dp18
 g2
-S'http://people.cs.cmu.edu/Thumb/266'
+g3
+sg4
+S'Jonathan Aldrich'
 p19
-sg4
-S'Enabling Technologies, Learning Sciences and Technologies '
-p20
 sg6
-S'Aleven, Vincent'
-p21
+S'http://people.cs.cmu.edu/Person/486"'
+p20
 sg8
-S'http://people.cs.cmu.edu/Person/266"'
-p22
-sg10
 S'Associate Professor'
+p21
+sg10
+S'http://people.cs.cmu.edu/Thumb/486'
+p22
+sS'research_summary'
 p23
-sa(dp24
+S'Applying language and program analysis techniques to software engineering problems'
+p24
+sg16
+g17
+sa(dp25
 g2
-S'http://people.cs.cmu.edu/Thumb/72'
-p25
+g3
 sg4
-S'Biological vision '
+S'Vincent Aleven'
 p26
 sg6
-S'Amidi, Omead'
+S'http://people.cs.cmu.edu/Person/266"'
 p27
 sg8
-S'http://people.cs.cmu.edu/Person/72"'
+S'Associate Professor'
 p28
 sg10
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/266'
 p29
-sa(dp30
-g2
-S'http://people.cs.cmu.edu/Thumb/543'
+sg12
+(lp30
+S'enabling technologies'
 p31
-sg4
-S'Computer systems in the networked environment'
+aS'learning sciences and technologies'
 p32
-sg6
-S'Andersen, David'
-p33
-sg8
-S'http://people.cs.cmu.edu/Person/543"'
+asg16
+g17
+sa(dp33
+g2
+g3
+sg4
+S'Omead Amidi'
 p34
-sg10
-S'Associate Professor'
+sg6
+S'http://people.cs.cmu.edu/Person/72"'
 p35
-sa(dp36
-g2
-S'http://people.cs.cmu.edu/Thumb/128'
-p37
-sg4
-S'Learning Sciences and Technologies '
-p38
-sg6
-S'Anderson, John'
-p39
 sg8
-S'http://people.cs.cmu.edu/Person/128"'
-p40
-sg10
-S'R. K. Mellon Univ Prof of Psych-Comp Sci'
-p41
-sa(dp42
-g2
-S'http://people.cs.cmu.edu/Thumb/2629'
-p43
-sg4
-S'Social Computing '
-p44
-sg6
-S'Andre, Paul'
-p45
-sg8
-S'http://people.cs.cmu.edu/Person/2629"'
-p46
-sg10
-S'Post Doctoral Fellow'
-p47
-sa(dp48
-g2
-S'http://people.cs.cmu.edu/Thumb/138'
-p49
-sg4
-S'Wheeled locomotion, modeling &amp; simulation, teleoperation, systems engineering, space robotics, mobile robots, mechatronics, mechanisms, legged locomotion, field robotics, design, control'
-p50
-sg6
-S'Apostolopoulos, Dimitrios'
-p51
-sg8
-S'http://people.cs.cmu.edu/Person/138"'
-p52
-sg10
 S'Senior Systems Scientist'
+p36
+sg10
+S'http://people.cs.cmu.edu/Thumb/72'
+p37
+sg12
+(lp38
+S'biological vision'
+p39
+asg16
+g17
+sa(dp40
+g2
+g3
+sg4
+S'David Andersen'
+p41
+sg6
+S'http://people.cs.cmu.edu/Person/543"'
+p42
+sg8
+S'Associate Professor'
+p43
+sg10
+S'http://people.cs.cmu.edu/Thumb/543'
+p44
+sg12
+(lp45
+S'computer systems in the networked environment'
+p46
+asg16
+g17
+sa(dp47
+g2
+g3
+sg4
+S'John Anderson'
+p48
+sg6
+S'http://people.cs.cmu.edu/Person/128"'
+p49
+sg8
+S'R. K. Mellon Univ Prof of Psych-Comp Sci'
+p50
+sg10
+S'http://people.cs.cmu.edu/Thumb/128'
+p51
+sg12
+(lp52
+S'learning sciences and technologies'
 p53
+asg16
+g17
 sa(dp54
 g2
-S'http://people.cs.cmu.edu/Thumb/371'
+g3
+sg4
+S'Paul Andre'
 p55
-sg4
-S'Wheeled locomotion, modeling &amp; simulation, teleoperation, systems engineering, space robotics, mobile robots, mechatronics, mechanisms, legged locomotion, field robotics, design, control'
-p56
 sg6
-S'Atkeson, Christopher'
-p57
+S'http://people.cs.cmu.edu/Person/2629"'
+p56
 sg8
-S'http://people.cs.cmu.edu/Person/371"'
-p58
+S'Post Doctoral Fellow'
+p57
 sg10
-S'Professor'
-p59
-sa(dp60
+S'http://people.cs.cmu.edu/Thumb/2629'
+p58
+sg12
+(lp59
+S'social computing'
+p60
+asg16
+g17
+sa(dp61
 g2
-S'http://people.cs.cmu.edu/Thumb/331'
-p61
+g3
 sg4
-S'Planning, mobile robots, machine learning, control, artificial intelligence'
+S'Dimitrios Apostolopoulos'
 p62
 sg6
-S'Bagnell, James'
+S'http://people.cs.cmu.edu/Person/138"'
 p63
 sg8
-S'http://people.cs.cmu.edu/Person/331"'
+S'Senior Systems Scientist'
 p64
 sg10
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/138'
 p65
-sa(dp66
-g2
-S'http://people.cs.cmu.edu/Thumb/1454'
+sg12
+(lp66
+S'wheeled locomotion'
 p67
-sg4
-S'Range finders, mobile robots, mechanisms, legged locomotion, hazardous environments, field robotics, construction, actuators, active perception, 3-D perception'
+aS'modeling &amp'
 p68
-sg6
-S'Bares, John'
+aS'simulation'
 p69
-sg8
-S'http://people.cs.cmu.edu/Person/1454"'
+aS'teleoperation'
 p70
-sg10
-S'Research Professor'
+aS'systems engineering'
 p71
-sa(dp72
-g2
-S'http://people.cs.cmu.edu/Thumb/482'
+aS'space robotics'
+p72
+aS'mobile robots'
 p73
-sg4
-S'Computational biology, systems biology, time series analysis, andapplied machine learning'
+aS'mechatronics'
 p74
-sg6
-S'Bar-Joseph, Ziv'
+aS'mechanisms'
 p75
-sg8
-S'http://people.cs.cmu.edu/Person/482"'
+aS'legged locomotion'
 p76
-sg10
-S'Associate Professor'
+aS'field robotics'
 p77
-sa(dp78
-g2
-S'http://people.cs.cmu.edu/Thumb/578'
+aS'design'
+p78
+aS'control'
 p79
+asg16
+g17
+sa(dp80
+g2
+g3
 sg4
-S''
-p80
-sg6
-S'Bentivegna, Darrin'
+S'Christopher Atkeson'
 p81
-sg8
-S'http://people.cs.cmu.edu/Person/578"'
+sg6
+S'http://people.cs.cmu.edu/Person/371"'
 p82
-sg10
-S'Adjunct Faculty Member'
+sg8
+S'Professor'
 p83
-sa(dp84
-g2
-S'http://people.cs.cmu.edu/Thumb/247'
-p85
-sg4
-S'Systems engineering, planning, motion planning, mobile robots, manipulation, human-robot interaction, field robotics, education, control, autonomous navigation, active perception'
+sg10
+S'http://people.cs.cmu.edu/Thumb/371'
+p84
+sg12
+(lp85
+S'wheeled locomotion'
 p86
-sg6
-S'Bergerman, Marcel'
+aS'modeling &amp'
 p87
-sg8
-S'http://people.cs.cmu.edu/Person/247"'
+aS'simulation'
 p88
-sg10
-S'Systems Scientist'
+aS'teleoperation'
 p89
-sa(dp90
-g2
-S'http://people.cs.cmu.edu/Thumb/306'
+aS'systems engineering'
+p90
+aS'space robotics'
 p91
-sg4
-S'Speech Synthesis, Speech to Speech Translation, Spoken Dialog Systems'
+aS'mobile robots'
 p92
-sg6
-S'Black, Alan'
+aS'mechatronics'
 p93
-sg8
-S'http://people.cs.cmu.edu/Person/306"'
+aS'mechanisms'
 p94
-sg10
-S'Associate Professor'
+aS'legged locomotion'
 p95
-sa(dp96
-g2
-S'http://people.cs.cmu.edu/Thumb/27'
+aS'field robotics'
+p96
+aS'design'
 p97
-sg4
-S'Thread scheduling, parallel algorithms, NESL language, provably efficient language implementations, pipelining with futures, multiprocessor garbage collection, multibank memory systems '
+aS'control'
 p98
-sg6
-S'Blelloch, Guy'
-p99
-sg8
-S'http://people.cs.cmu.edu/Person/27"'
+asg16
+g17
+sa(dp99
+g2
+g3
+sg4
+S'James Bagnell'
 p100
-sg10
-S'Professor'
+sg6
+S'http://people.cs.cmu.edu/Person/331"'
 p101
-sa(dp102
-g2
-S'http://people.cs.cmu.edu/Thumb/327'
+sg8
+S'Associate Professor'
+p102
+sg10
+S'http://people.cs.cmu.edu/Thumb/331'
 p103
-sg4
-S'Complexity and real computation; transfer theorems for complexity theory; ALADDIN Center, Project Olympus and Women@SCS '
-p104
-sg6
-S'Blum, Lenore'
+sg12
+(lp104
+S'planning'
 p105
-sg8
-S'http://people.cs.cmu.edu/Person/327"'
+aS'mobile robots'
 p106
-sg10
-S'Distinguished Career Professor of CS'
+aS'machine learning'
 p107
-sa(dp108
-g2
-S'http://people.cs.cmu.edu/Thumb/160'
+aS'control'
+p108
+aS'artificial intelligence'
 p109
+asg16
+g17
+sa(dp110
+g2
+g3
 sg4
-S'Machine learning theory, approximation algorithms, on-line algorithms, and analysis of heuristics '
-p110
-sg6
-S'Blum, Avrim'
+S'John Bares'
 p111
-sg8
-S'http://people.cs.cmu.edu/Person/160"'
+sg6
+S'http://people.cs.cmu.edu/Person/1454"'
 p112
-sg10
-S'Professor'
+sg8
+S'Research Professor'
 p113
-sa(dp114
-g2
-S'http://people.cs.cmu.edu/Thumb/336'
-p115
-sg4
-S'Algorithms, complexity theory, cryptography, human interactive proofs '
+sg10
+S'http://people.cs.cmu.edu/Thumb/1454'
+p114
+sg12
+(lp115
+S'range finders'
 p116
-sg6
-S'Blum, Manuel'
+aS'mobile robots'
 p117
-sg8
-S'http://people.cs.cmu.edu/Person/336"'
+aS'mechanisms'
 p118
-sg10
-S'University Professor'
+aS'legged locomotion'
 p119
-sa(dp120
-g2
-S'http://people.cs.cmu.edu/Thumb/12'
+aS'hazardous environments'
+p120
+aS'field robotics'
 p121
-sg4
-S'Manufacturing'
+aS'construction'
 p122
-sg6
-S'Bourne, David'
+aS'actuators'
 p123
-sg8
-S'http://people.cs.cmu.edu/Person/12"'
+aS'active perception'
 p124
-sg10
-S'Principal Systems Scientist'
+aS'3-d perception'
 p125
+asg16
+g17
 sa(dp126
 g2
-S'http://people.cs.cmu.edu/Thumb/113'
+g3
+sg4
+S'Ziv Bar-Joseph'
 p127
-sg4
-S'How words, images, motion, and sound work together to produce effective communication pieces '
+sg6
+S'http://people.cs.cmu.edu/Person/482"'
 p128
-sg6
-S'Boyarski, Daniel'
+sg8
+S'Associate Professor'
 p129
-sg8
-S'http://people.cs.cmu.edu/Person/113"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/482'
 p130
-sg10
-S'Professor'
-p131
-sa(dp132
-g2
-S'http://people.cs.cmu.edu/Thumb/74'
+sg12
+(lp131
+S'computational biology'
+p132
+aS'systems biology'
 p133
-sg4
-S'Mathematical theory of computation, theory of programming languages, the mathematical semantics of programming languages '
+aS'time series analysis'
 p134
-sg6
-S'Brookes, Stephen'
+aS'applied machine learning'
 p135
-sg8
-S'http://people.cs.cmu.edu/Person/74"'
-p136
-sg10
-S'Professor'
+asg16
+g17
+sa(dp136
+g2
+g3
+sg4
+S'Darrin Bentivegna'
 p137
-sa(dp138
-g2
-S'http://people.cs.cmu.edu/Thumb/122'
+sg6
+S'http://people.cs.cmu.edu/Person/578"'
+p138
+sg8
+S'Adjunct Faculty Member'
 p139
-sg4
-g80
-sg6
-S'Brown, Ralf'
+sg10
+S'http://people.cs.cmu.edu/Thumb/578'
 p140
-sg8
-S'http://people.cs.cmu.edu/Person/122"'
+sg23
+S''
 p141
-sg10
-S'Senior Systems Scientist'
-p142
-sa(dp143
+sg16
+g17
+sa(dp142
 g2
-S'http://people.cs.cmu.edu/Thumb/381'
+g3
+sg4
+S'Marcel Bergerman'
+p143
+sg6
+S'http://people.cs.cmu.edu/Person/247"'
 p144
-sg4
-g80
-sg6
-S'Browning, Brett'
+sg8
+S'Systems Scientist'
 p145
-sg8
-S'http://people.cs.cmu.edu/Person/381"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/247'
 p146
-sg10
-S'Senior Systems Scientist'
-p147
-sa(dp148
-g2
-S'http://people.cs.cmu.edu/Thumb/2532'
+sg12
+(lp147
+S'systems engineering'
+p148
+aS'planning'
 p149
-sg4
-g80
-sg6
-S'Brunskill, Emma'
+aS'motion planning'
 p150
-sg8
-S'http://people.cs.cmu.edu/Person/2532"'
+aS'mobile robots'
 p151
-sg10
-S'Assistant Professor'
+aS'manipulation'
 p152
-sa(dp153
-g2
-S'http://people.cs.cmu.edu/Thumb/111'
+aS'human-robot interaction'
+p153
+aS'field robotics'
 p154
-sg4
-S'Formal verification of hardware and embedded systems; data structures and algorithms for representing and reasoning about different classes of logic '
+aS'education'
 p155
-sg6
-S'Bryant, Randal'
+aS'control'
 p156
-sg8
-S'http://people.cs.cmu.edu/Person/111"'
+aS'autonomous navigation'
 p157
-sg10
-S'Dean of SCS / University Professor of CS'
+aS'active perception'
 p158
+asg16
+g17
 sa(dp159
 g2
-S'http://people.cs.cmu.edu/Thumb/322'
+g3
+sg4
+S'Alan Black'
 p160
-sg4
-S'Information retrieval models; search engine architectures; adaptive information filtering; text analysis and organization; and text mining.'
+sg6
+S'http://people.cs.cmu.edu/Person/306"'
 p161
-sg6
-S'Callan, James'
+sg8
+S'Associate Professor'
 p162
-sg8
-S'http://people.cs.cmu.edu/Person/322"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/306'
 p163
-sg10
-S'Professor'
-p164
-sa(dp165
-g2
-S'http://people.cs.cmu.edu/Thumb/4'
+sg12
+(lp164
+S'speech synthesis'
+p165
+aS'speech to speech translation'
 p166
-sg4
-S'Artificial intelligence, natural-language processing, machine learning, machine translation '
+aS'spoken dialog systems'
 p167
-sg6
-S'Carbonell, Jaime'
-p168
-sg8
-S'http://people.cs.cmu.edu/Person/4"'
+asg16
+g17
+sa(dp168
+g2
+g3
+sg4
+S'Guy Blelloch'
 p169
-sg10
-S'Director-LTI / Professor CS and LT'
+sg6
+S'http://people.cs.cmu.edu/Person/27"'
 p170
-sa(dp171
-g2
-S'http://people.cs.cmu.edu/Thumb/120'
-p172
-sg4
-S'Network science, dynamic network analysis, link analysis, multi-agent simulation, text-analysis in support of interdisciplinary research linking computation to complex socio-cultural phenomenon'
-p173
-sg6
-S'Carley, Kathleen'
-p174
 sg8
-S'http://people.cs.cmu.edu/Person/120"'
-p175
-sg10
 S'Professor'
+p171
+sg10
+S'http://people.cs.cmu.edu/Thumb/27'
+p172
+sg12
+(lp173
+S'thread scheduling'
+p174
+aS'parallel algorithms'
+p175
+aS'nesl language'
 p176
-sa(dp177
-g2
-S'http://people.cs.cmu.edu/Thumb/44'
+aS'provably efficient language implementations'
+p177
+aS'pipelining with futures'
 p178
-sg4
-S'Introductory Programming Group, SCS representative in Educational Facilities Committee  '
+aS'multiprocessor garbage collection'
 p179
-sg6
-S'Carrasquel, Jacobo'
+aS'multibank memory systems'
 p180
-sg8
-S'http://people.cs.cmu.edu/Person/44"'
-p181
-sg10
-S'Assoc. Teach. Prof.  / Ugrad Adv. for CS'
+asg16
+g17
+sa(dp181
+g2
+g3
+sg4
+S'Lenore Blum'
 p182
-sa(dp183
-g2
-S'http://people.cs.cmu.edu/Thumb/1903'
+sg6
+S'http://people.cs.cmu.edu/Person/327"'
+p183
+sg8
+S'Distinguished Career Professor of CS'
 p184
-sg4
-S'To establish a new level of performance, responsiveness, predictability and quality in large, embedded, and complex system architecture, design, development, deployment, and operations activities. '
+sg10
+S'http://people.cs.cmu.edu/Thumb/327'
 p185
-sg6
-S'Carter, Lynn'
-p186
-sg8
-S'http://people.cs.cmu.edu/Person/1903"'
+sg12
+(lp186
+S'complexity and real computation'
 p187
-sg10
-S'Associate Teaching Professor, ISR'
+aS'transfer theorems for complexity theory'
 p188
-sa(dp189
-g2
-S'http://people.cs.cmu.edu/Thumb/1221'
+aS'aladdin center'
+p189
+aS'project olympus and women@scs'
 p190
-sg4
-S'Enabling Technologies, Learning Sciences and Technologies, Social Computing '
-p191
-sg6
-S'Cassell, Justine'
-p192
-sg8
-S'http://people.cs.cmu.edu/Person/1221"'
-p193
-sg10
-S'Director and Professor'
-p194
-sa(dp195
+asg16
+g17
+sa(dp191
 g2
-S'http://people.cs.cmu.edu/Thumb/1901'
-p196
+g3
 sg4
-S'Computational logic; linear logic; logical frameworks; theory of programming languages; security protocol verification. '
-p197
+S'Avrim Blum'
+p192
 sg6
-S'Cervesato, Iliano'
-p198
+S'http://people.cs.cmu.edu/Person/160"'
+p193
 sg8
-S'http://people.cs.cmu.edu/Person/1901"'
-p199
+S'Professor'
+p194
 sg10
-S'Associate Teaching Professor, CSD (Qatar)'
+S'http://people.cs.cmu.edu/Thumb/160'
+p195
+sg12
+(lp196
+S'machine learning theory'
+p197
+aS'approximation algorithms'
+p198
+aS'on-line algorithms'
+p199
+aS'analysis of heuristics'
 p200
+asg16
+g17
 sa(dp201
 g2
-S'http://people.cs.cmu.edu/Thumb/236'
+g3
+sg4
+S'Manuel Blum'
 p202
-sg4
-S'Space robotics, snake robots, multirobot systems, motion planning, mobile robots, mechatronics, mechanisms, inspection, field robotics, factory and warehouse automation, education, control, artificial intelligence'
+sg6
+S'http://people.cs.cmu.edu/Person/336"'
 p203
-sg6
-S'Choset, Howard'
+sg8
+S'University Professor'
 p204
-sg8
-S'http://people.cs.cmu.edu/Person/236"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/336'
 p205
-sg10
-S'Professor'
-p206
-sa(dp207
-g2
-S'http://people.cs.cmu.edu/Thumb/98'
+sg12
+(lp206
+S'algorithms'
+p207
+aS'complexity theory'
 p208
-sg4
-S'Hardware and Software Verification using Model Checking '
+aS'cryptography'
 p209
-sg6
-S'Clarke, Edmund'
+aS'human interactive proofs'
 p210
-sg8
-S'http://people.cs.cmu.edu/Person/98"'
-p211
-sg10
-S'Fore Systems University Professor'
-p212
-sa(dp213
+asg16
+g17
+sa(dp211
 g2
-S'http://people.cs.cmu.edu/Thumb/389'
-p214
+g3
 sg4
-g80
+S'David Bourne'
+p212
 sg6
-S'Cohen, William'
-p215
+S'http://people.cs.cmu.edu/Person/12"'
+p213
 sg8
-S'http://people.cs.cmu.edu/Person/389"'
-p216
+S'Principal Systems Scientist'
+p214
 sg10
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/12'
+p215
+sg12
+(lp216
+S'manufacturing'
 p217
+asg16
+g17
 sa(dp218
 g2
-S'http://people.cs.cmu.edu/Thumb/95'
-p219
+g3
 sg4
-S'Programming languages, operating systems, networks, and open-source software, commercialization of information technology '
-p220
+S'Daniel Boyarski'
+p219
 sg6
-S'Cooper, Eric'
-p221
+S'http://people.cs.cmu.edu/Person/113"'
+p220
 sg8
-S'http://people.cs.cmu.edu/Person/95"'
-p222
+S'Professor'
+p221
 sg10
-S'Distinguished Service Prof.  of Comp. Sci. '
+S'http://people.cs.cmu.edu/Thumb/113'
+p222
+sg23
+S'How words, images, motion, and sound work together to produce effective communication pieces '
 p223
+sg16
+g17
 sa(dp224
 g2
-S'http://people.cs.cmu.edu/Thumb/29'
+g3
+sg4
+S'Stephen Brookes'
 p225
-sg4
-S'Learning Sciences and Technologies  '
+sg6
+S'http://people.cs.cmu.edu/Person/74"'
 p226
-sg6
-S'Corbett, Albert'
+sg8
+S'Professor'
 p227
-sg8
-S'http://people.cs.cmu.edu/Person/29"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/74'
 p228
-sg10
-S'Associate Research Professor'
-p229
-sa(dp230
-g2
-S'http://people.cs.cmu.edu/Thumb/531'
+sg12
+(lp229
+S'mathematical theory of computation'
+p230
+aS'theory of programming languages'
 p231
-sg4
-S'Computer Science education'
+aS'the mathematical semantics of programming languages'
 p232
-sg6
-S'Cortina, Thomas'
-p233
-sg8
-S'http://people.cs.cmu.edu/Person/531"'
+asg16
+g17
+sa(dp233
+g2
+g3
+sg4
+S'Ralf Brown'
 p234
-sg10
-S'Associate Teaching Professor'
-p235
-sa(dp236
-g2
-S'http://people.cs.cmu.edu/Thumb/507'
-p237
-sg4
-S'Privacy, usable privacy and security software, computers andsociety, technology policy, voting'
-p238
 sg6
-S'Cranor, Lorrie'
-p239
+S'http://people.cs.cmu.edu/Person/122"'
+p235
 sg8
-S'http://people.cs.cmu.edu/Person/507"'
-p240
+S'Senior Systems Scientist'
+p236
 sg10
-S'Associate Professor'
-p241
-sa(dp242
+S'http://people.cs.cmu.edu/Thumb/122'
+p237
+sg23
+g141
+sg16
+g17
+sa(dp238
 g2
-S'http://people.cs.cmu.edu/Thumb/296'
-p243
+g3
 sg4
-S'Programming languages, type theory, logic, certified code, and machine-readable proofs. '
+S'Brett Browning'
+p239
+sg6
+S'http://people.cs.cmu.edu/Person/381"'
+p240
+sg8
+S'Senior Systems Scientist'
+p241
+sg10
+S'http://people.cs.cmu.edu/Thumb/381'
+p242
+sg23
+g141
+sg16
+g17
+sa(dp243
+g2
+g3
+sg4
+S'Emma Brunskill'
 p244
 sg6
-S'Crary, Karl'
+S'http://people.cs.cmu.edu/Person/2532"'
 p245
 sg8
-S'http://people.cs.cmu.edu/Person/296"'
+S'Assistant Professor'
 p246
 sg10
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/2532'
 p247
+sg23
+g141
+sg16
+g17
 sa(dp248
 g2
-S'http://people.cs.cmu.edu/Thumb/788'
-p249
+g3
 sg4
-S'Visualization in Programming Languages; Applying visualization in teaching and learning computer science'
-p250
+S'Randal Bryant'
+p249
 sg6
-S'Dann, Wanda'
-p251
+S'http://people.cs.cmu.edu/Person/111"'
+p250
 sg8
-S'http://people.cs.cmu.edu/Person/788"'
-p252
+S'Dean of SCS / University Professor of CS'
+p251
 sg10
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/111'
+p252
+sg23
+S'Formal verification of hardware and embedded systems; data structures and algorithms for representing and reasoning about different classes of logic '
 p253
+sg16
+g17
 sa(dp254
 g2
-S'http://people.cs.cmu.edu/Thumb/119'
+g3
+sg4
+S'James Callan'
 p255
-sg4
-S'Computer Music '
+sg6
+S'http://people.cs.cmu.edu/Person/322"'
 p256
-sg6
-S'Dannenberg, Roger'
-p257
 sg8
-S'http://people.cs.cmu.edu/Person/119"'
-p258
-sg10
-S'Associate Research Professor'
-p259
-sa(dp260
-g2
-S'http://people.cs.cmu.edu/Thumb/439'
-p261
-sg4
-S'Statistics, sensor fusion, quality-of-life technology, pattern recognition, neural networks, machine understanding of video and human behavior, machine learning, information fusion, image processing, image compression, gesture recognition, data visualization, data mining, computer vision, artificial intelligence'
-p262
-sg6
-S'De La Torre Frade, Fernando'
-p263
-sg8
-S'http://people.cs.cmu.edu/Person/439"'
-p264
-sg10
-S'Associate Research Professor'
-p265
-sa(dp266
-g2
-S'http://people.cs.cmu.edu/Thumb/579'
-p267
-sg4
-S'Design Research, Enabling Technologies'
-p268
-sg6
-S'Dey, Anind'
-p269
-sg8
-S'http://people.cs.cmu.edu/Person/579"'
-p270
-sg10
-S'Associate Professor'
-p271
-sa(dp272
-g2
-S'http://people.cs.cmu.edu/Thumb/299'
-p273
-sg4
-S'Technology for developing communities, space robotics, planning, multi-agent systems, motion planning, mobile robots, human-computer interaction, hazardous environments, field robotics, education, artificial intelligence'
-p274
-sg6
-S'Dias, M'
-p275
-sg8
-S'http://people.cs.cmu.edu/Person/299"'
-p276
-sg10
-S'Associate Research Professor'
-p277
-sa(dp278
-g2
-S'http://people.cs.cmu.edu/Thumb/83'
-p279
-sg4
-S'Teleoperation, space robotics, mobile robots, mechatronics, human-computer interaction, factory and warehouse automation, control'
-p280
-sg6
-S'Dolan, John'
-p281
-sg8
-S'http://people.cs.cmu.edu/Person/83"'
-p282
-sg10
-S'Principal Systems Scientist'
-p283
-sa(dp284
-g2
-S'http://people.cs.cmu.edu/Thumb/2591'
-p285
-sg4
-S'Design Research '
-p286
-sg6
-S'Dow, Steven'
-p287
-sg8
-S'http://people.cs.cmu.edu/Person/2591"'
-p288
-sg10
-S'Assistant Professor'
-p289
-sa(dp290
-g2
-S'http://people.cs.cmu.edu/Thumb/221'
-p291
-sg4
-S'Data mining, machine learning, data visualization, artificial intelligence, statistics, pattern recognition'
-p292
-sg6
-S'Dubrawski, Artur'
-p293
-sg8
-S'http://people.cs.cmu.edu/Person/221"'
-p294
-sg10
-S'Sr Systems Scientist / Adj Professor Mism'
-p295
-sa(dp296
-g2
-S'http://people.cs.cmu.edu/Thumb/368'
-p297
-sg4
-S'Computational molecular biology and computational genomics  '
-p298
-sg6
-S'Durand, M'
-p299
-sg8
-S'http://people.cs.cmu.edu/Person/368"'
-p300
-sg10
-S'Associate Professor'
-p301
-sa(dp302
-g2
-S'http://people.cs.cmu.edu/Thumb/140'
-p303
-sg4
-S'Operating systems, computer networks, wireless networks'
-p304
-sg6
-S'Eckhardt, David'
-p305
-sg8
-S'http://people.cs.cmu.edu/Person/140"'
-p306
-sg10
-S'Associate Teaching Professor'
-p307
-sa(dp308
-g2
-S'http://people.cs.cmu.edu/Thumb/2'
-p309
-sg4
-S'The statistical problems associated with Functional Magnetic Resonance Imaging (fMRI) '
-p310
-sg6
-S'Eddy, William'
-p311
-sg8
-S'http://people.cs.cmu.edu/Person/2"'
-p312
-sg10
 S'Professor'
-p313
-sa(dp314
+p257
+sg10
+S'http://people.cs.cmu.edu/Thumb/322'
+p258
+sg12
+(lp259
+S'information retrieval models'
+p260
+aS'search engine architectures'
+p261
+aS'adaptive information filtering'
+p262
+aS'text analysis and organization'
+p263
+aS'text mining'
+p264
+asg16
+g17
+sa(dp265
 g2
-S'http://people.cs.cmu.edu/Thumb/528'
+g3
+sg4
+S'Jaime Carbonell'
+p266
+sg6
+S'http://people.cs.cmu.edu/Person/4"'
+p267
+sg8
+S'Director-LTI / Professor CS and LT'
+p268
+sg10
+S'http://people.cs.cmu.edu/Thumb/4'
+p269
+sg12
+(lp270
+S'artificial intelligence'
+p271
+aS'natural-language processing'
+p272
+aS'machine learning'
+p273
+aS'machine translation'
+p274
+asg16
+g17
+sa(dp275
+g2
+g3
+sg4
+S'Kathleen Carley'
+p276
+sg6
+S'http://people.cs.cmu.edu/Person/120"'
+p277
+sg8
+S'Professor'
+p278
+sg10
+S'http://people.cs.cmu.edu/Thumb/120'
+p279
+sg23
+S'Network science, dynamic network analysis, link analysis, multi-agent simulation, text-analysis in support of interdisciplinary research linking computation to complex socio-cultural phenomenon'
+p280
+sg16
+g17
+sa(dp281
+g2
+g3
+sg4
+S'Jacobo Carrasquel'
+p282
+sg6
+S'http://people.cs.cmu.edu/Person/44"'
+p283
+sg8
+S'Assoc. Teach. Prof.  / Ugrad Adv. for CS'
+p284
+sg10
+S'http://people.cs.cmu.edu/Thumb/44'
+p285
+sg12
+(lp286
+S'introductory programming group'
+p287
+aS'scs representative in educational facilities committee'
+p288
+asg16
+g17
+sa(dp289
+g2
+g3
+sg4
+S'Lynn Carter'
+p290
+sg6
+S'http://people.cs.cmu.edu/Person/1903"'
+p291
+sg8
+S'Associate Teaching Professor, ISR'
+p292
+sg10
+S'http://people.cs.cmu.edu/Thumb/1903'
+p293
+sg12
+(lp294
+S'to establish a new level of performance'
+p295
+aS'responsiveness'
+p296
+aS'predictability and quality in large'
+p297
+aS'embedded'
+p298
+aS' complex system architecture'
+p299
+aS'design'
+p300
+aS'development'
+p301
+aS'deployment'
+p302
+aS' operations activities'
+p303
+asg16
+g17
+sa(dp304
+g2
+g3
+sg4
+S'Justine Cassell'
+p305
+sg6
+S'http://people.cs.cmu.edu/Person/1221"'
+p306
+sg8
+S'Director and Professor'
+p307
+sg10
+S'http://people.cs.cmu.edu/Thumb/1221'
+p308
+sg12
+(lp309
+S'enabling technologies'
+p310
+aS'learning sciences and technologies'
+p311
+aS'social computing'
+p312
+asg16
+g17
+sa(dp313
+g2
+g3
+sg4
+S'Iliano Cervesato'
+p314
+sg6
+S'http://people.cs.cmu.edu/Person/1901"'
 p315
-sg4
-S'Object recognition, machine learning, image processing, computer vision, computer graphics'
+sg8
+S'Associate Teaching Professor, CSD (Qatar)'
 p316
-sg6
-S'Efros, Alexei'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1901'
 p317
-sg8
-S'http://people.cs.cmu.edu/Person/528"'
-p318
-sg10
-S'Associate Professor'
+sg12
+(lp318
+S'computational logic'
 p319
-sa(dp320
-g2
-S'http://people.cs.cmu.edu/Thumb/347'
+aS'linear logic'
+p320
+aS'logical frameworks'
 p321
-sg4
-g80
-sg6
-S'Eppinger, Jeffrey'
+aS'theory of programming languages'
 p322
-sg8
-S'http://people.cs.cmu.edu/Person/347"'
+aS'security protocol verification'
 p323
-sg10
-S'Professor of the Practice'
-p324
-sa(dp325
+asg16
+g17
+sa(dp324
 g2
-S'http://people.cs.cmu.edu/Thumb/136'
+g3
+sg4
+S'Howard Choset'
+p325
+sg6
+S'http://people.cs.cmu.edu/Person/236"'
 p326
-sg4
-S'Shape sensing, protein structure, protein knot theory, motion planning, mobile manipulation, manipulation mechanics'
+sg8
+S'Professor'
 p327
-sg6
-S'Erdmann, Michael'
+sg10
+S'http://people.cs.cmu.edu/Thumb/236'
 p328
-sg8
-S'http://people.cs.cmu.edu/Person/136"'
-p329
-sg10
-S'Professor, Computer Science and Robotics'
+sg12
+(lp329
+S'space robotics'
 p330
-sa(dp331
-g2
-S'http://people.cs.cmu.edu/Thumb/199'
+aS'snake robots'
+p331
+aS'multirobot systems'
 p332
-sg4
-g80
-sg6
-S'Eskenazi, Maxine'
+aS'motion planning'
 p333
-sg8
-S'http://people.cs.cmu.edu/Person/199"'
+aS'mobile robots'
 p334
-sg10
-S'Principal Systems Scientist'
+aS'mechatronics'
 p335
-sa(dp336
-g2
-S'http://people.cs.cmu.edu/Thumb/1446'
+aS'mechanisms'
+p336
+aS'inspection'
 p337
-sg4
-S'Artificial Intelligence and its applications '
+aS'field robotics'
 p338
-sg6
-S'Fahlman, Scott'
+aS'factory and warehouse automation'
 p339
-sg8
-S'http://people.cs.cmu.edu/Person/1446"'
+aS'education'
 p340
-sg10
-S'Research Professor'
+aS'control'
 p341
-sa(dp342
+aS'artificial intelligence'
+p342
+asg16
+g17
+sa(dp343
 g2
-S'http://people.cs.cmu.edu/Thumb/268'
-p343
+g3
 sg4
-S'Databases, data mining '
+S'Edmund Clarke'
 p344
 sg6
-S'Faloutsos, Christos'
+S'http://people.cs.cmu.edu/Person/98"'
 p345
 sg8
-S'http://people.cs.cmu.edu/Person/268"'
+S'Fore Systems University Professor'
 p346
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/98'
 p347
-sa(dp348
+sg23
+S'Hardware and Software Verification using Model Checking '
+p348
+sg16
+g17
+sa(dp349
 g2
-S'http://people.cs.cmu.edu/Thumb/446'
-p349
+g3
 sg4
-g80
-sg6
-S'Farber, David'
+S'William Cohen'
 p350
-sg8
-S'http://people.cs.cmu.edu/Person/446"'
+sg6
+S'http://people.cs.cmu.edu/Person/389"'
 p351
-sg10
-S'Distinguished Career Prof of CS  Pp'
+sg8
+S'Research Professor'
 p352
-sa(dp353
+sg10
+S'http://people.cs.cmu.edu/Thumb/389'
+p353
+sg23
+g141
+sg16
+g17
+sa(dp354
 g2
-S'http://people.cs.cmu.edu/Thumb/2234'
-p354
+g3
 sg4
-S'Computer graphics, graphics architectures, parallelarchitecture and programming models'
+S'Eric Cooper'
 p355
 sg6
-S'Fatahalian, Kayvon'
+S'http://people.cs.cmu.edu/Person/95"'
 p356
 sg8
-S'http://people.cs.cmu.edu/Person/2234"'
+S'Distinguished Service Prof.  of Comp. Sci. '
 p357
 sg10
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/95'
 p358
-sa(dp359
-g2
-S'http://people.cs.cmu.edu/Thumb/204'
+sg12
+(lp359
+S'programming languages'
 p360
-sg4
-S'VLSI, sensors, microrobotics, MEMS, mechatronics'
+aS'operating systems'
 p361
-sg6
-S'Fedder, Gary'
+aS'networks'
 p362
-sg8
-S'http://people.cs.cmu.edu/Person/204"'
+aS'open-source software'
 p363
-sg10
-S'Prof of ECE &amp; Robotics; Director of Ices'
+aS'commercialization of information technology'
 p364
+asg16
+g17
 sa(dp365
 g2
-S'http://people.cs.cmu.edu/Thumb/7'
+g3
+sg4
+S'Albert Corbett'
 p366
-sg4
-S'Analysis of categorical data; Bayesian approaches to confidentiality and data disclosure; causation; foundations of statistical inference; history of statistics; sample surveys and randomized experiments; statistics and the law; inference for multiple-media data '
-p367
 sg6
-S'Fienberg, Stephen'
-p368
+S'http://people.cs.cmu.edu/Person/29"'
+p367
 sg8
-S'http://people.cs.cmu.edu/Person/7"'
-p369
+S'Associate Research Professor'
+p368
 sg10
-S'Maurice Falk Unv Prof Stats / Soc Sci / MLD'
-p370
-sa(dp371
+S'http://people.cs.cmu.edu/Thumb/29'
+p369
+sg12
+(lp370
+S'learning sciences and technologies'
+p371
+asg16
+g17
+sa(dp372
 g2
-S'http://people.cs.cmu.edu/Thumb/174'
-p372
+g3
 sg4
-S'Artificial Intelligence, Machine Learning, Computational Geometry'
+S'Thomas Cortina'
 p373
 sg6
-S'Fink, Eugene'
+S'http://people.cs.cmu.edu/Person/531"'
 p374
 sg8
-S'http://people.cs.cmu.edu/Person/174"'
+S'Associate Teaching Professor'
 p375
 sg10
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/531'
 p376
-sa(dp377
-g2
-S'http://people.cs.cmu.edu/Thumb/232'
+sg12
+(lp377
+S'computer science education'
 p378
+asg16
+g17
+sa(dp379
+g2
+g3
 sg4
-S'Design research focused on the intersection between assistive, aesthetic, and social products, inclusive design and the design of new categories of products and services, such as service robots, interfaces (small, mobile, and ubiquitous) that support the limits of human attention '
-p379
-sg6
-S'Forlizzi, Jodi'
+S'Lorrie Cranor'
 p380
-sg8
-S'http://people.cs.cmu.edu/Person/232"'
+sg6
+S'http://people.cs.cmu.edu/Person/507"'
 p381
-sg10
+sg8
 S'Associate Professor'
 p382
-sa(dp383
-g2
-S'http://people.cs.cmu.edu/Thumb/134'
-p384
-sg4
-S'Machine translation, other multilingual applications, and question-answering systems  '
+sg10
+S'http://people.cs.cmu.edu/Thumb/507'
+p383
+sg12
+(lp384
+S'privacy'
 p385
-sg6
-S'Frederking, Robert'
+aS'usable privacy and security software'
 p386
-sg8
-S'http://people.cs.cmu.edu/Person/134"'
+aS'computers andsociety'
 p387
-sg10
-S'Senior Systems Scientist'
+aS'technology policy'
 p388
-sa(dp389
+aS'voting'
+p389
+asg16
+g17
+sa(dp390
 g2
-S'http://people.cs.cmu.edu/Thumb/339'
-p390
+g3
 sg4
-g80
-sg6
-S'Fredkin, Edward'
+S'Karl Crary'
 p391
-sg8
-S'http://people.cs.cmu.edu/Person/339"'
-p392
-sg10
-S'Visiting Research Professional'
-p393
-sa(dp394
-g2
-S'http://people.cs.cmu.edu/Thumb/432'
-p395
-sg4
-S'The culture of computing, broadening participation in computing fields, diversity issues, gender myths and stereotypes'
-p396
 sg6
-S'Frieze, Carol'
-p397
+S'http://people.cs.cmu.edu/Person/296"'
+p392
 sg8
-S'http://people.cs.cmu.edu/Person/432"'
-p398
+S'Associate Professor'
+p393
 sg10
-S'Director,Women@Scs--SCS Website Coord. '
+S'http://people.cs.cmu.edu/Thumb/296'
+p394
+sg12
+(lp395
+S'programming languages'
+p396
+aS'type theory'
+p397
+aS'logic'
+p398
+aS'certified code'
 p399
-sa(dp400
+aS' machine-readable proofs'
+p400
+asg16
+g17
+sa(dp401
 g2
-S'http://people.cs.cmu.edu/Thumb/272'
-p401
+g3
 sg4
-S'Tissue engineering, microrobotics, MEMS, human-computer interaction, haptics, display devices, bioengineering'
+S'Wanda Dann'
 p402
 sg6
-S'Gabriel, Kaigham'
+S'http://people.cs.cmu.edu/Person/788"'
 p403
 sg8
-S'http://people.cs.cmu.edu/Person/272"'
+S'Senior Systems Scientist'
 p404
 sg10
-S'Distinguished Service Professor'
+S'http://people.cs.cmu.edu/Thumb/788'
 p405
-sa(dp406
+sg23
+S'Visualization in Programming Languages; Applying visualization in teaching and learning computer science'
+p406
+sg16
+g17
+sa(dp407
 g2
-S'http://people.cs.cmu.edu/Thumb/281'
-p407
+g3
 sg4
-S'Operating systems, security, storage/file systems, networking, and distributed systems '
+S'Roger Dannenberg'
 p408
 sg6
-S'Ganger, Gregory'
+S'http://people.cs.cmu.edu/Person/119"'
 p409
 sg8
-S'http://people.cs.cmu.edu/Person/281"'
+S'Associate Research Professor'
 p410
 sg10
-S'          Professor'
+S'http://people.cs.cmu.edu/Thumb/119'
 p411
-sa(dp412
-g2
-S'http://people.cs.cmu.edu/Thumb/153'
+sg12
+(lp412
+S'computer music'
 p413
+asg16
+g17
+sa(dp414
+g2
+g3
 sg4
-S'Software engineering, software architecture, formal methods, self-healing systems, cyber-physical systems'
-p414
-sg6
-S'Garlan, David'
+S'Fernando De La Torre Frade'
 p415
-sg8
-S'http://people.cs.cmu.edu/Person/153"'
+sg6
+S'http://people.cs.cmu.edu/Person/439"'
 p416
-sg10
-S'Professor'
+sg8
+S'Associate Research Professor'
 p417
-sa(dp418
-g2
-S'http://people.cs.cmu.edu/Thumb/768'
-p419
-sg4
-S'Knowledge and language acquisition through active learning, Fusion of information from disparate sources, Making everyday objects smart'
+sg10
+S'http://people.cs.cmu.edu/Thumb/439'
+p418
+sg12
+(lp419
+S'statistics'
 p420
-sg6
-S'Gershman, Anatole'
+aS'sensor fusion'
 p421
-sg8
-S'http://people.cs.cmu.edu/Person/768"'
+aS'quality-of-life technology'
 p422
-sg10
-S'Distinguished Service Professor'
+aS'pattern recognition'
 p423
-sa(dp424
-g2
-S'http://people.cs.cmu.edu/Thumb/1216'
+aS'neural networks'
+p424
+aS'machine understanding of video and human behavior'
 p425
-sg4
-g80
-sg6
-S'Geyer, Hartmut'
+aS'machine learning'
 p426
-sg8
-S'http://people.cs.cmu.edu/Person/1216"'
+aS'information fusion'
 p427
-sg10
-S'Assistant Professor'
+aS'image processing'
 p428
-sa(dp429
-g2
-S'http://people.cs.cmu.edu/Thumb/157'
+aS'image compression'
+p429
+aS'gesture recognition'
 p430
-sg4
-S'Parallelism in secondary storage system technologies, especially parallel and distributed file systems, disk arrays, and network-attached storage devices '
+aS'data visualization'
 p431
-sg6
-S'Gibson, Garth'
+aS'data mining'
 p432
-sg8
-S'http://people.cs.cmu.edu/Person/157"'
+aS'computer vision'
 p433
-sg10
-S'Professor'
+aS'artificial intelligence'
 p434
+asg16
+g17
 sa(dp435
 g2
-S'http://people.cs.cmu.edu/Thumb/253'
+g3
+sg4
+S'Anind Dey'
 p436
-sg4
-S' Claytronics/Programmable matter/Pario- Compilers and architectures for electronic nanotechnology andreconfigurable computing'
+sg6
+S'http://people.cs.cmu.edu/Person/579"'
 p437
-sg6
-S'Goldstein, Seth'
-p438
 sg8
-S'http://people.cs.cmu.edu/Person/253"'
-p439
-sg10
 S'Associate Professor'
-p440
-sa(dp441
-g2
-S'http://people.cs.cmu.edu/Thumb/171'
-p442
-sg4
-S'Reinforcement learning, planning, statistical models of difficult data (examples include natural-language text and maps of a robot&#39;s surroundings), and computational learning theory '
-p443
-sg6
-S'Gordon, Geoffrey'
-p444
-sg8
-S'http://people.cs.cmu.edu/Person/171"'
-p445
+p438
 sg10
+S'http://people.cs.cmu.edu/Thumb/579'
+p439
+sg12
+(lp440
+S'design research'
+p441
+aS'enabling technologies'
+p442
+asg16
+g17
+sa(dp443
+g2
+g3
+sg4
+S'M Dias'
+p444
+sg6
+S'http://people.cs.cmu.edu/Person/299"'
+p445
+sg8
 S'Associate Research Professor'
 p446
-sa(dp447
-g2
-S'http://people.cs.cmu.edu/Thumb/254'
-p448
-sg4
-S'Probabilistic artificial intelligence, Machine learning, Planning under uncertainty, Markov decision processes, Wireless sensor networks, Distributed algorithms, Probabilistic graphical models, Bayesian networks, Markov networks, Multiagent systems, Optimization theory and algorithms,Network and query optimization, Classification '
+sg10
+S'http://people.cs.cmu.edu/Thumb/299'
+p447
+sg12
+(lp448
+S'technology for developing communities'
 p449
-sg6
-S'Guestrin, Carlos'
+aS'space robotics'
 p450
-sg8
-S'http://people.cs.cmu.edu/Person/254"'
+aS'planning'
 p451
-sg10
-S'Associate Professor of CS and Ml'
+aS'multi-agent systems'
 p452
-sa(dp453
-g2
-S'http://people.cs.cmu.edu/Thumb/1462'
+aS'motion planning'
+p453
+aS'mobile robots'
 p454
-sg4
-g80
-sg6
-S'Gunawardena, Ananda'
+aS'human-computer interaction'
 p455
-sg8
-S'http://people.cs.cmu.edu/Person/1462"'
+aS'hazardous environments'
 p456
-sg10
-S'Associate Teaching Professor'
+aS'field robotics'
 p457
-sa(dp458
-g2
-S'http://people.cs.cmu.edu/Thumb/1076'
+aS'education'
+p458
+aS'artificial intelligence'
 p459
+asg16
+g17
+sa(dp460
+g2
+g3
 sg4
-S'Computer graphics, machine learning, computer vision'
-p460
-sg6
-S'Gupta, Abhinav'
+S'John Dolan'
 p461
-sg8
-S'http://people.cs.cmu.edu/Person/1076"'
+sg6
+S'http://people.cs.cmu.edu/Person/83"'
 p462
-sg10
-S'Assistant Research Professor'
+sg8
+S'Principal Systems Scientist'
 p463
-sa(dp464
-g2
-S'http://people.cs.cmu.edu/Thumb/465'
-p465
-sg4
-S'Approximation Algorithms, Network and Graph Algorithms, Metric Embeddings/Methods'
+sg10
+S'http://people.cs.cmu.edu/Thumb/83'
+p464
+sg12
+(lp465
+S'teleoperation'
 p466
-sg6
-S'Gupta, Anupam'
+aS'space robotics'
 p467
-sg8
-S'http://people.cs.cmu.edu/Person/465"'
+aS'mobile robots'
 p468
-sg10
-S'Associate Professor'
+aS'mechatronics'
 p469
-sa(dp470
-g2
-S'http://people.cs.cmu.edu/Thumb/966'
+aS'human-computer interaction'
+p470
+aS'factory and warehouse automation'
 p471
-sg4
-S'Theory of error-correcting codes, Approximation algorithms and Non-approximability, Pseudorandomness and Combinatorial Constructions, Computational complexity theory, Algebra and computation.'
+aS'control'
 p472
-sg6
-S'Guruswami, Venkatesan'
-p473
-sg8
-S'http://people.cs.cmu.edu/Person/966"'
+asg16
+g17
+sa(dp473
+g2
+g3
+sg4
+S'Steven Dow'
 p474
-sg10
-S'Associate Professor'
+sg6
+S'http://people.cs.cmu.edu/Person/2591"'
 p475
-sa(dp476
-g2
-S'http://people.cs.cmu.edu/Thumb/323'
+sg8
+S'Assistant Professor'
+p476
+sg10
+S'http://people.cs.cmu.edu/Thumb/2591'
 p477
-sg4
-S'Scheduling and resource allocation for computer systems. Queueing theory and stochastic modeling, plus implementation.'
-p478
-sg6
-S'Harchol-Balter, Mor'
+sg12
+(lp478
+S'design research'
 p479
-sg8
-S'http://people.cs.cmu.edu/Person/323"'
-p480
-sg10
-S'Assoc. Prof.  / Assoc. Dept. Head Grad. Edu. '
+asg16
+g17
+sa(dp480
+g2
+g3
+sg4
+S'Artur Dubrawski'
 p481
-sa(dp482
-g2
-S'http://people.cs.cmu.edu/Thumb/11'
+sg6
+S'http://people.cs.cmu.edu/Person/221"'
+p482
+sg8
+S'Sr Systems Scientist / Adj Professor Mism'
 p483
-sg4
-S'Programming languages '
+sg10
+S'http://people.cs.cmu.edu/Thumb/221'
 p484
-sg6
-S'Harper, Robert'
-p485
-sg8
-S'http://people.cs.cmu.edu/Person/11"'
+sg12
+(lp485
+S'data mining'
 p486
-sg10
-S'Professor'
+aS'machine learning'
 p487
-sa(dp488
-g2
-S'http://people.cs.cmu.edu/Thumb/820'
+aS'data visualization'
+p488
+aS'artificial intelligence'
 p489
-sg4
-S'Computer Networks: Mobile ad-hoc, wireless, sensor and vehicular networks.Particularly focused on challenged, delay, and disruption tolerant networks.'
+aS'statistics'
 p490
-sg6
-S'Harras, Khaled'
+aS'pattern recognition'
 p491
-sg8
-S'http://people.cs.cmu.edu/Person/820"'
-p492
-sg10
-S'Assistant Teaching Professor'
+asg16
+g17
+sa(dp492
+g2
+g3
+sg4
+S'M Durand'
 p493
-sa(dp494
-g2
-S'http://people.cs.cmu.edu/Thumb/88'
+sg6
+S'http://people.cs.cmu.edu/Person/368"'
+p494
+sg8
+S'Associate Professor'
 p495
-sg4
-S'Video and speech understanding, multimedia search, language in general, Informedia Digital Video Library project'
+sg10
+S'http://people.cs.cmu.edu/Thumb/368'
 p496
-sg6
-S'Hauptmann, Alexander'
+sg23
+S'Computational molecular biology and computational genomics  '
 p497
-sg8
-S'http://people.cs.cmu.edu/Person/88"'
-p498
-sg10
-S'Project Leader - Informedia'
+sg16
+g17
+sa(dp498
+g2
+g3
+sg4
+S'David Eckhardt'
 p499
-sa(dp500
-g2
-S'http://people.cs.cmu.edu/Thumb/81'
-p501
-sg4
-S'Techniques for representing, constructing, and recognizing general 3-D shapes, and techniques for vision-guided autonomous navigation, position estimation, and landmark recognition '
-p502
 sg6
-S'Hebert, Martial'
-p503
+S'http://people.cs.cmu.edu/Person/140"'
+p500
 sg8
-S'http://people.cs.cmu.edu/Person/81"'
-p504
+S'Associate Teaching Professor'
+p501
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/140'
+p502
+sg12
+(lp503
+S'operating systems'
+p504
+aS'computer networks'
 p505
-sa(dp506
+aS'wireless networks'
+p506
+asg16
+g17
+sa(dp507
 g2
-S'http://people.cs.cmu.edu/Thumb/195'
-p507
+g3
 sg4
-S'Collaboration in software engineering, especially across distance, and how to support it with collaboration technology, software engineering and management practices, and appropriate organizational design, and open source software development'
+S'William Eddy'
 p508
 sg6
-S'Herbsleb, James'
+S'http://people.cs.cmu.edu/Person/2"'
 p509
 sg8
-S'http://people.cs.cmu.edu/Person/195"'
+S'Professor'
 p510
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/2'
 p511
-sa(dp512
+sg23
+S'The statistical problems associated with Functional Magnetic Resonance Imaging (fMRI) '
+p512
+sg16
+g17
+sa(dp513
 g2
-S'http://people.cs.cmu.edu/Thumb/1909'
-p513
+g3
 sg4
-S'Wireless networks and mobile computing '
+S'Alexei Efros'
 p514
 sg6
-S'Hills, Alex'
+S'http://people.cs.cmu.edu/Person/528"'
 p515
 sg8
-S'http://people.cs.cmu.edu/Person/1909"'
+S'Associate Professor'
 p516
 sg10
-S'Distinguished Service Professor, EPP/CS EPP'
+S'http://people.cs.cmu.edu/Thumb/528'
 p517
-sa(dp518
-g2
-S'http://people.cs.cmu.edu/Thumb/372'
+sg12
+(lp518
+S'object recognition'
 p519
-sg4
-S'Quality-of-life technology, legged locomotion, human motion simulation, entertainment robotics, computer graphics, animation'
+aS'machine learning'
 p520
-sg6
-S'Hodgins, Jessica'
+aS'image processing'
 p521
-sg8
-S'http://people.cs.cmu.edu/Person/372"'
+aS'computer vision'
 p522
-sg10
-S'Professor RI / CS Assoc Dir for Faculty RI'
+aS'computer graphics'
 p523
+asg16
+g17
 sa(dp524
 g2
-S'http://people.cs.cmu.edu/Thumb/192'
+g3
+sg4
+S'Jeffrey Eppinger'
 p525
-sg4
-S'Agent-based microassembly, high-fidelity haptic interaction, and novel robot locomotion'
+sg6
+S'http://people.cs.cmu.edu/Person/347"'
 p526
-sg6
-S'Hollis, Ralph'
+sg8
+S'Professor of the Practice'
 p527
-sg8
-S'http://people.cs.cmu.edu/Person/192"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/347'
 p528
-sg10
-S'Research Professor'
-p529
-sa(dp530
+sg23
+g141
+sg16
+g17
+sa(dp529
 g2
-S'http://people.cs.cmu.edu/Thumb/534'
+g3
+sg4
+S'Michael Erdmann'
+p530
+sg6
+S'http://people.cs.cmu.edu/Person/136"'
 p531
-sg4
-S'Human-Computer Interaction, Location-Based Services, Usable Privacy and Security'
+sg8
+S'Professor, Computer Science and Robotics'
 p532
-sg6
-S'Hong, Jason'
+sg10
+S'http://people.cs.cmu.edu/Thumb/136'
 p533
-sg8
-S'http://people.cs.cmu.edu/Person/534"'
-p534
-sg10
-S'Associate Professor'
+sg12
+(lp534
+S'shape sensing'
 p535
-sa(dp536
-g2
-S'http://people.cs.cmu.edu/Thumb/244'
+aS'protein structure'
+p536
+aS'protein knot theory'
 p537
-sg4
-S'Range data, mobile robots, computer vision, 3-D perception, teleoperation, range finders'
+aS'motion planning'
 p538
-sg6
-S'Huber, Daniel'
+aS'mobile manipulation'
 p539
-sg8
-S'http://people.cs.cmu.edu/Person/244"'
+aS'manipulation mechanics'
 p540
-sg10
-S'Systems Scientist'
-p541
-sa(dp542
+asg16
+g17
+sa(dp541
 g2
-S'http://people.cs.cmu.edu/Thumb/264'
+g3
+sg4
+S'Maxine Eskenazi'
+p542
+sg6
+S'http://people.cs.cmu.edu/Person/199"'
 p543
-sg4
-S'Enabling Technologies, Human Assistance   '
+sg8
+S'Principal Systems Scientist'
 p544
-sg6
-S'Hudson, Scott'
+sg10
+S'http://people.cs.cmu.edu/Thumb/199'
 p545
-sg8
-S'http://people.cs.cmu.edu/Person/264"'
-p546
-sg10
-S'Professor'
+sg23
+g141
+sg16
+g17
+sa(dp546
+g2
+g3
+sg4
+S'Scott Fahlman'
 p547
-sa(dp548
-g2
-S'http://people.cs.cmu.edu/Thumb/263'
+sg6
+S'http://people.cs.cmu.edu/Person/1446"'
+p548
+sg8
+S'Research Professor'
 p549
-sg4
-S'medical robotics, medical imaging, medical applications, bioengineering'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1446'
 p550
-sg6
-S'Jaramaz, Branislav'
-p551
-sg8
-S'http://people.cs.cmu.edu/Person/263"'
+sg12
+(lp551
+S'artificial intelligence and its applications'
 p552
-sg10
-S'Associate Research Professor'
-p553
-sa(dp554
+asg16
+g17
+sa(dp553
 g2
-S'http://people.cs.cmu.edu/Thumb/18'
+g3
+sg4
+S'Christos Faloutsos'
+p554
+sg6
+S'http://people.cs.cmu.edu/Person/268"'
 p555
-sg4
-S'Models of human performance that aid in the design of computer systems '
-p556
-sg6
-S'John, Bonnie'
-p557
 sg8
-S'http://people.cs.cmu.edu/Person/18"'
-p558
-sg10
 S'Professor'
-p559
-sa(dp560
-g2
-S'http://people.cs.cmu.edu/Thumb/42'
-p561
-sg4
-g80
-sg6
-S'Jordan, Angel'
-p562
-sg8
-S'http://people.cs.cmu.edu/Person/42"'
-p563
+p556
 sg10
-S'University Professor Emeritus'
-p564
-sa(dp565
+S'http://people.cs.cmu.edu/Thumb/268'
+p557
+sg12
+(lp558
+S'databases'
+p559
+aS'data mining'
+p560
+asg16
+g17
+sa(dp561
 g2
-S'http://people.cs.cmu.edu/Thumb/953'
-p566
+g3
 sg4
-S'Learning Sciences and Technologies '
+S'David Farber'
+p562
+sg6
+S'http://people.cs.cmu.edu/Person/446"'
+p563
+sg8
+S'Distinguished Career Prof of CS  Pp'
+p564
+sg10
+S'http://people.cs.cmu.edu/Thumb/446'
+p565
+sg23
+g141
+sg16
+g17
+sa(dp566
+g2
+g3
+sg4
+S'Kayvon Fatahalian'
 p567
 sg6
-S'Kam, Matthew'
+S'http://people.cs.cmu.edu/Person/2234"'
 p568
 sg8
-S'http://people.cs.cmu.edu/Person/953"'
+S'Assistant Professor'
 p569
 sg10
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/2234'
 p570
-sa(dp571
-g2
-S'http://people.cs.cmu.edu/Thumb/41'
+sg12
+(lp571
+S'computer graphics'
 p572
-sg4
-S'Stereo vision, quality-of-life technology, mobile robots, medical applications, human-computer interaction, computer vision, computational sensors'
+aS'graphics architectures'
 p573
-sg6
-S'Kanade, Takeo'
+aS'parallelarchitecture and programming models'
 p574
-sg8
-S'http://people.cs.cmu.edu/Person/41"'
-p575
-sg10
-S'U. A.  and Helen Whitaker University Prof. '
+asg16
+g17
+sa(dp575
+g2
+g3
+sg4
+S'Gary Fedder'
 p576
-sa(dp577
-g2
-S'http://people.cs.cmu.edu/Thumb/341'
+sg6
+S'http://people.cs.cmu.edu/Person/204"'
+p577
+sg8
+S'Prof of ECE &amp; Robotics; Director of Ices'
 p578
-sg4
-S'Sensor fusion, range data, field robotics, control'
+sg10
+S'http://people.cs.cmu.edu/Thumb/204'
 p579
-sg6
-S'Kantor, George'
-p580
-sg8
-S'http://people.cs.cmu.edu/Person/341"'
+sg12
+(lp580
+S'sensors'
 p581
-sg10
-S'Systems Scientist'
+aS'microrobotics'
 p582
-sa(dp583
+aS'mechatronics'
+p583
+asg16
+g17
+sa(dp584
 g2
-S'http://people.cs.cmu.edu/Thumb/6'
-p584
+g3
 sg4
-g80
-sg6
-S'Kass, Robert'
+S'Stephen Fienberg'
 p585
-sg8
-S'http://people.cs.cmu.edu/Person/6"'
+sg6
+S'http://people.cs.cmu.edu/Person/7"'
 p586
-sg10
-S'Professor'
+sg8
+S'Maurice Falk Unv Prof Stats / Soc Sci / MLD'
 p587
-sa(dp588
-g2
-S'http://people.cs.cmu.edu/Thumb/66'
-p589
-sg4
-S'Technical communication'
+sg10
+S'http://people.cs.cmu.edu/Thumb/7'
+p588
+sg12
+(lp589
+S'analysis of categorical data'
 p590
-sg6
-S'Keating, Thomas'
+aS'bayesian approaches to confidentiality and data disclosure'
 p591
-sg8
-S'http://people.cs.cmu.edu/Person/66"'
+aS'causation'
 p592
-sg10
-S'Assistant Teaching Professor'
+aS'foundations of statistical inference'
 p593
-sa(dp594
-g2
-S'http://people.cs.cmu.edu/Thumb/152'
+aS'history of statistics'
+p594
+aS'sample surveys and randomized experiments'
 p595
-sg4
-S'Perception, planning, control, position estimation and human interfaces for mobile robots '
+aS'statistics and the law'
 p596
-sg6
-S'Kelly, Alonzo'
+aS'inference for multiple-media data'
 p597
-sg8
-S'http://people.cs.cmu.edu/Person/152"'
-p598
-sg10
-S'Professor'
+asg16
+g17
+sa(dp598
+g2
+g3
+sg4
+S'Eugene Fink'
 p599
-sa(dp600
-g2
-S'http://people.cs.cmu.edu/Thumb/319'
+sg6
+S'http://people.cs.cmu.edu/Person/174"'
+p600
+sg8
+S'Senior Systems Scientist'
 p601
-sg4
-g80
-sg6
-S'Kesden, Gregory'
+sg10
+S'http://people.cs.cmu.edu/Thumb/174'
 p602
-sg8
-S'http://people.cs.cmu.edu/Person/319"'
-p603
-sg10
-S'Associate Teaching Professor'
+sg12
+(lp603
+S'artificial intelligence'
 p604
-sa(dp605
-g2
-S'http://people.cs.cmu.edu/Thumb/45'
+aS'machine learning'
+p605
+aS'computational geometry'
 p606
+asg16
+g17
+sa(dp607
+g2
+g3
 sg4
-S'Distributed intelligent systems, embedded systems, distributed and secure information systems '
-p607
-sg6
-S'Khosla, Pradeep'
+S'Jodi Forlizzi'
 p608
-sg8
-S'http://people.cs.cmu.edu/Person/45"'
+sg6
+S'http://people.cs.cmu.edu/Person/232"'
 p609
-sg10
-S'Dean and Philip and Marsha Dowd Prof ECE'
+sg8
+S'Associate Professor'
 p610
-sa(dp611
-g2
-S'http://people.cs.cmu.edu/Thumb/96'
+sg10
+S'http://people.cs.cmu.edu/Thumb/232'
+p611
+sg23
+S'Design research focused on the intersection between assistive, aesthetic, and social products, inclusive design and the design of new categories of products and services, such as service robots, interfaces (small, mobile, and ubiquitous) that support the limits of human attention '
 p612
-sg4
-S'Social, communicative, and cognitive aspects of the use and design of computers, robots, and communication technologies  '
-p613
-sg6
-S'Kiesler, Sara'
-p614
-sg8
-S'http://people.cs.cmu.edu/Person/96"'
-p615
-sg10
-S'Hillman Professor of Hci'
-p616
-sa(dp617
+sg16
+g17
+sa(dp613
 g2
-S'http://people.cs.cmu.edu/Thumb/840'
-p618
+g3
 sg4
-g80
+S'Robert Frederking'
+p614
 sg6
-S'Kim, Se Young'
-p619
+S'http://people.cs.cmu.edu/Person/134"'
+p615
 sg8
-S'http://people.cs.cmu.edu/Person/840"'
-p620
+S'Senior Systems Scientist'
+p616
 sg10
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/134'
+p617
+sg12
+(lp618
+S'machine translation'
+p619
+aS'other multilingual applications'
+p620
+aS'question-answering systems'
 p621
+asg16
+g17
 sa(dp622
 g2
-S'http://people.cs.cmu.edu/Thumb/2182'
-p623
+g3
 sg4
-g80
+S'Edward Fredkin'
+p623
 sg6
-S'Kim, Jin Kyu'
+S'http://people.cs.cmu.edu/Person/339"'
 p624
 sg8
-S'http://people.cs.cmu.edu/Person/2182"'
+S'Visiting Research Professional'
 p625
 sg10
-S'Graduate Assistant'
+S'http://people.cs.cmu.edu/Thumb/339'
 p626
+sg23
+g141
+sg16
+g17
 sa(dp627
 g2
-S'http://people.cs.cmu.edu/Thumb/837'
+g3
+sg4
+S'Carol Frieze'
 p628
-sg4
-S'Social Computing '
+sg6
+S'http://people.cs.cmu.edu/Person/432"'
 p629
-sg6
-S'Kittur, Aniket'
+sg8
+S'Director,Women@Scs--SCS Website Coord. '
 p630
-sg8
-S'http://people.cs.cmu.edu/Person/837"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/432'
 p631
-sg10
-S'Assistant Professor'
-p632
-sa(dp633
-g2
-S'http://people.cs.cmu.edu/Thumb/183'
+sg12
+(lp632
+S'the culture of computing'
+p633
+aS'broadening participation in computing fields'
 p634
-sg4
-S'Human perception and cognition, with special emphasis on haptic perception and spatial cognition '
+aS'diversity issues'
 p635
-sg6
-S'Klatzky, Roberta'
+aS'gender myths and stereotypes'
 p636
-sg8
-S'http://people.cs.cmu.edu/Person/183"'
-p637
-sg10
-S'Professor'
+asg16
+g17
+sa(dp637
+g2
+g3
+sg4
+S'Kaigham Gabriel'
 p638
-sa(dp639
-g2
-S'http://people.cs.cmu.edu/Thumb/112'
+sg6
+S'http://people.cs.cmu.edu/Person/272"'
+p639
+sg8
+S'Distinguished Service Professor'
 p640
-sg4
-S'Human and machine learning, educational technology '
+sg10
+S'http://people.cs.cmu.edu/Thumb/272'
 p641
-sg6
-S'Koedinger, Kenneth'
-p642
-sg8
-S'http://people.cs.cmu.edu/Person/112"'
+sg12
+(lp642
+S'tissue engineering'
 p643
-sg10
-S'Professor'
+aS'microrobotics'
 p644
-sa(dp645
-g2
-S'http://people.cs.cmu.edu/Thumb/435'
+aS'human-computer interaction'
+p645
+aS'haptics'
 p646
-sg4
-g80
-sg6
-S'Konduru, Ram'
+aS'display devices'
 p647
-sg8
-S'http://people.cs.cmu.edu/Person/435"'
+aS'bioengineering'
 p648
-sg10
-S'Director, Universal Digital Library Proj'
-p649
-sa(dp650
+asg16
+g17
+sa(dp649
 g2
-S'http://people.cs.cmu.edu/Thumb/1908'
+g3
+sg4
+S'Gregory Ganger'
+p650
+sg6
+S'http://people.cs.cmu.edu/Person/281"'
 p651
-sg4
-S'Embedded systems, dependable computing, distributed safety-critical systems '
+sg8
+S'          Professor'
 p652
-sg6
-S'Koopman, Philip'
+sg10
+S'http://people.cs.cmu.edu/Thumb/281'
 p653
-sg8
-S'http://people.cs.cmu.edu/Person/1908"'
-p654
-sg10
-S'Associate Professor ECE &amp; ISR'
+sg12
+(lp654
+S'operating systems'
 p655
-sa(dp656
-g2
-S'http://people.cs.cmu.edu/Thumb/751'
+aS'security'
+p656
+aS'storage/file systems'
 p657
-sg4
-g80
-sg6
-S'Kosbie, David'
+aS'networking'
 p658
-sg8
-S'http://people.cs.cmu.edu/Person/751"'
+aS'distributed systems'
 p659
-sg10
-S'Assistant Teaching Professor'
-p660
-sa(dp661
+asg16
+g17
+sa(dp660
 g2
-S'http://people.cs.cmu.edu/Thumb/1467'
+g3
+sg4
+S'David Garlan'
+p661
+sg6
+S'http://people.cs.cmu.edu/Person/153"'
 p662
-sg4
-g80
-sg6
-S'Koutis, Ioannis'
+sg8
+S'Professor'
 p663
-sg8
-S'http://people.cs.cmu.edu/Person/1467"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/153'
 p664
-sg10
-S'Adjunct Scientist'
-p665
-sa(dp666
-g2
-S'http://people.cs.cmu.edu/Thumb/188'
+sg12
+(lp665
+S'software engineering'
+p666
+aS'software architecture'
 p667
-sg4
-S'The design and social impacts of information technologies in small groups, in the home, and between organizations '
+aS'formal methods'
 p668
-sg6
-S'Kraut, Robert'
+aS'self-healing systems'
 p669
-sg8
-S'http://people.cs.cmu.edu/Person/188"'
+aS'cyber-physical systems'
 p670
-sg10
-S'Herbert A.  Simon Professor of HCII'
-p671
-sa(dp672
+asg16
+g17
+sa(dp671
 g2
-S'http://people.cs.cmu.edu/Thumb/1456'
+g3
+sg4
+S'Anatole Gershman'
+p672
+sg6
+S'http://people.cs.cmu.edu/Person/768"'
 p673
-sg4
-S'Statistical machine learning, text and natural language processing, information retrieval, information theory, algorithms on graphs and groups '
+sg8
+S'Distinguished Service Professor'
 p674
-sg6
-S'Lafferty, John'
+sg10
+S'http://people.cs.cmu.edu/Thumb/768'
 p675
-sg8
-S'http://people.cs.cmu.edu/Person/1456"'
+sg23
+S'Knowledge and language acquisition through active learning, Fusion of information from disparate sources, Making everyday objects smart'
 p676
-sg10
-S'Adjunct Professor'
-p677
-sa(dp678
+sg16
+g17
+sa(dp677
 g2
-S'http://people.cs.cmu.edu/Thumb/509'
+g3
+sg4
+S'Hartmut Geyer'
+p678
+sg6
+S'http://people.cs.cmu.edu/Person/1216"'
 p679
-sg4
-S'Computational Structural Biology and Formal Methods in Systems Biology '
+sg8
+S'Assistant Professor'
 p680
-sg6
-S'Langmead, Christopher'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1216'
 p681
-sg8
-S'http://people.cs.cmu.edu/Person/509"'
-p682
-sg10
-S'Associate Professor'
+sg23
+g141
+sg16
+g17
+sa(dp682
+g2
+g3
+sg4
+S'Garth Gibson'
 p683
-sa(dp684
-g2
-S'http://people.cs.cmu.edu/Thumb/318'
+sg6
+S'http://people.cs.cmu.edu/Person/157"'
+p684
+sg8
+S'Professor'
 p685
-sg4
-S'Software and System Architectural Design; Design Methodologies and Notations; Design Evaluation'
+sg10
+S'http://people.cs.cmu.edu/Thumb/157'
 p686
-sg6
-S'Lattanze, Anthony'
+sg23
+S'Parallelism in secondary storage system technologies, especially parallel and distributed file systems, disk arrays, and network-attached storage devices '
 p687
-sg8
-S'http://people.cs.cmu.edu/Person/318"'
-p688
-sg10
-S'Teaching  Professor'
+sg16
+g17
+sa(dp688
+g2
+g3
+sg4
+S'Seth Goldstein'
 p689
-sa(dp690
-g2
-S'http://people.cs.cmu.edu/Thumb/142'
-p691
-sg4
-S'Machine Translation of text and speech, syntax-based MT, Multi-Engine MT, MT evaluation metrics and MT for native and minority languages; Parsing and analysis of text and conversational spoken language. '
-p692
 sg6
-S'Lavie, Alon'
-p693
+S'http://people.cs.cmu.edu/Person/253"'
+p690
 sg8
-S'http://people.cs.cmu.edu/Person/142"'
-p694
-sg10
-S'Associate Research Professor'
-p695
-sa(dp696
-g2
-S'http://people.cs.cmu.edu/Thumb/242'
-p697
-sg4
-S'Biological and computer vision, neural code, neural computation and modeling '
-p698
-sg6
-S'Lee, Tai-Sing'
-p699
-sg8
-S'http://people.cs.cmu.edu/Person/242"'
-p700
-sg10
 S'Associate Professor'
-p701
-sa(dp702
-g2
-S'http://people.cs.cmu.edu/Thumb/843'
-p703
-sg4
-g80
-sg6
-S'Lehman, Philip'
-p704
-sg8
-S'http://people.cs.cmu.edu/Person/843"'
-p705
+p691
 sg10
-S'Associate Dean for Strategic Initiatives'
-p706
-sa(dp707
+S'http://people.cs.cmu.edu/Thumb/253'
+p692
+sg23
+S' Claytronics/Programmable matter/Pario- Compilers and architectures for electronic nanotechnology andreconfigurable computing'
+p693
+sg16
+g17
+sa(dp694
 g2
-S'http://people.cs.cmu.edu/Thumb/34'
-p708
+g3
 sg4
-S'Machine translation of spoken language, written language, and minoritylanguages; linguistics; computer-assisted language learning '
-p709
+S'Geoffrey Gordon'
+p695
 sg6
-S'Levin, Lorraine'
-p710
+S'http://people.cs.cmu.edu/Person/171"'
+p696
 sg8
-S'http://people.cs.cmu.edu/Person/34"'
-p711
-sg10
 S'Associate Research Professor'
-p712
-sa(dp713
-g2
-S'http://people.cs.cmu.edu/Thumb/514'
-p714
-sg4
-S'Animation, Graphics, Human-Computer Interaction, Information Visualization, Computer Music.'
-p715
-sg6
-S'Levin, Golan'
-p716
-sg8
-S'http://people.cs.cmu.edu/Person/514"'
-p717
+p697
 sg10
-S'Assoc Professor of Art / Director of Sfci'
+S'http://people.cs.cmu.edu/Thumb/171'
+p698
+sg23
+S'Reinforcement learning, planning, statistical models of difficult data (examples include natural-language text and maps of a robot&#39;s surroundings), and computational learning theory '
+p699
+sg16
+g17
+sa(dp700
+g2
+g3
+sg4
+S'Carlos Guestrin'
+p701
+sg6
+S'http://people.cs.cmu.edu/Person/254"'
+p702
+sg8
+S'Associate Professor of CS and Ml'
+p703
+sg10
+S'http://people.cs.cmu.edu/Thumb/254'
+p704
+sg12
+(lp705
+S'probabilistic artificial intelligence'
+p706
+aS'machine learning'
+p707
+aS'planning under uncertainty'
+p708
+aS'markov decision processes'
+p709
+aS'wireless sensor networks'
+p710
+aS'distributed algorithms'
+p711
+aS'probabilistic graphical models'
+p712
+aS'bayesian networks'
+p713
+aS'markov networks'
+p714
+aS'multiagent systems'
+p715
+aS'optimization theory and algorithms'
+p716
+aS'network and query optimization'
+p717
+aS'classification'
 p718
+asg16
+g17
 sa(dp719
 g2
-S'http://people.cs.cmu.edu/Thumb/416'
+g3
+sg4
+S'Ananda Gunawardena'
 p720
-sg4
-S'Planning, obstacle avoidance, multi-agent systems, mobile robots, machine learning, field robotics'
+sg6
+S'http://people.cs.cmu.edu/Person/1462"'
 p721
-sg6
-S'Likhachev, Maxim'
+sg8
+S'Associate Teaching Professor'
 p722
-sg8
-S'http://people.cs.cmu.edu/Person/416"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1462'
 p723
-sg10
-S'Assistant Research Professor'
-p724
-sa(dp725
+sg23
+g141
+sg16
+g17
+sa(dp724
 g2
-S'http://people.cs.cmu.edu/Thumb/2650'
+g3
+sg4
+S'Abhinav Gupta'
+p725
+sg6
+S'http://people.cs.cmu.edu/Person/1076"'
 p726
-sg4
-g80
-sg6
-S'Lopez, Javier'
-p727
 sg8
-S'http://people.cs.cmu.edu/Person/2650"'
-p728
-sg10
-S'Associate Professor'
-p729
-sa(dp730
-g2
-S'http://people.cs.cmu.edu/Thumb/1482'
-p731
-sg4
-S'Pattern recognition, computer vision, artificial intelligence'
-p732
-sg6
-S'Lucey, Simon'
-p733
-sg8
-S'http://people.cs.cmu.edu/Person/1482"'
-p734
-sg10
 S'Assistant Research Professor'
-p735
-sa(dp736
-g2
-S'http://people.cs.cmu.edu/Thumb/320'
-p737
-sg4
-S'Human Computer Interaction; Assistive Technology; Ubiquitous Computing; Sustainability '
-p738
-sg6
-S'Mankoff, Jennifer'
-p739
-sg8
-S'http://people.cs.cmu.edu/Person/320"'
-p740
+p727
 sg10
+S'http://people.cs.cmu.edu/Thumb/1076'
+p728
+sg12
+(lp729
+S'computer graphics'
+p730
+aS'machine learning'
+p731
+aS'computer vision'
+p732
+asg16
+g17
+sa(dp733
+g2
+g3
+sg4
+S'Anupam Gupta'
+p734
+sg6
+S'http://people.cs.cmu.edu/Person/465"'
+p735
+sg8
 S'Associate Professor'
+p736
+sg10
+S'http://people.cs.cmu.edu/Thumb/465'
+p737
+sg12
+(lp738
+S'approximation algorithms'
+p739
+aS'network and graph algorithms'
+p740
+aS'metric embeddings/methods'
 p741
+asg16
+g17
 sa(dp742
 g2
-S'http://people.cs.cmu.edu/Thumb/1907'
+g3
+sg4
+S'Venkatesan Guruswami'
 p743
-sg4
-S'To develop innovative, interdisciplinary curricula in the area of drama and interactive multimedia '
+sg6
+S'http://people.cs.cmu.edu/Person/966"'
 p744
-sg6
-S'Marinelli, Don'
+sg8
+S'Associate Professor'
 p745
-sg8
-S'http://people.cs.cmu.edu/Person/1907"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/966'
 p746
-sg10
-S'Professor, Drama, Co-Director, ETC'
-p747
-sa(dp748
-g2
-S'http://people.cs.cmu.edu/Thumb/118'
+sg12
+(lp747
+S'theory of error-correcting codes'
+p748
+aS'approximation algorithms and non-approximability'
 p749
-sg4
-S'Planning, obstacle avoidance, motion planning, mobile robots, mechatronics, manufacturing, manipulation, factory and warehouse automation, control, assembly, artificial intelligence'
+aS'pseudorandomness and combinatorial constructions'
 p750
-sg6
-S'Mason, Matthew'
+aS'computational complexity theory'
 p751
-sg8
-S'http://people.cs.cmu.edu/Person/118"'
+aS'algebra and computation'
 p752
-sg10
-S'Director, Robotics Institute'
-p753
-sa(dp754
+asg16
+g17
+sa(dp753
 g2
-S'http://people.cs.cmu.edu/Thumb/314'
+g3
+sg4
+S'Mor Harchol-Balter'
+p754
+sg6
+S'http://people.cs.cmu.edu/Person/323"'
 p755
-sg4
-S'Audio-visual speech recognition and synthesis, face modeling, tracking and understanding '
+sg8
+S'Assoc. Prof.  / Assoc. Dept. Head Grad. Edu. '
 p756
-sg6
-S'Matthews, Iain'
+sg10
+S'http://people.cs.cmu.edu/Thumb/323'
 p757
-sg8
-S'http://people.cs.cmu.edu/Person/314"'
-p758
-sg10
-S'Adjunct Faculty Member'
+sg12
+(lp758
+S'scheduling and resource allocation for computer systems'
 p759
-sa(dp760
-g2
-S'http://people.cs.cmu.edu/Thumb/123'
+aS'queueing theory and stochastic modeling'
+p760
+aS'plus implementation'
 p761
+asg16
+g17
+sa(dp762
+g2
+g3
 sg4
-g80
-sg6
-S'Maxion, Roy'
-p762
-sg8
-S'http://people.cs.cmu.edu/Person/123"'
+S'Robert Harper'
 p763
-sg10
-S'Research Professor'
+sg6
+S'http://people.cs.cmu.edu/Person/11"'
 p764
-sa(dp765
-g2
-S'http://people.cs.cmu.edu/Thumb/454'
+sg8
+S'Professor'
+p765
+sg10
+S'http://people.cs.cmu.edu/Thumb/11'
 p766
-sg4
-S'Analogy, case-based reasoning, Internet technologies, intelligent tutoring systems'
-p767
-sg6
-S'McLaren, Bruce'
+sg12
+(lp767
+S'programming languages'
 p768
-sg8
-S'http://people.cs.cmu.edu/Person/454"'
-p769
-sg10
-S'Senior Systems Scientist'
+asg16
+g17
+sa(dp769
+g2
+g3
+sg4
+S'Khaled Harras'
 p770
-sa(dp771
-g2
-S'http://people.cs.cmu.edu/Thumb/1016'
+sg6
+S'http://people.cs.cmu.edu/Person/820"'
+p771
+sg8
+S'Assistant Teaching Professor'
 p772
-sg4
-g80
-sg6
-S'Metze, Florian'
+sg10
+S'http://people.cs.cmu.edu/Thumb/820'
 p773
-sg8
-S'http://people.cs.cmu.edu/Person/1016"'
-p774
-sg10
-S'Assistant Research Professor'
+sg12
+(lp774
+S'computer networks: mobile ad-hoc'
 p775
-sa(dp776
-g2
-S'http://people.cs.cmu.edu/Thumb/127'
+aS'wireless'
+p776
+aS'sensor and vehicular networks'
 p777
-sg4
-S'Parallel computation; sparse matrix, graph and number-theoretic algorithms '
+aS'particularly focused on challenged'
 p778
-sg6
-S'Miller, Gary'
+aS'delay'
 p779
-sg8
-S'http://people.cs.cmu.edu/Person/127"'
+aS' disruption tolerant networks'
 p780
-sg10
-S'Professor'
-p781
-sa(dp782
+asg16
+g17
+sa(dp781
 g2
-S'http://people.cs.cmu.edu/Thumb/933'
+g3
+sg4
+S'Alexander Hauptmann'
+p782
+sg6
+S'http://people.cs.cmu.edu/Person/88"'
 p783
-sg4
-g80
-sg6
-S'Miranda, Eduardo'
+sg8
+S'Project Leader - Informedia'
 p784
-sg8
-S'http://people.cs.cmu.edu/Person/933"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/88'
 p785
-sg10
-S'Associate Teaching Professor'
-p786
-sa(dp787
-g2
-S'http://people.cs.cmu.edu/Thumb/57'
+sg12
+(lp786
+S'video and speech understanding'
+p787
+aS'multimedia search'
 p788
-sg4
-S'Knowledge-Based MT, Question Answering, Japanese NLP and Dialog Systems '
+aS'language in general'
 p789
-sg6
-S'Mitamura, Teruko'
+aS'informedia digital video library project'
 p790
-sg8
-S'http://people.cs.cmu.edu/Person/57"'
-p791
-sg10
-S'Research Professor'
+asg16
+g17
+sa(dp791
+g2
+g3
+sg4
+S'Martial Hebert'
 p792
-sa(dp793
-g2
-S'http://people.cs.cmu.edu/Thumb/22'
+sg6
+S'http://people.cs.cmu.edu/Person/81"'
+p793
+sg8
+S'Professor'
 p794
-sg4
-S'Machine learning practice and theory, cognitive neuroscience, fMRI brain imaging, privacy-preserving data mining '
+sg10
+S'http://people.cs.cmu.edu/Thumb/81'
 p795
-sg6
-S'Mitchell, Tom'
-p796
-sg8
-S'http://people.cs.cmu.edu/Person/22"'
+sg12
+(lp796
+S'techniques for representing'
 p797
-sg10
-S'Director-MLD / Fredkin Prof of CS and Ml'
+aS'constructing'
 p798
-sa(dp799
-g2
-S'http://people.cs.cmu.edu/Thumb/317'
+aS'recognizing general 3-d shapes'
+p799
+aS'techniques for vision-guided autonomous navigation'
 p800
-sg4
-S'Micro-marketing, pricing strategies, marketing decision support systems, time series analysis, analysis of clickstream data, electronic commerce '
+aS'position estimation'
 p801
-sg6
-S'Montgomery, Alan'
+aS'landmark recognition'
 p802
-sg8
-S'http://people.cs.cmu.edu/Person/317"'
-p803
-sg10
-S'Associate Professor of Marketing'
+asg16
+g17
+sa(dp803
+g2
+g3
+sg4
+S'James Herbsleb'
 p804
-sa(dp805
-g2
-S'http://people.cs.cmu.edu/Thumb/1455'
+sg6
+S'http://people.cs.cmu.edu/Person/195"'
+p805
+sg8
+S'Professor'
 p806
-sg4
-S'Machine learning, artificial intelligence'
+sg10
+S'http://people.cs.cmu.edu/Thumb/195'
 p807
-sg6
-S'Moore, Andrew'
-p808
-sg8
-S'http://people.cs.cmu.edu/Person/1455"'
+sg12
+(lp808
+S'collaboration in software engineering'
 p809
-sg10
-S'Professor'
+aS'especially across distance'
 p810
-sa(dp811
-g2
-S'http://people.cs.cmu.edu/Thumb/129'
+aS'how to support it with collaboration technology'
+p811
+aS'software engineering and management practices'
 p812
-sg4
-g80
-sg6
-S'Moravec, Hans'
+aS'appropriate organizational design'
 p813
-sg8
-S'http://people.cs.cmu.edu/Person/129"'
+aS'open source software development'
 p814
-sg10
-S'Adjunct Faculty'
-p815
-sa(dp816
+asg16
+g17
+sa(dp815
 g2
-S'http://people.cs.cmu.edu/Thumb/30'
-p817
+g3
 sg4
-S'Distributed personal computer systems, software engineering, functional programming, user interfaces '
-p818
+S'Alex Hills'
+p816
 sg6
-S'Morris, James'
-p819
+S'http://people.cs.cmu.edu/Person/1909"'
+p817
 sg8
-S'http://people.cs.cmu.edu/Person/30"'
-p820
+S'Distinguished Service Professor, EPP/CS EPP'
+p818
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/1909'
+p819
+sg12
+(lp820
+S'wireless networks and mobile computing'
 p821
+asg16
+g17
 sa(dp822
 g2
-S'http://people.cs.cmu.edu/Thumb/168'
+g3
+sg4
+S'Jessica Hodgins'
 p823
-sg4
-S'Speech generation and recognition, machine learning, human-computer interaction, educational data mining, education, data mining, artificial intelligence'
+sg6
+S'http://people.cs.cmu.edu/Person/372"'
 p824
-sg6
-S'Mostow, Jack'
+sg8
+S'Professor RI / CS Assoc Dir for Faculty RI'
 p825
-sg8
-S'http://people.cs.cmu.edu/Person/168"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/372'
 p826
-sg10
-S'Research Professor'
-p827
-sa(dp828
-g2
-S'http://people.cs.cmu.edu/Thumb/265'
+sg12
+(lp827
+S'quality-of-life technology'
+p828
+aS'legged locomotion'
 p829
-sg4
-S'Computer architecture, compilers, operating systems, parallel processing, and database performance '
+aS'human motion simulation'
 p830
-sg6
-S'Mowry, Todd'
+aS'entertainment robotics'
 p831
-sg8
-S'http://people.cs.cmu.edu/Person/265"'
+aS'computer graphics'
 p832
-sg10
-S'Professor'
+aS'animation'
 p833
+asg16
+g17
 sa(dp834
 g2
-S'http://people.cs.cmu.edu/Thumb/25'
+g3
+sg4
+S'Ralph Hollis'
 p835
-sg4
-S'Computational biology, active learning, cell imaging, modeling of subcellular structure, information extraction from image and text, applied machine learning.'
+sg6
+S'http://people.cs.cmu.edu/Person/192"'
 p836
-sg6
-S'Murphy, Robert'
+sg8
+S'Research Professor'
 p837
-sg8
-S'http://people.cs.cmu.edu/Person/25"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/192'
 p838
-sg10
-S'Lane Professor of Computational Biology'
-p839
-sa(dp840
-g2
-S'http://people.cs.cmu.edu/Thumb/989'
+sg12
+(lp839
+S'agent-based microassembly'
+p840
+aS'high-fidelity haptic interaction'
 p841
-sg4
-S'Computer architecture, hardware/software interaction and cooperation,hardware security, fault tolerance, hardware support for programminglanguages and system software, interconnection networks, many-coresystems.'
+aS'novel robot locomotion'
 p842
-sg6
-S'Mutlu, Onur'
-p843
-sg8
-S'http://people.cs.cmu.edu/Person/989"'
-p844
-sg10
-S'Assistant Professor'
-p845
-sa(dp846
+asg16
+g17
+sa(dp843
 g2
-S'http://people.cs.cmu.edu/Thumb/117'
-p847
+g3
 sg4
-S'User interface development systems, user interfaces, hand-held computers, programming by example, programming languages for kids, visual programming, interaction techniques, window management, and programming environments '
-p848
+S'Jason Hong'
+p844
 sg6
-S'Myers, Brad'
-p849
+S'http://people.cs.cmu.edu/Person/534"'
+p845
 sg8
-S'http://people.cs.cmu.edu/Person/117"'
-p850
+S'Associate Professor'
+p846
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/534'
+p847
+sg12
+(lp848
+S'human-computer interaction'
+p849
+aS'location-based services'
+p850
+aS'usable privacy and security'
 p851
+asg16
+g17
 sa(dp852
 g2
-S'http://people.cs.cmu.edu/Thumb/527'
+g3
+sg4
+S'Daniel Huber'
 p853
-sg4
-S'Optics, image processing, computer vision, computer graphics, computational sensors'
+sg6
+S'http://people.cs.cmu.edu/Person/244"'
 p854
-sg6
-S'Narasimhan, Srinivasa'
+sg8
+S'Systems Scientist'
 p855
-sg8
-S'http://people.cs.cmu.edu/Person/527"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/244'
 p856
-sg10
-S'Associate Professor'
-p857
-sa(dp858
-g2
-S'http://people.cs.cmu.edu/Thumb/1902'
+sg12
+(lp857
+S'range data'
+p858
+aS'mobile robots'
 p859
-sg4
-S'Dependable enterprise middleware systems, combining dependability with other &quot;-ilities&quot; (real-time, security), self-adaptive systems '
+aS'computer vision'
 p860
-sg6
-S'Narasimhan, Priya'
+aS'3-d perception'
 p861
-sg8
-S'http://people.cs.cmu.edu/Person/1902"'
+aS'teleoperation'
 p862
-sg10
-S'Associate Professor, ECE'
+aS'range finders'
 p863
+asg16
+g17
 sa(dp864
 g2
-S'http://people.cs.cmu.edu/Thumb/115'
+g3
+sg4
+S'Scott Hudson'
 p865
-sg4
-S'Computer-support for collaborative writing computer-mediated communication '
+sg6
+S'http://people.cs.cmu.edu/Person/264"'
 p866
-sg6
-S'Neuwirth, Christine'
+sg8
+S'Professor'
 p867
-sg8
-S'http://people.cs.cmu.edu/Person/115"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/264'
 p868
-sg10
-S'Professor and Head'
-p869
-sa(dp870
-g2
-S'http://people.cs.cmu.edu/Thumb/255'
+sg12
+(lp869
+S'enabling technologies'
+p870
+aS'human assistance'
 p871
-sg4
-S'Robotics and artificial intelligence, with an emphasis on the design of autonomous, deliberate systems that achieve their goals in the face of incomplete knowledge '
-p872
-sg6
-S'Nourbakhsh, Illah'
-p873
-sg8
-S'http://people.cs.cmu.edu/Person/255"'
-p874
-sg10
-S'Professor'
-p875
-sa(dp876
+asg16
+g17
+sa(dp872
 g2
-S'http://people.cs.cmu.edu/Thumb/5'
-p877
+g3
 sg4
-S'Question Answering, Information Extraction, Natural Language Processing '
-p878
+S'Branislav Jaramaz'
+p873
 sg6
-S'Nyberg, Eric'
-p879
+S'http://people.cs.cmu.edu/Person/263"'
+p874
 sg8
-S'http://people.cs.cmu.edu/Person/5"'
-p880
+S'Associate Research Professor'
+p875
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/263'
+p876
+sg12
+(lp877
+S'medical robotics'
+p878
+aS'medical imaging'
+p879
+aS'medical applications'
+p880
+aS'bioengineering'
 p881
+asg16
+g17
 sa(dp882
 g2
-S'http://people.cs.cmu.edu/Thumb/689'
-p883
+g3
 sg4
-S'Complexity Theory, Approximation Algorithms, Analysis of BooleanFunctions, Learning Theory, Property Testing, Probability'
-p884
+S'Bonnie John'
+p883
 sg6
-S'O&#39;Donnell, Ryan'
-p885
+S'http://people.cs.cmu.edu/Person/18"'
+p884
 sg8
-S'http://people.cs.cmu.edu/Person/689"'
-p886
+S'Professor'
+p885
 sg10
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/18'
+p886
+sg23
+S'Models of human performance that aid in the design of computer systems '
 p887
+sg16
+g17
 sa(dp888
 g2
-S'http://people.cs.cmu.edu/Thumb/2123'
-p889
+g3
 sg4
-g80
+S'Angel Jordan'
+p889
 sg6
-S'Oflazer, Kemal'
+S'http://people.cs.cmu.edu/Person/42"'
 p890
 sg8
-S'http://people.cs.cmu.edu/Person/2123"'
+S'University Professor Emeritus'
 p891
 sg10
-S'Teaching Faculty'
+S'http://people.cs.cmu.edu/Thumb/42'
 p892
+sg23
+g141
+sg16
+g17
 sa(dp893
 g2
-S'http://people.cs.cmu.edu/Thumb/141'
+g3
+sg4
+S'Matthew Kam'
 p894
-sg4
-S'Scientific computing, computational database systems, Internet services '
-p895
 sg6
-S'O&#39;Hallaron, David'
-p896
+S'http://people.cs.cmu.edu/Person/953"'
+p895
 sg8
-S'http://people.cs.cmu.edu/Person/141"'
-p897
+S'Assistant Professor'
+p896
 sg10
-S'Profess0r 0F CS and ECE'
-p898
-sa(dp899
+S'http://people.cs.cmu.edu/Thumb/953'
+p897
+sg12
+(lp898
+S'learning sciences and technologies'
+p899
+asg16
+g17
+sa(dp900
 g2
-S'http://people.cs.cmu.edu/Thumb/116'
-p900
+g3
 sg4
-S'Total Quality Management, best practices (e.g., Software CMM, ISO/IEC 15504, eSCM-SP), empirical research, high maturity practices, statistical thinking, and agile methods.'
+S'Takeo Kanade'
 p901
 sg6
-S'Paulk, Mark'
+S'http://people.cs.cmu.edu/Person/41"'
 p902
 sg8
-S'http://people.cs.cmu.edu/Person/116"'
+S'U. A.  and Helen Whitaker University Prof. '
 p903
 sg10
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/41'
 p904
-sa(dp905
-g2
-S'http://people.cs.cmu.edu/Thumb/929'
+sg12
+(lp905
+S'stereo vision'
 p906
-sg4
-g80
-sg6
-S'Paulos, Eric'
+aS'quality-of-life technology'
 p907
-sg8
-S'http://people.cs.cmu.edu/Person/929"'
+aS'mobile robots'
 p908
-sg10
-S'Associate Professor'
+aS'medical applications'
 p909
-sa(dp910
-g2
-S'http://people.cs.cmu.edu/Thumb/32'
+aS'human-computer interaction'
+p910
+aS'computer vision'
 p911
-sg4
-S'Programming languages, logic, type theory, automated deduction, security '
+aS'computational sensors'
 p912
-sg6
-S'Pfenning, Frank'
-p913
-sg8
-S'http://people.cs.cmu.edu/Person/32"'
+asg16
+g17
+sa(dp913
+g2
+g3
+sg4
+S'George Kantor'
 p914
-sg10
-S'Prof. CS / SCS Assoc. Dean Grad. Education'
-p915
-sa(dp916
-g2
-S'http://people.cs.cmu.edu/Thumb/675'
-p917
-sg4
-S'Formal verification of hybrid, real-time, cyber-physical, and embedded systems; logic; automated theorem proving and model checking; computer algebra.'
-p918
 sg6
-S'Platzer, Andre'
-p919
+S'http://people.cs.cmu.edu/Person/341"'
+p915
 sg8
-S'http://people.cs.cmu.edu/Person/675"'
-p920
+S'Systems Scientist'
+p916
 sg10
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/341'
+p917
+sg12
+(lp918
+S'sensor fusion'
+p919
+aS'range data'
+p920
+aS'field robotics'
 p921
-sa(dp922
+aS'control'
+p922
+asg16
+g17
+sa(dp923
 g2
-S'http://people.cs.cmu.edu/Thumb/409'
-p923
+g3
 sg4
-S'Quality-of-life technology, manipulation, humanoid robotics, human motion simulation, computer graphics, animation'
+S'Robert Kass'
 p924
 sg6
-S'Pollard, Nancy'
+S'http://people.cs.cmu.edu/Person/6"'
 p925
 sg8
-S'http://people.cs.cmu.edu/Person/409"'
+S'Professor'
 p926
 sg10
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/6'
 p927
+sg23
+g141
+sg16
+g17
 sa(dp928
 g2
-S'http://people.cs.cmu.edu/Thumb/2615'
+g3
+sg4
+S'Thomas Keating'
 p929
-sg4
-S'Artificial intelligence, computational game theory,computational social choice, algorithms'
+sg6
+S'http://people.cs.cmu.edu/Person/66"'
 p930
-sg6
-S'Procaccia, Ariel'
+sg8
+S'Assistant Teaching Professor'
 p931
-sg8
-S'http://people.cs.cmu.edu/Person/2615"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/66'
 p932
-sg10
-S'Assistant Professor '
-p933
-sa(dp934
+sg12
+(lp933
+S'technical communication'
+p934
+asg16
+g17
+sa(dp935
 g2
-S'http://people.cs.cmu.edu/Thumb/209'
-p935
+g3
 sg4
-g80
-sg6
-S'Ramakrishnan, Bhiksha'
+S'Alonzo Kelly'
 p936
-sg8
-S'http://people.cs.cmu.edu/Person/209"'
-p937
-sg10
-S'Associate Professor'
-p938
-sa(dp939
-g2
-S'http://people.cs.cmu.edu/Thumb/216'
-p940
-sg4
-S'Approximation algorithms, combinatorial optimization and computational molecular biology '
-p941
 sg6
-S'Ravi, Ramamoorthi'
-p942
+S'http://people.cs.cmu.edu/Person/152"'
+p937
 sg8
-S'http://people.cs.cmu.edu/Person/216"'
-p943
+S'Professor'
+p938
 sg10
-S'Carnegie Bosch Professor'
-p944
-sa(dp945
+S'http://people.cs.cmu.edu/Thumb/152'
+p939
+sg23
+S'Perception, planning, control, position estimation and human interfaces for mobile robots '
+p940
+sg16
+g17
+sa(dp941
 g2
-S'http://people.cs.cmu.edu/Thumb/1450'
-p946
+g3
 sg4
-S'Speech, Gigabit, AI, Robotics, and Digital Libraries '
+S'Gregory Kesden'
+p942
+sg6
+S'http://people.cs.cmu.edu/Person/319"'
+p943
+sg8
+S'Associate Teaching Professor'
+p944
+sg10
+S'http://people.cs.cmu.edu/Thumb/319'
+p945
+sg23
+g141
+sg16
+g17
+sa(dp946
+g2
+g3
+sg4
+S'Pradeep Khosla'
 p947
 sg6
-S'Reddy, Raj'
+S'http://people.cs.cmu.edu/Person/45"'
 p948
 sg8
-S'http://people.cs.cmu.edu/Person/1450"'
+S'Dean and Philip and Marsha Dowd Prof ECE'
 p949
 sg10
-S'Mozah Bint Nasser University Professor'
+S'http://people.cs.cmu.edu/Thumb/45'
 p950
-sa(dp951
-g2
-S'http://people.cs.cmu.edu/Thumb/166'
+sg12
+(lp951
+S'distributed intelligent systems'
 p952
-sg4
-g80
-sg6
-S'Reid-Miller, Margaret'
+aS'embedded systems'
 p953
-sg8
-S'http://people.cs.cmu.edu/Person/166"'
+aS'distributed and secure information systems'
 p954
-sg10
-S'Assistant Teaching Professor'
-p955
-sa(dp956
+asg16
+g17
+sa(dp955
 g2
-S'http://people.cs.cmu.edu/Thumb/1448'
+g3
+sg4
+S'Sara Kiesler'
+p956
+sg6
+S'http://people.cs.cmu.edu/Person/96"'
 p957
-sg4
-S'The design of programming languages and languages for specifying program behavior, mathematical tools for defining the semantics of such languages, and methods for verifying that programs meet their specifications '
+sg8
+S'Hillman Professor of Hci'
 p958
-sg6
-S'Reynolds, John'
+sg10
+S'http://people.cs.cmu.edu/Thumb/96'
 p959
-sg8
-S'http://people.cs.cmu.edu/Person/1448"'
-p960
-sg10
-S'Professor'
+sg12
+(lp960
+S'social'
 p961
-sa(dp962
-g2
-S'http://people.cs.cmu.edu/Thumb/218'
+aS'communicative'
+p962
+aS'cognitive aspects of the use and design of computers'
 p963
-sg4
-S'Medical robotics, medical applications, mechatronics, machine learning, control'
+aS'robots'
 p964
-sg6
-S'Riviere, Cameron'
+aS'communication technologies'
 p965
-sg8
-S'http://people.cs.cmu.edu/Person/218"'
-p966
-sg10
-S'Associate Research Professor'
+asg16
+g17
+sa(dp966
+g2
+g3
+sg4
+S'Se Young Kim'
 p967
-sa(dp968
-g2
-S'http://people.cs.cmu.edu/Thumb/225'
-p969
-sg4
-S'Developing highly capable systems and machines that are both easy to instruct and capable of dealing with uncertainty '
-p970
 sg6
-S'Rizzi, Alfred'
-p971
+S'http://people.cs.cmu.edu/Person/840"'
+p968
 sg8
-S'http://people.cs.cmu.edu/Person/225"'
-p972
-sg10
-S'Adjunct Faculty'
-p973
-sa(dp974
-g2
-S'http://people.cs.cmu.edu/Thumb/2649'
-p975
-sg4
-g80
-sg6
-S'Roeder, Katherine'
-p976
-sg8
-S'http://people.cs.cmu.edu/Person/2649"'
-p977
-sg10
-S'Professor'
-p978
-sa(dp979
-g2
-S'http://people.cs.cmu.edu/Thumb/2651'
-p980
-sg4
-S'Biomedical imaging, signal processing, and computational biology '
-p981
-sg6
-S'Rohde, Gustavo'
-p982
-sg8
-S'http://people.cs.cmu.edu/Person/2651"'
-p983
-sg10
-S'Assistant Professor '
-p984
-sa(dp985
-g2
-S'http://people.cs.cmu.edu/Thumb/290'
-p986
-sg4
-g80
-sg6
-S'Root, David'
-p987
-sg8
-S'http://people.cs.cmu.edu/Person/290"'
-p988
-sg10
-S'Assoc. Teaching Professor / Asst Direct. De'
-p989
-sa(dp990
-g2
-S'http://people.cs.cmu.edu/Thumb/170'
-p991
-sg4
-S'Computer supported collaborative learning, tutorial dialogue, conversation analysis, and summarization'
-p992
-sg6
-S'Rose, Carolyn'
-p993
-sg8
-S'http://people.cs.cmu.edu/Person/170"'
-p994
-sg10
 S'Assistant Professor'
-p995
-sa(dp996
+p969
+sg10
+S'http://people.cs.cmu.edu/Thumb/840'
+p970
+sg23
+g141
+sg16
+g17
+sa(dp971
 g2
-S'http://people.cs.cmu.edu/Thumb/93'
-p997
+g3
 sg4
-S'Computational Molecular Biology, Speech and Language Technology for Development, Speech Interfaces, Machine Learning'
+S'Jin Kyu Kim'
+p972
+sg6
+S'http://people.cs.cmu.edu/Person/2182"'
+p973
+sg8
+S'Graduate Assistant'
+p974
+sg10
+S'http://people.cs.cmu.edu/Thumb/2182'
+p975
+sg23
+g141
+sg16
+g17
+sa(dp976
+g2
+g3
+sg4
+S'Aniket Kittur'
+p977
+sg6
+S'http://people.cs.cmu.edu/Person/837"'
+p978
+sg8
+S'Assistant Professor'
+p979
+sg10
+S'http://people.cs.cmu.edu/Thumb/837'
+p980
+sg12
+(lp981
+S'social computing'
+p982
+asg16
+g17
+sa(dp983
+g2
+g3
+sg4
+S'Roberta Klatzky'
+p984
+sg6
+S'http://people.cs.cmu.edu/Person/183"'
+p985
+sg8
+S'Professor'
+p986
+sg10
+S'http://people.cs.cmu.edu/Thumb/183'
+p987
+sg23
+S'Human perception and cognition, with special emphasis on haptic perception and spatial cognition '
+p988
+sg16
+g17
+sa(dp989
+g2
+g3
+sg4
+S'Kenneth Koedinger'
+p990
+sg6
+S'http://people.cs.cmu.edu/Person/112"'
+p991
+sg8
+S'Professor'
+p992
+sg10
+S'http://people.cs.cmu.edu/Thumb/112'
+p993
+sg12
+(lp994
+S'human and machine learning'
+p995
+aS'educational technology'
+p996
+asg16
+g17
+sa(dp997
+g2
+g3
+sg4
+S'Ram Konduru'
 p998
 sg6
-S'Rosenfeld, Ronald'
+S'http://people.cs.cmu.edu/Person/435"'
 p999
 sg8
-S'http://people.cs.cmu.edu/Person/93"'
+S'Director, Universal Digital Library Proj'
 p1000
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/435'
 p1001
+sg23
+g141
+sg16
+g17
 sa(dp1002
 g2
-S'http://people.cs.cmu.edu/Thumb/376'
-p1003
+g3
 sg4
-g80
+S'Philip Koopman'
+p1003
 sg6
-S'Rosso-Llopart, Manuel'
+S'http://people.cs.cmu.edu/Person/1908"'
 p1004
 sg8
-S'http://people.cs.cmu.edu/Person/376"'
+S'Associate Professor ECE &amp; ISR'
 p1005
 sg10
-S'Associate Teaching Professor'
+S'http://people.cs.cmu.edu/Thumb/1908'
 p1006
-sa(dp1007
-g2
-S'http://people.cs.cmu.edu/Thumb/606'
+sg12
+(lp1007
+S'embedded systems'
 p1008
-sg4
-g80
-sg6
-S'Rubinstein, Zack'
+aS'dependable computing'
 p1009
-sg8
-S'http://people.cs.cmu.edu/Person/606"'
+aS'distributed safety-critical systems'
 p1010
-sg10
-S'Systems Scientist'
-p1011
-sa(dp1012
+asg16
+g17
+sa(dp1011
 g2
-S'http://people.cs.cmu.edu/Thumb/133'
+g3
+sg4
+S'David Kosbie'
+p1012
+sg6
+S'http://people.cs.cmu.edu/Person/751"'
 p1013
-sg4
-g80
-sg6
-S'Rudich, Steven'
+sg8
+S'Assistant Teaching Professor'
 p1014
-sg8
-S'http://people.cs.cmu.edu/Person/133"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/751'
 p1015
-sg10
-S'Professor'
-p1016
-sa(dp1017
+sg23
+g141
+sg16
+g17
+sa(dp1016
 g2
-S'http://people.cs.cmu.edu/Thumb/55'
+g3
+sg4
+S'Ioannis Koutis'
+p1017
+sg6
+S'http://people.cs.cmu.edu/Person/1467"'
 p1018
-sg4
-S'Spoken Language Interaction, Speech Recognition, Interface Design '
+sg8
+S'Adjunct Scientist'
 p1019
-sg6
-S'Rudnicky, Alexander'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1467'
 p1020
-sg8
-S'http://people.cs.cmu.edu/Person/55"'
-p1021
-sg10
-S'Research Professor'
+sg23
+g141
+sg16
+g17
+sa(dp1021
+g2
+g3
+sg4
+S'Robert Kraut'
 p1022
-sa(dp1023
-g2
-S'http://people.cs.cmu.edu/Thumb/479'
+sg6
+S'http://people.cs.cmu.edu/Person/188"'
+p1023
+sg8
+S'Herbert A.  Simon Professor of HCII'
 p1024
-sg4
-S'Sensor fusion, robot soccer, multirobot systems, mobile robots, human-robot interaction, field robotics, artificial intelligence'
+sg10
+S'http://people.cs.cmu.edu/Thumb/188'
 p1025
-sg6
-S'Rybski, Paul'
+sg23
+S'The design and social impacts of information technologies in small groups, in the home, and between organizations '
 p1026
-sg8
-S'http://people.cs.cmu.edu/Person/479"'
-p1027
-sg10
-S'Senior Systems Scientist'
+sg16
+g17
+sa(dp1027
+g2
+g3
+sg4
+S'John Lafferty'
 p1028
-sa(dp1029
-g2
-S'http://people.cs.cmu.edu/Thumb/130'
+sg6
+S'http://people.cs.cmu.edu/Person/1456"'
+p1029
+sg8
+S'Adjunct Professor'
 p1030
-sg4
-S'Director, Mobile Commerce Lab;Director, e-Supply Chain Management Lab;Co-Director, COS PhD Program;Co-Director, MBA Track in Technology Leadership; Other research areas: Web Commerce, Security and Privacy, AI and HCI.'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1456'
 p1031
-sg6
-S'Sadeh-Koniecpol, Norman'
-p1032
-sg8
-S'http://people.cs.cmu.edu/Person/130"'
+sg12
+(lp1032
+S'statistical machine learning'
 p1033
-sg10
-S'Professor'
+aS'text and natural language processing'
 p1034
-sa(dp1035
-g2
-S'http://people.cs.cmu.edu/Thumb/2652'
+aS'information retrieval'
+p1035
+aS'information theory'
 p1036
-sg4
-S'Fundamental advances in the area of optimization theory, algorithms, and software. Comprehensive solutions to important and fundamental problems involving biological, chemical, and engineering systems.'
+aS'algorithms on graphs and groups'
 p1037
-sg6
-S'Sahinidis, Nick'
-p1038
-sg8
-S'http://people.cs.cmu.edu/Person/2652"'
+asg16
+g17
+sa(dp1038
+g2
+g3
+sg4
+S'Christopher Langmead'
 p1039
-sg10
-S'John E. Swearingen Professor'
+sg6
+S'http://people.cs.cmu.edu/Person/509"'
 p1040
-sa(dp1041
-g2
-S'http://people.cs.cmu.edu/Thumb/1900'
+sg8
+S'Associate Professor'
+p1041
+sg10
+S'http://people.cs.cmu.edu/Thumb/509'
 p1042
-sg4
-S'Computer architecture, embedded systems, parallel processing, and cloud computing '
+sg23
+S'Computational Structural Biology and Formal Methods in Systems Biology '
 p1043
-sg6
-S'Sakr, Majd '
-p1044
-sg8
-S'http://people.cs.cmu.edu/Person/1900"'
-p1045
-sg10
-S'Associate Teaching Professor, Assistant Dean for Research (Qatar)'
-p1046
-sa(dp1047
+sg16
+g17
+sa(dp1044
 g2
-S'http://people.cs.cmu.edu/Thumb/393'
-p1048
+g3
 sg4
-S'Artificial intelligence; electronic commerce; game theory; multiagent systems; auctions and exchanges; automated negotiation and contracting; coalition formation; safe exchange; normative models of bounded rationality; resource-bounded reasoning; constraint satisfaction; machine learning; networks; combinatorial optimization '
-p1049
+S'Anthony Lattanze'
+p1045
 sg6
-S'Sandholm, Tuomas'
-p1050
+S'http://people.cs.cmu.edu/Person/318"'
+p1046
 sg8
-S'http://people.cs.cmu.edu/Person/393"'
-p1051
+S'Teaching  Professor'
+p1047
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/318'
+p1048
+sg12
+(lp1049
+S'software and system architectural design'
+p1050
+aS'design methodologies and notations'
+p1051
+aS'design evaluation'
 p1052
+asg16
+g17
 sa(dp1053
 g2
-S'http://people.cs.cmu.edu/Thumb/61'
-p1054
+g3
 sg4
-S'Mobile and pervasive computing, distributed file systems, measurement and evaluation, security '
-p1055
+S'Alon Lavie'
+p1054
 sg6
-S'Satyanarayanan, Mahadev'
-p1056
+S'http://people.cs.cmu.edu/Person/142"'
+p1055
 sg8
-S'http://people.cs.cmu.edu/Person/61"'
-p1057
+S'Associate Research Professor'
+p1056
 sg10
-S'Carnegie Group Professor of Comp. Science'
+S'http://people.cs.cmu.edu/Thumb/142'
+p1057
+sg23
+S'Machine Translation of text and speech, syntax-based MT, Multi-Engine MT, MT evaluation metrics and MT for native and minority languages; Parsing and analysis of text and conversational spoken language. '
 p1058
+sg16
+g17
 sa(dp1059
 g2
-S'http://people.cs.cmu.edu/Thumb/476'
+g3
+sg4
+S'Tai-Sing Lee'
 p1060
-sg4
-S'Multi-agent systems, human-computer interaction, constraint-directed reasoning, artificial intelligence'
+sg6
+S'http://people.cs.cmu.edu/Person/242"'
 p1061
-sg6
-S'Scerri, Paul'
+sg8
+S'Associate Professor'
 p1062
-sg8
-S'http://people.cs.cmu.edu/Person/476"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/242'
 p1063
-sg10
-S'Associate Research Professor'
-p1064
-sa(dp1065
-g2
-S'http://people.cs.cmu.edu/Thumb/28'
+sg12
+(lp1064
+S'biological and computer vision'
+p1065
+aS'neural code'
 p1066
-sg4
-S'Causal discovery from databases, and web-based education '
+aS'neural computation and modeling'
 p1067
-sg6
-S'Scheines, Richard'
-p1068
-sg8
-S'http://people.cs.cmu.edu/Person/28"'
+asg16
+g17
+sa(dp1068
+g2
+g3
+sg4
+S'Philip Lehman'
 p1069
-sg10
-S'Professor and Department Head'
+sg6
+S'http://people.cs.cmu.edu/Person/843"'
 p1070
-sa(dp1071
-g2
-S'http://people.cs.cmu.edu/Thumb/154'
+sg8
+S'Associate Dean for Strategic Initiatives'
+p1071
+sg10
+S'http://people.cs.cmu.edu/Thumb/843'
 p1072
+sg23
+g141
+sg16
+g17
+sa(dp1073
+g2
+g3
 sg4
-S'Manufacturing, manipulation, hazardous environments'
-p1073
-sg6
-S'Schempf, Hagen'
+S'Lorraine Levin'
 p1074
-sg8
-S'http://people.cs.cmu.edu/Person/154"'
-p1075
-sg10
-S'Dir. , M. Sc.  Robotic Systems Development'
-p1076
-sa(dp1077
-g2
-S'http://people.cs.cmu.edu/Thumb/94'
-p1078
-sg4
-S'Software engineering, software assurance, concurrency, and program analysis'
-p1079
 sg6
-S'Scherlis, William'
-p1080
+S'http://people.cs.cmu.edu/Person/34"'
+p1075
 sg8
-S'http://people.cs.cmu.edu/Person/94"'
-p1081
+S'Associate Research Professor'
+p1076
 sg10
-S'Professor and Director'
+S'http://people.cs.cmu.edu/Thumb/34'
+p1077
+sg12
+(lp1078
+S'machine translation of spoken language'
+p1079
+aS'written language'
+p1080
+aS' minoritylanguages'
+p1081
+aS'linguistics'
 p1082
-sa(dp1083
+aS'computer-assisted language learning'
+p1083
+asg16
+g17
+sa(dp1084
 g2
-S'http://people.cs.cmu.edu/Thumb/369'
-p1084
+g3
 sg4
-S'Software engineering, software architecture, dynamic adaptation, pervasive computing '
+S'Golan Levin'
 p1085
 sg6
-S'Schmerl, Bradley'
+S'http://people.cs.cmu.edu/Person/514"'
 p1086
 sg8
-S'http://people.cs.cmu.edu/Person/369"'
+S'Assoc Professor of Art / Director of Sfci'
 p1087
 sg10
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/514'
 p1088
-sa(dp1089
-g2
-S'http://people.cs.cmu.edu/Thumb/208'
+sg12
+(lp1089
+S'animation'
 p1090
-sg4
-S'Machine learning, artificial intelligence'
+aS'graphics'
 p1091
-sg6
-S'Schneider, Jeff'
+aS'human-computer interaction'
 p1092
-sg8
-S'http://people.cs.cmu.edu/Person/208"'
+aS'information visualization'
 p1093
-sg10
-S'Associate Research Professor'
+aS'computer music'
 p1094
+asg16
+g17
 sa(dp1095
 g2
-S'http://people.cs.cmu.edu/Thumb/377'
+g3
+sg4
+S'Maxim Likhachev'
 p1096
-sg4
-S'Rapid Deployment of Speech Processing Systems to new Languages and Domains, Speech Translation, Detection and Annotation of Disfluencies and Non-verbal Cues, Non-audible and Whispered Speech, Towards Communication with Dolphins'
+sg6
+S'http://people.cs.cmu.edu/Person/416"'
 p1097
-sg6
-S'Schultz, Tanja'
+sg8
+S'Assistant Research Professor'
 p1098
-sg8
-S'http://people.cs.cmu.edu/Person/377"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/416'
 p1099
-sg10
-S'Faculty'
-p1100
-sa(dp1101
-g2
-S'http://people.cs.cmu.edu/Thumb/436'
+sg12
+(lp1100
+S'planning'
+p1101
+aS'obstacle avoidance'
 p1102
-sg4
-g80
-sg6
-S'Schwartz, Russell'
+aS'multi-agent systems'
 p1103
-sg8
-S'http://people.cs.cmu.edu/Person/436"'
+aS'mobile robots'
 p1104
-sg10
-S'Associate Professor'
+aS'machine learning'
 p1105
-sa(dp1106
+aS'field robotics'
+p1106
+asg16
+g17
+sa(dp1107
 g2
-S'http://people.cs.cmu.edu/Thumb/1906'
-p1107
+g3
 sg4
-S'Philosophy, and Mathematical Logic. Semantics of computer languages, computer algebra'
+S'Javier Lopez'
 p1108
 sg6
-S'Scott, Dana'
+S'http://people.cs.cmu.edu/Person/2650"'
 p1109
 sg8
-S'http://people.cs.cmu.edu/Person/1906"'
+S'Associate Professor'
 p1110
 sg10
-S'Hillman University Professor, CS, Math, Phil., CSD, Emeritus'
+S'http://people.cs.cmu.edu/Thumb/2650'
 p1111
+sg23
+g141
+sg16
+g17
 sa(dp1112
 g2
-S'http://people.cs.cmu.edu/Thumb/20'
-p1113
+g3
 sg4
-g80
+S'Simon Lucey'
+p1113
 sg6
-S'Seidenfeld, Teddy'
+S'http://people.cs.cmu.edu/Person/1482"'
 p1114
 sg8
-S'http://people.cs.cmu.edu/Person/20"'
+S'Assistant Research Professor'
 p1115
 sg10
-S'Herbert A Simon Prof Philosophy  Stats'
+S'http://people.cs.cmu.edu/Thumb/1482'
 p1116
-sa(dp1117
-g2
-S'http://people.cs.cmu.edu/Thumb/373'
+sg12
+(lp1117
+S'pattern recognition'
 p1118
-sg4
-S'Network protocols/services/applications, distributed systems, mobile computing, and wireless networks '
+aS'computer vision'
 p1119
-sg6
-S'Seshan, Srinivasan'
+aS'artificial intelligence'
 p1120
-sg8
-S'http://people.cs.cmu.edu/Person/373"'
-p1121
-sg10
-S'Professor'
+asg16
+g17
+sa(dp1121
+g2
+g3
+sg4
+S'Jennifer Mankoff'
 p1122
-sa(dp1123
-g2
-S'http://people.cs.cmu.edu/Thumb/16'
+sg6
+S'http://people.cs.cmu.edu/Person/320"'
+p1123
+sg8
+S'Associate Professor'
 p1124
-sg4
-S'Digital Libraries, Language Indentification, Internet Policy, Electronic Negotiation '
+sg10
+S'http://people.cs.cmu.edu/Thumb/320'
 p1125
-sg6
-S'Shamos, Michael'
-p1126
-sg8
-S'http://people.cs.cmu.edu/Person/16"'
+sg12
+(lp1126
+S'human computer interaction'
 p1127
-sg10
-S'Distinguished Career Professor'
+aS'assistive technology'
 p1128
-sa(dp1129
-g2
-S'http://people.cs.cmu.edu/Thumb/90'
+aS'ubiquitous computing'
+p1129
+aS'sustainability'
 p1130
+asg16
+g17
+sa(dp1131
+g2
+g3
 sg4
-S'Software engineering, value-driven software design, software architecture; paradigms of software research, software engineering education '
-p1131
-sg6
-S'Shaw, Mary'
+S'Don Marinelli'
 p1132
-sg8
-S'http://people.cs.cmu.edu/Person/90"'
+sg6
+S'http://people.cs.cmu.edu/Person/1907"'
 p1133
-sg10
-S'A J Perlis Professor'
+sg8
+S'Professor, Drama, Co-Director, ETC'
 p1134
-sa(dp1135
-g2
-S'http://people.cs.cmu.edu/Thumb/680'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1907'
+p1135
+sg23
+S'To develop innovative, interdisciplinary curricula in the area of drama and interactive multimedia '
 p1136
+sg16
+g17
+sa(dp1137
+g2
+g3
 sg4
-S'Visual tracking, machine learning, human motion simulation, computer vision'
-p1137
-sg6
-S'Sheikh, Yaser'
+S'Matthew Mason'
 p1138
-sg8
-S'http://people.cs.cmu.edu/Person/680"'
+sg6
+S'http://people.cs.cmu.edu/Person/118"'
 p1139
-sg10
-S'Assistant Research Professor'
+sg8
+S'Director, Robotics Institute'
 p1140
-sa(dp1141
-g2
-S'http://people.cs.cmu.edu/Thumb/1904'
-p1142
-sg4
-S'Geometric modeling and simulation, mesh generation, computer graphics, computational geometry, robotics, medical CAD - CAD/CAM/CAE '
+sg10
+S'http://people.cs.cmu.edu/Thumb/118'
+p1141
+sg12
+(lp1142
+S'planning'
 p1143
-sg6
-S'Shimada, Kenji'
+aS'obstacle avoidance'
 p1144
-sg8
-S'http://people.cs.cmu.edu/Person/1904"'
+aS'motion planning'
 p1145
-sg10
-S'Professor, ME and RI '
+aS'mobile robots'
 p1146
-sa(dp1147
-g2
-S'http://people.cs.cmu.edu/Thumb/24'
+aS'mechatronics'
+p1147
+aS'manufacturing'
 p1148
-sg4
-S'Video systems, teleoperation, sensors, medical imaging, inspection, image compression, display devices, acoustics, 3-D perception'
+aS'manipulation'
 p1149
-sg6
-S'Siegel, Mel'
+aS'factory and warehouse automation'
 p1150
-sg8
-S'http://people.cs.cmu.edu/Person/24"'
+aS'control'
 p1151
-sg10
-S'Associate Research Professor'
+aS'assembly'
 p1152
-sa(dp1153
+aS'artificial intelligence'
+p1153
+asg16
+g17
+sa(dp1154
 g2
-S'http://people.cs.cmu.edu/Thumb/105'
-p1154
+g3
 sg4
-S'Mobile computing, wearable computers, context aware computing, rapid prototyping, computer architecture, dependable computing, design automation, parallel processing '
+S'Iain Matthews'
 p1155
 sg6
-S'Siewiorek, Daniel'
+S'http://people.cs.cmu.edu/Person/314"'
 p1156
 sg8
-S'http://people.cs.cmu.edu/Person/105"'
+S'Adjunct Faculty Member'
 p1157
 sg10
-S'Buhl Univ. Prof ECE &amp; CS'
+S'http://people.cs.cmu.edu/Thumb/314'
 p1158
-sa(dp1159
-g2
-S'http://people.cs.cmu.edu/Thumb/17'
+sg12
+(lp1159
+S'audio-visual speech recognition and synthesis'
 p1160
-sg4
-S'Space robotics, quality-of-life technology, planning, obstacle avoidance, multi-agent systems, motion planning, mobile robots, machine learning, artificial intelligence, architectures'
+aS'face modeling'
 p1161
-sg6
-S'Simmons, Reid'
+aS'tracking and understanding'
 p1162
-sg8
-S'http://people.cs.cmu.edu/Person/17"'
-p1163
-sg10
-S'Research Prof / Assoc Dir Educ / Phd Chair'
+asg16
+g17
+sa(dp1163
+g2
+g3
+sg4
+S'Roy Maxion'
 p1164
-sa(dp1165
-g2
-S'http://people.cs.cmu.edu/Thumb/121'
-p1166
-sg4
-S'Applications of robotics in outdoor, unstructured environments '
-p1167
 sg6
-S'Singh, Sanjiv'
-p1168
+S'http://people.cs.cmu.edu/Person/123"'
+p1165
 sg8
-S'http://people.cs.cmu.edu/Person/121"'
-p1169
-sg10
 S'Research Professor'
+p1166
+sg10
+S'http://people.cs.cmu.edu/Thumb/123'
+p1167
+sg23
+g141
+sg16
+g17
+sa(dp1168
+g2
+g3
+sg4
+S'Bruce McLaren'
+p1169
+sg6
+S'http://people.cs.cmu.edu/Person/454"'
 p1170
-sa(dp1171
-g2
-S'http://people.cs.cmu.edu/Thumb/1086'
+sg8
+S'Senior Systems Scientist'
+p1171
+sg10
+S'http://people.cs.cmu.edu/Thumb/454'
 p1172
-sg4
-g80
-sg6
-S'Singh, Aarti'
-p1173
-sg8
-S'http://people.cs.cmu.edu/Person/1086"'
+sg12
+(lp1173
+S'analogy'
 p1174
-sg10
-S'Assistant Professor'
+aS'case-based reasoning'
 p1175
-sa(dp1176
-g2
-S'http://people.cs.cmu.edu/Thumb/298'
+aS'internet technologies'
+p1176
+aS'intelligent tutoring systems'
 p1177
-sg4
-S'Teacher of Computer Science; Alice Project '
-p1178
-sg6
-S'Slater, Donald'
-p1179
-sg8
-S'http://people.cs.cmu.edu/Person/298"'
-p1180
-sg10
-S'Assistant Teaching Professor'
-p1181
-sa(dp1182
+asg16
+g17
+sa(dp1178
 g2
-S'http://people.cs.cmu.edu/Thumb/109'
-p1183
+g3
 sg4
-S'Data structures, graph algorithms, on-line algorithms, parsing natural languages '
+S'Florian Metze'
+p1179
+sg6
+S'http://people.cs.cmu.edu/Person/1016"'
+p1180
+sg8
+S'Assistant Research Professor'
+p1181
+sg10
+S'http://people.cs.cmu.edu/Thumb/1016'
+p1182
+sg23
+g141
+sg16
+g17
+sa(dp1183
+g2
+g3
+sg4
+S'Gary Miller'
 p1184
 sg6
-S'Sleator, Daniel'
+S'http://people.cs.cmu.edu/Person/127"'
 p1185
 sg8
-S'http://people.cs.cmu.edu/Person/109"'
+S'Professor'
 p1186
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/127'
 p1187
-sa(dp1188
-g2
-S'http://people.cs.cmu.edu/Thumb/97'
+sg12
+(lp1188
+S'parallel computation'
 p1189
-sg4
-S'Scheduling, planning, optimization, multi-agent systems, manufacturing, machine learning, intelligent transportation, human-computer interaction, factory and warehouse automation, distributed problem solving, constraint-directed reasoning, artificial intelligence  '
+aS'sparse matrix'
 p1190
-sg6
-S'Smith, Stephen'
+aS'graph and number-theoretic algorithms'
 p1191
-sg8
-S'http://people.cs.cmu.edu/Person/97"'
-p1192
-sg10
-S'Research Professor'
+asg16
+g17
+sa(dp1192
+g2
+g3
+sg4
+S'Eduardo Miranda'
 p1193
-sa(dp1194
-g2
-S'http://people.cs.cmu.edu/Thumb/691'
+sg6
+S'http://people.cs.cmu.edu/Person/933"'
+p1194
+sg8
+S'Associate Teaching Professor'
 p1195
-sg4
-S'Multilingual and Cross-lingual Natural Language Processing, Machine Learning'
+sg10
+S'http://people.cs.cmu.edu/Thumb/933'
 p1196
-sg6
-S'Smith, Noah'
-p1197
-sg8
-S'http://people.cs.cmu.edu/Person/691"'
+sg23
+g141
+sg16
+g17
+sa(dp1197
+g2
+g3
+sg4
+S'Teruko Mitamura'
 p1198
-sg10
-S'Assistant Professor'
-p1199
-sa(dp1200
-g2
-S'http://people.cs.cmu.edu/Thumb/1905'
-p1201
-sg4
-g80
 sg6
-S'Spirtes, Peter'
-p1202
+S'http://people.cs.cmu.edu/Person/57"'
+p1199
 sg8
-S'http://people.cs.cmu.edu/Person/1905"'
-p1203
+S'Research Professor'
+p1200
 sg10
-S'Professor, Philosophy'
+S'http://people.cs.cmu.edu/Thumb/57'
+p1201
+sg12
+(lp1202
+S'knowledge-based mt'
+p1203
+aS'question answering'
 p1204
-sa(dp1205
+aS'japanese nlp and dialog systems'
+p1205
+asg16
+g17
+sa(dp1206
 g2
-S'http://people.cs.cmu.edu/Thumb/333'
-p1206
+g3
 sg4
-S'Motion planning, manipulation, humanoid robotics, human motion simulation, control, computer graphics, active perception'
+S'Tom Mitchell'
 p1207
 sg6
-S'Srinivasa, Siddhartha'
+S'http://people.cs.cmu.edu/Person/22"'
 p1208
 sg8
-S'http://people.cs.cmu.edu/Person/333"'
+S'Director-MLD / Fredkin Prof of CS and Ml'
 p1209
 sg10
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/22'
 p1210
-sa(dp1211
-g2
-S'http://people.cs.cmu.edu/Thumb/126'
+sg12
+(lp1211
+S'machine learning practice and theory'
 p1212
-sg4
-S'Networking, pervasive computing, distributed computing '
+aS'cognitive neuroscience'
 p1213
-sg6
-S'Steenkiste, Peter'
+aS'fmri brain imaging'
 p1214
-sg8
-S'http://people.cs.cmu.edu/Person/126"'
+aS'privacy-preserving data mining'
 p1215
-sg10
-S'Professor of CS and ECE'
-p1216
-sa(dp1217
+asg16
+g17
+sa(dp1216
 g2
-S'http://people.cs.cmu.edu/Thumb/19'
+g3
+sg4
+S'Alan Montgomery'
+p1217
+sg6
+S'http://people.cs.cmu.edu/Person/317"'
 p1218
-sg4
-g80
-sg6
-S'Stehlik, Mark'
+sg8
+S'Associate Professor of Marketing'
 p1219
-sg8
-S'http://people.cs.cmu.edu/Person/19"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/317'
 p1220
-sg10
-S'Teaching Professor / Asst Dean Ugrad Ed'
-p1221
-sa(dp1222
-g2
-S'http://people.cs.cmu.edu/Thumb/414'
+sg12
+(lp1221
+S'micro-marketing'
+p1222
+aS'pricing strategies'
 p1223
-sg4
-S'Teleoperation, quality-of-life technology, mobile robots, medical applications, intelligent transportation, human-robot interaction, human-computer interaction, human factors, design'
+aS'marketing decision support systems'
 p1224
-sg6
-S'Steinfeld, Aaron'
+aS'time series analysis'
 p1225
-sg8
-S'http://people.cs.cmu.edu/Person/414"'
+aS'analysis of clickstream data'
 p1226
-sg10
-S'Senior Systems Scientist'
+aS'electronic commerce'
 p1227
+asg16
+g17
 sa(dp1228
 g2
-S'http://people.cs.cmu.edu/Thumb/107'
+g3
+sg4
+S'Andrew Moore'
 p1229
-sg4
-S'Multirobot systems, field robotics'
+sg6
+S'http://people.cs.cmu.edu/Person/1455"'
 p1230
-sg6
-S'Stentz, Anthony'
-p1231
 sg8
-S'http://people.cs.cmu.edu/Person/107"'
-p1232
-sg10
-S'Research Professor / Director NREC'
-p1233
-sa(dp1234
-g2
-S'http://people.cs.cmu.edu/Thumb/13'
-p1235
-sg4
-S'Robust Automatic Speech Recognition, Auditory Perception, Signal Processing '
-p1236
-sg6
-S'Stern, Richard'
-p1237
-sg8
-S'http://people.cs.cmu.edu/Person/13"'
-p1238
-sg10
 S'Professor'
-p1239
-sa(dp1240
+p1231
+sg10
+S'http://people.cs.cmu.edu/Thumb/1455'
+p1232
+sg12
+(lp1233
+S'machine learning'
+p1234
+aS'artificial intelligence'
+p1235
+asg16
+g17
+sa(dp1236
 g2
-S'http://people.cs.cmu.edu/Thumb/324'
-p1241
+g3
 sg4
-S'Teleoperation, object recognition, medical robotics, medical imaging, medical applications, image processing, haptics, education, display devices, data visualization, bioengineering'
+S'Hans Moravec'
+p1237
+sg6
+S'http://people.cs.cmu.edu/Person/129"'
+p1238
+sg8
+S'Adjunct Faculty'
+p1239
+sg10
+S'http://people.cs.cmu.edu/Thumb/129'
+p1240
+sg23
+g141
+sg16
+g17
+sa(dp1241
+g2
+g3
+sg4
+S'James Morris'
 p1242
 sg6
-S'Stetten, George'
+S'http://people.cs.cmu.edu/Person/30"'
 p1243
 sg8
-S'http://people.cs.cmu.edu/Person/324"'
+S'Professor'
 p1244
 sg10
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/30'
 p1245
-sa(dp1246
-g2
-S'http://people.cs.cmu.edu/Thumb/217'
+sg12
+(lp1246
+S'distributed personal computer systems'
 p1247
-sg4
-S'Automata theory, computational mathematics, discrete dynamics'
+aS'software engineering'
 p1248
-sg6
-S'Sutner, Klaus'
+aS'functional programming'
 p1249
-sg8
-S'http://people.cs.cmu.edu/Person/217"'
+aS'user interfaces'
 p1250
-sg10
-S'Teaching Prof.  / Assoc. Dean Ugrad Prog. SCS'
-p1251
-sa(dp1252
+asg16
+g17
+sa(dp1251
 g2
-S'http://people.cs.cmu.edu/Thumb/9'
+g3
+sg4
+S'Jack Mostow'
+p1252
+sg6
+S'http://people.cs.cmu.edu/Person/168"'
 p1253
-sg4
-S'Activity and intent recongition, decentralized optimization, complex dynamical systems, multi-agent systems, human-robot interaction, artificial intelligence'
+sg8
+S'Research Professor'
 p1254
-sg6
-S'Sycara, Katia'
+sg10
+S'http://people.cs.cmu.edu/Thumb/168'
 p1255
-sg8
-S'http://people.cs.cmu.edu/Person/9"'
-p1256
-sg10
-S'Research Professor'
+sg12
+(lp1256
+S'speech generation and recognition'
 p1257
-sa(dp1258
-g2
-S'http://people.cs.cmu.edu/Thumb/396'
+aS'machine learning'
+p1258
+aS'human-computer interaction'
 p1259
-sg4
-g80
-sg6
-S'Telang, Sujata'
+aS'educational data mining'
 p1260
-sg8
-S'http://people.cs.cmu.edu/Person/396"'
+aS'education'
 p1261
-sg10
-S'Associate Teaching Professor'
+aS'data mining'
 p1262
-sa(dp1263
+aS'artificial intelligence'
+p1263
+asg16
+g17
+sa(dp1264
 g2
-S'http://people.cs.cmu.edu/Thumb/1280'
-p1264
+g3
 sg4
-g80
-sg6
-S'Thickman, Karen'
+S'Todd Mowry'
 p1265
-sg8
-S'http://people.cs.cmu.edu/Person/1280"'
+sg6
+S'http://people.cs.cmu.edu/Person/265"'
 p1266
-sg10
-S'Assistant Teaching Professor'
-p1267
-sa(dp1268
-g2
-S'http://people.cs.cmu.edu/Thumb/1447'
-p1269
-sg4
-S'Teleoperation, stereo vision, mobile robots, human-computer interaction, computer vision'
-p1270
-sg6
-S'Thorpe, Charles'
-p1271
 sg8
-S'http://people.cs.cmu.edu/Person/1447"'
-p1272
-sg10
 S'Professor'
+p1267
+sg10
+S'http://people.cs.cmu.edu/Thumb/265'
+p1268
+sg12
+(lp1269
+S'computer architecture'
+p1270
+aS'compilers'
+p1271
+aS'operating systems'
+p1272
+aS'parallel processing'
 p1273
-sa(dp1274
+aS'database performance'
+p1274
+asg16
+g17
+sa(dp1275
 g2
-S'http://people.cs.cmu.edu/Thumb/471'
-p1275
+g3
 sg4
-g80
-sg6
-S'Tomasic, Anthony'
+S'Robert Murphy'
 p1276
-sg8
-S'http://people.cs.cmu.edu/Person/471"'
+sg6
+S'http://people.cs.cmu.edu/Person/25"'
 p1277
-sg10
-S'Senior System Scientist'
+sg8
+S'Lane Professor of Computational Biology'
 p1278
-sa(dp1279
-g2
-S'http://people.cs.cmu.edu/Thumb/1457'
-p1280
-sg4
-g80
-sg6
-S'Tongia, Rahul'
+sg10
+S'http://people.cs.cmu.edu/Thumb/25'
+p1279
+sg12
+(lp1280
+S'computational biology'
 p1281
-sg8
-S'http://people.cs.cmu.edu/Person/1457"'
+aS'active learning'
 p1282
-sg10
-S'Senior Systems Scientist'
+aS'cell imaging'
 p1283
-sa(dp1284
-g2
-S'http://people.cs.cmu.edu/Thumb/26'
+aS'modeling of subcellular structure'
+p1284
+aS'information extraction from image and text'
 p1285
-sg4
-S'Machine learning, computational neuroscience, artificial intelligence'
+aS'applied machine learning'
 p1286
-sg6
-S'Touretzky, David'
-p1287
-sg8
-S'http://people.cs.cmu.edu/Person/26"'
+asg16
+g17
+sa(dp1287
+g2
+g3
+sg4
+S'Onur Mutlu'
 p1288
-sg10
-S'Research Professor'
+sg6
+S'http://people.cs.cmu.edu/Person/989"'
 p1289
-sa(dp1290
-g2
-S'http://people.cs.cmu.edu/Thumb/897'
-p1291
-sg4
-S'Computer graphics '
-p1292
-sg6
-S'Treuille, Adrien'
-p1293
 sg8
-S'http://people.cs.cmu.edu/Person/897"'
-p1294
-sg10
 S'Assistant Professor'
+p1290
+sg10
+S'http://people.cs.cmu.edu/Thumb/989'
+p1291
+sg23
+S'Computer architecture, hardware/software interaction and cooperation,hardware security, fault tolerance, hardware support for programminglanguages and system software, interconnection networks, many-coresystems.'
+p1292
+sg16
+g17
+sa(dp1293
+g2
+g3
+sg4
+S'Brad Myers'
+p1294
+sg6
+S'http://people.cs.cmu.edu/Person/117"'
 p1295
-sa(dp1296
-g2
-S'http://people.cs.cmu.edu/Thumb/233'
+sg8
+S'Professor'
+p1296
+sg10
+S'http://people.cs.cmu.edu/Thumb/117'
 p1297
-sg4
-S'Information and Communication Technologies applied to Education; Educational Technology; Learning Design; Intercultural Bilingual Education '
-p1298
-sg6
-S'Vega, Rodolfo'
+sg12
+(lp1298
+S'user interface development systems'
 p1299
-sg8
-S'http://people.cs.cmu.edu/Person/233"'
+aS'user interfaces'
 p1300
-sg10
-S'Lecturer, Ict In Education'
+aS'hand-held computers'
 p1301
-sa(dp1302
-g2
-S'http://people.cs.cmu.edu/Thumb/3'
+aS'programming by example'
+p1302
+aS'programming languages for kids'
 p1303
-sg4
-S'Robot soccer, planning, artificial intelligence'
+aS'visual programming'
 p1304
-sg6
-S'Veloso, Maria Manuela'
+aS'interaction techniques'
 p1305
-sg8
-S'http://people.cs.cmu.edu/Person/3"'
+aS'window management'
 p1306
-sg10
-S'Herbert Simon Professor of Comp Sci'
+aS'programming environments'
 p1307
+asg16
+g17
 sa(dp1308
 g2
-S'http://people.cs.cmu.edu/Thumb/1474'
+g3
+sg4
+S'Srinivasa Narasimhan'
 p1309
-sg4
-S'Statistical Machine Translation, Speech Translation, Multilingual NLP '
+sg6
+S'http://people.cs.cmu.edu/Person/527"'
 p1310
-sg6
-S'Vogel, Stephan'
-p1311
 sg8
-S'http://people.cs.cmu.edu/Person/1474"'
-p1312
-sg10
-S'Assistant Research Professor'
-p1313
-sa(dp1314
-g2
-S'http://people.cs.cmu.edu/Thumb/1470'
-p1315
-sg4
-g80
-sg6
-S'Von Ahn, Luis'
-p1316
-sg8
-S'http://people.cs.cmu.edu/Person/1470"'
-p1317
-sg10
 S'Associate Professor'
+p1311
+sg10
+S'http://people.cs.cmu.edu/Thumb/527'
+p1312
+sg12
+(lp1313
+S'optics'
+p1314
+aS'image processing'
+p1315
+aS'computer vision'
+p1316
+aS'computer graphics'
+p1317
+aS'computational sensors'
 p1318
+asg16
+g17
 sa(dp1319
 g2
-S'http://people.cs.cmu.edu/Thumb/2626'
+g3
+sg4
+S'Priya Narasimhan'
 p1320
-sg4
-S'Director, Biotechnology Innovation and Computation, Distinguished Career Professor '
+sg6
+S'http://people.cs.cmu.edu/Person/1902"'
 p1321
-sg6
-S'Vu, John'
+sg8
+S'Associate Professor, ECE'
 p1322
-sg8
-S'http://people.cs.cmu.edu/Person/2626"'
+sg10
+S'http://people.cs.cmu.edu/Thumb/1902'
 p1323
-sg10
-S'Director, Biotechnology Innovation and Computation, Distinguished Career Professor '
-p1324
-sa(dp1325
-g2
-S'http://people.cs.cmu.edu/Thumb/15'
+sg12
+(lp1324
+S'dependable enterprise middleware systems'
+p1325
+aS'combining dependability with other &quot'
 p1326
-sg4
-S'information retrieval systems, multimedia, speech/image/natural language understanding, distributed systems. Multidisciplinary research: e.g., Informedia Digital Video Library  '
+aS'-ilities&quot'
 p1327
-sg6
-S'Wactlar, Howard'
+aS'(real-time'
 p1328
-sg8
-S'http://people.cs.cmu.edu/Person/15"'
+aS'security)'
 p1329
-sg10
-S'Vice Provost Res Computing / Res. Professor'
+aS'self-adaptive systems'
 p1330
+asg16
+g17
 sa(dp1331
 g2
-S'http://people.cs.cmu.edu/Thumb/1441'
-p1332
+g3
 sg4
-S'Perceptual user interfaces, speech, language, multimodal human computer interaction, face / body tracking and interpretation '
-p1333
+S'Christine Neuwirth'
+p1332
 sg6
-S'Waibel, Alexander'
-p1334
+S'http://people.cs.cmu.edu/Person/115"'
+p1333
 sg8
-S'http://people.cs.cmu.edu/Person/1441"'
-p1335
+S'Professor and Head'
+p1334
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/115'
+p1335
+sg23
+S'Computer-support for collaborative writing computer-mediated communication '
 p1336
+sg16
+g17
 sa(dp1337
 g2
-S'http://people.cs.cmu.edu/Thumb/86'
-p1338
+g3
 sg4
-g80
+S'Illah Nourbakhsh'
+p1338
 sg6
-S'Wasserman, Larry'
+S'http://people.cs.cmu.edu/Person/255"'
 p1339
 sg8
-S'http://people.cs.cmu.edu/Person/86"'
+S'Professor'
 p1340
 sg10
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/255'
 p1341
-sa(dp1342
+sg23
+S'Robotics and artificial intelligence, with an emphasis on the design of autonomous, deliberate systems that achieve their goals in the face of incomplete knowledge '
+p1342
+sg16
+g17
+sa(dp1343
 g2
-S'http://people.cs.cmu.edu/Thumb/60'
-p1343
+g3
 sg4
-S'Tissue engineering, rapid prototyping, quality-of-life technology, MEMS, medical robotics'
+S'Eric Nyberg'
 p1344
 sg6
-S'Weiss, Lee'
+S'http://people.cs.cmu.edu/Person/5"'
 p1345
 sg8
-S'http://people.cs.cmu.edu/Person/60"'
+S'Professor'
 p1346
 sg10
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/5'
 p1347
-sa(dp1348
-g2
-S'http://people.cs.cmu.edu/Thumb/546'
+sg12
+(lp1348
+S'question answering'
 p1349
-sg4
-g80
-sg6
-S'Wescoe, Kurt'
+aS'information extraction'
 p1350
-sg8
-S'http://people.cs.cmu.edu/Person/546"'
+aS'natural language processing'
 p1351
-sg10
-S'Ebusiness Research Fellow'
-p1352
-sa(dp1353
+asg16
+g17
+sa(dp1352
 g2
-S'http://people.cs.cmu.edu/Thumb/355'
+g3
+sg4
+S'Ryan O&#39;Donnell'
+p1353
+sg6
+S'http://people.cs.cmu.edu/Person/689"'
 p1354
-sg4
-S'Visual tracking, space robotics, planning, mobile robots, machine learning, legged locomotion, field robotics, computer vision, artificial intelligence, architectures, human-robot interaction, systems engineering, autonomous navigation'
-p1355
-sg6
-S'Wettergreen, David'
-p1356
 sg8
-S'http://people.cs.cmu.edu/Person/355"'
-p1357
-sg10
-S'Research Professor'
-p1358
-sa(dp1359
-g2
-S'http://people.cs.cmu.edu/Thumb/75'
-p1360
-sg4
-S'Mobile robots in field environments such as work sites and natural terrain; computer architectures to control mobile robots; modeling and planning for non-repetitive tasks '
-p1361
-sg6
-S'Whittaker, William Red'
-p1362
-sg8
-S'http://people.cs.cmu.edu/Person/75"'
-p1363
-sg10
-S'Fredkin University Research Professor'
-p1364
-sa(dp1365
-g2
-S'http://people.cs.cmu.edu/Thumb/14'
-p1366
-sg4
-S'Trustworthy computing, security, privacy, formal methods, distributed and concurrent systems, programming languages, software engineering. '
-p1367
-sg6
-S'Wing, Jeannette'
-p1368
-sg8
-S'http://people.cs.cmu.edu/Person/14"'
-p1369
-sg10
-S'Professor'
-p1370
-sa(dp1371
-g2
-S'http://people.cs.cmu.edu/Thumb/3193'
-p1372
-sg4
-g80
-sg6
-S'Wu, Wei'
-p1373
-sg8
-S'http://people.cs.cmu.edu/Person/3193"'
-p1374
-sg10
-S'Associate Research Professor'
-p1375
-sa(dp1376
-g2
-S'http://people.cs.cmu.edu/Thumb/517'
-p1377
-sg4
-S'Computational Biology, Machine Learning, Computational Statistics'
-p1378
-sg6
-S'Xing, Poe'
-p1379
-sg8
-S'http://people.cs.cmu.edu/Person/517"'
-p1380
-sg10
 S'Associate Professor'
+p1355
+sg10
+S'http://people.cs.cmu.edu/Thumb/689'
+p1356
+sg12
+(lp1357
+S'complexity theory'
+p1358
+aS'approximation algorithms'
+p1359
+aS'analysis of booleanfunctions'
+p1360
+aS'learning theory'
+p1361
+aS'property testing'
+p1362
+aS'probability'
+p1363
+asg16
+g17
+sa(dp1364
+g2
+g3
+sg4
+S'Kemal Oflazer'
+p1365
+sg6
+S'http://people.cs.cmu.edu/Person/2123"'
+p1366
+sg8
+S'Teaching Faculty'
+p1367
+sg10
+S'http://people.cs.cmu.edu/Thumb/2123'
+p1368
+sg23
+g141
+sg16
+g17
+sa(dp1369
+g2
+g3
+sg4
+S'David O&#39;Hallaron'
+p1370
+sg6
+S'http://people.cs.cmu.edu/Person/141"'
+p1371
+sg8
+S'Profess0r 0F CS and ECE'
+p1372
+sg10
+S'http://people.cs.cmu.edu/Thumb/141'
+p1373
+sg12
+(lp1374
+S'scientific computing'
+p1375
+aS'computational database systems'
+p1376
+aS'internet services'
+p1377
+asg16
+g17
+sa(dp1378
+g2
+g3
+sg4
+S'Mark Paulk'
+p1379
+sg6
+S'http://people.cs.cmu.edu/Person/116"'
+p1380
+sg8
+S'Senior Systems Scientist'
 p1381
-sa(dp1382
-g2
-S'http://people.cs.cmu.edu/Thumb/227'
-p1383
-sg4
-S'Information Retrieval, researching in machine learning applied to text classification, translingual retrieval and text mining '
+sg10
+S'http://people.cs.cmu.edu/Thumb/116'
+p1382
+sg12
+(lp1383
+S'total quality management'
 p1384
-sg6
-S'Yang, Yiming'
+aS'best practices (e'
 p1385
-sg8
-S'http://people.cs.cmu.edu/Person/227"'
+aS'software cmm'
 p1386
-sg10
-S'Professor'
+aS'iso/iec 15504'
 p1387
-sa(dp1388
-g2
-S'http://people.cs.cmu.edu/Thumb/2648'
+aS'escm-sp)'
+p1388
+aS'empirical research'
 p1389
-sg4
-S'Computational cell biology, bioimaging informatics, molecular cell mechanics, and fluorescence imaging'
+aS'high maturity practices'
 p1390
-sg6
-S'Yang, Ge'
+aS'statistical thinking'
 p1391
-sg8
-S'http://people.cs.cmu.edu/Person/2648"'
+aS' agile methods'
 p1392
+asg16
+g17
+sa(dp1393
+g2
+g3
+sg4
+S'Eric Paulos'
+p1394
+sg6
+S'http://people.cs.cmu.edu/Person/929"'
+p1395
+sg8
+S'Associate Professor'
+p1396
 sg10
+S'http://people.cs.cmu.edu/Thumb/929'
+p1397
+sg23
+g141
+sg16
+g17
+sa(dp1398
+g2
+g3
+sg4
+S'Frank Pfenning'
+p1399
+sg6
+S'http://people.cs.cmu.edu/Person/32"'
+p1400
+sg8
+S'Prof. CS / SCS Assoc. Dean Grad. Education'
+p1401
+sg10
+S'http://people.cs.cmu.edu/Thumb/32'
+p1402
+sg12
+(lp1403
+S'programming languages'
+p1404
+aS'logic'
+p1405
+aS'type theory'
+p1406
+aS'automated deduction'
+p1407
+aS'security'
+p1408
+asg16
+g17
+sa(dp1409
+g2
+g3
+sg4
+S'Andre Platzer'
+p1410
+sg6
+S'http://people.cs.cmu.edu/Person/675"'
+p1411
+sg8
 S'Assistant Professor'
-p1393
+p1412
+sg10
+S'http://people.cs.cmu.edu/Thumb/675'
+p1413
+sg12
+(lp1414
+S'formal verification of hybrid'
+p1415
+aS'real-time'
+p1416
+aS'cyber-physical'
+p1417
+aS' embedded systems'
+p1418
+aS'logic'
+p1419
+aS'automated theorem proving and model checking'
+p1420
+aS'computer algebra'
+p1421
+asg16
+g17
+sa(dp1422
+g2
+g3
+sg4
+S'Nancy Pollard'
+p1423
+sg6
+S'http://people.cs.cmu.edu/Person/409"'
+p1424
+sg8
+S'Associate Professor'
+p1425
+sg10
+S'http://people.cs.cmu.edu/Thumb/409'
+p1426
+sg12
+(lp1427
+S'quality-of-life technology'
+p1428
+aS'manipulation'
+p1429
+aS'humanoid robotics'
+p1430
+aS'human motion simulation'
+p1431
+aS'computer graphics'
+p1432
+aS'animation'
+p1433
+asg16
+g17
+sa(dp1434
+g2
+g3
+sg4
+S'Ariel Procaccia'
+p1435
+sg6
+S'http://people.cs.cmu.edu/Person/2615"'
+p1436
+sg8
+S'Assistant Professor '
+p1437
+sg10
+S'http://people.cs.cmu.edu/Thumb/2615'
+p1438
+sg12
+(lp1439
+S'artificial intelligence'
+p1440
+aS'computational game theory'
+p1441
+aS'computational social choice'
+p1442
+aS'algorithms'
+p1443
+asg16
+g17
+sa(dp1444
+g2
+g3
+sg4
+S'Bhiksha Ramakrishnan'
+p1445
+sg6
+S'http://people.cs.cmu.edu/Person/209"'
+p1446
+sg8
+S'Associate Professor'
+p1447
+sg10
+S'http://people.cs.cmu.edu/Thumb/209'
+p1448
+sg23
+g141
+sg16
+g17
+sa(dp1449
+g2
+g3
+sg4
+S'Ramamoorthi Ravi'
+p1450
+sg6
+S'http://people.cs.cmu.edu/Person/216"'
+p1451
+sg8
+S'Carnegie Bosch Professor'
+p1452
+sg10
+S'http://people.cs.cmu.edu/Thumb/216'
+p1453
+sg23
+S'Approximation algorithms, combinatorial optimization and computational molecular biology '
+p1454
+sg16
+g17
+sa(dp1455
+g2
+g3
+sg4
+S'Raj Reddy'
+p1456
+sg6
+S'http://people.cs.cmu.edu/Person/1450"'
+p1457
+sg8
+S'Mozah Bint Nasser University Professor'
+p1458
+sg10
+S'http://people.cs.cmu.edu/Thumb/1450'
+p1459
+sg12
+(lp1460
+S'speech'
+p1461
+aS'gigabit'
+p1462
+aS'robotics'
+p1463
+aS' digital libraries'
+p1464
+asg16
+g17
+sa(dp1465
+g2
+g3
+sg4
+S'Margaret Reid-Miller'
+p1466
+sg6
+S'http://people.cs.cmu.edu/Person/166"'
+p1467
+sg8
+S'Assistant Teaching Professor'
+p1468
+sg10
+S'http://people.cs.cmu.edu/Thumb/166'
+p1469
+sg23
+g141
+sg16
+g17
+sa(dp1470
+g2
+g3
+sg4
+S'John Reynolds'
+p1471
+sg6
+S'http://people.cs.cmu.edu/Person/1448"'
+p1472
+sg8
+S'Professor'
+p1473
+sg10
+S'http://people.cs.cmu.edu/Thumb/1448'
+p1474
+sg23
+S'The design of programming languages and languages for specifying program behavior, mathematical tools for defining the semantics of such languages, and methods for verifying that programs meet their specifications '
+p1475
+sg16
+g17
+sa(dp1476
+g2
+g3
+sg4
+S'Cameron Riviere'
+p1477
+sg6
+S'http://people.cs.cmu.edu/Person/218"'
+p1478
+sg8
+S'Associate Research Professor'
+p1479
+sg10
+S'http://people.cs.cmu.edu/Thumb/218'
+p1480
+sg12
+(lp1481
+S'medical robotics'
+p1482
+aS'medical applications'
+p1483
+aS'mechatronics'
+p1484
+aS'machine learning'
+p1485
+aS'control'
+p1486
+asg16
+g17
+sa(dp1487
+g2
+g3
+sg4
+S'Alfred Rizzi'
+p1488
+sg6
+S'http://people.cs.cmu.edu/Person/225"'
+p1489
+sg8
+S'Adjunct Faculty'
+p1490
+sg10
+S'http://people.cs.cmu.edu/Thumb/225'
+p1491
+sg23
+S'Developing highly capable systems and machines that are both easy to instruct and capable of dealing with uncertainty '
+p1492
+sg16
+g17
+sa(dp1493
+g2
+g3
+sg4
+S'Katherine Roeder'
+p1494
+sg6
+S'http://people.cs.cmu.edu/Person/2649"'
+p1495
+sg8
+S'Professor'
+p1496
+sg10
+S'http://people.cs.cmu.edu/Thumb/2649'
+p1497
+sg23
+g141
+sg16
+g17
+sa(dp1498
+g2
+g3
+sg4
+S'Gustavo Rohde'
+p1499
+sg6
+S'http://people.cs.cmu.edu/Person/2651"'
+p1500
+sg8
+S'Assistant Professor '
+p1501
+sg10
+S'http://people.cs.cmu.edu/Thumb/2651'
+p1502
+sg12
+(lp1503
+S'biomedical imaging'
+p1504
+aS'signal processing'
+p1505
+aS'computational biology'
+p1506
+asg16
+g17
+sa(dp1507
+g2
+g3
+sg4
+S'David Root'
+p1508
+sg6
+S'http://people.cs.cmu.edu/Person/290"'
+p1509
+sg8
+S'Assoc. Teaching Professor / Asst Direct. De'
+p1510
+sg10
+S'http://people.cs.cmu.edu/Thumb/290'
+p1511
+sg23
+g141
+sg16
+g17
+sa(dp1512
+g2
+g3
+sg4
+S'Carolyn Rose'
+p1513
+sg6
+S'http://people.cs.cmu.edu/Person/170"'
+p1514
+sg8
+S'Assistant Professor'
+p1515
+sg10
+S'http://people.cs.cmu.edu/Thumb/170'
+p1516
+sg12
+(lp1517
+S'computer supported collaborative learning'
+p1518
+aS'tutorial dialogue'
+p1519
+aS'conversation analysis'
+p1520
+aS'summarization'
+p1521
+asg16
+g17
+sa(dp1522
+g2
+g3
+sg4
+S'Ronald Rosenfeld'
+p1523
+sg6
+S'http://people.cs.cmu.edu/Person/93"'
+p1524
+sg8
+S'Professor'
+p1525
+sg10
+S'http://people.cs.cmu.edu/Thumb/93'
+p1526
+sg12
+(lp1527
+S'computational molecular biology'
+p1528
+aS'speech and language technology for development'
+p1529
+aS'speech interfaces'
+p1530
+aS'machine learning'
+p1531
+asg16
+g17
+sa(dp1532
+g2
+g3
+sg4
+S'Manuel Rosso-Llopart'
+p1533
+sg6
+S'http://people.cs.cmu.edu/Person/376"'
+p1534
+sg8
+S'Associate Teaching Professor'
+p1535
+sg10
+S'http://people.cs.cmu.edu/Thumb/376'
+p1536
+sg23
+g141
+sg16
+g17
+sa(dp1537
+g2
+g3
+sg4
+S'Zack Rubinstein'
+p1538
+sg6
+S'http://people.cs.cmu.edu/Person/606"'
+p1539
+sg8
+S'Systems Scientist'
+p1540
+sg10
+S'http://people.cs.cmu.edu/Thumb/606'
+p1541
+sg23
+g141
+sg16
+g17
+sa(dp1542
+g2
+g3
+sg4
+S'Steven Rudich'
+p1543
+sg6
+S'http://people.cs.cmu.edu/Person/133"'
+p1544
+sg8
+S'Professor'
+p1545
+sg10
+S'http://people.cs.cmu.edu/Thumb/133'
+p1546
+sg23
+g141
+sg16
+g17
+sa(dp1547
+g2
+g3
+sg4
+S'Alexander Rudnicky'
+p1548
+sg6
+S'http://people.cs.cmu.edu/Person/55"'
+p1549
+sg8
+S'Research Professor'
+p1550
+sg10
+S'http://people.cs.cmu.edu/Thumb/55'
+p1551
+sg12
+(lp1552
+S'spoken language interaction'
+p1553
+aS'speech recognition'
+p1554
+aS'interface design'
+p1555
+asg16
+g17
+sa(dp1556
+g2
+g3
+sg4
+S'Paul Rybski'
+p1557
+sg6
+S'http://people.cs.cmu.edu/Person/479"'
+p1558
+sg8
+S'Senior Systems Scientist'
+p1559
+sg10
+S'http://people.cs.cmu.edu/Thumb/479'
+p1560
+sg12
+(lp1561
+S'sensor fusion'
+p1562
+aS'robot soccer'
+p1563
+aS'multirobot systems'
+p1564
+aS'mobile robots'
+p1565
+aS'human-robot interaction'
+p1566
+aS'field robotics'
+p1567
+aS'artificial intelligence'
+p1568
+asg16
+g17
+sa(dp1569
+g2
+g3
+sg4
+S'Norman Sadeh-Koniecpol'
+p1570
+sg6
+S'http://people.cs.cmu.edu/Person/130"'
+p1571
+sg8
+S'Professor'
+p1572
+sg10
+S'http://people.cs.cmu.edu/Thumb/130'
+p1573
+sg23
+S'Director, Mobile Commerce Lab;Director, e-Supply Chain Management Lab;Co-Director, COS PhD Program;Co-Director, MBA Track in Technology Leadership; Other research areas: Web Commerce, Security and Privacy, AI and HCI.'
+p1574
+sg16
+g17
+sa(dp1575
+g2
+g3
+sg4
+S'Nick Sahinidis'
+p1576
+sg6
+S'http://people.cs.cmu.edu/Person/2652"'
+p1577
+sg8
+S'John E. Swearingen Professor'
+p1578
+sg10
+S'http://people.cs.cmu.edu/Thumb/2652'
+p1579
+sg23
+S'Fundamental advances in the area of optimization theory, algorithms, and software. Comprehensive solutions to important and fundamental problems involving biological, chemical, and engineering systems.'
+p1580
+sg16
+g17
+sa(dp1581
+g2
+g3
+sg4
+S'Majd Sakr'
+p1582
+sg6
+S'http://people.cs.cmu.edu/Person/1900"'
+p1583
+sg8
+S'Associate Teaching Professor, Assistant Dean for Research (Qatar)'
+p1584
+sg10
+S'http://people.cs.cmu.edu/Thumb/1900'
+p1585
+sg12
+(lp1586
+S'computer architecture'
+p1587
+aS'embedded systems'
+p1588
+aS'parallel processing'
+p1589
+aS'cloud computing'
+p1590
+asg16
+g17
+sa(dp1591
+g2
+g3
+sg4
+S'Tuomas Sandholm'
+p1592
+sg6
+S'http://people.cs.cmu.edu/Person/393"'
+p1593
+sg8
+S'Professor'
+p1594
+sg10
+S'http://people.cs.cmu.edu/Thumb/393'
+p1595
+sg12
+(lp1596
+S'artificial intelligence'
+p1597
+aS'electronic commerce'
+p1598
+aS'game theory'
+p1599
+aS'multiagent systems'
+p1600
+aS'auctions and exchanges'
+p1601
+aS'automated negotiation and contracting'
+p1602
+aS'coalition formation'
+p1603
+aS'safe exchange'
+p1604
+aS'normative models of bounded rationality'
+p1605
+aS'resource-bounded reasoning'
+p1606
+aS'constraint satisfaction'
+p1607
+aS'machine learning'
+p1608
+aS'networks'
+p1609
+aS'combinatorial optimization'
+p1610
+asg16
+g17
+sa(dp1611
+g2
+g3
+sg4
+S'Mahadev Satyanarayanan'
+p1612
+sg6
+S'http://people.cs.cmu.edu/Person/61"'
+p1613
+sg8
+S'Carnegie Group Professor of Comp. Science'
+p1614
+sg10
+S'http://people.cs.cmu.edu/Thumb/61'
+p1615
+sg12
+(lp1616
+S'mobile and pervasive computing'
+p1617
+aS'distributed file systems'
+p1618
+aS'measurement and evaluation'
+p1619
+aS'security'
+p1620
+asg16
+g17
+sa(dp1621
+g2
+g3
+sg4
+S'Paul Scerri'
+p1622
+sg6
+S'http://people.cs.cmu.edu/Person/476"'
+p1623
+sg8
+S'Associate Research Professor'
+p1624
+sg10
+S'http://people.cs.cmu.edu/Thumb/476'
+p1625
+sg12
+(lp1626
+S'multi-agent systems'
+p1627
+aS'human-computer interaction'
+p1628
+aS'constraint-directed reasoning'
+p1629
+aS'artificial intelligence'
+p1630
+asg16
+g17
+sa(dp1631
+g2
+g3
+sg4
+S'Richard Scheines'
+p1632
+sg6
+S'http://people.cs.cmu.edu/Person/28"'
+p1633
+sg8
+S'Professor and Department Head'
+p1634
+sg10
+S'http://people.cs.cmu.edu/Thumb/28'
+p1635
+sg12
+(lp1636
+S'causal discovery from databases'
+p1637
+aS'web-based education'
+p1638
+asg16
+g17
+sa(dp1639
+g2
+g3
+sg4
+S'Hagen Schempf'
+p1640
+sg6
+S'http://people.cs.cmu.edu/Person/154"'
+p1641
+sg8
+S'Dir. , M. Sc.  Robotic Systems Development'
+p1642
+sg10
+S'http://people.cs.cmu.edu/Thumb/154'
+p1643
+sg12
+(lp1644
+S'manufacturing'
+p1645
+aS'manipulation'
+p1646
+aS'hazardous environments'
+p1647
+asg16
+g17
+sa(dp1648
+g2
+g3
+sg4
+S'William Scherlis'
+p1649
+sg6
+S'http://people.cs.cmu.edu/Person/94"'
+p1650
+sg8
+S'Professor and Director'
+p1651
+sg10
+S'http://people.cs.cmu.edu/Thumb/94'
+p1652
+sg12
+(lp1653
+S'software engineering'
+p1654
+aS'software assurance'
+p1655
+aS'concurrency'
+p1656
+aS'program analysis'
+p1657
+asg16
+g17
+sa(dp1658
+g2
+g3
+sg4
+S'Bradley Schmerl'
+p1659
+sg6
+S'http://people.cs.cmu.edu/Person/369"'
+p1660
+sg8
+S'Senior Systems Scientist'
+p1661
+sg10
+S'http://people.cs.cmu.edu/Thumb/369'
+p1662
+sg12
+(lp1663
+S'software engineering'
+p1664
+aS'software architecture'
+p1665
+aS'dynamic adaptation'
+p1666
+aS'pervasive computing'
+p1667
+asg16
+g17
+sa(dp1668
+g2
+g3
+sg4
+S'Jeff Schneider'
+p1669
+sg6
+S'http://people.cs.cmu.edu/Person/208"'
+p1670
+sg8
+S'Associate Research Professor'
+p1671
+sg10
+S'http://people.cs.cmu.edu/Thumb/208'
+p1672
+sg12
+(lp1673
+S'machine learning'
+p1674
+aS'artificial intelligence'
+p1675
+asg16
+g17
+sa(dp1676
+g2
+g3
+sg4
+S'Tanja Schultz'
+p1677
+sg6
+S'http://people.cs.cmu.edu/Person/377"'
+p1678
+sg8
+S'Faculty'
+p1679
+sg10
+S'http://people.cs.cmu.edu/Thumb/377'
+p1680
+sg23
+S'Rapid Deployment of Speech Processing Systems to new Languages and Domains, Speech Translation, Detection and Annotation of Disfluencies and Non-verbal Cues, Non-audible and Whispered Speech, Towards Communication with Dolphins'
+p1681
+sg16
+g17
+sa(dp1682
+g2
+g3
+sg4
+S'Russell Schwartz'
+p1683
+sg6
+S'http://people.cs.cmu.edu/Person/436"'
+p1684
+sg8
+S'Associate Professor'
+p1685
+sg10
+S'http://people.cs.cmu.edu/Thumb/436'
+p1686
+sg23
+g141
+sg16
+g17
+sa(dp1687
+g2
+g3
+sg4
+S'Dana Scott'
+p1688
+sg6
+S'http://people.cs.cmu.edu/Person/1906"'
+p1689
+sg8
+S'Hillman University Professor, CS, Math, Phil., CSD, Emeritus'
+p1690
+sg10
+S'http://people.cs.cmu.edu/Thumb/1906'
+p1691
+sg12
+(lp1692
+S'philosophy'
+p1693
+aS'mathematical logic'
+p1694
+aS'semantics of computer languages'
+p1695
+aS'computer algebra'
+p1696
+asg16
+g17
+sa(dp1697
+g2
+g3
+sg4
+S'Teddy Seidenfeld'
+p1698
+sg6
+S'http://people.cs.cmu.edu/Person/20"'
+p1699
+sg8
+S'Herbert A Simon Prof Philosophy  Stats'
+p1700
+sg10
+S'http://people.cs.cmu.edu/Thumb/20'
+p1701
+sg23
+g141
+sg16
+g17
+sa(dp1702
+g2
+g3
+sg4
+S'Srinivasan Seshan'
+p1703
+sg6
+S'http://people.cs.cmu.edu/Person/373"'
+p1704
+sg8
+S'Professor'
+p1705
+sg10
+S'http://people.cs.cmu.edu/Thumb/373'
+p1706
+sg12
+(lp1707
+S'network protocols/services/applications'
+p1708
+aS'distributed systems'
+p1709
+aS'mobile computing'
+p1710
+aS'wireless networks'
+p1711
+asg16
+g17
+sa(dp1712
+g2
+g3
+sg4
+S'Michael Shamos'
+p1713
+sg6
+S'http://people.cs.cmu.edu/Person/16"'
+p1714
+sg8
+S'Distinguished Career Professor'
+p1715
+sg10
+S'http://people.cs.cmu.edu/Thumb/16'
+p1716
+sg12
+(lp1717
+S'digital libraries'
+p1718
+aS'language indentification'
+p1719
+aS'internet policy'
+p1720
+aS'electronic negotiation'
+p1721
+asg16
+g17
+sa(dp1722
+g2
+g3
+sg4
+S'Mary Shaw'
+p1723
+sg6
+S'http://people.cs.cmu.edu/Person/90"'
+p1724
+sg8
+S'A J Perlis Professor'
+p1725
+sg10
+S'http://people.cs.cmu.edu/Thumb/90'
+p1726
+sg12
+(lp1727
+S'software engineering'
+p1728
+aS'value-driven software design'
+p1729
+aS'software architecture'
+p1730
+aS'paradigms of software research'
+p1731
+aS'software engineering education'
+p1732
+asg16
+g17
+sa(dp1733
+g2
+g3
+sg4
+S'Yaser Sheikh'
+p1734
+sg6
+S'http://people.cs.cmu.edu/Person/680"'
+p1735
+sg8
+S'Assistant Research Professor'
+p1736
+sg10
+S'http://people.cs.cmu.edu/Thumb/680'
+p1737
+sg12
+(lp1738
+S'visual tracking'
+p1739
+aS'machine learning'
+p1740
+aS'human motion simulation'
+p1741
+aS'computer vision'
+p1742
+asg16
+g17
+sa(dp1743
+g2
+g3
+sg4
+S'Kenji Shimada'
+p1744
+sg6
+S'http://people.cs.cmu.edu/Person/1904"'
+p1745
+sg8
+S'Professor, ME and RI '
+p1746
+sg10
+S'http://people.cs.cmu.edu/Thumb/1904'
+p1747
+sg12
+(lp1748
+S'geometric modeling and simulation'
+p1749
+aS'mesh generation'
+p1750
+aS'computer graphics'
+p1751
+aS'computational geometry'
+p1752
+aS'robotics'
+p1753
+aS'medical cad - cad/cam/cae'
+p1754
+asg16
+g17
+sa(dp1755
+g2
+g3
+sg4
+S'Mel Siegel'
+p1756
+sg6
+S'http://people.cs.cmu.edu/Person/24"'
+p1757
+sg8
+S'Associate Research Professor'
+p1758
+sg10
+S'http://people.cs.cmu.edu/Thumb/24'
+p1759
+sg12
+(lp1760
+S'video systems'
+p1761
+aS'teleoperation'
+p1762
+aS'sensors'
+p1763
+aS'medical imaging'
+p1764
+aS'inspection'
+p1765
+aS'image compression'
+p1766
+aS'display devices'
+p1767
+aS'acoustics'
+p1768
+aS'3-d perception'
+p1769
+asg16
+g17
+sa(dp1770
+g2
+g3
+sg4
+S'Daniel Siewiorek'
+p1771
+sg6
+S'http://people.cs.cmu.edu/Person/105"'
+p1772
+sg8
+S'Buhl Univ. Prof ECE &amp; CS'
+p1773
+sg10
+S'http://people.cs.cmu.edu/Thumb/105'
+p1774
+sg12
+(lp1775
+S'mobile computing'
+p1776
+aS'wearable computers'
+p1777
+aS'context aware computing'
+p1778
+aS'rapid prototyping'
+p1779
+aS'computer architecture'
+p1780
+aS'dependable computing'
+p1781
+aS'design automation'
+p1782
+aS'parallel processing'
+p1783
+asg16
+g17
+sa(dp1784
+g2
+g3
+sg4
+S'Reid Simmons'
+p1785
+sg6
+S'http://people.cs.cmu.edu/Person/17"'
+p1786
+sg8
+S'Research Prof / Assoc Dir Educ / Phd Chair'
+p1787
+sg10
+S'http://people.cs.cmu.edu/Thumb/17'
+p1788
+sg12
+(lp1789
+S'space robotics'
+p1790
+aS'quality-of-life technology'
+p1791
+aS'planning'
+p1792
+aS'obstacle avoidance'
+p1793
+aS'multi-agent systems'
+p1794
+aS'motion planning'
+p1795
+aS'mobile robots'
+p1796
+aS'machine learning'
+p1797
+aS'artificial intelligence'
+p1798
+aS'architectures'
+p1799
+asg16
+g17
+sa(dp1800
+g2
+g3
+sg4
+S'Sanjiv Singh'
+p1801
+sg6
+S'http://people.cs.cmu.edu/Person/121"'
+p1802
+sg8
+S'Research Professor'
+p1803
+sg10
+S'http://people.cs.cmu.edu/Thumb/121'
+p1804
+sg12
+(lp1805
+S'applications of robotics in outdoor'
+p1806
+aS'unstructured environments'
+p1807
+asg16
+g17
+sa(dp1808
+g2
+g3
+sg4
+S'Aarti Singh'
+p1809
+sg6
+S'http://people.cs.cmu.edu/Person/1086"'
+p1810
+sg8
+S'Assistant Professor'
+p1811
+sg10
+S'http://people.cs.cmu.edu/Thumb/1086'
+p1812
+sg23
+g141
+sg16
+g17
+sa(dp1813
+g2
+g3
+sg4
+S'Donald Slater'
+p1814
+sg6
+S'http://people.cs.cmu.edu/Person/298"'
+p1815
+sg8
+S'Assistant Teaching Professor'
+p1816
+sg10
+S'http://people.cs.cmu.edu/Thumb/298'
+p1817
+sg12
+(lp1818
+S'teacher of computer science'
+p1819
+aS'alice project'
+p1820
+asg16
+g17
+sa(dp1821
+g2
+g3
+sg4
+S'Daniel Sleator'
+p1822
+sg6
+S'http://people.cs.cmu.edu/Person/109"'
+p1823
+sg8
+S'Professor'
+p1824
+sg10
+S'http://people.cs.cmu.edu/Thumb/109'
+p1825
+sg12
+(lp1826
+S'data structures'
+p1827
+aS'graph algorithms'
+p1828
+aS'on-line algorithms'
+p1829
+aS'parsing natural languages'
+p1830
+asg16
+g17
+sa(dp1831
+g2
+g3
+sg4
+S'Stephen Smith'
+p1832
+sg6
+S'http://people.cs.cmu.edu/Person/97"'
+p1833
+sg8
+S'Research Professor'
+p1834
+sg10
+S'http://people.cs.cmu.edu/Thumb/97'
+p1835
+sg12
+(lp1836
+S'scheduling'
+p1837
+aS'planning'
+p1838
+aS'optimization'
+p1839
+aS'multi-agent systems'
+p1840
+aS'manufacturing'
+p1841
+aS'machine learning'
+p1842
+aS'intelligent transportation'
+p1843
+aS'human-computer interaction'
+p1844
+aS'factory and warehouse automation'
+p1845
+aS'distributed problem solving'
+p1846
+aS'constraint-directed reasoning'
+p1847
+aS'artificial intelligence'
+p1848
+asg16
+g17
+sa(dp1849
+g2
+g3
+sg4
+S'Noah Smith'
+p1850
+sg6
+S'http://people.cs.cmu.edu/Person/691"'
+p1851
+sg8
+S'Assistant Professor'
+p1852
+sg10
+S'http://people.cs.cmu.edu/Thumb/691'
+p1853
+sg23
+S'Multilingual and Cross-lingual Natural Language Processing, Machine Learning'
+p1854
+sg16
+g17
+sa(dp1855
+g2
+g3
+sg4
+S'Peter Spirtes'
+p1856
+sg6
+S'http://people.cs.cmu.edu/Person/1905"'
+p1857
+sg8
+S'Professor, Philosophy'
+p1858
+sg10
+S'http://people.cs.cmu.edu/Thumb/1905'
+p1859
+sg23
+g141
+sg16
+g17
+sa(dp1860
+g2
+g3
+sg4
+S'Siddhartha Srinivasa'
+p1861
+sg6
+S'http://people.cs.cmu.edu/Person/333"'
+p1862
+sg8
+S'Associate Professor'
+p1863
+sg10
+S'http://people.cs.cmu.edu/Thumb/333'
+p1864
+sg12
+(lp1865
+S'motion planning'
+p1866
+aS'manipulation'
+p1867
+aS'humanoid robotics'
+p1868
+aS'human motion simulation'
+p1869
+aS'control'
+p1870
+aS'computer graphics'
+p1871
+aS'active perception'
+p1872
+asg16
+g17
+sa(dp1873
+g2
+g3
+sg4
+S'Peter Steenkiste'
+p1874
+sg6
+S'http://people.cs.cmu.edu/Person/126"'
+p1875
+sg8
+S'Professor of CS and ECE'
+p1876
+sg10
+S'http://people.cs.cmu.edu/Thumb/126'
+p1877
+sg12
+(lp1878
+S'networking'
+p1879
+aS'pervasive computing'
+p1880
+aS'distributed computing'
+p1881
+asg16
+g17
+sa(dp1882
+g2
+g3
+sg4
+S'Mark Stehlik'
+p1883
+sg6
+S'http://people.cs.cmu.edu/Person/19"'
+p1884
+sg8
+S'Teaching Professor / Asst Dean Ugrad Ed'
+p1885
+sg10
+S'http://people.cs.cmu.edu/Thumb/19'
+p1886
+sg23
+g141
+sg16
+g17
+sa(dp1887
+g2
+g3
+sg4
+S'Aaron Steinfeld'
+p1888
+sg6
+S'http://people.cs.cmu.edu/Person/414"'
+p1889
+sg8
+S'Senior Systems Scientist'
+p1890
+sg10
+S'http://people.cs.cmu.edu/Thumb/414'
+p1891
+sg12
+(lp1892
+S'teleoperation'
+p1893
+aS'quality-of-life technology'
+p1894
+aS'mobile robots'
+p1895
+aS'medical applications'
+p1896
+aS'intelligent transportation'
+p1897
+aS'human-robot interaction'
+p1898
+aS'human-computer interaction'
+p1899
+aS'human factors'
+p1900
+aS'design'
+p1901
+asg16
+g17
+sa(dp1902
+g2
+g3
+sg4
+S'Anthony Stentz'
+p1903
+sg6
+S'http://people.cs.cmu.edu/Person/107"'
+p1904
+sg8
+S'Research Professor / Director NREC'
+p1905
+sg10
+S'http://people.cs.cmu.edu/Thumb/107'
+p1906
+sg12
+(lp1907
+S'multirobot systems'
+p1908
+aS'field robotics'
+p1909
+asg16
+g17
+sa(dp1910
+g2
+g3
+sg4
+S'Richard Stern'
+p1911
+sg6
+S'http://people.cs.cmu.edu/Person/13"'
+p1912
+sg8
+S'Professor'
+p1913
+sg10
+S'http://people.cs.cmu.edu/Thumb/13'
+p1914
+sg12
+(lp1915
+S'robust automatic speech recognition'
+p1916
+aS'auditory perception'
+p1917
+aS'signal processing'
+p1918
+asg16
+g17
+sa(dp1919
+g2
+g3
+sg4
+S'George Stetten'
+p1920
+sg6
+S'http://people.cs.cmu.edu/Person/324"'
+p1921
+sg8
+S'Research Professor'
+p1922
+sg10
+S'http://people.cs.cmu.edu/Thumb/324'
+p1923
+sg12
+(lp1924
+S'teleoperation'
+p1925
+aS'object recognition'
+p1926
+aS'medical robotics'
+p1927
+aS'medical imaging'
+p1928
+aS'medical applications'
+p1929
+aS'image processing'
+p1930
+aS'haptics'
+p1931
+aS'education'
+p1932
+aS'display devices'
+p1933
+aS'data visualization'
+p1934
+aS'bioengineering'
+p1935
+asg16
+g17
+sa(dp1936
+g2
+g3
+sg4
+S'Klaus Sutner'
+p1937
+sg6
+S'http://people.cs.cmu.edu/Person/217"'
+p1938
+sg8
+S'Teaching Prof.  / Assoc. Dean Ugrad Prog. SCS'
+p1939
+sg10
+S'http://people.cs.cmu.edu/Thumb/217'
+p1940
+sg12
+(lp1941
+S'automata theory'
+p1942
+aS'computational mathematics'
+p1943
+aS'discrete dynamics'
+p1944
+asg16
+g17
+sa(dp1945
+g2
+g3
+sg4
+S'Katia Sycara'
+p1946
+sg6
+S'http://people.cs.cmu.edu/Person/9"'
+p1947
+sg8
+S'Research Professor'
+p1948
+sg10
+S'http://people.cs.cmu.edu/Thumb/9'
+p1949
+sg12
+(lp1950
+S'activity and intent recongition'
+p1951
+aS'decentralized optimization'
+p1952
+aS'complex dynamical systems'
+p1953
+aS'multi-agent systems'
+p1954
+aS'human-robot interaction'
+p1955
+aS'artificial intelligence'
+p1956
+asg16
+g17
+sa(dp1957
+g2
+g3
+sg4
+S'Sujata Telang'
+p1958
+sg6
+S'http://people.cs.cmu.edu/Person/396"'
+p1959
+sg8
+S'Associate Teaching Professor'
+p1960
+sg10
+S'http://people.cs.cmu.edu/Thumb/396'
+p1961
+sg23
+g141
+sg16
+g17
+sa(dp1962
+g2
+g3
+sg4
+S'Karen Thickman'
+p1963
+sg6
+S'http://people.cs.cmu.edu/Person/1280"'
+p1964
+sg8
+S'Assistant Teaching Professor'
+p1965
+sg10
+S'http://people.cs.cmu.edu/Thumb/1280'
+p1966
+sg23
+g141
+sg16
+g17
+sa(dp1967
+g2
+g3
+sg4
+S'Charles Thorpe'
+p1968
+sg6
+S'http://people.cs.cmu.edu/Person/1447"'
+p1969
+sg8
+S'Professor'
+p1970
+sg10
+S'http://people.cs.cmu.edu/Thumb/1447'
+p1971
+sg12
+(lp1972
+S'teleoperation'
+p1973
+aS'stereo vision'
+p1974
+aS'mobile robots'
+p1975
+aS'human-computer interaction'
+p1976
+aS'computer vision'
+p1977
+asg16
+g17
+sa(dp1978
+g2
+g3
+sg4
+S'Anthony Tomasic'
+p1979
+sg6
+S'http://people.cs.cmu.edu/Person/471"'
+p1980
+sg8
+S'Senior System Scientist'
+p1981
+sg10
+S'http://people.cs.cmu.edu/Thumb/471'
+p1982
+sg23
+g141
+sg16
+g17
+sa(dp1983
+g2
+g3
+sg4
+S'Rahul Tongia'
+p1984
+sg6
+S'http://people.cs.cmu.edu/Person/1457"'
+p1985
+sg8
+S'Senior Systems Scientist'
+p1986
+sg10
+S'http://people.cs.cmu.edu/Thumb/1457'
+p1987
+sg23
+g141
+sg16
+g17
+sa(dp1988
+g2
+g3
+sg4
+S'David Touretzky'
+p1989
+sg6
+S'http://people.cs.cmu.edu/Person/26"'
+p1990
+sg8
+S'Research Professor'
+p1991
+sg10
+S'http://people.cs.cmu.edu/Thumb/26'
+p1992
+sg12
+(lp1993
+S'machine learning'
+p1994
+aS'computational neuroscience'
+p1995
+aS'artificial intelligence'
+p1996
+asg16
+g17
+sa(dp1997
+g2
+g3
+sg4
+S'Adrien Treuille'
+p1998
+sg6
+S'http://people.cs.cmu.edu/Person/897"'
+p1999
+sg8
+S'Assistant Professor'
+p2000
+sg10
+S'http://people.cs.cmu.edu/Thumb/897'
+p2001
+sg12
+(lp2002
+S'computer graphics'
+p2003
+asg16
+g17
+sa(dp2004
+g2
+g3
+sg4
+S'Rodolfo Vega'
+p2005
+sg6
+S'http://people.cs.cmu.edu/Person/233"'
+p2006
+sg8
+S'Lecturer, Ict In Education'
+p2007
+sg10
+S'http://people.cs.cmu.edu/Thumb/233'
+p2008
+sg23
+S'Information and Communication Technologies applied to Education; Educational Technology; Learning Design; Intercultural Bilingual Education '
+p2009
+sg16
+g17
+sa(dp2010
+g2
+g3
+sg4
+S'Maria Manuela Veloso'
+p2011
+sg6
+S'http://people.cs.cmu.edu/Person/3"'
+p2012
+sg8
+S'Herbert Simon Professor of Comp Sci'
+p2013
+sg10
+S'http://people.cs.cmu.edu/Thumb/3'
+p2014
+sg12
+(lp2015
+S'robot soccer'
+p2016
+aS'planning'
+p2017
+aS'artificial intelligence'
+p2018
+asg16
+g17
+sa(dp2019
+g2
+g3
+sg4
+S'Stephan Vogel'
+p2020
+sg6
+S'http://people.cs.cmu.edu/Person/1474"'
+p2021
+sg8
+S'Assistant Research Professor'
+p2022
+sg10
+S'http://people.cs.cmu.edu/Thumb/1474'
+p2023
+sg12
+(lp2024
+S'statistical machine translation'
+p2025
+aS'speech translation'
+p2026
+aS'multilingual nlp'
+p2027
+asg16
+g17
+sa(dp2028
+g2
+g3
+sg4
+S'Luis Von Ahn'
+p2029
+sg6
+S'http://people.cs.cmu.edu/Person/1470"'
+p2030
+sg8
+S'Associate Professor'
+p2031
+sg10
+S'http://people.cs.cmu.edu/Thumb/1470'
+p2032
+sg23
+g141
+sg16
+g17
+sa(dp2033
+g2
+g3
+sg4
+S'John Vu'
+p2034
+sg6
+S'http://people.cs.cmu.edu/Person/2626"'
+p2035
+sg8
+S'Director, Biotechnology Innovation and Computation, Distinguished Career Professor '
+p2036
+sg10
+S'http://people.cs.cmu.edu/Thumb/2626'
+p2037
+sg12
+(lp2038
+S'director'
+p2039
+aS'biotechnology innovation and computation'
+p2040
+aS'distinguished career professor'
+p2041
+asg16
+g17
+sa(dp2042
+g2
+g3
+sg4
+S'Howard Wactlar'
+p2043
+sg6
+S'http://people.cs.cmu.edu/Person/15"'
+p2044
+sg8
+S'Vice Provost Res Computing / Res. Professor'
+p2045
+sg10
+S'http://people.cs.cmu.edu/Thumb/15'
+p2046
+sg12
+(lp2047
+S'information retrieval systems'
+p2048
+aS'multimedia'
+p2049
+aS'speech/image/natural language understanding'
+p2050
+aS'distributed systems'
+p2051
+aS'multidisciplinary research: e'
+p2052
+aS'informedia digital video library'
+p2053
+asg16
+g17
+sa(dp2054
+g2
+g3
+sg4
+S'Alexander Waibel'
+p2055
+sg6
+S'http://people.cs.cmu.edu/Person/1441"'
+p2056
+sg8
+S'Professor'
+p2057
+sg10
+S'http://people.cs.cmu.edu/Thumb/1441'
+p2058
+sg12
+(lp2059
+S'perceptual user interfaces'
+p2060
+aS'speech'
+p2061
+aS'language'
+p2062
+aS'multimodal human computer interaction'
+p2063
+aS'face / body tracking and interpretation'
+p2064
+asg16
+g17
+sa(dp2065
+g2
+g3
+sg4
+S'Larry Wasserman'
+p2066
+sg6
+S'http://people.cs.cmu.edu/Person/86"'
+p2067
+sg8
+S'Professor'
+p2068
+sg10
+S'http://people.cs.cmu.edu/Thumb/86'
+p2069
+sg23
+g141
+sg16
+g17
+sa(dp2070
+g2
+g3
+sg4
+S'Lee Weiss'
+p2071
+sg6
+S'http://people.cs.cmu.edu/Person/60"'
+p2072
+sg8
+S'Research Professor'
+p2073
+sg10
+S'http://people.cs.cmu.edu/Thumb/60'
+p2074
+sg12
+(lp2075
+S'tissue engineering'
+p2076
+aS'rapid prototyping'
+p2077
+aS'quality-of-life technology'
+p2078
+aS'medical robotics'
+p2079
+asg16
+g17
+sa(dp2080
+g2
+g3
+sg4
+S'Kurt Wescoe'
+p2081
+sg6
+S'http://people.cs.cmu.edu/Person/546"'
+p2082
+sg8
+S'Ebusiness Research Fellow'
+p2083
+sg10
+S'http://people.cs.cmu.edu/Thumb/546'
+p2084
+sg23
+g141
+sg16
+g17
+sa(dp2085
+g2
+g3
+sg4
+S'David Wettergreen'
+p2086
+sg6
+S'http://people.cs.cmu.edu/Person/355"'
+p2087
+sg8
+S'Research Professor'
+p2088
+sg10
+S'http://people.cs.cmu.edu/Thumb/355'
+p2089
+sg12
+(lp2090
+S'visual tracking'
+p2091
+aS'space robotics'
+p2092
+aS'planning'
+p2093
+aS'mobile robots'
+p2094
+aS'machine learning'
+p2095
+aS'legged locomotion'
+p2096
+aS'field robotics'
+p2097
+aS'computer vision'
+p2098
+aS'artificial intelligence'
+p2099
+aS'architectures'
+p2100
+aS'human-robot interaction'
+p2101
+aS'systems engineering'
+p2102
+aS'autonomous navigation'
+p2103
+asg16
+g17
+sa(dp2104
+g2
+g3
+sg4
+S'William Red Whittaker'
+p2105
+sg6
+S'http://people.cs.cmu.edu/Person/75"'
+p2106
+sg8
+S'Fredkin University Research Professor'
+p2107
+sg10
+S'http://people.cs.cmu.edu/Thumb/75'
+p2108
+sg23
+S'Mobile robots in field environments such as work sites and natural terrain; computer architectures to control mobile robots; modeling and planning for non-repetitive tasks '
+p2109
+sg16
+g17
+sa(dp2110
+g2
+g3
+sg4
+S'Jeannette Wing'
+p2111
+sg6
+S'http://people.cs.cmu.edu/Person/14"'
+p2112
+sg8
+S'Professor'
+p2113
+sg10
+S'http://people.cs.cmu.edu/Thumb/14'
+p2114
+sg12
+(lp2115
+S'trustworthy computing'
+p2116
+aS'security'
+p2117
+aS'privacy'
+p2118
+aS'formal methods'
+p2119
+aS'distributed and concurrent systems'
+p2120
+aS'programming languages'
+p2121
+aS'software engineering'
+p2122
+asg16
+g17
+sa(dp2123
+g2
+g3
+sg4
+S'Wei Wu'
+p2124
+sg6
+S'http://people.cs.cmu.edu/Person/3193"'
+p2125
+sg8
+S'Associate Research Professor'
+p2126
+sg10
+S'http://people.cs.cmu.edu/Thumb/3193'
+p2127
+sg23
+g141
+sg16
+g17
+sa(dp2128
+g2
+g3
+sg4
+S'Poe Xing'
+p2129
+sg6
+S'http://people.cs.cmu.edu/Person/517"'
+p2130
+sg8
+S'Associate Professor'
+p2131
+sg10
+S'http://people.cs.cmu.edu/Thumb/517'
+p2132
+sg12
+(lp2133
+S'computational biology'
+p2134
+aS'machine learning'
+p2135
+aS'computational statistics'
+p2136
+asg16
+g17
+sa(dp2137
+g2
+g3
+sg4
+S'Yiming Yang'
+p2138
+sg6
+S'http://people.cs.cmu.edu/Person/227"'
+p2139
+sg8
+S'Professor'
+p2140
+sg10
+S'http://people.cs.cmu.edu/Thumb/227'
+p2141
+sg23
+S'Information Retrieval, researching in machine learning applied to text classification, translingual retrieval and text mining '
+p2142
+sg16
+g17
+sa(dp2143
+g2
+g3
+sg4
+S'Ge Yang'
+p2144
+sg6
+S'http://people.cs.cmu.edu/Person/2648"'
+p2145
+sg8
+S'Assistant Professor'
+p2146
+sg10
+S'http://people.cs.cmu.edu/Thumb/2648'
+p2147
+sg12
+(lp2148
+S'computational cell biology'
+p2149
+aS'bioimaging informatics'
+p2150
+aS'molecular cell mechanics'
+p2151
+aS'fluorescence imaging'
+p2152
+asg16
+g17
 sa.

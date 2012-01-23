@@ -12,7 +12,7 @@ if(isset($_GET['id'])){
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Graduate School Search</title>
+        <title>re:search</title>
         <meta name="description" content="">
         <meta name="author" content="">
         <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -33,27 +33,7 @@ if(isset($_GET['id'])){
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     </head>
     <body>
-        <div class="topbar">
-            <div class="topbar-inner">
-                <div class="container-fluid">
-                    <a class="brand" href="#">Graduate School Search</a>
-                    <ul class="nav">
-                        <li class="active">
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="pull-right">
-                        Logged in as <a href="#">username</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+        <?php include('topbar.php'); ?>
         <div class="container-fluid">
             <div class="top_content">
                 <div class="prof_image">

@@ -7,12 +7,13 @@ def run():
     pd = {}
     pd['name'] = p['label']
     pd['email'] = p['email']
-    pd['keywords'] = extract_keywords(p['group'])
-    if not isinstance(pd['keywords']):
-      pd['keywords'] = list(pd['keywords'])
+#    pd['keywords'] = extract_keywords(p['group'])
+#    if not isinstance(pd['keywords']):
+#      pd['keywords'] = list(pd['keywords'])
 
     pd['image'] = p['photo']
-  pickle.dump(output, file('csailjson.dat', 'w'))
+    output.append(pd)
+  pickle.dump(output, file('prof_dicts/csailjson.dat', 'w'))
 
 def extract_keywords(group):
   if isinstance(group, list):

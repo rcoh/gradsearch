@@ -24,7 +24,7 @@ else {
 <div class="topbar">
     <div class="topbar-inner">
         <div class="container-fluid">
-            <a class="brand" href="index.php">IWantToStud.ty</a>
+            <a class="brand" href="index.php"><strong>re:</strong>search</a>
             <ul class="nav">
                 <li <?php insert_active("index.php"); ?>>
                     <a href="index.php">Home</a>

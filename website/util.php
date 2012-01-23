@@ -39,9 +39,9 @@ function standard_search($query, $con) {
   $stmnt="select distinct prof.id, name, school, department, image from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('$query') 
+    where match (keyword) against ('\"$query\"' in boolean mode) 
     union select distinct prof.id, name,school, department, image from prof 
-    where match(research_summary) against('$query');";
+    where match(research_summary) against('\"$query\"' in boolean mode);";
   return query_or_die($stmnt, $con);
 }
 
@@ -62,11 +62,11 @@ function build_query_string($cols, $search_term, $params) {
   $stmnt="select " . $col_terms . " from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('$search_term') 
+    where match (keyword) against ('\"$search_term\"' in boolean mode) 
     $where_queries
     union 
     select distinct $col_terms from prof 
-    where match(research_summary) against('$search_term')
+    where match(research_summary) against('\"$search_term\"' in boolean mode)
     $where_queries";
   return $stmnt;
 

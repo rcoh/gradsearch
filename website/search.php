@@ -1,16 +1,14 @@
-
 <?php
   session_start();
   require('util.php');
   $query = $_GET['q'];
   $con = get_con();
-  $result = standard_search($query, $con);
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>IWantToStud.ty</title>
+        <title>re:search</title>
         <meta name="description" content="Search for professors by research interest">
         <meta name="author" content="Leah Alpert, Russell Cohen, Ram Bhaskar">
         <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -23,7 +21,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/search.js"></script>
-        <script type="text/javascript" src="js/filter.js"></script>
+        <script type="text/javascript" src="js/autocomplete.js"></script>
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -38,7 +36,7 @@
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
-                    <input id="search" name="q" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
+                <input id="search" name="q" <?php if(isset($_GET['q'])) { echo "value=\"$_GET[q]\""; } ?> size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
 				</div>
             </form>
 			
@@ -48,25 +46,20 @@
                 <div class="well" style=" padding:0px;">
                     <form action="" id="filter" class="form-stacked" style="padding:8px;">
                         <h5>Filter results by:</h5>
+                        <span id="filter"></span>
                     </form>
                 </div>
             </div>
             <div class="prof_content">
                 <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
-                    <p>
-                        <? echo mysql_num_rows($result); ?> professors researching <strong><?php echo $_GET['q']; ?></strong>
+                    <p id="search_description">
                     </p>
                 </div>
                 <ul class="media-grid prof_grid">
-                    <?php
-                      while($row = mysql_fetch_array($result)) {
-                        include('prof_box.php');
-                      } 
-                    ?>
                 </ul>
                 <footer>
                     <p>
-                        &copy; Company 2011
+                        &copy; Leah Alpert, Russell Cohen, Ram Bhaskar 2012
                     </p>
                 </footer>
             </div>
