@@ -57,43 +57,59 @@
                 }, 500);
             };
             
-			
-			
+            
+            
             $(document).ready(function(){
-				
-				$('.gray_star').click(function(){
+            
+                $('.gray_star').click(function(){
                     $(this).hide();
-					return false;
+                    $(this).prev().show();
+                    return false;
                 });
                 
                 $('.gold_star').click(function(){
+                    $(this).hide();
                     $(this).next().show();
-					return false;
+                    return false;
                 });
-				
-            
+                
+                $('.gray_star_big').click(function(){
+                    $(this).hide();
+                    $(this).prev().show();
+                    return false;
+                });
+                
+                $('.gold_star_big').click(function(){
+                    $(this).hide();
+                    $(this).next().show();
+                    return false;
+                });
+                
+                
                 $(".prof_box").click(function(){
-					//to do: set up background
+                    //to do: set up background
                     var modal_id = $(this).attr("id") + "_modal";
                     var this_modal = $("#" + modal_id);
-					this_modal.css('left', '50%');
-					//this_modal.addClass('fade');
+                    this_modal.css('left', '50%');
+                    //this_modal.addClass('fade');
                     this_modal.modal('show');
                 });
                 
                 $(".prof_modal_right").click(modal_slide_right);
                 
                 $(".prof_modal_left").click(modal_slide_left);
-				
-				
-				//Make this work!!
-				$(document.documentElement).keyup(function (event) {
+                
+                
+                //Make this work!!
+                $(document.documentElement).keyup(function(event){
                     // handle cursor keys
                     if (event.keyCode == 37) {
-                      modal_slide_left();
-                    } else if (event.keyCode == 39) {
-                      modal_slide_right();
+                        modal_slide_left();
                     }
+                    else 
+                        if (event.keyCode == 39) {
+                            modal_slide_right();
+                        }
                 });
                 
                 $('.prof_modal').bind('shown', function(){
@@ -108,20 +124,20 @@
                     var prev_div = $("#" + prev_id);
                     next_div.css('left', '150%');
                     prev_div.css('left', '-50%');
-					
-					//$(this).removeClass('fade');
+                    
+                    //$(this).removeClass('fade');
                 });
                 
-				$('.prof_modal').bind('hidden', function(){
-					//close background
-					//$("all_modals").each.... 
-					//hide, 
-					//set to center
-					var modal = $(this);
-					
-				});
+                $('.prof_modal').bind('hidden', function(){
+                    //close background
+                    //$("all_modals").each.... 
+                    //hide, 
+                    //set to center
+                    var modal = $(this);
+                    
+                });
                 
-             
+                
                 
                 
             });
@@ -163,15 +179,26 @@
             </div>
         </div>
         <div class="search_bar">
-            <input type="submit" class="btn info" value="Save this search" style="margin-right:175px; float:right;">
-            <form class="bar_form">
+           <form class="bar_form" style="float:left;">
                 <label for="search" style="width:auto; padding-left:10px;">
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
-                    <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
+                    <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn primary" value="Go">
                 </div>
             </form>
+            <div style="float:left;">
+                <ul id="saved_pills" class="pills">
+                    <li>
+                        <a href="#">Saved Profs</a>
+                    </li>
+                    <li>
+                        <a href="#">Saved Searches</a>
+                    </li>
+                </ul>
+            </div>
+			 <input type="submit" class="btn info" value="Save this search" style="margin-right:175px; float:left;">
+            
         </div>
         <div class="container-fluid" id="container_test">
             <div class="fixed_sidebar">
@@ -258,7 +285,7 @@
                     <div id="prof2_modal" class="prof_modal modal hide">
                         <div class="modal-header">
                             <a href="#" class="close">&times;</a>
-                            <img class="gold_star" style="height:25px; position:absolute; top:9px; left:9px;" src="gold_star.png"><img class="gray_star" style="height:25px; position:absolute; top:9px; left:9px;" src="gray_star.png"><h2 style="padding-left:28px;">Erik Demaine</h2>
+                            <img class="gold_star_big" src="gold_star.png"><img class="gray_star_big" src="gray_star.png"><h2>Erik Demaine</h2>
                         </div>
                         <div class="modal-body">
                             <div class="container-fluid">
@@ -339,11 +366,11 @@
                         <li>
                             <a id="prof1" href="#" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -361,11 +388,11 @@
                         <li>
                             <a id="prof2" href="#" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
                                     </div><h5>Erik Demaine</h5>
                                     <p>
                                         MIT
@@ -383,11 +410,11 @@
                         <li>
                             <a href="#" id="prof3" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -405,11 +432,11 @@
                         <li>
                             <a href="#" id="prof4" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -426,14 +453,12 @@
                         </li>
                     </ul>
                 </div>
-               
             </div>
-			 <footer>
-                    <p>
-                        &copy; Company 2011
-                    </p>
-                </footer>
+            <footer>
+                <p>
+                    &copy; Company 2011
+                </p>
+            </footer>
         </div>
-		
     </body>
 </html>
