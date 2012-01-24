@@ -35,7 +35,7 @@ function add_user($email, $hashpass, $con) {
           mysql_real_escape_string($email));
   $query_result = query_or_die($query, $con);
   if($query_result) {
-    $result = mysql_fetch_array(query_or_die("select max(id) from users"));
+    $result = mysql_fetch_array(query_or_die("select max(id) from users", $con));
     return $result[0]; 
   }
 }

@@ -86,10 +86,10 @@ if(!isset($_SESSION['user_id'])) {
                     <div class="span-one-third">
                         <h2>Login</h2>
                         <p>
-                            Make an account to be able to save your searches and keep track of your favorite professors.
+                            Make an account to save your searches and keep track of your favorite professors.  Search within your pool of favorite professors to refine your query.
                         </p>
                         <p>
-                            <a class="btn" href="login.php">Login/Register &raquo;</a>
+                            <a class="btn" href="loginregister.php">Login/Register &raquo;</a>
                         </p>
                     </div>
                 </div>
