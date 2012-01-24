@@ -92,11 +92,11 @@ if (isset($help_text_pass)) {
                                 Register
                             </legend>
                             <div class="clearfix">
-                                <label for="email">
+                                <label for="email_register">
                                     Email
                                 </label>
                                 <div class="input">
-                                    <input class="large" id="email" name="email" size="30" type="text" />
+                                	<input class="large" id="email_register" name="email" size="30" type="text" />
                                 </div>
                                 <div class="message_space">
                                     <span class="help-inline" id="email_taken" style="display:none">Whoops!  Someone already has that email.</span>
@@ -105,11 +105,11 @@ if (isset($help_text_pass)) {
                             </div>
                             <!-- /clearfix -->
                             <div class="clearfix">
-                                <label for="password">
+                                <label for="password_register">
                                     Password
                                 </label>
                                 <div class="input">
-                                    <input class="large" id="password" name="password" size="30" type="password" />
+                                    <input class="large" id="password_register" name="password" size="30" type="password" />
                                 </div>
                                 <div class="message_space">
                                     <span class="help-inline" id="password_short" style="display:none">Password must be at least 6 characters.</span>
