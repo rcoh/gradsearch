@@ -91,8 +91,8 @@ if (isset($help_text_pass)) {
                             <legend>
                                 Register
                             </legend>
-                            <div class="clearfix">
-                                <label for="email_register">
+                            <div class="clearfix" id="email_register">
+                                <label for="email">
                                     Email
                                 </label>
                                 <div class="input">
@@ -104,8 +104,8 @@ if (isset($help_text_pass)) {
                                 </div>
                             </div>
                             <!-- /clearfix -->
-                            <div class="clearfix">
-                                <label for="password_register">
+                            <div class="clearfix" id="password">
+                                <label for="password">
                                     Password
                                 </label>
                                 <div class="input">
@@ -117,7 +117,7 @@ if (isset($help_text_pass)) {
                                 </div>
                             </div>
                             <!-- /clearfix -->
-                            <div class="clearfix">
+                            <div class="clearfix" id="confirm_password">
                                 <label for="confirm_password">
                                     Confirm Password
                                 </label>
@@ -131,7 +131,9 @@ if (isset($help_text_pass)) {
                             </div>
                             <!-- /clearfix -->
                             <div style="margin-left:150px;">
-                                <input type="submit" class="btn primary" value="Register">
+                                <input id="register_submit" type="submit" class="btn primary" value="Register">
+
+            <span id="bad_registration" style="display:none">Please correct errors before submitting</span>
                             </div>
                         </fieldset>
                     </form>
