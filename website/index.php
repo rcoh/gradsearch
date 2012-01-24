@@ -68,7 +68,7 @@ if(!isset($_SESSION['user_id'])) {
                     <div class="span-one-third">
                         <h2>Discover</h2>
                         <p>
-                            re:search helps you find professors who share your research interests. Explore our database of thousands of professors from 5 universities.
+                            re:search helps you find professors who share your research interests. Explore our database of thousands of professors from 5 top universities.
                         </p>
                         <p>
                             <a class="btn" href="about.php">More details &raquo;</a>

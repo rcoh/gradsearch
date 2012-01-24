@@ -37,25 +37,40 @@ foreach($items as $category) {
     </label>
     <div class="input" style="margin:0px; padding0px;">
       <ul class="inputs-list">
-        <?php foreach($category['data'] as $refinement => $number) { ?>
+<?php 
+
+  if(isset($_GET[$category['dbname']])) {
+    $selected_refinements = explode(",", $_GET[$category['dbname']]);
+  } else {
+    $selected_refinements = array();
+  }
+  foreach($category['data'] as $refinement => $number) { 
+        ?>
           <li>
             <label>
               <input type="checkbox" name="<?php echo $refinement; ?>" value="<?php echo $category['dbname']; ?>" 
               <?php 
-                if(isset($_GET[$category['dbname']])) {
-                  $selected = explode(",", $_GET[$category['dbname']]);
-                  foreach($selected as $filter_item) {
-                    if($refinement == $filter_item){
-                      echo 'checked';
-                    }
-                  }
+                if(in_array($refinement, $selected_refinements)) {
+                  echo 'checked';
                 }
+                $selected_refinements = array_diff($selected_refinements, array($refinement));
               ?>
               />
                 <span><?php echo "$refinement ($number)"; ?></span>
             </label>
           </li>
+        <?php } 
+          //Everything left in $selected_refinements is selected but has 0 count, so disable it
+        foreach($selected_refinements as $disabled_item) { ?>
+              <li>
+                <label>
+              <input type="checkbox" name="<?php echo $disabled_item; ?>" value="<?php echo $category['dbname']; ?>" 
+              disabled checked/>
+                <span><?php echo "$disabled_item (0)"; ?></span>
+              </label>
+              </li>
         <?php } ?>
+    
       </ul>
     </div>
   </div>
