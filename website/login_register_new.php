@@ -32,6 +32,9 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
         <!-- styles -->
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
         <link rel="stylesheet" href="my_css.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+        <script src="js/register.js"></script>
         <!-- Le fav and touch icons ??? -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -89,25 +92,24 @@ if (isset($help_text_pass)) {
                                 Register
                             </legend>
                             <div class="clearfix">
-                                <label for="email">
+                                <label for="email_register">
                                     Email
                                 </label>
                                 <div class="input">
-                                    <input class="large" id="email" name="email" size="30" type="text" />
+                                	<input class="large" id="email_register" name="email" size="30" type="text" />
                                 </div>
                                 <div class="message_space">
-                                    <span class="help-inline">You're home free!  That email is all yours.</span>
                                     <span class="help-inline" id="email_taken" style="display:none">Whoops!  Someone already has that email.</span>
                                     <span class="help-inline" id="email_free" style="display:none">You're home free!  That email is all yours. </span>
                                 </div>
                             </div>
                             <!-- /clearfix -->
                             <div class="clearfix">
-                                <label for="password">
+                                <label for="password_register">
                                     Password
                                 </label>
                                 <div class="input">
-                                    <input class="large" id="password" name="password" size="30" type="password" />
+                                    <input class="large" id="password_register" name="password" size="30" type="password" />
                                 </div>
                                 <div class="message_space">
                                     <span class="help-inline" id="password_short" style="display:none">Password must be at least 6 characters.</span>
