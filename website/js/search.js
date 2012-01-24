@@ -28,11 +28,15 @@ reloadProfessors = function() {
         $('p#search_description').html(data['description']);
         $('.gray_star').click(function(){
           $(this).hide();
+          $(this).prev().show();
+          setStar(true, $(this).attr('id'));
           return false;
         });
 
         $('.gold_star').click(function(){
+          $(this).hide();
           $(this).next().show();
+          setStar(false, $(this).attr('id'));
           return false;
         });
 
@@ -41,7 +45,22 @@ reloadProfessors = function() {
   });
 }
 
-
+setStar = function(state, id) { 
+  $.ajax({
+    url:"set_star.php",
+    type: "POST",
+    dataType: "json",
+    data: {
+      'state': state,
+      'id' : id
+    },
+    success : function(data) {
+      //TODO: we should probably do something
+    },
+    error : function(data) {
+    }
+  });
+}
 waitToBeReady = function (func) {
   return $(document).ready(function() {
     func();
