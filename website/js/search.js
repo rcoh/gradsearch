@@ -1,3 +1,8 @@
+$(document).ready(function() {
+  $(".close").click(function() {
+    $(this.parentElement).slideUp();
+  });
+});
 request_new_checkboxes = function() {
     $.ajax({
     url:"filter_options.php",
