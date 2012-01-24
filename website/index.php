@@ -1,3 +1,11 @@
+<?php
+session_start();
+include('util.php');
+$con = get_con();
+if(!isset($_SESSION['user_id'])) {
+  $_SESSION['user_id'] = new_anon_user($con);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,10 +21,11 @@
         </script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js">
         </script>
-        <script type="text/javascript" src="js/search.js">
-        </script>
-        <script type="text/javascript" src="js/bootstrap-alerts.js">
-        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/autocomplete.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/bootstrap-alerts.js"></script>
         <style type="text/css">
             body {
                 padding-top: 60px;
@@ -29,8 +38,7 @@
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     </head>
     <body>
-        <?php include('topbar.php'); ?>
-        <?php
+        <?php include('topbar.php'); 
   if (isset($_SESSION['msg'])) {
             ?>
         <div class="alert-message fade in <?php echo $_SESSION['msg']['type']; ?>">

@@ -1,6 +1,6 @@
 <?php 
 
 require('util.php');
-echo(get_professor_distribution('department', "algorithms", array("school" => ("MIT"))));
-
+$con = get_con();
+echo new_anon_user($con);
 ?>

@@ -15,6 +15,11 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
     $help_text_user = "This email address is not registered for this site";
   } else if($row[0] == $hashed) {
     $_SESSION['email'] = $email; 
+    if(isset($_SESSION['user_id'])) {
+      //Anon user pattern, merge delete
+      merge_users($_SESSION['user_id'], $row[1]);
+      delete_user($_SESSION['user_id']);
+    }
     $_SESSION['user_id'] = $row[1];
     $_SESSION['msg'] = array("type" => "success", "text" => "Welcome $email!");
     go_home();

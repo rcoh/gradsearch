@@ -1,8 +1,11 @@
 <?php
   session_start();
   require('util.php');
-  $query = $_GET['q'];
   $con = get_con();
+  if(!isset($_SESSION['user_id'])) {
+    $_SESSION['user_id'] = new_anon_user($con);
+  }
+  $query = $_GET['q'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +25,8 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/search.js"></script>
         <script type="text/javascript" src="js/autocomplete.js"></script>
+        <script type="text/javascript" src="js/bootstrap-twipsy.js"></script>
+        <script type="text/javascript" src="js/bootstrap-popover.js"></script>
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">

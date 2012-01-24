@@ -12,6 +12,7 @@ request_new_checkboxes = function() {
     },
     error : function(data) {
               alert('uhoh');
+              //TODO: show alert [lost connection to the server]
     }
   });
 }

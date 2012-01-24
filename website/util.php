@@ -33,7 +33,11 @@ function add_user($email, $hashpass, $con) {
   $query = sprintf("insert into users (password, email) values('%s', '%s')",
           mysql_real_escape_string($hashpass),
           mysql_real_escape_string($email));
-  return query_or_die($query, $con);
+  $query_result = query_or_die($query, $con);
+  if($query_result) {
+    $result = mysql_fetch_array(query_or_die("select max(id) from users"));
+    return $result[0]; 
+  }
 }
 function standard_search($query, $con) {
   $stmnt="select distinct prof.id, name, school, department, image from keywords 
@@ -113,6 +117,26 @@ function email_exists($email, $con) {
 function get_distinct($col, $con) {
   $stmnt = "select distinct $col, count(*) from prof group by $col order by count(*) desc";
   return query_or_die($stmnt, $con);
+}
+
+function new_anon_user($con) {
+  $stmnt = "select max(id) from users";
+  $result = mysql_fetch_array(query_or_die($stmnt, $con));
+  $result = $result[0] + 1;
+  $stmnt = "insert into users (email) values($result)";
+  query_or_die($stmnt, $con);
+  return $result;
+}
+
+function merge_users($old_uid, $new_uid) {
+  $stmnt = "update bookmarked_professors set user_id=" . mysql_real_escape_string($new_uid) . " where user_id=$old_uid";
+  //TODO: add saved searches when added
+  return query_or_die($stmnt, get_con());
+}
+
+function delete_user($uid) {
+  $stmnt = "delete from users where id=$uid";
+  return query_or_die($stmnt, get_con());
 }
 
 function research_interests_str($prof_id, $con, $search_string) {
