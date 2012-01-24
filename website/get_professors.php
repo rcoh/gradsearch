@@ -1,11 +1,16 @@
 <?php 
 include('util.php');
 include('json.php');
+session_start();
 $get_copy = $_GET;
 $query = $get_copy['q'];
 $con = get_con();
 unset($get_copy['q']);
-$result = filtered_search($query, $get_copy, get_con());
+$uid = NULL;
+if(isset($_SESSION['user_id'])) { 
+  $uid = $_SESSION['user_id'];
+}
+$result = filtered_search($query, $get_copy, $uid, get_con());
 $num_rows = mysql_num_rows($result);
 ob_start(); //echos the result into a variable
 while($row = mysql_fetch_array($result)) {

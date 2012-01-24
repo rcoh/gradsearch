@@ -6,7 +6,7 @@ $email = "";
 if(isset($_POST['pass']) && isset($_POST['email'])) {
   $email = $_POST['email'];
   $hashed=hashpass($_POST['pass']); 
-  $query = "select password from users 
+  $query = "select password, id from users 
     where email='$_POST[email]'";
   $result = query_or_die($query, $con);
   $row = mysql_fetch_row($result);
@@ -15,6 +15,8 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
     $help_text_user = "This email address is not registered for this site";
   } else if($row[0] == $hashed) {
     $_SESSION['email'] = $email; 
+    $_SESSION['user_id'] = $row[1];
+    $_SESSION['msg'] = array("type" => "success", "text" => "Welcome $email!");
     go_home();
   } else {
     $bad_pass = "error";
@@ -102,20 +104,26 @@ if (isset($help_text_pass)) {
                                     <span class="help-inline" id="email_taken" style="display:none">
                                       Whoops!  Someone already has that email.
                                     </span>
-                                    <span class="help-inline" id="email_free" style="display:none">
+                                   <span class="help-inline" id="email_free" style="display:none">
                                       You're home free!  That email is all yours.  
                                     </span>
                                 </div>
                             </div><!-- /clearfix -->
-                            <div class="clearfix">
+                            <div id="password" class="clearfix">
                                 <label for="password">
                                     Password
                                 </label>
-                                <div class="input">
+                                <div  class="input">
                                     <input class="xlarge" id="password_register" name="password" size="30" type="password" />
+                                    <span class="help-inline" id="password_short" style="display:none">
+                                      Password too short! Length must be &geq; 6 characters. 
+                                    </span>
+                                    <span class="help-inline" id="password_good" style="display:none">
+                                      Perfect!
+                                    </span>
                                 </div>
                             </div><!-- /clearfix -->
-							<div id="confirm_password" class="clearfix">
+                            <div id="confirm_password" class="clearfix">
                                 <label for="confirm_password">
                                     Confirm Password
                                 </label>
