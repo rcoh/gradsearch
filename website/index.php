@@ -52,7 +52,7 @@ if(!isset($_SESSION['user_id'])) {
 } ?>
         <div class="container">
             <div id="main_search_box">
-                <form action="search.php">
+                <form id="search" action="search.php">
                     <fieldset>
                         <legend style="padding-left: 0px;">
                             What are you interested in?

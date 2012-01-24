@@ -56,6 +56,20 @@
                 </div>
             </div>
             <div class="prof_content">
+        <?php 
+  if(!isset($_SESSION['anon_msg'])) { ?>
+        <div class="alert-message fade in sucess">
+            <a class="close" href="#">×</a>
+            <p>
+            Hey there! We use the 
+            <strong>anonymous user pattern </strong>here.  That means you can 
+            <strong>star</strong> and <strong>save</strong> searches to your heart's content, 
+            but you'll <strong>lose them if you close your browser.</strong>  <strong>But:</strong> If you log in or create an account, we'll <strong>add in</strong> all your <strong>starred professors and saved searches.</strong>  Happy searching!  
+            </p>
+            </div>
+<?php
+      $_SESSION['anon_msg'] = true;
+  } ?>
                 <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
                     <p id="search_description">
                     </p>
