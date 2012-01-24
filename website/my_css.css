@@ -7,7 +7,7 @@ body {
     /*background-color: #2f595f; #0f383e; #339bb9;*/
 }
 
-footer {
+.stuck{
 	margin-bottom:0px;
     margin-left: 2%;
     margin-right: 2%;
@@ -31,6 +31,11 @@ footer {
 	left:50%;
 	top:50%;
 	margin:-105px 0 0 -135px;
+}
+
+.message_space{
+	height:15px;
+	margin:2px 0px -6px 150px;
 }
 
 .fixed_sidebar {
@@ -86,6 +91,7 @@ footer {
     margin-top: 0px;
     padding: 0px;
     margin-left: 225px; /*20 more than fixed_sidebar width*/
+	margin-bottom:40px;
 }
 
 .center {

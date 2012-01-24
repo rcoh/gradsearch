@@ -95,7 +95,7 @@ if(!isset($_SESSION['user_id'])) {
                 </div>
             </div>
         </div>
-        <footer>
+        <footer class="stuck">
             <p>
                 &copy; 2012 re:search
             </p>
