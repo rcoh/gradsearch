@@ -6,7 +6,7 @@ $email = "";
 if(isset($_POST['pass']) && isset($_POST['email'])) {
   $email = $_POST['email'];
   $hashed=hashpass($_POST['pass']); 
-  $query = "select password from users 
+  $query = "select password, id from users 
     where email='$_POST[email]'";
   $result = query_or_die($query, $con);
   $row = mysql_fetch_row($result);
@@ -25,7 +25,7 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
     go_home();
   } else {
     $bad_pass = "error";
-    $help_text_pass = "Invalid password. TODO: forgot password";
+    $help_text_pass = "Invalid password.";
   }
 } 
 ?>
