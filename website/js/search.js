@@ -3,6 +3,7 @@ $(document).ready(function() {
     $(this.parentElement).slideUp();
   });
 });
+
 request_new_checkboxes = function() {
     $.ajax({
     url:"filter_options.php",
@@ -71,6 +72,14 @@ waitToBeReady = function (func) {
   return $(document).ready(function() {
     func();
   });
+}
+
+uncheckCategory = function(category) {
+  var checkboxes = $('[value=' + category + ']');
+  for (var i = 0; i < checkboxes.length; i++) {
+    checkboxes[i].checked = false;
+  }
+  filterCheckChange();
 }
 
 filterCheckChange = function() { 
