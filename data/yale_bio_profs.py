@@ -29,8 +29,12 @@ for prof in prof_links:
         title = re.findall("</h1><p>(.*?)</p>",g)[0]
         #print title
     if len(re.findall("Research Interests</h3><p>(.*?)</p>",g))>0:
-        keywords = re.findall("Research Interests</h3><p>(.*?)</p>",g)[0]
-        #print research_interests
+        interests = re.findall("Research Interests</h3><p>(.*?)</p>",g)[0]
+        interests = interests.replace(";", ",")
+        keywords =[]
+        for w in interests.split(","):
+            keywords.append(w.strip().lower())
+        print keywords
     if len(re.findall("Research Summary</h3><p>(.*?)</p>",g))>0:
         summary = re.findall("Research Summary</h3><p>(.*?)</p>",g)[0]
         #print research_summary

@@ -40,6 +40,7 @@ for prof in prof_profiles:
         keywords = []
         for w in research_interests.split('|'):
             keywords.append(w.strip().lower())
+        print keywords
     if len(re.findall("<strong>Education:</strong>(.*?)</p>",f))>0:
         education = re.findall("<strong>Education:</strong>(.*?)</p>",f)[0]
         #print education
@@ -56,7 +57,7 @@ for prof in prof_profiles:
     penn_prof_dict["education"] = education
     penn_prof_dict["image"] = image
     penn_prof_dict["school"] = "University of Pennsylvania"
-    print penn_prof_dict
+    #print penn_prof_dict
     if name != '':
         penn_profs.append(penn_prof_dict)
     
