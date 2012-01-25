@@ -29,6 +29,7 @@ for prof in prof_profiles:
     first_name =""
     last_name =""
     title = ""
+    department =""
     email = ""
     bio = ""
     summary = ""
@@ -41,6 +42,10 @@ for prof in prof_profiles:
         last_name = re.findall("\[lastname\] => (.*?)\s",g)[0] 
     if len(re.findall("\[title\] => (.*?)\n\s*\[",g))>0:
         title = re.findall("\[title\] => (.*?)\n\s*\[",g)[0] 
+    if len(re.findall("\[department\] => (.*?)\n\s*\[",g))>0:
+        department = re.findall("\[department\] => (.*?)\n\s*\[",g)[0]
+        department = util.prep_department(department)
+        print department
     if len(re.findall("\[email\] => (.*?)\s",g))>0:
         email = re.findall("\[email\] => (.*?)\s",g)[0] 
     if len(re.findall("\[bio\] => (.*?)\n\s*\[",g))>0:
@@ -57,12 +62,21 @@ for prof in prof_profiles:
     brown_prof_dict["name"] = name
     brown_prof_dict["email"] = email
     brown_prof_dict["title"] = title
-    brown_prof_dict["interests"] = interests
+    brown_prof_dict["department"] = department
+    brown_prof_dict["interests"] = interests 
     brown_prof_dict["bio"] = bio
-    brown_prof_dict["summary"] = summary
+    research_summary = ''
+    l = [interests, summary, bio]
+    for s in l:
+        if s:
+            research_summary += '<p>%s</p>' % s
+            
+    brown_prof_dict["research_summary"] = research_summary
     brown_prof_dict["image"] = image
-    print brown_prof_dict
-    brown_profs.append(brown_prof_dict)
+    brown_prof_dict["school"] = "Brown University"
+    brown_prof_dict["source"] = prof
+    if name:
+        brown_profs.append(brown_prof_dict)
     
 pickle.dump(brown_profs, file('prof_dicts/brown.dat', 'w'))
 print "Done!"

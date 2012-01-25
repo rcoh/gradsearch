@@ -96,7 +96,7 @@ echo "</ul>";
                 <div class="row">
                     <div class="span16">
                         <p>
-                            For questions and comments, contact us at gradsearch 
+                            For questions or comments, contact us at gradsearch 
                             &lt;at&gt; mit  &lt;dot&gt; edu
                         </p>
                     </div>

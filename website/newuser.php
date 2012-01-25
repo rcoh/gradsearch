@@ -15,7 +15,7 @@ $con = get_con();
 if($p1 == $p2 && !email_exists($email, $con)) {
   $uid = add_user($email, $password, $con); 
   if($uid) {
-    $_SESSION['msg'] = array("type" => "success", "text" => "Signup Sucessful!"); //TODO: display this on index.php
+    $_SESSION['msg'] = array("type" => "success", "text" => "Signup Sucessful!"); 
     $_SESSION['email'] = $_POST['email'];
     if(isset($_SESSION['user_id'])) {
       //Anon user pattern, merge delete
@@ -27,5 +27,8 @@ if($p1 == $p2 && !email_exists($email, $con)) {
   } else {
     die('Error: ' . mysql_error());
   }
+} else {
+  go_home();
+  $_SESSION['msg'] = array("type" => "error", "text" => "Tunnel fire."); 
 }
 ?>

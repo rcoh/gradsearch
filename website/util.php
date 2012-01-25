@@ -35,18 +35,9 @@ function add_user($email, $hashpass, $con) {
           mysql_real_escape_string($email));
   $query_result = query_or_die($query, $con);
   if($query_result) {
-    $result = mysql_fetch_array(query_or_die("select max(id) from users"));
+    $result = mysql_fetch_array(query_or_die("select max(id) from users", $con));
     return $result[0]; 
   }
-}
-function standard_search($query, $con) {
-  $stmnt="select distinct prof.id, name, school, department, image from keywords 
-    inner join keywordmap on keywords.id=keywordmap.keyword_id 
-    join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('\"$query\"' in boolean mode) 
-    union select distinct prof.id, name,school, department, image from prof 
-    where match(research_summary) against('\"$query\"' in boolean mode);";
-  return query_or_die($stmnt, $con);
 }
 
 
@@ -64,11 +55,22 @@ function set_starred($prof_id, $user_id, $state, $con) {
   }
   return query_or_die($stmnt, $con);
 }
+
+/** ,'s delimit OR queries, otherwise its AND **/
+function process_search_term($search_term) {
+  $terms = explode(",", $search_term);
+  $result_string = '';
+  foreach($terms as $term) {
+    $result_string .= '\"' . $term . '\" ';
+  }
+  return trim($result_string);
+}
 function build_query_string($cols, $search_term, $params, $user_id = NULL) {
   if($user_id) {
     array_push($cols, "prof.id in (select prof_id from bookmarked_professors where user_id = $user_id) as starred");
     return build_query_string($cols, $search_term, $params);
   }
+  $search_term = process_search_term($search_term);
   $where_queries = "";
   foreach ($params as $filter => $value_list) {
     $vals = explode(",", $value_list);
@@ -79,11 +81,11 @@ function build_query_string($cols, $search_term, $params, $user_id = NULL) {
   $stmnt="select " . $col_terms . " from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('\"$search_term\"' in boolean mode) 
+    where match (keyword) against ('$search_term' in boolean mode) 
     $where_queries
     union 
     select distinct $col_terms from prof 
-    where match(research_summary) against('\"$search_term\"' in boolean mode)
+    where match(research_summary) against('$search_term' in boolean mode)
     $where_queries";
   return $stmnt;
 
@@ -158,5 +160,16 @@ function research_interests_str($prof_id, $con, $search_string) {
     $output = 'None listed.';
   }
   return $output;
+}
+/*The following credit to dev-tips.com*/
+function remove_item_by_value($array, $val = '', $preserve_keys = true) {
+  if (empty($array) || !is_array($array)) return false;
+  if (!in_array($val, $array)) return $array;
+
+  foreach($array as $key => $value) {
+    if ($value == $val) unset($array[$key]);
+  }
+
+  return ($preserve_keys === true) ? $array : array_values($array);
 }
 ?>
