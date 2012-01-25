@@ -50,24 +50,7 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     </head>
     <body>
-        <div class="topbar">
-            <div class="fill">
-                <div class="container">
-                    <a class="brand" href="#">Graduate School Search</a>
-                    <ul class="nav">
-                        <li class="active">
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php include('topbar.php'); ?>
         <div class="container">
             <div id="main_content" style="margin:50px 0px 200px 0px;">
                 <div class="hero-unit" id="login" style="float:left;">
