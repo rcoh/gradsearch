@@ -38,11 +38,15 @@ else {
             </ul>
             
             <ul class="nav" style="float:right; padding-right:20px;">
-                <li>
-                    <a href="profile.php">Profile</a>
-                </li>
+                
                 <?php if (isset($_SESSION['email'])){
                 echo "
+                <li>
+                    <a href=\"profile.php\">Profile</a>
+                </li>
+                <li>
+                    <a href=\"changepassword.php\">Change Password</a>
+                </li>
                 <li>
                     <a href=\"signout.php\">Logout</a>
                 </li>";

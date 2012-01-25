@@ -217,12 +217,12 @@ body {
 }
 
 #saved_pills {
-    margin: 0px 30px 0px 30px;
+    margin: 0px 67px 0px 10px;
 }
 
 #saved_pills a {
-    line-height: 29px;
-    margin: 0px 5px;
+    line-height: 28px;
+    margin: 0px;
 }
 
 #saved_pills a:hover {

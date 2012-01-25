@@ -2,7 +2,7 @@ import MySQLdb as mdb
 import sys
 import re
 prof_cols = ['name', 'school', 'research_summary', 'lab_website', 'personal_website', 'image',
-'title', 'department']
+'title', 'department', 'source']
 class GradSql(object):
 
   def __init__(self):
@@ -33,6 +33,7 @@ class GradSql(object):
     pid = self.prof_id(all_data['name'])
     assert pid != None
     if 'keywords' in all_data:
+      #assert isinstance(all_data['keywords'], list)
       for k in all_data['keywords']:
         assert not ',' in k
         assert isinstance(k, str)

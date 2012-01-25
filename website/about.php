@@ -51,32 +51,40 @@
                     <h1>The Stats</h1>
                 </div>
                 <div class="row">
-                <div class="span8 columns">
-                    <h3>Universities</h3>
-                    <ul>
-<?php 
+                <div class="span16">
+
+<?php
+  $profs = get_distinct('name', $con);
+  $num_profs = mysql_num_rows($profs);
+  echo "<h3>$num_profs Professors</h3>";
   $num = 0;
   $schools = get_distinct('school', $con);
+  $num_schools = mysql_num_rows($schools);
+  echo "<h3>$num_schools Universities </h3>";
+  echo "<ul>";
   while(($result = mysql_fetch_array($schools)) && $num <= $max) {
     echo "<li>$result[school]</li>";
     $num += 1;
   }
-?>
-
-                    </ul>
-                </div>
-                <div class="span8 columns">
-                    <h3>Departments</h3>
-                    <ul>
-<?php 
+echo "</ul>";
   $departments = get_distinct('department', $con);
-  $num = 0;
-  while(($result = mysql_fetch_array($departments)) && $num <= $max) {
-    echo "<li>$result[department]</li>";
-    $num += 1;
-  }
-  echo "<li>and many, many more</li>";
+  $num_depts = mysql_num_rows($departments);
+  echo "<h3>$num_depts Departments <small>including</small></h3>";
 ?>
+  <ul>
+<li>Biology</li>
+ <li>Chemical Engineering</li>
+ <li>Civil Engineering</li>
+ <li>Computer Science</li>
+ <li>Economics</li>
+ <li>English</li>
+ <li>Mathematics </li>
+ <li>Mechanical Engineering</li>
+ <li>Medicine</li>
+ <li>Psychiatry</li>
+ <li>Physics</li>
+
+  <li>and many, many more</li>
                     </ul>
                 </div>
             </section>
