@@ -57,6 +57,7 @@ for prof in prof_links:
     #penn_prof_dict["education"] = education
     yale_prof_dict["image"] = image
     yale_prof_dict["school"] = "Yale University"
+    yale_prof_dict["source"] = prof
     #print yale_prof_dict
     if name != '':
         yale_profs.append(yale_prof_dict)

@@ -74,6 +74,7 @@ for prof in prof_profiles:
     brown_prof_dict["research_summary"] = research_summary
     brown_prof_dict["image"] = image
     brown_prof_dict["school"] = "Brown University"
+    brown_prof_dict["source"] = prof
     if name:
         brown_profs.append(brown_prof_dict)
     

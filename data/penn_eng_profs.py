@@ -58,6 +58,7 @@ for prof in prof_profiles:
     penn_prof_dict["education"] = education
     penn_prof_dict["image"] = image
     penn_prof_dict["school"] = "University of Pennsylvania"
+    penn_prof_dict["source"] = prof
     #print penn_prof_dict
     if name != '':
         penn_profs.append(penn_prof_dict)
