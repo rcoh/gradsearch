@@ -87,10 +87,11 @@ if (isset($help_text_pass)) {
                                 </div>
                             </div><!-- /clearfix -->
                             <div class="row">
-                            <div style="margin-left:175px;">
+                            <div style="margin-left:173px;">
                                 <input type="submit" class="btn primary" value="Log in">
-                            <a href="forgotpassword.php" class="btn primary"> Forgot Password?</a>
-                            </div></div>
+                                <a href="forgotpassword.php" class="btn primary"> Forgot Password </a>
+                            </div>
+                            </div>
                         </fieldset>
                     </form>
                 </div>

@@ -124,7 +124,7 @@ Please style me leaAHAHAHAH!! And also please correct your errors before submitt
             </div>
             <footer class="center" style="vertical-align:bottom;">
                 <p>
-                    &copy; LeahRussellRam Productions 2011
+                    &copy; 2012 re:search
                 </p>
             </footer>
         </div>

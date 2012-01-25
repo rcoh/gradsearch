@@ -3,7 +3,8 @@ require ('util.php');
 $con = get_con();
 
 $email='';
-
+$new_password = generatePassword(9,1);
+$hash_new_password = hashpass($new_password);
 
 if(isset($_POST['email'])) {
   $email = $_POST['email']; 
@@ -17,11 +18,12 @@ if(isset($_POST['email'])) {
   } 
   }
 $adminemail = 'gradschool-search@mit.edu';
+if(isset($_POST['email'])){
 
-$new_password = generatePassword(9,1);
-$hash_new_password = hashpass($new_password);
 $query = "UPDATE users SET password = '$hash_new_password' where email='$_POST[email]'";
 $result = query_or_die($query, $con);
+}
+
 function generatePassword($length, $strength) {
 	$vowels = 'aeuy';
 	$consonants = 'bdghjmnpqrstvz';
@@ -62,8 +64,6 @@ $headers = "From: ".$adminemail."\r\n Reply-To: ".$email;
 
 if(mail($to, $subject, $message, $headers)){
 include("sent_email.php");}
-
-else{echo "<center>There is some system problem in sending your password to your email address. </br></br><input type='button' value='Retry' onClick='index.php'></center>";} 
 
 }
 
@@ -127,7 +127,7 @@ Please style me leaAHAHAHAH!! And also please correct your errors before submitt
             </div>
             <footer class="center" style="vertical-align:bottom;">
                 <p>
-                    &copy; LeahRussellRam Productions 2011
+                    &copy; 2012 re:search
                 </p>
             </footer>
         </div>
