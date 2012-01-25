@@ -25,7 +25,7 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
     go_home();
   } else {
     $bad_pass = "error";
-    $help_text_pass = "Invalid password. TODO: forgot password";
+    $help_text_pass = "Invalid password.";
   }
 } 
 ?>
