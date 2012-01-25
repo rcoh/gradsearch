@@ -24,9 +24,10 @@ for prof in prof_profiles:
         name = first_name.strip() + ' ' + last_name.strip()
         #print name
     if len(re.findall("<h2>(.*?)<br />",f))>0:
-        title = re.findall("<h2>(.*?)<br />(.*?)<br />",f)[0][0]
-        department = re.findall("<h2>(.*?)<br />(.*?)<br />",f)[0][1].strip()
+        title = re.findall("<h2>(.*?)<br />(.*?)<br",f)[0][0]
+        department = re.findall("<h2>(.*?)<br />(.*?)<br",f)[0][1].strip()
         department = re.sub('\s{2}', ' ', department)
+        print department
         #print title, department
     if len(re.findall("<a href=\"mailto:(.*?)\">",f))>0:
         email = re.findall("<a href=\"mailto:(.*?)\">",f)[0]
@@ -40,7 +41,7 @@ for prof in prof_profiles:
         keywords = []
         for w in research_interests.split('|'):
             keywords.append(w.strip().lower())
-        print keywords
+        #print keywords
     if len(re.findall("<strong>Education:</strong>(.*?)</p>",f))>0:
         education = re.findall("<strong>Education:</strong>(.*?)</p>",f)[0]
         #print education
