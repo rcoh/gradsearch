@@ -77,7 +77,7 @@ class GradSql(object):
       return None
 
   def prof_id(self, name):
-    self.con.query('select id from prof where name=\'%s\'' % name)
+    self.con.query('select id from prof where name=%s' % self.con.escape(name))
     result = self.con.use_result()
     row = result.fetch_row()
     if len(row):
