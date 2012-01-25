@@ -39,15 +39,6 @@ function add_user($email, $hashpass, $con) {
     return $result[0]; 
   }
 }
-function standard_search($query, $con) {
-  $stmnt="select distinct prof.id, name, school, department, image from keywords 
-    inner join keywordmap on keywords.id=keywordmap.keyword_id 
-    join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('\"$query\"' in boolean mode) 
-    union select distinct prof.id, name,school, department, image from prof 
-    where match(research_summary) against('\"$query\"' in boolean mode);";
-  return query_or_die($stmnt, $con);
-}
 
 
 function filtered_search($query, $params, $uid, $con) {
@@ -64,11 +55,22 @@ function set_starred($prof_id, $user_id, $state, $con) {
   }
   return query_or_die($stmnt, $con);
 }
+
+/** ,'s delimit OR queries, otherwise its AND **/
+function process_search_term($search_term) {
+  $terms = explode(",", $search_term);
+  $result_string = '';
+  foreach($terms as $term) {
+    $result_string .= '\"' . $term . '\" ';
+  }
+  return trim($result_string);
+}
 function build_query_string($cols, $search_term, $params, $user_id = NULL) {
   if($user_id) {
     array_push($cols, "prof.id in (select prof_id from bookmarked_professors where user_id = $user_id) as starred");
     return build_query_string($cols, $search_term, $params);
   }
+  $search_term = process_search_term($search_term);
   $where_queries = "";
   foreach ($params as $filter => $value_list) {
     $vals = explode(",", $value_list);
@@ -79,11 +81,11 @@ function build_query_string($cols, $search_term, $params, $user_id = NULL) {
   $stmnt="select " . $col_terms . " from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('\"$search_term\"' in boolean mode) 
+    where match (keyword) against ('$search_term' in boolean mode) 
     $where_queries
     union 
     select distinct $col_terms from prof 
-    where match(research_summary) against('\"$search_term\"' in boolean mode)
+    where match(research_summary) against('$search_term' in boolean mode)
     $where_queries";
   return $stmnt;
 
