@@ -1,3 +1,7 @@
+$(window).bind("popstate", function(event) {
+  request_new_checkboxes();
+  reloadProfessors();
+});
 $(document).ready(function() {
 
     $(document).bind('keyup.modal', function ( e ) {
@@ -63,7 +67,7 @@ $(document).ready(function() {
         reloadProfessors();
         request_new_checkboxes();
         });
-});
+);
 modal_slide = function(move_direction){
   if(move_direction=="next"){
     var move_string='-50%';
@@ -92,6 +96,7 @@ modal_slide = function(move_direction){
 };
 
 request_new_checkboxes = function() {
+<<<<<<< HEAD
   $.ajax({
 url:"filter_options.php",
 type:"GET",
@@ -101,6 +106,18 @@ success : function(data) {
 $(document).ready(function() {
   $('span#filter').html(data); 
   $('[type=checkbox]').change(filterCheckChange);
+=======
+    $.ajax({
+    url:"filter_options.php",
+    type:"GET",
+    dataType: "html",
+    data: window.location.search.replace('?', ''), 
+    success : loadNewCheckboxes,
+    error : function(data) {
+              alert('uhoh');
+              //TODO: show alert [lost connection to the server]
+    }
+>>>>>>> 4023742548928278647280574beaf9e3fe49eb61
   });
 },
 error : function(data) {
@@ -109,9 +126,15 @@ alert('uhoh');
 }
 });
 }
-
+loadNewCheckboxes = function(data) {
+  $(document).ready(function() {
+    $('span#filter').html(data); 
+    $('[type=checkbox]').change(filterCheckChange);
+  });
+}
 reloadProfessors = function() {
   $.ajax({
+<<<<<<< HEAD
 url:"get_professors.php",
 type:"GET",
 dataType: "json",
@@ -126,6 +149,26 @@ $(document).ready(function() {
     setStar(true, $(this).attr('id'));
     return false;
     });
+=======
+    url:"get_professors.php",
+    type:"GET",
+    dataType: "json",
+    data: window.location.search.replace('?', ''), 
+    success : loadNewProfData  
+  });
+}
+
+loadNewProfData = function(data) {
+      $(document).ready(function() {
+        $('.prof_grid').html(data['html']);
+        $('p#search_description').html(data['description']);
+        $('.gray_star').click(function(){
+          $(this).hide();
+          $(this).prev().show();
+          setStar(true, $(this).attr('id'));
+          return false;
+        });
+>>>>>>> 4023742548928278647280574beaf9e3fe49eb61
 
   $('.gold_star').click(function(){
     $(this).hide();
@@ -134,6 +177,7 @@ $(document).ready(function() {
     return false;
     });
 
+<<<<<<< HEAD
   });
 }
 });
@@ -159,6 +203,32 @@ waitToBeReady = function (func) {
   return $(document).ready(function() {
       func();
       });
+=======
+      });
+}
+setStar = function(state, id) { 
+  $.ajax({
+    url:"set_star.php",
+    type: "POST",
+    dataType: "json",
+    data: {
+      'state': state,
+      'id' : id
+    },
+    success : function(data) {
+      //TODO: we should probably do something
+    },
+    error : function(data) {
+    }
+  });
+  var currentCount = parseInt($('span#numstarred').html());
+  if(state == true) {
+    currentCount += 1;
+  } else {
+    currentCount -= 1;
+  }
+  $('span#numstarred').html(currentCount);
+>>>>>>> 4023742548928278647280574beaf9e3fe49eb61
 }
 
 uncheckCategory = function(category) {
@@ -187,12 +257,32 @@ filterCheckChange = function() {
       new_url += '&' + key + '=' + escape(params[key].join(','));
     }
   }
+<<<<<<< HEAD
   new_url = window.location.pathname + '?q=' + getQueryVariable('q') + new_url
     window.history.pushState("object or string", "Title", new_url);
+=======
+  var query;
+  if(getQueryVariable('q')) {
+    query = '?q=' + getQueryVariable('q');
+  } else {
+    query = '?';
+    new_url = new_url.substring(1);
+  }
+  var new_url = window.location.pathname + query + new_url
+  window.history.pushState(getState(), "Title", new_url);
+>>>>>>> 4023742548928278647280574beaf9e3fe49eb61
   request_new_checkboxes();
   reloadProfessors();
 }
 
+function getState() {
+  return {url: window.location.search, 
+          filter: $('span#filter').html(), 
+          grid: {description: $('p#search_description').html(), 
+          html: $('.prof_grid').html()}
+         };
+        
+}
 function getQueryVariable(variable) { 
   var query = window.location.search.substring(1); 
   var vars = query.split("&"); 

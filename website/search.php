@@ -46,7 +46,7 @@
             <div style="float:right;" >
                 <ul id="saved_pills" class="pills">
                     <li id="starred">
-                        <a href="#">Starred Profs</a>
+                        <a href="#">All Starred Profs</a>
                     </li>
                     <li id="saved">
                         <a href="#">Saved Searches</a>

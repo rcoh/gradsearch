@@ -51,8 +51,13 @@ foreach($refinements as $displayname => $dbname) {
         }
       ?>
       />
-      
-      <span>Starred (<?php print_r($items[0]['data'][1]) ?>)</span> 
+      <?php 
+      if(isset($items[0]['data'][1])) {
+        $num = $items[0]['data'][1];
+      } else {
+        $num = 0;
+      } ?>
+      <span>Starred (<span id="numstarred"><?php echo $num ?></span>)</span> 
       </label></li>
     </ul>
     </div>
