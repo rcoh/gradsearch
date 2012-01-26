@@ -1,6 +1,4 @@
 <?php
-
-
 function insert_active($url) {
     if(strstr($_SERVER['REQUEST_URI'], $url)) {
        echo "class=\"active\"";
@@ -8,15 +6,13 @@ function insert_active($url) {
 }
 
 function loggedin(){
-if (isset($_SESSION['email'])) {
+  if (isset($_SESSION['email'])) {
     echo "Logged in as " .$_SESSION['email'];
-    }
-else {
+  }
+  else {
     echo "Please <a href=\"loginregister.php\">log in</a> to view your preferences.";
-        }
+  }
 }
-
-
 
 ?>
 
@@ -33,7 +29,7 @@ else {
                     <a href="about.php">About</a>
                 </li>
                 <li <?php insert_active("contact.php"); ?>>
-                    <a href="contact.php">Contact</a>
+                    <a href="mailto:gradsearch@mit.edu">Contact</a>
                 </li>
             </ul>
             
@@ -41,9 +37,6 @@ else {
                 
                 <?php if (isset($_SESSION['email'])){
                 echo "
-                <li>
-                    <a href=\"profile.php\">Profile</a>
-                </li>
                 <li>
                     <a href=\"changepassword.php\">Change Password</a>
                 </li>

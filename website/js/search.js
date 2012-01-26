@@ -2,6 +2,27 @@ $(document).ready(function() {
   $(".close").click(function() {
     $(this.parentElement).slideUp();
   });
+  $("li#saved").click(function() {
+    $(this).toggleClass('active');
+    $("li#starred").removeClass('active');
+  });
+  $("li#starred").click(function() {
+    $(this).toggleClass('active');
+    $("li#saved").removeClass('active');
+    search = window.location.search;
+    if(search.indexOf('starred=true') >= 0) {
+      search = search.replace('&starred=true', '').replace('starred=true', '');
+    } else {
+      if (search.length > 0) {
+        search += '&starred=true';
+      } else {
+        search += 'starred=true';
+      }
+    }
+    window.history.pushState("some data", "Title", window.location.pathname + search);
+    reloadProfessors();
+    request_new_checkboxes();
+  });
 });
 
 request_new_checkboxes = function() {
