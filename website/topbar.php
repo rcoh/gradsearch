@@ -37,7 +37,7 @@ else {
                 </li>
             </ul>
             
-            <ul class="nav" style="float:right; padding-right:20px;">
+            <ul class="nav" style="float:right; padding-right:0px;">
                 <li>
                     <a href="profile.php">Profile</a>
                 </li>

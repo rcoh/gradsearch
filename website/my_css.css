@@ -61,11 +61,33 @@ body {
 
 .prof_modal {
     top: 50%;
-    left: 50%;
     z-index: 11000;
     width: 960px;
     margin: -270px 0 0 -480px;
 }
+
+.current_modal {
+    left: 50%;
+}
+
+.next_modal {
+    left: 80%;
+    background-color:blue;
+}
+
+.prev_modal {
+    left: 20%;
+    background-color:green;
+}
+
+.left_modal {
+    left: -50%;
+}
+
+.right_modal {
+    left: 150%;
+}
+
 
 .prof_bottom_info {
     width: 895px;
@@ -193,27 +215,24 @@ body {
 }
 
 .gold_star {
-    display: none;
+    display:none;
+}
+
+.box_star {
     float: right;
     height: 19px;
 }
 
-.gray_star {
-    float: right;
-    height: 19px;
-}
-
-.gold_star_big {
-    display: none;
+.big_star {
     float: left;
     margin: 4px 12px 9px 0px;
     height: 25px;
 }
 
-.gray_star_big {
-    float: left;
-    margin: 4px 12px 9px 0px;
-    height: 25px;
+.search_star {
+    float: right;
+    margin: 0px 10px 0px 0px;
+    height: 22px;
 }
 
 #saved_pills {

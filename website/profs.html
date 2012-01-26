@@ -18,7 +18,7 @@
         <script type="text/javascript" src="js/bootstrap-modal.js">
         </script>
         <script>
-            
+
             modal_slide_right = function(){
                 var modal = $(this).parent().parent();
                 modal.animate({
@@ -73,25 +73,14 @@
                     return false;
                 });
                 
-                $('.gray_star_big').click(function(){
-                    $(this).hide();
-                    $(this).prev().show();
-                    return false;
-                });
-                
-                $('.gold_star_big').click(function(){
-                    $(this).hide();
-                    $(this).next().show();
-                    return false;
-                });
-                
-                
                 $(".prof_box").click(function(){
                     //to do: set up background
                     var modal_id = $(this).attr("id") + "_modal";
                     var this_modal = $("#" + modal_id);
                     this_modal.css('left', '50%');
                     //this_modal.addClass('fade');
+                    var back = $('<div class="modal-backdrop animate" />')
+        .appendTo(document.body)
                     this_modal.modal('show');
                 });
                 
@@ -99,7 +88,10 @@
                 
                 $(".prof_modal_left").click(modal_slide_left);
                 
-                
+                $('#target').keydown(function() {
+                alert('Handler for .keydown() called.');
+                });               
+ 
                 //Make this work!!
                 $(document.documentElement).keyup(function(event){
                     // handle cursor keys
@@ -187,17 +179,13 @@
                     <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn primary" value="Go">
                 </div>
             </form>
-            <div style="float:right;" >
+            <div style="float:left;" >
                 <ul id="saved_pills" class="pills">
                     <li>
                         <a href="#">Saved Profs</a>
                     </li>
                     <li>
                         <a href="#">Saved Searches</a>
-                    </li>
-                    <li>
-		 <input type="submit" class="btn info" style="margin-left:12px;"  value="Save this search">
-            
                     </li>
                 </ul>
             </div>
@@ -257,10 +245,13 @@
             </div>
             <div class="prof_content">
                 <!-- Main hero unit for a primary marketing message or call to action -->
-                <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
+                <div class="hero-unit" style="max-width:951px; padding:10px 5px 1px 15px; margin:0px 0px 15px 0px;">
                     <p>
                         32 professors researching <strong>neurodevelopment</strong>
                         in the department of <strong>neuroscience</strong>
+
+                   <img class="gold_star search_star" src="gold_star.png"><img class="gray_star search_star" src="gray_star.png">
+<span style="float:right; font-size:12px; padding-right:5px;">Save search </span>
                     </p>
                 </div>
                 <!-- modal content -->
@@ -287,7 +278,7 @@
                     <div id="prof2_modal" class="prof_modal modal hide">
                         <div class="modal-header">
                             <a href="#" class="close">&times;</a>
-                            <img class="gold_star_big" src="gold_star.png"><img class="gray_star_big" src="gray_star.png"><h2>Erik Demaine</h2>
+                            <img class="gold_star big_star" src="gold_star.png"><img class="gray_star big_star" src="gray_star.png"><h2>Erik Demaine</h2>
                         </div>
                         <div class="modal-body">
                             <div class="container-fluid">
@@ -372,7 +363,7 @@
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -394,7 +385,7 @@
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Erik Demaine</h5>
                                     <p>
                                         MIT
@@ -416,7 +407,7 @@
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -438,7 +429,7 @@
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" src="gold_star.png" style="display:none;"><img class="gray_star" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
