@@ -65,7 +65,7 @@ function process_search_term($search_term) {
   }
   return trim($result_string);
 }
-function build_query_string($cols, $search_term, $params, $user_id = NULL) {
+function build_old_query_string($cols, $search_term, $params, $user_id = NULL) {
   if($user_id) {
     array_push($cols, "prof.id in (select prof_id from bookmarked_professors where user_id = $user_id) as starred");
   }
@@ -91,14 +91,69 @@ function build_query_string($cols, $search_term, $params, $user_id = NULL) {
     $possible_values = "'" . join('\',\'', $vals) . "'";  
     $where_queries .= " and $filter in ($possible_values)";
   }
+  if(strpos($where_queries, " and") === 0) {
+    $where_queries = substr($where_queries, 4);
+  }
+  if($where_queries != "") {
+    $where_queries = "where " . $where_queries;
+  }
   $col_terms = implode(", ", $cols);   
   $stmnt="select " . $col_terms . " from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where $where_queries
-    union 
-    select distinct $col_terms from prof 
-    where " . str_replace("match (keyword)", "match (research_summary)", $where_queries);
+    $where_queries
+    union
+    select distinct $col_terms from prof " .
+    str_replace("match (keyword)", "match (research_summary)", $where_queries);
+  return $stmnt;
+
+}
+
+function build_query_string($desired_cols, $search_term, $params, $user_id = NULL) {
+  //No search term short circuit
+  if($user_id) {
+    array_push($desired_cols, "prof.id in (select prof_id from bookmarked_professors where user_id = $user_id) as starred");
+  }
+  $desired_cols = remove_item_by_value($desired_cols, "starred");
+  $starred = False;
+  if(isset($params['starred'])) {
+    unset($params['starred']);
+    $starred = True;
+  }
+  $where_queries = "";
+  if($starred && $user_id) {
+    $where_queries = "exists (select prof_id from bookmarked_professors where user_id = $user_id and prof_id = prof.id)";
+  }
+  if($where_queries != "" && $search_term) {
+    $where_queries .= " and "; 
+  }
+  if($search_term) {
+    $search_term = process_search_term($search_term);
+    $where_queries .=  "match (keyword) against ('$search_term' in boolean mode)";
+  }
+  foreach ($params as $filter => $value_list) {
+    $vals = explode(",", $value_list);
+    $possible_values = "'" . join('\',\'', $vals) . "'";  
+    $where_queries .= " and $filter in ($possible_values)";
+  }
+  if(strpos($where_queries, " and") === 0) {
+    $where_queries = substr($where_queries, 4);
+  }
+  if($where_queries != "") {
+    $where_queries = "where " . $where_queries;
+  }
+  $col_terms = implode(", ", $desired_cols);   
+  if($search_term) {
+    $stmnt="select " . $col_terms . " from keywords 
+      inner join keywordmap on keywords.id=keywordmap.keyword_id 
+      join prof on prof.id = keywordmap.prof_id 
+      $where_queries
+      select distinct $col_terms from prof " .
+      str_replace("match (keyword)", "match (research_summary)", $where_queries);
+  } else {
+    $stmnt="select distinct " . $col_terms . " from bookmarked_professors inner join prof on prof.id=bookmarked_professors.prof_id " 
+      . $where_queries; 
+  }
   return $stmnt;
 
 }
