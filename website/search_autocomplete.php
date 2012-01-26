@@ -4,7 +4,7 @@ require('json.php');
 $con = get_con();
 $return_array = array();
 if ($con) {
-  $query = "select keyword from keywords where keyword like '" . $_GET['term'] . "%';";
+  $query = "select keyword from keywords where keyword like '" . $_GET['term'] . "%' limit 10;";
   $result = query_or_die($query, $con);
   while ($row = mysql_fetch_array($result)) {
     $row_array['value'] = $row['keyword'];

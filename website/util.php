@@ -148,6 +148,7 @@ function build_query_string($desired_cols, $search_term, $params, $user_id = NUL
       inner join keywordmap on keywords.id=keywordmap.keyword_id 
       join prof on prof.id = keywordmap.prof_id 
       $where_queries
+      union
       select distinct $col_terms from prof " .
       str_replace("match (keyword)", "match (research_summary)", $where_queries);
   } else {

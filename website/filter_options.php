@@ -103,7 +103,7 @@ foreach($items as $category) {
                 <label>
               <input type="checkbox" name="<?php echo $disabled_item; ?>" value="<?php echo $category['dbname']; ?>" 
               disabled checked/>
-                <span><?php echo "$disabled_item (0)"; ?></span>
+                <span style="color: #BFBFBF;"><?php echo "$disabled_item (0)"; ?></span>
               </label>
               </li>
         <?php } ?>
