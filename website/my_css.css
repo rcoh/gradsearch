@@ -71,13 +71,11 @@ body {
 }
 
 .next_modal {
-    left: 80%;
-    background-color:blue;
+    left: 150%;
 }
 
 .prev_modal {
-    left: 20%;
-    background-color:green;
+    left: -50%;
 }
 
 .left_modal {

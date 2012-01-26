@@ -11,23 +11,55 @@
  *  {"schools: {"MIT":5}
  */
 require('util.php');
+session_start();
 $con = get_con();
-$search_term = $_GET["q"];
+$search_term = NULL;
+if(isset($_GET['q'])) {
+  $search_term = $_GET["q"];
+}
 $get_copy = $_GET; 
 unset($get_copy["q"]);
 $items = array();
-$refinements = array("University" => "school", "Department" => "department");
+$refinements = array("Starred" => "starred", "University" => "school", "Department" => "department");
+$user_id = NULL;
+if(isset($_SESSION['user_id'])) {
+  $user_id = $_SESSION['user_id'];
+}
 foreach($refinements as $displayname => $dbname) {
   $working_get = $get_copy;
   unset($working_get["$dbname"]); //leave-one-out
-  $distribution = get_professor_distribution($dbname, $search_term, $working_get, $con);
+  $distribution = get_professor_distribution($dbname, $search_term, $working_get, $user_id);
   $category_results = array(); 
   while($row = mysql_fetch_array($distribution)) {
     $category_results[$row[$dbname]] = $row['count(*)'];
   }
   $items[] = array("displayname" => $displayname, "dbname" => $dbname, "data" => $category_results);
 }
-
+//First do starred adhoc
+?>
+  <hr style="margin:5px; padding:0px;">
+  <div class="clearfix">
+    <label id="starred">
+      Personal Refinements 
+    </label>
+    <div class="input" style="margin:0px; padding0px;">
+      <ul class="inputs-list">
+      <li><label><input type="checkbox" name="true" value="starred" 
+      <?php
+        if(isset($_GET['starred'])) {
+          echo "checked";
+        }
+      ?>
+      />
+      
+      <span>Starred (<?php print_r($items[0]['data'][1]) ?>)</span> 
+      </label></li>
+    </ul>
+    </div>
+</div>
+      
+<?php
+unset($items[0]);
 foreach($items as $category) {
 ?>
   <hr style="margin:5px; padding:0px;">

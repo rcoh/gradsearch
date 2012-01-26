@@ -5,7 +5,6 @@ import util
 
 f = util.dl_and_prep("http://bbs.yale.edu/people/index.aspx")
 prof_links = [re.findall("<li><a href=\"(.*?)\"",f)[i].replace(".profile", "-3.profile") for i in range(31,len(re.findall("<li><a href=\"(.*?)\"",f))-5)]
-print prof_links
 
 yale_profs = []
 for prof in prof_links:
@@ -31,6 +30,7 @@ for prof in prof_links:
     if len(re.findall("Research Interests</h3><p>(.*?)</p>",g))>0:
         interests = re.findall("Research Interests</h3><p>(.*?)</p>",g)[0]
         interests = interests.replace(";", ",")
+        #interests = interests.replace(".","")
         keywords =[]
         for w in interests.split(","):
             keywords.append(w.strip().lower())

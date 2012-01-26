@@ -5,7 +5,6 @@
   if(!isset($_SESSION['user_id'])) {
     $_SESSION['user_id'] = new_anon_user($con);
   }
-  $query = $_GET['q'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,16 +34,29 @@
     </head>
     <body>
         <?php include('topbar.php'); ?>
-        <div class="search_bar">
-            <form class="bar_form" action="search.php">
+        <div class="search_bar" style="min-width: 980px;">
+           <form class="bar_form" style="float:left;">
                 <label for="search" style="width:auto; padding-left:10px;">
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
                 <input id="search" name="q" <?php if(isset($_GET['q'])) { echo "value=\"$_GET[q]\""; } ?> size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
-				</div>
+                </div>
             </form>
-			
+            <div style="float:right;" >
+                <ul id="saved_pills" class="pills">
+                    <li id="starred">
+                        <a href="#">Starred Profs</a>
+                    </li>
+                    <li id="saved">
+                        <a href="#">Saved Searches</a>
+                    </li>
+                    <li>
+		 <input type="submit" class="btn info" style="margin-left:12px;"  value="Save this search">
+            
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="container-fluid">
             <div class="fixed_sidebar">

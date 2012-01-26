@@ -68,10 +68,24 @@ function process_search_term($search_term) {
 function build_query_string($cols, $search_term, $params, $user_id = NULL) {
   if($user_id) {
     array_push($cols, "prof.id in (select prof_id from bookmarked_professors where user_id = $user_id) as starred");
-    return build_query_string($cols, $search_term, $params);
   }
-  $search_term = process_search_term($search_term);
+  $cols = remove_item_by_value($cols, "starred");
+  $starred = False;
+  if(isset($params['starred'])) {
+    unset($params['starred']);
+    $starred = True;
+  }
   $where_queries = "";
+  if($starred && $user_id) {
+    $where_queries = "exists (select prof_id from bookmarked_professors where user_id = $user_id and prof_id = prof.id)";
+  }
+  if($where_queries != "" && $search_term) {
+    $where_queries .= " and "; 
+  }
+  if($search_term) {
+    $search_term = process_search_term($search_term);
+    $where_queries .=  "match (keyword) against ('$search_term' in boolean mode)";
+  }
   foreach ($params as $filter => $value_list) {
     $vals = explode(",", $value_list);
     $possible_values = "'" . join('\',\'', $vals) . "'";  
@@ -81,23 +95,21 @@ function build_query_string($cols, $search_term, $params, $user_id = NULL) {
   $stmnt="select " . $col_terms . " from keywords 
     inner join keywordmap on keywords.id=keywordmap.keyword_id 
     join prof on prof.id = keywordmap.prof_id 
-    where match (keyword) against ('$search_term' in boolean mode) 
-    $where_queries
+    where $where_queries
     union 
     select distinct $col_terms from prof 
-    where match(research_summary) against('$search_term' in boolean mode)
-    $where_queries";
+    where " . str_replace("match (keyword)", "match (research_summary)", $where_queries);
   return $stmnt;
 
 }
 
-function get_professor_distribution($col, $search_term, $params, $con) {
+function get_professor_distribution($col, $search_term, $params, $user_id = Null) {
   $cols = array($col, "prof.id");
   $query = 
     "select $col, count(*) from (" . 
-      build_query_string($cols, $search_term, $params) . 
+      build_query_string($cols, $search_term, $params, $user_id) . 
     ") as T group by $col order by count(*) desc";
-  return query_or_die($query, $con);
+  return query_or_die($query, get_con());
 }
 function prof_by_id($prof_id, $con) {
   $stmnt="select * from prof where id='$prof_id'";

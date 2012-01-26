@@ -6,7 +6,7 @@ $email = "";
 if(isset($_POST['pass']) && isset($_POST['email'])) {
   $email = $_POST['email'];
   $hashed=hashpass($_POST['pass']); 
-  $query = "select password from users 
+  $query = "select password, id from users 
     where email='$_POST[email]'";
   $result = query_or_die($query, $con);
   $row = mysql_fetch_row($result);
@@ -25,7 +25,7 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
     go_home();
   } else {
     $bad_pass = "error";
-    $help_text_pass = "Invalid password. TODO: forgot password";
+    $help_text_pass = "Invalid password.";
   }
 } 
 ?>
@@ -86,8 +86,11 @@ if (isset($help_text_pass)) {
                                     ?>
                                 </div>
                             </div><!-- /clearfix -->
-                            <div style="margin-left:150px;">
+                            <div class="row">
+                            <div style="margin-left:173px;">
                                 <input type="submit" class="btn primary" value="Log in">
+                                <a href="forgotpassword.php" class="btn primary"> Forgot Password </a>
+                            </div>
                             </div>
                         </fieldset>
                     </form>

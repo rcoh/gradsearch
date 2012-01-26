@@ -1,6 +1,8 @@
 <?php 
-echo 'researching ';
-echo "<strong>" . $_GET['q'] . "</strong>";
+if(isset($_GET['q'])) {
+  echo 'researching ';
+  echo "<strong>" . $_GET['q'] . "</strong>";
+}
 $params = array("school" => "at", "department" => "in");
 foreach($params as $param => $delim) {
   if(isset($_GET[$param])) {

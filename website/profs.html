@@ -17,122 +17,7 @@
         </script>
         <script type="text/javascript" src="js/bootstrap-modal.js">
         </script>
-        <script>
-
-            modal_slide_right = function(){
-                var modal = $(this).parent().parent();
-                modal.animate({
-                    left: '-50%'
-                }, 500, function(){
-                    modal.css('left', '-50%');
-                });
-                
-                var this_id = modal.attr("id");
-                var next_id = this_id.replace(/(\d+)/g, function(s){
-                    return (parseInt(s) + 1).toString();
-                });
-                var next_div = $("#" + next_id);
-                next_div.modal('show');
-                next_div.animate({
-                    left: '50%'
-                }, 500);
-            };
-            
-            modal_slide_left = function(){
-                var modal = $(this).parent().parent();
-                modal.animate({
-                    left: '150%'
-                }, 500, function(){
-                    modal.css('left', '150%');
-                });
-                
-                var this_id = modal.attr("id");
-                var prev_id = this_id.replace(/(\d+)/g, function(s){
-                    return (parseInt(s) - 1).toString();
-                });
-                var prev_div = $("#" + prev_id);
-                prev_div.modal('show');
-                prev_div.animate({
-                    left: '50%'
-                }, 500);
-            };
-            
-            
-            
-            $(document).ready(function(){
-            
-                $('.gray_star').click(function(){
-                    $(this).hide();
-                    $(this).prev().show();
-                    return false;
-                });
-                
-                $('.gold_star').click(function(){
-                    $(this).hide();
-                    $(this).next().show();
-                    return false;
-                });
-                
-                $(".prof_box").click(function(){
-                    //to do: set up background
-                    var modal_id = $(this).attr("id") + "_modal";
-                    var this_modal = $("#" + modal_id);
-                    this_modal.css('left', '50%');
-                    //this_modal.addClass('fade');
-                    var back = $('<div class="modal-backdrop animate" />')
-        .appendTo(document.body)
-                    this_modal.modal('show');
-                });
-                
-                $(".prof_modal_right").click(modal_slide_right);
-                
-                $(".prof_modal_left").click(modal_slide_left);
-                
-                $('#target').keydown(function() {
-                alert('Handler for .keydown() called.');
-                });               
- 
-                //Make this work!!
-                $(document.documentElement).keyup(function(event){
-                    // handle cursor keys
-                    if (event.keyCode == 37) {
-                        modal_slide_left();
-                    }
-                    else 
-                        if (event.keyCode == 39) {
-                            modal_slide_right();
-                        }
-                });
-                
-                $('.prof_modal').bind('shown', function(){
-                    var this_id = $(this).attr("id");
-                    var next_id = this_id.replace(/(\d+)/g, function(s){
-                        return (parseInt(s) + 1).toString();
-                    });
-                    var prev_id = this_id.replace(/(\d+)/g, function(s){
-                        return (parseInt(s) - 1).toString();
-                    });
-                    var next_div = $("#" + next_id);
-                    var prev_div = $("#" + prev_id);
-                    next_div.css('left', '150%');
-                    prev_div.css('left', '-50%');
-                    
-                    //$(this).removeClass('fade');
-                });
-                
-                $('.prof_modal').bind('hidden', function(){
-                    //close background
-                    //$("all_modals").each.... 
-                    //hide, 
-                    //set to center
-                    var modal = $(this);
-                    
-                });
-                
-                
-                
-                
-            });
+        <script type="text/javascript" src="js/search.js">
         </script>
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="images/favicon.ico">
@@ -267,10 +152,10 @@
                             </p>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
+                            <div class="prof_modal_prev" style="float:left;">
                                 <a href="#" class="btn primary">&laquo; Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
+                            <div class="prof_modal_next" style="float:right;">
                                 <a href="#" class="btn primary">Next &raquo;</a>
                             </div>
                         </div>
@@ -307,10 +192,10 @@
                             </div>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
+                            <div class="prof_modal_prev" style="float:left;">
                                 <a href="#" class="btn primary">Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
+                            <div class="prof_modal_next" style="float:right;">
                                 <a href="#" class="btn primary">Next</a>
                             </div>
                         </div>
@@ -326,10 +211,10 @@
                             </p>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
+                            <div class="prof_modal_prev" style="float:left;">
                                 <a href="#" class="btn primary">Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
+                            <div class="prof_modal_next" style="float:right;">
                                 <a href="#" class="btn primary">Next</a>
                             </div>
                         </div>
@@ -345,10 +230,10 @@
                             </p>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
+                            <div class="prof_modal_prev" style="float:left;">
                                 <a href="#" class="btn primary">Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
+                            <div class="prof_modal_next" style="float:right;">
                                 <a href="#" class="btn primary">Next</a>
                             </div>
                         </div>
