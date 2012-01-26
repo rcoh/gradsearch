@@ -214,16 +214,10 @@ function research_interests_str($prof_id, $con, $search_string) {
   $first = mysql_fetch_array($result);
   if ($first) {
     $output = $first['keyword'];
-    if ($output == $search_string) {
-      $output = '<b>' . $output . '</b>';
-    }
     while ($interest = mysql_fetch_array($result)) {
-      if ($interest['keyword'] == $search_string) {
-        $output = '<b>' . $interest['keyword'] . '</b>, ' . $output;
-      } else {
         $output = $output . ', ' . $interest['keyword'];
-      }
     }
+    $output = str_replace($search_string, '<strong>' . $search_string . '</strong>', $output);
   } else {
     $output = 'None listed.';
   }
