@@ -4,7 +4,7 @@ $(window).bind("popstate", function(event) {
     });
 $(document).ready(function() {
 
-    $(document).bind('keyup.modal', function ( e ) {
+    $(document).bind('keyup', function ( e ) {
       if ( e.which == 37 ) {
       modal_slide('prev')();
       }
@@ -17,18 +17,19 @@ $(document).ready(function() {
     $(".prof_modal_prev").live("click", modal_slide('prev'));
 
     $(".prof_box").click(function(){
-      //to do: set up background
+      $(".prof_modal").hide();
+      $('.prof_modal').removeClass("current_modal prev_modal next_modal");
       var modal_id = $(this).attr("id") + "_modal";
       var this_modal = $("#" + modal_id);
-      this_modal.addClass('current_modal');
-      //var back = $('<div class="modal-backdrop animate" />')
-      //.appendTo(document.body)
+      this_modal.addClass('current_modal fade');
+      $('<div class="modal-backdrop animate" />').appendTo(document.body)
       this_modal.modal('show');
       });
 
     $('.prof_modal').bind('hide', function(){
         $('.prof_modal').hide();
-        $('.prof_modal').removeClass("current_modal prev_modal next_modal");
+        $('.modal-backdrop').remove();
+        $('.prof_modal').removeClass("current_modal prev_modal next_modal fade in");
         });
 
     $('.gray_star').click(function(){
@@ -77,8 +78,8 @@ modal_slide = function(move_direction){
     var next_div = $("#" + next_id);
     next_div.addClass(move_direction + "_modal"); 
     next_div.modal('show');
-    modal.switchClass("current_modal", current_modal_becomes,500);
-    next_div.switchClass(move_direction+"_modal", "current_modal",500);
+    modal.switchClass("current_modal", current_modal_becomes,350);
+    next_div.switchClass(move_direction+"_modal", "current_modal",350);
   }
   return inner;
 };
