@@ -45,7 +45,7 @@ foreach($refinements as $displayname => $dbname) {
     <label id="starred">
       Personal Refinements 
     </label>
-    <div class="input" style="margin:0px; padding0px;">
+    <div class="input" style="margin:0px; padding:0px;">
       <ul class="inputs-list">
       <li><label><input type="checkbox" name="true" value="starred" 
       <?php
@@ -75,7 +75,7 @@ foreach($items as $category) {
     <label id="<?php echo $category['dbname']; ?>">
       <?php echo $category['displayname']; ?>
     </label>
-    <div class="input" style="margin:0px; padding0px;">
+    <div class="input" style="margin:0px; padding:0px;">
       <ul class="inputs-list">
 <?php 
 

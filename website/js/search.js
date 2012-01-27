@@ -1,4 +1,5 @@
 $(window).bind("popstate", function(event) {
+    numProfs = 0; //RESET
     request_new_checkboxes();
     reloadProfessors();
 });
@@ -52,9 +53,10 @@ $(document).ready(function() {
         });
     $("li#starred").click(function() {
         window.history.pushState("some data", "Title", window.location.pathname + '?starred=true');
+        numProfs = 0; //RESET
         reloadProfessors();
         request_new_checkboxes();
-        });
+    });
 });
 
 modal_slide = function(move_direction){
@@ -118,13 +120,14 @@ rowLimit = 50;
 blockLoading = false;
 loadNewProfData = function(data) {
   $(document).ready(function() {
+      blockLoading = true;
       if(numProfs == 0) {
         $('.prof_grid').html(data['html']);
       } else {
         $('.prof_grid').append(data['html']);
       }
       numProfs += data['num_returned'];
-      $('p#search_description').html(data['description']);
+      $('span#search_description').html(data['description']);
       $('.gray_star').click(function(){
         $(this).hide();
         $(this).prev().show();
@@ -218,7 +221,7 @@ filterCheckChange = function() {
 function getState() {
   return {url: window.location.search, 
     filter: $('span#filter').html(), 
-    grid: {description: $('p#search_description').html(), 
+    grid: {description: $('span#search_description').html(), 
       html: $('.prof_grid').html()}
   };
 

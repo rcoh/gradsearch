@@ -1,5 +1,5 @@
 <li>
-    <a href="profile.php?id=<?php echo $row['id']; ?>" class="prof_box">
+    <div class="prof_box">
         <div class="prof_image">
             <img class="thumbnail" src="<?php echo $row['image']; ?>" alt="">
         </div>

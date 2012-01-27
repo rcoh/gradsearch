@@ -266,3 +266,9 @@ body {
 #saved_pills a:hover {
   background-color: #339bb9;
 }
+
+div#search_description {
+  max-width:951px; 
+  padding:10px 5px 1px 15px; 
+  margin:0px 0px 15px 0px;
+}
