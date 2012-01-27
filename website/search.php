@@ -40,20 +40,16 @@
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
-                <input id="search" name="q" <?php if(isset($_GET['q'])) { echo "value=\"$_GET[q]\""; } ?> size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
+                <input id="search" name="q" <?php if(isset($_GET['q'])) { echo "value=\"$_GET[q]\""; } ?> size="30" type="text" />&nbsp;<input type="submit" class="btn primary" value="Go">
                 </div>
             </form>
-            <div style="float:right;" >
+            <div style="float:left;" >
                 <ul id="saved_pills" class="pills">
                     <li id="starred">
                         <a href="#">All Starred Profs</a>
                     </li>
                     <li id="saved">
-                        <a href="#">Saved Searches</a>
-                    </li>
-                    <li>
-		 <input type="submit" class="btn info" style="margin-left:12px;"  value="Save this search">
-            
+                        <a href="#">Starred Searches</a>
                     </li>
                 </ul>
             </div>
@@ -82,8 +78,12 @@
 <?php
       $_SESSION['anon_msg'] = true;
   } ?>
-                <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
+                <div class="hero-unit" id="search_description">
                     <p id="search_description">
+                      <span id="search_description">
+                      </span>
+                   <img class="gold_star search_star" src="gold_star.png"><img class="gray_star search_star" src="gray_star.png">
+<span style="float:right; font-size:12px; padding-right:5px;">Save search </span>
                     </p>
                 </div>
                 <ul class="media-grid prof_grid">

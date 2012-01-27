@@ -164,7 +164,7 @@ function build_query_string($desired_cols, $search_term, $params, $user_id = NUL
       str_replace("match (keyword)", "match (research_summary)", $where_queries);
   } else {
     $stmnt="select distinct " . $col_terms . " from bookmarked_professors inner join prof on prof.id=bookmarked_professors.prof_id " 
-      . $where_queries; 
+      . $where_queries . ' ' . $limit_str; 
   }
   if($start || $limit) {
     return "select SQL_CALC_FOUND_ROWS * from ($stmnt) as T $limit_str";
