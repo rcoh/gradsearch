@@ -79,22 +79,27 @@ body {
 
 .current_modal {
   left: 50%;
+  margin-left:-480px;
 }
 
 .next_modal {
-  left: 150%;
+  left: 50%;
+  margin-left:490px;
 }
 
 .prev_modal {
-  left: -50%;
+  left: 50%;
+  margin-left:-1450px;
 }
 
 .left_modal {
-  left: -50%;
+  left: 50%;
+  margin-left:-2420px;
 }
 
 .right_modal {
-  left: 150%;
+  left: 50%;
+  margin-left:1460px;
 }
 
 
