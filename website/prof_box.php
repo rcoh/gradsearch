@@ -12,8 +12,8 @@ if (isset($row['starred'])) {
   $starred = NULL;
 }
 ?>
-  <img class="gold_star" id="<?php echo $row['id']; ?>" <?php if(!$starred) { echo 'style="display:none"'; } ?>src="gold_star.png">
-  <img class="gray_star" id="<?php echo $row['id']; ?>" <?php if($starred) { echo 'style="display:none"'; } ?> src="gray_star.png">
+  <img class="gold_star box_star" id="<?php echo $row['id']; ?>" <?php if(!$starred) { echo 'style="display:none"'; } ?>src="gold_star.png">
+  <img class="gray_star box_star" id="<?php echo $row['id']; ?>" <?php if($starred) { echo 'style="display:none"'; } ?> src="gray_star.png">
             </div>
             <h5><?php echo $row['name']; ?></h5>
             <p><?php echo $row['school']; ?></p>

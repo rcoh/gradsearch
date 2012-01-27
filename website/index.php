@@ -63,7 +63,7 @@ if(!isset($_SESSION['user_id'])) {
                     </fieldset>
                 </form>
             </div>
-            <div id="main_page_bottom">
+            <div id="main_page_bottom" style="min-width:940px;">
                 <div class="row">
                     <div class="span-one-third">
                         <h2>Discover</h2>
