@@ -249,6 +249,16 @@ body {
   height: 22px;
 }
 
+.clip_wrapper {
+  position: relative;
+  height: 150;
+}
+
+.clip {
+  position: absolute;
+  clip:rect(0px 100px 130px 0px);
+}
+
 #saved_pills {
   margin: 0px 67px 0px 10px;
 }

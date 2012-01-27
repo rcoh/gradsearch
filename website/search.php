@@ -35,7 +35,7 @@
     <body>
         <?php include('topbar.php'); ?>
         <div class="search_bar" style="min-width: 980px;">
-           <form class="bar_form" style="float:left;">
+           <form id="search" class="bar_form" style="float:left;">
                 <label for="search" style="width:auto; padding-left:10px;">
                     Search
                 </label>

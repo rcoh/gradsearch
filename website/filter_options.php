@@ -17,8 +17,11 @@ $search_term = NULL;
 if(isset($_GET['q'])) {
   $search_term = $_GET["q"];
 }
+
 $get_copy = $_GET; 
 unset($get_copy["q"]);
+unset($get_copy['start']);
+unset($get_copy['limit']);
 $items = array();
 $refinements = array("Starred" => "starred", "University" => "school", "Department" => "department");
 $user_id = NULL;
@@ -103,7 +106,7 @@ foreach($items as $category) {
                 <label>
               <input type="checkbox" name="<?php echo $disabled_item; ?>" value="<?php echo $category['dbname']; ?>" 
               disabled checked/>
-                <span><?php echo "$disabled_item (0)"; ?></span>
+                <span style="color: #BFBFBF;"><?php echo "$disabled_item (0)"; ?></span>
               </label>
               </li>
         <?php } ?>

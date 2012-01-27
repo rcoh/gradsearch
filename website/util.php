@@ -41,9 +41,13 @@ function add_user($email, $hashpass, $con) {
 }
 
 
-function filtered_search($query, $params, $uid, $con) {
+function filtered_search($query, $params, $uid, $limit, $start, $con) {
   $cols = array("prof.id", "name", "school", "department", "image");
-  return query_or_die(build_query_string($cols, $query, $params, $uid), $con);
+  $result = query_or_die(build_query_string($cols, $query, $params, $uid, $limit, $start), $con);
+  $count_result = query_or_die("select FOUND_ROWS()", $con);
+  $count = mysql_fetch_array($count_result);
+  $count = $count[0];
+  return array("count" => $count, "result" => $result);
 }
 
 function set_starred($prof_id, $user_id, $state, $con) {
@@ -51,7 +55,6 @@ function set_starred($prof_id, $user_id, $state, $con) {
     $stmnt = "insert into bookmarked_professors (prof_id, user_id) values($prof_id, $user_id)";
   } else {
     $stmnt = "delete from bookmarked_professors where prof_id = '$prof_id' and user_id = '$user_id'";
-    echo $stmnt;
   }
   return query_or_die($stmnt, $con);
 }
@@ -109,13 +112,19 @@ function build_old_query_string($cols, $search_term, $params, $user_id = NULL) {
 
 }
 
-function build_query_string($desired_cols, $search_term, $params, $user_id = NULL) {
+function build_query_string($desired_cols, $search_term, $params, $user_id = NULL, $limit = NULL, $start = NULL) {
   //No search term short circuit
   if($user_id) {
     array_push($desired_cols, "prof.id in (select prof_id from bookmarked_professors where user_id = $user_id) as starred");
   }
   $desired_cols = remove_item_by_value($desired_cols, "starred");
   $starred = False;
+  $limit_str = '';
+  if($start && $limit) {
+    $limit_str = "limit $start, $limit";
+  } else if($limit) {
+    $limit_str = "limit $limit";
+  }
   if(isset($params['starred'])) {
     unset($params['starred']);
     $starred = True;
@@ -139,22 +148,29 @@ function build_query_string($desired_cols, $search_term, $params, $user_id = NUL
   if(strpos($where_queries, " and") === 0) {
     $where_queries = substr($where_queries, 4);
   }
+  
   if($where_queries != "") {
     $where_queries = "where " . $where_queries;
   }
+  
   $col_terms = implode(", ", $desired_cols);   
   if($search_term) {
     $stmnt="select " . $col_terms . " from keywords 
       inner join keywordmap on keywords.id=keywordmap.keyword_id 
       join prof on prof.id = keywordmap.prof_id 
       $where_queries
+      union
       select distinct $col_terms from prof " .
       str_replace("match (keyword)", "match (research_summary)", $where_queries);
   } else {
     $stmnt="select distinct " . $col_terms . " from bookmarked_professors inner join prof on prof.id=bookmarked_professors.prof_id " 
       . $where_queries; 
   }
-  return $stmnt;
+  if($start || $limit) {
+    return "select SQL_CALC_FOUND_ROWS * from ($stmnt) as T $limit_str";
+  } else {
+    return $stmnt;
+  }
 
 }
 
@@ -213,16 +229,10 @@ function research_interests_str($prof_id, $con, $search_string) {
   $first = mysql_fetch_array($result);
   if ($first) {
     $output = $first['keyword'];
-    if ($output == $search_string) {
-      $output = '<b>' . $output . '</b>';
-    }
     while ($interest = mysql_fetch_array($result)) {
-      if ($interest['keyword'] == $search_string) {
-        $output = '<b>' . $interest['keyword'] . '</b>, ' . $output;
-      } else {
         $output = $output . ', ' . $interest['keyword'];
-      }
     }
+    $output = str_replace($search_string, '<strong>' . $search_string . '</strong>', $output);
   } else {
     $output = 'None listed.';
   }
