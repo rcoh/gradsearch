@@ -14,18 +14,19 @@ if(isset($_SESSION['user_id'])) {
   $uid = $_SESSION['user_id'];
 }
 $start = NULL;
-$limit = 10;
+$limit = 100;
 if(isset($_GET['start'])) {
   $start = $_GET['start'];
 }
-if(isset($_GET['start'])) {
-  $start = $_GET['start'];
+if(isset($_GET['limit'])) {
+  $limit = $_GET['limit'];
 }
 unset($get_copy['start']);
 unset($get_copy['limit']);
 $result_array = filtered_search($query, $get_copy, $uid, $limit, $start, get_con());
 $result = $result_array['result'];
 $num_rows = $result_array['count'];
+$num_returned = mysql_num_rows($result);
 ob_start(); //echos the result into a variable
 while($row = mysql_fetch_array($result)) {
   include('prof_box.php');
@@ -46,6 +47,6 @@ if($num_rows == 1) {
 } else { 
   $description .= " professors " . $description_end; 
 }
-$ret = array("html" => $html, "description" => $description);
+$ret = array("html" => $html, "description" => $description, "num_returned" => $num_returned);
 echo json_encode($ret);
 ?>
