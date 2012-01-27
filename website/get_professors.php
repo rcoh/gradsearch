@@ -13,8 +13,19 @@ $uid = NULL;
 if(isset($_SESSION['user_id'])) { 
   $uid = $_SESSION['user_id'];
 }
-$result = filtered_search($query, $get_copy, $uid, get_con());
-$num_rows = mysql_num_rows($result);
+$start = NULL;
+$limit = 10;
+if(isset($_GET['start'])) {
+  $start = $_GET['start'];
+}
+if(isset($_GET['start'])) {
+  $start = $_GET['start'];
+}
+unset($get_copy['start']);
+unset($get_copy['limit']);
+$result_array = filtered_search($query, $get_copy, $uid, $limit, $start, get_con());
+$result = $result_array['result'];
+$num_rows = $result_array['count'];
 ob_start(); //echos the result into a variable
 while($row = mysql_fetch_array($result)) {
   include('prof_box.php');

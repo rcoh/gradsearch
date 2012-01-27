@@ -17,8 +17,11 @@ $search_term = NULL;
 if(isset($_GET['q'])) {
   $search_term = $_GET["q"];
 }
+
 $get_copy = $_GET; 
 unset($get_copy["q"]);
+unset($get_copy['start']);
+unset($get_copy['limit']);
 $items = array();
 $refinements = array("Starred" => "starred", "University" => "school", "Department" => "department");
 $user_id = NULL;
