@@ -1,10 +1,10 @@
 $(window).bind("popstate", function(event) {
-  request_new_checkboxes();
-  reloadProfessors();
-});
+    request_new_checkboxes();
+    reloadProfessors();
+    });
 $(document).ready(function() {
 
-    $(document).bind('keyup.modal', function ( e ) {
+    $(document).bind('keyup', function ( e ) {
       if ( e.which == 37 ) {
       modal_slide('prev')();
       }
@@ -17,18 +17,19 @@ $(document).ready(function() {
     $(".prof_modal_prev").live("click", modal_slide('prev'));
 
     $(".prof_box").click(function(){
-      //to do: set up background
+      $(".prof_modal").hide();
+      $('.prof_modal').removeClass("current_modal prev_modal next_modal");
       var modal_id = $(this).attr("id") + "_modal";
       var this_modal = $("#" + modal_id);
-      this_modal.addClass('current_modal');
-      //var back = $('<div class="modal-backdrop animate" />')
-      //.appendTo(document.body)
+      this_modal.addClass('current_modal fade');
+      $('<div class="modal-backdrop animate" />').appendTo(document.body)
       this_modal.modal('show');
       });
 
     $('.prof_modal').bind('hide', function(){
         $('.prof_modal').hide();
-        $('.prof_modal').removeClass("current_modal prev_modal next_modal");
+        $('.modal-backdrop').remove();
+        $('.prof_modal').removeClass("current_modal prev_modal next_modal fade in");
         });
 
     $('.gray_star').click(function(){
@@ -48,26 +49,14 @@ $(document).ready(function() {
         });
     $("li#saved").click(function() {
         $(this).toggleClass('active');
-        $("li#starred").removeClass('active');
         });
     $("li#starred").click(function() {
-        $(this).toggleClass('active');
-        $("li#saved").removeClass('active');
-        search = window.location.search;
-        if(search.indexOf('starred=true') >= 0) {
-        search = search.replace('&starred=true', '').replace('starred=true', '');
-        } else {
-        if (search.length > 0) {
-        search += '&starred=true';
-        } else {
-        search += 'starred=true';
-        }
-        }
-        window.history.pushState("some data", "Title", window.location.pathname + search);
+        window.history.pushState("some data", "Title", window.location.pathname + '?starred=true');
         reloadProfessors();
         request_new_checkboxes();
         });
-);
+});
+
 modal_slide = function(move_direction){
   if(move_direction=="next"){
     var move_string='-50%';
@@ -89,37 +78,19 @@ modal_slide = function(move_direction){
     var next_div = $("#" + next_id);
     next_div.addClass(move_direction + "_modal"); 
     next_div.modal('show');
-    modal.switchClass("current_modal", current_modal_becomes,500);
-    next_div.switchClass(move_direction+"_modal", "current_modal",500);
+    modal.switchClass("current_modal", current_modal_becomes,350);
+    next_div.switchClass(move_direction+"_modal", "current_modal",350);
   }
   return inner;
 };
 
 request_new_checkboxes = function() {
-<<<<<<< HEAD
   $.ajax({
 url:"filter_options.php",
 type:"GET",
 dataType: "html",
 data: window.location.search.replace('?', ''), 
-success : function(data) {
-$(document).ready(function() {
-  $('span#filter').html(data); 
-  $('[type=checkbox]').change(filterCheckChange);
-=======
-    $.ajax({
-    url:"filter_options.php",
-    type:"GET",
-    dataType: "html",
-    data: window.location.search.replace('?', ''), 
-    success : loadNewCheckboxes,
-    error : function(data) {
-              alert('uhoh');
-              //TODO: show alert [lost connection to the server]
-    }
->>>>>>> 4023742548928278647280574beaf9e3fe49eb61
-  });
-},
+success : loadNewCheckboxes,
 error : function(data) {
 alert('uhoh');
 //TODO: show alert [lost connection to the server]
@@ -128,61 +99,40 @@ alert('uhoh');
 }
 loadNewCheckboxes = function(data) {
   $(document).ready(function() {
-    $('span#filter').html(data); 
-    $('[type=checkbox]').change(filterCheckChange);
-  });
+      $('span#filter').html(data); 
+      $('[type=checkbox]').change(filterCheckChange);
+      });
 }
 reloadProfessors = function() {
   $.ajax({
-<<<<<<< HEAD
 url:"get_professors.php",
 type:"GET",
 dataType: "json",
 data: window.location.search.replace('?', ''), 
-success : function(data) {
-$(document).ready(function() {
-  $('.prof_grid').html(data['html']);
-  $('p#search_description').html(data['description']);
-  $('.gray_star').click(function(){
-    $(this).hide();
-    $(this).prev().show();
-    setStar(true, $(this).attr('id'));
-    return false;
-    });
-=======
-    url:"get_professors.php",
-    type:"GET",
-    dataType: "json",
-    data: window.location.search.replace('?', ''), 
-    success : loadNewProfData  
-  });
-}
-
-loadNewProfData = function(data) {
-      $(document).ready(function() {
-        $('.prof_grid').html(data['html']);
-        $('p#search_description').html(data['description']);
-        $('.gray_star').click(function(){
-          $(this).hide();
-          $(this).prev().show();
-          setStar(true, $(this).attr('id'));
-          return false;
-        });
->>>>>>> 4023742548928278647280574beaf9e3fe49eb61
-
-  $('.gold_star').click(function(){
-    $(this).hide();
-    $(this).next().show();
-    setStar(false, $(this).attr('id'));
-    return false;
-    });
-
-<<<<<<< HEAD
-  });
-}
+success : loadNewProfData  
 });
 }
 
+loadNewProfData = function(data) {
+  $(document).ready(function() {
+      $('.prof_grid').html(data['html']);
+      $('p#search_description').html(data['description']);
+      $('.gray_star').click(function(){
+        $(this).hide();
+        $(this).prev().show();
+        setStar(true, $(this).attr('id'));
+        return false;
+        });
+
+      $('.gold_star').click(function(){
+        $(this).hide();
+        $(this).next().show();
+        setStar(false, $(this).attr('id'));
+        return false;
+        });
+
+      });
+}
 setStar = function(state, id) { 
   $.ajax({
 url:"set_star.php",
@@ -198,37 +148,13 @@ success : function(data) {
 error : function(data) {
 }
 });
+var currentCount = parseInt($('span#numstarred').html());
+if(state == true) {
+  currentCount += 1;
+} else {
+  currentCount -= 1;
 }
-waitToBeReady = function (func) {
-  return $(document).ready(function() {
-      func();
-      });
-=======
-      });
-}
-setStar = function(state, id) { 
-  $.ajax({
-    url:"set_star.php",
-    type: "POST",
-    dataType: "json",
-    data: {
-      'state': state,
-      'id' : id
-    },
-    success : function(data) {
-      //TODO: we should probably do something
-    },
-    error : function(data) {
-    }
-  });
-  var currentCount = parseInt($('span#numstarred').html());
-  if(state == true) {
-    currentCount += 1;
-  } else {
-    currentCount -= 1;
-  }
-  $('span#numstarred').html(currentCount);
->>>>>>> 4023742548928278647280574beaf9e3fe49eb61
+$('span#numstarred').html(currentCount);
 }
 
 uncheckCategory = function(category) {
@@ -257,10 +183,6 @@ filterCheckChange = function() {
       new_url += '&' + key + '=' + escape(params[key].join(','));
     }
   }
-<<<<<<< HEAD
-  new_url = window.location.pathname + '?q=' + getQueryVariable('q') + new_url
-    window.history.pushState("object or string", "Title", new_url);
-=======
   var query;
   if(getQueryVariable('q')) {
     query = '?q=' + getQueryVariable('q');
@@ -269,19 +191,18 @@ filterCheckChange = function() {
     new_url = new_url.substring(1);
   }
   var new_url = window.location.pathname + query + new_url
-  window.history.pushState(getState(), "Title", new_url);
->>>>>>> 4023742548928278647280574beaf9e3fe49eb61
+    window.history.pushState(getState(), "Title", new_url);
   request_new_checkboxes();
   reloadProfessors();
 }
 
 function getState() {
   return {url: window.location.search, 
-          filter: $('span#filter').html(), 
-          grid: {description: $('p#search_description').html(), 
-          html: $('.prof_grid').html()}
-         };
-        
+    filter: $('span#filter').html(), 
+    grid: {description: $('p#search_description').html(), 
+      html: $('.prof_grid').html()}
+  };
+
 }
 function getQueryVariable(variable) { 
   var query = window.location.search.substring(1); 
@@ -294,7 +215,4 @@ function getQueryVariable(variable) {
   } 
   return null;
 } 
-
-request_new_checkboxes();    
-reloadProfessors();
 
