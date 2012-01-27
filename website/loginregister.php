@@ -68,7 +68,7 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
                                     <input class="xlarge <?php echo $no_user; ?>" id="email" value="<?php echo $email; ?>" name="email" size="30" type="text" />
                                     <?php 
 if (isset($help_text_user)) {
-  echo "<span class=\"help-inline\">" . $help_text_pass . "</span>";
+  echo "<span class=\"help-inline\">" . $help_text_user . "</span>";
 }
                                     ?>
                                 </div>

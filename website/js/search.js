@@ -131,20 +131,28 @@ loadNewProfData = function(data) {
       $('.gray_star').click(function(){
         $(this).hide();
         $(this).prev().show();
-        setStar(true, $(this).attr('id'));
-        return false;
+        if($(this).hasClass('search_star')) {
+          searchStar(true);
+        } else {
+          setStar(true, $(this).attr('id'));
+        }
+          return false;
         });
 
       $('.gold_star').click(function(){
         $(this).hide();
         $(this).next().show();
-        setStar(false, $(this).attr('id'));
+        if($(this).hasClass('search_star')) {
+          searchStar(false);
+        } else {
+          setStar(false, $(this).attr('id'));
+        }
         return false;
-        });
+      });
       if(data['num_returned'] == rowLimit) {
         blockLoading = false;
       }
-      });
+  });
       $(window).scroll(function() {
         if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
           if(!blockLoading) {
@@ -154,30 +162,50 @@ loadNewProfData = function(data) {
         }
       });
 }
+
 setStar = function(state, id) { 
   $.ajax({
-url:"set_star.php",
-type: "POST",
-dataType: "json",
-data: {
-'state': state,
-'id' : id
-},
-success : function(data) {
-//TODO: we should probably do something
-},
-error : function(data) {
-}
-});
-var currentCount = parseInt($('span#numstarred').html());
-if(state == true) {
-  currentCount += 1;
-} else {
-  currentCount -= 1;
-}
-$('span#numstarred').html(currentCount);
+    url:"set_star.php",
+    type: "POST",
+    dataType: "json",
+    data: {
+    'state': state,
+    'id' : id,
+    },
+    success : function(data) {
+      //TODO: we should probably do something
+    },
+    error : function(data) {
+    }
+  });
+
+  var currentCount = parseInt($('span#numstarred').html());
+  if(state == true) {
+    currentCount += 1;
+  } else {
+    currentCount -= 1;
+  }
+  $('span#numstarred').html(currentCount);
 }
 
+searchStar = function(state) { 
+  $.ajax({
+      url:"star_search.php",
+      type: "POST",
+      dataType: "json",
+      data: {
+      'state': state,
+      'url' : window.location.href,
+      'desc' : $('span#search_description').html(), 
+      },
+  success : function(data) {
+      //TODO: we should probably do something
+  },
+  error : function(data) {
+      //somethign here?
+  }
+});
+}
 uncheckCategory = function(category) {
   var checkboxes = $('[value=' + category + ']');
   for (var i = 0; i < checkboxes.length; i++) {
@@ -226,6 +254,7 @@ function getState() {
   };
 
 }
+
 function getQueryVariable(variable) { 
   var query = window.location.search.substring(1); 
   var vars = query.split("&"); 

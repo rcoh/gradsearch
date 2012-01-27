@@ -59,6 +59,17 @@ function set_starred($prof_id, $user_id, $state, $con) {
   return query_or_die($stmnt, $con);
 }
 
+function set_starred_search($user_id, $url, $desc, $state) {
+  $url = mysql_real_escape_string($url);
+  $desc = mysql_real_escape_string($desc);
+  if($state == "true") {
+    $stmnt = "insert into savedsearches (user_id, url, description) values('$user_id', '$url', '$desc')";
+  } else {
+    $stmnt = "delete from savedsearches where url='$url'";
+  }
+  return query_or_die($stmnt, get_con());
+}
+
 /** ,'s delimit OR queries, otherwise its AND **/
 function process_search_term($search_term) {
   $terms = explode(",", $search_term);
