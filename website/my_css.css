@@ -7,6 +7,17 @@ body {
   /*background-color: #2f595f; #0f383e; #339bb9;*/
 }
 
+.saved_search{
+   padding:10px 5px 1px 15px; 
+   margin:0px 0px 15px 0px;
+}
+
+.saved_search span{
+  float:right; 
+  font-size:12px; 
+  padding-right:5px;
+}
+
 .stuck{
   margin-bottom:0px;
   margin-left: 2%;
