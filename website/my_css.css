@@ -35,6 +35,30 @@ body {
   bottom: 0px;
 }
 
+#search_box_2{
+  width:500px;
+  position:absolute;
+  top:400px;
+  left:50%;
+  margin:0 0 0 -135px;
+}
+
+#search_box_3{
+  width:900px;
+  position:absolute;
+  padding-left:50px;
+  top:300px;
+  left:50%;
+  margin:0 0 0 -135px;
+}
+
+#search_box_4{
+  text-align:center;
+  padding:20px;
+  margin:0px;
+}
+
+
 #main_search_box {
   width:500px;
   height:150px;
