@@ -2,7 +2,7 @@ $(window).bind("popstate", function(event) {
     numProfs = 0; //RESET
     request_new_checkboxes();
     reloadProfessors();
-});
+    });
 $(document).ready(function() {
 
     $(document).bind('keyup', function ( e ) {
@@ -20,35 +20,14 @@ $(document).ready(function() {
     $(".prof_modal_next").live("click", modal_slide_next);
     $(".prof_modal_prev").live("click", modal_slide_prev);
 
-    $(".prof_box").click(function(){
-      hide_modals();
-      var modal_id = $(this).attr("id") + "_modal";
-      var this_modal = $("#" + modal_id);
-      var next_id = modal_id.replace(/(\d+)/g, function(s){
-      return (parseInt(s) + 1).toString();
-      });
-      var prev_id = modal_id.replace(/(\d+)/g, function(s){
-      return (parseInt(s) -1).toString();
-      });
-
-      var next_modal = $("#" + next_id);
-      var prev_modal = $("#" + prev_id);
-      this_modal.addClass('current_modal fade');
-      next_modal.addClass('next_modal fade');
-      prev_modal.addClass('prev_modal fade');
-      $('<div class="modal-backdrop animate" />').appendTo(document.body)
-      this_modal.modal('show');
-      next_modal.modal('show');
-      prev_modal.modal('show');
-      });
-
+    $(".prof_box").click(prof_box_click);
     $('.prof_modal').bind('hide', hide_modals);
 
     $('.gray_star').click(function(){
-        $(this).hide();
-        $(this).prev().show();
-        return false;
-        });
+      $(this).hide();
+      $(this).prev().show();
+      return false;
+      });
 
     $('.gold_star').click(function(){
         $(this).hide();
@@ -67,18 +46,67 @@ $(document).ready(function() {
         numProfs = 0; //RESET
         reloadProfessors();
         request_new_checkboxes();
-    });
+        });
 });
 
-$(window).resize(function() { setSizes(); });
+display_modal = function(this_modal_id, prof_id, css_classes, callback){
+  var modal = $("#m"+this_modal_id);
+  if (modal.length == 0){
+    $.ajax({
+    url:"prof_modal.php",
+    type:"GET",
+    dataType: "html",
+    data: {'id':prof_id, 'modal_id':this_modal_id, 'classes':css_classes}, 
+    success : function(result) {
+      $(document.body).append(result);
+      modal = $("#m"+this_modal_id);
+         $('#gray' + prof_id).click(function(){
+        $(this).hide();
+        $(this).prev().show();
+        setStar(true, $(this).attr('id').substring(4));
+        return false;
+        });
 
-hide_modals = function(){
-  $('.prof_modal').hide();
-  $('.modal-backdrop').remove();
-  $('.prof_modal').removeClass("current_modal prev_modal next_modal right_modal left_modal fade in");
-  $('.modal-header').show();
+      $('#gold' + prof_id).click(function(){
+        $(this).hide();
+        $(this).next().show();
+        setStar(false, $(this).attr('id').substring(4));
+        return false;
+        });
+    modal.modal('show');
+    },
+    error : function(result) {
+      alert('modal failed to load');
+    },
+    complete : callback
+    });
+  }
+  else{
+    modal.addClass(css_classes);
+    modal.modal('show');
+    if (callback){
+    callback();
+    }
+  }
 }
 
+prof_box_click = function(){
+  hide_modals();
+  var modal_id = $(this).attr("id");
+  var next_num = modal_id.replace(/(\d+)/g, function(s){
+      return (parseInt(s) + 1).toString();
+      });
+  var prev_num = modal_id.replace(/(\d+)/g, function(s){
+      return (parseInt(s) -1).toString();
+      });
+  var this_prof_id = $("#"+modal_id).attr("prof_id");
+  var next_prof_id = $("#"+next_num).attr("prof_id");
+  var prev_prof_id = $("#"+prev_num).attr("prof_id");
+  $('<div class="modal-backdrop animate" />').appendTo(document.body)
+  display_modal(modal_id, this_prof_id, 'current_modal fade'); 
+  display_modal(next_num, next_prof_id, 'next_modal fade');
+  display_modal(prev_num, prev_prof_id, 'prev_modal fade');
+}
 modal_slide_next = function(){
   var move_string='-50%';
   var modal = $(".current_modal");
@@ -88,13 +116,15 @@ modal_slide_next = function(){
   var incoming_id = this_id.replace(/(\d+)/g, function(s){
       return (parseInt(s) + 2).toString();
       });
+  var incoming_num = incoming_id.substring(1);
+  var prof_id = $("#"+incoming_num).attr("prof_id");
+  display_modal(incoming_num, prof_id, 'right_modal', function(){ 
   var incoming_modal = $("#" + incoming_id);
-  incoming_modal.addClass("right_modal"); 
-  incoming_modal.modal('show');
   prev_modal.switchClass("prev_modal", "left_modal", 350);
   modal.switchClass("current_modal", "prev_modal", 350);
   next_modal.switchClass("next_modal", "current_modal", 350);
   incoming_modal.switchClass("right_modal", "next_modal", 350);
+  });
 };
 
 modal_slide_prev = function(){
@@ -106,15 +136,23 @@ modal_slide_prev = function(){
   var incoming_id = this_id.replace(/(\d+)/g, function(s){
       return (parseInt(s) - 2).toString();
       });
+  var incoming_num = incoming_id.substring(1);
+  var prof_id = $("#"+incoming_num).attr("prof_id");
+  display_modal(incoming_num, prof_id, 'left_modal', function(){ 
   var incoming_modal = $("#" + incoming_id);
-  incoming_modal.addClass("left_modal"); 
-  incoming_modal.modal('show');
   next_modal.switchClass("next_modal","right_modal",350);
   modal.switchClass("current_modal", "next_modal", 350);
   prev_modal.switchClass("prev_modal", "current_modal",350);
   incoming_modal.switchClass("left_modal", "prev_modal", 350);
+  });
 };
 
+hide_modals = function(){
+  $('.prof_modal').hide();
+  $('.modal-backdrop').remove();
+  $('.prof_modal').removeClass("current_modal prev_modal next_modal right_modal left_modal fade in");
+  $('.modal-header').show();
+}
 request_new_checkboxes = function() {
   $.ajax({
 url:"filter_options.php",
@@ -151,9 +189,9 @@ loadNewProfData = function(data) {
   $(document).ready(function() {
       blockLoading = true;
       if(numProfs == 0) {
-        $('.prof_grid').html(data['html']);
+      $('.prof_grid').html(data['html']);
       } else {
-        $('.prof_grid').append(data['html']);
+      $('.prof_grid').append(data['html']);
       }
       numProfs += data['num_returned'];
       $('span#search_description').html(data['description']);
@@ -173,14 +211,16 @@ loadNewProfData = function(data) {
       if(data['num_returned'] == rowLimit) {
         blockLoading = false;
       }
-      });
-      $(window).scroll(function() {
-        if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
-          if(!blockLoading) {
-            blockLoading = true;
-            reloadProfessors();
-          }
-        }
+
+      $(".prof_box").click(prof_box_click);
+  });
+  $(window).scroll(function() {
+      if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
+      if(!blockLoading) {
+      blockLoading = true;
+      reloadProfessors();
+      }
+      }
       });
 }
 setStar = function(state, id) { 

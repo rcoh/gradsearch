@@ -26,6 +26,8 @@
         <script type="text/javascript" src="js/autocomplete.js"></script>
         <script type="text/javascript" src="js/bootstrap-twipsy.js"></script>
         <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+        <script type="text/javascript" src="js/bootstrap-modal.js">
+        </script>
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">

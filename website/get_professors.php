@@ -28,8 +28,14 @@ $result = $result_array['result'];
 $num_rows = $result_array['count'];
 $num_returned = mysql_num_rows($result);
 ob_start(); //echos the result into a variable
+if (!$start){
+  $count = 0;
+}else{
+  $count = $start;
+}
 while($row = mysql_fetch_array($result)) {
   include('prof_box.php');
+  $count++;
 }
 $html = ob_get_contents();
 ob_end_clean();
