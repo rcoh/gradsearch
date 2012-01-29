@@ -16,7 +16,6 @@ $(document).ready(function() {
 
     $(".prof_modal_next").live("click", modal_slide('next'));
     $(".prof_modal_prev").live("click", modal_slide('prev'));
-
     $(".prof_box").click(function(){
       $(".prof_modal").hide();
       $('.prof_modal').removeClass("current_modal prev_modal next_modal");
@@ -25,7 +24,7 @@ $(document).ready(function() {
       this_modal.addClass('current_modal fade');
       $('<div class="modal-backdrop animate" />').appendTo(document.body)
       this_modal.modal('show');
-      });
+    });
 
     $('.prof_modal').bind('hide', function(){
         $('.prof_modal').hide();
@@ -47,9 +46,6 @@ $(document).ready(function() {
 
     $(".close").click(function() {
         $(this.parentElement).slideUp();
-        });
-    $("li#saved").click(function() {
-        $(this).toggleClass('active');
         });
     $("li#starred").click(function() {
         window.history.pushState("some data", "Title", window.location.pathname + '?starred=true');
@@ -103,7 +99,8 @@ loadNewCheckboxes = function(data) {
   $(document).ready(function() {
       $('span#filter').html(data); 
       $('[type=checkbox]').change(filterCheckChange);
-      });
+      $('a.clearall').click(uncheckButton);
+  });
 }
 reloadProfessors = function() {
   $.ajax({
@@ -195,7 +192,7 @@ searchStar = function(state) {
       dataType: "json",
       data: {
       'state': state,
-      'url' : window.location.href,
+      'url' : window.location.search,
       'desc' : $('span#search_description').html(), 
       },
   success : function(data) {
@@ -205,6 +202,10 @@ searchStar = function(state) {
       //somethign here?
   }
 });
+}
+
+uncheckButton = function() {
+  uncheckCategory($(this).attr('id'));
 }
 uncheckCategory = function(category) {
   var checkboxes = $('[value=' + category + ']');
