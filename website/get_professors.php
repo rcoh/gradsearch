@@ -38,6 +38,12 @@ ob_start();
 include('search_phrase.php');
 $description_end = ob_get_contents();
 ob_end_clean();
+
+ob_start();
+include('get_search_starred.php');
+$star = ob_get_contents();
+ob_end_clean();
+
 $description = $num_rows;
 if(isset($_GET['starred'])) {
   $description .= ' <strong>starred</strong>';
@@ -47,6 +53,6 @@ if($num_rows == 1) {
 } else { 
   $description .= " professors " . $description_end; 
 }
-$ret = array("html" => $html, "description" => $description, "num_returned" => $num_returned);
+$ret = array("html" => $html, "description" => $description, "num_returned" => $num_returned, "search_star" => $star);
 echo json_encode($ret);
 ?>

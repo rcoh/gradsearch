@@ -82,7 +82,9 @@
                     <p id="search_description">
                       <span id="search_description">
                       </span>
+                    <span id="searchstar">
                     <?php include('get_search_starred.php'); ?>
+                    </span>
                     <span style="float:right; font-size:12px; padding-right:5px;">Save search </span>
                     </p>
                 </div>

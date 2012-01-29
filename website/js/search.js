@@ -155,6 +155,7 @@ loadNewProfData = function(data) {
       }
       numProfs += data['num_returned'];
       $('span#search_description').html(data['description']);
+      $('span#searchstar').html(data['search_star']);
       $('.gray_star').click(function(){
         $(this).hide();
         $(this).prev().show();
