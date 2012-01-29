@@ -50,6 +50,17 @@ function filtered_search($query, $params, $uid, $limit, $start, $con) {
   return array("count" => $count, "result" => $result);
 }
 
+function get_searches_for_user($user_id) {
+  $stmnt = "select distinct url, description from savedsearches where user_id = '$user_id'";
+  return query_or_die($stmnt, get_con());
+}
+
+function search_starred_by_user($url, $user_id) {
+  $stmnt = "select count(*), url from savedsearches where user_id='$user_id' and url='$url'";
+  $result = mysql_fetch_array(query_or_die($stmnt, get_con()));
+  return $result['count(*)'];
+}
+
 function set_starred($prof_id, $user_id, $state, $con) {
   if($state == "true") {
     $stmnt = "insert into bookmarked_professors (prof_id, user_id) values($prof_id, $user_id)";
@@ -57,6 +68,17 @@ function set_starred($prof_id, $user_id, $state, $con) {
     $stmnt = "delete from bookmarked_professors where prof_id = '$prof_id' and user_id = '$user_id'";
   }
   return query_or_die($stmnt, $con);
+}
+
+function set_starred_search($user_id, $url, $desc, $state) {
+  $url = mysql_real_escape_string($url);
+  $desc = mysql_real_escape_string($desc);
+  if($state == "true") {
+    $stmnt = "insert into savedsearches (user_id, url, description) values('$user_id', '$url', '$desc')";
+  } else {
+    $stmnt = "delete from savedsearches where url='$url' and user_id='$user_id'";
+  }
+  return query_or_die($stmnt, get_con());
 }
 
 /** ,'s delimit OR queries, otherwise its AND **/

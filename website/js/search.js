@@ -38,9 +38,6 @@ $(document).ready(function() {
     $(".close").click(function() {
         $(this.parentElement).slideUp();
         });
-    $("li#saved").click(function() {
-        $(this).toggleClass('active');
-        });
     $("li#starred").click(function() {
         window.history.pushState("some data", "Title", window.location.pathname + '?starred=true');
         numProfs = 0; //RESET
@@ -170,7 +167,8 @@ loadNewCheckboxes = function(data) {
   $(document).ready(function() {
       $('span#filter').html(data); 
       $('[type=checkbox]').change(filterCheckChange);
-      });
+      $('a.clearall').click(uncheckButton);
+  });
 }
 reloadProfessors = function() {
   $.ajax({
@@ -198,55 +196,88 @@ loadNewProfData = function(data) {
       $('.gray_star').click(function(){
         $(this).hide();
         $(this).prev().show();
-        setStar(true, $(this).attr('id'));
-        return false;
+        if($(this).hasClass('search_star')) {
+          searchStar(true);
+        } else {
+          setStar(true, $(this).attr('id'));
+        }
+          return false;
         });
 
       $('.gold_star').click(function(){
         $(this).hide();
         $(this).next().show();
-        setStar(false, $(this).attr('id'));
+        if($(this).hasClass('search_star')) {
+          searchStar(false);
+        } else {
+          setStar(false, $(this).attr('id'));
+        }
         return false;
-        });
+      });
+
       if(data['num_returned'] == rowLimit) {
         blockLoading = false;
       }
 
       $(".prof_box").click(prof_box_click);
   });
-  $(window).scroll(function() {
-      if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
-      if(!blockLoading) {
-      blockLoading = true;
-      reloadProfessors();
-      }
-      }
+      $(window).scroll(function() {
+        if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
+          if(!blockLoading) {
+            blockLoading = true;
+            reloadProfessors();
+          }
+        }
       });
 }
+
 setStar = function(state, id) { 
   $.ajax({
-url:"set_star.php",
-type: "POST",
-dataType: "json",
-data: {
-'state': state,
-'id' : id
-},
-success : function(data) {
-//TODO: we should probably do something
-},
-error : function(data) {
-}
-});
-var currentCount = parseInt($('span#numstarred').html());
-if(state == true) {
-  currentCount += 1;
-} else {
-  currentCount -= 1;
-}
-$('span#numstarred').html(currentCount);
+    url:"set_star.php",
+    type: "POST",
+    dataType: "json",
+    data: {
+    'state': state,
+    'id' : id,
+    },
+    success : function(data) {
+      //TODO: we should probably do something
+    },
+    error : function(data) {
+    }
+  });
+
+  var currentCount = parseInt($('span#numstarred').html());
+  if(state == true) {
+    currentCount += 1;
+  } else {
+    currentCount -= 1;
+  }
+  $('span#numstarred').html(currentCount);
 }
 
+searchStar = function(state) { 
+  $.ajax({
+      url:"star_search.php",
+      type: "POST",
+      dataType: "json",
+      data: {
+      'state': state,
+      'url' : window.location.search,
+      'desc' : $('span#search_description').html(), 
+      },
+  success : function(data) {
+      //TODO: we should probably do something
+  },
+  error : function(data) {
+      //somethign here?
+  }
+});
+}
+
+uncheckButton = function() {
+  uncheckCategory($(this).attr('id'));
+}
 uncheckCategory = function(category) {
   var checkboxes = $('[value=' + category + ']');
   for (var i = 0; i < checkboxes.length; i++) {
@@ -295,6 +326,7 @@ function getState() {
   };
 
 }
+
 function getQueryVariable(variable) { 
   var query = window.location.search.substring(1); 
   var vars = query.split("&"); 

@@ -6,7 +6,7 @@ $email = "";
 if(isset($_POST['pass']) && isset($_POST['email'])) {
   $email = $_POST['email'];
   $hashed=hashpass($_POST['pass']); 
-  $query = "select password, id from users 
+  $query = "select password,id from users 
     where email='$_POST[email]'";
   $result = query_or_die($query, $con);
   $row = mysql_fetch_row($result);
@@ -25,7 +25,7 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
     go_home();
   } else {
     $bad_pass = "error";
-    $help_text_pass = "Invalid password.";
+    $help_text_pass = "Invalid password. TODO: forgot password";
   }
 } 
 ?>
@@ -68,7 +68,7 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
                                     <input class="xlarge <?php echo $no_user; ?>" id="email" value="<?php echo $email; ?>" name="email" size="30" type="text" />
                                     <?php 
 if (isset($help_text_user)) {
-  echo "<span class=\"help-inline\">" . $help_text_user . "</span>";
+  echo "<span class=\"help-inline\">" . $help_text_pass . "</span>";
 }
                                     ?>
                                 </div>
@@ -86,11 +86,8 @@ if (isset($help_text_pass)) {
                                     ?>
                                 </div>
                             </div><!-- /clearfix -->
-                            <div class="row">
-                            <div style="margin-left:173px;">
+                            <div style="margin-left:150px;">
                                 <input type="submit" class="btn primary" value="Log in">
-                                <a href="forgotpassword.php" class="btn primary"> Forgot Password </a>
-                            </div>
                             </div>
                         </fieldset>
                     </form>
@@ -101,8 +98,8 @@ if (isset($help_text_pass)) {
                             <legend>
                                 Register
                             </legend>
-                            <div class="clearfix" id="email_register">
-                                <label for="email">
+                            <div class="clearfix">
+                                <label for="email_register">
                                     Email
                                 </label>
                                 <div class="input">
@@ -114,8 +111,8 @@ if (isset($help_text_pass)) {
                                 </div>
                             </div>
                             <!-- /clearfix -->
-                            <div class="clearfix" id="password">
-                                <label for="password">
+                            <div class="clearfix">
+                                <label for="password_register">
                                     Password
                                 </label>
                                 <div class="input">
@@ -127,7 +124,7 @@ if (isset($help_text_pass)) {
                                 </div>
                             </div>
                             <!-- /clearfix -->
-                            <div class="clearfix" id="confirm_password">
+                            <div class="clearfix">
                                 <label for="confirm_password">
                                     Confirm Password
                                 </label>
@@ -141,9 +138,7 @@ if (isset($help_text_pass)) {
                             </div>
                             <!-- /clearfix -->
                             <div style="margin-left:150px;">
-                                <input id="register_submit" type="submit" class="btn primary" value="Register">
-
-            <span id="bad_registration" style="display:none">Please correct errors before submitting</span>
+                                <input type="submit" class="btn primary" value="Register">
                             </div>
                         </fieldset>
                     </form>
