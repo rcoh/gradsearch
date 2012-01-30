@@ -7,6 +7,9 @@ $(document).ready(function() {
       success : function(data) {
         $('#main_search').html(data);
         $('.saved_search').click(function() {
+          url = $(this).attr('id');
+          alert(url);
+          window.location = 'search.php' + url;
         });
         $('.gray_star').click(function(){
           $(this).hide();
