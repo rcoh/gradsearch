@@ -150,6 +150,9 @@ modal_slide_next = function(){
   incoming_modal.switchClass("right_modal", "next_modal", 350,"swing", increment_cs);
   var new_modal_num = this_num + 3;
   display_modal(new_modal_num, 'right_modal', increment_cs); 
+  
+  var prof_id = next_modal.attr("prof_id");
+  window.history.replaceState("whatever", "title", "profile.php?id=" + prof_id);
 };
 
 
