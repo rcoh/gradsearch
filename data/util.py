@@ -12,11 +12,12 @@ def dl_and_prep(url):
     headers = {}
     headers["User-Agent"] = user_agent
     url_request = urllib2.Request(url,None,headers)
-    #try:
-    file(cache_loc, 'w').write(urllib2.urlopen(url_request).read())
-    #except IOError as ex:
-     # os.remove(cache_loc)
-     # raise Exception('Download failure.')
+    try:
+        file(cache_loc, 'w').write(urllib2.urlopen(url_request).read())
+    except IOError as ex:
+      os.remove(cache_loc)
+      #raise Exception('Download failure.')
+      return ""
     return dl_and_prep(url)
   doc = stream.read().replace('\r\n', '').replace('\n', '')
   if doc == '':
@@ -105,6 +106,7 @@ def html_escape(content):
   content = content.replace('\x94', '&#148;')
   content = content.replace('\xE8', '&#232;')
   content = content.replace('\xE9', '&#233;')
+  content = content.replace('\x97', '&#151;')
   return content
 
 def split_and_clean(words, delim):

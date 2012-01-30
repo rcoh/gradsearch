@@ -9,7 +9,8 @@ missing_index = 0
 missing_courses = ['Chemistry', 'Biological Engineering', 'Anthropology', 'Music and Theater Arts',
     'Comparative Media Studies']
 for course in courses:
-    f = util.dl_and_prep("http://web.mit.edu/urop/research/profiles/%s.html" % course)
+    url = "http://web.mit.edu/urop/research/profiles/%s.html" % course
+    f = util.dl_and_prep(url)
     prof_info=re.findall("<dt><a href=\"(.*?)\"><strong>Prof\. (.*?)</strong></a>,.*?,.*?,.*?<.*?>(.*?)</a>\s*</dt>\s*<dd>(.*?)<", f)
     prof_info_alt= re.findall("<dt><strong><a href=\"(.*?)\">.*?\. (.*?)</a></strong>,.*?,.*?,.*?<.*?>(.*?)</a></dt>\s*<dd>(.*?)<",f)
     prof_info_alt2= re.findall("<dt><strong><a href=\"(.*?)\">.*?\. (.*?)</a>,</strong>.*?,.*?,.*?<.*?>(.*?)</a></dt>\s*<dd>(.*?)<",f)
@@ -22,7 +23,7 @@ for course in courses:
       department = [missing_courses[missing_index]]
       missing_index += 1
     course_profs = []
-    print department
+    #print department
     for prof in prof_info:
         course_profs.append(prof)
     for prof in prof_info_alt:
@@ -41,6 +42,7 @@ for course in courses:
     for prof in course_profs:
       prof = list(prof)
       prof.append(department[0])
+      prof.append(url)
       mod_profs.append(tuple(prof))
 
     all_prof_info += mod_profs 
@@ -61,6 +63,8 @@ for prof in all_prof_info:
 
     prof_dictionary['school'] = 'MIT'
     prof_dictionary['department'] = util.prep_department(prof[4])
+    prof_dictionary['source'] = prof[5]
+    print prof[5]
     util.validate_professor(prof_dictionary)
     prof_dictionary_list.append(prof_dictionary)
 
