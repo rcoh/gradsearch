@@ -177,7 +177,11 @@ function build_query_string($desired_cols, $search_term, $params, $user_id = NUL
   
   $col_terms = implode(", ", $desired_cols);   
   if($search_term) {
-    $stmnt="select " . $col_terms . " from keywords 
+    $stmnt="
+      select $col_terms from prof
+      where match(name) against('$search_term*' in boolean mode) 
+      union
+      select " . $col_terms . " from keywords 
       inner join keywordmap on keywords.id=keywordmap.keyword_id 
       join prof on prof.id = keywordmap.prof_id 
       $where_queries
