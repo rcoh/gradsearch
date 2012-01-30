@@ -26,6 +26,15 @@ if(isset($_GET['id'])){
         <p>
 <?php echo $prof['department'];?>
         </p>
+<?php
+ $website = $prof['personal_website'];
+ if (!($website)){
+   $website = $prof['lab_website'];
+ }
+ if ($website){
+   echo "<p> Website: <a href=\"$website\"> $website </a> </p>";
+ }
+?>
         <p>
         Research Interests:
 <?php 
