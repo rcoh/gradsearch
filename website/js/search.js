@@ -46,7 +46,16 @@ $(document).ready(function() {
         });
 });
 
-display_modal = function(this_modal_id, prof_id, css_classes, callback){
+display_modal = function(this_modal_id, css_classes, callback){
+  if (this_modal_id < 0 || this_modal_id >= numProfs) {
+    var result = "<div id=\"m" + this_modal_id + "\" class=\"" + css_classes + "\"></div>";
+    $(document.body).append(result);
+    if (callback){
+      callback();
+    }
+  }
+  else{
+  var prof_id = $("#"+this_modal_id).attr("prof_id");
   var modal = $("#m"+this_modal_id);
   if (modal.length == 0){
     $.ajax({
@@ -85,63 +94,84 @@ display_modal = function(this_modal_id, prof_id, css_classes, callback){
     callback();
     }
   }
+  }
 }
 
+increment_cs = function(){
+  can_slide++;
+}
+
+can_slide = 0; //if can_slide == 0, you can slide
 prof_box_click = function(){
+  can_slide = -5;
   hide_modals();
   var modal_id = $(this).attr("id");
-  var next_num = modal_id.replace(/(\d+)/g, function(s){
-      return (parseInt(s) + 1).toString();
-      });
-  var prev_num = modal_id.replace(/(\d+)/g, function(s){
-      return (parseInt(s) -1).toString();
-      });
-  var this_prof_id = $("#"+modal_id).attr("prof_id");
-  var next_prof_id = $("#"+next_num).attr("prof_id");
-  var prev_prof_id = $("#"+prev_num).attr("prof_id");
+  var modal_num = parseInt(modal_id);
+  var next_num = modal_num + 1;
+  var prev_num = modal_num - 1;
+  var right_num = modal_num + 2;
+  var left_num = modal_num - 2;
   $('<div class="modal-backdrop animate" />').appendTo(document.body)
-  display_modal(modal_id, this_prof_id, 'current_modal fade'); 
-  display_modal(next_num, next_prof_id, 'next_modal fade');
-  display_modal(prev_num, prev_prof_id, 'prev_modal fade');
+  display_modal(modal_id, 'current_modal fade', increment_cs); 
+  display_modal(next_num, 'next_modal fade', increment_cs);
+  display_modal(prev_num, 'prev_modal fade', increment_cs);
+  display_modal(right_num, 'right_modal', increment_cs);
+  display_modal(left_num, 'left_modal', increment_cs);
 }
 modal_slide_next = function(){
-  var move_string='-50%';
+  if (can_slide != 0){
+    return;
+  }
+  can_slide = -5;
   var modal = $(".current_modal");
+  var this_id = modal.attr("id");
+  var this_num = parseInt(this_id.substring(1));
+
+  if (this_num >= (numProfs-1)){
+    can_slide = 0;
+    return;
+  }
+
+  var move_string='-50%';
   var next_modal = $(".next_modal");
   var prev_modal = $(".prev_modal");
-  var this_id = modal.attr("id");
-  var incoming_id = this_id.replace(/(\d+)/g, function(s){
-      return (parseInt(s) + 2).toString();
-      });
-  var incoming_num = incoming_id.substring(1);
-  var prof_id = $("#"+incoming_num).attr("prof_id");
-  display_modal(incoming_num, prof_id, 'right_modal', function(){ 
-  var incoming_modal = $("#" + incoming_id);
-  prev_modal.switchClass("prev_modal", "left_modal", 350);
-  modal.switchClass("current_modal", "prev_modal", 350);
-  next_modal.switchClass("next_modal", "current_modal", 350);
-  incoming_modal.switchClass("right_modal", "next_modal", 350);
-  });
+  var incoming_id = this_num + 2;
+  var incoming_modal = $("#m" + incoming_id);
+  prev_modal.switchClass("prev_modal", "left_modal", 350,"swing", increment_cs);
+  modal.switchClass("current_modal", "prev_modal", 350,"swing", increment_cs);
+  next_modal.switchClass("next_modal", "current_modal", 350,"swing", increment_cs);
+  incoming_modal.switchClass("right_modal", "next_modal", 350,"swing", increment_cs);
+  var new_modal_num = this_num + 3;
+  display_modal(new_modal_num, 'right_modal', increment_cs); 
 };
 
+
 modal_slide_prev = function(){
-  var move_string='150%';
+  if (can_slide != 0){
+    return;
+  }
+  can_slide = -5;
+
   var modal = $(".current_modal");
+  var this_id = modal.attr("id");
+  var this_num = parseInt(this_id.substring(1));
+
+  if (this_num <= 0){
+    can_slide = 0;
+    return;
+  }
+
+  var move_string='150%';
   var next_modal = $(".next_modal");
   var prev_modal = $(".prev_modal");
-  var this_id = modal.attr("id");
-  var incoming_id = this_id.replace(/(\d+)/g, function(s){
-      return (parseInt(s) - 2).toString();
-      });
-  var incoming_num = incoming_id.substring(1);
-  var prof_id = $("#"+incoming_num).attr("prof_id");
-  display_modal(incoming_num, prof_id, 'left_modal', function(){ 
-  var incoming_modal = $("#" + incoming_id);
-  next_modal.switchClass("next_modal","right_modal",350);
-  modal.switchClass("current_modal", "next_modal", 350);
-  prev_modal.switchClass("prev_modal", "current_modal",350);
-  incoming_modal.switchClass("left_modal", "prev_modal", 350);
-  });
+  var incoming_id = this_num - 2;
+  var incoming_modal = $("#m" + incoming_id);
+  next_modal.switchClass("next_modal","right_modal",350,"swing", increment_cs);
+  modal.switchClass("current_modal", "next_modal", 350, "swing", increment_cs);
+  prev_modal.switchClass("prev_modal", "current_modal",350,"swing",  increment_cs);
+  incoming_modal.switchClass("left_modal", "prev_modal", 350,"swing",  increment_cs);
+  var new_modal_num = this_num - 3;
+  display_modal(new_modal_num, 'left_modal', increment_cs); 
 };
 
 hide_modals = function(){
