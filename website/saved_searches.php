@@ -3,7 +3,7 @@ include('util.php');
 session_start();
 $searches = get_searches_for_user($_SESSION['user_id']);
 while($query = mysql_fetch_array($searches)) { ?>
-  <a href="search.php<?php echo $query['url']?>" class="saved_search" id="<?php echo $query['url']?>" desc="<?php echo $query['description']; ?>">
+  <div class="hero-unit saved_search" id="<?php echo $query['url']?>" desc="<?php echo $query['description']; ?>">
 <p>
 <?php 
   echo $query['description']; 

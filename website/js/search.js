@@ -47,17 +47,18 @@ $(document).ready(function() {
 });
 
 display_modal = function(this_modal_id, css_classes, callback){
-  if (this_modal_id < 0 || this_modal_id >= numProfs) {
+  
+  var prof_id = $("#"+this_modal_id).attr("prof_id");
+  var modal = $("#m"+this_modal_id);
+
+  if (modal.length==0 && (this_modal_id < 0 || this_modal_id >= numProfs)) {
     var result = "<div id=\"m" + this_modal_id + "\" class=\"" + css_classes + "\"></div>";
     $(document.body).append(result);
     if (callback){
       callback();
     }
   }
-  else{
-  var prof_id = $("#"+this_modal_id).attr("prof_id");
-  var modal = $("#m"+this_modal_id);
-  if (modal.length == 0){
+  else if (modal.length == 0){
     $.ajax({
     url:"prof_modal.php",
     type:"GET",
@@ -87,13 +88,13 @@ display_modal = function(this_modal_id, css_classes, callback){
     complete : callback
     });
   }
+ 
   else{
     modal.addClass(css_classes);
     modal.modal('show');
     if (callback){
     callback();
     }
-  }
   }
 }
 
