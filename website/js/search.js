@@ -1,5 +1,6 @@
 $(window).bind("popstate", function(event) {
     numProfs = 0; //RESET
+
     request_new_checkboxes();
     reloadProfessors();
     });
@@ -47,8 +48,7 @@ $(document).ready(function() {
 });
 
 display_modal = function(this_modal_id, css_classes, callback){
-  
-  var prof_id = $("#"+this_modal_id).attr("prof_id");
+
   var modal = $("#m"+this_modal_id);
 
   if (modal.length==0 && (this_modal_id < 0 || this_modal_id >= numProfs)) {
@@ -58,44 +58,55 @@ display_modal = function(this_modal_id, css_classes, callback){
       callback();
     }
   }
-  else if (modal.length == 0){
-    $.ajax({
-    url:"prof_modal.php",
-    type:"GET",
-    dataType: "html",
-    data: {'id':prof_id, 'modal_id':this_modal_id, 'classes':css_classes}, 
-    success : function(result) {
-      $(document.body).append(result);
-      modal = $("#m"+this_modal_id);
-         $('#gray' + prof_id).click(function(){
-        $(this).hide();
-        $(this).prev().show();
-        setStar(true, $(this).attr('id').substring(4));
-        return false;
-        });
 
-      $('#gold' + prof_id).click(function(){
-        $(this).hide();
-        $(this).next().show();
-        setStar(false, $(this).attr('id').substring(4));
-        return false;
-        });
-    modal.modal('show');
-    },
-    error : function(result) {
-      alert('modal failed to load');
-    },
-    complete : callback
-    });
-  }
- 
   else{
-    modal.addClass(css_classes);
-    modal.modal('show');
-    if (callback){
-    callback();
+    var prof_id = $("#"+this_modal_id).attr("prof_id");
+    if(css_classes.indexOf("current_modal") != -1) {
+      if(window.location.pathname.indexOf('profile') != -1) {
+        window.history.replaceState("whatever", "title", 'profile.php?id=' + prof_id);
+      } else { 
+        window.history.pushState("whatever", "title", 'profile.php?id=' + prof_id);
+      }
     }
+    if (modal.length == 0){
+      $.ajax({
+url:"prof_modal.php",
+type:"GET",
+dataType: "html",
+data: {'id':prof_id, 'modal_id':this_modal_id, 'classes':css_classes}, 
+success : function(result) {
+$(document.body).append(result);
+modal = $("#m"+this_modal_id);
+$('#gray' + prof_id).click(function(){
+  $(this).hide();
+  $(this).prev().show();
+  setStar(true, $(this).attr('id').substring(4));
+  return false;
+  });
+
+$('#gold' + prof_id).click(function(){
+  $(this).hide();
+  $(this).next().show();
+  setStar(false, $(this).attr('id').substring(4));
+  return false;
+  });
+modal.modal('show');
+},
+error : function(result) {
+          alert('modal failed to load');
+        },
+complete : callback
+});
+}
+
+else{
+  modal.addClass(css_classes);
+  modal.modal('show');
+  if (callback){
+    callback();
   }
+}
+}
 }
 
 increment_cs = function(){
@@ -105,7 +116,6 @@ increment_cs = function(){
 can_slide = 0; //if can_slide == 0, you can slide
 prof_box_click = function(){
   can_slide = -5;
-  hide_modals();
   var modal_id = $(this).attr("id");
   var modal_num = parseInt(modal_id);
   var next_num = modal_num + 1;
@@ -113,7 +123,7 @@ prof_box_click = function(){
   var right_num = modal_num + 2;
   var left_num = modal_num - 2;
   $('<div class="modal-backdrop animate" />').appendTo(document.body)
-  display_modal(modal_id, 'current_modal fade', increment_cs); 
+    display_modal(modal_id, 'current_modal fade', increment_cs); 
   display_modal(next_num, 'next_modal fade', increment_cs);
   display_modal(prev_num, 'prev_modal fade', increment_cs);
   display_modal(right_num, 'right_modal', increment_cs);
@@ -144,6 +154,9 @@ modal_slide_next = function(){
   incoming_modal.switchClass("right_modal", "next_modal", 350,"swing", increment_cs);
   var new_modal_num = this_num + 3;
   display_modal(new_modal_num, 'right_modal', increment_cs); 
+
+  var prof_id = next_modal.attr("prof_id");
+  window.history.replaceState("whatever", "title", "profile.php?id=" + prof_id);
 };
 
 
@@ -156,7 +169,6 @@ modal_slide_prev = function(){
   var modal = $(".current_modal");
   var this_id = modal.attr("id");
   var this_num = parseInt(this_id.substring(1));
-
   if (this_num <= 0){
     can_slide = 0;
     return;
@@ -173,6 +185,9 @@ modal_slide_prev = function(){
   incoming_modal.switchClass("left_modal", "prev_modal", 350,"swing",  increment_cs);
   var new_modal_num = this_num - 3;
   display_modal(new_modal_num, 'left_modal', increment_cs); 
+
+  var prof_id = prev_modal.attr("prof_id");
+  window.history.replaceState("whatever", "title", "profile.php?id=" + prof_id);
 };
 
 hide_modals = function(){
@@ -180,6 +195,7 @@ hide_modals = function(){
   $('.modal-backdrop').remove();
   $('.prof_modal').removeClass("current_modal prev_modal next_modal right_modal left_modal fade in");
   $('.modal-header').show();
+  window.history.back();
 }
 request_new_checkboxes = function() {
   $.ajax({
@@ -199,7 +215,7 @@ loadNewCheckboxes = function(data) {
       $('span#filter').html(data); 
       $('[type=checkbox]').change(filterCheckChange);
       $('a.clearall').click(uncheckButton);
-  });
+      });
 }
 reloadProfessors = function() {
   $.ajax({
@@ -229,23 +245,23 @@ loadNewProfData = function(data) {
         $(this).hide();
         $(this).prev().show();
         if($(this).hasClass('search_star')) {
-          searchStar(true);
+        searchStar(true);
         } else {
-          setStar(true, $(this).attr('id'));
+        setStar(true, $(this).attr('id'));
         }
-          return false;
+        return false;
         });
 
       $('.gold_star').click(function(){
-        $(this).hide();
-        $(this).next().show();
-        if($(this).hasClass('search_star')) {
+          $(this).hide();
+          $(this).next().show();
+          if($(this).hasClass('search_star')) {
           searchStar(false);
-        } else {
+          } else {
           setStar(false, $(this).attr('id'));
-        }
-        return false;
-      });
+          }
+          return false;
+          });
 
       if(data['num_returned'] == rowLimit) {
         blockLoading = false;
@@ -253,57 +269,57 @@ loadNewProfData = function(data) {
 
       $(".prof_box").click(prof_box_click);
   });
-      $(window).scroll(function() {
-        if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
-          if(!blockLoading) {
-            blockLoading = true;
-            reloadProfessors();
-          }
-        }
+  $(window).scroll(function() {
+      if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
+      if(!blockLoading) {
+      blockLoading = true;
+      reloadProfessors();
+      }
+      }
       });
 }
 
 setStar = function(state, id) { 
   $.ajax({
-    url:"set_star.php",
-    type: "POST",
-    dataType: "json",
-    data: {
-    'state': state,
-    'id' : id,
-    },
-    success : function(data) {
-      //TODO: we should probably do something
-    },
-    error : function(data) {
-    }
-  });
+url:"set_star.php",
+type: "POST",
+dataType: "json",
+data: {
+'state': state,
+'id' : id,
+},
+success : function(data) {
+//TODO: we should probably do something
+},
+error : function(data) {
+}
+});
 
-  var currentCount = parseInt($('span#numstarred').html());
-  if(state == true) {
-    currentCount += 1;
-  } else {
-    currentCount -= 1;
-  }
-  $('span#numstarred').html(currentCount);
+var currentCount = parseInt($('span#numstarred').html());
+if(state == true) {
+  currentCount += 1;
+} else {
+  currentCount -= 1;
+}
+$('span#numstarred').html(currentCount);
 }
 
 searchStar = function(state) { 
   $.ajax({
-      url:"star_search.php",
-      type: "POST",
-      dataType: "json",
-      data: {
-      'state': state,
-      'url' : window.location.search,
-      'desc' : $('span#search_description').html(), 
-      },
-  success : function(data) {
-      //TODO: we should probably do something
-  },
-  error : function(data) {
-      //somethign here?
-  }
+url:"star_search.php",
+type: "POST",
+dataType: "json",
+data: {
+'state': state,
+'url' : window.location.search,
+'desc' : $('span#search_description').html(), 
+},
+success : function(data) {
+//TODO: we should probably do something
+},
+error : function(data) {
+//somethign here?
+}
 });
 }
 
