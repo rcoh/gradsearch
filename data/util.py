@@ -18,7 +18,7 @@ def dl_and_prep(url):
      # os.remove(cache_loc)
      # raise Exception('Download failure.')
     return dl_and_prep(url)
-  doc = stream.read().replace('\r\n', '')
+  doc = stream.read().replace('\r\n', '').replace('\n', '')
   if doc == '':
     os.remove(cache_loc)
     return dl_and_prep(url)

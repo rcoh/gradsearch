@@ -13,12 +13,22 @@ $con = get_con();
  * sanitize inputs
  */
 if($p1 == $p2 && !email_exists($email, $con)) {
-  if(add_user($email, $password, $con)) {
-    $_SESSION['msg'] = array("type" => "success", "text" => "Signup Sucessful!"); //TODO: display this on index.php
+  $uid = add_user($email, $password, $con); 
+  if($uid) {
+    $_SESSION['msg'] = array("type" => "success", "text" => "Signup Sucessful!"); 
     $_SESSION['email'] = $_POST['email'];
+    if(isset($_SESSION['user_id'])) {
+      //Anon user pattern, merge delete
+      merge_users($_SESSION['user_id'], $uid);
+      delete_user($_SESSION['user_id']);
+    }
+    $_SESSION['user_id'] = $uid;
     go_home();
   } else {
     die('Error: ' . mysql_error());
   }
+} else {
+  go_home();
+  $_SESSION['msg'] = array("type" => "error", "text" => "Tunnel fire."); 
 }
 ?>

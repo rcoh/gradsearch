@@ -1,6 +1,5 @@
 <?php 
-
 require('util.php');
-echo(get_professor_distribution('department', "algorithms", array("school" => ("MIT"))));
-
+get_con();
+echo mysql_real_escape_string('"test query"');
 ?>

@@ -15,118 +15,11 @@
         </script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js">
         </script>
+        <script type="text/javascript" src="js/search.js">
+        </script>
         <script type="text/javascript" src="js/bootstrap-modal.js">
         </script>
-        <script>
-            
-            modal_slide_right = function(){
-                var modal = $(this).parent().parent();
-                modal.animate({
-                    left: '-50%'
-                }, 500, function(){
-                    modal.css('left', '-50%');
-                });
-                
-                var this_id = modal.attr("id");
-                var next_id = this_id.replace(/(\d+)/g, function(s){
-                    return (parseInt(s) + 1).toString();
-                });
-                var next_div = $("#" + next_id);
-                next_div.modal('show');
-                next_div.animate({
-                    left: '50%'
-                }, 500);
-            };
-            
-            modal_slide_left = function(){
-                var modal = $(this).parent().parent();
-                modal.animate({
-                    left: '150%'
-                }, 500, function(){
-                    modal.css('left', '150%');
-                });
-                
-                var this_id = modal.attr("id");
-                var prev_id = this_id.replace(/(\d+)/g, function(s){
-                    return (parseInt(s) - 1).toString();
-                });
-                var prev_div = $("#" + prev_id);
-                prev_div.modal('show');
-                prev_div.animate({
-                    left: '50%'
-                }, 500);
-            };
-            
-			
-			
-            $(document).ready(function(){
-				
-				$('.gray_star').click(function(){
-                    $(this).hide();
-					return false;
-                });
-                
-                $('.gold_star').click(function(){
-                    $(this).next().show();
-					return false;
-                });
-				
-            
-                $(".prof_box").click(function(){
-					//to do: set up background
-                    var modal_id = $(this).attr("id") + "_modal";
-                    var this_modal = $("#" + modal_id);
-					this_modal.css('left', '50%');
-					//this_modal.addClass('fade');
-                    this_modal.modal('show');
-                });
-                
-                $(".prof_modal_right").click(modal_slide_right);
-                
-                $(".prof_modal_left").click(modal_slide_left);
-				
-				
-				//Make this work!!
-				$(document.documentElement).keyup(function (event) {
-                    // handle cursor keys
-                    if (event.keyCode == 37) {
-                      modal_slide_left();
-                    } else if (event.keyCode == 39) {
-                      modal_slide_right();
-                    }
-                });
-                
-                $('.prof_modal').bind('shown', function(){
-                    var this_id = $(this).attr("id");
-                    var next_id = this_id.replace(/(\d+)/g, function(s){
-                        return (parseInt(s) + 1).toString();
-                    });
-                    var prev_id = this_id.replace(/(\d+)/g, function(s){
-                        return (parseInt(s) - 1).toString();
-                    });
-                    var next_div = $("#" + next_id);
-                    var prev_div = $("#" + prev_id);
-                    next_div.css('left', '150%');
-                    prev_div.css('left', '-50%');
-					
-					//$(this).removeClass('fade');
-                });
-                
-				$('.prof_modal').bind('hidden', function(){
-					//close background
-					//$("all_modals").each.... 
-					//hide, 
-					//set to center
-					var modal = $(this);
-					
-				});
-                
-             
-                
-                
-            });
-        </script>
-        <!-- Le fav and touch icons -->
+       <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -162,16 +55,25 @@
                 </div>
             </div>
         </div>
-        <div class="search_bar">
-            <input type="submit" class="btn info" value="Save this search" style="margin-right:175px; float:right;">
-            <form class="bar_form">
+        <div class="search_bar" style="min-width: 980px;">
+           <form class="bar_form" style="float:left;">
                 <label for="search" style="width:auto; padding-left:10px;">
                     Search
                 </label>
                 <div class="input" style="margin-left:65px;">
-                    <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn info" value="Go">
+                    <input id="search" name="search" size="30" type="text" />&nbsp;<input type="submit" class="btn primary" value="Go">
                 </div>
             </form>
+            <div style="float:left;" >
+                <ul id="saved_pills" class="pills">
+                    <li>
+                        <a href="#">Saved Profs</a>
+                    </li>
+                    <li>
+                        <a href="#">Saved Searches</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="container-fluid" id="container_test">
             <div class="fixed_sidebar">
@@ -228,10 +130,13 @@
             </div>
             <div class="prof_content">
                 <!-- Main hero unit for a primary marketing message or call to action -->
-                <div class="hero-unit" style="padding:10px 10px 1px 15px; margin:0px 0px 15px 0px;">
+                <div class="hero-unit" style="max-width:951px; padding:10px 5px 1px 15px; margin:0px 0px 15px 0px;">
                     <p>
                         32 professors researching <strong>neurodevelopment</strong>
                         in the department of <strong>neuroscience</strong>
+
+                   <img class="gold_star search_star" src="gold_star.png"><img class="gray_star search_star" src="gray_star.png">
+<span style="float:right; font-size:12px; padding-right:5px;">Save search </span>
                     </p>
                 </div>
                 <!-- modal content -->
@@ -247,18 +152,18 @@
                             </p>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
-                                <a href="#" class="btn primary">Previous</a>
+                            <div class="prof_modal_prev" style="float:left;">
+                                <a href="#" class="btn primary">&laquo; Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
-                                <a href="#" class="btn primary">Next</a>
+                            <div class="prof_modal_next" style="float:right;">
+                                <a href="#" class="btn primary">Next &raquo;</a>
                             </div>
                         </div>
                     </div>
                     <div id="prof2_modal" class="prof_modal modal hide">
                         <div class="modal-header">
                             <a href="#" class="close">&times;</a>
-                            <img class="gold_star" style="height:25px; position:absolute; top:9px; left:9px;" src="gold_star.png"><img class="gray_star" style="height:25px; position:absolute; top:9px; left:9px;" src="gray_star.png"><h2 style="padding-left:28px;">Erik Demaine</h2>
+                            <img class="gold_star big_star" src="gold_star.png"><img class="gray_star big_star" src="gray_star.png"><h2>Erik Demaine</h2>
                         </div>
                         <div class="modal-body">
                             <div class="container-fluid">
@@ -287,10 +192,10 @@
                             </div>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
+                            <div class="prof_modal_prev" style="float:left;">
                                 <a href="#" class="btn primary">Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
+                            <div class="prof_modal_next" style="float:right;">
                                 <a href="#" class="btn primary">Next</a>
                             </div>
                         </div>
@@ -306,10 +211,10 @@
                             </p>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
+                            <div class="prof_modal_prev" style="float:left;">
                                 <a href="#" class="btn primary">Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
+                            <div class="prof_modal_next" style="float:right;">
                                 <a href="#" class="btn primary">Next</a>
                             </div>
                         </div>
@@ -325,10 +230,10 @@
                             </p>
                         </div>
                         <div class="modal-footer" style="padding:5px;">
-                            <div class="prof_modal_left" style="float:left;">
+                            <div class="prof_modal_prev" style="float:left;">
                                 <a href="#" class="btn primary">Previous</a>
                             </div>
-                            <div class="prof_modal_right" style="float:right;">
+                            <div class="prof_modal_next" style="float:right;">
                                 <a href="#" class="btn primary">Next</a>
                             </div>
                         </div>
@@ -337,13 +242,13 @@
                 <div id="all_profs">
                     <ul class="media-grid prof_grid">
                         <li>
-                            <a id="prof1" href="#" class="prof_box">
+                            <div id="prof1" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -359,13 +264,13 @@
                             </a>
                         </li>
                         <li>
-                            <a id="prof2" href="#" class="prof_box">
+                            <div id="prof2" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Erik Demaine</h5>
                                     <p>
                                         MIT
@@ -381,13 +286,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" id="prof3" class="prof_box">
+                            <div id="prof3" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -403,13 +308,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" id="prof4" class="prof_box">
+                            <div id="prof4" class="prof_box">
                                 <div class="prof_image">
-                                    <img class="thumbnail" src="http://placehold.it/100x120" alt="">
+                                    <img class="thumbnail" src="http://placehold.it/110x130" alt="">
                                 </div>
                                 <div class="prof_info">
                                     <div id="stars">
-                                        <img class="gold_star" style="float:right; height:19px;" src="gold_star.png"><img class="gray_star" style="position:relative; left:19px; float:right; height:19px;" src="gray_star.png">
+                                        <img class="gold_star box_star" src="gold_star.png" style="display:none;"><img class="gray_star box_star" src="gray_star.png">
                                     </div><h5>Name</h5>
                                     <p>
                                         School
@@ -426,12 +331,12 @@
                         </li>
                     </ul>
                 </div>
-                <footer>
-                    <p>
-                        &copy; Company 2011
-                    </p>
-                </footer>
             </div>
+            <footer>
+                <p>
+                    &copy; Company 2011
+                </p>
+            </footer>
         </div>
     </body>
 </html>
