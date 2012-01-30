@@ -55,7 +55,7 @@ display_modal = function(this_modal_id, css_classes, callback){
       callback();
     }
   }
-  else{
+  else {
   var prof_id = $("#"+this_modal_id).attr("prof_id");
   var modal = $("#m"+this_modal_id);
   if(css_classes.indexOf("current_modal") != -1) {
