@@ -1,5 +1,6 @@
 $(window).bind("popstate", function(event) {
     numProfs = 0; //RESET
+
     request_new_checkboxes();
     reloadProfessors();
     });
@@ -57,6 +58,13 @@ display_modal = function(this_modal_id, css_classes, callback){
   else{
   var prof_id = $("#"+this_modal_id).attr("prof_id");
   var modal = $("#m"+this_modal_id);
+  if(css_classes.indexOf("current_modal") != -1) {
+    if(window.location.pathname.indexOf('profile') != -1) {
+      window.history.replaceState("whatever", "title", 'profile.php?id=' + prof_id);
+    } else { 
+      window.history.pushState("whatever", "title", 'profile.php?id=' + prof_id);
+    }
+  }
   if (modal.length == 0){
     $.ajax({
     url:"prof_modal.php",
@@ -104,7 +112,6 @@ increment_cs = function(){
 can_slide = 0; //if can_slide == 0, you can slide
 prof_box_click = function(){
   can_slide = -5;
-  hide_modals();
   var modal_id = $(this).attr("id");
   var modal_num = parseInt(modal_id);
   var next_num = modal_num + 1;
@@ -155,7 +162,6 @@ modal_slide_prev = function(){
   var modal = $(".current_modal");
   var this_id = modal.attr("id");
   var this_num = parseInt(this_id.substring(1));
-
   if (this_num <= 0){
     can_slide = 0;
     return;
@@ -172,6 +178,9 @@ modal_slide_prev = function(){
   incoming_modal.switchClass("left_modal", "prev_modal", 350,"swing",  increment_cs);
   var new_modal_num = this_num - 3;
   display_modal(new_modal_num, 'left_modal', increment_cs); 
+  
+  var prof_id = prev_modal.attr("prof_id");
+  window.history.replaceState("whatever", "title", "profile.php?id=" + prof_id);
 };
 
 hide_modals = function(){
@@ -179,6 +188,7 @@ hide_modals = function(){
   $('.modal-backdrop').remove();
   $('.prof_modal').removeClass("current_modal prev_modal next_modal right_modal left_modal fade in");
   $('.modal-header').show();
+  window.history.back();
 }
 request_new_checkboxes = function() {
   $.ajax({
@@ -202,12 +212,12 @@ loadNewCheckboxes = function(data) {
 }
 reloadProfessors = function() {
   $.ajax({
-url:"get_professors.php",
-type:"GET",
-dataType: "json",
-data: window.location.search.replace('?', '') + '&start=' + numProfs + '&limit=' + rowLimit, 
-success : loadNewProfData  
-});
+    url:"get_professors.php",
+    type:"GET",
+    dataType: "json",
+    data: window.location.search.replace('?', '') + '&start=' + numProfs + '&limit=' + rowLimit, 
+    success : loadNewProfData  
+  });
 }
 
 numProfs = 0;
