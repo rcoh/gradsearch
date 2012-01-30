@@ -107,6 +107,12 @@ body {
   margin: -270px 0 0 -480px;
 }
 
+.modal-body{
+  max-height: 420px;
+  min-height: 420px;
+  overflow:scroll;
+}
+
 .current_modal {
   left: 50%;
   margin-left:-480px;
