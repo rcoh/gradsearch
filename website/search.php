@@ -61,7 +61,7 @@
                 <div class="well" style=" padding:0px;">
                     <form action="" id="filter" class="form-stacked" style="padding:8px;">
                         <h5>Filter results by:</h5>
-                        <span id="filter"></span>
+                        <span id="filter">Loading...</span>
                     </form>
                 </div>
             </div>
@@ -83,6 +83,7 @@
                 <div class="hero-unit" id="search_description">
                     <p id="search_description">
                       <span id="search_description">
+                      Loading...
                       </span>
                     <span id="searchstar">
                     <?php include('get_search_starred.php'); ?>
