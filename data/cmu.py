@@ -1,4 +1,4 @@
-import scrapemark
+#import scrapemark
 import re
 import util
 import pickle
@@ -13,7 +13,7 @@ for c in range(ord('A'), ord('Z')):
 final_dicts = [] 
 for prof in results:
   pd = {}
-  pd['personal_website'] = "http://people.cs.cmu.edu" + prof[0]
+  pd['source'] = "http://people.cs.cmu.edu" + prof[0]
   pd['name'] = prof[1][prof[1].find(',')+1:].strip() + ' ' + prof[1][:prof[1].find(',')].strip()
   pd['title'] = prof[2]
   pd['image'] = "http://people.cs.cmu.edu" + prof[3]

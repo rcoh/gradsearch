@@ -8,17 +8,17 @@ sS'name'
 p4
 S'Victor Adamchik'
 p5
-sS'personal_website'
-p6
-S'http://people.cs.cmu.edu/Person/1469"'
-p7
 sS'title'
-p8
+p6
 S'Associate Teaching Professor'
-p9
+p7
 sS'image'
-p10
+p8
 S'http://people.cs.cmu.edu/Thumb/1469'
+p9
+sS'source'
+p10
+S'http://people.cs.cmu.edu/Person/1469"'
 p11
 sS'keywords'
 p12
@@ -38,17 +38,17 @@ sg4
 S'Jonathan Aldrich'
 p19
 sg6
-S'http://people.cs.cmu.edu/Person/486"'
+S'Associate Professor'
 p20
 sg8
-S'Associate Professor'
-p21
-sg10
 S'http://people.cs.cmu.edu/Thumb/486'
-p22
+p21
 sS'research_summary'
-p23
+p22
 S'Applying language and program analysis techniques to software engineering problems'
+p23
+sg10
+S'http://people.cs.cmu.edu/Person/486"'
 p24
 sg16
 g17
@@ -59,13 +59,13 @@ sg4
 S'Vincent Aleven'
 p26
 sg6
-S'http://people.cs.cmu.edu/Person/266"'
+S'Associate Professor'
 p27
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/266'
 p28
 sg10
-S'http://people.cs.cmu.edu/Thumb/266'
+S'http://people.cs.cmu.edu/Person/266"'
 p29
 sg12
 (lp30
@@ -82,13 +82,13 @@ sg4
 S'Omead Amidi'
 p34
 sg6
-S'http://people.cs.cmu.edu/Person/72"'
+S'Senior Systems Scientist'
 p35
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/72'
 p36
 sg10
-S'http://people.cs.cmu.edu/Thumb/72'
+S'http://people.cs.cmu.edu/Person/72"'
 p37
 sg12
 (lp38
@@ -103,13 +103,13 @@ sg4
 S'David Andersen'
 p41
 sg6
-S'http://people.cs.cmu.edu/Person/543"'
+S'Associate Professor'
 p42
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/543'
 p43
 sg10
-S'http://people.cs.cmu.edu/Thumb/543'
+S'http://people.cs.cmu.edu/Person/543"'
 p44
 sg12
 (lp45
@@ -124,13 +124,13 @@ sg4
 S'John Anderson'
 p48
 sg6
-S'http://people.cs.cmu.edu/Person/128"'
+S'R. K. Mellon Univ Prof of Psych-Comp Sci'
 p49
 sg8
-S'R. K. Mellon Univ Prof of Psych-Comp Sci'
+S'http://people.cs.cmu.edu/Thumb/128'
 p50
 sg10
-S'http://people.cs.cmu.edu/Thumb/128'
+S'http://people.cs.cmu.edu/Person/128"'
 p51
 sg12
 (lp52
@@ -145,13 +145,13 @@ sg4
 S'Paul Andre'
 p55
 sg6
-S'http://people.cs.cmu.edu/Person/2629"'
+S'Post Doctoral Fellow'
 p56
 sg8
-S'Post Doctoral Fellow'
+S'http://people.cs.cmu.edu/Thumb/2629'
 p57
 sg10
-S'http://people.cs.cmu.edu/Thumb/2629'
+S'http://people.cs.cmu.edu/Person/2629"'
 p58
 sg12
 (lp59
@@ -166,13 +166,13 @@ sg4
 S'Dimitrios Apostolopoulos'
 p62
 sg6
-S'http://people.cs.cmu.edu/Person/138"'
+S'Senior Systems Scientist'
 p63
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/138'
 p64
 sg10
-S'http://people.cs.cmu.edu/Thumb/138'
+S'http://people.cs.cmu.edu/Person/138"'
 p65
 sg12
 (lp66
@@ -211,13 +211,13 @@ sg4
 S'Christopher Atkeson'
 p81
 sg6
-S'http://people.cs.cmu.edu/Person/371"'
+S'Professor'
 p82
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/371'
 p83
 sg10
-S'http://people.cs.cmu.edu/Thumb/371'
+S'http://people.cs.cmu.edu/Person/371"'
 p84
 sg12
 (lp85
@@ -256,13 +256,13 @@ sg4
 S'James Bagnell'
 p100
 sg6
-S'http://people.cs.cmu.edu/Person/331"'
+S'Associate Professor'
 p101
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/331'
 p102
 sg10
-S'http://people.cs.cmu.edu/Thumb/331'
+S'http://people.cs.cmu.edu/Person/331"'
 p103
 sg12
 (lp104
@@ -285,13 +285,13 @@ sg4
 S'John Bares'
 p111
 sg6
-S'http://people.cs.cmu.edu/Person/1454"'
+S'Research Professor'
 p112
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/1454'
 p113
 sg10
-S'http://people.cs.cmu.edu/Thumb/1454'
+S'http://people.cs.cmu.edu/Person/1454"'
 p114
 sg12
 (lp115
@@ -324,13 +324,13 @@ sg4
 S'Ziv Bar-Joseph'
 p127
 sg6
-S'http://people.cs.cmu.edu/Person/482"'
+S'Associate Professor'
 p128
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/482'
 p129
 sg10
-S'http://people.cs.cmu.edu/Thumb/482'
+S'http://people.cs.cmu.edu/Person/482"'
 p130
 sg12
 (lp131
@@ -351,16 +351,16 @@ sg4
 S'Darrin Bentivegna'
 p137
 sg6
-S'http://people.cs.cmu.edu/Person/578"'
+S'Adjunct Faculty Member'
 p138
 sg8
-S'Adjunct Faculty Member'
-p139
-sg10
 S'http://people.cs.cmu.edu/Thumb/578'
-p140
-sg23
+p139
+sg22
 S''
+p140
+sg10
+S'http://people.cs.cmu.edu/Person/578"'
 p141
 sg16
 g17
@@ -371,13 +371,13 @@ sg4
 S'Marcel Bergerman'
 p143
 sg6
-S'http://people.cs.cmu.edu/Person/247"'
+S'Systems Scientist'
 p144
 sg8
-S'Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/247'
 p145
 sg10
-S'http://people.cs.cmu.edu/Thumb/247'
+S'http://people.cs.cmu.edu/Person/247"'
 p146
 sg12
 (lp147
@@ -412,13 +412,13 @@ sg4
 S'Alan Black'
 p160
 sg6
-S'http://people.cs.cmu.edu/Person/306"'
+S'Associate Professor'
 p161
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/306'
 p162
 sg10
-S'http://people.cs.cmu.edu/Thumb/306'
+S'http://people.cs.cmu.edu/Person/306"'
 p163
 sg12
 (lp164
@@ -437,13 +437,13 @@ sg4
 S'Guy Blelloch'
 p169
 sg6
-S'http://people.cs.cmu.edu/Person/27"'
+S'Professor'
 p170
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/27'
 p171
 sg10
-S'http://people.cs.cmu.edu/Thumb/27'
+S'http://people.cs.cmu.edu/Person/27"'
 p172
 sg12
 (lp173
@@ -470,13 +470,13 @@ sg4
 S'Lenore Blum'
 p182
 sg6
-S'http://people.cs.cmu.edu/Person/327"'
+S'Distinguished Career Professor of CS'
 p183
 sg8
-S'Distinguished Career Professor of CS'
+S'http://people.cs.cmu.edu/Thumb/327'
 p184
 sg10
-S'http://people.cs.cmu.edu/Thumb/327'
+S'http://people.cs.cmu.edu/Person/327"'
 p185
 sg12
 (lp186
@@ -497,13 +497,13 @@ sg4
 S'Avrim Blum'
 p192
 sg6
-S'http://people.cs.cmu.edu/Person/160"'
+S'Professor'
 p193
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/160'
 p194
 sg10
-S'http://people.cs.cmu.edu/Thumb/160'
+S'http://people.cs.cmu.edu/Person/160"'
 p195
 sg12
 (lp196
@@ -524,13 +524,13 @@ sg4
 S'Manuel Blum'
 p202
 sg6
-S'http://people.cs.cmu.edu/Person/336"'
+S'University Professor'
 p203
 sg8
-S'University Professor'
+S'http://people.cs.cmu.edu/Thumb/336'
 p204
 sg10
-S'http://people.cs.cmu.edu/Thumb/336'
+S'http://people.cs.cmu.edu/Person/336"'
 p205
 sg12
 (lp206
@@ -551,13 +551,13 @@ sg4
 S'David Bourne'
 p212
 sg6
-S'http://people.cs.cmu.edu/Person/12"'
+S'Principal Systems Scientist'
 p213
 sg8
-S'Principal Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/12'
 p214
 sg10
-S'http://people.cs.cmu.edu/Thumb/12'
+S'http://people.cs.cmu.edu/Person/12"'
 p215
 sg12
 (lp216
@@ -572,16 +572,16 @@ sg4
 S'Daniel Boyarski'
 p219
 sg6
-S'http://people.cs.cmu.edu/Person/113"'
+S'Professor'
 p220
 sg8
-S'Professor'
-p221
-sg10
 S'http://people.cs.cmu.edu/Thumb/113'
-p222
-sg23
+p221
+sg22
 S'How words, images, motion, and sound work together to produce effective communication pieces '
+p222
+sg10
+S'http://people.cs.cmu.edu/Person/113"'
 p223
 sg16
 g17
@@ -592,13 +592,13 @@ sg4
 S'Stephen Brookes'
 p225
 sg6
-S'http://people.cs.cmu.edu/Person/74"'
+S'Professor'
 p226
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/74'
 p227
 sg10
-S'http://people.cs.cmu.edu/Thumb/74'
+S'http://people.cs.cmu.edu/Person/74"'
 p228
 sg12
 (lp229
@@ -617,16 +617,16 @@ sg4
 S'Ralf Brown'
 p234
 sg6
-S'http://people.cs.cmu.edu/Person/122"'
+S'Senior Systems Scientist'
 p235
 sg8
-S'Senior Systems Scientist'
-p236
-sg10
 S'http://people.cs.cmu.edu/Thumb/122'
+p236
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/122"'
 p237
-sg23
-g141
 sg16
 g17
 sa(dp238
@@ -636,16 +636,16 @@ sg4
 S'Brett Browning'
 p239
 sg6
-S'http://people.cs.cmu.edu/Person/381"'
+S'Senior Systems Scientist'
 p240
 sg8
-S'Senior Systems Scientist'
-p241
-sg10
 S'http://people.cs.cmu.edu/Thumb/381'
+p241
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/381"'
 p242
-sg23
-g141
 sg16
 g17
 sa(dp243
@@ -655,16 +655,16 @@ sg4
 S'Emma Brunskill'
 p244
 sg6
-S'http://people.cs.cmu.edu/Person/2532"'
+S'Assistant Professor'
 p245
 sg8
-S'Assistant Professor'
-p246
-sg10
 S'http://people.cs.cmu.edu/Thumb/2532'
+p246
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/2532"'
 p247
-sg23
-g141
 sg16
 g17
 sa(dp248
@@ -674,16 +674,16 @@ sg4
 S'Randal Bryant'
 p249
 sg6
-S'http://people.cs.cmu.edu/Person/111"'
+S'Dean of SCS / University Professor of CS'
 p250
 sg8
-S'Dean of SCS / University Professor of CS'
-p251
-sg10
 S'http://people.cs.cmu.edu/Thumb/111'
-p252
-sg23
+p251
+sg22
 S'Formal verification of hardware and embedded systems; data structures and algorithms for representing and reasoning about different classes of logic '
+p252
+sg10
+S'http://people.cs.cmu.edu/Person/111"'
 p253
 sg16
 g17
@@ -694,13 +694,13 @@ sg4
 S'James Callan'
 p255
 sg6
-S'http://people.cs.cmu.edu/Person/322"'
+S'Professor'
 p256
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/322'
 p257
 sg10
-S'http://people.cs.cmu.edu/Thumb/322'
+S'http://people.cs.cmu.edu/Person/322"'
 p258
 sg12
 (lp259
@@ -723,13 +723,13 @@ sg4
 S'Jaime Carbonell'
 p266
 sg6
-S'http://people.cs.cmu.edu/Person/4"'
+S'Director-LTI / Professor CS and LT'
 p267
 sg8
-S'Director-LTI / Professor CS and LT'
+S'http://people.cs.cmu.edu/Thumb/4'
 p268
 sg10
-S'http://people.cs.cmu.edu/Thumb/4'
+S'http://people.cs.cmu.edu/Person/4"'
 p269
 sg12
 (lp270
@@ -750,16 +750,16 @@ sg4
 S'Kathleen Carley'
 p276
 sg6
-S'http://people.cs.cmu.edu/Person/120"'
+S'Professor'
 p277
 sg8
-S'Professor'
-p278
-sg10
 S'http://people.cs.cmu.edu/Thumb/120'
-p279
-sg23
+p278
+sg22
 S'Network science, dynamic network analysis, link analysis, multi-agent simulation, text-analysis in support of interdisciplinary research linking computation to complex socio-cultural phenomenon'
+p279
+sg10
+S'http://people.cs.cmu.edu/Person/120"'
 p280
 sg16
 g17
@@ -770,13 +770,13 @@ sg4
 S'Jacobo Carrasquel'
 p282
 sg6
-S'http://people.cs.cmu.edu/Person/44"'
+S'Assoc. Teach. Prof.  / Ugrad Adv. for CS'
 p283
 sg8
-S'Assoc. Teach. Prof.  / Ugrad Adv. for CS'
+S'http://people.cs.cmu.edu/Thumb/44'
 p284
 sg10
-S'http://people.cs.cmu.edu/Thumb/44'
+S'http://people.cs.cmu.edu/Person/44"'
 p285
 sg12
 (lp286
@@ -793,13 +793,13 @@ sg4
 S'Lynn Carter'
 p290
 sg6
-S'http://people.cs.cmu.edu/Person/1903"'
+S'Associate Teaching Professor, ISR'
 p291
 sg8
-S'Associate Teaching Professor, ISR'
+S'http://people.cs.cmu.edu/Thumb/1903'
 p292
 sg10
-S'http://people.cs.cmu.edu/Thumb/1903'
+S'http://people.cs.cmu.edu/Person/1903"'
 p293
 sg12
 (lp294
@@ -830,13 +830,13 @@ sg4
 S'Justine Cassell'
 p305
 sg6
-S'http://people.cs.cmu.edu/Person/1221"'
+S'Director and Professor'
 p306
 sg8
-S'Director and Professor'
+S'http://people.cs.cmu.edu/Thumb/1221'
 p307
 sg10
-S'http://people.cs.cmu.edu/Thumb/1221'
+S'http://people.cs.cmu.edu/Person/1221"'
 p308
 sg12
 (lp309
@@ -855,13 +855,13 @@ sg4
 S'Iliano Cervesato'
 p314
 sg6
-S'http://people.cs.cmu.edu/Person/1901"'
+S'Associate Teaching Professor, CSD (Qatar)'
 p315
 sg8
-S'Associate Teaching Professor, CSD (Qatar)'
+S'http://people.cs.cmu.edu/Thumb/1901'
 p316
 sg10
-S'http://people.cs.cmu.edu/Thumb/1901'
+S'http://people.cs.cmu.edu/Person/1901"'
 p317
 sg12
 (lp318
@@ -884,13 +884,13 @@ sg4
 S'Howard Choset'
 p325
 sg6
-S'http://people.cs.cmu.edu/Person/236"'
+S'Professor'
 p326
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/236'
 p327
 sg10
-S'http://people.cs.cmu.edu/Thumb/236'
+S'http://people.cs.cmu.edu/Person/236"'
 p328
 sg12
 (lp329
@@ -929,16 +929,16 @@ sg4
 S'Edmund Clarke'
 p344
 sg6
-S'http://people.cs.cmu.edu/Person/98"'
+S'Fore Systems University Professor'
 p345
 sg8
-S'Fore Systems University Professor'
-p346
-sg10
 S'http://people.cs.cmu.edu/Thumb/98'
-p347
-sg23
+p346
+sg22
 S'Hardware and Software Verification using Model Checking '
+p347
+sg10
+S'http://people.cs.cmu.edu/Person/98"'
 p348
 sg16
 g17
@@ -949,16 +949,16 @@ sg4
 S'William Cohen'
 p350
 sg6
-S'http://people.cs.cmu.edu/Person/389"'
+S'Research Professor'
 p351
 sg8
-S'Research Professor'
-p352
-sg10
 S'http://people.cs.cmu.edu/Thumb/389'
+p352
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/389"'
 p353
-sg23
-g141
 sg16
 g17
 sa(dp354
@@ -968,13 +968,13 @@ sg4
 S'Eric Cooper'
 p355
 sg6
-S'http://people.cs.cmu.edu/Person/95"'
+S'Distinguished Service Prof.  of Comp. Sci. '
 p356
 sg8
-S'Distinguished Service Prof.  of Comp. Sci. '
+S'http://people.cs.cmu.edu/Thumb/95'
 p357
 sg10
-S'http://people.cs.cmu.edu/Thumb/95'
+S'http://people.cs.cmu.edu/Person/95"'
 p358
 sg12
 (lp359
@@ -997,13 +997,13 @@ sg4
 S'Albert Corbett'
 p366
 sg6
-S'http://people.cs.cmu.edu/Person/29"'
+S'Associate Research Professor'
 p367
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/29'
 p368
 sg10
-S'http://people.cs.cmu.edu/Thumb/29'
+S'http://people.cs.cmu.edu/Person/29"'
 p369
 sg12
 (lp370
@@ -1018,13 +1018,13 @@ sg4
 S'Thomas Cortina'
 p373
 sg6
-S'http://people.cs.cmu.edu/Person/531"'
+S'Associate Teaching Professor'
 p374
 sg8
-S'Associate Teaching Professor'
+S'http://people.cs.cmu.edu/Thumb/531'
 p375
 sg10
-S'http://people.cs.cmu.edu/Thumb/531'
+S'http://people.cs.cmu.edu/Person/531"'
 p376
 sg12
 (lp377
@@ -1039,13 +1039,13 @@ sg4
 S'Lorrie Cranor'
 p380
 sg6
-S'http://people.cs.cmu.edu/Person/507"'
+S'Associate Professor'
 p381
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/507'
 p382
 sg10
-S'http://people.cs.cmu.edu/Thumb/507'
+S'http://people.cs.cmu.edu/Person/507"'
 p383
 sg12
 (lp384
@@ -1068,13 +1068,13 @@ sg4
 S'Karl Crary'
 p391
 sg6
-S'http://people.cs.cmu.edu/Person/296"'
+S'Associate Professor'
 p392
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/296'
 p393
 sg10
-S'http://people.cs.cmu.edu/Thumb/296'
+S'http://people.cs.cmu.edu/Person/296"'
 p394
 sg12
 (lp395
@@ -1097,16 +1097,16 @@ sg4
 S'Wanda Dann'
 p402
 sg6
-S'http://people.cs.cmu.edu/Person/788"'
+S'Senior Systems Scientist'
 p403
 sg8
-S'Senior Systems Scientist'
-p404
-sg10
 S'http://people.cs.cmu.edu/Thumb/788'
-p405
-sg23
+p404
+sg22
 S'Visualization in Programming Languages; Applying visualization in teaching and learning computer science'
+p405
+sg10
+S'http://people.cs.cmu.edu/Person/788"'
 p406
 sg16
 g17
@@ -1117,13 +1117,13 @@ sg4
 S'Roger Dannenberg'
 p408
 sg6
-S'http://people.cs.cmu.edu/Person/119"'
+S'Associate Research Professor'
 p409
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/119'
 p410
 sg10
-S'http://people.cs.cmu.edu/Thumb/119'
+S'http://people.cs.cmu.edu/Person/119"'
 p411
 sg12
 (lp412
@@ -1138,13 +1138,13 @@ sg4
 S'Fernando De La Torre Frade'
 p415
 sg6
-S'http://people.cs.cmu.edu/Person/439"'
+S'Associate Research Professor'
 p416
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/439'
 p417
 sg10
-S'http://people.cs.cmu.edu/Thumb/439'
+S'http://people.cs.cmu.edu/Person/439"'
 p418
 sg12
 (lp419
@@ -1187,13 +1187,13 @@ sg4
 S'Anind Dey'
 p436
 sg6
-S'http://people.cs.cmu.edu/Person/579"'
+S'Associate Professor'
 p437
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/579'
 p438
 sg10
-S'http://people.cs.cmu.edu/Thumb/579'
+S'http://people.cs.cmu.edu/Person/579"'
 p439
 sg12
 (lp440
@@ -1210,13 +1210,13 @@ sg4
 S'M Dias'
 p444
 sg6
-S'http://people.cs.cmu.edu/Person/299"'
+S'Associate Research Professor'
 p445
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/299'
 p446
 sg10
-S'http://people.cs.cmu.edu/Thumb/299'
+S'http://people.cs.cmu.edu/Person/299"'
 p447
 sg12
 (lp448
@@ -1251,13 +1251,13 @@ sg4
 S'John Dolan'
 p461
 sg6
-S'http://people.cs.cmu.edu/Person/83"'
+S'Principal Systems Scientist'
 p462
 sg8
-S'Principal Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/83'
 p463
 sg10
-S'http://people.cs.cmu.edu/Thumb/83'
+S'http://people.cs.cmu.edu/Person/83"'
 p464
 sg12
 (lp465
@@ -1284,13 +1284,13 @@ sg4
 S'Steven Dow'
 p474
 sg6
-S'http://people.cs.cmu.edu/Person/2591"'
+S'Assistant Professor'
 p475
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/2591'
 p476
 sg10
-S'http://people.cs.cmu.edu/Thumb/2591'
+S'http://people.cs.cmu.edu/Person/2591"'
 p477
 sg12
 (lp478
@@ -1305,13 +1305,13 @@ sg4
 S'Artur Dubrawski'
 p481
 sg6
-S'http://people.cs.cmu.edu/Person/221"'
+S'Sr Systems Scientist / Adj Professor Mism'
 p482
 sg8
-S'Sr Systems Scientist / Adj Professor Mism'
+S'http://people.cs.cmu.edu/Thumb/221'
 p483
 sg10
-S'http://people.cs.cmu.edu/Thumb/221'
+S'http://people.cs.cmu.edu/Person/221"'
 p484
 sg12
 (lp485
@@ -1336,16 +1336,16 @@ sg4
 S'M Durand'
 p493
 sg6
-S'http://people.cs.cmu.edu/Person/368"'
+S'Associate Professor'
 p494
 sg8
-S'Associate Professor'
-p495
-sg10
 S'http://people.cs.cmu.edu/Thumb/368'
-p496
-sg23
+p495
+sg22
 S'Computational molecular biology and computational genomics  '
+p496
+sg10
+S'http://people.cs.cmu.edu/Person/368"'
 p497
 sg16
 g17
@@ -1356,13 +1356,13 @@ sg4
 S'David Eckhardt'
 p499
 sg6
-S'http://people.cs.cmu.edu/Person/140"'
+S'Associate Teaching Professor'
 p500
 sg8
-S'Associate Teaching Professor'
+S'http://people.cs.cmu.edu/Thumb/140'
 p501
 sg10
-S'http://people.cs.cmu.edu/Thumb/140'
+S'http://people.cs.cmu.edu/Person/140"'
 p502
 sg12
 (lp503
@@ -1381,16 +1381,16 @@ sg4
 S'William Eddy'
 p508
 sg6
-S'http://people.cs.cmu.edu/Person/2"'
+S'Professor'
 p509
 sg8
-S'Professor'
-p510
-sg10
 S'http://people.cs.cmu.edu/Thumb/2'
-p511
-sg23
+p510
+sg22
 S'The statistical problems associated with Functional Magnetic Resonance Imaging (fMRI) '
+p511
+sg10
+S'http://people.cs.cmu.edu/Person/2"'
 p512
 sg16
 g17
@@ -1401,13 +1401,13 @@ sg4
 S'Alexei Efros'
 p514
 sg6
-S'http://people.cs.cmu.edu/Person/528"'
+S'Associate Professor'
 p515
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/528'
 p516
 sg10
-S'http://people.cs.cmu.edu/Thumb/528'
+S'http://people.cs.cmu.edu/Person/528"'
 p517
 sg12
 (lp518
@@ -1430,16 +1430,16 @@ sg4
 S'Jeffrey Eppinger'
 p525
 sg6
-S'http://people.cs.cmu.edu/Person/347"'
+S'Professor of the Practice'
 p526
 sg8
-S'Professor of the Practice'
-p527
-sg10
 S'http://people.cs.cmu.edu/Thumb/347'
+p527
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/347"'
 p528
-sg23
-g141
 sg16
 g17
 sa(dp529
@@ -1449,13 +1449,13 @@ sg4
 S'Michael Erdmann'
 p530
 sg6
-S'http://people.cs.cmu.edu/Person/136"'
+S'Professor, Computer Science and Robotics'
 p531
 sg8
-S'Professor, Computer Science and Robotics'
+S'http://people.cs.cmu.edu/Thumb/136'
 p532
 sg10
-S'http://people.cs.cmu.edu/Thumb/136'
+S'http://people.cs.cmu.edu/Person/136"'
 p533
 sg12
 (lp534
@@ -1480,16 +1480,16 @@ sg4
 S'Maxine Eskenazi'
 p542
 sg6
-S'http://people.cs.cmu.edu/Person/199"'
+S'Principal Systems Scientist'
 p543
 sg8
-S'Principal Systems Scientist'
-p544
-sg10
 S'http://people.cs.cmu.edu/Thumb/199'
+p544
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/199"'
 p545
-sg23
-g141
 sg16
 g17
 sa(dp546
@@ -1499,13 +1499,13 @@ sg4
 S'Scott Fahlman'
 p547
 sg6
-S'http://people.cs.cmu.edu/Person/1446"'
+S'Research Professor'
 p548
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/1446'
 p549
 sg10
-S'http://people.cs.cmu.edu/Thumb/1446'
+S'http://people.cs.cmu.edu/Person/1446"'
 p550
 sg12
 (lp551
@@ -1520,13 +1520,13 @@ sg4
 S'Christos Faloutsos'
 p554
 sg6
-S'http://people.cs.cmu.edu/Person/268"'
+S'Professor'
 p555
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/268'
 p556
 sg10
-S'http://people.cs.cmu.edu/Thumb/268'
+S'http://people.cs.cmu.edu/Person/268"'
 p557
 sg12
 (lp558
@@ -1543,16 +1543,16 @@ sg4
 S'David Farber'
 p562
 sg6
-S'http://people.cs.cmu.edu/Person/446"'
+S'Distinguished Career Prof of CS  Pp'
 p563
 sg8
-S'Distinguished Career Prof of CS  Pp'
-p564
-sg10
 S'http://people.cs.cmu.edu/Thumb/446'
+p564
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/446"'
 p565
-sg23
-g141
 sg16
 g17
 sa(dp566
@@ -1562,13 +1562,13 @@ sg4
 S'Kayvon Fatahalian'
 p567
 sg6
-S'http://people.cs.cmu.edu/Person/2234"'
+S'Assistant Professor'
 p568
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/2234'
 p569
 sg10
-S'http://people.cs.cmu.edu/Thumb/2234'
+S'http://people.cs.cmu.edu/Person/2234"'
 p570
 sg12
 (lp571
@@ -1587,13 +1587,13 @@ sg4
 S'Gary Fedder'
 p576
 sg6
-S'http://people.cs.cmu.edu/Person/204"'
+S'Prof of ECE &amp; Robotics; Director of Ices'
 p577
 sg8
-S'Prof of ECE &amp; Robotics; Director of Ices'
+S'http://people.cs.cmu.edu/Thumb/204'
 p578
 sg10
-S'http://people.cs.cmu.edu/Thumb/204'
+S'http://people.cs.cmu.edu/Person/204"'
 p579
 sg12
 (lp580
@@ -1612,13 +1612,13 @@ sg4
 S'Stephen Fienberg'
 p585
 sg6
-S'http://people.cs.cmu.edu/Person/7"'
+S'Maurice Falk Unv Prof Stats / Soc Sci / MLD'
 p586
 sg8
-S'Maurice Falk Unv Prof Stats / Soc Sci / MLD'
+S'http://people.cs.cmu.edu/Thumb/7'
 p587
 sg10
-S'http://people.cs.cmu.edu/Thumb/7'
+S'http://people.cs.cmu.edu/Person/7"'
 p588
 sg12
 (lp589
@@ -1647,13 +1647,13 @@ sg4
 S'Eugene Fink'
 p599
 sg6
-S'http://people.cs.cmu.edu/Person/174"'
+S'Senior Systems Scientist'
 p600
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/174'
 p601
 sg10
-S'http://people.cs.cmu.edu/Thumb/174'
+S'http://people.cs.cmu.edu/Person/174"'
 p602
 sg12
 (lp603
@@ -1672,16 +1672,16 @@ sg4
 S'Jodi Forlizzi'
 p608
 sg6
-S'http://people.cs.cmu.edu/Person/232"'
+S'Associate Professor'
 p609
 sg8
-S'Associate Professor'
-p610
-sg10
 S'http://people.cs.cmu.edu/Thumb/232'
-p611
-sg23
+p610
+sg22
 S'Design research focused on the intersection between assistive, aesthetic, and social products, inclusive design and the design of new categories of products and services, such as service robots, interfaces (small, mobile, and ubiquitous) that support the limits of human attention '
+p611
+sg10
+S'http://people.cs.cmu.edu/Person/232"'
 p612
 sg16
 g17
@@ -1692,13 +1692,13 @@ sg4
 S'Robert Frederking'
 p614
 sg6
-S'http://people.cs.cmu.edu/Person/134"'
+S'Senior Systems Scientist'
 p615
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/134'
 p616
 sg10
-S'http://people.cs.cmu.edu/Thumb/134'
+S'http://people.cs.cmu.edu/Person/134"'
 p617
 sg12
 (lp618
@@ -1717,16 +1717,16 @@ sg4
 S'Edward Fredkin'
 p623
 sg6
-S'http://people.cs.cmu.edu/Person/339"'
+S'Visiting Research Professional'
 p624
 sg8
-S'Visiting Research Professional'
-p625
-sg10
 S'http://people.cs.cmu.edu/Thumb/339'
+p625
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/339"'
 p626
-sg23
-g141
 sg16
 g17
 sa(dp627
@@ -1736,13 +1736,13 @@ sg4
 S'Carol Frieze'
 p628
 sg6
-S'http://people.cs.cmu.edu/Person/432"'
+S'Director,Women@Scs--SCS Website Coord. '
 p629
 sg8
-S'Director,Women@Scs--SCS Website Coord. '
+S'http://people.cs.cmu.edu/Thumb/432'
 p630
 sg10
-S'http://people.cs.cmu.edu/Thumb/432'
+S'http://people.cs.cmu.edu/Person/432"'
 p631
 sg12
 (lp632
@@ -1763,13 +1763,13 @@ sg4
 S'Kaigham Gabriel'
 p638
 sg6
-S'http://people.cs.cmu.edu/Person/272"'
+S'Distinguished Service Professor'
 p639
 sg8
-S'Distinguished Service Professor'
+S'http://people.cs.cmu.edu/Thumb/272'
 p640
 sg10
-S'http://people.cs.cmu.edu/Thumb/272'
+S'http://people.cs.cmu.edu/Person/272"'
 p641
 sg12
 (lp642
@@ -1794,13 +1794,13 @@ sg4
 S'Gregory Ganger'
 p650
 sg6
-S'http://people.cs.cmu.edu/Person/281"'
+S'          Professor'
 p651
 sg8
-S'          Professor'
+S'http://people.cs.cmu.edu/Thumb/281'
 p652
 sg10
-S'http://people.cs.cmu.edu/Thumb/281'
+S'http://people.cs.cmu.edu/Person/281"'
 p653
 sg12
 (lp654
@@ -1823,13 +1823,13 @@ sg4
 S'David Garlan'
 p661
 sg6
-S'http://people.cs.cmu.edu/Person/153"'
+S'Professor'
 p662
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/153'
 p663
 sg10
-S'http://people.cs.cmu.edu/Thumb/153'
+S'http://people.cs.cmu.edu/Person/153"'
 p664
 sg12
 (lp665
@@ -1852,16 +1852,16 @@ sg4
 S'Anatole Gershman'
 p672
 sg6
-S'http://people.cs.cmu.edu/Person/768"'
+S'Distinguished Service Professor'
 p673
 sg8
-S'Distinguished Service Professor'
-p674
-sg10
 S'http://people.cs.cmu.edu/Thumb/768'
-p675
-sg23
+p674
+sg22
 S'Knowledge and language acquisition through active learning, Fusion of information from disparate sources, Making everyday objects smart'
+p675
+sg10
+S'http://people.cs.cmu.edu/Person/768"'
 p676
 sg16
 g17
@@ -1872,16 +1872,16 @@ sg4
 S'Hartmut Geyer'
 p678
 sg6
-S'http://people.cs.cmu.edu/Person/1216"'
+S'Assistant Professor'
 p679
 sg8
-S'Assistant Professor'
-p680
-sg10
 S'http://people.cs.cmu.edu/Thumb/1216'
+p680
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1216"'
 p681
-sg23
-g141
 sg16
 g17
 sa(dp682
@@ -1891,16 +1891,16 @@ sg4
 S'Garth Gibson'
 p683
 sg6
-S'http://people.cs.cmu.edu/Person/157"'
+S'Professor'
 p684
 sg8
-S'Professor'
-p685
-sg10
 S'http://people.cs.cmu.edu/Thumb/157'
-p686
-sg23
+p685
+sg22
 S'Parallelism in secondary storage system technologies, especially parallel and distributed file systems, disk arrays, and network-attached storage devices '
+p686
+sg10
+S'http://people.cs.cmu.edu/Person/157"'
 p687
 sg16
 g17
@@ -1911,16 +1911,16 @@ sg4
 S'Seth Goldstein'
 p689
 sg6
-S'http://people.cs.cmu.edu/Person/253"'
+S'Associate Professor'
 p690
 sg8
-S'Associate Professor'
-p691
-sg10
 S'http://people.cs.cmu.edu/Thumb/253'
-p692
-sg23
+p691
+sg22
 S' Claytronics/Programmable matter/Pario- Compilers and architectures for electronic nanotechnology andreconfigurable computing'
+p692
+sg10
+S'http://people.cs.cmu.edu/Person/253"'
 p693
 sg16
 g17
@@ -1931,16 +1931,16 @@ sg4
 S'Geoffrey Gordon'
 p695
 sg6
-S'http://people.cs.cmu.edu/Person/171"'
+S'Associate Research Professor'
 p696
 sg8
-S'Associate Research Professor'
-p697
-sg10
 S'http://people.cs.cmu.edu/Thumb/171'
-p698
-sg23
+p697
+sg22
 S'Reinforcement learning, planning, statistical models of difficult data (examples include natural-language text and maps of a robot&#39;s surroundings), and computational learning theory '
+p698
+sg10
+S'http://people.cs.cmu.edu/Person/171"'
 p699
 sg16
 g17
@@ -1951,13 +1951,13 @@ sg4
 S'Carlos Guestrin'
 p701
 sg6
-S'http://people.cs.cmu.edu/Person/254"'
+S'Associate Professor of CS and Ml'
 p702
 sg8
-S'Associate Professor of CS and Ml'
+S'http://people.cs.cmu.edu/Thumb/254'
 p703
 sg10
-S'http://people.cs.cmu.edu/Thumb/254'
+S'http://people.cs.cmu.edu/Person/254"'
 p704
 sg12
 (lp705
@@ -1996,16 +1996,16 @@ sg4
 S'Ananda Gunawardena'
 p720
 sg6
-S'http://people.cs.cmu.edu/Person/1462"'
+S'Associate Teaching Professor'
 p721
 sg8
-S'Associate Teaching Professor'
-p722
-sg10
 S'http://people.cs.cmu.edu/Thumb/1462'
+p722
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1462"'
 p723
-sg23
-g141
 sg16
 g17
 sa(dp724
@@ -2015,13 +2015,13 @@ sg4
 S'Abhinav Gupta'
 p725
 sg6
-S'http://people.cs.cmu.edu/Person/1076"'
+S'Assistant Research Professor'
 p726
 sg8
-S'Assistant Research Professor'
+S'http://people.cs.cmu.edu/Thumb/1076'
 p727
 sg10
-S'http://people.cs.cmu.edu/Thumb/1076'
+S'http://people.cs.cmu.edu/Person/1076"'
 p728
 sg12
 (lp729
@@ -2040,13 +2040,13 @@ sg4
 S'Anupam Gupta'
 p734
 sg6
-S'http://people.cs.cmu.edu/Person/465"'
+S'Associate Professor'
 p735
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/465'
 p736
 sg10
-S'http://people.cs.cmu.edu/Thumb/465'
+S'http://people.cs.cmu.edu/Person/465"'
 p737
 sg12
 (lp738
@@ -2065,13 +2065,13 @@ sg4
 S'Venkatesan Guruswami'
 p743
 sg6
-S'http://people.cs.cmu.edu/Person/966"'
+S'Associate Professor'
 p744
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/966'
 p745
 sg10
-S'http://people.cs.cmu.edu/Thumb/966'
+S'http://people.cs.cmu.edu/Person/966"'
 p746
 sg12
 (lp747
@@ -2094,13 +2094,13 @@ sg4
 S'Mor Harchol-Balter'
 p754
 sg6
-S'http://people.cs.cmu.edu/Person/323"'
+S'Assoc. Prof.  / Assoc. Dept. Head Grad. Edu. '
 p755
 sg8
-S'Assoc. Prof.  / Assoc. Dept. Head Grad. Edu. '
+S'http://people.cs.cmu.edu/Thumb/323'
 p756
 sg10
-S'http://people.cs.cmu.edu/Thumb/323'
+S'http://people.cs.cmu.edu/Person/323"'
 p757
 sg12
 (lp758
@@ -2119,13 +2119,13 @@ sg4
 S'Robert Harper'
 p763
 sg6
-S'http://people.cs.cmu.edu/Person/11"'
+S'Professor'
 p764
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/11'
 p765
 sg10
-S'http://people.cs.cmu.edu/Thumb/11'
+S'http://people.cs.cmu.edu/Person/11"'
 p766
 sg12
 (lp767
@@ -2140,13 +2140,13 @@ sg4
 S'Khaled Harras'
 p770
 sg6
-S'http://people.cs.cmu.edu/Person/820"'
+S'Assistant Teaching Professor'
 p771
 sg8
-S'Assistant Teaching Professor'
+S'http://people.cs.cmu.edu/Thumb/820'
 p772
 sg10
-S'http://people.cs.cmu.edu/Thumb/820'
+S'http://people.cs.cmu.edu/Person/820"'
 p773
 sg12
 (lp774
@@ -2171,13 +2171,13 @@ sg4
 S'Alexander Hauptmann'
 p782
 sg6
-S'http://people.cs.cmu.edu/Person/88"'
+S'Project Leader - Informedia'
 p783
 sg8
-S'Project Leader - Informedia'
+S'http://people.cs.cmu.edu/Thumb/88'
 p784
 sg10
-S'http://people.cs.cmu.edu/Thumb/88'
+S'http://people.cs.cmu.edu/Person/88"'
 p785
 sg12
 (lp786
@@ -2198,13 +2198,13 @@ sg4
 S'Martial Hebert'
 p792
 sg6
-S'http://people.cs.cmu.edu/Person/81"'
+S'Professor'
 p793
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/81'
 p794
 sg10
-S'http://people.cs.cmu.edu/Thumb/81'
+S'http://people.cs.cmu.edu/Person/81"'
 p795
 sg12
 (lp796
@@ -2229,13 +2229,13 @@ sg4
 S'James Herbsleb'
 p804
 sg6
-S'http://people.cs.cmu.edu/Person/195"'
+S'Professor'
 p805
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/195'
 p806
 sg10
-S'http://people.cs.cmu.edu/Thumb/195'
+S'http://people.cs.cmu.edu/Person/195"'
 p807
 sg12
 (lp808
@@ -2260,13 +2260,13 @@ sg4
 S'Alex Hills'
 p816
 sg6
-S'http://people.cs.cmu.edu/Person/1909"'
+S'Distinguished Service Professor, EPP/CS EPP'
 p817
 sg8
-S'Distinguished Service Professor, EPP/CS EPP'
+S'http://people.cs.cmu.edu/Thumb/1909'
 p818
 sg10
-S'http://people.cs.cmu.edu/Thumb/1909'
+S'http://people.cs.cmu.edu/Person/1909"'
 p819
 sg12
 (lp820
@@ -2281,13 +2281,13 @@ sg4
 S'Jessica Hodgins'
 p823
 sg6
-S'http://people.cs.cmu.edu/Person/372"'
+S'Professor RI / CS Assoc Dir for Faculty RI'
 p824
 sg8
-S'Professor RI / CS Assoc Dir for Faculty RI'
+S'http://people.cs.cmu.edu/Thumb/372'
 p825
 sg10
-S'http://people.cs.cmu.edu/Thumb/372'
+S'http://people.cs.cmu.edu/Person/372"'
 p826
 sg12
 (lp827
@@ -2312,13 +2312,13 @@ sg4
 S'Ralph Hollis'
 p835
 sg6
-S'http://people.cs.cmu.edu/Person/192"'
+S'Research Professor'
 p836
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/192'
 p837
 sg10
-S'http://people.cs.cmu.edu/Thumb/192'
+S'http://people.cs.cmu.edu/Person/192"'
 p838
 sg12
 (lp839
@@ -2337,13 +2337,13 @@ sg4
 S'Jason Hong'
 p844
 sg6
-S'http://people.cs.cmu.edu/Person/534"'
+S'Associate Professor'
 p845
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/534'
 p846
 sg10
-S'http://people.cs.cmu.edu/Thumb/534'
+S'http://people.cs.cmu.edu/Person/534"'
 p847
 sg12
 (lp848
@@ -2362,13 +2362,13 @@ sg4
 S'Daniel Huber'
 p853
 sg6
-S'http://people.cs.cmu.edu/Person/244"'
+S'Systems Scientist'
 p854
 sg8
-S'Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/244'
 p855
 sg10
-S'http://people.cs.cmu.edu/Thumb/244'
+S'http://people.cs.cmu.edu/Person/244"'
 p856
 sg12
 (lp857
@@ -2393,13 +2393,13 @@ sg4
 S'Scott Hudson'
 p865
 sg6
-S'http://people.cs.cmu.edu/Person/264"'
+S'Professor'
 p866
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/264'
 p867
 sg10
-S'http://people.cs.cmu.edu/Thumb/264'
+S'http://people.cs.cmu.edu/Person/264"'
 p868
 sg12
 (lp869
@@ -2416,13 +2416,13 @@ sg4
 S'Branislav Jaramaz'
 p873
 sg6
-S'http://people.cs.cmu.edu/Person/263"'
+S'Associate Research Professor'
 p874
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/263'
 p875
 sg10
-S'http://people.cs.cmu.edu/Thumb/263'
+S'http://people.cs.cmu.edu/Person/263"'
 p876
 sg12
 (lp877
@@ -2443,16 +2443,16 @@ sg4
 S'Bonnie John'
 p883
 sg6
-S'http://people.cs.cmu.edu/Person/18"'
+S'Professor'
 p884
 sg8
-S'Professor'
-p885
-sg10
 S'http://people.cs.cmu.edu/Thumb/18'
-p886
-sg23
+p885
+sg22
 S'Models of human performance that aid in the design of computer systems '
+p886
+sg10
+S'http://people.cs.cmu.edu/Person/18"'
 p887
 sg16
 g17
@@ -2463,16 +2463,16 @@ sg4
 S'Angel Jordan'
 p889
 sg6
-S'http://people.cs.cmu.edu/Person/42"'
+S'University Professor Emeritus'
 p890
 sg8
-S'University Professor Emeritus'
-p891
-sg10
 S'http://people.cs.cmu.edu/Thumb/42'
+p891
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/42"'
 p892
-sg23
-g141
 sg16
 g17
 sa(dp893
@@ -2482,13 +2482,13 @@ sg4
 S'Matthew Kam'
 p894
 sg6
-S'http://people.cs.cmu.edu/Person/953"'
+S'Assistant Professor'
 p895
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/953'
 p896
 sg10
-S'http://people.cs.cmu.edu/Thumb/953'
+S'http://people.cs.cmu.edu/Person/953"'
 p897
 sg12
 (lp898
@@ -2503,13 +2503,13 @@ sg4
 S'Takeo Kanade'
 p901
 sg6
-S'http://people.cs.cmu.edu/Person/41"'
+S'U. A.  and Helen Whitaker University Prof. '
 p902
 sg8
-S'U. A.  and Helen Whitaker University Prof. '
+S'http://people.cs.cmu.edu/Thumb/41'
 p903
 sg10
-S'http://people.cs.cmu.edu/Thumb/41'
+S'http://people.cs.cmu.edu/Person/41"'
 p904
 sg12
 (lp905
@@ -2536,13 +2536,13 @@ sg4
 S'George Kantor'
 p914
 sg6
-S'http://people.cs.cmu.edu/Person/341"'
+S'Systems Scientist'
 p915
 sg8
-S'Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/341'
 p916
 sg10
-S'http://people.cs.cmu.edu/Thumb/341'
+S'http://people.cs.cmu.edu/Person/341"'
 p917
 sg12
 (lp918
@@ -2563,16 +2563,16 @@ sg4
 S'Robert Kass'
 p924
 sg6
-S'http://people.cs.cmu.edu/Person/6"'
+S'Professor'
 p925
 sg8
-S'Professor'
-p926
-sg10
 S'http://people.cs.cmu.edu/Thumb/6'
+p926
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/6"'
 p927
-sg23
-g141
 sg16
 g17
 sa(dp928
@@ -2582,13 +2582,13 @@ sg4
 S'Thomas Keating'
 p929
 sg6
-S'http://people.cs.cmu.edu/Person/66"'
+S'Assistant Teaching Professor'
 p930
 sg8
-S'Assistant Teaching Professor'
+S'http://people.cs.cmu.edu/Thumb/66'
 p931
 sg10
-S'http://people.cs.cmu.edu/Thumb/66'
+S'http://people.cs.cmu.edu/Person/66"'
 p932
 sg12
 (lp933
@@ -2603,16 +2603,16 @@ sg4
 S'Alonzo Kelly'
 p936
 sg6
-S'http://people.cs.cmu.edu/Person/152"'
+S'Professor'
 p937
 sg8
-S'Professor'
-p938
-sg10
 S'http://people.cs.cmu.edu/Thumb/152'
-p939
-sg23
+p938
+sg22
 S'Perception, planning, control, position estimation and human interfaces for mobile robots '
+p939
+sg10
+S'http://people.cs.cmu.edu/Person/152"'
 p940
 sg16
 g17
@@ -2623,16 +2623,16 @@ sg4
 S'Gregory Kesden'
 p942
 sg6
-S'http://people.cs.cmu.edu/Person/319"'
+S'Associate Teaching Professor'
 p943
 sg8
-S'Associate Teaching Professor'
-p944
-sg10
 S'http://people.cs.cmu.edu/Thumb/319'
+p944
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/319"'
 p945
-sg23
-g141
 sg16
 g17
 sa(dp946
@@ -2642,13 +2642,13 @@ sg4
 S'Pradeep Khosla'
 p947
 sg6
-S'http://people.cs.cmu.edu/Person/45"'
+S'Dean and Philip and Marsha Dowd Prof ECE'
 p948
 sg8
-S'Dean and Philip and Marsha Dowd Prof ECE'
+S'http://people.cs.cmu.edu/Thumb/45'
 p949
 sg10
-S'http://people.cs.cmu.edu/Thumb/45'
+S'http://people.cs.cmu.edu/Person/45"'
 p950
 sg12
 (lp951
@@ -2667,13 +2667,13 @@ sg4
 S'Sara Kiesler'
 p956
 sg6
-S'http://people.cs.cmu.edu/Person/96"'
+S'Hillman Professor of Hci'
 p957
 sg8
-S'Hillman Professor of Hci'
+S'http://people.cs.cmu.edu/Thumb/96'
 p958
 sg10
-S'http://people.cs.cmu.edu/Thumb/96'
+S'http://people.cs.cmu.edu/Person/96"'
 p959
 sg12
 (lp960
@@ -2696,16 +2696,16 @@ sg4
 S'Se Young Kim'
 p967
 sg6
-S'http://people.cs.cmu.edu/Person/840"'
+S'Assistant Professor'
 p968
 sg8
-S'Assistant Professor'
-p969
-sg10
 S'http://people.cs.cmu.edu/Thumb/840'
+p969
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/840"'
 p970
-sg23
-g141
 sg16
 g17
 sa(dp971
@@ -2715,16 +2715,16 @@ sg4
 S'Jin Kyu Kim'
 p972
 sg6
-S'http://people.cs.cmu.edu/Person/2182"'
+S'Graduate Assistant'
 p973
 sg8
-S'Graduate Assistant'
-p974
-sg10
 S'http://people.cs.cmu.edu/Thumb/2182'
+p974
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/2182"'
 p975
-sg23
-g141
 sg16
 g17
 sa(dp976
@@ -2734,13 +2734,13 @@ sg4
 S'Aniket Kittur'
 p977
 sg6
-S'http://people.cs.cmu.edu/Person/837"'
+S'Assistant Professor'
 p978
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/837'
 p979
 sg10
-S'http://people.cs.cmu.edu/Thumb/837'
+S'http://people.cs.cmu.edu/Person/837"'
 p980
 sg12
 (lp981
@@ -2755,16 +2755,16 @@ sg4
 S'Roberta Klatzky'
 p984
 sg6
-S'http://people.cs.cmu.edu/Person/183"'
+S'Professor'
 p985
 sg8
-S'Professor'
-p986
-sg10
 S'http://people.cs.cmu.edu/Thumb/183'
-p987
-sg23
+p986
+sg22
 S'Human perception and cognition, with special emphasis on haptic perception and spatial cognition '
+p987
+sg10
+S'http://people.cs.cmu.edu/Person/183"'
 p988
 sg16
 g17
@@ -2775,13 +2775,13 @@ sg4
 S'Kenneth Koedinger'
 p990
 sg6
-S'http://people.cs.cmu.edu/Person/112"'
+S'Professor'
 p991
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/112'
 p992
 sg10
-S'http://people.cs.cmu.edu/Thumb/112'
+S'http://people.cs.cmu.edu/Person/112"'
 p993
 sg12
 (lp994
@@ -2798,16 +2798,16 @@ sg4
 S'Ram Konduru'
 p998
 sg6
-S'http://people.cs.cmu.edu/Person/435"'
+S'Director, Universal Digital Library Proj'
 p999
 sg8
-S'Director, Universal Digital Library Proj'
-p1000
-sg10
 S'http://people.cs.cmu.edu/Thumb/435'
+p1000
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/435"'
 p1001
-sg23
-g141
 sg16
 g17
 sa(dp1002
@@ -2817,13 +2817,13 @@ sg4
 S'Philip Koopman'
 p1003
 sg6
-S'http://people.cs.cmu.edu/Person/1908"'
+S'Associate Professor ECE &amp; ISR'
 p1004
 sg8
-S'Associate Professor ECE &amp; ISR'
+S'http://people.cs.cmu.edu/Thumb/1908'
 p1005
 sg10
-S'http://people.cs.cmu.edu/Thumb/1908'
+S'http://people.cs.cmu.edu/Person/1908"'
 p1006
 sg12
 (lp1007
@@ -2842,16 +2842,16 @@ sg4
 S'David Kosbie'
 p1012
 sg6
-S'http://people.cs.cmu.edu/Person/751"'
+S'Assistant Teaching Professor'
 p1013
 sg8
-S'Assistant Teaching Professor'
-p1014
-sg10
 S'http://people.cs.cmu.edu/Thumb/751'
+p1014
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/751"'
 p1015
-sg23
-g141
 sg16
 g17
 sa(dp1016
@@ -2861,16 +2861,16 @@ sg4
 S'Ioannis Koutis'
 p1017
 sg6
-S'http://people.cs.cmu.edu/Person/1467"'
+S'Adjunct Scientist'
 p1018
 sg8
-S'Adjunct Scientist'
-p1019
-sg10
 S'http://people.cs.cmu.edu/Thumb/1467'
+p1019
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1467"'
 p1020
-sg23
-g141
 sg16
 g17
 sa(dp1021
@@ -2880,16 +2880,16 @@ sg4
 S'Robert Kraut'
 p1022
 sg6
-S'http://people.cs.cmu.edu/Person/188"'
+S'Herbert A.  Simon Professor of HCII'
 p1023
 sg8
-S'Herbert A.  Simon Professor of HCII'
-p1024
-sg10
 S'http://people.cs.cmu.edu/Thumb/188'
-p1025
-sg23
+p1024
+sg22
 S'The design and social impacts of information technologies in small groups, in the home, and between organizations '
+p1025
+sg10
+S'http://people.cs.cmu.edu/Person/188"'
 p1026
 sg16
 g17
@@ -2900,13 +2900,13 @@ sg4
 S'John Lafferty'
 p1028
 sg6
-S'http://people.cs.cmu.edu/Person/1456"'
+S'Adjunct Professor'
 p1029
 sg8
-S'Adjunct Professor'
+S'http://people.cs.cmu.edu/Thumb/1456'
 p1030
 sg10
-S'http://people.cs.cmu.edu/Thumb/1456'
+S'http://people.cs.cmu.edu/Person/1456"'
 p1031
 sg12
 (lp1032
@@ -2929,16 +2929,16 @@ sg4
 S'Christopher Langmead'
 p1039
 sg6
-S'http://people.cs.cmu.edu/Person/509"'
+S'Associate Professor'
 p1040
 sg8
-S'Associate Professor'
-p1041
-sg10
 S'http://people.cs.cmu.edu/Thumb/509'
-p1042
-sg23
+p1041
+sg22
 S'Computational Structural Biology and Formal Methods in Systems Biology '
+p1042
+sg10
+S'http://people.cs.cmu.edu/Person/509"'
 p1043
 sg16
 g17
@@ -2949,13 +2949,13 @@ sg4
 S'Anthony Lattanze'
 p1045
 sg6
-S'http://people.cs.cmu.edu/Person/318"'
+S'Teaching  Professor'
 p1046
 sg8
-S'Teaching  Professor'
+S'http://people.cs.cmu.edu/Thumb/318'
 p1047
 sg10
-S'http://people.cs.cmu.edu/Thumb/318'
+S'http://people.cs.cmu.edu/Person/318"'
 p1048
 sg12
 (lp1049
@@ -2974,16 +2974,16 @@ sg4
 S'Alon Lavie'
 p1054
 sg6
-S'http://people.cs.cmu.edu/Person/142"'
+S'Associate Research Professor'
 p1055
 sg8
-S'Associate Research Professor'
-p1056
-sg10
 S'http://people.cs.cmu.edu/Thumb/142'
-p1057
-sg23
+p1056
+sg22
 S'Machine Translation of text and speech, syntax-based MT, Multi-Engine MT, MT evaluation metrics and MT for native and minority languages; Parsing and analysis of text and conversational spoken language. '
+p1057
+sg10
+S'http://people.cs.cmu.edu/Person/142"'
 p1058
 sg16
 g17
@@ -2994,13 +2994,13 @@ sg4
 S'Tai-Sing Lee'
 p1060
 sg6
-S'http://people.cs.cmu.edu/Person/242"'
+S'Associate Professor'
 p1061
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/242'
 p1062
 sg10
-S'http://people.cs.cmu.edu/Thumb/242'
+S'http://people.cs.cmu.edu/Person/242"'
 p1063
 sg12
 (lp1064
@@ -3019,16 +3019,16 @@ sg4
 S'Philip Lehman'
 p1069
 sg6
-S'http://people.cs.cmu.edu/Person/843"'
+S'Associate Dean for Strategic Initiatives'
 p1070
 sg8
-S'Associate Dean for Strategic Initiatives'
-p1071
-sg10
 S'http://people.cs.cmu.edu/Thumb/843'
+p1071
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/843"'
 p1072
-sg23
-g141
 sg16
 g17
 sa(dp1073
@@ -3038,13 +3038,13 @@ sg4
 S'Lorraine Levin'
 p1074
 sg6
-S'http://people.cs.cmu.edu/Person/34"'
+S'Associate Research Professor'
 p1075
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/34'
 p1076
 sg10
-S'http://people.cs.cmu.edu/Thumb/34'
+S'http://people.cs.cmu.edu/Person/34"'
 p1077
 sg12
 (lp1078
@@ -3067,13 +3067,13 @@ sg4
 S'Golan Levin'
 p1085
 sg6
-S'http://people.cs.cmu.edu/Person/514"'
+S'Assoc Professor of Art / Director of Sfci'
 p1086
 sg8
-S'Assoc Professor of Art / Director of Sfci'
+S'http://people.cs.cmu.edu/Thumb/514'
 p1087
 sg10
-S'http://people.cs.cmu.edu/Thumb/514'
+S'http://people.cs.cmu.edu/Person/514"'
 p1088
 sg12
 (lp1089
@@ -3096,13 +3096,13 @@ sg4
 S'Maxim Likhachev'
 p1096
 sg6
-S'http://people.cs.cmu.edu/Person/416"'
+S'Assistant Research Professor'
 p1097
 sg8
-S'Assistant Research Professor'
+S'http://people.cs.cmu.edu/Thumb/416'
 p1098
 sg10
-S'http://people.cs.cmu.edu/Thumb/416'
+S'http://people.cs.cmu.edu/Person/416"'
 p1099
 sg12
 (lp1100
@@ -3127,16 +3127,16 @@ sg4
 S'Javier Lopez'
 p1108
 sg6
-S'http://people.cs.cmu.edu/Person/2650"'
+S'Associate Professor'
 p1109
 sg8
-S'Associate Professor'
-p1110
-sg10
 S'http://people.cs.cmu.edu/Thumb/2650'
+p1110
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/2650"'
 p1111
-sg23
-g141
 sg16
 g17
 sa(dp1112
@@ -3146,13 +3146,13 @@ sg4
 S'Simon Lucey'
 p1113
 sg6
-S'http://people.cs.cmu.edu/Person/1482"'
+S'Assistant Research Professor'
 p1114
 sg8
-S'Assistant Research Professor'
+S'http://people.cs.cmu.edu/Thumb/1482'
 p1115
 sg10
-S'http://people.cs.cmu.edu/Thumb/1482'
+S'http://people.cs.cmu.edu/Person/1482"'
 p1116
 sg12
 (lp1117
@@ -3171,13 +3171,13 @@ sg4
 S'Jennifer Mankoff'
 p1122
 sg6
-S'http://people.cs.cmu.edu/Person/320"'
+S'Associate Professor'
 p1123
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/320'
 p1124
 sg10
-S'http://people.cs.cmu.edu/Thumb/320'
+S'http://people.cs.cmu.edu/Person/320"'
 p1125
 sg12
 (lp1126
@@ -3198,16 +3198,16 @@ sg4
 S'Don Marinelli'
 p1132
 sg6
-S'http://people.cs.cmu.edu/Person/1907"'
+S'Professor, Drama, Co-Director, ETC'
 p1133
 sg8
-S'Professor, Drama, Co-Director, ETC'
-p1134
-sg10
 S'http://people.cs.cmu.edu/Thumb/1907'
-p1135
-sg23
+p1134
+sg22
 S'To develop innovative, interdisciplinary curricula in the area of drama and interactive multimedia '
+p1135
+sg10
+S'http://people.cs.cmu.edu/Person/1907"'
 p1136
 sg16
 g17
@@ -3218,13 +3218,13 @@ sg4
 S'Matthew Mason'
 p1138
 sg6
-S'http://people.cs.cmu.edu/Person/118"'
+S'Director, Robotics Institute'
 p1139
 sg8
-S'Director, Robotics Institute'
+S'http://people.cs.cmu.edu/Thumb/118'
 p1140
 sg10
-S'http://people.cs.cmu.edu/Thumb/118'
+S'http://people.cs.cmu.edu/Person/118"'
 p1141
 sg12
 (lp1142
@@ -3259,13 +3259,13 @@ sg4
 S'Iain Matthews'
 p1155
 sg6
-S'http://people.cs.cmu.edu/Person/314"'
+S'Adjunct Faculty Member'
 p1156
 sg8
-S'Adjunct Faculty Member'
+S'http://people.cs.cmu.edu/Thumb/314'
 p1157
 sg10
-S'http://people.cs.cmu.edu/Thumb/314'
+S'http://people.cs.cmu.edu/Person/314"'
 p1158
 sg12
 (lp1159
@@ -3284,16 +3284,16 @@ sg4
 S'Roy Maxion'
 p1164
 sg6
-S'http://people.cs.cmu.edu/Person/123"'
+S'Research Professor'
 p1165
 sg8
-S'Research Professor'
-p1166
-sg10
 S'http://people.cs.cmu.edu/Thumb/123'
+p1166
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/123"'
 p1167
-sg23
-g141
 sg16
 g17
 sa(dp1168
@@ -3303,13 +3303,13 @@ sg4
 S'Bruce McLaren'
 p1169
 sg6
-S'http://people.cs.cmu.edu/Person/454"'
+S'Senior Systems Scientist'
 p1170
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/454'
 p1171
 sg10
-S'http://people.cs.cmu.edu/Thumb/454'
+S'http://people.cs.cmu.edu/Person/454"'
 p1172
 sg12
 (lp1173
@@ -3330,16 +3330,16 @@ sg4
 S'Florian Metze'
 p1179
 sg6
-S'http://people.cs.cmu.edu/Person/1016"'
+S'Assistant Research Professor'
 p1180
 sg8
-S'Assistant Research Professor'
-p1181
-sg10
 S'http://people.cs.cmu.edu/Thumb/1016'
+p1181
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1016"'
 p1182
-sg23
-g141
 sg16
 g17
 sa(dp1183
@@ -3349,13 +3349,13 @@ sg4
 S'Gary Miller'
 p1184
 sg6
-S'http://people.cs.cmu.edu/Person/127"'
+S'Professor'
 p1185
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/127'
 p1186
 sg10
-S'http://people.cs.cmu.edu/Thumb/127'
+S'http://people.cs.cmu.edu/Person/127"'
 p1187
 sg12
 (lp1188
@@ -3374,16 +3374,16 @@ sg4
 S'Eduardo Miranda'
 p1193
 sg6
-S'http://people.cs.cmu.edu/Person/933"'
+S'Associate Teaching Professor'
 p1194
 sg8
-S'Associate Teaching Professor'
-p1195
-sg10
 S'http://people.cs.cmu.edu/Thumb/933'
+p1195
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/933"'
 p1196
-sg23
-g141
 sg16
 g17
 sa(dp1197
@@ -3393,13 +3393,13 @@ sg4
 S'Teruko Mitamura'
 p1198
 sg6
-S'http://people.cs.cmu.edu/Person/57"'
+S'Research Professor'
 p1199
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/57'
 p1200
 sg10
-S'http://people.cs.cmu.edu/Thumb/57'
+S'http://people.cs.cmu.edu/Person/57"'
 p1201
 sg12
 (lp1202
@@ -3418,13 +3418,13 @@ sg4
 S'Tom Mitchell'
 p1207
 sg6
-S'http://people.cs.cmu.edu/Person/22"'
+S'Director-MLD / Fredkin Prof of CS and Ml'
 p1208
 sg8
-S'Director-MLD / Fredkin Prof of CS and Ml'
+S'http://people.cs.cmu.edu/Thumb/22'
 p1209
 sg10
-S'http://people.cs.cmu.edu/Thumb/22'
+S'http://people.cs.cmu.edu/Person/22"'
 p1210
 sg12
 (lp1211
@@ -3445,13 +3445,13 @@ sg4
 S'Alan Montgomery'
 p1217
 sg6
-S'http://people.cs.cmu.edu/Person/317"'
+S'Associate Professor of Marketing'
 p1218
 sg8
-S'Associate Professor of Marketing'
+S'http://people.cs.cmu.edu/Thumb/317'
 p1219
 sg10
-S'http://people.cs.cmu.edu/Thumb/317'
+S'http://people.cs.cmu.edu/Person/317"'
 p1220
 sg12
 (lp1221
@@ -3476,13 +3476,13 @@ sg4
 S'Andrew Moore'
 p1229
 sg6
-S'http://people.cs.cmu.edu/Person/1455"'
+S'Professor'
 p1230
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/1455'
 p1231
 sg10
-S'http://people.cs.cmu.edu/Thumb/1455'
+S'http://people.cs.cmu.edu/Person/1455"'
 p1232
 sg12
 (lp1233
@@ -3499,16 +3499,16 @@ sg4
 S'Hans Moravec'
 p1237
 sg6
-S'http://people.cs.cmu.edu/Person/129"'
+S'Adjunct Faculty'
 p1238
 sg8
-S'Adjunct Faculty'
-p1239
-sg10
 S'http://people.cs.cmu.edu/Thumb/129'
+p1239
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/129"'
 p1240
-sg23
-g141
 sg16
 g17
 sa(dp1241
@@ -3518,13 +3518,13 @@ sg4
 S'James Morris'
 p1242
 sg6
-S'http://people.cs.cmu.edu/Person/30"'
+S'Professor'
 p1243
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/30'
 p1244
 sg10
-S'http://people.cs.cmu.edu/Thumb/30'
+S'http://people.cs.cmu.edu/Person/30"'
 p1245
 sg12
 (lp1246
@@ -3545,13 +3545,13 @@ sg4
 S'Jack Mostow'
 p1252
 sg6
-S'http://people.cs.cmu.edu/Person/168"'
+S'Research Professor'
 p1253
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/168'
 p1254
 sg10
-S'http://people.cs.cmu.edu/Thumb/168'
+S'http://people.cs.cmu.edu/Person/168"'
 p1255
 sg12
 (lp1256
@@ -3578,13 +3578,13 @@ sg4
 S'Todd Mowry'
 p1265
 sg6
-S'http://people.cs.cmu.edu/Person/265"'
+S'Professor'
 p1266
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/265'
 p1267
 sg10
-S'http://people.cs.cmu.edu/Thumb/265'
+S'http://people.cs.cmu.edu/Person/265"'
 p1268
 sg12
 (lp1269
@@ -3607,13 +3607,13 @@ sg4
 S'Robert Murphy'
 p1276
 sg6
-S'http://people.cs.cmu.edu/Person/25"'
+S'Lane Professor of Computational Biology'
 p1277
 sg8
-S'Lane Professor of Computational Biology'
+S'http://people.cs.cmu.edu/Thumb/25'
 p1278
 sg10
-S'http://people.cs.cmu.edu/Thumb/25'
+S'http://people.cs.cmu.edu/Person/25"'
 p1279
 sg12
 (lp1280
@@ -3638,16 +3638,16 @@ sg4
 S'Onur Mutlu'
 p1288
 sg6
-S'http://people.cs.cmu.edu/Person/989"'
+S'Assistant Professor'
 p1289
 sg8
-S'Assistant Professor'
-p1290
-sg10
 S'http://people.cs.cmu.edu/Thumb/989'
-p1291
-sg23
+p1290
+sg22
 S'Computer architecture, hardware/software interaction and cooperation,hardware security, fault tolerance, hardware support for programminglanguages and system software, interconnection networks, many-coresystems.'
+p1291
+sg10
+S'http://people.cs.cmu.edu/Person/989"'
 p1292
 sg16
 g17
@@ -3658,13 +3658,13 @@ sg4
 S'Brad Myers'
 p1294
 sg6
-S'http://people.cs.cmu.edu/Person/117"'
+S'Professor'
 p1295
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/117'
 p1296
 sg10
-S'http://people.cs.cmu.edu/Thumb/117'
+S'http://people.cs.cmu.edu/Person/117"'
 p1297
 sg12
 (lp1298
@@ -3695,13 +3695,13 @@ sg4
 S'Srinivasa Narasimhan'
 p1309
 sg6
-S'http://people.cs.cmu.edu/Person/527"'
+S'Associate Professor'
 p1310
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/527'
 p1311
 sg10
-S'http://people.cs.cmu.edu/Thumb/527'
+S'http://people.cs.cmu.edu/Person/527"'
 p1312
 sg12
 (lp1313
@@ -3724,13 +3724,13 @@ sg4
 S'Priya Narasimhan'
 p1320
 sg6
-S'http://people.cs.cmu.edu/Person/1902"'
+S'Associate Professor, ECE'
 p1321
 sg8
-S'Associate Professor, ECE'
+S'http://people.cs.cmu.edu/Thumb/1902'
 p1322
 sg10
-S'http://people.cs.cmu.edu/Thumb/1902'
+S'http://people.cs.cmu.edu/Person/1902"'
 p1323
 sg12
 (lp1324
@@ -3755,16 +3755,16 @@ sg4
 S'Christine Neuwirth'
 p1332
 sg6
-S'http://people.cs.cmu.edu/Person/115"'
+S'Professor and Head'
 p1333
 sg8
-S'Professor and Head'
-p1334
-sg10
 S'http://people.cs.cmu.edu/Thumb/115'
-p1335
-sg23
+p1334
+sg22
 S'Computer-support for collaborative writing computer-mediated communication '
+p1335
+sg10
+S'http://people.cs.cmu.edu/Person/115"'
 p1336
 sg16
 g17
@@ -3775,16 +3775,16 @@ sg4
 S'Illah Nourbakhsh'
 p1338
 sg6
-S'http://people.cs.cmu.edu/Person/255"'
+S'Professor'
 p1339
 sg8
-S'Professor'
-p1340
-sg10
 S'http://people.cs.cmu.edu/Thumb/255'
-p1341
-sg23
+p1340
+sg22
 S'Robotics and artificial intelligence, with an emphasis on the design of autonomous, deliberate systems that achieve their goals in the face of incomplete knowledge '
+p1341
+sg10
+S'http://people.cs.cmu.edu/Person/255"'
 p1342
 sg16
 g17
@@ -3795,13 +3795,13 @@ sg4
 S'Eric Nyberg'
 p1344
 sg6
-S'http://people.cs.cmu.edu/Person/5"'
+S'Professor'
 p1345
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/5'
 p1346
 sg10
-S'http://people.cs.cmu.edu/Thumb/5'
+S'http://people.cs.cmu.edu/Person/5"'
 p1347
 sg12
 (lp1348
@@ -3820,13 +3820,13 @@ sg4
 S'Ryan O&#39;Donnell'
 p1353
 sg6
-S'http://people.cs.cmu.edu/Person/689"'
+S'Associate Professor'
 p1354
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/689'
 p1355
 sg10
-S'http://people.cs.cmu.edu/Thumb/689'
+S'http://people.cs.cmu.edu/Person/689"'
 p1356
 sg12
 (lp1357
@@ -3851,16 +3851,16 @@ sg4
 S'Kemal Oflazer'
 p1365
 sg6
-S'http://people.cs.cmu.edu/Person/2123"'
+S'Teaching Faculty'
 p1366
 sg8
-S'Teaching Faculty'
-p1367
-sg10
 S'http://people.cs.cmu.edu/Thumb/2123'
+p1367
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/2123"'
 p1368
-sg23
-g141
 sg16
 g17
 sa(dp1369
@@ -3870,13 +3870,13 @@ sg4
 S'David O&#39;Hallaron'
 p1370
 sg6
-S'http://people.cs.cmu.edu/Person/141"'
+S'Profess0r 0F CS and ECE'
 p1371
 sg8
-S'Profess0r 0F CS and ECE'
+S'http://people.cs.cmu.edu/Thumb/141'
 p1372
 sg10
-S'http://people.cs.cmu.edu/Thumb/141'
+S'http://people.cs.cmu.edu/Person/141"'
 p1373
 sg12
 (lp1374
@@ -3895,13 +3895,13 @@ sg4
 S'Mark Paulk'
 p1379
 sg6
-S'http://people.cs.cmu.edu/Person/116"'
+S'Senior Systems Scientist'
 p1380
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/116'
 p1381
 sg10
-S'http://people.cs.cmu.edu/Thumb/116'
+S'http://people.cs.cmu.edu/Person/116"'
 p1382
 sg12
 (lp1383
@@ -3932,16 +3932,16 @@ sg4
 S'Eric Paulos'
 p1394
 sg6
-S'http://people.cs.cmu.edu/Person/929"'
+S'Associate Professor'
 p1395
 sg8
-S'Associate Professor'
-p1396
-sg10
 S'http://people.cs.cmu.edu/Thumb/929'
+p1396
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/929"'
 p1397
-sg23
-g141
 sg16
 g17
 sa(dp1398
@@ -3951,13 +3951,13 @@ sg4
 S'Frank Pfenning'
 p1399
 sg6
-S'http://people.cs.cmu.edu/Person/32"'
+S'Prof. CS / SCS Assoc. Dean Grad. Education'
 p1400
 sg8
-S'Prof. CS / SCS Assoc. Dean Grad. Education'
+S'http://people.cs.cmu.edu/Thumb/32'
 p1401
 sg10
-S'http://people.cs.cmu.edu/Thumb/32'
+S'http://people.cs.cmu.edu/Person/32"'
 p1402
 sg12
 (lp1403
@@ -3980,13 +3980,13 @@ sg4
 S'Andre Platzer'
 p1410
 sg6
-S'http://people.cs.cmu.edu/Person/675"'
+S'Assistant Professor'
 p1411
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/675'
 p1412
 sg10
-S'http://people.cs.cmu.edu/Thumb/675'
+S'http://people.cs.cmu.edu/Person/675"'
 p1413
 sg12
 (lp1414
@@ -4013,13 +4013,13 @@ sg4
 S'Nancy Pollard'
 p1423
 sg6
-S'http://people.cs.cmu.edu/Person/409"'
+S'Associate Professor'
 p1424
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/409'
 p1425
 sg10
-S'http://people.cs.cmu.edu/Thumb/409'
+S'http://people.cs.cmu.edu/Person/409"'
 p1426
 sg12
 (lp1427
@@ -4044,13 +4044,13 @@ sg4
 S'Ariel Procaccia'
 p1435
 sg6
-S'http://people.cs.cmu.edu/Person/2615"'
+S'Assistant Professor '
 p1436
 sg8
-S'Assistant Professor '
+S'http://people.cs.cmu.edu/Thumb/2615'
 p1437
 sg10
-S'http://people.cs.cmu.edu/Thumb/2615'
+S'http://people.cs.cmu.edu/Person/2615"'
 p1438
 sg12
 (lp1439
@@ -4071,16 +4071,16 @@ sg4
 S'Bhiksha Ramakrishnan'
 p1445
 sg6
-S'http://people.cs.cmu.edu/Person/209"'
+S'Associate Professor'
 p1446
 sg8
-S'Associate Professor'
-p1447
-sg10
 S'http://people.cs.cmu.edu/Thumb/209'
+p1447
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/209"'
 p1448
-sg23
-g141
 sg16
 g17
 sa(dp1449
@@ -4090,16 +4090,16 @@ sg4
 S'Ramamoorthi Ravi'
 p1450
 sg6
-S'http://people.cs.cmu.edu/Person/216"'
+S'Carnegie Bosch Professor'
 p1451
 sg8
-S'Carnegie Bosch Professor'
-p1452
-sg10
 S'http://people.cs.cmu.edu/Thumb/216'
-p1453
-sg23
+p1452
+sg22
 S'Approximation algorithms, combinatorial optimization and computational molecular biology '
+p1453
+sg10
+S'http://people.cs.cmu.edu/Person/216"'
 p1454
 sg16
 g17
@@ -4110,13 +4110,13 @@ sg4
 S'Raj Reddy'
 p1456
 sg6
-S'http://people.cs.cmu.edu/Person/1450"'
+S'Mozah Bint Nasser University Professor'
 p1457
 sg8
-S'Mozah Bint Nasser University Professor'
+S'http://people.cs.cmu.edu/Thumb/1450'
 p1458
 sg10
-S'http://people.cs.cmu.edu/Thumb/1450'
+S'http://people.cs.cmu.edu/Person/1450"'
 p1459
 sg12
 (lp1460
@@ -4137,16 +4137,16 @@ sg4
 S'Margaret Reid-Miller'
 p1466
 sg6
-S'http://people.cs.cmu.edu/Person/166"'
+S'Assistant Teaching Professor'
 p1467
 sg8
-S'Assistant Teaching Professor'
-p1468
-sg10
 S'http://people.cs.cmu.edu/Thumb/166'
+p1468
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/166"'
 p1469
-sg23
-g141
 sg16
 g17
 sa(dp1470
@@ -4156,16 +4156,16 @@ sg4
 S'John Reynolds'
 p1471
 sg6
-S'http://people.cs.cmu.edu/Person/1448"'
+S'Professor'
 p1472
 sg8
-S'Professor'
-p1473
-sg10
 S'http://people.cs.cmu.edu/Thumb/1448'
-p1474
-sg23
+p1473
+sg22
 S'The design of programming languages and languages for specifying program behavior, mathematical tools for defining the semantics of such languages, and methods for verifying that programs meet their specifications '
+p1474
+sg10
+S'http://people.cs.cmu.edu/Person/1448"'
 p1475
 sg16
 g17
@@ -4176,13 +4176,13 @@ sg4
 S'Cameron Riviere'
 p1477
 sg6
-S'http://people.cs.cmu.edu/Person/218"'
+S'Associate Research Professor'
 p1478
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/218'
 p1479
 sg10
-S'http://people.cs.cmu.edu/Thumb/218'
+S'http://people.cs.cmu.edu/Person/218"'
 p1480
 sg12
 (lp1481
@@ -4205,16 +4205,16 @@ sg4
 S'Alfred Rizzi'
 p1488
 sg6
-S'http://people.cs.cmu.edu/Person/225"'
+S'Adjunct Faculty'
 p1489
 sg8
-S'Adjunct Faculty'
-p1490
-sg10
 S'http://people.cs.cmu.edu/Thumb/225'
-p1491
-sg23
+p1490
+sg22
 S'Developing highly capable systems and machines that are both easy to instruct and capable of dealing with uncertainty '
+p1491
+sg10
+S'http://people.cs.cmu.edu/Person/225"'
 p1492
 sg16
 g17
@@ -4225,16 +4225,16 @@ sg4
 S'Katherine Roeder'
 p1494
 sg6
-S'http://people.cs.cmu.edu/Person/2649"'
+S'Professor'
 p1495
 sg8
-S'Professor'
-p1496
-sg10
 S'http://people.cs.cmu.edu/Thumb/2649'
+p1496
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/2649"'
 p1497
-sg23
-g141
 sg16
 g17
 sa(dp1498
@@ -4244,13 +4244,13 @@ sg4
 S'Gustavo Rohde'
 p1499
 sg6
-S'http://people.cs.cmu.edu/Person/2651"'
+S'Assistant Professor '
 p1500
 sg8
-S'Assistant Professor '
+S'http://people.cs.cmu.edu/Thumb/2651'
 p1501
 sg10
-S'http://people.cs.cmu.edu/Thumb/2651'
+S'http://people.cs.cmu.edu/Person/2651"'
 p1502
 sg12
 (lp1503
@@ -4269,16 +4269,16 @@ sg4
 S'David Root'
 p1508
 sg6
-S'http://people.cs.cmu.edu/Person/290"'
+S'Assoc. Teaching Professor / Asst Direct. De'
 p1509
 sg8
-S'Assoc. Teaching Professor / Asst Direct. De'
-p1510
-sg10
 S'http://people.cs.cmu.edu/Thumb/290'
+p1510
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/290"'
 p1511
-sg23
-g141
 sg16
 g17
 sa(dp1512
@@ -4288,13 +4288,13 @@ sg4
 S'Carolyn Rose'
 p1513
 sg6
-S'http://people.cs.cmu.edu/Person/170"'
+S'Assistant Professor'
 p1514
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/170'
 p1515
 sg10
-S'http://people.cs.cmu.edu/Thumb/170'
+S'http://people.cs.cmu.edu/Person/170"'
 p1516
 sg12
 (lp1517
@@ -4315,13 +4315,13 @@ sg4
 S'Ronald Rosenfeld'
 p1523
 sg6
-S'http://people.cs.cmu.edu/Person/93"'
+S'Professor'
 p1524
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/93'
 p1525
 sg10
-S'http://people.cs.cmu.edu/Thumb/93'
+S'http://people.cs.cmu.edu/Person/93"'
 p1526
 sg12
 (lp1527
@@ -4342,16 +4342,16 @@ sg4
 S'Manuel Rosso-Llopart'
 p1533
 sg6
-S'http://people.cs.cmu.edu/Person/376"'
+S'Associate Teaching Professor'
 p1534
 sg8
-S'Associate Teaching Professor'
-p1535
-sg10
 S'http://people.cs.cmu.edu/Thumb/376'
+p1535
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/376"'
 p1536
-sg23
-g141
 sg16
 g17
 sa(dp1537
@@ -4361,16 +4361,16 @@ sg4
 S'Zack Rubinstein'
 p1538
 sg6
-S'http://people.cs.cmu.edu/Person/606"'
+S'Systems Scientist'
 p1539
 sg8
-S'Systems Scientist'
-p1540
-sg10
 S'http://people.cs.cmu.edu/Thumb/606'
+p1540
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/606"'
 p1541
-sg23
-g141
 sg16
 g17
 sa(dp1542
@@ -4380,16 +4380,16 @@ sg4
 S'Steven Rudich'
 p1543
 sg6
-S'http://people.cs.cmu.edu/Person/133"'
+S'Professor'
 p1544
 sg8
-S'Professor'
-p1545
-sg10
 S'http://people.cs.cmu.edu/Thumb/133'
+p1545
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/133"'
 p1546
-sg23
-g141
 sg16
 g17
 sa(dp1547
@@ -4399,13 +4399,13 @@ sg4
 S'Alexander Rudnicky'
 p1548
 sg6
-S'http://people.cs.cmu.edu/Person/55"'
+S'Research Professor'
 p1549
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/55'
 p1550
 sg10
-S'http://people.cs.cmu.edu/Thumb/55'
+S'http://people.cs.cmu.edu/Person/55"'
 p1551
 sg12
 (lp1552
@@ -4424,13 +4424,13 @@ sg4
 S'Paul Rybski'
 p1557
 sg6
-S'http://people.cs.cmu.edu/Person/479"'
+S'Senior Systems Scientist'
 p1558
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/479'
 p1559
 sg10
-S'http://people.cs.cmu.edu/Thumb/479'
+S'http://people.cs.cmu.edu/Person/479"'
 p1560
 sg12
 (lp1561
@@ -4457,16 +4457,16 @@ sg4
 S'Norman Sadeh-Koniecpol'
 p1570
 sg6
-S'http://people.cs.cmu.edu/Person/130"'
+S'Professor'
 p1571
 sg8
-S'Professor'
-p1572
-sg10
 S'http://people.cs.cmu.edu/Thumb/130'
-p1573
-sg23
+p1572
+sg22
 S'Director, Mobile Commerce Lab;Director, e-Supply Chain Management Lab;Co-Director, COS PhD Program;Co-Director, MBA Track in Technology Leadership; Other research areas: Web Commerce, Security and Privacy, AI and HCI.'
+p1573
+sg10
+S'http://people.cs.cmu.edu/Person/130"'
 p1574
 sg16
 g17
@@ -4477,16 +4477,16 @@ sg4
 S'Nick Sahinidis'
 p1576
 sg6
-S'http://people.cs.cmu.edu/Person/2652"'
+S'John E. Swearingen Professor'
 p1577
 sg8
-S'John E. Swearingen Professor'
-p1578
-sg10
 S'http://people.cs.cmu.edu/Thumb/2652'
-p1579
-sg23
+p1578
+sg22
 S'Fundamental advances in the area of optimization theory, algorithms, and software. Comprehensive solutions to important and fundamental problems involving biological, chemical, and engineering systems.'
+p1579
+sg10
+S'http://people.cs.cmu.edu/Person/2652"'
 p1580
 sg16
 g17
@@ -4497,13 +4497,13 @@ sg4
 S'Majd Sakr'
 p1582
 sg6
-S'http://people.cs.cmu.edu/Person/1900"'
+S'Associate Teaching Professor, Assistant Dean for Research (Qatar)'
 p1583
 sg8
-S'Associate Teaching Professor, Assistant Dean for Research (Qatar)'
+S'http://people.cs.cmu.edu/Thumb/1900'
 p1584
 sg10
-S'http://people.cs.cmu.edu/Thumb/1900'
+S'http://people.cs.cmu.edu/Person/1900"'
 p1585
 sg12
 (lp1586
@@ -4524,13 +4524,13 @@ sg4
 S'Tuomas Sandholm'
 p1592
 sg6
-S'http://people.cs.cmu.edu/Person/393"'
+S'Professor'
 p1593
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/393'
 p1594
 sg10
-S'http://people.cs.cmu.edu/Thumb/393'
+S'http://people.cs.cmu.edu/Person/393"'
 p1595
 sg12
 (lp1596
@@ -4571,13 +4571,13 @@ sg4
 S'Mahadev Satyanarayanan'
 p1612
 sg6
-S'http://people.cs.cmu.edu/Person/61"'
+S'Carnegie Group Professor of Comp. Science'
 p1613
 sg8
-S'Carnegie Group Professor of Comp. Science'
+S'http://people.cs.cmu.edu/Thumb/61'
 p1614
 sg10
-S'http://people.cs.cmu.edu/Thumb/61'
+S'http://people.cs.cmu.edu/Person/61"'
 p1615
 sg12
 (lp1616
@@ -4598,13 +4598,13 @@ sg4
 S'Paul Scerri'
 p1622
 sg6
-S'http://people.cs.cmu.edu/Person/476"'
+S'Associate Research Professor'
 p1623
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/476'
 p1624
 sg10
-S'http://people.cs.cmu.edu/Thumb/476'
+S'http://people.cs.cmu.edu/Person/476"'
 p1625
 sg12
 (lp1626
@@ -4625,13 +4625,13 @@ sg4
 S'Richard Scheines'
 p1632
 sg6
-S'http://people.cs.cmu.edu/Person/28"'
+S'Professor and Department Head'
 p1633
 sg8
-S'Professor and Department Head'
+S'http://people.cs.cmu.edu/Thumb/28'
 p1634
 sg10
-S'http://people.cs.cmu.edu/Thumb/28'
+S'http://people.cs.cmu.edu/Person/28"'
 p1635
 sg12
 (lp1636
@@ -4648,13 +4648,13 @@ sg4
 S'Hagen Schempf'
 p1640
 sg6
-S'http://people.cs.cmu.edu/Person/154"'
+S'Dir. , M. Sc.  Robotic Systems Development'
 p1641
 sg8
-S'Dir. , M. Sc.  Robotic Systems Development'
+S'http://people.cs.cmu.edu/Thumb/154'
 p1642
 sg10
-S'http://people.cs.cmu.edu/Thumb/154'
+S'http://people.cs.cmu.edu/Person/154"'
 p1643
 sg12
 (lp1644
@@ -4673,13 +4673,13 @@ sg4
 S'William Scherlis'
 p1649
 sg6
-S'http://people.cs.cmu.edu/Person/94"'
+S'Professor and Director'
 p1650
 sg8
-S'Professor and Director'
+S'http://people.cs.cmu.edu/Thumb/94'
 p1651
 sg10
-S'http://people.cs.cmu.edu/Thumb/94'
+S'http://people.cs.cmu.edu/Person/94"'
 p1652
 sg12
 (lp1653
@@ -4700,13 +4700,13 @@ sg4
 S'Bradley Schmerl'
 p1659
 sg6
-S'http://people.cs.cmu.edu/Person/369"'
+S'Senior Systems Scientist'
 p1660
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/369'
 p1661
 sg10
-S'http://people.cs.cmu.edu/Thumb/369'
+S'http://people.cs.cmu.edu/Person/369"'
 p1662
 sg12
 (lp1663
@@ -4727,13 +4727,13 @@ sg4
 S'Jeff Schneider'
 p1669
 sg6
-S'http://people.cs.cmu.edu/Person/208"'
+S'Associate Research Professor'
 p1670
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/208'
 p1671
 sg10
-S'http://people.cs.cmu.edu/Thumb/208'
+S'http://people.cs.cmu.edu/Person/208"'
 p1672
 sg12
 (lp1673
@@ -4750,16 +4750,16 @@ sg4
 S'Tanja Schultz'
 p1677
 sg6
-S'http://people.cs.cmu.edu/Person/377"'
+S'Faculty'
 p1678
 sg8
-S'Faculty'
-p1679
-sg10
 S'http://people.cs.cmu.edu/Thumb/377'
-p1680
-sg23
+p1679
+sg22
 S'Rapid Deployment of Speech Processing Systems to new Languages and Domains, Speech Translation, Detection and Annotation of Disfluencies and Non-verbal Cues, Non-audible and Whispered Speech, Towards Communication with Dolphins'
+p1680
+sg10
+S'http://people.cs.cmu.edu/Person/377"'
 p1681
 sg16
 g17
@@ -4770,16 +4770,16 @@ sg4
 S'Russell Schwartz'
 p1683
 sg6
-S'http://people.cs.cmu.edu/Person/436"'
+S'Associate Professor'
 p1684
 sg8
-S'Associate Professor'
-p1685
-sg10
 S'http://people.cs.cmu.edu/Thumb/436'
+p1685
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/436"'
 p1686
-sg23
-g141
 sg16
 g17
 sa(dp1687
@@ -4789,13 +4789,13 @@ sg4
 S'Dana Scott'
 p1688
 sg6
-S'http://people.cs.cmu.edu/Person/1906"'
+S'Hillman University Professor, CS, Math, Phil., CSD, Emeritus'
 p1689
 sg8
-S'Hillman University Professor, CS, Math, Phil., CSD, Emeritus'
+S'http://people.cs.cmu.edu/Thumb/1906'
 p1690
 sg10
-S'http://people.cs.cmu.edu/Thumb/1906'
+S'http://people.cs.cmu.edu/Person/1906"'
 p1691
 sg12
 (lp1692
@@ -4816,16 +4816,16 @@ sg4
 S'Teddy Seidenfeld'
 p1698
 sg6
-S'http://people.cs.cmu.edu/Person/20"'
+S'Herbert A Simon Prof Philosophy  Stats'
 p1699
 sg8
-S'Herbert A Simon Prof Philosophy  Stats'
-p1700
-sg10
 S'http://people.cs.cmu.edu/Thumb/20'
+p1700
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/20"'
 p1701
-sg23
-g141
 sg16
 g17
 sa(dp1702
@@ -4835,13 +4835,13 @@ sg4
 S'Srinivasan Seshan'
 p1703
 sg6
-S'http://people.cs.cmu.edu/Person/373"'
+S'Professor'
 p1704
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/373'
 p1705
 sg10
-S'http://people.cs.cmu.edu/Thumb/373'
+S'http://people.cs.cmu.edu/Person/373"'
 p1706
 sg12
 (lp1707
@@ -4862,13 +4862,13 @@ sg4
 S'Michael Shamos'
 p1713
 sg6
-S'http://people.cs.cmu.edu/Person/16"'
+S'Distinguished Career Professor'
 p1714
 sg8
-S'Distinguished Career Professor'
+S'http://people.cs.cmu.edu/Thumb/16'
 p1715
 sg10
-S'http://people.cs.cmu.edu/Thumb/16'
+S'http://people.cs.cmu.edu/Person/16"'
 p1716
 sg12
 (lp1717
@@ -4889,13 +4889,13 @@ sg4
 S'Mary Shaw'
 p1723
 sg6
-S'http://people.cs.cmu.edu/Person/90"'
+S'A J Perlis Professor'
 p1724
 sg8
-S'A J Perlis Professor'
+S'http://people.cs.cmu.edu/Thumb/90'
 p1725
 sg10
-S'http://people.cs.cmu.edu/Thumb/90'
+S'http://people.cs.cmu.edu/Person/90"'
 p1726
 sg12
 (lp1727
@@ -4918,13 +4918,13 @@ sg4
 S'Yaser Sheikh'
 p1734
 sg6
-S'http://people.cs.cmu.edu/Person/680"'
+S'Assistant Research Professor'
 p1735
 sg8
-S'Assistant Research Professor'
+S'http://people.cs.cmu.edu/Thumb/680'
 p1736
 sg10
-S'http://people.cs.cmu.edu/Thumb/680'
+S'http://people.cs.cmu.edu/Person/680"'
 p1737
 sg12
 (lp1738
@@ -4945,13 +4945,13 @@ sg4
 S'Kenji Shimada'
 p1744
 sg6
-S'http://people.cs.cmu.edu/Person/1904"'
+S'Professor, ME and RI '
 p1745
 sg8
-S'Professor, ME and RI '
+S'http://people.cs.cmu.edu/Thumb/1904'
 p1746
 sg10
-S'http://people.cs.cmu.edu/Thumb/1904'
+S'http://people.cs.cmu.edu/Person/1904"'
 p1747
 sg12
 (lp1748
@@ -4976,13 +4976,13 @@ sg4
 S'Mel Siegel'
 p1756
 sg6
-S'http://people.cs.cmu.edu/Person/24"'
+S'Associate Research Professor'
 p1757
 sg8
-S'Associate Research Professor'
+S'http://people.cs.cmu.edu/Thumb/24'
 p1758
 sg10
-S'http://people.cs.cmu.edu/Thumb/24'
+S'http://people.cs.cmu.edu/Person/24"'
 p1759
 sg12
 (lp1760
@@ -5013,13 +5013,13 @@ sg4
 S'Daniel Siewiorek'
 p1771
 sg6
-S'http://people.cs.cmu.edu/Person/105"'
+S'Buhl Univ. Prof ECE &amp; CS'
 p1772
 sg8
-S'Buhl Univ. Prof ECE &amp; CS'
+S'http://people.cs.cmu.edu/Thumb/105'
 p1773
 sg10
-S'http://people.cs.cmu.edu/Thumb/105'
+S'http://people.cs.cmu.edu/Person/105"'
 p1774
 sg12
 (lp1775
@@ -5048,13 +5048,13 @@ sg4
 S'Reid Simmons'
 p1785
 sg6
-S'http://people.cs.cmu.edu/Person/17"'
+S'Research Prof / Assoc Dir Educ / Phd Chair'
 p1786
 sg8
-S'Research Prof / Assoc Dir Educ / Phd Chair'
+S'http://people.cs.cmu.edu/Thumb/17'
 p1787
 sg10
-S'http://people.cs.cmu.edu/Thumb/17'
+S'http://people.cs.cmu.edu/Person/17"'
 p1788
 sg12
 (lp1789
@@ -5087,13 +5087,13 @@ sg4
 S'Sanjiv Singh'
 p1801
 sg6
-S'http://people.cs.cmu.edu/Person/121"'
+S'Research Professor'
 p1802
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/121'
 p1803
 sg10
-S'http://people.cs.cmu.edu/Thumb/121'
+S'http://people.cs.cmu.edu/Person/121"'
 p1804
 sg12
 (lp1805
@@ -5110,16 +5110,16 @@ sg4
 S'Aarti Singh'
 p1809
 sg6
-S'http://people.cs.cmu.edu/Person/1086"'
+S'Assistant Professor'
 p1810
 sg8
-S'Assistant Professor'
-p1811
-sg10
 S'http://people.cs.cmu.edu/Thumb/1086'
+p1811
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1086"'
 p1812
-sg23
-g141
 sg16
 g17
 sa(dp1813
@@ -5129,13 +5129,13 @@ sg4
 S'Donald Slater'
 p1814
 sg6
-S'http://people.cs.cmu.edu/Person/298"'
+S'Assistant Teaching Professor'
 p1815
 sg8
-S'Assistant Teaching Professor'
+S'http://people.cs.cmu.edu/Thumb/298'
 p1816
 sg10
-S'http://people.cs.cmu.edu/Thumb/298'
+S'http://people.cs.cmu.edu/Person/298"'
 p1817
 sg12
 (lp1818
@@ -5152,13 +5152,13 @@ sg4
 S'Daniel Sleator'
 p1822
 sg6
-S'http://people.cs.cmu.edu/Person/109"'
+S'Professor'
 p1823
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/109'
 p1824
 sg10
-S'http://people.cs.cmu.edu/Thumb/109'
+S'http://people.cs.cmu.edu/Person/109"'
 p1825
 sg12
 (lp1826
@@ -5179,13 +5179,13 @@ sg4
 S'Stephen Smith'
 p1832
 sg6
-S'http://people.cs.cmu.edu/Person/97"'
+S'Research Professor'
 p1833
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/97'
 p1834
 sg10
-S'http://people.cs.cmu.edu/Thumb/97'
+S'http://people.cs.cmu.edu/Person/97"'
 p1835
 sg12
 (lp1836
@@ -5222,16 +5222,16 @@ sg4
 S'Noah Smith'
 p1850
 sg6
-S'http://people.cs.cmu.edu/Person/691"'
+S'Assistant Professor'
 p1851
 sg8
-S'Assistant Professor'
-p1852
-sg10
 S'http://people.cs.cmu.edu/Thumb/691'
-p1853
-sg23
+p1852
+sg22
 S'Multilingual and Cross-lingual Natural Language Processing, Machine Learning'
+p1853
+sg10
+S'http://people.cs.cmu.edu/Person/691"'
 p1854
 sg16
 g17
@@ -5242,16 +5242,16 @@ sg4
 S'Peter Spirtes'
 p1856
 sg6
-S'http://people.cs.cmu.edu/Person/1905"'
+S'Professor, Philosophy'
 p1857
 sg8
-S'Professor, Philosophy'
-p1858
-sg10
 S'http://people.cs.cmu.edu/Thumb/1905'
+p1858
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1905"'
 p1859
-sg23
-g141
 sg16
 g17
 sa(dp1860
@@ -5261,13 +5261,13 @@ sg4
 S'Siddhartha Srinivasa'
 p1861
 sg6
-S'http://people.cs.cmu.edu/Person/333"'
+S'Associate Professor'
 p1862
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/333'
 p1863
 sg10
-S'http://people.cs.cmu.edu/Thumb/333'
+S'http://people.cs.cmu.edu/Person/333"'
 p1864
 sg12
 (lp1865
@@ -5294,13 +5294,13 @@ sg4
 S'Peter Steenkiste'
 p1874
 sg6
-S'http://people.cs.cmu.edu/Person/126"'
+S'Professor of CS and ECE'
 p1875
 sg8
-S'Professor of CS and ECE'
+S'http://people.cs.cmu.edu/Thumb/126'
 p1876
 sg10
-S'http://people.cs.cmu.edu/Thumb/126'
+S'http://people.cs.cmu.edu/Person/126"'
 p1877
 sg12
 (lp1878
@@ -5319,16 +5319,16 @@ sg4
 S'Mark Stehlik'
 p1883
 sg6
-S'http://people.cs.cmu.edu/Person/19"'
+S'Teaching Professor / Asst Dean Ugrad Ed'
 p1884
 sg8
-S'Teaching Professor / Asst Dean Ugrad Ed'
-p1885
-sg10
 S'http://people.cs.cmu.edu/Thumb/19'
+p1885
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/19"'
 p1886
-sg23
-g141
 sg16
 g17
 sa(dp1887
@@ -5338,13 +5338,13 @@ sg4
 S'Aaron Steinfeld'
 p1888
 sg6
-S'http://people.cs.cmu.edu/Person/414"'
+S'Senior Systems Scientist'
 p1889
 sg8
-S'Senior Systems Scientist'
+S'http://people.cs.cmu.edu/Thumb/414'
 p1890
 sg10
-S'http://people.cs.cmu.edu/Thumb/414'
+S'http://people.cs.cmu.edu/Person/414"'
 p1891
 sg12
 (lp1892
@@ -5375,13 +5375,13 @@ sg4
 S'Anthony Stentz'
 p1903
 sg6
-S'http://people.cs.cmu.edu/Person/107"'
+S'Research Professor / Director NREC'
 p1904
 sg8
-S'Research Professor / Director NREC'
+S'http://people.cs.cmu.edu/Thumb/107'
 p1905
 sg10
-S'http://people.cs.cmu.edu/Thumb/107'
+S'http://people.cs.cmu.edu/Person/107"'
 p1906
 sg12
 (lp1907
@@ -5398,13 +5398,13 @@ sg4
 S'Richard Stern'
 p1911
 sg6
-S'http://people.cs.cmu.edu/Person/13"'
+S'Professor'
 p1912
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/13'
 p1913
 sg10
-S'http://people.cs.cmu.edu/Thumb/13'
+S'http://people.cs.cmu.edu/Person/13"'
 p1914
 sg12
 (lp1915
@@ -5423,13 +5423,13 @@ sg4
 S'George Stetten'
 p1920
 sg6
-S'http://people.cs.cmu.edu/Person/324"'
+S'Research Professor'
 p1921
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/324'
 p1922
 sg10
-S'http://people.cs.cmu.edu/Thumb/324'
+S'http://people.cs.cmu.edu/Person/324"'
 p1923
 sg12
 (lp1924
@@ -5464,13 +5464,13 @@ sg4
 S'Klaus Sutner'
 p1937
 sg6
-S'http://people.cs.cmu.edu/Person/217"'
+S'Teaching Prof.  / Assoc. Dean Ugrad Prog. SCS'
 p1938
 sg8
-S'Teaching Prof.  / Assoc. Dean Ugrad Prog. SCS'
+S'http://people.cs.cmu.edu/Thumb/217'
 p1939
 sg10
-S'http://people.cs.cmu.edu/Thumb/217'
+S'http://people.cs.cmu.edu/Person/217"'
 p1940
 sg12
 (lp1941
@@ -5489,13 +5489,13 @@ sg4
 S'Katia Sycara'
 p1946
 sg6
-S'http://people.cs.cmu.edu/Person/9"'
+S'Research Professor'
 p1947
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/9'
 p1948
 sg10
-S'http://people.cs.cmu.edu/Thumb/9'
+S'http://people.cs.cmu.edu/Person/9"'
 p1949
 sg12
 (lp1950
@@ -5520,16 +5520,16 @@ sg4
 S'Sujata Telang'
 p1958
 sg6
-S'http://people.cs.cmu.edu/Person/396"'
+S'Associate Teaching Professor'
 p1959
 sg8
-S'Associate Teaching Professor'
-p1960
-sg10
 S'http://people.cs.cmu.edu/Thumb/396'
+p1960
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/396"'
 p1961
-sg23
-g141
 sg16
 g17
 sa(dp1962
@@ -5539,16 +5539,16 @@ sg4
 S'Karen Thickman'
 p1963
 sg6
-S'http://people.cs.cmu.edu/Person/1280"'
+S'Assistant Teaching Professor'
 p1964
 sg8
-S'Assistant Teaching Professor'
-p1965
-sg10
 S'http://people.cs.cmu.edu/Thumb/1280'
+p1965
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1280"'
 p1966
-sg23
-g141
 sg16
 g17
 sa(dp1967
@@ -5558,13 +5558,13 @@ sg4
 S'Charles Thorpe'
 p1968
 sg6
-S'http://people.cs.cmu.edu/Person/1447"'
+S'Professor'
 p1969
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/1447'
 p1970
 sg10
-S'http://people.cs.cmu.edu/Thumb/1447'
+S'http://people.cs.cmu.edu/Person/1447"'
 p1971
 sg12
 (lp1972
@@ -5587,16 +5587,16 @@ sg4
 S'Anthony Tomasic'
 p1979
 sg6
-S'http://people.cs.cmu.edu/Person/471"'
+S'Senior System Scientist'
 p1980
 sg8
-S'Senior System Scientist'
-p1981
-sg10
 S'http://people.cs.cmu.edu/Thumb/471'
+p1981
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/471"'
 p1982
-sg23
-g141
 sg16
 g17
 sa(dp1983
@@ -5606,16 +5606,16 @@ sg4
 S'Rahul Tongia'
 p1984
 sg6
-S'http://people.cs.cmu.edu/Person/1457"'
+S'Senior Systems Scientist'
 p1985
 sg8
-S'Senior Systems Scientist'
-p1986
-sg10
 S'http://people.cs.cmu.edu/Thumb/1457'
+p1986
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1457"'
 p1987
-sg23
-g141
 sg16
 g17
 sa(dp1988
@@ -5625,13 +5625,13 @@ sg4
 S'David Touretzky'
 p1989
 sg6
-S'http://people.cs.cmu.edu/Person/26"'
+S'Research Professor'
 p1990
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/26'
 p1991
 sg10
-S'http://people.cs.cmu.edu/Thumb/26'
+S'http://people.cs.cmu.edu/Person/26"'
 p1992
 sg12
 (lp1993
@@ -5650,13 +5650,13 @@ sg4
 S'Adrien Treuille'
 p1998
 sg6
-S'http://people.cs.cmu.edu/Person/897"'
+S'Assistant Professor'
 p1999
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/897'
 p2000
 sg10
-S'http://people.cs.cmu.edu/Thumb/897'
+S'http://people.cs.cmu.edu/Person/897"'
 p2001
 sg12
 (lp2002
@@ -5671,16 +5671,16 @@ sg4
 S'Rodolfo Vega'
 p2005
 sg6
-S'http://people.cs.cmu.edu/Person/233"'
+S'Lecturer, Ict In Education'
 p2006
 sg8
-S'Lecturer, Ict In Education'
-p2007
-sg10
 S'http://people.cs.cmu.edu/Thumb/233'
-p2008
-sg23
+p2007
+sg22
 S'Information and Communication Technologies applied to Education; Educational Technology; Learning Design; Intercultural Bilingual Education '
+p2008
+sg10
+S'http://people.cs.cmu.edu/Person/233"'
 p2009
 sg16
 g17
@@ -5691,13 +5691,13 @@ sg4
 S'Maria Manuela Veloso'
 p2011
 sg6
-S'http://people.cs.cmu.edu/Person/3"'
+S'Herbert Simon Professor of Comp Sci'
 p2012
 sg8
-S'Herbert Simon Professor of Comp Sci'
+S'http://people.cs.cmu.edu/Thumb/3'
 p2013
 sg10
-S'http://people.cs.cmu.edu/Thumb/3'
+S'http://people.cs.cmu.edu/Person/3"'
 p2014
 sg12
 (lp2015
@@ -5716,13 +5716,13 @@ sg4
 S'Stephan Vogel'
 p2020
 sg6
-S'http://people.cs.cmu.edu/Person/1474"'
+S'Assistant Research Professor'
 p2021
 sg8
-S'Assistant Research Professor'
+S'http://people.cs.cmu.edu/Thumb/1474'
 p2022
 sg10
-S'http://people.cs.cmu.edu/Thumb/1474'
+S'http://people.cs.cmu.edu/Person/1474"'
 p2023
 sg12
 (lp2024
@@ -5741,16 +5741,16 @@ sg4
 S'Luis Von Ahn'
 p2029
 sg6
-S'http://people.cs.cmu.edu/Person/1470"'
+S'Associate Professor'
 p2030
 sg8
-S'Associate Professor'
-p2031
-sg10
 S'http://people.cs.cmu.edu/Thumb/1470'
+p2031
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/1470"'
 p2032
-sg23
-g141
 sg16
 g17
 sa(dp2033
@@ -5760,13 +5760,13 @@ sg4
 S'John Vu'
 p2034
 sg6
-S'http://people.cs.cmu.edu/Person/2626"'
+S'Director, Biotechnology Innovation and Computation, Distinguished Career Professor '
 p2035
 sg8
-S'Director, Biotechnology Innovation and Computation, Distinguished Career Professor '
+S'http://people.cs.cmu.edu/Thumb/2626'
 p2036
 sg10
-S'http://people.cs.cmu.edu/Thumb/2626'
+S'http://people.cs.cmu.edu/Person/2626"'
 p2037
 sg12
 (lp2038
@@ -5785,13 +5785,13 @@ sg4
 S'Howard Wactlar'
 p2043
 sg6
-S'http://people.cs.cmu.edu/Person/15"'
+S'Vice Provost Res Computing / Res. Professor'
 p2044
 sg8
-S'Vice Provost Res Computing / Res. Professor'
+S'http://people.cs.cmu.edu/Thumb/15'
 p2045
 sg10
-S'http://people.cs.cmu.edu/Thumb/15'
+S'http://people.cs.cmu.edu/Person/15"'
 p2046
 sg12
 (lp2047
@@ -5816,13 +5816,13 @@ sg4
 S'Alexander Waibel'
 p2055
 sg6
-S'http://people.cs.cmu.edu/Person/1441"'
+S'Professor'
 p2056
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/1441'
 p2057
 sg10
-S'http://people.cs.cmu.edu/Thumb/1441'
+S'http://people.cs.cmu.edu/Person/1441"'
 p2058
 sg12
 (lp2059
@@ -5845,16 +5845,16 @@ sg4
 S'Larry Wasserman'
 p2066
 sg6
-S'http://people.cs.cmu.edu/Person/86"'
+S'Professor'
 p2067
 sg8
-S'Professor'
-p2068
-sg10
 S'http://people.cs.cmu.edu/Thumb/86'
+p2068
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/86"'
 p2069
-sg23
-g141
 sg16
 g17
 sa(dp2070
@@ -5864,13 +5864,13 @@ sg4
 S'Lee Weiss'
 p2071
 sg6
-S'http://people.cs.cmu.edu/Person/60"'
+S'Research Professor'
 p2072
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/60'
 p2073
 sg10
-S'http://people.cs.cmu.edu/Thumb/60'
+S'http://people.cs.cmu.edu/Person/60"'
 p2074
 sg12
 (lp2075
@@ -5891,16 +5891,16 @@ sg4
 S'Kurt Wescoe'
 p2081
 sg6
-S'http://people.cs.cmu.edu/Person/546"'
+S'Ebusiness Research Fellow'
 p2082
 sg8
-S'Ebusiness Research Fellow'
-p2083
-sg10
 S'http://people.cs.cmu.edu/Thumb/546'
+p2083
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/546"'
 p2084
-sg23
-g141
 sg16
 g17
 sa(dp2085
@@ -5910,13 +5910,13 @@ sg4
 S'David Wettergreen'
 p2086
 sg6
-S'http://people.cs.cmu.edu/Person/355"'
+S'Research Professor'
 p2087
 sg8
-S'Research Professor'
+S'http://people.cs.cmu.edu/Thumb/355'
 p2088
 sg10
-S'http://people.cs.cmu.edu/Thumb/355'
+S'http://people.cs.cmu.edu/Person/355"'
 p2089
 sg12
 (lp2090
@@ -5955,16 +5955,16 @@ sg4
 S'William Red Whittaker'
 p2105
 sg6
-S'http://people.cs.cmu.edu/Person/75"'
+S'Fredkin University Research Professor'
 p2106
 sg8
-S'Fredkin University Research Professor'
-p2107
-sg10
 S'http://people.cs.cmu.edu/Thumb/75'
-p2108
-sg23
+p2107
+sg22
 S'Mobile robots in field environments such as work sites and natural terrain; computer architectures to control mobile robots; modeling and planning for non-repetitive tasks '
+p2108
+sg10
+S'http://people.cs.cmu.edu/Person/75"'
 p2109
 sg16
 g17
@@ -5975,13 +5975,13 @@ sg4
 S'Jeannette Wing'
 p2111
 sg6
-S'http://people.cs.cmu.edu/Person/14"'
+S'Professor'
 p2112
 sg8
-S'Professor'
+S'http://people.cs.cmu.edu/Thumb/14'
 p2113
 sg10
-S'http://people.cs.cmu.edu/Thumb/14'
+S'http://people.cs.cmu.edu/Person/14"'
 p2114
 sg12
 (lp2115
@@ -6008,16 +6008,16 @@ sg4
 S'Wei Wu'
 p2124
 sg6
-S'http://people.cs.cmu.edu/Person/3193"'
+S'Associate Research Professor'
 p2125
 sg8
-S'Associate Research Professor'
-p2126
-sg10
 S'http://people.cs.cmu.edu/Thumb/3193'
+p2126
+sg22
+g140
+sg10
+S'http://people.cs.cmu.edu/Person/3193"'
 p2127
-sg23
-g141
 sg16
 g17
 sa(dp2128
@@ -6027,13 +6027,13 @@ sg4
 S'Poe Xing'
 p2129
 sg6
-S'http://people.cs.cmu.edu/Person/517"'
+S'Associate Professor'
 p2130
 sg8
-S'Associate Professor'
+S'http://people.cs.cmu.edu/Thumb/517'
 p2131
 sg10
-S'http://people.cs.cmu.edu/Thumb/517'
+S'http://people.cs.cmu.edu/Person/517"'
 p2132
 sg12
 (lp2133
@@ -6052,16 +6052,16 @@ sg4
 S'Yiming Yang'
 p2138
 sg6
-S'http://people.cs.cmu.edu/Person/227"'
+S'Professor'
 p2139
 sg8
-S'Professor'
-p2140
-sg10
 S'http://people.cs.cmu.edu/Thumb/227'
-p2141
-sg23
+p2140
+sg22
 S'Information Retrieval, researching in machine learning applied to text classification, translingual retrieval and text mining '
+p2141
+sg10
+S'http://people.cs.cmu.edu/Person/227"'
 p2142
 sg16
 g17
@@ -6072,13 +6072,13 @@ sg4
 S'Ge Yang'
 p2144
 sg6
-S'http://people.cs.cmu.edu/Person/2648"'
+S'Assistant Professor'
 p2145
 sg8
-S'Assistant Professor'
+S'http://people.cs.cmu.edu/Thumb/2648'
 p2146
 sg10
-S'http://people.cs.cmu.edu/Thumb/2648'
+S'http://people.cs.cmu.edu/Person/2648"'
 p2147
 sg12
 (lp2148
