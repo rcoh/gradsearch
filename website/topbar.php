@@ -38,6 +38,12 @@ function loggedin(){
                 <?php if (isset($_SESSION['email'])){
                 echo "
                 <li>
+                  <a href=\"starred.php\">Starred Seaches</a>
+                </li>
+                <li>
+                  <a href=\"search.php?starred=true\">Starred Professors</a>
+                </li>
+                <li>
                     <a href=\"changepassword.php\">Change Password</a>
                 </li>
                 <li>

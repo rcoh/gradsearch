@@ -2,8 +2,11 @@
 include('util.php');
 session_start();
 $searches = get_searches_for_user($_SESSION['user_id']);
+if(mysql_num_rows($searches) == 0) {
+  echo "<h2 style=\"text-align:center\">No starred searches.  Star a search to save it.</h2>";
+}
 while($query = mysql_fetch_array($searches)) { ?>
-  <a href="search.php<?php echo $query['url']?>" class="saved_search" id="<?php echo $query['url']?>" desc="<?php echo $query['description']; ?>">
+  <div class="hero-unit saved_search" id="<?php echo $query['url']?>" desc="<?php echo $query['description']; ?>">
 <p>
 <?php 
   echo $query['description']; 
