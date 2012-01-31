@@ -13,6 +13,7 @@ output = []
 for prof in results:
   pd = {}
   pd['lab_website'] = 'http://soe.stanford.edu/research/%s' % prof[0]
+  pd['source'] = 'http://soe.stanford.edu/research/%s' % prof[0]
   pd['name'] = prof[1]
   #extract the primary deptmartment from within the <b> tags
   if '<b>' in prof[2]:

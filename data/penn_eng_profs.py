@@ -27,7 +27,7 @@ for prof in prof_profiles:
         title = re.findall("<h2>(.*?)<br />(.*?)<br",f)[0][0]
         department = re.findall("<h2>(.*?)<br />(.*?)<br",f)[0][1].strip()
         department = re.sub('\s{2}', ' ', department)
-        print department
+        #print department
         #print title, department
     if len(re.findall("<a href=\"mailto:(.*?)\">",f))>0:
         email = re.findall("<a href=\"mailto:(.*?)\">",f)[0]
@@ -51,7 +51,7 @@ for prof in prof_profiles:
     penn_prof_dict["name"] = name
     penn_prof_dict["email"] = email
     penn_prof_dict["title"] = title
-    penn_prof_dict["department"] = department
+    #penn_prof_dict["department"] = department
     penn_prof_dict["awards"] = awards
     penn_prof_dict["research_summary"] = research_summary
     penn_prof_dict["keywords"] = keywords
@@ -59,6 +59,7 @@ for prof in prof_profiles:
     penn_prof_dict["image"] = image
     penn_prof_dict["school"] = "University of Pennsylvania"
     penn_prof_dict["source"] = prof
+    print prof
     #print penn_prof_dict
     if name != '':
         penn_profs.append(penn_prof_dict)
