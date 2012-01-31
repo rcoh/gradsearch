@@ -230,6 +230,7 @@ request_new_checkboxes = function() {
   }
   });
 }
+
 loadNewCheckboxes = function(data) {
   $(document).ready(function() {
       $('span#filter').html(data); 
@@ -237,7 +238,12 @@ loadNewCheckboxes = function(data) {
       $('a.clearall').click(uncheckButton);
       });
 }
+
+destroy_modals = function() {
+  $('.modal').remove();
+}
 reloadProfessors = function() {
+  destroy_modals();
   var data_str = window.location.search.replace('?', '') + '&start=' + numProfs + '&limit=' + rowLimit;
   load_with_id = -1;
   if(getQueryVariable('loaded_id')) {
