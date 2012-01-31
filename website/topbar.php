@@ -28,9 +28,6 @@ function loggedin(){
                 <li <?php insert_active("about.php"); ?>>
                     <a href="about.php">About</a>
                 </li>
-                <li <?php insert_active("contact.php"); ?>>
-                    <a href="mailto:gradsearch@mit.edu">Contact</a>
-                </li>
             </ul>
             
             <ul class="nav" style="float:right; padding-right:20px;">
@@ -38,10 +35,10 @@ function loggedin(){
                 <?php if (isset($_SESSION['email'])){
                 echo "
                 <li>
-                  <a href=\"starred.php\">Starred Seaches</a>
+                  <a href=\"search.php?starred=true\">Starred Professors</a>
                 </li>
                 <li>
-                  <a href=\"search.php?starred=true\">Starred Professors</a>
+                  <a href=\"starred.php\">Starred Seaches</a>
                 </li>
                 <li>
                     <a href=\"changepassword.php\">Change Password</a>
