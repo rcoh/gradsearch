@@ -26,6 +26,10 @@ body {
   padding-right:5px;
 }
 
+footer {
+  text-align: center;
+}
+
 .stuck{
   margin-bottom:0px;
   margin-left: 2%;
@@ -36,35 +40,16 @@ body {
   height: 35px;
   width: 96%;
 }
-
-#main_page_bottom {
-  margin: 0px 0px 80px 0px;
-  position: absolute;
-  bottom: 0px;
-}
-
-#search_box_2{
-  width:500px;
-  position:absolute;
-  top:400px;
-  left:50%;
-  margin:0 0 0 -135px;
-}
-
-#search_box_3{
-  width:900px;
-  position:absolute;
-  padding-left:50px;
-  top:300px;
-  left:50%;
-  margin:0 0 0 -135px;
-}
-
 #search_box_4{
   text-align:center;
   padding:20px;
   margin:0px;
 }
+
+#search_box_4 p{
+   font-size: 18px;
+     font-weight: 200;
+     }
 
 
 #main_search_box {

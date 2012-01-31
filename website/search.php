@@ -95,7 +95,7 @@
                 </ul>
                 <footer>
                     <p>
-                        &copy; Leah Alpert, Russell Cohen, Ram Bhaskar 2012
+                        &copy; 2012 Leah Alpert, Russell Cohen, Ram Bhaskar
                     </p>
                 </footer>
             </div>

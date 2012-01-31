@@ -32,7 +32,8 @@ if(isset($_GET['id'])){
    $website = $prof['lab_website'];
  }
  if ($website){
-   echo "<p> Website: <a href=\"$website\"> $website </a> </p>";
+   echo "<p style=\"text-overflow: ellipsis; overflow: hidden;\"> 
+     Website: <a href=\"$website\"> $website </a> </p>";
  }
 ?>
         <p>
@@ -40,10 +41,22 @@ if(isset($_GET['id'])){
 <?php 
 $result=research_interests($prof['id'], $con);
 $first = mysql_fetch_array($result);
+$num_results = mysql_num_rows($result);
+$num = 0;
 if ($first) {
   echo $first['keyword'];
-  while ($interest = mysql_fetch_array($result)) {
-    echo ', ' . $interest['keyword'];
+  if ($num_results <= 12){
+    while ($interest = mysql_fetch_array($result)) {
+      echo ', ' . $interest['keyword'];
+    }
+  }
+  else{
+    while (($interest = mysql_fetch_array($result)) && ($num<12)) {
+      if (strlen($interest['keyword']) > 4){
+        echo ', ' . $interest['keyword'];
+        $num++;
+      }
+    }
   }
 } else {
   echo 'None listed.';

@@ -55,6 +55,13 @@
             </div>
         </div>
         <div id="main_search" class="container-fluid">
-        </div>
+        			 </div>
+            <footer>
+                <p>
+                    &copy; 2012 Leah Alpert, Russell Cohen, Ram Bhaskar
+                </p>
+            </footer>
+       </div>
+ </div>
     </body>
 </html>

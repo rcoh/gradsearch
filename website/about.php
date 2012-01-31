@@ -106,7 +106,7 @@ echo "</ul>";
 			 </div>
             <footer>
                 <p>
-                    &copy; LRR productions 2012
+                    &copy; 2012 Leah Alpert, Russell Cohen, Ram Bhaskar
                 </p>
             </footer>
        </div>
