@@ -47,6 +47,22 @@ $(document).ready(function() {
         });
 });
 
+update_url = function(prof_id) {
+  new_url = 'search.php' + window.location.search; 
+  if(new_url.indexOf('?') == -1) {
+    new_url += '?';
+  } else{ 
+    new_url += '&';
+  }
+  
+  new_url = new_url.replace(/&{0,1}loaded_id=\d*/, '');
+  new_url += 'loaded_id=' + prof_id;
+  if(window.location.search.indexOf('loaded_id') != -1) {
+    window.history.replaceState("whatever", "title", new_url);
+  } else { 
+    window.history.pushState("whatever", "title", new_url);
+  }
+}
 display_modal = function(this_modal_id, css_classes, callback){
 
   var modal = $("#m"+this_modal_id);
@@ -62,41 +78,37 @@ display_modal = function(this_modal_id, css_classes, callback){
   else{
     var prof_id = $("#"+this_modal_id).attr("prof_id");
     if(css_classes.indexOf("current_modal") != -1) {
-      if(window.location.pathname.indexOf('profile') != -1) {
-        window.history.replaceState("whatever", "title", 'profile.php?id=' + prof_id);
-      } else { 
-        window.history.pushState("whatever", "title", 'profile.php?id=' + prof_id);
-      }
+      update_url(prof_id);
     }
     if (modal.length == 0){
       $.ajax({
-url:"prof_modal.php",
-type:"GET",
-dataType: "html",
-data: {'id':prof_id, 'modal_id':this_modal_id, 'classes':css_classes}, 
-success : function(result) {
-$(document.body).append(result);
-modal = $("#m"+this_modal_id);
-$('#gray' + prof_id).click(function(){
-  $(this).hide();
-  $(this).prev().show();
-  setStar(true, $(this).attr('id').substring(4));
-  return false;
-  });
+        url:"prof_modal.php",
+        type:"GET",
+        dataType: "html",
+        data: {'id':prof_id, 'modal_id':this_modal_id, 'classes':css_classes}, 
+        success : function(result) {
+        $(document.body).append(result);
+        modal = $("#m"+this_modal_id);
+        $('#gray' + prof_id).click(function(){
+          $(this).hide();
+          $(this).prev().show();
+          setStar(true, $(this).attr('id').substring(4));
+          return false;
+          });
 
-$('#gold' + prof_id).click(function(){
-  $(this).hide();
-  $(this).next().show();
-  setStar(false, $(this).attr('id').substring(4));
-  return false;
-  });
-modal.modal('show');
-},
-error : function(result) {
-          alert('modal failed to load');
+        $('#gold' + prof_id).click(function(){
+          $(this).hide();
+          $(this).next().show();
+          setStar(false, $(this).attr('id').substring(4));
+          return false;
+          });
+        modal.modal('show');
         },
-complete : callback
-});
+        error : function(result) {
+                  alert('modal failed to load');
+                },
+        complete : callback
+      });
 }
 
 else{
@@ -114,9 +126,10 @@ increment_cs = function(){
 }
 
 can_slide = 0; //if can_slide == 0, you can slide
-prof_box_click = function(){
+
+prof_box_wrap = function(box) {
   can_slide = -5;
-  var modal_id = $(this).attr("id");
+  var modal_id = $(box).attr("id");
   var modal_num = parseInt(modal_id);
   var next_num = modal_num + 1;
   var prev_num = modal_num - 1;
@@ -129,6 +142,11 @@ prof_box_click = function(){
   display_modal(right_num, 'right_modal', increment_cs);
   display_modal(left_num, 'left_modal', increment_cs);
 }
+
+prof_box_click = function(){
+  prof_box_wrap(this);
+}
+
 modal_slide_next = function(){
   if (can_slide != 0){
     return;
@@ -156,7 +174,7 @@ modal_slide_next = function(){
   display_modal(new_modal_num, 'right_modal', increment_cs); 
 
   var prof_id = next_modal.attr("prof_id");
-  window.history.replaceState("whatever", "title", "profile.php?id=" + prof_id);
+  update_url(prof_id);
 };
 
 
@@ -187,7 +205,7 @@ modal_slide_prev = function(){
   display_modal(new_modal_num, 'left_modal', increment_cs); 
 
   var prof_id = prev_modal.attr("prof_id");
-  window.history.replaceState("whatever", "title", "profile.php?id=" + prof_id);
+  update_url(prof_id);
 };
 
 hide_modals = function(){
@@ -198,18 +216,21 @@ hide_modals = function(){
   window.history.back();
 }
 request_new_checkboxes = function() {
+  data_str = window.location.search.replace('?', '');
+  data_str = data_str.replace(/&{0,1}loaded_id=\d*/, '');
   $.ajax({
-url:"filter_options.php",
-type:"GET",
-dataType: "html",
-data: window.location.search.replace('?', ''), 
-success : loadNewCheckboxes,
-error : function(data) {
-alert('uhoh');
-//TODO: show alert [lost connection to the server]
+  url:"filter_options.php",
+  type:"GET",
+  dataType: "html",
+  data: data_str, 
+  success : loadNewCheckboxes,
+  error : function(data) {
+    alert('uhoh');
+    //TODO: show alert [lost connection to the server]
+  }
+  });
 }
-});
-}
+
 loadNewCheckboxes = function(data) {
   $(document).ready(function() {
       $('span#filter').html(data); 
@@ -217,16 +238,35 @@ loadNewCheckboxes = function(data) {
       $('a.clearall').click(uncheckButton);
       });
 }
+
+destroy_modals = function() {
+  $('.modal').remove();
+}
 reloadProfessors = function() {
+  destroy_modals();
+  var data_str = window.location.search.replace('?', '') + '&start=' + numProfs + '&limit=' + rowLimit;
+  load_with_id = -1;
+  if(getQueryVariable('loaded_id')) {
+    load_with_id = getQueryVariable('loaded_id');
+    data_str = data_str.replace(/&{0,1}loaded_id=\d*/, '');
+  }
+  
   $.ajax({
-url:"get_professors.php",
-type:"GET",
-dataType: "json",
-data: window.location.search.replace('?', '') + '&start=' + numProfs + '&limit=' + rowLimit, 
-success : loadNewProfData  
-});
+    url:"get_professors.php",
+    type:"GET",
+    dataType: "json",
+    data: data_str, 
+    success : loadNewProfData,
+    complete : function() { simulate_click(load_with_id); }
+  });
 }
 
+function simulate_click(prof_id) {
+  if(prof_id != -1) {
+    var prof_box = $('[prof_id=' + prof_id + ']');
+    prof_box_wrap(prof_box);
+  }
+}
 numProfs = 0;
 rowLimit = 50;
 blockLoading = false;
