@@ -87,10 +87,10 @@ if ($summary) {
                         </div>
                         <div class="modal-footer" style="padding:5px;">
                             <div class="prof_modal_prev" style="float:left;">
-                                <a href="#" class="btn primary">Previous</a>
+                                <button class="btn primary">Previous</button>
                             </div>
                             <div class="prof_modal_next" style="float:right;">
-                                <a href="#" class="btn primary">Next</a>
+                                <button class="btn primary">Next</button>
                             </div>
                         </div>
                     </div>
