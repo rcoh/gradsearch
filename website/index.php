@@ -5,12 +5,14 @@ $con = get_con();
 if(!isset($_SESSION['user_id'])) {
   $_SESSION['user_id'] = new_anon_user($con);
 }
+$schools = get_distinct('school', $con);
+$num_schools = mysql_num_rows($schools);
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>re:search</title>
+        <title>Re:search</title>
         <meta name="description" content="Search for professors by research interest">
         <meta name="author" content="Leah Alpert, Russell Cohen, Ram Bhaskar">
         <!-- styles -->
@@ -73,7 +75,10 @@ if(!isset($_SESSION['user_id'])) {
 </div>
             <div id="search_box_4">
                 <form id="search" action="search.php">
-<p style="font-size:18px;">What are you interested in?</p>
+<p style="font-size:18px; margin-bottom: 5px">What are you interested in?</p>
+<p style="font-size:15px;">(For example: 
+    <a href="search.php?q=robotics">robotics</a>,
+    <a href="search.php?q=systems+biology"> systems biology</a>)</p>
                             <input class="xlarge" id="search" name="q" size="30" type="text" style="color:black;"/>&nbsp;<input type="submit" class="btn primary" value="Go">
                 </form>
             </div>
@@ -83,10 +88,10 @@ if(!isset($_SESSION['user_id'])) {
                     <div class="span-one-third">
                         <h2>Discover</h2>
                         <p>
-                            re:search helps you find professors who share your research interests. Explore our database of thousands of professors from 5 top universities.
+                        Re:search helps you find professors who share your research interests. Explore our database of thousands of professors from <?php echo "$num_schools";?> top universities.
                         </p>
                         <p>
-                            <a class="btn" href="about.php">More details &raquo;</a>
+                            <a class="btn" href="about.php#Stats">More details &raquo;</a>
                         </p>
                     </div>
                     <div class="span-one-third">
@@ -95,7 +100,7 @@ if(!isset($_SESSION['user_id'])) {
                             Enter a research interest, department, or professor's name into the search bar above to get started. 
                         </p>
                         <p>
-                            <a class="btn" href="about.php#Stats">More details &raquo;</a>
+                            <a class="btn" href="about.php">More details &raquo;</a>
                         </p>
                     </div>
                     <div class="span-one-third">
