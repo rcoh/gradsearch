@@ -1,11 +1,12 @@
 <?php
+include('creds.php');
 function hashpass($password) {
   return crypt($password, '$2a$07$hyperagressive123jkasdfakrjtwkrjaskfjasdkfjaf$');
 }
 
 function get_con() {
-  $con = mysql_pconnect("sql.mit.edu","rcoh","rcoh");
-  mysql_select_db("rcoh+gradschool", $con);
+  $con = mysql_pconnect(constant("db_url"),constant("db_user"),constant("db_pass"));
+  mysql_select_db(constant("db_name"), $con);
   if (!$con)
   {
     die('Could not connect: ' . mysql_error());
