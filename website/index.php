@@ -82,7 +82,7 @@ $num_schools = mysql_num_rows($schools);
    unset($_SESSION['msg']); 
 } ?>
         <div class="container">
-            <div class="hero-unit" style="text-align:center; background-color:white; margin:20px; padding:30px 30px 50px 30px;">
+            <div class="hero-unit" style="text-align:center; background-color:white; margin:20px; padding:30px 30px 40px 30px;">
 
 <h1>re:<span style="font-weight:normal;">search</span></h1>
 <p>find professors who share your research interests.</p>
@@ -96,7 +96,7 @@ $num_schools = mysql_num_rows($schools);
                             <input class="xlarge" id="search" name="q" size="30" type="text" style="color:black;"/>&nbsp;<input type="submit" class="btn primary" value="Go">
                 </form>
             </div>
-<div style="height:80px"></div>
+<div style="height:70px"></div>
             <div style="min-width:940px;">
                 <div class="row">
                     <div class="span-one-third">
