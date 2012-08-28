@@ -23,6 +23,10 @@ function query_or_die($query, $con) {
   } 
 }
 
+function link_to_search_on($keyword) {
+  return sprintf('<a href="search.php?q=%s">%s</a>', $keyword, $keyword);
+}
+
 function go($loc) {
   header("Location: " . $loc);
 }
