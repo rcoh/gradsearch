@@ -91,7 +91,8 @@ function process_search_term($search_term) {
   $terms = explode(",", $search_term);
   $result_string = '';
   foreach($terms as $term) {
-    $result_string .= '\"' . $term . '\" ';
+    $result_string .= '\"' . 
+      mysql_real_escape_string($term) . '\" ';
   }
   return trim($result_string);
 }
