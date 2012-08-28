@@ -1,7 +1,7 @@
 <?php 
 if(isset($_GET['q'])) {
   echo 'researching ';
-  echo "<strong>" . $_GET['q'] . "</strong>";
+  echo "<strong>" . htmlspecialchars($_GET['q']) . "</strong>";
 }
 $params = array("school" => "at", "department" => "in");
 foreach($params as $param => $delim) {

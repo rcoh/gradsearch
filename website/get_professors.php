@@ -51,7 +51,6 @@ $star = ob_get_contents();
 ob_end_clean();
 
 $description = $num_rows;
-$description_end = htmlspecialchars($description_end);
 if(isset($_GET['starred'])) {
   $description .= ' <strong>starred</strong>';
 }
