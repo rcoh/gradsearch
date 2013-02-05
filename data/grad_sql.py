@@ -78,13 +78,34 @@ class GradSql(object):
       return None
 
   def prof_id(self, name):
-    self.con.query('select id from prof where name=%s' % self.con.escape(name))
+    self.con.cursor('select id from prof where name=%s' % self.con.escape(name))
     result = self.con.use_result()
     row = result.fetch_row()
     if len(row):
       return row[0][0]
     else:
       return None
+
+  def get_all_keyword_ids(self):
+    cursor = self.con.cursor()
+    cursor.execute('select id from keywords')
+    return [x[0] for x in cursor.fetchall()]
+
+  def id_to_keyword(self):
+    cursor = self.con.cursor()
+    cursor.execute('select * from keywords')
+    keywords = cursor.fetchall()
+    res = {}
+    for (kid, keyword) in keywords:
+      res[kid] = keyword
+
+    return res
+
+
+  def get_keyword_map(self):
+    cursor = self.con.cursor()
+    cursor.execute('select * from keywordmap')
+    return [x[1:] for x in cursor.fetchall()]
 
   def row_if_exists(table, row_id):
     self.con.query('select id from %s where id=\'%s\'' % (table, row_id))
