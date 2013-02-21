@@ -23,6 +23,10 @@ function query_or_die($query, $con) {
   } 
 }
 
+function link_to_search_on($keyword) {
+  return sprintf('<a href="search.php?q=%s">%s</a>', $keyword, $keyword);
+}
+
 function go($loc) {
   header("Location: " . $loc);
 }
@@ -87,7 +91,8 @@ function process_search_term($search_term) {
   $terms = explode(",", $search_term);
   $result_string = '';
   foreach($terms as $term) {
-    $result_string .= '\"' . $term . '\" ';
+    $result_string .= '\"' . 
+      mysql_real_escape_string($term) . '\" ';
   }
   return trim($result_string);
 }

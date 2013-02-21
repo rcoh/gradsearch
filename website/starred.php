@@ -46,7 +46,7 @@
             <div style="float:left;" >
                 <ul id="saved_pills" class="pills">
                     <li id="starred">
-                        <a>Show All Starred Profs</a>
+                        <a href="search.php?starred=true">Show All Starred Profs</a>
                     </li>
                     <li id="saved">
                         <a>Show Starred Searches</a>

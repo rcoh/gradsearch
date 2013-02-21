@@ -59,6 +59,8 @@ if($num_rows == 1) {
 } else { 
   $description .= " professors " . $description_end; 
 }
+
+
 $ret = array("html" => $html, "description" => $description, "num_returned" => $num_returned, "search_star" => $star);
 echo json_encode($ret);
 ?>

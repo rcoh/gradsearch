@@ -44,16 +44,16 @@ $first = mysql_fetch_array($result);
 $num_results = mysql_num_rows($result);
 $num = 0;
 if ($first) {
-  echo $first['keyword'];
+  echo link_to_search_on($first['keyword']);
   if ($num_results <= 12){
     while ($interest = mysql_fetch_array($result)) {
-      echo ', ' . $interest['keyword'];
+      echo ', ' . link_to_search_on($interest['keyword']);
     }
   }
   else{
     while (($interest = mysql_fetch_array($result)) && ($num<12)) {
       if (strlen($interest['keyword']) > 4){
-        echo ', ' . $interest['keyword'];
+        echo ', ' . link_to_search_on($interest['keyword']);
         $num++;
       }
     }

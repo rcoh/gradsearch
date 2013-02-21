@@ -1,7 +1,6 @@
 <?php
-define("db_url", "url-to-reach-database");
-define("db_pass", "password-access-database");
-define("db_user", "database-user");
-define("db_name", "database-name");
+define("db_url", "sql.mit.edu");
+define("db_pass", "rcoh");
+define("db_user", "rcoh");
+define("db_name", "rcoh+gradschool");
 ?>
-

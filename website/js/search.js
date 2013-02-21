@@ -1,10 +1,17 @@
-$(window).bind("popstate", function(event) {
-    numProfs = 0; //RESET
+// Because chrome and firefox act differently.
+var popped = ('state' in window.history), initialURL = location.href
 
-    request_new_checkboxes();
-    reloadProfessors();
-    });
+$(window).bind("popstate", function(event) {
+  numProfs = 0; //RESET
+  var initialPop = !popped && location.href == initialURL
+  popped = true
+  if(!initialPop) {
+    loadContent();
+  }
+});
+
 $(document).ready(function() {
+    loadContent();
 
     $(document).bind('keyup', function ( e ) {
       if ( e.which == 37 ) {
@@ -28,23 +35,24 @@ $(document).ready(function() {
       $(this).hide();
       $(this).prev().show();
       return false;
-      });
+    });
 
     $('.gold_star').click(function(){
         $(this).hide();
         $(this).next().show();
         return false;
-        });
+    });
 
     $(".close").click(function() {
         $(this.parentElement).slideUp();
-        });
+    });
+
     $("li#starred").click(function() {
         window.history.pushState("some data", "Title", window.location.pathname + '?starred=true');
         numProfs = 0; //RESET
         reloadProfessors();
         request_new_checkboxes();
-        });
+    });
 });
 
 update_url = function(prof_id) {
@@ -63,8 +71,8 @@ update_url = function(prof_id) {
     window.history.pushState("whatever", "title", new_url);
   }
 }
-display_modal = function(this_modal_id, css_classes, callback){
 
+display_modal = function(this_modal_id, css_classes, callback){
   var modal = $("#m"+this_modal_id);
 
   if (modal.length==0 && (this_modal_id < 0 || this_modal_id >= numProfs)) {
@@ -73,9 +81,7 @@ display_modal = function(this_modal_id, css_classes, callback){
     if (callback){
       callback();
     }
-  }
-
-  else{
+  } else {
     var prof_id = $("#"+this_modal_id).attr("prof_id");
     if(css_classes.indexOf("current_modal") != -1) {
       update_url(prof_id);
@@ -87,31 +93,30 @@ display_modal = function(this_modal_id, css_classes, callback){
         dataType: "html",
         data: {'id':prof_id, 'modal_id':this_modal_id, 'classes':css_classes}, 
         success : function(result) {
-        $(document.body).append(result);
-        modal = $("#m"+this_modal_id);
-        $('#gray' + prof_id).click(function(){
-          $(this).hide();
-          $(this).prev().show();
-          setStar(true, $(this).attr('id').substring(4));
-          return false;
+          $(document.body).append(result);
+          modal = $("#m"+this_modal_id);
+          $('#gray' + prof_id).click(function(){
+            $(this).hide();
+            $(this).prev().show();
+            setStar(true, $(this).attr('id').substring(4));
+            return false;
           });
 
-        $('#gold' + prof_id).click(function(){
-          $(this).hide();
-          $(this).next().show();
-          setStar(false, $(this).attr('id').substring(4));
-          return false;
+          $('#gold' + prof_id).click(function(){
+            $(this).hide();
+            $(this).next().show();
+            setStar(false, $(this).attr('id').substring(4));
+            return false;
           });
-        modal.modal('show');
+
+          modal.modal('show');
         },
         error : function(result) {
                   alert('modal failed to load');
-                },
+        },
         complete : callback
       });
-}
-
-else{
+} else {
   modal.addClass(css_classes);
   modal.modal('show');
   if (callback){
@@ -215,6 +220,7 @@ hide_modals = function(){
   $('.modal-header').show();
   window.history.back();
 }
+
 request_new_checkboxes = function() {
   data_str = window.location.search.replace('?', '');
   data_str = data_str.replace(/&{0,1}loaded_id=\d*/, '');
@@ -225,8 +231,8 @@ request_new_checkboxes = function() {
   data: data_str, 
   success : loadNewCheckboxes,
   error : function(data) {
-    alert('uhoh');
-    //TODO: show alert [lost connection to the server]
+    // TODO: better message, and not an alert
+    alert('uhoh: ' + data);
   }
   });
 }
@@ -241,6 +247,11 @@ loadNewCheckboxes = function(data) {
 
 destroy_modals = function() {
   $('.modal').remove();
+}
+
+loadContent = function() {
+  request_new_checkboxes();
+  reloadProfessors();
 }
 reloadProfessors = function() {
   destroy_modals();
@@ -267,6 +278,7 @@ function simulate_click(prof_id) {
     prof_box_wrap(prof_box);
   }
 }
+
 numProfs = 0;
 rowLimit = 50;
 blockLoading = false;
@@ -274,9 +286,9 @@ loadNewProfData = function(data) {
   $(document).ready(function() {
       blockLoading = true;
       if(numProfs == 0) {
-      $('.prof_grid').html(data['html']);
+        $('.prof_grid').html(data['html']);
       } else {
-      $('.prof_grid').append(data['html']);
+        $('.prof_grid').append(data['html']);
       }
       numProfs += data['num_returned'];
       $('span#search_description').html(data['description']);
@@ -285,22 +297,22 @@ loadNewProfData = function(data) {
         $(this).hide();
         $(this).prev().show();
         if($(this).hasClass('search_star')) {
-        searchStar(true);
+          searchStar(true);
         } else {
-        setStar(true, $(this).attr('id'));
+          setStar(true, $(this).attr('id'));
         }
-        return false;
+          return false;
         });
 
       $('.gold_star').click(function(){
           $(this).hide();
           $(this).next().show();
           if($(this).hasClass('search_star')) {
-          searchStar(false);
+            searchStar(false);
           } else {
-          setStar(false, $(this).attr('id'));
+            setStar(false, $(this).attr('id'));
           }
-          return false;
+            return false;
           });
 
       if(data['num_returned'] == rowLimit) {
@@ -311,12 +323,12 @@ loadNewProfData = function(data) {
   });
   $(window).scroll(function() {
       if($(window).scrollTop()+$(window).height() + 300 > $('.prof_content').height()) {
-      if(!blockLoading) {
-      blockLoading = true;
-      reloadProfessors();
+        if(!blockLoading) {
+          blockLoading = true;
+          reloadProfessors();
       }
-      }
-      });
+    }
+  });
 }
 
 setStar = function(state, id) { 
