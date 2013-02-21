@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "About to run a git pull on the remote host. Are you sure?"
 read yn 
 if [ $yn == "y" ]
