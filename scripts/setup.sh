@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Welcome to the Gradsearch Env Setup Script\n"
 echo "Is this a: dev box (1) or a deployment (2) [enter 1 or 2]"
 read deploy_type
