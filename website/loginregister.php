@@ -39,8 +39,8 @@ if(isset($_POST['pass']) && isset($_POST['email'])) {
         <!-- styles -->
         <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
         <link rel="stylesheet" href="my_css.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.2/jquery-ui.min.js"></script>
         <script src="js/register.js"></script>
         <!-- Le fav and touch icons ??? -->
         <link rel="shortcut icon" href="images/favicon.ico">

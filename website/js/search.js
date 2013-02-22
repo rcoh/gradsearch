@@ -25,11 +25,11 @@ $(document).ready(function() {
       }
       });
 
-    $(".prof_modal_next").on("click", modal_slide_next);
-    $(".prof_modal_prev").on("click", modal_slide_prev);
+    $(".prof_modal_next").live("click", modal_slide_next);
+    $(".prof_modal_prev").live("click", modal_slide_prev);
 
     $(".prof_box").click(prof_box_click);
-    $('.prof_modal').on('hide', hide_modals);
+    $('.prof_modal').live('hide', hide_modals);
 
     $('.gray_star').click(function(){
       $(this).hide();
